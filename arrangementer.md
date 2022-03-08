@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: arrangementer
+title: Arrangementer
 ---
+
 <h1>{{ page.title }}</h1>
 
-{{ content }}
 {%- include events.html -%}
-
-
-</div>
