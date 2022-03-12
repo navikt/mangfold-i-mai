@@ -2,3 +2,33 @@ body {
     font-family: 'Montserrat', serif;
 }
 
+h1.colorful {
+    background-color: #f3ec78;
+    background-image: linear-gradient(60deg, #c00000, #ff6600, #999900, #004000);
+    background-size: 100%;
+    position: relative;
+    padding-bottom: .4em;
+
+
+    & > span:first-child {
+        font-weight: 700;
+        font-size: 5em;
+        letter-spacing: -.025em;
+        position: relative;
+        color: #fff;
+
+        span {
+            color: transparent;
+            background: url("/mangfold-i-mai/assets/images/person.svg") .04em .4em / .6em no-repeat;
+        }
+    }
+
+    & > span:last-child {
+        font-weight: 100;
+        position: absolute;
+        left: 16.8em;
+        bottom: .4em;
+        color: #fff;
+    }
+}
+
