@@ -1,0 +1,61 @@
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    td {
+        width: 100%;
+        display: table-row;
+        padding: 0 0 2rem;
+    }
+
+    .date {
+        font-size: 3em;
+        color: #c00000;
+        font-weight: 100;
+        border-bottom: 2px solid #c00000;
+    }
+
+
+    li {
+        display: flex;
+        flex-flow: row nowrap;
+        margin: .25em 0 .5em;
+    }
+
+    time {
+        margin-right: .5em;
+        flex-shrink: 0;
+    }
+
+    time, .date span {
+        width: 3.5rem;
+        display: inline-block;
+        text-align: right;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+
+}
+
+
+@media only screen and (min-width: $break) {
+
+    .schedule {
+
+        td {
+            display: table-cell;
+            width: 20%;
+            vertical-align: top;
+        }
+    }
+
+
+}
+
+
