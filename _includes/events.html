@@ -1,14 +1,5 @@
-
 <ul>
-{% for page in site.pages %}
-{% if page.categories contains 'event' %}
-<li>
-    <a href="{{ page.url }}">
-        {{ page.title }}
-    </a>
-    <p>{{page.description}}</p>
-</li>
-{% endif %}
-{% endfor %}
-
+    {% for event in site.events %}
+        <li><a href="{{ event.url  | relative_url }}">{{ event.title }}</a></li>
+    {% endfor %}
 </ul>

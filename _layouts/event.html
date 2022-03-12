@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{% include page-header.html %}
+
+<dl>
+
+    <dt>Dato og tidspunkt:</dt>
+    <dd>{{ page.date }} kl. {{ page.time }}</dd>
+
+    <dt>Lokasjon:</dt>
+    <dd>{{ page.location }}</dd>
+
+</dl>
+
+{{ content }}
+
+{% include speaker.html %}

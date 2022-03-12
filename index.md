@@ -1,6 +1,5 @@
 ---
-layout: home
+layout: home 
+title: Mangfold i mai - velkommen!
 ---
-
-- hele programmet, målgruppe og påmeldings-/streamingslenke per arrangement.
-- en mulighet for å filtrere etter rolle / målgruppe
+Denne er forsiden.

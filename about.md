@@ -1,7 +1,10 @@
 ---
 layout: page
+permalink: om/
+categories: menu
 title: Om Mangfold i mai
 ---
+Denne siden sier litt om eventet.
 
 «Mangfold i mai» er en arrangement-serie i mai rundt mangfold, inkludering og universell utforming; gjennomført delvis digitalt og delvis fysisk i Direktoratet i Fyrstikkalléen.
 

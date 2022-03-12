@@ -1,0 +1,5 @@
+<ul>
+    {% for speaker in site.speakers %}
+        <li><a href="{{ speaker.url  | relative_url }}">{{ speaker.name }}</a></li>
+    {% endfor %}
+</ul>

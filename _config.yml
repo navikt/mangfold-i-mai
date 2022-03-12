@@ -25,21 +25,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/mangfold-i-mai" # the subpath of your site, e.g. /blog
 url: "https://navikt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-categories: [event]
+categories: [event, speaker]
 
-header_pages:
-  - name: om.md
-    title: Om serien
-    url: /om-mangfold-i-mai
-  - name: arrangementer.md
-    title: Arrangementer
-    url: /arrangementer
+collections:
+  events:
+    output: true
+  speakers:
+     output: true
 
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -49,12 +44,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+   - Gemfile
+   - Gemfile.lock
+   - .idea/
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
