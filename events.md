@@ -1,8 +1,7 @@
 ---
 layout: events
 title: Arrangementer
-permalink: arrangementer/
+permalink: events/
 categories: menu
-
 ---
 Denne er siden som lister opp alle arrangementene.

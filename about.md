@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: om/
+permalink: about/
 categories: menu
 title: Om Mangfold i mai
 ---

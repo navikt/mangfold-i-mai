@@ -5,11 +5,19 @@ layout: default
 
 <dl>
 
-    <dt>Dato og tidspunkt:</dt>
-    <dd>{{ page.date }} kl. {{ page.time }}</dd>
+    <dt>Dato</dt>
+    <dd>{% include localized-date.html %}</dd>
 
-    <dt>Lokasjon:</dt>
+    <dt>Tid</dt>
+    <dd>{{ page.event-date | date: "%R"}}</dd>
+
+    <dt>Sted:</dt>
     <dd>{{ page.location }}</dd>
+
+    <dt>Foredragsholder:</dt>
+    <dd>{{ page.speaker }}</dd>
+
+
 
 </dl>
 
