@@ -9,13 +9,13 @@ layout: default
     <dd>{% include localized-date.html %}</dd>
 
     <dt>Tid</dt>
-    <dd>{{ page.event-date | date: "%R"}}</dd>
+    <dd>{{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}</dd>
 
     <dt>Sted:</dt>
     <dd>{{ page.location }}</dd>
 
     <dt>Foredragsholder:</dt>
-    <dd>{{ page.speaker }}</dd>
+    <dd><a href="">{{ page.speaker }}</a></dd>
 
 
 
