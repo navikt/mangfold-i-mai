@@ -1,0 +1,18 @@
+<td>
+    <div class="date"><span>{{ include.date }}</span></div>
+
+    <ul>
+        {% for event in site.events %}
+        {% assign event-date = event.event-date | date: "%d" %}
+        {% if include.date == event-date %}
+
+        <li>
+            <time>{{event.event-date | date: "%R"}}</time>
+            <a href="{{ event.url  | relative_url }}">{{ event.title }}</a>
+        </li>
+
+        {% endif %}
+        {% endfor %}
+
+    </ul>
+</td>
