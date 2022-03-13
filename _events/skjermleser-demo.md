@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Skjermleser demo
-speaker: Morten Tollefsen
+speakers: Morten Tollefsen
 event-date: 2022-05-31T12:00
 event-date-end: 2022-05-31T14:00
 ---

@@ -14,13 +14,29 @@ layout: default
     <dt>Sted:</dt>
     <dd>{{ page.location }}</dd>
 
-    <dt>Foredragsholder:</dt>
-    <dd><a href="">{{ page.speaker }}</a></dd>
 
+    <dt>
+        {% if page.speakers.size > 1 %}
+            Foredragsholdere:
+        {% else %}
+            Foredragsholder:
+        {% endif %}
+    </dt>
 
+    {% for speaker in page.speakers %}
+        {% for site-speaker in site.speakers %}
+            {% if site-speaker.name == speaker %}
+                <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
 
 </dl>
 
 {{ content }}
 
-{% include speaker.html %}
+
+
+
+
+
