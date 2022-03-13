@@ -18,4 +18,10 @@ main {
     flex-grow: 1;
 }
 
-
+.narrow {
+    main, .wrapper {
+        max-width: 40em;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}

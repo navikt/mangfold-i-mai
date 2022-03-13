@@ -1,48 +1,34 @@
-h1.colorful {
-    background-color: #c00000;
-    background-image: linear-gradient(60deg, #c00000, #ff6600, #999900, #004000);
-    background-size: 100%;
-    position: relative;
-    margin: 0;
-    padding: .5rem 1rem;
-
-    .mangfold {
-        font-weight: 700;
-        font-size: 1.5em;
-        line-height: 1.2;
-        letter-spacing: -.025em;
+.home {
+    h1 {
         position: relative;
-        color: #fff;
-
-        span {
-            color: transparent;
-            background: url("images/person.svg") .04em .4em / .6em no-repeat;
-        }
+        margin: 0;
+        padding: .5rem 1rem;
     }
 
-    .i-mai {
-        font-weight: 100;
-        font-size: .75em;
-        color: #fff;
+    .wrapper {
+        max-width: 40em;
+        margin: 0 1rem;
     }
 }
 
 @media only screen and (min-width: $break) {
+    .home {
+        h1 {
+            padding: 0 1rem .4em 1rem;
 
-    h1.colorful {
-        padding: 0 1rem .4em 1rem;
+            .logo {
+                .mangfold {
+                    font-size: 5em;
+                }
 
-        .mangfold {
-            font-size: 5em;
+                .i-mai {
+                    position: absolute;
+                    left: 16.77em;
+                    bottom: -.2em;
+                    font-size: unset;
+                }
+            }
         }
 
-        & > span:last-child {
-            position: absolute;
-            left: 17.27em;
-            bottom: .2em;
-            font-size: unset;
-        }
     }
-
-
 }

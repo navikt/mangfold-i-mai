@@ -3,6 +3,11 @@ layout: default
 ---
 {% include page-header.html %}
 
+<div class="wrapper">
+
+
+
+
 <dl>
 
     <dt>Dato</dt>
@@ -16,7 +21,10 @@ layout: default
 
 
     <dt>
-        {% if page.speakers.size > 1 %}
+
+        {{page.speakers.count}}
+
+        {% if page.speakers[1] %}
             Foredragsholdere:
         {% else %}
             Foredragsholder:
@@ -35,8 +43,4 @@ layout: default
 
 {{ content }}
 
-
-
-
-
-
+</div>

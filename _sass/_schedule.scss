@@ -4,8 +4,7 @@
     border-spacing: 0;
 
     td {
-        width: 100%;
-        display: table-row;
+        display: block;
         padding: 0 0 2rem;
     }
 
@@ -16,11 +15,10 @@
         border-bottom: 2px solid #c00000;
     }
 
-
     li {
         display: flex;
         flex-flow: row nowrap;
-        margin: .25em 0 .5em;
+        margin: .25em 1rem .5em 0;
     }
 
     time {
@@ -29,9 +27,10 @@
     }
 
     time, .date span {
-        width: 3.5rem;
+        width: 5rem;
         display: inline-block;
         text-align: right;
+        padding-left: 1rem;
     }
 
     ul {
@@ -44,11 +43,14 @@
 @media only screen and (min-width: $break) {
 
     .schedule {
-
         td {
             display: table-cell;
             width: 20%;
             vertical-align: top;
+        }
+
+        li {
+            margin-right: 0;
         }
     }
 }

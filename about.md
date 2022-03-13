@@ -3,9 +3,8 @@ layout: page
 permalink: about/
 categories: menu
 title: Om Mangfold i mai
+menu-title: Om begivenheten
 ---
-Denne siden sier litt om eventet.
-
 «Mangfold i mai» er en arrangement-serie i mai rundt mangfold, inkludering og universell utforming; gjennomført delvis digitalt og delvis fysisk i Direktoratet i Fyrstikkalléen.
 
 Initiativet er startet av Fagmiljøet for Inkluderende design og universell utforming i Designseksjonen / NAV IT, med Hjelpemiddelområdet som viktigste samarbeidspartner.

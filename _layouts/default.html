@@ -3,19 +3,15 @@
 
 {% include head.html %}
 
-<body>
+<body class="narrow">
 
-    {% if page.layout != "home" %}{% include site-header.html %}{% endif %}
+    {% include site-header.html %}
+
     <main>
         {{ content }}
     </main>
+
     {% include footer.html %}
 
-
 </body>
-
 </html>
-
-
-
-
