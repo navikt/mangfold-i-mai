@@ -10,7 +10,6 @@ event-date-end: 2022-05-04T15:00
 Aksel er navnet på NAVs verktøykasse. 
 På denne adressen bor blant annet designsystemet og god praksis. 
 
-https://design.nav.no/
-
+[AKSEL] (https://design.nav.no/)
 
 Sarah Brodwall og Kari Anne R. Andersen kommer til å dele hvordan Team Aksel jobber med universell utforming i designsystemet. 
