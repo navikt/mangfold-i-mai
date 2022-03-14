@@ -12,4 +12,4 @@ På denne adressen bor blant annet designsystemet og god praksis.
 
 [AKSEL](https://design.nav.no/)
 
-Sarah Brodwall og Kari Anne R. Andersen kommer til å dele hvordan Team Aksel jobber med universell utforming i designsystemet. 
+I dette webinaret vil Sarah Brodwall og Kari Anne R. Andersen dele hvordan Team Aksel jobber med universell utforming i designsystemet. 
