@@ -6,7 +6,7 @@ event-date: 2022-05-04T13:00
 event-date-end: 2022-05-04T15:00
 ---
 
-# Åpent hus og du er invitert!
+## Åpent hus og du er invitert!
 Aksel er navnet på NAVs verktøykasse. 
 På denne adressen bor blant annet designsystemet og god praksis. 
 
