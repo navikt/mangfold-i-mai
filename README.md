@@ -11,12 +11,13 @@ Legg til en foredragsholder ved å velge "Add file > Create new file" i [speaker
 
 Så langt er det støtte for følgende informasjon:
 - **name:** navnet til foredragsholder
-- **image:** bilde (som lastes opp til [/assets/images/speakers/](https://github.com/navikt/mangfold-i-mai/tree/main/assets/images/speakers)). 
+- **image:** bilde (som lastes opp til [/assets/images/speakers/](https://github.com/navikt/mangfold-i-mai/tree/main/assets/images/speakers))
 - Litt info om foredragsholderen på en ny linje etter `---`.  Bruk markdown for å formattere teksten.
 
 ## Foredragssidene
-Legg til en foredrag ved å velge "Add file > Create new file" i [events-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_events). Navngi filen med foredragsholderens navn, separert med bindestrekk, f.eks. [aria-basics.md](https://github.com/navikt/mangfold-i-mai/blob/main/_speakers/aria-basics.md). 
-Legg gjerne inn en foredragsholderside, om denne  ikke allerede eksisterer.
+Legg til en foredrag ved å velge "Add file > Create new file" i [events-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_events). Navngi filen med foredragets tittel, separert med bindestrekk, f.eks. [aria-basics.md](https://github.com/navikt/mangfold-i-mai/blob/main/_speakers/aria-basics.md). 
+
+Legg gjerne inn til en side til foredragsholderen, om ikke denne allerede eksisterer.
 
 På foredragssidene kan du legge inn følgende informasjon:
 - **title:** navnet til foredraget.
@@ -25,8 +26,8 @@ På foredragssidene kan du legge inn følgende informasjon:
 - **event-date-end:** starttidspunktet i ISO 8601-format
 - **privacy:** om eventet er åpent for alle eller ei.  
 - **demographic:** målgruppa for eventet.  
-- **signup:** påmeldingslenka.
-- **stream**: lenka til streamen.   
+- **signup:** påmeldingslenka
+- **stream**: lenka til streamen
 - Beskrivelse av arrangementet, på en ny linje etter `---`.  Bruk markdown for å formattere teksten.
 
 ### Språk
