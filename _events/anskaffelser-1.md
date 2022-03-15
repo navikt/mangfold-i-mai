@@ -1,6 +1,6 @@
 ---
 layout: event
-title: UU i anskaffelser - hvordan få det til i praksis? (strømmes)
+title: UU i anskaffelser - hvordan få det til i praksis?
 speakers: Sigbjørn Råsberg fra UU-tilsynet
 event-date: 2022-05-06T10:00
 event-date-end: 2022-05-06T11:00
