@@ -1,50 +1,46 @@
 ---
 layout: default
 ---
-<div class="wrapper">
 
-    {% include page-header.html %}
+{% include page-header.html %}
 
-    <dl>
-        <dt>Dato</dt>
-        <dd>{% include localized-date.html %}</dd>
+<dl>
+    <dt>Dato</dt>
+    <dd>{% include localized-date.html %}</dd>
 
-        <dt>Tid</dt>
-        <dd>{{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}</dd>
+    <dt>Tid</dt>
+    <dd>{{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}</dd>
 
-        <dt>Sted:</dt>
-        <dd>{{ page.location }}</dd>
+    <dt>Sted:</dt>
+    <dd>{{ page.location }}</dd>
 
 
-        <dt>
+    <dt>
 
-            {{page.speakers.count}}
+        {{page.speakers.count}}
 
-            {% if page.speakers[1] %}
-            Foredragsholdere:
-            {% else %}
-            Foredragsholder:
-            {% endif %}
-        </dt>
-
-        {% for speaker in page.speakers %}
-        {% for site-speaker in site.speakers %}
-        {% if site-speaker.name == speaker %}
-        <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
+        {% if page.speakers[1] %}
+        Foredragsholdere:
+        {% else %}
+        Foredragsholder:
         {% endif %}
-        {% endfor %}
-        {% endfor %}
+    </dt>
 
-    </dl>
+    {% for speaker in page.speakers %}
+    {% for site-speaker in site.speakers %}
+    {% if site-speaker.name == speaker %}
+    <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+
+</dl>
+
+{% if page.language %}
+<div lang="{{page.language}}">{% endif %}
+
+    {{ content }}
 
     {% if page.language %}
-    <div lang="{{page.language}}">{% endif %}
-
-        {{ content }}
-
-        {% if page.language %}
-    </div>
-    {% endif %}
-
-
 </div>
+{% endif %}

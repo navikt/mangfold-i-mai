@@ -19,7 +19,7 @@ main {
 }
 
 .narrow {
-    main, .wrapper {
+    .wrapper {
         margin: 0 auto;
         padding: 0 1rem;
     }
@@ -27,9 +27,8 @@ main {
 
 @media only screen and (min-width: $break) {
     .narrow {
-        main, .wrapper {
-            margin: 0 auto;
-            padding: 0 1rem;
+        .wrapper {
+            max-width: 40rem;
         }
     }
 }
