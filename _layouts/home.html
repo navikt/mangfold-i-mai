@@ -4,16 +4,13 @@
 {% include head.html %}
 
 <body class="{{ page.layout}}">
+<a id="skip" href="#content">Hopp til innholdet.</a>
 
-<main>
+<main id="content">
+
     <div class="colorful">
-
-        <h1>
-            {% include logo.html %}
-        </h1>
-
+        <h1 class="logo">Mangfold i mai</h1>
     </div>
-
 
     <div class="wrapper">
         {{ content }}

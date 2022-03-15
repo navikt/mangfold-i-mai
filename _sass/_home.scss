@@ -1,34 +1,14 @@
 .home {
-    h1 {
-        position: relative;
-        margin: 0;
-        padding: .5rem 1rem;
-    }
-
     .wrapper {
-        max-width: 40em;
         margin: 0 1rem;
     }
 }
 
 @media only screen and (min-width: $break) {
     .home {
-        h1 {
-            padding: 0 1rem .4em 1rem;
-
-            .logo {
-                .mangfold {
-                    font-size: 5em;
-                }
-
-                .i-mai {
-                    position: absolute;
-                    left: 16.77em;
-                    bottom: -.2em;
-                    font-size: unset;
-                }
-            }
+        .logo {
+            padding-top: 4em;
+            background-image:  url("images/logo-large.svg");
         }
-
     }
 }

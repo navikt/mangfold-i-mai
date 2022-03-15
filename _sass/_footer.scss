@@ -4,12 +4,8 @@
     background-size: 100% 1em;
     background-repeat: no-repeat;
 
-    .wrapper {
-        max-width: 40em;
-    }
-
     .title {
-        font-weight: 800;
+        font-weight: 700;
     }
 
     ul {
@@ -31,10 +27,8 @@
             background-repeat: no-repeat;
             background-size: contain;
             vertical-align: text-top;
-
         }
     }
-
 
     .email::before {
         background-image: url("images/email.svg");
