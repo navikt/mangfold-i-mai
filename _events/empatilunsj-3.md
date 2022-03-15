@@ -2,8 +2,8 @@
 layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
-event-date: 2022-05-02T10:30
-event-date-end: 2022-05-02T12:00
+event-date: 2022-05-10T10:30
+event-date-end: 2022-05-10T12:00
 ---
 ## Hva handler det her om?
 Fokus: Gå fra en vag idé om hva universell utforming (UU) er, til en varig innsikt i hva funksjonstap og UU innebærer i praksis.
