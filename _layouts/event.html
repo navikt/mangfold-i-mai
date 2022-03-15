@@ -41,6 +41,11 @@ layout: default
 
 </dl>
 
-{{ content }}
+{% if page.language == "en" %}<div lang="en">{% endif %}
+
+    {{ content }}
+
+{% if page.language == "en" %}</div>{% endif %}
+
 
 </div>
