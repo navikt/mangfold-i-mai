@@ -7,18 +7,29 @@ __Den er en "work in progress" og er ikke klar for publisering ennå.__  Den er 
 Du kan derimot begynne å legge inn innhold.  
 
 ## Foredragsholder-sidene
-Legg til en foredragsholder ved å velge "Add file > Create new file" i [speakers-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_speakers).
+Legg til en foredragsholder ved å velge "Add file > Create new file" i [speakers-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_speakers).  Navngi filen med foredragsholderens navn, separert med bindestrekk, f.eks. [sarah-brodwall.md](https://github.com/navikt/mangfold-i-mai/blob/main/_speakers/sarah-brodwall.md).  
 
 Så langt er det støtte for følgende informasjon:
-- Navnet til foredragsholder
-- Bilde (lastes opp til /assets/images/speakers/)
-- Biografi
+- **name:** navnet til foredragsholder
+- **image:** bilde (som lastes opp til [/assets/images/speakers/](https://github.com/navikt/mangfold-i-mai/tree/main/assets/images/speakers)). 
+- Litt info om foredragsholderen på en ny linje etter `---`.  Bruk markdown for å formattere teksten.
 
 ## Foredragssidene
-Legg til en foredrag ved å velge "Add file > Create new file" i [events-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_events). 
+Legg til en foredrag ved å velge "Add file > Create new file" i [events-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_events). Navngi filen med foredragsholderens navn, separert med bindestrekk, f.eks. [aria-basics.md](https://github.com/navikt/mangfold-i-mai/blob/main/_speakers/aria-basics.md). 
+Legg gjerne inn en foredragsholderside, om denne  ikke allerede eksisterer.
 
 På foredragssidene kan du legge inn følgende informasjon:
-- Navnet til foredraget
-- Foredragsholdere (komma-separert mellom [] om det er flere)
-- Start- og sluttidspunkt (i ISO 8601-format)
-- Beskrivelse av arrangementet
+- **title:** navnet til foredraget.
+- **speakers:** foredragsholdere.  Ved flere foredragsholdere kan du liste disse separert med kommaer mellom square brackets.  Se kildekoden til [Hjemme hos Aksel](https://github.com/navikt/mangfold-i-mai/edit/main/_events/Hjemme%20hos%20Aksel.md) for å se hvordan dette fungerer.
+- **event-date:** starttidspunktet i ISO 8601-format
+- **event-date-end:** starttidspunktet i ISO 8601-format
+- **privacy:** om eventet er åpent for alle eller ei.  
+- **demographic:** målgruppa for eventet.  
+- **signup:** påmeldingslenka.
+- **stream**: lenka til streamen.   
+- Beskrivelse av arrangementet, på en ny linje etter `---`.  Bruk markdown for å formattere teksten.
+
+### Språk
+Foredragssidene tilbyr en meget basic form for internasjonalisering av deler av innholdet.  Dette skal brukes når selve foredraget er i et annet språk.  
+
+Om du vil at sidens `h1` og beskrivelse skal være på et annet språk, legg til `language: xx` i sidens egenskaper, der `xx` er [ISO 639-koden](https://www.tutorialrepublic.com/html-reference/html-language-codes.php) til innholdets språk.  [Kildekoden til siden om UD-day](https://github.com/navikt/mangfold-i-mai/edit/main/_events/ud-day.md) viser hvordan dette funker for en foredrag som skal holdes på engelsk.     

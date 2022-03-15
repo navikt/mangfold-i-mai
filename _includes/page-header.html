@@ -1,1 +1,1 @@
-<h1{% if page.language == "en" %} lang="en"{% endif %}>{{ page.title }}</h1>
+<h1{% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
