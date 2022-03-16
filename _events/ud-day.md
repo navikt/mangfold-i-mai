@@ -1,7 +1,7 @@
 ---
 language: en
 layout: event
-title: Universal Design day
+title: Universal Design Day
 speakers: Anthony Giannoumis
 event-date: 2022-05-24T09:45
 event-date-end: 2022-05-24T14:00
