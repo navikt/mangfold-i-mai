@@ -17,4 +17,4 @@ In this interactive workshop, Eric Eggert teaches the ins and outs, the ups and 
 Developers / Kurset er til deg som jobber med frontend-kode.
 
 ## Registration
-Coming soon. Limited number of participants.
+Coming soon - Limited number of participants.
