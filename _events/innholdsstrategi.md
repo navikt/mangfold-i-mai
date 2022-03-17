@@ -2,8 +2,11 @@
 layout: event
 title: NAVs innholdsstrategi
 speakers: Tuva Sverdstad
+location: Teams
+privacy: external
 event-date: 2022-05-11T10:00
 event-date-end: 2022-05-11T10:30
+demographic: Folk som jobber med innhold
 ---
 ## Hva handler det her om?
 Hvordan skal NAV gi folk innhold de kan finne, forstå og få til? Hvordan kan vi gjøre innholdet vårt tilgjengelig, relevant og inkluderende, også for folk som verken er jurister eller saksbehandlere?
