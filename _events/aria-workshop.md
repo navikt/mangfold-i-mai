@@ -7,11 +7,11 @@ event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
 ---
 
-## Hva handler kurset om?
+## What is this workshop about?
 In this interactive workshop, Eric Eggert teaches the ins and outs, the ups and downs of ARIA live regions, when to use them and when they are not needed as well as best practices for implementing them in different situations like single page applications, for form validation, and other use cases.
 
-## Hvem er kurset for?
+## Who is it for?
 Developers / Kurset er til deg som jobber med frontend-kode.
 
-## Påmelding
-kommer. Begrenset deltakerantall.
+## Registration
+Coming soon. Limited number of participants.
