@@ -2,7 +2,7 @@
 language: en
 layout: event
 title: We’re ARIA Live!
-speakers: [Eric Eggert]
+speakers: Eric Eggert
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
 ---
