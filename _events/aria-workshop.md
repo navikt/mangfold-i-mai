@@ -1,7 +1,7 @@
 ---
 language: en
 layout: event
-title: We’re ARIA Live!
+title: "We’re ARIA Live!"
 speakers: Eric Eggert
 location: FYA
 privacy: internal
