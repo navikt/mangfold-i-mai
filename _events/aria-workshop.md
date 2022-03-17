@@ -3,8 +3,11 @@ language: en
 layout: event
 title: We’re ARIA Live!
 speakers: Eric Eggert
+location: FYA
+privacy: internal
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
+demographic: Folk som jobber med frontend-kode
 ---
 
 ## What is this workshop about?
