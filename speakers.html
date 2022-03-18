@@ -1,0 +1,30 @@
+---
+layout: default
+title: Foredragsholdere
+permalink: speakers/
+categories: menu
+menu-title: Foredragsholdere
+---
+{% include page-header.html %}
+
+<ul>
+
+    {% assign speakers = site.speakers %}
+
+    {% for speaker in speakers %}
+
+
+    <li>
+
+        <a href="{{ speaker.url  | relative_url }}">
+            {{ speaker.name }}
+        </a>
+
+
+    </li>
+
+
+    {% endfor %}
+
+</ul>
+
