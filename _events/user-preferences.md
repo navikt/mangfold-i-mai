@@ -5,8 +5,8 @@ title: "Respecting User Preferences on the Web"
 speakers: Eric Eggert
 location: Teams meeting
 privacy: internal
-event-date: 2022-05-03T10:00
-event-date-end: 2022-05-03T11:30
+event-date: 2022-05-13T08:30
+event-date-end: 2022-15-03T09:15
 demographic: Folk som jobber med frontend-kode; Folk som jobber med design
 ---
 
