@@ -9,5 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>
+        {% if page.title %}{{ page.title }} -{% endif %}
+        {% if page.layout == "date" %}
+            {% include localized-date.html %} -
+        {% endif %}
+        {{ site.title }}
+    </title>
 </head>

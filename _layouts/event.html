@@ -9,27 +9,30 @@ layout: default
     <dd>{% include localized-date.html %}</dd>
 
     <dt>Tid</dt>
-    <dd>{{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}</dd>
+    <dd>
+        {% assign hour = page.event-date | date: "%H" %}
+        {% if hour == "00" %}
+            Hele dagen
+        {% else %}
+            {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
+        {% endif %}
+    </dd>
 
-    <dt>Sted:</dt>
+    <dt>Sted</dt>
     <dd>{{ page.location }}</dd>
 
-
     <dt>
-
-        {{page.speakers.count}}
-
         {% if page.speakers[1] %}
-        Foredragsholdere:
+            Foredragsholdere
         {% else %}
-        Foredragsholder:
+            Foredragsholder
         {% endif %}
     </dt>
 
     {% for speaker in page.speakers %}
     {% for site-speaker in site.speakers %}
     {% if site-speaker.name == speaker %}
-    <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
+        <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
     {% endif %}
     {% endfor %}
     {% endfor %}

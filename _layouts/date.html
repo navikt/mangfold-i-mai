@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<h1>{% include localized-date.html%}</h1>
+{% if page.theme %}
+    <em>{{page.theme}}</em>
+{% endif %}
+
+{{ content }}
+
+<h2>Dagens arrangementer</h2>
+
+<ul>
+
+    {% assign events = site.events | sort: 'event-date' %}
+
+    {% for event in events %}
+    {% assign event-date = event.event-date | date: "%d" %}
+    {% assign this-date = page.event-date | date: "%d" %}
+    {% if this-date == event-date %}
+
+    <li>
+
+        {% assign hour = event.event-date | date: "%H" %}
+        {% if hour == "00" %}
+
+        <div>
+            {% if event.layout %}
+            <a href="{{ event.url  | relative_url }}">
+                {{ event.title }}
+            </a>
+            {% else %}
+            {{ event.title }}
+            {% endif %}
+        </div>
+        {% else %}
+
+        <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time>
+        <a href="{{ event.url  | relative_url }}">{{ event.title }}</a>
+
+        {% endif %}
+
+    </li>
+
+    {% endif %}
+    {% endfor %}
+
+</ul>

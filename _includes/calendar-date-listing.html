@@ -1,5 +1,22 @@
 <td>
-    <div class="date"><span>{{ include.date }}</span></div>
+    {% assign dates = site.dates %}
+    {% for day in dates %}
+    {% assign day-date = day.event-date | date: "%d" %}
+
+    {% if day-date == include.date %}
+
+
+
+    <div class="date"><span><a href="{{ day.url  | relative_url }}">
+        {{ day-date }}
+    </a></span></div>
+
+
+    {% endif %}
+    {% endfor %}
+
+
+
 
     <ul>
 
@@ -10,8 +27,26 @@
         {% if include.date == event-date %}
 
         <li>
-            <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time>
-            <a href="{{ event.url  | relative_url }}">{{ event.title }}</a>
+
+            {% assign hour = event.event-date | date: "%H" %}
+            {% if hour == "00" %}
+
+                <div>
+                    {% if event.layout %}
+                    <a href="{{ event.url  | relative_url }}">
+                        {{ event.title }}
+                    </a>
+                    {% else %}
+                    {{ event.title }}
+                    {% endif %}
+                </div>
+            {% else %}
+
+                <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time>
+                <a href="{{ event.url  | relative_url }}">{{ event.title }}</a>
+
+            {% endif %}
+
         </li>
 
         {% endif %}

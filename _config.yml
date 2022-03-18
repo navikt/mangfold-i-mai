@@ -32,7 +32,8 @@ collections:
     output: true
   speakers:
      output: true
-
+  dates:
+    output: true
 
 
 
