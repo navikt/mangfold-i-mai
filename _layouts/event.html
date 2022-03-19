@@ -19,7 +19,11 @@ layout: default
     </dd>
 
     <dt>Sted</dt>
-    <dd>{{ page.location }}</dd>
+    <dd>
+        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}
+            {{ page.location-name }}
+        {% if page.location-link %}</a>{% endif%}
+    </dd>
 
     <dt>
         {% if page.speakers[1] %}
@@ -37,7 +41,18 @@ layout: default
     {% endfor %}
     {% endfor %}
 
+    <dt>Arrangementet er åpent for</dt>
+    <dd>
+        {% if page.privacy == internal %}
+            Alle NAV-ansatte
+        {% else %}
+            Alle
+        {% endif%}
+    </dd>
 </dl>
+{% if page.registration-link %}
+    <p class="registration-link"><a href="{{ page.registration-link }}">Meld deg på.</a></p>
+{% endif %}
 
 {% if page.language %}
 <div lang="{{page.language}}">{% endif %}

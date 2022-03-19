@@ -6,8 +6,8 @@ speakers: Sarah Brodwall
 privacy: internal
 location-type: stream
 location-name: Teams
-location-link:
-registration-link:
+location-link: http://test.link
+registration-link: http://test.link
 
 event-date: 2022-05-02T10:00
 event-date-end: 2022-05-02T11:00
