@@ -1,0 +1,50 @@
+#public:checked ~ section li:not(.public)  {
+    display: none;
+}
+
+#stream:checked ~ section li:not(.stream) {
+    display: none;
+}
+
+
+
+.events {
+
+    a {
+        text-decoration: none;
+    }
+
+    .date {
+        font-size: 3em;
+        color: #c00000;
+        font-weight: 100;
+        border-bottom: 2px solid #c00000;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        display: flex;
+        flex-flow: row nowrap;
+        margin: .5em 0;
+    }
+
+    .time {
+        width: 6.5em;
+        flex-shrink: 0;
+    }
+
+
+}
+
+@media only screen and (min-width: $break) {
+
+    .events {
+
+    }
+}

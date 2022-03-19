@@ -10,7 +10,7 @@ location-link:
 registration-link:
 
 event-date: 2022-05-09T09:00
-event-date-end: 2022-05-090930
+event-date-end: 2022-05-09T09:30
 ---
 ## Hva handler det her om?
 Beskrivelse

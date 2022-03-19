@@ -10,8 +10,8 @@ location-name:
 location-link:
 registration-link:
 
-event-date: 2022-05-13T08:30
-event-date-end: 2022-15-03T09:15
+event-date:     2022-05-13T08:30
+event-date-end: 2022-05-13T09:15
 ---
 
 ## What is this workshop about?
