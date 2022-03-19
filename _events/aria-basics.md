@@ -9,8 +9,8 @@ location-name: Teams
 location-link:
 registration-link:
 
-event-date: 2022-05-02T010:00
-event-date-end: 2022-05-02T011:00
+event-date: 2022-05-02T10:00
+event-date-end: 2022-05-02T11:00
 ---
 Du kanskje bruker ARIA i koden din, men vet du _egentlig_ hva du holder på med?
 

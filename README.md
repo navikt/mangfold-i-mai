@@ -22,13 +22,15 @@ Legg gjerne inn til en side til foredragsholderen, om ikke denne allerede eksist
 På foredragssidene kan du legge inn følgende informasjon:
 - **title:** navnet til foredraget.
 - **speakers:** foredragsholdere.  Ved flere foredragsholdere kan du liste disse separert med kommaer mellom square brackets.  Se kildekoden til [Hjemme hos Aksel](https://github.com/navikt/mangfold-i-mai/edit/main/_events/Hjemme%20hos%20Aksel.md) for å se hvordan dette fungerer.
-- **event-date:** starttidspunktet i ISO 8601-format
+- **privacy:** om eventet er åpent for alle eller ei ("internal", "external")
+- **location-type:** om eventet er streamet eller skjer fysisk ("in-person", "stream")
+- **location-name**: Lenketeksten til hvor eventet tar plass (fritekst, e.g. "Teams" eller "FYA1")
+- **location-link**: URLen til hvor eventet tar plass (fritekst, e.g. teams-lenke eller Google maps-lenke) 
+- **registration-link**: URLen til påmelding.
+- **event-date:** starttidspunktet i ISO 8601-format (e.g. 2022-05-02T14:00)
 - **event-date-end:** starttidspunktet i ISO 8601-format
-- **privacy:** om eventet er åpent for alle eller ei.  
-- **demographic:** målgruppa for eventet.  
-- **signup:** påmeldingslenka
-- **stream**: lenka til streamen
 - Beskrivelse av arrangementet, på en ny linje etter `---`.  Bruk markdown for å formattere teksten.
+
 
 ### Språk
 Foredragssidene tilbyr en meget basic form for internasjonalisering av deler av innholdet.  Dette skal brukes når selve foredraget er i et annet språk.  
