@@ -1,7 +1,14 @@
 ---
 layout: event
 title: UU i offentlige anskaffelser - hvordan få det til i praksis?
-speakers: Sigbjørn Råsberg fra UU-tilsynet
+speakers: Sigbjørn Råsberg
+
+privacy:
+location-type:
+location-name:
+location-link:
+registration-link:
+
 event-date: 2022-05-06T10:00
 event-date-end: 2022-05-06T11:00
 ---

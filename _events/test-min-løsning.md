@@ -1,7 +1,14 @@
 ---
 layout: event
 title: Test min løsning (brukertest med personer som bruker hjelpemidler)
-speakers: 
+speakers:
+
+privacy:
+location-type:
+location-name:
+location-link:
+registration-link:
+
 event-date: 2022-05-2006T10:00
 event-date-end: 2022-05-20T13:00
 ---

@@ -1,13 +1,18 @@
 ---
 language: en
+
 layout: event
 title: "We’re ARIA Live!"
 speakers: Eric Eggert
-location: Teams meeting
+
 privacy: internal
+location-type: stream
+location-name: Teams
+location-link:
+registration-link:
+
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
-demographic: Folk som jobber med frontend-kode
 ---
 
 ## What is this workshop about?

@@ -2,6 +2,13 @@
 layout: event
 title: Dragon speech recognition demo
 speakers: Daniel Scheidegger
+
+privacy:
+location-type:
+location-name:
+location-link:
+registration-link:
+
 event-date: 2022-05-13T11:30
 event-date-end: 2022-05-13T13:00
 ---

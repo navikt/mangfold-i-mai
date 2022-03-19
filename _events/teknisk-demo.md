@@ -2,6 +2,13 @@
 layout: event
 title: Teknisk demo - universell utforming i arbeidslivet
 speakers: Morten Tollefsen
+
+privacy:
+location-type:
+location-name:
+location-link:
+registration-link:
+
 event-date: 2022-05-03T12:00
 event-date-end: 2022-05-03T13:00
 ---

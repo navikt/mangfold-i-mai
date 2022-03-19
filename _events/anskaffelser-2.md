@@ -1,7 +1,14 @@
 ---
 layout: event
 title: UU i anskaffelser - workshop for bedre leverandøroppfølging
-speakers: 
+speakers: Sigbjørn Råsberg
+
+privacy:
+location-type:
+location-name:
+location-link:
+registration-link:
+
 event-date: 2022-05-06T12:00
 event-date-end: 2022-05-06T14:00
 ---

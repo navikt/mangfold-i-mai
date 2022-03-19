@@ -2,6 +2,13 @@
 layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
+
+privacy:
+location-type: in-person
+location-name:
+location-link:
+registration-link:
+
 event-date: 2022-05-10T10:30
 event-date-end: 2022-05-10T12:00
 ---

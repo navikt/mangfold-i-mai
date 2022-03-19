@@ -2,11 +2,15 @@
 layout: event
 title: Intro til ARIA
 speakers: Sarah Brodwall
-location: Teams
+
 privacy: internal
+location-type: stream
+location-name: Teams
+location-link:
+registration-link:
+
 event-date: 2022-05-02T010:00
 event-date-end: 2022-05-02T011:00
-demographic: Folk som jobber med frontend-kode
 ---
 Du kanskje bruker ARIA i koden din, men vet du _egentlig_ hva du holder på med?
 
