@@ -5,30 +5,10 @@
     <input id="stream" type="checkbox">
     <label for="stream">Vis bare arrangmeneter som streames.</label>
 
-    {% include calendar-date-listing.html date="02" %}
-    {% include calendar-date-listing.html date="03" %}
-    {% include calendar-date-listing.html date="04" %}
-    {% include calendar-date-listing.html date="05" %}
-    {% include calendar-date-listing.html date="06" %}
+    {% assign dates = site.dates | sort: 'event-date' %}
+    {% for day in dates  %}
+    {% assign day-number = day.event-date | date: "%d" %}
+        {% include event-list.html date=day-number %}
+    {% endfor %}
 
-    {% include calendar-date-listing.html date="09" %}
-    {% include calendar-date-listing.html date="10" %}
-    {% include calendar-date-listing.html date="11" %}
-    {% include calendar-date-listing.html date="12" %}
-    {% include calendar-date-listing.html date="13" %}
-
-    {% include calendar-date-listing.html date="16" %}
-    {% include calendar-date-listing.html date="17" %}
-    {% include calendar-date-listing.html date="18" %}
-    {% include calendar-date-listing.html date="19" %}
-    {% include calendar-date-listing.html date="20" %}
-
-    {% include calendar-date-listing.html date="23" %}
-    {% include calendar-date-listing.html date="24" %}
-    {% include calendar-date-listing.html date="25" %}
-    {% include calendar-date-listing.html date="26" %}
-    {% include calendar-date-listing.html date="27" %}
-
-    {% include calendar-date-listing.html date="30" %}
-    {% include calendar-date-listing.html date="31" %}
 </div>
