@@ -22,7 +22,7 @@ Legg gjerne inn til en side til foredragsholderen, om ikke denne allerede eksist
 På foredragssidene kan du legge inn følgende informasjon:
 - **title:** navnet til foredraget.
 - **speakers:** foredragsholdere.  Ved flere foredragsholdere kan du liste disse separert med kommaer mellom square brackets.  Se kildekoden til [Hjemme hos Aksel](https://github.com/navikt/mangfold-i-mai/edit/main/_events/Hjemme%20hos%20Aksel.md) for å se hvordan dette fungerer.
-- **privacy:** om eventet er åpent for alle eller ei ("internal", "external")
+- **privacy:** om eventet er åpent for alle eller ei ("internal", "public")
 - **location-type:** om eventet er streamet eller skjer fysisk ("in-person", "stream")
 - **location-name**: Lenketeksten til hvor eventet tar plass (fritekst, e.g. "Teams" eller "FYA1")
 - **location-link**: URLen til hvor eventet tar plass (fritekst, e.g. teams-lenke eller Google maps-lenke) 

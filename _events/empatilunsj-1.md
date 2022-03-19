@@ -3,7 +3,7 @@ layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
 
-privacy:
+privacy: internal
 location-type: in-person
 location-name:
 location-link:

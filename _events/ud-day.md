@@ -4,8 +4,8 @@ layout: event
 title: Universal Design Day
 speakers: Anthony Giannoumis
 
-privacy:
-location-type:
+privacy: public
+location-type: stream
 location-name:
 location-link:
 registration-link:

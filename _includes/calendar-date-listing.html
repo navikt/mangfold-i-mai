@@ -1,32 +1,29 @@
-<td>
+
     {% assign dates = site.dates %}
     {% for day in dates %}
     {% assign day-date = day.event-date | date: "%d" %}
-
     {% if day-date == include.date %}
 
+        <h3 class="date">
+            <a href="{{ day.url  | relative_url }}">
+                {{ day-date }}
 
-
-    <div class="date"><span><a href="{{ day.url  | relative_url }}">
-        {{ day-date }}
-    </a></span></div>
-
+                {% if day.theme %}- {{ day.theme }}{% endif %}
+            </a>
+        </h3>
 
     {% endif %}
     {% endfor %}
 
 
-
-
     <ul>
 
         {% assign events = site.events | sort: 'event-date' %}
-
         {% for event in events %}
         {% assign event-date = event.event-date | date: "%d" %}
         {% if include.date == event-date %}
 
-        <li>
+        <li class="{{event.privacy}} {{event.location-type}}">
 
             {% assign hour = event.event-date | date: "%H" %}
             {% if hour == "00" %}
@@ -53,4 +50,3 @@
         {% endfor %}
 
     </ul>
-</td>

@@ -1,3 +1,14 @@
+#public:checked ~ ul li:not(.public)  {
+    display: none;
+}
+
+#stream:checked ~ ul li:not(.stream) {
+    display: none;
+}
+
+
+
+
 .schedule {
     width: 100%;
     border-collapse: collapse;
