@@ -1,9 +1,9 @@
 ---
 layout: event
 title: Kjønn og språkbruk
-speakers: Rosa kompetanse
+speakers: 
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
