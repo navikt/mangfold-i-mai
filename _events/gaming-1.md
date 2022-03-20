@@ -3,7 +3,7 @@ layout: event
 title: Gaming og inkludering
 speakers: 
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
