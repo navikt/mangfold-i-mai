@@ -5,7 +5,7 @@ layout: event
 title: Accessibility, Design and Usability Review in a Combined Toolchain (Facebook / Meta)
 speakers: Accessibility team at Facebook / Meta
 
-privacy:
+privacy: public
 location-type: stream
 location-name: Teams
 location-link:
