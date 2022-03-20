@@ -3,7 +3,7 @@ layout: event
 title: "Faglunsj: Universell utforming i arbeidslivet"
 speakers: Morten Tollefsen
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
