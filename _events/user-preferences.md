@@ -4,7 +4,7 @@ layout: event
 title: "Respecting User Preferences on the Web"
 speakers: Eric Eggert
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
