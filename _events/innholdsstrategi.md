@@ -3,7 +3,7 @@ layout: event
 title: NAVs innholdsstrategi
 speakers: Tuva Sverdstad
 
-privacy:
+privacy: public
 location-type: stream
 location-name: Teams
 location-link:
