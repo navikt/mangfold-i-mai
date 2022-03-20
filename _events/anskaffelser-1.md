@@ -3,7 +3,7 @@ layout: event
 title: UU i offentlige anskaffelser - hvordan få det til i praksis?
 speakers: Sigbjørn Råsberg
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
