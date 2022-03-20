@@ -3,7 +3,7 @@ layout: event
 title: Kjønnsdelte hjelpemidler
 speakers: Annette Solberg
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
