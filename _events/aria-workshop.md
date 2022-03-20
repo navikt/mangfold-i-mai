@@ -5,7 +5,7 @@ layout: event
 title: "We’re ARIA Live!"
 speakers: Eric Eggert
 
-privacy: internal
+privacy: 
 location-type: stream
 location-name: Teams
 location-link:
