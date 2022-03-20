@@ -3,7 +3,7 @@ layout: event
 title: Hvordan kan man tilrettelegge for inkluderende gaming?
 speakers: Frank Lunde
 
-privacy:
+privacy: public
 location-type:
 location-name:
 location-link:
