@@ -1,14 +1,71 @@
-<div class="events" aria-live="polite" aria-relevant="all">
-    <input id="public" type="checkbox">
-    <label for="public">Vis bare arrangementer åpent for alle.</label>
-    <br>
-    <input id="stream" type="checkbox">
-    <label for="stream">Vis bare arrangmeneter som streames.</label>
+{% comment %} Feel free to re-write this in a sensible manner!{% endcomment %}
 
-    {% assign dates = site.dates | sort: 'event-date' %}
-    {% for day in dates  %}
-    {% assign day-number = day.event-date | date: "%d" %}
-        {% include event-list.html date=day-number %}
+{% assign number-of-events = 0 %}
+{% assign events = site.events | sort: 'event-date' %}
+{% for event in events %}
+    {% assign event-date = event.event-date | date: "%d" %}
+    {% if include.date == event-date %}
+        {% assign number-of-events = number-of-events | plus:1 %}
+    {% endif %}
+{% endfor %}
+
+{% if number-of-events > 0 %}
+
+<section>
+
+    {% assign dates = site.dates %}
+    {% for day in dates %}
+        {% assign day-date = day.event-date | date: "%d" %}
+        {% if day-date == include.date %}
+
+            <h3 class="date">
+                <a href="{{ day.url  | relative_url }}">
+                    {{ day-date }}
+                    {% if day.theme %}- {{ day.theme }}{% endif %}
+                </a>
+            </h3>
+        {% endif %}
     {% endfor %}
 
-</div>
+    <ul>
+        {% for event in events %}
+        {% assign event-date = event.event-date | date: "%d" %}
+        {% if include.date == event-date %}
+
+        <li class="{{event.privacy}} {{event.location-type}}">
+            {% assign hour = event.event-date | date: "%H" %}
+            {% if hour == "00" %}
+            <div>
+                {% if event.layout %}
+                <a href="{{ event.url  | relative_url }}">
+                    {{ event.title }}
+                </a>
+                {% else %}
+                {{ event.title }}
+                {% endif %}
+            </div>
+            {% else %}
+            <span class="time">
+                    <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time> -
+                    <time>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</time>
+                </span>
+
+            <a href="{{ event.url  | relative_url }}">{{ event.title }}</a>
+            {% endif %}
+
+        </li>
+
+        {% endif %}
+        {% endfor %}
+
+    </ul>
+</section>
+
+
+
+
+
+
+
+
+{% endif %}

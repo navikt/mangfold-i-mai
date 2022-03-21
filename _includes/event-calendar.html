@@ -1,0 +1,42 @@
+<div class="events" aria-live="polite" aria-relevant="all">
+    <input id="public" type="checkbox">
+    <label for="public">Vis bare arrangementer åpent for alle.</label>
+    <br>
+    <input id="stream" type="checkbox">
+    <label for="stream">Vis bare arrangmeneter som streames.</label>
+    <table role="presentation">
+        <tr>
+            {% include events.html date=2 view=calendar %}
+            {% include events.html date=3 view=calendar %}
+            {% include events.html date=4 view=calendar %}
+            {% include events.html date=5 view=calendar %}
+            {% include events.html date=6 view=calendar %}
+        </tr>
+        <tr>
+            {% include events.html date=9 view=calendar %}
+            {% include events.html date=10 view=calendar %}
+            {% include events.html date=11 view=calendar %}
+            {% include events.html date=12 view=calendar %}
+            {% include events.html date=13 view=calendar %}
+        </tr>
+        <tr>
+            {% include events.html date=16 view=calendar %}
+            {% include events.html date=17 view=calendar %}
+            {% include events.html date=18 view=calendar %}
+            {% include events.html date=19 view=calendar %}
+            {% include events.html date=20 view=calendar %}
+        </tr>
+        <tr>
+            {% include events.html date=23 view=calendar %}
+            {% include events.html date=24 view=calendar %}
+            {% include events.html date=25 view=calendar %}
+            {% include events.html date=26 view=calendar %}
+            {% include events.html date=27 view=calendar %}
+        </tr>
+        <tr>
+            {% include events.html date=30 view=calendar %}
+            {% include events.html date=31 view=calendar %}
+            <td colspan="3"></td>
+        </tr>
+    </table>
+</div>
