@@ -1,4 +1,4 @@
-#public:checked ~ section li:not(.public)  {
+#public:checked ~ section li:not(.public) {
     display: none;
 }
 
@@ -7,38 +7,89 @@
 }
 
 
-
 .events {
 
     a {
         text-decoration: none;
     }
 
-    .date {
-        font-size: 3em;
-        color: #c00000;
-        font-weight: 100;
-        border-bottom: 2px solid #c00000;
-        margin-bottom: 1rem;
-    }
+    &.list {
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
+        section {
+            outline: 1px solid #c00000;
+            margin: 1rem;
+        }
 
-    li {
-        display: flex;
-        flex-flow: row nowrap;
-        margin: .5em 0;
-    }
+        .day-header {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: stretch;
+            border-bottom: 1px solid #c00000;
+        }
 
-    .time {
-        width: 6.5em;
-        flex-shrink: 0;
-    }
+        .date {
+            background: #ff6600;
+            margin: 0;
+            line-height: 1.2;
 
+            a {
+                background: #c00000;
+                font-size: 2em;
+                font-weight: 100;
+                color: #fff;
+                text-align: center;
+                width: 7rem;
+                height: 7rem;
+                padding: .25em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                span {
+                    display: block;
+                }
+
+            }
+        }
+
+
+        .theme {
+            padding: 0 1rem;
+            font-size: 1.5em;
+        }
+
+        .weekday {
+            font-size: .4em;
+            display: block;
+            padding-top: .5em;
+        }
+
+
+        ul {
+            list-style-type: none;
+            padding: 1rem 0;
+            margin: 0;
+        }
+
+        li {
+            display: flex;
+            flex-flow: row nowrap;
+            margin: .5em 0;
+        }
+
+        .time {
+            width: 7rem;
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .title {
+            margin: 0 1rem;
+        }
+
+
+    }
 
 }
 

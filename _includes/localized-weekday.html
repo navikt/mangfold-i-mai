@@ -1,0 +1,10 @@
+{% assign d = include.weekday %}
+{% case d %}
+    {% when 'Monday' %}mandag
+    {% when 'Tuesday' %}tirsdag
+    {% when 'Wednesday' %}onsdag
+    {% when 'Thursday' %}torsdag
+    {% when 'Friday' %}fredag
+    {% when 'Saturday' %}lørdag
+    {% when 'Sunday' %}søndag
+{% endcase %}
