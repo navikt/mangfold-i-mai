@@ -14,66 +14,6 @@ main, footer {
     }
 }
 
-#skip {
-    position: absolute;
-    background: maroon;
-    color: white;
-    text-decoration: none;
-    top: 0;
-    padding: .5em 1em;
-    transform: translateY(-100%);
-    transition: transform .25s;
-    z-index: 100;
-}
-
-.colorful {
-    padding: 1em;
-    background-image: linear-gradient(-60deg, #a30a0a, #996600, #888800, #004000);
-    background-size: 100%;
-}
-
-.logo {
-    height: 0;
-    padding-top: 2em;
-    width: 13.15em;
-    margin: 0;
-    overflow: hidden;
-    background: left top / contain no-repeat url("images/logo-small.svg");
-}
-
-#skip:focus {
-    transform: translateY(0%);
-}
-
-.site-header {
-    .wrapper {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .logo {
-        width: 13.15em;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    li {
-        display: inline-block;
-        padding: .75em 1em 0.25em 0;
-    }
-
-    a {
-        color: #fff;
-    }
-
-}
-
 dl {
     margin-bottom: 1.5em;
 }

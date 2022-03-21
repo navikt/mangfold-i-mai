@@ -1,13 +1,15 @@
 <article class="events list" aria-live="polite" aria-relevant="all">
-    <h2>Sjekk ut hva vi har planlagt!</h2>
-    <input id="public" type="checkbox">
-    <label for="public">Vis bare arrangementer åpent for alle.</label>
-    <br>
-    <input id="stream" type="checkbox">
-    <label for="stream">Vis bare arrangmeneter som streames.</label>
+    <header>
+        <h2>Hva har vi planlagt?</h2>
+        <input id="public" type="checkbox">
+        <label for="public">Vis bare arrangementer åpent for alle.</label>
+        <br>
+        <input id="stream" type="checkbox">
+        <label for="stream">Vis bare arrangmeneter som streames.</label>
+    </header>
 
     {% assign dates = site.dates | sort: 'event-date' %}
-    {% for day in dates  %}
+    {% for day in dates %}
         {% assign day-number = day.event-date | date: "%d" %}
         {% include events.html date=day-number view=list %}
     {% endfor %}
