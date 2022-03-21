@@ -23,7 +23,7 @@
                 <a href="{{ day.url  | relative_url }}">
                     <span>
                         <span class="day-number">
-                            {{ day.event-date | date: "%-d" }}.
+                            {{ day.event-date | date: "%-d" }}
                         </span>
                         <span class="weekday">
                             {% include localized-weekday.html weekday=event-weekday %}
@@ -41,35 +41,35 @@
 
     <ul class="schedule">
         {% for event in events %}
-        {% assign event-date = event.event-date | date: "%d" %}
-        {% if include.date == event-date %}
+            {% assign event-date = event.event-date | date: "%d" %}
+            {% if include.date == event-date %}
 
-        <li class="{{event.privacy}} {{event.location-type}}">
-            {% assign hour = event.event-date | date: "%H" %}
-            {% if hour == "00" %}
-            <div>
-                {% if event.layout %}
-                <a href="{{ event.url  | relative_url }}">
-                    {{ event.title }}
-                </a>
+            <li class="{{event.privacy}} {{event.location-type}}">
+                {% assign hour = event.event-date | date: "%H" %}
+                {% if hour == "00" %}
+                <div>
+                    {% if event.layout %}
+                        <a href="{{ event.url  | relative_url }}">
+                            {{ event.title }}
+                        </a>
+                    {% else %}
+                        {{ event.title }}
+                    {% endif %}
+                </div>
                 {% else %}
-                {{ event.title }}
+                    <span class="time">
+                        <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time> -
+                        <time>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</time>
+                    </span>
+
+                    <a class="title" href="{{ event.url  | relative_url }}">
+                       {{ event.title }}
+                    </a>
                 {% endif %}
-            </div>
-            {% else %}
-                <span class="time">
-                    <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time> -
-                    <time>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</time>
-                </span>
 
-                <a class="title" href="{{ event.url  | relative_url }}">
-                   {{ event.title }}
-                </a>
+            </li>
+
             {% endif %}
-
-        </li>
-
-        {% endif %}
         {% endfor %}
 
     </ul>

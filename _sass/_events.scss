@@ -9,15 +9,14 @@
 
 .events {
 
-    a {
-        text-decoration: none;
+    header {
+        margin: 1rem;
     }
 
     &.list {
 
         section {
-            outline: 1px solid #c00000;
-            margin: 1rem;
+            margin: 1rem 0;
         }
 
         .day-header {
@@ -25,26 +24,33 @@
             flex-flow: row nowrap;
             align-items: center;
             justify-content: stretch;
-            border-bottom: 1px solid #c00000;
+            border-top: 1px solid #c00000;
+            line-height: 1.2;
+            margin: 2rem 0 1rem;
         }
 
         .date {
-            background: #ff6600;
             margin: 0;
-            line-height: 1.2;
+            background: #c00000;
+            align-self: stretch;
 
             a {
-                background: #c00000;
-                font-size: 2em;
+                font-size: 1.5em;
                 font-weight: 100;
                 color: #fff;
                 text-align: center;
-                width: 7rem;
-                height: 7rem;
                 padding: .25em;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                width: 4rem;
+                height: 4rem;
+                text-decoration: none;
+
+                &:focus {
+                    outline: 0;
+                    border: 3px dotted white;
+                }
 
                 span {
                     display: block;
@@ -53,49 +59,88 @@
             }
         }
 
-
         .theme {
             padding: 0 1rem;
-            font-size: 1.5em;
+            font-size: 1.25em;
+            font-weight: 400;
         }
 
         .weekday {
             font-size: .4em;
             display: block;
-            padding-top: .5em;
         }
 
-
-        ul {
+        .schedule {
             list-style-type: none;
-            padding: 1rem 0;
-            margin: 0;
+            margin: 1rem;
+            padding: 0;
         }
 
         li {
-            display: flex;
-            flex-flow: row nowrap;
-            margin: .5em 0;
+            margin: .75em 0;
+
+            > * {
+                display: block;
+            }
         }
-
-        .time {
-            width: 7rem;
-            text-align: right;
-            flex-shrink: 0;
-        }
-
-        .title {
-            margin: 0 1rem;
-        }
-
-
     }
+}
+
+@media only screen and (min-width: $break1) {
+    .events {
+
+        &.list {
+
+            section {
+                border: 1px solid #c00000;
+                margin: 1rem;
+            }
+
+            .day-header {
+                border-top: 0;
+                margin: 0;
+            }
+
+            .date {
+
+                a {
+                    font-size: 2em;
+                    width: 7rem;
+                    height: 5rem;
+                }
+            }
+
+            .theme {
+                font-size: 1.5em;
+            }
+
+            .schedule {
+                margin: 0;
+            }
+
+            li {
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            .time {
+                width: 7rem;
+                text-align: right;
+                flex-shrink: 0;
+            }
+
+            .title {
+                margin: 0 1rem;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: $break2) {
 
 }
 
-@media only screen and (min-width: $break) {
+@media only screen and (min-width: $break3) {
 
-    .events {
-
-    }
 }
