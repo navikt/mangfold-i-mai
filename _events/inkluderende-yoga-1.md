@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Inkluderende yoga - foredrag
+title: Inkluderende yoga - Foredrag og yoga-session
 speakers: Line Frizon
 summary:
 
@@ -11,7 +11,7 @@ location-link:
 registration-link:
 
 event-date: 2022-05-09T08:15
-event-date-end: 2022-05-09T09:00
+event-date-end: 2022-05-09T09:30
 ---
 ## Hva handler det her om?
 Beskrivelse
