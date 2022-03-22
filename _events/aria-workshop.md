@@ -2,7 +2,7 @@
 language: en
 
 layout: event
-title: "We’re ARIA Live!"
+title: "Workshop: We’re ARIA Live!"
 speakers: Eric Eggert
 summary:
 
