@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurs: Nettleser-plugins for å teste på universell utforming"
+title: "Kurspreview: Nettleser-plugins for å teste på universell utforming"
 speakers: Eilif Johansen
 summary:
 
