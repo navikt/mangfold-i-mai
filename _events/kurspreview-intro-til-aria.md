@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Intro til ARIA"
+title: "Intro til ARIA"
 speakers: Sarah Brodwall
 summary:
 
