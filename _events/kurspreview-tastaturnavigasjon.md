@@ -1,10 +1,10 @@
 ---
 layout: event
-title: Tastaturnavigasjon 
+title: "Kurspreview: Tastaturnavigasjon for utviklere" 
 speakers: Sarah Brodwall
 summary: 
 
-privacy: 
+privacy: external
 location-type: stream
 location-name: Teams
 location-link:
@@ -18,3 +18,6 @@ Beskrivelse
 
 ## Dette foredraget er for deg som
 jobber med frontend-kode
+
+## Hva er et kurspreview?
+"Tastaturnavigasjon" blir en del av uu-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  

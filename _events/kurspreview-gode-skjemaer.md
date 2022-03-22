@@ -1,10 +1,10 @@
 ---
 layout: event
-title: Hvordan lage gode skjemaer
+title: "Kurspreview: Gode skjemaer"
 speakers: Sarah Brodwall
 summary:
 
-privacy: internal
+privacy: external
 location-type: stream
 location-name: Teams
 location-link:
@@ -18,3 +18,6 @@ Beskrivelse kommer
 
 ## Dette kurset er for deg som
 - jobber med produktutvikling
+
+## Hva er et kurspreview?
+"Gode skjemaer" blir en del av uu-teamets kurskatalog. Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
