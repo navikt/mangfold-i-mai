@@ -7,7 +7,7 @@ speakers: Accessibility team at Facebook / Meta
 
 privacy: public
 location-type: stream
-location-name: Teams
+location-name: Zoom
 location-link:
 registration-link:
 
