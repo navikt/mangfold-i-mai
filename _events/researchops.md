@@ -10,8 +10,8 @@ location-name:
 location-link:
 registration-link:
 
-event-date: 2022-05-02T10:30
-event-date-end: 2022-05-02T12:00
+event-date: 2022-05-25T09:00
+event-date-end: 2022-05-25T09:30
 ---
 ## Hva handler det her om?
 Team ResearchOps i NAV har som mål å gjøre hverdagen enklere for produktteamene, slik at de kan gjennomføre brukerinnsiktsarbeid oftere, 
