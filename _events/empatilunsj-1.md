@@ -2,6 +2,7 @@
 layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
+summery: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
 privacy: internal
 location-type: in-person
