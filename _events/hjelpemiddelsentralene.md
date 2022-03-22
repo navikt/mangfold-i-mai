@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Åpen dag hos Hjelpemiddelsentralene over hele landet
-speakers: 
+speakers:
+summary:
 
 privacy:
 location-type: in-person

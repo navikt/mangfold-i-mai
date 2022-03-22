@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Kjønn og språkbruk
-speakers: 
+speakers:
+summary:
 
 privacy: public
 location-type:

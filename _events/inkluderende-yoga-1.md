@@ -2,6 +2,7 @@
 layout: event
 title: Inkluderende yoga - foredrag
 speakers: Line Frizon
+summary:
 
 privacy: public
 location-type: stream

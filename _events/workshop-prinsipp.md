@@ -2,6 +2,7 @@
 layout: event
 title: Workshop rundt design-prinsippet "Jeg blir inkludert"
 speakers: Eidar Vollan
+summary: 
 
 privacy: 
 location-type: in-person

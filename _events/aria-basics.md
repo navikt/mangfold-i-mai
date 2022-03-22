@@ -2,6 +2,7 @@
 layout: event
 title: Intro til ARIA
 speakers: Sarah Brodwall
+summary:
 
 privacy: internal
 location-type: stream

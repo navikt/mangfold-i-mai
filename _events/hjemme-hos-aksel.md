@@ -2,6 +2,7 @@
 layout: event
 title: Hjemme hos Aksel
 speakers: [Sarah Brodwall, Kari Anne Reitan Andersen]
+summary:
 
 privacy: open
 location-type: stream

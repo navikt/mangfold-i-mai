@@ -2,6 +2,7 @@
 layout: event
 title: Dragon speech recognition demo
 speakers: Daniel Scheidegger
+summary:
 
 privacy:
 location-type:

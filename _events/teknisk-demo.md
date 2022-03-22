@@ -2,6 +2,7 @@
 layout: event
 title: Teknisk demo - universell utforming i arbeidslivet
 speakers: Morten Tollefsen
+summary:
 
 privacy:
 location-type: stream

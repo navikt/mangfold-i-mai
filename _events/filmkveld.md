@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Filmkveld med synstolket film
-speakers: 
+speakers:
+summary:
 
 privacy: 
 location-type: in-person

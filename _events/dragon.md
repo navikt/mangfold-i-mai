@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Dragon speech recognition
-speakers: 
+speakers:
+summary:
 
 privacy:
 location-type:

@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Gaming og inkludering
-speakers: 
+speakers:
+summary:
 
 privacy: public
 location-type:

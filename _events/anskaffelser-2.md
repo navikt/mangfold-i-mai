@@ -2,6 +2,7 @@
 layout: event
 title: UU i anskaffelser - workshop for bedre leverandøroppfølging
 speakers: Sigbjørn Råsberg
+summary:
 
 privacy:
 location-type:

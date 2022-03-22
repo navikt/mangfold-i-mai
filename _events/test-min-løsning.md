@@ -2,6 +2,7 @@
 layout: event
 title: Test min løsning (brukertest med personer som bruker hjelpemidler)
 speakers:
+summary:
 
 privacy:
 location-type:

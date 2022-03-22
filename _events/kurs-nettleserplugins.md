@@ -2,6 +2,7 @@
 layout: event
 title: "Kurs: Nettleser-plugins for å teste på universell utforming"
 speakers: Eilif Johansen
+summary:
 
 privacy: public
 location-type: Teams

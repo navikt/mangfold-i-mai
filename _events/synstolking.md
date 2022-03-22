@@ -2,6 +2,7 @@
 layout: event
 title: Synstolking
 speakers: MediaLT
+summary:
 
 privacy: public
 location-type:

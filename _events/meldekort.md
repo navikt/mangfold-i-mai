@@ -2,6 +2,7 @@
 layout: event
 title: Inkluderende tjenestedesign og meldekort
 speakers: Miriam Begnum
+summary:
 
 privacy:
 location-type:

@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Inkluderende gaming arcade
-speakers: 
+speakers:
+summary:
 
 privacy:
 location-type:

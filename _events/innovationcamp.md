@@ -2,6 +2,7 @@
 layout: event
 title: Innovation Camp
 speakers: [Digital Inclusion, OsloMet, DogA]
+summary:
 
 privacy: public
 location-type:

@@ -2,6 +2,7 @@
 layout: event
 title: Hvordan lage gode skjemaer
 speakers: Sarah Brodwall
+summary:
 
 privacy: internal
 location-type: stream

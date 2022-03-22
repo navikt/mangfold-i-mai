@@ -1,7 +1,8 @@
 ---
 layout: event
 title: Global Day of Accessibility Awareness (GAAD)
-speakers: 
+speakers:
+summary:
 
 privacy: public
 location-type: in-person

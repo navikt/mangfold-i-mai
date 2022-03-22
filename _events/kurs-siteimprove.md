@@ -2,6 +2,7 @@
 layout: event
 title: "Kurs: Hvordan sjekke og tracke universell utforming i Siteimprove"
 speakers: Eilif Johansen
+summary:
 
 privacy: public
 location-type: Teams

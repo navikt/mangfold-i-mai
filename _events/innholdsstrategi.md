@@ -2,6 +2,7 @@
 layout: event
 title: NAVs innholdsstrategi
 speakers: Tuva Sverdstad
+summary:
 
 privacy: public
 location-type: stream
