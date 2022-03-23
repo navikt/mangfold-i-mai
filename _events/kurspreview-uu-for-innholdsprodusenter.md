@@ -11,7 +11,7 @@ location-link:
 registration-link:
 
 event-date: 2022-05-18T13:00
-event-date-end: 2022-05-18T13:45
+event-date-end: 2022-05-18T13:50
 ---
 ## Hva handler det her om?
 Beskrivelse
