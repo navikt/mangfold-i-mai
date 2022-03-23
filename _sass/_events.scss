@@ -29,14 +29,14 @@
             flex-flow: row nowrap;
             align-items: center;
             justify-content: stretch;
-            border-top: 1px solid #c00000;
+            border-top: 1px solid #c30000;
             line-height: 1.2;
             margin: 2rem 0 1rem;
         }
 
         .date {
             margin: 0;
-            background: #c00000;
+            background: #c30000;
             align-self: stretch;
 
             a {
@@ -97,7 +97,7 @@
         &.list {
 
             section {
-                border: 1px solid #c00000;
+                border: 1px solid #c30000;
                 margin: 1rem;
             }
 
