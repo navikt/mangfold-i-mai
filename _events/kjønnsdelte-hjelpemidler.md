@@ -9,7 +9,7 @@ location-name:
 location-link:
 registration-link:
 event-date: 2022-05-12T10:00
-event-date-end: 2022-05-12T11:00
+event-date-end: 2022-05-12T10:30
 ---
 ## Hva handler det her om?
 Finnes utilsiktede skjevheter og ulikheter basert på kjønn, alder og bosted ved tildeling av hjelpemidler?
