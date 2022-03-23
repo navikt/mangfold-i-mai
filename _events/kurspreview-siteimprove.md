@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurs: Hvordan sjekke og tracke universell utforming i Siteimprove"
+title: "Kurspreview: Hvordan sjekke og tracke universell utforming i Siteimprove"
 speakers: Eilif Johansen
 summary:
 
