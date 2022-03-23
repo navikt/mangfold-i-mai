@@ -1,6 +1,6 @@
 ---
 layout: speaker
-name: Line Frizon
+name: Line Fritzon
 image: line.jpg
 ---
 Line Fritzon er yogalærer, lærer, vernepleier og Marte meo terapeut.  Hun er sosial entreprenør og driver firmaet Inkluderende yoga Norge, hvor hun underviser Tilgjengelig yoga for mennesker med ulike behov for tilrettelegging. Line har lang erfaring med å undervise og veilede mennesker med ulike funksjonsvariasjoner som bl.a.; utviklingshemming, autismespekterforstyrrelser, fysiske funksjonshemminger, multifunksjonshemming, ervervet døv-blidhet, psykisk sykdom, demens og aldring. 
