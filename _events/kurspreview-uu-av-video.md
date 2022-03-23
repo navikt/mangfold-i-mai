@@ -1,20 +1,18 @@
 ---
 layout: event
-title: Dragon speech recognition
-speakers:
+title: "Kurspreview: Universell utforming av video"
+speakers: Morten Tollefsen
 summary:
-
 privacy: public
 location-type:
 location-name:
 location-link:
-
 registration-link:
-event-date: 2022-05-13T09:30
-event-date-end: 2022-05-13T10:00
+event-date: 2022-05-10T14:00
+event-date-end: 2022-05-10T15:0
 ---
 ## Hva handler det her om?
-Beskrivelse kommer. 
+Beskrivelse kommer
 
 ## Dette foredraget er for deg som
-...
+... 
