@@ -3,13 +3,11 @@ layout: event
 title: Åpen dag hos Hjelpemiddelsentralene over hele landet
 speakers:
 summary:
-
 privacy:
 location-type: in-person
 location-name:
 location-link:
 registration-link:
-
 event-date: 2022-05-13T09:00
 event-date-end: 2022-05-13T12:00
 ---

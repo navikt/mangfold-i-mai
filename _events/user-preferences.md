@@ -5,13 +5,11 @@ layout: event
 title: "Respecting User Preferences on the Web"
 speakers: Eric Eggert
 summary:
-
 privacy: public
 location-type:
 location-name:
 location-link:
 registration-link:
-
 event-date:     2022-05-13T08:30
 event-date-end: 2022-05-13T09:15
 ---

@@ -3,13 +3,11 @@ layout: event
 title: UU i anskaffelser - workshop for bedre leverandøroppfølging
 speakers: Sigbjørn Råsberg
 summary:
-
 privacy: internal
 location-type: in-person
 location-name: FYA
 location-link:
 registration-link:
-
 event-date: 2022-05-06T12:00
 event-date-end: 2022-05-06T15:00
 ---

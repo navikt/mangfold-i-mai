@@ -3,13 +3,11 @@ layout: event
 title: NAVs innholdsstrategi
 speakers: Tuva Sverdstad
 summary:
-
 privacy: public
 location-type: stream
 location-name: Teams
 location-link:
 registration-link:
-
 event-date: 2022-05-11T10:00
 event-date-end: 2022-05-11T10:30
 demographic: Folk som jobber med innhold

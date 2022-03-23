@@ -2,14 +2,12 @@
 layout: event
 title: ResearchOps i NAV
 speakers: Ståle Kjone
-summary: 
-
+summary:
 privacy: 
 location-type: Teams
 location-name:
 location-link:
 registration-link:
-
 event-date: 2022-05-25T09:00
 event-date-end: 2022-05-25T09:30
 ---

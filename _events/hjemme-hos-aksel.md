@@ -3,13 +3,11 @@ layout: event
 title: Hjemme hos Aksel
 speakers: [Sarah Brodwall, Kari Anne Reitan Andersen]
 summary:
-
 privacy: open
 location-type: stream
 location-name: 
 location-link:
 registration-link:
-
 event-date: 2022-05-04T13:00
 event-date-end: 2022-05-04T13:45
 ---

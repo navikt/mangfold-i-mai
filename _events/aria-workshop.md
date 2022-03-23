@@ -1,17 +1,14 @@
 ---
 language: en
-
 layout: event
 title: "Workshop: We’re ARIA Live!"
 speakers: Eric Eggert
 summary:
-
 privacy: 
 location-type: stream
 location-name: Teams
 location-link:
 registration-link:
-
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
 ---

@@ -46,26 +46,23 @@
 
             <li class="{{event.privacy}} {{event.location-type}}">
                 {% assign hour = event.event-date | date: "%H" %}
-                {% if hour == "00" %}
-                <div>
-                    {% if event.layout %}
+
+                    <h4 class="title">
                         <a href="{{ event.url  | relative_url }}">
                             {{ event.title }}
                         </a>
-                    {% else %}
-                        {{ event.title }}
-                    {% endif %}
-                </div>
-                {% else %}
-                    <span class="time">
-                        <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time> -
-                        <time>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</time>
-                    </span>
+                    </h4>
 
-                    <a class="title" href="{{ event.url  | relative_url }}">
-                       {{ event.title }}
-                    </a>
-                {% endif %}
+                    <span class="time">
+                       <span>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</span> -
+                       <span>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</span></span>
+
+                    <span class="summary">
+                        {{event.summary}}
+                        {% if event.speakers %}
+                            <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+                        {% endif %}
+                    </span>
 
             </li>
 

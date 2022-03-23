@@ -36,7 +36,7 @@ layout: default
         </div>
         {% else %}
 
-        <time>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</time>
+        <span>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</span>
         <a href="{{ event.url  | relative_url }}">{{ event.title }}</a>
 
         {% endif %}

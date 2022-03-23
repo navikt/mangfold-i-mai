@@ -2,14 +2,12 @@
 layout: event
 title: "Kurspreview: Semantisk HTML"
 speakers: Sarah Brodwall
-summary: 
-
+summary:
 privacy: external
 location-type: stream
 location-name: Teams
 location-link:
 registration-link:
-
 event-date: 2022-05-03T14:00
 event-date-end: 2022-05-03T15:00
 ---

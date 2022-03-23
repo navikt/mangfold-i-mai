@@ -4,14 +4,12 @@ language: en
 layout: event
 title: Accessibility, Design and Usability Review in a Combined Toolchain (Facebook / Meta)
 speakers: Accessibility team at Facebook / Meta
-summary: 
-
+summary:
 privacy: public
 location-type: stream
 location-name: Zoom
 location-link:
 registration-link:
-
 event-date: 2022-05-04T16:00
 event-date-end: 2022-05-04T17:00
 ---

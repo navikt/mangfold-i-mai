@@ -2,14 +2,12 @@
 layout: event
 title: "Synstolking i praksis"
 speakers: Magnar Kvalvik
-summary: 
-
+summary:
 privacy: public
 location-type: Teams
 location-name:
 location-link:
 registration-link:
-
 event-date: 2022-05-10T16:30
 event-date-end: 2022-05-10T17:00
 ---

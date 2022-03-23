@@ -5,13 +5,11 @@ layout: event
 title: Universal Design Day
 speakers: Anthony Giannoumis
 summary:
-
 privacy: public
 location-type: stream
 location-name:
 location-link:
 registration-link: https://universal.design/udday22
-
 event-date: 2022-05-24T09:45
 event-date-end: 2022-05-24T14:00
 ---

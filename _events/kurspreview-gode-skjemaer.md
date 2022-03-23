@@ -3,13 +3,11 @@ layout: event
 title: "Kurspreview: Gode skjemaer"
 speakers: Sarah Brodwall
 summary: Hvordan designe og implementere skjermaer som fungerer bra for alle.
-
 privacy: external
 location-type: stream
 location-name: Teams
 location-link:
 registration-link:
-
 event-date: 2022-05-18T10:00
 event-date-end: 2022-05-18T11:00
 ---

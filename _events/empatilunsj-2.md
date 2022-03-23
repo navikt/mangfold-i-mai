@@ -3,13 +3,11 @@ layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
-
 privacy:
 location-type: in-person
 location-name:
 location-link:
 registration-link:
-
 event-date: 2022-05-04T10:30
 event-date-end: 2022-05-04T12:00
 ---

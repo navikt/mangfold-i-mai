@@ -1,15 +1,13 @@
 ---
 layout: event
 title: "Kurspreview: Hva er universell utforming?"
-speakers: 
-summary:
-
+speakers:
+summary: En kort innføring i temaet.
 privacy: public
 location-type: stream
 location-name:
 location-link:
 registration-link:
-
 event-date: 2022-05-18T12:00
 event-date-end: 2022-05-18T12:45
 ---

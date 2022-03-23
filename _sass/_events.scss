@@ -83,9 +83,32 @@
 
         li {
             margin: .75em 0;
+        }
 
-            > * {
-                display: block;
+        .title {
+            margin: 0;
+        }
+
+        .time {
+            font-weight: 400;
+
+            &::after {
+                content: ".  ";
+            }
+        }
+
+        .speakers {
+
+            span:first-child::before {
+                content: "Med "
+            }
+
+            span + span::before {
+                content: " og ";
+            }
+
+            span:last-child::after {
+                content: ".";
             }
         }
     }
@@ -125,17 +148,31 @@
 
             li {
                 display: flex;
-                flex-flow: row nowrap;
+                flex-flow: row wrap;
+
+            }
+
+            .title {
+               padding: 0 1rem;
+                order: 2;
+                flex: 1 1 50%;
             }
 
             .time {
                 width: 7rem;
                 text-align: right;
-                flex-shrink: 0;
+                flex: 0 0 7em;
+                order: 1;
+
+                &::after {
+                    content: "";
+                }
             }
 
-            .title {
-                margin: 0 1rem;
+            .summary {
+                order: 3;
+                padding: 0 1rem 0 8rem;
+                flex: 1 0 100%;
             }
         }
     }

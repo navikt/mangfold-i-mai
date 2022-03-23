@@ -3,13 +3,11 @@ layout: event
 title: Om å finne flokken sin i gamning - hva definerer et verdifult liv?
 speakers: Robert Steen
 summary: 
-
 privacy: public
 location-type: teams
 location-name:
 location-link:
 registration-link:
-
 event-date: 2022-05-19T09:00
 event-date-end: 2022-05-19T09:30
 ---
