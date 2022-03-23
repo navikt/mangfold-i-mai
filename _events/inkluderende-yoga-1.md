@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Inkluderende yoga - Foredrag og yoga-session
+title: Tilgjengelig yoga – verktøy til Empowerment/egenkraftmobilisering - Foredrag og yoga-session
 speakers: Line Fritzon
 summary: Hvilken rolle kan yoga spille for inkludering? Foredrag og yoga-session.
 
