@@ -6,12 +6,16 @@ main, footer {
     line-height: 1.5;
 
     a {
-        color: #c30000;
+        color: $primary;
 
         &:focus {
             outline: 3px dashed #72A300;
         }
     }
+}
+
+h2 {
+    margin-bottom: .25em;
 }
 
 dl {

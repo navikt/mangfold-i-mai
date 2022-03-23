@@ -1,12 +1,4 @@
 .home {
-    .wrapper {
-        margin: 0 1rem;
-    }
-
-    .logo {
-        display: inline-block;
-    }
-
     .colorful {
         line-height: initial;
     }
@@ -15,16 +7,29 @@
 @media only screen and (min-width: $break3) {
     .home {
         .logo {
-            margin: .5em 0;
-            padding-top: 4em;
-            width: auto;
+            margin: 0;
+            padding-top: 7em;
+            width: 35em;
             background-image:  url("images/logo-large.svg");
             display: block;
         }
 
-        .wrapper {
-            margin: 0 1rem;
-            max-width: 40em;
+        .wrapper, .events {
+            max-width: 50em;
         }
+
+        .events {
+            margin: 0 auto;
+        }
+
+        nav ul {
+            margin-bottom: .1em;
+
+            li {
+                display: block;
+                padding: .25em 0;
+            }
+        } 
+
     }
 }

@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Om å finne flokken sin i gamning - hva definerer et verdifult liv?
+title: Om å finne flokken sin i gaming - hva definerer et verdifult liv?
 speakers: Robert Steen
 summary: 
 privacy: public

@@ -11,169 +11,164 @@
 
     > h2, > input {
         margin-left: 1rem;
+    }
+
+    > h2, > label {
         margin-right: 1rem;
     }
 
-    header {
-        margin: 1rem;
+    section {
+        margin: 1rem 0;
     }
 
-    &.list {
+    .day-header {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: stretch;
+        border-top: 1px solid $primary;
+        line-height: 1.2;
+        margin: 2rem 0 1rem;
+    }
 
-        section {
-            margin: 1rem 0;
-        }
+    .date {
+        margin: 0;
+        background: $primary;
+        align-self: stretch;
 
-        .day-header {
+        a {
+            font-size: 1.5em;
+            font-weight: 100;
+            color: #fff;
+            text-align: center;
+            padding: .25em;
             display: flex;
-            flex-flow: row nowrap;
+            justify-content: center;
             align-items: center;
-            justify-content: stretch;
-            border-top: 1px solid #c30000;
-            line-height: 1.2;
-            margin: 2rem 0 1rem;
-        }
+            width: 4rem;
+            height: 4rem;
+            text-decoration: none;
 
-        .date {
-            margin: 0;
-            background: #c30000;
-            align-self: stretch;
-
-            a {
-                font-size: 1.5em;
-                font-weight: 100;
-                color: #fff;
-                text-align: center;
-                padding: .25em;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 4rem;
-                height: 4rem;
-                text-decoration: none;
-
-                &:focus {
-                    outline: 0;
-                    border: 3px dotted white;
-                }
-
-                span {
-                    display: block;
-                }
-
-            }
-        }
-
-        .theme {
-            padding: 0 1rem;
-            font-size: 1.25em;
-            font-weight: 400;
-        }
-
-        .weekday {
-            font-size: .4em;
-            display: block;
-        }
-
-        .schedule {
-            list-style-type: none;
-            margin: 1rem;
-            padding: 0;
-        }
-
-        li {
-            margin: .75em 0;
-        }
-
-        .title {
-            margin: 0;
-        }
-
-        .time {
-            font-weight: 400;
-
-            &::after {
-                content: ".  ";
-            }
-        }
-
-        .speakers {
-
-            span:first-child::before {
-                content: "Med "
+            &:focus {
+                outline: 0;
+                border: 3px dotted white;
             }
 
-            span + span::before {
-                content: " og ";
+            span {
+                display: block;
             }
 
-            span:last-child::after {
-                content: ".";
-            }
+        }
+    }
+
+    .theme {
+        padding: 0 1rem;
+        font-size: 1.25em;
+        font-weight: 400;
+    }
+
+    .weekday {
+        font-size: .4em;
+        display: block;
+    }
+
+    .schedule {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 0;
+    }
+
+    li {
+        margin: .75em 0;
+    }
+
+    .title {
+        margin: 0;
+    }
+
+    .time {
+        font-weight: 400;
+
+        &::after {
+            content: ".  ";
+        }
+    }
+
+    .speakers {
+
+        span:first-child::before {
+            content: "Med "
+        }
+
+        span + span::before {
+            content: " og ";
+        }
+
+        span:last-child::after {
+            content: ".";
         }
     }
 }
 
+
 @media only screen and (min-width: $break1) {
     .events {
 
-        &.list {
 
-            section {
-                border: 1px solid #c30000;
-                margin: 1rem;
-            }
+        section {
+            border: 1px solid $primary;
+            margin: 1rem;
+        }
 
-            .day-header {
-                border-top: 0;
-                margin: 0;
-            }
+        .day-header {
+            border-top: 0;
+            margin: 0;
+        }
 
-            .date {
+        .date {
 
-                a {
-                    font-size: 2em;
-                    width: 7rem;
-                    height: 5rem;
-                }
-            }
-
-            .theme {
-                font-size: 1.5em;
-            }
-
-            .schedule {
-                margin: 0;
-            }
-
-            li {
-                display: flex;
-                flex-flow: row wrap;
-
-            }
-
-            .title {
-               padding: 0 1rem;
-                order: 2;
-                flex: 1 1 50%;
-            }
-
-            .time {
+            a {
+                font-size: 2em;
                 width: 7rem;
-                text-align: right;
-                flex: 0 0 7em;
-                order: 1;
-
-                &::after {
-                    content: "";
-                }
+                height: 5rem;
             }
+        }
 
-            .summary {
-                order: 3;
-                padding: 0 1rem 0 8rem;
-                flex: 1 0 100%;
+        .theme {
+            font-size: 1.5em;
+        }
+
+        .schedule {
+            margin: 0;
+        }
+
+        li {
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+
+        .title {
+            padding: 0 1rem;
+            order: 2;
+            flex: 1 1 50%;
+        }
+
+        .time {
+            width: 7rem;
+            text-align: right;
+            flex: 0 0 7em;
+            order: 1;
+
+            &::after {
+                content: "";
             }
+        }
+
+        .summary {
+            order: 3;
+            padding: 0 1rem 0 8rem;
+            flex: 1 0 100%;
         }
     }
 }
