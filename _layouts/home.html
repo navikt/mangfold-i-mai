@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="no">
+
+{% include head.html %}
+
+<body class="home">
+    <a id="skip" href="#content">Hopp til innholdet.</a>
+
+    {% include site-header.html %}
+
+    <main id="content" tabindex="-1">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+
+        {% include events-list.html %}
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>
