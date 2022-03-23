@@ -10,8 +10,8 @@ location-name:
 location-link:
 registration-link:
 
-event-date: 2022-05-12T08:30
-event-date-end: 2022-05-12T09:30
+event-date: 2022-05-12T12:00
+event-date-end: 2022-05-12T12:30
 ---
 ## Hva handler det her om?
 Beskrivelse
