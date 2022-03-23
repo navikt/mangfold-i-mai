@@ -11,7 +11,7 @@ location-link:
 registration-link:
 
 event-date: 2022-05-06T12:00
-event-date-end: 2022-05-06T14:00
+event-date-end: 2022-05-06T15:00
 ---
 ## Hva handler det her om?
 Universell utforming er et viktig krav i anskaffelser av IT-løsninger. Likevel kan det være vanskelig å sikre dette i praksis. 
