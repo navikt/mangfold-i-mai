@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Universelt utformet innhold"
+title: "Kurspreview: Universelt utformet innhold"
 speakers: Sarah Brodwall
 summary: 
 
@@ -10,8 +10,8 @@ location-name: Teams
 location-link:
 registration-link:
 
-event-date: 2022-05-31T10:00
-event-date-end: 2022-05-31T11:00
+event-date: 2022-05-18T13:00
+event-date-end: 2022-05-18T13:45
 ---
 ## Hva handler det her om?
 Beskrivelse
