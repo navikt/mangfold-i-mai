@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Gode skjemaer"
+title: "Gode skjemaer - Kurspreview"
 speakers: Sarah Brodwall
 summary: Hvordan designe og implementere skjermaer som fungerer bra for alle.
 privacy: external
