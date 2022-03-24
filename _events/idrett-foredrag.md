@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Hjemme hos Aksel
+title: "Idrett med ulike forutsetninger, preferanser og behov"
 speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad og Bjørnar Erikstad fra Stifelsen VI, Håkon Gisholt]
 summary:
 privacy: open
