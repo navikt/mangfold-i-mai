@@ -4,7 +4,7 @@ title: Kjønnsdelte hjelpemidler? Kartlegging av hjelpemidler til personer med n
 speakers: Annette Solberg
 summary:
 privacy: public
-location-type:
+location-type: Zoom
 location-name:
 location-link:
 registration-link:
@@ -12,9 +12,7 @@ event-date: 2022-05-12T10:00
 event-date-end: 2022-05-12T10:30
 ---
 ## Hva handler det her om?
-Finnes utilsiktede skjevheter og ulikheter basert på kjønn, alder og bosted ved tildeling av hjelpemidler?
-
-Likestillingssenteret har i samarbeid med Østlandsforskning studert tildelingen av hjelpemidler for å undersøke hvorvidt det finnes utilsiktede skjevheter og ulikheter basert på kjønn, alder og bosted. Til sammen har vi analysert tildeling av 441 523 hjelpemidler for 2017. 26 hjelpemiddelformidlere har deltatt i studien. Annete Solberg fra Likestillingssenteret, som er en av de som står bak rapporten, presenterer viktige funn.
+I 2017-2019 gjennomførte Likestillingssenteret i samarbeid med NAV styringsenheten og Østlandsforskning en studie om tildeling av hjelpemidler i Norge. Studien viste at det var store ulikheter mellom hva kvinner og menn mottar av hjelpemidler. Hovedtrekket var at kvinner fikk mest hjelpemidler for tilpassing av hjemmet, mens menn fikk mest hjelpemidler for å komme seg ut i samfunnet. Studien viste at det er utilsikta og ubevisst forskjellsbehandling på bakgrunn av kjønn, alder og bosted. Dette får konsekvenser for den enkelte og samfunnet. I foredraget vil du få vite mer om resultatene, men også få tips til verktøy vi har utviklet i samarbeid med NAV for å bli mer bevisst egne forventninger og holdninger.  
 
 ## Dette foredraget er for deg som
-... 
+Foredraget passer for alle som jobber med tildeling av tjenester til mennesker. Resultatene handler spesifikt om hjelpemidler, men har stor overføringsverdi til alle områder der vi behovsvurderer tjenester og tildelinger i samfunnet.
