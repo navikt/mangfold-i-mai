@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Intro til ARIA"
+title: "Intro til ARIA - Kurspreview"
 speakers: Sarah Brodwall
 summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine.
 privacy: external
