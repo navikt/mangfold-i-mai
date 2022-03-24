@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Introduksjon til skjermlesere"
+title: "Introduksjon til skjermlesere - Kurspreview"
 speakers: Morten Tollefsen
 summary:
 privacy: public
