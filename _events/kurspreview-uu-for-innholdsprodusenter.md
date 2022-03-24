@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Universelt utformet innhold"
+title: Universelt utformet innhold - Kurspreview"
 speakers: Sarah Brodwall
 summary:
 privacy: external
