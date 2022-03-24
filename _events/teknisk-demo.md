@@ -1,8 +1,8 @@
 ---
 layout: event
-title: Teknisk demo - universell utforming i arbeidslivet
+title: Teknisk demo - universell utforming av digitale og hybride møter
 speakers: Morten Tollefsen
-summary:
+summary: Et foredrag for deg som arrangerer og/eller deltar på digitale og hybride møter, og det gjør vi vel alle sammen?
 privacy:
 location-type: stream
 location-name: Zoom
