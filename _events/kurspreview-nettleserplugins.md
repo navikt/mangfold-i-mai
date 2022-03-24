@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Nettleser-plugins for å teste på universell utforming"
+title: "Nettleser-plugins for å teste på universell utforming - Intro til ARIA - Kurspreview"
 speakers: Eilif Johansen
 summary:
 privacy: public
