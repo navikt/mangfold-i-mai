@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Semantisk HTML"
+title: "Semantisk HTML - Kurspreview"
 speakers: Sarah Brodwall
 summary:
 privacy: external
