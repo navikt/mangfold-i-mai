@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Hva er universell utforming?"
+title: "Hva er universell utforming? - Kurspreview"
 speakers: 
 summary: En kort innføring i temaet.
 privacy: public
