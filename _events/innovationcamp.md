@@ -5,7 +5,7 @@ speakers: [Anthony Giannoumis, Ayanna Summers]
 summary:
 privacy: public
 location-type: in-person
-location-name: Oslo Metropolitan University - Storbyuniversitetet, rom: TBA
+location-name: Oslo Metropolitan University - Storbyuniversitetet, rom TBA
 location-link:
 registration-link:
 event-date: 2022-05-23T09:00

@@ -3,6 +3,6 @@ layout: events
 title: Arrangementer
 permalink: events/
 categories: menu
-menu-title: Timeplan
+menu-title: Program
 ---
 Denne er siden som lister opp alle arrangementene.
