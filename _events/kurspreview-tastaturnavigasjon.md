@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Tastaturnavigasjon for utviklere" 
+title: "Tastaturnavigasjon for utviklere - Kurspreview" 
 speakers: Sarah Brodwall
 summary:
 privacy: external
