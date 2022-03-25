@@ -23,5 +23,7 @@ kl 13 til 14.30 VIP-bruker 2
 
 Mer om "Test min løsning" på [NAVs veiledningssider om universell utforming](https://navikt.github.io/uu/hvordan-faa-det-til/UU-testing/brukertesting/test-min-l%C3%B8sning/).
 
+Hvis du ønsker å booke en testtid her, ta kontakt på NAV-intern slack-kanal #testlab.
+
 ## Dette foredraget er for deg som
 - ønsker å brukerteste løsningen du jobber med med ekte personer som bruker hjelpemidler.
