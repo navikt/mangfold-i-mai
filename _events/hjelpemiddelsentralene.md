@@ -2,7 +2,7 @@
 layout: event
 title: Åpen dag hos hjelpemiddelsentralene
 speakers:
-summary:
+summary: Hør min din lokale hjelpemiddelsentral for nærmere informasjon om programmet denne dagen.
 privacy: public
 location-type: in-person
 location-name:
