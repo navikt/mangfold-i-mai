@@ -1,7 +1,7 @@
 ---
 layout: event
-title: "Nettleser-plugins for å teste på universell utforming - Intro til ARIA - Kurspreview"
-speakers: Eilif Johansen
+title: "Kurspreview"
+speakers:
 summary:
 privacy: public
 location-type: Teams
