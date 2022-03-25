@@ -1,8 +1,8 @@
 ---
 layout: event
-title: Universelt utformet innhold - Kurspreview"
+title: "Universelt utformet innhold - Kurspreview"
 speakers: Sarah Brodwall
-summary:
+summary: Hvordan utforme skriftlig innhold som fungerer for folk flest?
 privacy: external
 location-type: stream
 location-name: Teams
