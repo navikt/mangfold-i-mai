@@ -12,7 +12,7 @@ event-date: 2022-05-06T10:00
 event-date-end: 2022-05-06T11:00
 ---
 ## Hva handler det her om?
-Beskrivelse
+Beskrivelse kommer.
 
 ## Dette foredraget er for deg som
 - jobber med eller er interessert i anskaffelser, spesielt i det offentlige
