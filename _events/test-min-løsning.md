@@ -11,7 +11,7 @@ registration-link:
 event-date: 2022-05-20T10:00
 event-date-end: 2022-05-20T15:00
 ---
-## Hva handler det her om?
+## Hva handler "Test min løsning" om?
 "Test min løsning" er et tilbud til alle teamene i NAV IT fra UU-Teamet. Vi stiller NAVs Testlab i Fyrstikkallèen til disposisjon for teamene som er rigget og klar. Vi henter inn testdeltakere og sørger for det praktiske. Dere lager oppgaver og gjennomfører testen selv mens vi er tilstede for å bistå med det tekniske etc.
 
 Det som skiller "Test min løsning" fra andre brukertester og tilgjengelighetstester, er at brukerne er såkalte VIP-brukere eller også kalt "edge-users". Det vil si at noen av de trenger f.eks. litt flere og mer avanserte tekniske hjelpemidler for fungere i hverdagen. De kan også ha litt mer sammensatte utfordringer enn andre.
