@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Fysisk aktivitet og ulike forutsetninger, preferanser og behov"
-speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad og Bjørnar Erikstad fra Stiftelsen VI, Håkon Gisholt]
+speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad, Bjørnar Erikstad, Håkon Gisholt]
 summary:
 privacy: open
 location-type: stream
