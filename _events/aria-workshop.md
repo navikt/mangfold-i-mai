@@ -3,7 +3,7 @@ language: en
 layout: event
 title: "Workshop: We’re ARIA Live!"
 speakers: Eric Eggert
-summary:
+summary: Workshop rundt live-regions i ARIA. Ta gjerne "Intro til ARIA" først hvis du ønsker å få maks utbytte av workshopen.
 privacy: 
 location-type: stream
 location-name: Teams
