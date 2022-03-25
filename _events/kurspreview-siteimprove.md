@@ -18,6 +18,6 @@ I kurset lærer du hvordan verktøyet SiteImprove kan brukes til å finne UU-bru
 - [Bestill tilgang til Siteimprove](https://forms.office.com/r/rsWY1L0C1d?lang=nb-NO) før kurset
 - Ha tilgjengelig PC/MAC og Mobil
 
-## Dette foredraget er for deg som
-- Lære hvordan bruke universell utforming modulen i Siteimprove
-- Bruke automatiske verktøy til å finne mulige UU-brudd på deres nettsideområder
+## Dette foredraget er for deg som ønsker å
+- lære hvordan bruke universell utforming modulen i Siteimprove
+- bruke automatiske verktøy til å finne mulige UU-brudd på deres nettsideområder
