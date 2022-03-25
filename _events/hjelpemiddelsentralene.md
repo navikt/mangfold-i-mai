@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Åpen dag hos Hjelpemiddelsentralene
+title: Åpen dag hos hjelpemiddelsentralene
 speakers:
 summary:
 privacy: public
