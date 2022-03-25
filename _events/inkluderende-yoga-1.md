@@ -24,6 +24,5 @@ I dette foredraget vil Line Fritzon dele sine erfaringer med å jobbe med inklud
 Velkommen til en smakebit på Tilgjengelig yoga. Alt du trenger er et hode, en kropp - og en stol! Du kan være med fra kontorstolen, rullestolen, sofaen eller hvilken som helst stol! Velkommen!
 
 ## Dette foredraget er for deg som
-- er nygsjerrig på hvordan yoga kan praktiseres på en inkluderende måte for alle
-- vil høre om inkluderende kommunikasjon i trening og utover
+- ønsker å vite om verktøy til egenkraftmobilisering/ Empowerment, og kommunikasjonstilgjengelighet
 - vil være med på en praktisk yoga-sesjon på stol.
