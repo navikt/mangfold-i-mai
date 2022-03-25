@@ -2,7 +2,7 @@
 layout: event
 title: Inkluderende gaming arcade
 speakers:
-summary:
+summary: Kom og spill - og prøv spill med hjelpemidler.
 privacy: internal
 location-type: in-person
 location-name: FYA ved kantina
@@ -12,7 +12,13 @@ event-date: 2022-05-19T10:30
 event-date-end: 2022-05-19T15:00
 ---
 ## Hva handler det her om?
-Beskrivelse kommer
+Gaming er for mange en sosial aktivitet med venner og familie. Dessverre kan terskelen for å spille være høy for personer med funksjonstap, fordi spillene ofte ikke er designet med tanke på inkludering.
+
+Vi ønsker å vise hvordan gaming kan gjøres tilgjengelig for flere, spesielt de med funksjonstap. Det blir blant annet mulig for deg å prøve:
+
+- Xbox One/Forza Horizon med adaptive controller
+- Playstation 4/Last of Us part 2 med synshemning
+- og flere andre spill med ulike tilpasninger og hjelpemidler.
 
 ## Dette foredraget er for deg som
 - ønsker å se hvordan man kan spille hvis man bruker hjelpemidler
