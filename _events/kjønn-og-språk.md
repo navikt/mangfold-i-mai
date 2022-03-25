@@ -2,7 +2,7 @@
 layout: event
 title: "Han, hun og hen hvordan få de til å bli min venn?"
 speakers: [Agnethe Stensrud Heggelund, Line Moseng]
-summary: Kræsjkurs i inkluderende språk
+summary: Kræsjkurs i inkluderende språk.
 privacy: public
 location-type: Zoom
 location-name:
