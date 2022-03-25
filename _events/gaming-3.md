@@ -16,8 +16,8 @@ Gaming er for mange en sosial aktivitet med venner og familie. Dessverre kan ter
 
 Vi ønsker å vise hvordan gaming kan gjøres tilgjengelig for flere, spesielt de med funksjonstap. Det blir blant annet mulig for deg å prøve:
 
-- Xbox One/Forza Horizon med adaptive controller
-- Playstation 4/Last of Us part 2 med synshemning
+- Forza Horizon på Xbox One med adaptive controller
+- Last of Us part 2 på Playstation 4 med synshemning
 - og flere andre spill med ulike tilpasninger og hjelpemidler.
 
 ## Dette foredraget er for deg som
