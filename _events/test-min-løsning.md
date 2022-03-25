@@ -21,5 +21,7 @@ VIP-brukerne må bruke mye energi for å gjennomføre testene, så vi har begren
 kl 10 til 11.30 VIP-bruker 1
 kl 13 til 14.30 VIP-bruker 2
 
+Mer om "Test min løsning" på [NAVs veiledningssider om universell utforming](https://navikt.github.io/uu/hvordan-faa-det-til/UU-testing/brukertesting/test-min-l%C3%B8sning/).
+
 ## Dette foredraget er for deg som
-...
+- ønsker å brukerteste løsningen du jobber med med ekte personer som bruker hjelpemidler.
