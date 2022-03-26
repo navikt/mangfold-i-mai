@@ -3,9 +3,9 @@ layout: event
 title: "Universelt utformet innhold - Kurspreview"
 speakers: Sarah Brodwall
 summary: Hvordan utforme skriftlig innhold som fungerer for folk flest?
-privacy: external
+privacy: public
 location-type: stream
-location-name: Teams
+location-name: Zoom
 location-link:
 registration-link:
 event-date: 2022-05-18T13:00
