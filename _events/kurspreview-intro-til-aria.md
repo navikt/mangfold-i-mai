@@ -3,7 +3,7 @@ layout: event
 title: "Intro til ARIA - Kurspreview"
 speakers: Sarah Brodwall
 summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine.
-privacy: external
+privacy: public
 location-type: stream
 location-name: Teams
 location-link: http://test.link
