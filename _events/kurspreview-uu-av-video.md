@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kurspreview: Universell utforming av video"
+title: "Universell utforming av video - Kurspreview"
 speakers: Morten Tollefsen
 summary:
 privacy: public

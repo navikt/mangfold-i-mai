@@ -1,9 +1,9 @@
 ---
 layout: event
-title: "Kurspreview: Semantisk HTML"
+title: "Semantisk HTML - Kurspreview"
 speakers: Sarah Brodwall
 summary:
-privacy: external
+privacy: public
 location-type: stream
 location-name: Teams
 location-link:

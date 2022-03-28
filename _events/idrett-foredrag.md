@@ -1,7 +1,7 @@
 ---
 layout: event
-title: Hjemme hos Aksel
-speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad og Bjørnar Erikstad fra Stifelsen VI, Håkon Gisholt]
+title: "Fysisk aktivitet og ulike forutsetninger, preferanser og behov"
+speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad, Bjørnar Erikstad, Håkon Gisholt]
 summary:
 privacy: open
 location-type: stream
@@ -11,6 +11,16 @@ registration-link:
 event-date: 2022-05-09T12:00
 event-date-end: 2022-05-09T15:00
 ---
+
+## Program
+
+12:00 Norges kuleste dame med én arm; Anne Grethe Solberg
+
+12:30 Beitostølen helsesportsenter
+
+13:05 Like muligheter til å prestere; Knut Nystad og Bjørnar Erikstad (Stiftelsen VI)
+
+13:30 Fra samfunnsbyrde til ressurspersoner
 
 ## Hva handler foredragene om?
 I dette seminaret om fysisk aktivitet møter du noen fantastiske mennesker og du får høre om noen 
@@ -37,5 +47,9 @@ Gisholt har siden 2009 viet mye tid til å motivere synshemmede til et fysisk ak
 
 I dette foredraget forteller han og viser film fra et unikt samarbeidsprosjekt i både norsk og internasjonal sammenheng. Her møtes to samfunnsgrupper som kan stigmatiseres som samfunnsbyrder, men som gjennom dette samarbeidsprosjektet viser seg å være store ressurser. Narkomane under behandling er ledsagere for synshemmede under ulike fysiske aktiviteter i naturen. Gjennom de siste 9 årene har samarbeidsprosjektet i fellesskap mestret både turer til Galdhøpiggen, Tungtvannsekspedisjonsruten, raftet, rappellert, kjørt slalåm og mye mer. En TV-dokumentarserie om prosjektet er nå i ferd med å ferdigstilles om prosjektet, og her får du se en liten smakebit. 
 
-## Dette foredraget er for deg som
-- vil få litt innsyn i hvilken påvirkning trening kan ha for enkeltmennesker, også i sammenheng med en funksjonsvariasjon.
+
+
+## Disse foredragene er for deg som
+- vil høre noen  sterke historier om hvor mye det bor i oss mennesker
+- vil få inspirasjon til kreativ inkludering
+- vil få innsyn i hvilken påvirkning trening kan ha for enkeltmennesker, også i sammenheng med en funksjonsvariasjon.

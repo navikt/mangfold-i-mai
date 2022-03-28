@@ -6,7 +6,7 @@ title: Universal Design Day
 speakers: Anthony Giannoumis
 summary:
 privacy: public
-location-type: in-person
+location-type: 
 location-name: Oslo Metropolitan University – Room TBA  
 location-link:
 registration-link: https://universal.design/udday22

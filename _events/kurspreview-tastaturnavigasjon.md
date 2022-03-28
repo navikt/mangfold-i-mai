@@ -1,11 +1,11 @@
 ---
 layout: event
-title: "Kurspreview: Tastaturnavigasjon for utviklere" 
+title: "Tastaturnavigasjon for utviklere - Kurspreview" 
 speakers: Sarah Brodwall
 summary:
-privacy: external
+privacy: public
 location-type: stream
-location-name: Teams
+location-name: Zoom
 location-link:
 registration-link:
 event-date: 2022-05-18T14:00
