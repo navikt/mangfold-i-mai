@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "(Digital) inkludering. Ta are på de som er utafor"
+title: "(Digital) inkludering. Ta vare på de som er utafor"
 speakers: [Ina Aschim, Lovise Justad]
 summary: Dette er en historie om noen av de som strever mest med å delta digitalt.
 privacy: public
