@@ -3,7 +3,7 @@ layout: event
 title: ResearchOps i NAV
 speakers: Ståle Kjone
 summary:
-privacy: 
+privacy: public
 location-type: Teams
 location-name:
 location-link:
