@@ -1,3 +1,7 @@
+:root {
+    font-size: 100%;
+}
+
 body {
     font-family: 'Montserrat', serif;
 }
@@ -12,6 +16,10 @@ main, footer {
             outline: 3px dashed #72A300;
         }
     }
+}
+
+h1, h2 {
+    line-height: 1.2;
 }
 
 h2 {
@@ -34,3 +42,6 @@ dt {
 dd {
     margin: 0;
 }
+
+.speaker {
+    max-width: 100%;}

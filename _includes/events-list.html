@@ -1,5 +1,5 @@
 <article class="events list" aria-live="polite" aria-relevant="all">
-    <h2>Hva har vi planlagt?</h2>
+    <h2>{{ include.title}}</h2>
 
     <input id="public" type="checkbox">
     <label for="public">Vis bare arrangementer åpent for deltagere utenfor NAV.</label>
@@ -11,18 +11,14 @@
 
     {% if include.date %}
 
-        {% include events.html date=include.date view=list %}
+        {% include events.html date=include.date heading-level=include.heading-level %}
 
     {% else %}
 
         {% for day in dates %}
             {% assign day-number = day.event-date | date: "%d" %}
-            {% include events.html date=day-number view=list %}
+            {% include events.html date=day-number heading-level=include-heading-level %}
         {% endfor %}
 
     {% endif %}
-
-
-
-
 </article>

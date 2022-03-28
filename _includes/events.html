@@ -19,7 +19,12 @@
     {% assign day-date = day.event-date | date: "%d" %}
     {% if day-date == include.date %}
         <div class="day-header">
-            <h3 class="date">
+            {% if include.heading-level == 2 %}
+                <h2 class="date">
+            {% else %}
+                <h3 class="date">
+            {% endif %}
+
                 <a href="{{ day.url  | relative_url }}">
                     <span>
                         <span class="day-number">
@@ -30,7 +35,12 @@
                         </span>
                     </span>
                 </a>
-            </h3>
+
+            {% if include.heading-level == 2 %}
+                </h2>
+            {% else %}
+                </h3>
+            {% endif %}
 
             {% if day.theme %}
                 <span class="theme">{{ day.theme }}</span>
@@ -47,11 +57,22 @@
             <li class="{{event.privacy}} {{event.location-type}}">
                 {% assign hour = event.event-date | date: "%H" %}
 
+
+                {% if include.heading-level == 2 %}
+                    <h3 class="title">
+                {% else %}
                     <h4 class="title">
-                        <a href="{{ event.url  | relative_url }}">
-                            {{ event.title }}
-                        </a>
+                {% endif %}
+
+                    <a href="{{ event.url  | relative_url }}">
+                        {{ event.title }}
+                    </a>
+
+                {% if include.heading-level == 2 %}
+                    </h3>
+                {% else %}
                     </h4>
+                {% endif %}
 
                     <span class="time">
                        <span>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</span> -
