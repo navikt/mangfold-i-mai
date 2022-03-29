@@ -3,7 +3,7 @@ layout: event
 title: "Hemmelighetene i innstillingsmenyene på Chromebook, iPad og Windows"
 speakers:
 summary: Hvilke tiljgengelighetsfunksjoner ligger i operativsystemet til din maskin?
-privacy:
+privacy: public
 location-type: 
 location-name:
 location-link:
