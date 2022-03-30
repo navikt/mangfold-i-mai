@@ -2,11 +2,11 @@
 layout: event
 title: NAVs innholdsstrategi
 speakers: Tuva Sverdstad
-summary:
+summary: Et foredrag rundt om hvordan NAVs nye innholdsstrategi løser brukerbehov, støtter universell utforming, minsker den kognitive lasten OG gjør jobben for NAV.
 privacy: public
 location-type: stream
-location-name: Teams
-location-link:
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/92056878353?pwd=TGQ5RmkyelVFbjVnL1YyOHZnS1crQT09
 registration-link:
 event-date: 2022-05-11T10:00
 event-date-end: 2022-05-11T10:30
