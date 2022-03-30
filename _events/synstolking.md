@@ -2,11 +2,11 @@
 layout: event
 title: "Synstolking i praksis"
 speakers: Magnar Kvalvik
-summary:
+summary: Norges mest erfarne synstolk viser deg i praksis hvordan synstolking foregår, og hva du bør legge vekt på for at synshemmede skal få med seg det som skjer. 
 privacy: public
-location-type: Teams
-location-name:
-location-link:
+location-type: stream
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/97817805529?pwd=Tm1FU2lXZSs1SFNJSXBBemVvZVF3UT09
 registration-link:
 event-date: 2022-05-10T16:30
 event-date-end: 2022-05-10T17:00
