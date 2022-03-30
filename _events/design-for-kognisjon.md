@@ -6,7 +6,7 @@ summary:
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link:
+location-link: https://nav-it.zoom.us/j/92768109517?pwd=KzlCQ29GSmJGQkJXQmZoUFpDNGEwUT09
 registration-link:
 event-date: 2022-05-11T09:00
 event-date-end: 2022-05-11T10:00
