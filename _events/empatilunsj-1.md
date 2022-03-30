@@ -3,7 +3,7 @@ layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
-privacy: internal
+privacy: 
 location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo, Rom B104 Gnisten
 location-link:
