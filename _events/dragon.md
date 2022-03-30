@@ -6,8 +6,8 @@ summary:
 
 privacy: public
 location-type:
-location-name:
-location-link:
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/91942361259?pwd=UzNmOUdrK2loVXFqYnYzZEdpaHovUT09
 
 registration-link:
 event-date: 2022-05-13T09:30
