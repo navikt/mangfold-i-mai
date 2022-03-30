@@ -2,7 +2,7 @@
 layout: event
 title: "Intro til universell utforming modulen i Siteimprove"
 speakers: Eilif Johansen
-summary: Lær å bruke Siteimprove til å finne UU-brudd på deres nettsideområde.
+summary: Lær å bruke Siteimprove til å finne UU-brudd på deres nettsideområde. Kurset blir en del av NAVs interne kurskatalog.
 privacy: internal
 location-type: Teams
 location-name:
@@ -21,3 +21,6 @@ I kurset lærer du hvordan verktøyet SiteImprove kan brukes til å finne UU-bru
 ## Dette foredraget er for deg som ønsker å
 - lære hvordan bruke universell utforming modulen i Siteimprove
 - bruke automatiske verktøy til å finne mulige UU-brudd på deres nettsideområder
+
+## Dette kurset blir del av NAVs kurskatalog
+Kurset blir en del av UU-teamets kurskatalog. Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
