@@ -6,8 +6,8 @@ summary: Dette er en historie om noen av de som strever mest med å delta digita
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link:
-registration-link: kommer
+location-link: https://nav-it.zoom.us/j/98271717368?pwd=ak9iYTdoNDJpYTF6MU5aSXJNMjhNUT09
+registration-link: 
 event-date: 2022-05-12T13:00
 event-date-end: 2022-05-12T13:30
 ---
