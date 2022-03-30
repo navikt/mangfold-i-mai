@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Universell utforming av video - Kurspreview"
+title: "Universell utforming av video"
 speakers: Morten Tollefsen
-summary:
+summary: Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type:
 location-name: Zoom
@@ -16,3 +16,5 @@ Beskrivelse kommer
 
 ## Dette foredraget er for deg som
 ... 
+## Dette kurset blir del av NAVs kurskatalog
+"Universell utforming av video" blir en del av UU-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
