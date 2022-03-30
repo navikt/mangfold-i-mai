@@ -7,7 +7,7 @@ privacy: internal
 location-type: in-person
 location-name:
 location-link:
-registration-link:
+registration-link: https://forms.office.com/r/7QLNFdhHux?lang=nb-NO
 event-date: 2022-05-02T10:30
 event-date-end: 2022-05-02T12:00
 ---
