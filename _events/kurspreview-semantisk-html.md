@@ -2,7 +2,7 @@
 layout: event
 title: "Semantisk HTML"
 speakers: Sarah Brodwall
-summary: Kurset er del av NAVs interne kurskatalog.
+summary: Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Zoom
