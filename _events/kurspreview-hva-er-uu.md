@@ -2,11 +2,11 @@
 layout: event
 title: "Hva er universell utforming?"
 speakers: Karina Ludwig
-summary: Hva betyr universell utforming egentlig? Og hvordan jobber vi med universell utforming i NAV? Kurset er del av NAVs interne kurskatalog.
+summary: Hva betyr universell utforming egentlig? Og hvordan jobber vi med universell utforming i NAV? Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/92707300602
+location-link: https://nav-it.zoom.us/j/92707300602?pwd=Q0xkak50TUFaK0tEbGJTOGtlL1lrUT09
 registration-link:
 event-date: 2022-05-02T09:00
 event-date-end: 2022-05-02T09:30
