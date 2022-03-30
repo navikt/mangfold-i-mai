@@ -5,9 +5,9 @@ speakers: Sarah Brodwall
 summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine. Kurset er del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
-location-name: Teams
-location-link: http://test.link
-registration-link: http://test.link
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/99266251058
+registration-link: 
 event-date: 2022-05-02T10:00
 event-date-end: 2022-05-02T11:00
 ---
