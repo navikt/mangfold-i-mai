@@ -6,7 +6,7 @@ summary: Hvordan designe og implementere skjermaer som fungerer bra for alle. Ku
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link:
+location-link: https://nav-it.zoom.us/j/98667685463?pwd=NDRiengzTTNPTWg0eGJ6R0hKK0NpUT09
 registration-link:
 event-date: 2022-05-18T10:00
 event-date-end: 2022-05-18T11:00
