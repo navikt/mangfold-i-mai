@@ -6,7 +6,7 @@ summary: Foredrag og yoga-session på stol. Hvilken rolle kan yoga spille for in
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link:
+location-link:  https://nav-it.zoom.us/j/94574837776?pwd=RlJtUFR5YjRpVTIxcm9SL2cydHdUUT09
 registration-link:
 event-date: 2022-05-09T08:15
 event-date-end: 2022-05-09T09:30
