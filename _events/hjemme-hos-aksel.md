@@ -2,11 +2,11 @@
 layout: event
 title: Hjemme hos Aksel
 speakers: [Sarah Brodwall, Kari Anne Reitan Andersen]
-summary:
+summary: Innsyn i hvordan Team Aksel jobber med universell utforming i designsystemet.
 privacy: open
 location-type: stream
-location-name: 
-location-link:
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/99002299702?pwd=VDFsdWY5UTNyV29xbitJd0s0RVJpQT09
 registration-link:
 event-date: 2022-05-04T13:00
 event-date-end: 2022-05-04T13:45
