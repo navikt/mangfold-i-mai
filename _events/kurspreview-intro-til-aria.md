@@ -2,7 +2,7 @@
 layout: event
 title: "Intro til ARIA"
 speakers: Sarah Brodwall
-summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine. Kurset er del av NAVs interne kurskatalog.
+summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine. Kurset blir en del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Zoom
