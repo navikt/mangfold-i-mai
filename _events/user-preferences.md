@@ -7,8 +7,8 @@ speakers: Eric Eggert
 summary:
 privacy: public
 location-type:
-location-name:
-location-link:
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/94260281715?pwd=M3JTSHRvVkJENWp3aGM5aWUwc0JHZz09
 registration-link:
 event-date:     2022-05-13T08:30
 event-date-end: 2022-05-13T09:15
