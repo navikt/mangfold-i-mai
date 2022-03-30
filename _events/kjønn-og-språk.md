@@ -5,7 +5,7 @@ speakers: [Agnethe Stensrud Heggelund, Line Moseng]
 summary: Kræsjkurs i inkluderende språk.
 privacy: public
 location-type: Zoom
-location-name:
+location-name: https://nav-it.zoom.us/j/91726828835?pwd=N3NxanlvZldYQ2hnWE5OV1JZOGZYQT09
 location-link:
 registration-link:
 event-date: 2022-05-12T12:00
