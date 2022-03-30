@@ -2,7 +2,7 @@
 layout: event
 title: "Tastaturnavigasjon for utviklere" 
 speakers: Sarah Brodwall
-summary:
+summary: Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Zoom
