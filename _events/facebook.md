@@ -2,7 +2,7 @@
 language: en
 
 layout: event
-title: Accessibility, Design and Usability Review in a Combined Toolchain (Facebook / Meta)
+title: Accessibility, Design and Usability Review in a Combined Toolchain
 speakers: Accessibility team at Facebook / Meta
 summary:
 privacy: public
