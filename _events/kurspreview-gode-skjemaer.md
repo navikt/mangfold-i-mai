@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Gode skjemaer - Kurspreview"
+title: "Gode skjemaer"
 speakers: Sarah Brodwall
-summary: Hvordan designe og implementere skjermaer som fungerer bra for alle.
+summary: Hvordan designe og implementere skjermaer som fungerer bra for alle. Kurset blir en del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Zoom
@@ -27,5 +27,5 @@ Vi skal se på følgende temaer:
 ## Hvem er kurset til?
 Alle som jobber med spesifikasjon, design, utvikling og testing av skjemaer kan dra nytte av kurset.  Det kan hende du blir eksponert for litt kode, men litt kode har jo aldri skadet noen, ikke sant? 
 
-## Hva er et kurspreview?
-"Gode skjemaer" blir en del av uu-teamets kurskatalog. Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
+## Dette kurset blir del av NAVs kurskatalog
+“Gode skjemaer” blir en del av UU-teamets kurskatalog. Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
