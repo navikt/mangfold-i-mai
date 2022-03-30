@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Hva er universell utforming? - Kurspreview"
+title: "Hva er universell utforming?"
 speakers: Karina Ludwig
-summary: Hva betyr universell utforming egentlig? Og hvordan jobber vi med universell utforming i NAV?
+summary: Hva betyr universell utforming egentlig? Og hvordan jobber vi med universell utforming i NAV? (Kurset er del av NAVs interne kurskatalog)
 privacy: public
 location-type: stream
 location-name:
@@ -18,5 +18,5 @@ Hva er egentlig universell utforming? Hva må NAV som offentlig etat forholde se
 - Har lyst til å få innsyn i hva universell utforming handler om.
 - Vil høre mer om verktøy for team i NAV for å sikre universell utforming.
 
-## Hva er et kurspreview?
-"Hva er universell utforming?" blir en del av uu-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
+## Dette kurset blir del av NAVs kurskatalog
+"Hva er universell utforming?" blir en del av UU-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
