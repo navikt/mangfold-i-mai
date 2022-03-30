@@ -1,12 +1,12 @@
 ---
 layout: event
-title: "Universelt utformet innhold - Kurspreview"
+title: "Universelt utformet innhold"
 speakers: Sarah Brodwall
-summary: Hvordan utforme skriftlig innhold som fungerer for folk flest?
+summary: Hvordan utforme skriftlig innhold som fungerer for folk flest? Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link:
+location-link: https://nav-it.zoom.us/j/96454466880?pwd=N3pIYlRTNEdEazNpVkg5bk1tb2Q1dz09
 registration-link:
 event-date: 2022-05-18T13:00
 event-date-end: 2022-05-18T13:50
