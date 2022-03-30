@@ -7,12 +7,12 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/96578796663?pwd=WjFIOWZBaWFJWkl1QVVpVUZBOEhSUT09
-registration-link:
+registration-link: 
 event-date: 2022-05-03T14:00
 event-date-end: 2022-05-03T15:00
 ---
 ## Hva handler det her om?
-Beskrivelse
+Beskrivelse kommer
 
 ## Dette foredraget er for deg som
 jobber med frontend-kode
