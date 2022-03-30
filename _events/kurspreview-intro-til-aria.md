@@ -6,7 +6,7 @@ summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine. Kurset e
 privacy: public
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/99266251058
+location-link: https://nav-it.zoom.us/j/99266251058?pwd=RHJhZEIwTHJBLzZUcUJJSFN4a2pDdz09
 registration-link: 
 event-date: 2022-05-02T10:00
 event-date-end: 2022-05-02T11:00
