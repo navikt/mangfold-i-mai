@@ -1,12 +1,12 @@
 ---
 layout: event
-title: "Introduksjon til skjermlesere - Kurspreview"
+title: "Introduksjon til skjermlesere"
 speakers: Morten Tollefsen
-summary:
+summary: Kurset blir del av NAVs interne kurskatalog.
 privacy: public
-location-type: Teams
-location-name:
-location-link:
+location-type: stream
+location-name: Zoom
+location-link: https://nav-it.zoom.us/j/95916281182?pwd=ampQUFZoWEJVdlUwRVFuYzVLOEdlUT09
 registration-link:
 event-date: 2022-05-18T12:00
 event-date-end: 2022-05-18T12:50
