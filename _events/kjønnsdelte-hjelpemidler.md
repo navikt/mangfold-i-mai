@@ -5,7 +5,7 @@ speakers: Annette Solberg
 summary:
 privacy: public
 location-type: Zoom
-location-name:
+location-name: https://nav-it.zoom.us/j/97717821945?pwd=ckNpajI0RTFXU2NjejF4VE9tdXpCUT09
 location-link:
 registration-link:
 event-date: 2022-05-12T10:00
