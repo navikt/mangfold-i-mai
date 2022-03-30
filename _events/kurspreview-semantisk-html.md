@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Semantisk HTML - Kurspreview"
+title: "Semantisk HTML"
 speakers: Sarah Brodwall
-summary:
+summary: Kurset er del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
 location-name: Teams
@@ -18,7 +18,5 @@ Beskrivelse
 jobber med frontend-kode
 
 
-
-
-## Hva er et kurspreview?
+## Dette kurset blir del av NAVs kurskatalog
 "Semantisk HTML" blir en del av uu-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
