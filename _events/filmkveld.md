@@ -5,7 +5,7 @@ speakers:
 summary:
 privacy: 
 location-type: in-person
-location-name: Fyrstikkalléen 1, Peisestua / Kantina
+location-name: Fyrstikkalléen 1
 location-link:
 registration-link: https://forms.office.com/r/rVG6LGC1Ub?lang=nb-NO
 event-date: 2022-05-10T17:00
