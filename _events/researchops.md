@@ -4,10 +4,10 @@ title: ResearchOps i NAV
 speakers: Ståle Kjone
 summary:
 privacy: public
-location-type: Teams
-location-name:
-location-link:
-registration-link:
+location-type: stream
+location-name: Zoom-møte
+location-link:  https://nav-it.zoom.us/j/99217445030?pwd=b29ZeS80ZE01MTB1aWM1aHUyRGZ5QT09
+registration-link: https://forms.office.com/r/9RakdERNdj?lang=nb-NO
 event-date: 2022-05-25T09:00
 event-date-end: 2022-05-25T09:30
 ---
