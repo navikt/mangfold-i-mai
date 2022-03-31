@@ -5,9 +5,9 @@ speakers: Eilif Johansen
 summary: Lær å bruke Siteimprove til å finne UU-brudd på deres nettsideområde. Kurset blir en del av NAVs interne kurskatalog.
 privacy: internal
 location-type: Teams
-location-name:
+location-name: NAV-intern teams-møte
 location-link:
-registration-link:
+registration-link: https://forms.office.com/r/B4hmMgFHjR?lang=nb-NO
 event-date: 2022-05-04T09:00
 event-date-end: 2022-05-04T10:00
 ---
