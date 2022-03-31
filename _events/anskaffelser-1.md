@@ -5,9 +5,9 @@ speakers: Sigbjørn Råsberg
 summary:
 privacy: public
 location-type: stream
-location-name: Zoom
+location-name: Zoom-møte
 location-link: https://nav-it.zoom.us/j/92651849580?pwd=eUhCK0tUYVptcFRyUzNwbDBYeGpvZz09
-registration-link:
+registration-link: https://forms.office.com/r/xq2WaqYJc7?lang=nb-NO
 event-date: 2022-05-06T10:00
 event-date-end: 2022-05-06T11:00
 ---
