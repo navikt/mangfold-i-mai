@@ -5,9 +5,9 @@ speakers: Team inkluderende design
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 privacy:
 location-type: in-person
-location-name:
+location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 location-link:
-registration-link:
+registration-link: https://forms.office.com/r/BvSKtxytP6?lang=nb-NO
 event-date: 2022-05-10T10:30
 event-date-end: 2022-05-10T12:00
 ---
