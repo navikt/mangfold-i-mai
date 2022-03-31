@@ -11,10 +11,21 @@ registration-link:
 event-date: 2022-05-10T14:00
 event-date-end: 2022-05-10T15:00
 ---
-## Hva handler det her om?
-Beskrivelse kommer
+
+## Synstolking og teksting?
+Video skal tekstes for hørselshemmede og synstolkes for blinde og svaksynte. Synstolking betyr: "beskrivelse av levende bilder".
+
+Kanskje universell utforming av video høres vanskelig ut, men det trengs ikke nødvendigvis store ressurser for å gjøre video mye bedre for mange flere. I dette foredraget får du nyttige tips om synstolking og teksting:
+* Manuell og automatisert teksting
+* Når trengs synstolking og hvordan kan du unngå behovet for etterarbeid
+* Ulike teknikker for synstolking
+* Nyttige verktøy 
 
 ## Dette foredraget er for deg som
-... 
+* Lager video
+* Bruker video i foredrag eller møter
+* Vil vite mer om hva som kreves i lovverket om video på web
+* ... eller rett og slett ønsker å få litt mer kunnskap om teksting og synstolking
+
 ## Dette kurset blir del av NAVs kurskatalog
 "Universell utforming av video" blir en del av UU-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
