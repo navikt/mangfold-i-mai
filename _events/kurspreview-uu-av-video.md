@@ -5,9 +5,9 @@ speakers: Morten Tollefsen
 summary: Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type:
-location-name: Zoom
+location-name: Zoom-møte
 location-link:  https://nav-it.zoom.us/j/91250867205?pwd=ZDloLzBSTjdyMmU2YXZNbDE2Nm84dz09
-registration-link:
+registration-link: https://forms.office.com/r/neZtSBCLE0?lang=nb-NO
 event-date: 2022-05-10T14:00
 event-date-end: 2022-05-10T15:00
 ---
