@@ -19,3 +19,6 @@ Kurset gir en kort innføring i bruk av skjermleser på mobil og datamaskin. Det
 - ønsker å kunne teste med skjermleser
 - jobber med kode
 - jobber med design.
+
+## Dette kurset blir del av NAVs kurskatalog
+“Introduksjon til skjermlesere” blir en del av UU-teamets kurskatalog. Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
