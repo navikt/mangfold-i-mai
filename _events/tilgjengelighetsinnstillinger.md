@@ -7,7 +7,7 @@ privacy: public
 location-type: zoom
 location-name:
 location-link:
-registration-link:
+registration-link: https://forms.office.com/r/aMSTFWQbMg?lang=nb-NO
 event-date: 2022-05-13T14:00
 event-date-end: 2022-05-13T15:00
 ---
