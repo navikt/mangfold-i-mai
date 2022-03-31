@@ -7,7 +7,7 @@ menu-title: Om Mangfold i mai
 ---
 «Mangfold i mai» er en arrangement-serie i mai rundt mangfold, inkludering og universell utforming; gjennomført delvis digitalt og delvis fysisk i Fyrstikkalléen 1.
 
-## Hvorfor gjennomfører NAV "Mangfold i mai"?
+## Hvorfor synes vi "Mangfold i mai" er viktig?
 Alt vi gjør, og alle valg vi tar både privat og på jobb, har konsekvenser for om vi inkluderer eller ekskluderer andre.
 
 Vi som ansatte i NAV har et ekstra stort ansvar for å passe på at valgene våre er med på å bryte ned barrierer, og ikke bidrar til å bygge nye.
