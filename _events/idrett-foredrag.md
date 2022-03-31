@@ -2,7 +2,7 @@
 layout: event
 title: "Trening gir mening"
 speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad, Bjørnar Erikstad, Håkon Gisholt]
-summary:
+summary: Hør om prosjekter og enkeltpersoner som bruker fysisk aktivitet til mestring, inkludering og som viser noen av de mange forutsetningene, preferansene og behovene vi skal ta høyde for i arbeidet vårt.
 privacy: open
 location-type: stream
 location-name: "Speakers corner"
