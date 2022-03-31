@@ -7,9 +7,9 @@ speakers: Accessibility team at Facebook / Meta
 summary: 
 privacy: public
 location-type: stream
-location-name: Zoom
+location-name: Zoom-møte
 location-link: https://nav-it.zoom.us/j/93395943457?pwd=Nmp2WWZWMEVoTFBLS2VxWWJleUxHZz09
-registration-link:
+registration-link: https://forms.office.com/r/TmQ5b4wTRk?lang=nb-NO
 event-date: 2022-05-04T16:00
 event-date-end: 2022-05-04T17:00
 ---
