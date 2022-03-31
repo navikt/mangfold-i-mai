@@ -5,9 +5,9 @@ speakers: Line Fritzon
 summary: Foredrag og yoga-session på stol. Hvilken rolle kan yoga spille for inkludering?
 privacy: public
 location-type: stream
-location-name: Zoom
+location-name: Zoom-møte
 location-link:  https://nav-it.zoom.us/j/94574837776?pwd=RlJtUFR5YjRpVTIxcm9SL2cydHdUUT09
-registration-link:
+registration-link: https://forms.office.com/r/jU0trNCKMv?lang=nb-NO
 event-date: 2022-05-09T08:15
 event-date-end: 2022-05-09T09:30
 ---
