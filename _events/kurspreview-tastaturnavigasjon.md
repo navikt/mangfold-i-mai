@@ -5,9 +5,9 @@ speakers: Sarah Brodwall
 summary: Kurset blir del av NAVs interne kurskatalog.
 privacy: public
 location-type: stream
-location-name: Zoom
+location-name: Zoom-møte
 location-link:  https://nav-it.zoom.us/j/97092196409?pwd=ek91V1ovc0w4Q29lQUtCekdZRHladz09
-registration-link:
+registration-link: https://forms.office.com/r/augVRPPLmf?lang=nb-NO
 event-date: 2022-05-18T14:00
 event-date-end: 2022-05-18T15:00
 ---
