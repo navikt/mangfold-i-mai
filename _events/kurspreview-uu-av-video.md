@@ -16,7 +16,7 @@ event-date-end: 2022-05-10T15:00
 Video skal tekstes for hørselshemmede og synstolkes for blinde og svaksynte. Synstolking betyr: "beskrivelse av levende bilder".
 Kanskje universell utforming av video høres vanskelig ut, men det trengs ikke nødvendigvis store ressurser for å gjøre video mye bedre for mange flere. I dette foredraget får du nyttige tips om synstolking og teksting:
 * Manuell og automatisert teksting
-* Når trengs synstolking og hvordan kan du unngå behovet for etterarbeid
+* Når trengs synstolking og hvordan kan du unngå behovet for etterarbeid?
 * Ulike teknikker for synstolking
 * Nyttige verktøy 
 
