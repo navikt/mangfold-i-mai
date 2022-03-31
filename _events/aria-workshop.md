@@ -6,9 +6,9 @@ speakers: Eric Eggert
 summary: Workshop rundt live-regions i ARIA. Ta gjerne "Intro til ARIA" først hvis du ønsker å få maks utbytte av workshopen.
 privacy: 
 location-type: stream
-location-name: Teams
-location-link:
-registration-link:
+location-name: NAV-intern Teams-møte, Fyrstikkalleen 1, B114 Gløden
+location-link: 
+registration-link: https://forms.office.com/r/Ey2MuGXNA8?lang=nb-NO
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
 ---
