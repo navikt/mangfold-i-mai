@@ -32,7 +32,7 @@ Ikke gå glipp av dette seminaret med inspirerende og kreative foredragsholdere.
 
 ## Hva handler foredragene om?
 
-For noen mennesker er trening en forutsetning for å fungere i dagliglivet. Andre må finne sine egne måter å gjøre ting på for å kunne drive med aktivitetene de har lyst til. Nedsatt funksjonsevne kan redusere valgfrihet og føre til blant annet depresjon. Fysisk aktivitet kan gjøre enorm forskjell for noen. I seminaret får du eksempler på disse forskjellene, og du får høre  historier du neppe kommer til å glemme.
+For noen mennesker er trening en forutsetning for å fungere i dagliglivet. Andre må finne sine egne måter å gjøre ting på for å kunne drive med aktivitetene de har lyst til. Nedsatt funksjonsevne kan redusere valgfrihet og føre til blant annet depresjon. Fysisk aktivitet kan gjøre enorm forskjell for noen. På seminaret får du eksempler på disse forskjellene, og du får høre  historier du neppe kommer til å glemme.
 
 ### Anne Grethe Solberg 
 Anne Grethe Solberg ble skutt av eksmannen sin i 2006. Først skjøt han henne i hofta og deretter i skuldra. Hun overlevde ved å spille død.
@@ -53,4 +53,4 @@ flere ganger norgesmester, med medaljer fra både europamesterskap og sammenlagt
 ### Håkon Gisholt 
 Gisholt har siden 2009 viet mye tid til å motivere synshemmede til et fysisk aktivt liv. Han mottok i 2017 pris som Årets ildsjel i Oslo idrettskrets, og mottok inkluderingsprisen for arbeidet med para-gruppen til Sportsklubben Vidar på Idrettsgallaen to år tidligere. 
 
-I dette foredraget forteller Håkon og viser film fra et unikt samarbeidsprosjekt i både norsk og internasjonal sammenheng. Her møtes to samfunnsgrupper som kan stigmatiseres som samfunnsbyrder, men som gjennom dette samarbeidett viser seg å være store ressurser. Narkomane under behandling er ledsagere for synshemmede under ulike fysiske aktiviteter i naturen. Gjennom de siste 9 årene har Tyrili/Team RP i fellesskap mestret både turer til Galdhøpiggen, Tungtvannsekspedisjonsruten, raftet, rappellert, kjørt slalåm og mye mer. En TV-dokumentarserie om prosjektet er nå i ferd med å ferdigstilles, og her får du se en liten smakebit. 
+I dette foredraget forteller Håkon og viser film fra et unikt samarbeidsprosjekt i både norsk og internasjonal sammenheng. Her møtes to samfunnsgrupper som kan stigmatiseres som samfunnsbyrder, men som gjennom dette samarbeidett viser seg å være store ressurser. Narkomane under behandling er ledsagere for synshemmede under ulike fysiske aktiviteter i naturen. Gjennom de siste 9 årene har Tyrili/Team RP i fellesskap mestret både turer til Galdhøpiggen, Tungtvannsekspedisjonsruten, raftet, rappellert, kjørt slalåm og mye mer. Du får en smakebit på en dokumentar, produsert for TV, som snart er ferdig.
