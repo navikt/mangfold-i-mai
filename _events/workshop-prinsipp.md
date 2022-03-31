@@ -13,7 +13,7 @@ event-date: 2022-05-11T12:00
 event-date-end: 2022-05-11T15:00
 ---
 ## Hva handler det her om?
-Beskrivelse kommer.
+Beskrivelse og påmeldingsinformasjon kommer.
 
 ## Denne workshopen er for deg som
 ... er interessert i arbeidet med design-prinsippene i NAV. Begrenset deltakerantall.
