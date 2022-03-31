@@ -20,7 +20,7 @@ Kanskje universell utforming av video høres vanskelig ut, men det trengs ikke n
 * Ulike teknikker for synstolking
 * Nyttige verktøy 
 
-## Dette foredraget er for deg som
+## Foredraget er for deg som
 * Lager video
 * Bruker video i foredrag eller møter
 * Vil vite mer om hva som kreves i lovverket om video på web
