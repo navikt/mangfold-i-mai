@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Dragon speech recognition
+title: "Dragon speech recognition
 speakers:
 summary:
 
@@ -9,7 +9,7 @@ location-type:
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/91942361259?pwd=UzNmOUdrK2loVXFqYnYzZEdpaHovUT09
 
-registration-link:
+registration-link: https://forms.office.com/r/dhXY678f8h?lang=nb-NO
 event-date: 2022-05-13T09:30
 event-date-end: 2022-05-13T10:00
 ---
