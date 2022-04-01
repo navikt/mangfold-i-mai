@@ -40,7 +40,12 @@ Anne Grethe Solberg ble skutt av eksmannen sin i 2006. Først skjøt han henne i
 Anne Grethe vil fortelle hvordan hun har håndtert denne livskrisen og hva treningen har betydd for henne. Hun har en invaliditetsgrad på 70 prosent, men er allikevel mer aktiv enn de fleste av oss. Hun har akseptert sine begrensninger, satt seg mål og mobilisert kreftene sine.
 
 ### Beitostølen Helsesportsenter 
-Beskrivelse kommer. 
+Beitostølen Helsesportsenter tilbyr re-/habilitering i gruppe for barn, unge og voksne med funksjonsnedsettelser. Senterets visjon er «aktivitet og deltagelse gjennom livet» og hovedvirkemidlet er tilpasset fysisk aktivitet. Aktivitetsutprøving og –tilpasning har ført til mange mestringsopplevelser blant senterets brukere. Det har ført til økt aktivitet og deltagelse for  brukerne i sitt lokalmiljø.
+Foredragsholderne vil fortelle om eksempler på hvordan aktivitet blir tilrettelagt for at personer med ulike funksjonsnedsettelser skal ha bedre forutsetninger for å oppleve mestring. I en del tilfeller er tilpasning og bruk av aktivitetshjelpemidler en del av denne tilretteleggingen. Konkrete eksempler fra hverdagen på Helsesportsenteret vil bli presentert.  
+### Ingrid Aarstrand
+Ingrid Aarstrand er fysioterapeut og har flere års erfaring fra arbeid i et tverrfaglig barneteam på Helsesportsenteret. Hun har dermed mye erfaring med å tilrettelegge variert fysisk aktivitet for barn og unge med ulike funksjonsnedsettelser. Denne tilretteleggingen har både fokus på utvikling av individuelle ferdigheter og på hvordan barn og unge kan delta i samspill med andre.
+### Hilde Ingvaldsen
+Hilde Ingvaldsen er ergoterapeut og har lang erfaring med tilpasning og bruk av aktivitetshjelpemidler. Hun jobber i hovedsak med voksne brukere. Hun bidrar i prosessen fra det avdekkes behov for et aktivitetshjelpemiddel, og har ansvar for utprøvinger og søknadsprosesser med aktivitetshjelpemidler.
 
 ### Stiftelsen VI
 I dette foredraget vil Knut Nystad og Bjørnar Erikstad fra Stiftelsen VI gå inn på hvorfor stiftelsens samfunnsansvar er viktig, og hva som må gjøres for å skape varige endringer. 
