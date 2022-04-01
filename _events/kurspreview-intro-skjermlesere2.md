@@ -7,7 +7,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: 
-registration-link: 
+registration-link: https://forms.office.com/r/18n45PpWsp
 event-date: 2022-05-03T09:00
 event-date-end: 2022-05-03T09:50
 ---
