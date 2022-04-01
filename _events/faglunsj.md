@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Faglunsj: Universell utformingav digitale og hybride møter"
+title: "Faglunsj: Universell utforming av digitale og hybride møter"
 speakers: Morten Tollefsen
 summary:
 privacy: public
