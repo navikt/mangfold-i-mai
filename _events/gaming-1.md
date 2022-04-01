@@ -16,9 +16,9 @@ Mats Steen led av en livstruende sykdom og var avhengig av assistanse til alle l
 
 Dette innlegget er en historie som utfordrer oss på hva man definerer som et godt liv, om vennskap, om mestring, tilhørighet og kjærlighet uten fysiske grenser, og om foreldrerollen i en tid der mange ikke forstår hva barna deres egentlig holder på med.
 
-*Innlegget er en gjenpublisering av foredraget Robert Steen hold på SPOT-konferansen til Statped i 2021. Takk til Robert Steen og Statped for samarbeid.
+Innlegget er en gjenpublisering av foredraget Robert Steen hold på SPOT-konferansen til Statped i 2021. Takk til Robert Steen og Statped for samarbeid.
 
-Staped inviterer til neste SPOT-konferanse 26. og 27. oktober, som blir en fysisk konferanse på The Qube, Gardemoen. Program kommer til sommeren.*
+Staped inviterer til neste SPOT-konferanse 26. og 27. oktober, som blir en fysisk konferanse på The Qube, Gardemoen. Program kommer til sommeren.
 
 ## Dette foredraget er for deg som
 - er interessert i gaming og hvordan rollen gamingen tar i individuers liv.
