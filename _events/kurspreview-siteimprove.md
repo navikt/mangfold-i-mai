@@ -7,7 +7,7 @@ privacy: internal
 location-type: Teams
 location-name: NAV-intern teams-møte
 location-link:
-registration-link: https://forms.office.com/r/B4hmMgFHjR?lang=nb-NO
+registration-link: https://forms.office.com/r/cEywUqAdWt?lang=nb-NO
 event-date: 2022-05-04T09:00
 event-date-end: 2022-05-04T10:00
 ---
