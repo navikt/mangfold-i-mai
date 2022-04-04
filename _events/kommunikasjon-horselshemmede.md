@@ -6,8 +6,8 @@ summary: Vi går gjennom ulike typer hørselshemninger og hva du kan gjøre i ko
 privacy: public
 location-type: stream
 location-name: Bli med i Zoom-møtet
-location-link: 
-registration-link: 
+location-link: https://nav-it.zoom.us/j/91594372418?pwd=elVjY0pRODZSUEJaZTVpV3NGTFo4UT09
+registration-link: https://forms.office.com/r/4TKn4MieCt?lang=nb-NO
 event-date: 2022-05-10T08:30
 event-date-end: 2022-05-10T09:00
 ---
