@@ -1,11 +1,11 @@
 ---
 layout: event
 title: "Dragon speech recognition
-speakers:
+speakers: Bengt Jarle
 summary:
 
 privacy: public
-location-type:
+location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/91942361259?pwd=UzNmOUdrK2loVXFqYnYzZEdpaHovUT09
 
