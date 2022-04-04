@@ -2,9 +2,9 @@
 
 Ta kontakt med [Sarah via Slack](https://nav-it.slack.com/archives/D02G9037P1B) hvis du har kommentarer eller spørsmål.  
 
-__Den er en "work in progress" og er ikke klar for publisering ennå.__  Den er ikke kompatibilitetstestet.  Det er en del feil og mangler knyttet skjermleser og mobilvisning.  Det er mye design som mangler, og mange felter som mangler.  
+__Den er en "work in progress".__  Den er ikke kompatibilitetstestet.  Det er en del feil og mangler knyttet skjermleser og mobilvisning.  Det er mye design som mangler, og en del felter som mangler.  
 
-Du kan derimot begynne å legge inn innhold.  
+Du kan derimot legge inn innhold.  
 
 ## Foredragssidene
 Legg til en foredrag ved å velge "Add file > Create new file" i [events-mappa](https://github.com/navikt/mangfold-i-mai/tree/main/_events). Navngi filen med foredragets tittel, separert med bindestrekk, f.eks. [aria-basics.md](https://github.com/navikt/mangfold-i-mai/blob/main/_speakers/aria-basics.md). 
