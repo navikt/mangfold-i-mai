@@ -24,11 +24,11 @@ Ikke gå glipp av dette seminaret med inspirerende og kreative foredragsholdere.
 
 12:00 Norges kuleste dame med én arm; Anne Grethe Solberg
 
-12:30 Beitostølen helsesportsenter
+12:30 Beitostølen helsesportsenter; Ingrid Aarstrand og Hilde Ingvaldsen
 
 13:05 Like muligheter til å prestere; Knut Nystad og Bjørnar Erikstad (Stiftelsen VI)
 
-13:30 Fra samfunnsbyrde til ressurspersoner
+13:30 Fra samfunnsbyrde til ressurspersoner; Håkon Gisholt
 
 ## Hva handler foredragene om?
 
