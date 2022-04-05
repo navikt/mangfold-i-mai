@@ -2,7 +2,7 @@
 layout: event
 title: Inkluderende gaming arcade
 speakers:
-summary: Kom og spill - og prøv spill med hjelpemidler.
+summary: Kom og spill - og prøv spill med hjelpemidler, blant annet Forza Horizon på Xbox One med adaptive controller.
 privacy: 
 location-type: in-person
 location-name: FYA, Rom "Samfunnet" ved kantina
