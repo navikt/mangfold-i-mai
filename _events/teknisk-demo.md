@@ -16,7 +16,7 @@ Digitale og hybride møter har vi blitt vant til. Men, er vi gode til å avvikle
 
 Velkommen: vi skal være best på inkludering i NAV, og det betyr at møtene våre skal være tilgjengelige for alle.
 
-Påmeldingen skjer gjennom påmelding til teknisk demo. Se [NAV-intern side om tekmisk demo](https://confluence.adeo.no/display/FAIOD/Teknisk+demo).
+Påmeldingen skjer gjennom påmelding til teknisk demo. Se [NAV-intern side om teknisk demo](https://confluence.adeo.no/display/FAIOD/Teknisk+demo).
 
 ## Dette foredraget er for deg som
 Ønsker å skape en mer inkluderende arbeidshverdag.
