@@ -16,7 +16,7 @@ Digitale og hybride møter har vi blitt vant til. Men, er vi gode til å avvikle
 
 Velkommen: vi skal være best på inkludering i NAV, og det betyr at møtene våre skal være tilgjengelige for alle.
 
-Påmeldingen skjer gjennom Gruppen som jobber med Faglunsj og kommer i slutten av april.
+Påmeldingen skjer gjennom Gruppen som jobber med Faglunsj og kommer i slutten av april. https://www.meetup.com/nav-faglunsj/
 
 ## Dette foredraget er for deg som
 Ønsker å skape en mer inkluderende arbeidshverdag.
