@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Empatilunsj
+title: Empatilunsj (som del av onboarding)
 speakers: Team inkluderende design
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 privacy:
@@ -20,6 +20,9 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 - Innblikk i å leve med en funksjonsnedsettelse.
 - Oversikt over ulike brukergrupper å ta hensyn til.
 - Empatilunsj; NB: på egen regning – og eget ansvar!
+
+
+Akkurat denne lunsjen er del av Direktorates onboarding. Så deltakerne på onboardingen blir prioritert, men meld deg på så ser vi om det er noen ledige plasser.
 
 ## Dette foredraget er for deg som ønsker å
 - Bygge opp bevissthet og kompetanse om UU.
