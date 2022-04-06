@@ -5,7 +5,7 @@ speakers: Sigbjørn Råsberg
 summary:
 privacy: public
 location-type: stream
-location-name: Bli med i Zoom-møtet
+location-name: Påmelding ikke nødvendig - bare bli med i Zoom-møtet.
 location-link: https://nav-it.zoom.us/j/92651849580?pwd=eUhCK0tUYVptcFRyUzNwbDBYeGpvZz09
 registration-link: https://forms.office.com/r/xq2WaqYJc7?lang=nb-NO
 event-date: 2022-05-06T10:00
