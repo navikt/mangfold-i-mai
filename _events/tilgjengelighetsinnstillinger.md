@@ -7,6 +7,7 @@ summary: Hvilke tiljgengelighetsfunksjoner ligger i operativsystemet til din mas
 privacy: public
 
 location-type: stream
+location-name: Zoom
 location-link:
 location-hybrid: 
 
