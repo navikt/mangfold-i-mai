@@ -27,4 +27,4 @@ Workshopen har et begrenset deltakertall, men vi skal dele resultater etter work
 ## Dette er for deg som
 - jobber med anskaffelser i det offentlige.
 (begrenset deltakertall)
-Påmelding: Send oss en epost. universell.utforming@nav.no
+Påmelding: Send oss en epost på [universell.utforming@nav.no](mailto:universell.utforming@nav.no).
