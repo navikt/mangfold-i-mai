@@ -3,11 +3,16 @@ layout: event
 title: "Faglunsj: Universell utforming av digitale og hybride møter"
 speakers: Morten Tollefsen
 summary:
+
 privacy: public
-location-type: Zoom
-location-name:
+
+location-type: stream
+location-name: Zoom
 location-link:
+location-hybrid: 
+
 registration-link:
+
 event-date: 2022-05-11T11:00
 event-date-end: 2022-05-11T12:00
 ---

@@ -1,12 +1,12 @@
 {% assign d = page.event-date | date: "%A" %}
 {% case d %}
-    {% when 'Monday' %}Mandag,
-    {% when 'Tuesday' %}Tirsdag,
-    {% when 'Wednesday' %}Onsdag,
-    {% when 'Thursday' %}Torsdag,
-    {% when 'Friday' %}Fredag,
-    {% when 'Saturday' %}Lørdag,
-    {% when 'Sunday' %}Søndag,
+    {% when 'Monday' %}Mandag
+    {% when 'Tuesday' %}Tirsdag
+    {% when 'Wednesday' %}Onsdag
+    {% when 'Thursday' %}Torsdag
+    {% when 'Friday' %}Fredag
+    {% when 'Saturday' %}Lørdag
+    {% when 'Sunday' %}Søndag
 {% endcase %}
 
 {% assign m = page.event-date | date: "%-m" %}

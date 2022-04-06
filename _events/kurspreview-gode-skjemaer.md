@@ -1,13 +1,18 @@
 ---
 layout: event
-title: "Gode skjemaer"
+title: "Good form: hvordan lage skjemaer som funker bra for alle"
 speakers: Sarah Brodwall
-summary: Hvordan designe og implementere skjemaer som fungerer bra for alle. Kurset blir en del av NAVs interne kurskatalog.
+summary: Tips for design og implementasjon av universelt utformet skjemaer.
+
 privacy: public
+
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/98667685463?pwd=NDRiengzTTNPTWg0eGJ6R0hKK0NpUT09
+location-hybrid:
+
 registration-link: https://forms.office.com/r/MaseayExPi?lang=nb-NO
+
 event-date: 2022-05-18T10:00
 event-date-end: 2022-05-18T11:00
 ---

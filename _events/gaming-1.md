@@ -3,11 +3,16 @@ layout: event
 title: "Om å finne flokken sin i gaming - hva definerer et verdifullt liv?"
 speakers: Robert Steen
 summary: 
+
 privacy: public
-location-type: teams
-location-name:
+
+location-type: stream
+location-name: Zoom
 location-link:
+location-hybrid:
+
 registration-link: https://forms.office.com/r/UmcJWkXbWN?lang=nb-NO
+
 event-date: 2022-05-19T09:00
 event-date-end: 2022-05-19T09:30
 ---

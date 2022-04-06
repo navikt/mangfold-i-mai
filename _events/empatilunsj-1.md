@@ -3,11 +3,14 @@ layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
-privacy: 
+
+privacy: internal 
+
 location-type: in-person
-location-name: Fyrstikkalléen 1, 0661 Oslo, Rom B104 Gnisten
-location-link:
+location-name: Fyrstikkalléen 1, Rom B104 Gnisten
+
 registration-link: https://forms.office.com/r/7QLNFdhHux?lang=nb-NO
+
 event-date: 2022-05-02T10:30
 event-date-end: 2022-05-02T12:00
 ---

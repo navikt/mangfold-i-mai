@@ -3,11 +3,16 @@ layout: event
 title: "Universell utforming av video"
 speakers: Morten Tollefsen
 summary: Synstolking, teksting... Hvordan få videoer til å være universelt utformet? Kurset blir del av NAVs interne kurskatalog.
+
 privacy: public
-location-type:
-location-name: Zoom-møte
+
+location-type: stream
+location-name: Zoom
 location-link:  https://nav-it.zoom.us/j/91250867205?pwd=ZDloLzBSTjdyMmU2YXZNbDE2Nm84dz09
+location-hybrid:
+
 registration-link: https://forms.office.com/r/neZtSBCLE0?lang=nb-NO
+
 event-date: 2022-05-10T14:00
 event-date-end: 2022-05-10T15:00
 ---

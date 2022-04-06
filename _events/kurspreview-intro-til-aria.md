@@ -3,11 +3,16 @@ layout: event
 title: "Intro til ARIA"
 speakers: Sarah Brodwall
 summary: Dette bør du vite før du tar ARIA i bruk i løsningene dine. Kurset blir en del av NAVs interne kurskatalog.
+
 privacy: public
+
 location-type: stream
-location-name: Live-stream på Zoom
+location-name: Zoom
 location-link: https://nav-it.zoom.us/j/99266251058?pwd=RHJhZEIwTHJBLzZUcUJJSFN4a2pDdz09
+location-hybrid:
+
 registration-link: https://forms.office.com/r/anJD4Dqs5p?lang=nb-NO
+
 event-date: 2022-05-02T10:00
 event-date-end: 2022-05-02T11:00
 ---

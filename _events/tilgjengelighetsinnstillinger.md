@@ -3,11 +3,15 @@ layout: event
 title: "Hemmelighetene i innstillingsmenyene på Chromebook, Windows og iPad"
 speakers: [Gitte Gjersdal, Inger Lene Hustuft, Yngvild Rye]
 summary: Hvilke tiljgengelighetsfunksjoner ligger i operativsystemet til din maskin?
+
 privacy: public
-location-type: zoom
-location-name:
+
+location-type: stream
 location-link:
+location-hybrid: 
+
 registration-link: https://forms.office.com/r/aMSTFWQbMg?lang=nb-NO
+
 event-date: 2022-05-13T14:00
 event-date-end: 2022-05-13T15:00
 ---

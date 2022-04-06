@@ -3,11 +3,14 @@ layout: event
 title: Empatilunsj
 speakers: Team inkluderende design
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
-privacy:
+
+privacy: internal
+
 location-type: in-person
-location-name: B104 Gnisten og kantina
-location-link:
+location-name: Fyrstikkalléen 1, Rom B104 Gnisten
+
 registration-link: https://forms.office.com/r/B4hmMgFHjR?lang=nb-NO
+
 event-date: 2022-05-04T10:30
 event-date-end: 2022-05-04T12:00
 ---

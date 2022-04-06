@@ -4,11 +4,15 @@ layout: event
 title: "Workshop: We’re ARIA Live!"
 speakers: Eric Eggert
 summary: Workshop rundt live-regions i ARIA. Ta gjerne "Intro til ARIA" først hvis du ønsker å få maks utbytte av workshopen.
-privacy: 
+
+privacy: internal
+
 location-type: stream
-location-name: NAV-intern Teams-møte, Fyrstikkalleen 1, B114 Gløden
-location-link: 
-registration-link: https://forms.office.com/r/Ey2MuGXNA8?lang=nb-NO
+location-name: Teams
+location-hybrid: B114 Gløden
+
+registration-info: The workshop has a limited number of participants.  NAV employees can <a href="https://forms.office.com/r/Ey2MuGXNA8?lang=nb-NO">register via Forms</a>.
+
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30
 ---
@@ -18,6 +22,3 @@ In this interactive workshop, Eric Eggert teaches the ins and outs, the ups and 
 
 ## Who is it for?
 Developers / people developing front-end code.
-
-## Registration
-Coming soon - Limited number of participants.

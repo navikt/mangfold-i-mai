@@ -3,11 +3,16 @@ layout: event
 title: "Trening gir mening"
 speakers: [Anne Grethe Solberg, Beitostølen Helsesportsenter, Knut Nystad, Bjørnar Erikstad, Håkon Gisholt]
 summary: Hør om prosjekter og enkeltpersoner som bruker fysisk aktivitet til mestring, inkludering og som viser noen av de mange forutsetningene, preferansene og behovene vi skal ta høyde for i arbeidet vårt.
-privacy: open
+
+privacy: public
+
 location-type: stream
-location-name: Zoom-møte
+location-name: Zoom
 location-link: https://nav-it.zoom.us/j/99036940078?pwd=M1NESVVWTCtJNnNRMjYrdTN1YlF1dz09
+location-hybrid:
+
 registration-link: https://forms.office.com/r/51yBUDTG5b?lang=nb-NO
+
 event-date: 2022-05-09T12:00
 event-date-end: 2022-05-09T15:00
 ---

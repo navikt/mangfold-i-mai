@@ -5,11 +5,16 @@ layout: event
 title: "Respecting User Preferences on the Web"
 speakers: Eric Eggert
 summary:
+
 privacy: public
-location-type:
-location-name: Zoom-møte
+
+location-type: stream
+location-name:  Zoom
 location-link: https://nav-it.zoom.us/j/94260281715?pwd=M3JTSHRvVkJENWp3aGM5aWUwc0JHZz09
+location-hybrid: 
+
 registration-link: https://forms.office.com/r/8cf08CwzQv?lang=nb-NO
+
 event-date:     2022-05-13T08:30
 event-date-end: 2022-05-13T09:15
 ---

@@ -2,12 +2,16 @@
 layout: event
 title: Åpen dag hos hjelpemiddelsentralene
 speakers:
-summary: Hør min din lokale hjelpemiddelsentral for nærmere informasjon om programmet denne dagen.
+summary: Hør med din lokale hjelpemiddelsentral for nærmere informasjon om programmet denne dagen.
+
 privacy: public
+
 location-type: in-person
-location-name:
-location-link:
-registration-link:
+location-name: Din lokal NAV Hjelpemiddelsentral
+location-link: https://www.nav.no/no/person/hjelpemidler/hjelpemidler-og-tilrettelegging/kontakt-nav-hjelpemiddelsentral
+
+registration-info: "Ta kontakt med <a href='https://www.nav.no/no/person/hjelpemidler/hjelpemidler-og-tilrettelegging/kontakt-nav-hjelpemiddelsentral'>din lokale hjelpemiddelsentral</a> for nærmere informasjon."
+
 event-date: 2022-05-13T08:00
 event-date-end: 2022-05-13T15:00
 ---

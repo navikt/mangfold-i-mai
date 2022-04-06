@@ -5,60 +5,102 @@ layout: default
 {% include page-header.html %}
 
 <dl>
-    <dt>Dato</dt>
-    <dd>{% include localized-date.html %}</dd>
 
-    <dt>Tid</dt>
-    <dd>
-        {% assign hour = page.event-date | date: "%H" %}
-        {% if hour == "00" %}
-            Hele dagen
+    <!-- PRIVACY -->
+    <dt>Hvem kan delta?</dt>
+
+    <dd class="privacy {{ page.privacy}}">
+        {% if page.privacy == "internal" %}
+        Arrangementet er kun for NAV-ansatte.
         {% else %}
-            {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
-        {% endif %}
-    </dd>
-
-    <dt>Sted</dt>
-    <dd>
-        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}
-            {{ page.location-name }}
-        {% if page.location-link %}</a>{% endif%}
-    </dd>
-
-    <dt>
-        {% if page.speakers[1] %}
-            Foredragsholdere
-        {% else %}
-            Foredragsholder
-        {% endif %}
-    </dt>
-
-    {% for speaker in page.speakers %}
-    {% for site-speaker in site.speakers %}
-    {% if site-speaker.name == speaker %}
-        <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-
-    <dt>Arrangementet er åpent for</dt>
-    <dd>
-        {% if page.privacy == internal %}
-            Alle NAV-ansatte
-        {% else %}
-            Alle
+        Arrangemenetet er åpent for hele verden.
         {% endif%}
     </dd>
-</dl>
-{% if page.registration-link %}
-    <p class="registration-link"><a href="{{ page.registration-link }}">Påmelding for ansatte i NAV</a></p>
-{% endif %}
 
-{% if page.language %}
-<div lang="{{page.language}}">{% endif %}
 
-    {{ content }}
+    <!-- REGISTRATION -->
+
+    <dt>Hvordan melder jeg meg på?</dt>
+
+    {% if page.privacy == "public" %}
+    {% if page.location-type == "stream" %}
+    <dd class="registration">Ingen påmelding, det er bare å delta via <a
+            href="{{page.location-link}}">{{page.location-name}}</a>.
+    </dd>
+    <dd class="registration internal">Er du ansatt i NAV, kan du <a
+            href="{{ page.registration-link }}">be om en kalenderinvitasjon</a>.
+    </dd>
+    {% endif %}
+    {% endif %}
+
+    {% if page.privacy == "internal" %}
+    {% if page.registration-link %}
+    <dd class="registration internal">NAV-ansatte kan <a href="{{ page.registration-link }}">melde seg på via Forms</a>.
+    </dd>
+    {% endif %}
+    {% endif %}
+
+    {% if page.registration-info %}
+    <dd class="registration">{{ page.registration-info }}</dd>
+    {% endif %}
+
+
+    <!-- LOCATION -->
+
+    <dt>Hvor skjer det?</dt>
+
+    {% if page.location-name %}
+    <dd class=" location {{ page.location-type }}">
+        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}
+        {{ page.location-name }}
+        {% if page.location-link %}</a>{% endif%}
+    </dd>
+    {% endif %}
+
+    {% if page.location-hybrid %}
+    <dd>NAV-ansatte kan se på streamet i Fyrstikkalléen 1 i rom {{ page.location-hybrid }}.</dd>
+    {% endif%}
+
+
+    <!-- ABOUT THE EVENT -->
+
+    <dt>Når skjer det?</dt>
+    <dd>
+        {% include localized-date.html %}
+        <br>
+        {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
+    </dd>
+
+
+    {% if page.ics %}
+    <dd>
+
+        <a href="ics/{{page.slug}}.ics">Last ned kalendereventet (ics-fil)</a>
+
+    </dd>
+    {% endif %}
+
 
     {% if page.language %}
-</div>
-{% endif %}
+    <div lang="{{page.language}}">{% endif %}
+
+        {% if page.speakers %}
+
+        <dt>Hvem er foredragsholderen?</dt>
+
+        {% for speaker in page.speakers %}
+        {% for site-speaker in site.speakers %}
+        {% if site-speaker.name == speaker %}
+        <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+
+        {% endif %}
+
+
+        {{ content }}
+
+        {% if page.language %}
+    </div>
+    {% endif %}

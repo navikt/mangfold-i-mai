@@ -3,11 +3,16 @@ layout: event
 title: Hvordan kommuniserer du best med hørselshemmede i ulike situasjoner?
 speakers: [Anke Imsen, Hilde Kristine Braadland-Eriksson]
 summary: Vi går gjennom ulike typer hørselshemninger og hva du kan gjøre i kommunikasjon med dem slik at dere forstår hverandre.
+
 privacy: public
+
 location-type: stream
-location-name: Bli med i Zoom-møtet
+location-name: Zoom
 location-link: https://nav-it.zoom.us/j/91594372418?pwd=elVjY0pRODZSUEJaZTVpV3NGTFo4UT09
+location-hybrid:
+
 registration-link: https://forms.office.com/r/4TKn4MieCt?lang=nb-NO
+
 event-date: 2022-05-10T08:30
 event-date-end: 2022-05-10T09:00
 ---

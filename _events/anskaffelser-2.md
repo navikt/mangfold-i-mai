@@ -3,11 +3,15 @@ layout: event
 title: UU i anskaffelser - workshop for bedre leverandøroppfølging
 speakers: Sigbjørn Råsberg
 summary:
-privacy: internal
+
+privacy: public
+
 location-type: in-person
-location-name: FYA
-location-link:
-registration-link:
+location-name: Fyrstikkalléen 1, 0661 Oslo
+location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
+
+registration-info: "Antall deltagere er begrenset.  <a href='mailto:universell.utforming@nav.no?subject=Påmelding til anskaffelsesworkshoppen'>Ta kontakt med oss via epost</a> om du er interessert i å delta."
+
 event-date: 2022-05-06T12:00
 event-date-end: 2022-05-06T15:00
 ---

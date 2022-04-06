@@ -3,11 +3,16 @@ layout: event
 title: "Tilgjengelig yoga – verktøy til Empowerment/egenkraftmobilisering"
 speakers: Line Fritzon
 summary: Foredrag og yoga-session på stol. Hvilken rolle kan yoga spille for inkludering?
+
 privacy: public
+
 location-type: stream
-location-name: Zoom-møte
+location-name: Zoom
 location-link:  https://nav-it.zoom.us/j/94574837776?pwd=RlJtUFR5YjRpVTIxcm9SL2cydHdUUT09
+location-hybrid: 
+
 registration-link: https://forms.office.com/r/jU0trNCKMv?lang=nb-NO
+
 event-date: 2022-05-09T08:15
 event-date-end: 2022-05-09T09:30
 ---

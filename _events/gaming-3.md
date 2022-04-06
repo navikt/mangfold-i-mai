@@ -3,11 +3,14 @@ layout: event
 title: Inkluderende gaming arcade
 speakers:
 summary: Kom og spill - og prøv spill med hjelpemidler, blant annet Forza Horizon på Xbox One med adaptive controller.
-privacy: 
+
+privacy: internal 
+
 location-type: in-person
-location-name: FYA, Rom "Samfunnet" ved kantina
-location-link:
-registration-link:
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
+
+registration-info: "Ingen påmelding, det er bare å komme til kantina og spille :)"
+
 event-date: 2022-05-19T10:30
 event-date-end: 2022-05-19T15:00
 ---
@@ -20,7 +23,7 @@ Vi ønsker å vise hvordan gaming kan gjøres tilgjengelig for flere, spesielt d
 - Last of Us part 2 på Playstation 4 med synshemning
 - og flere andre spill med ulike tilpasninger og hjelpemidler.
 
-Bare å komme til kantina og spille :) 
+
 
 ## Dette foredraget er for deg som
 - ønsker å se hvordan man kan spille hvis man bruker hjelpemidler

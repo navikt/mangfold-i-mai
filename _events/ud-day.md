@@ -5,11 +5,15 @@ layout: event
 title: Universal Design Day
 speakers: Anthony Giannoumis
 summary:
+
 privacy: public
-location-type: 
-location-name: Oslo Metropolitan University – Room TBA  
-location-link:
-registration-link: https://universal.design/udday22
+
+location-type: in-person
+location-name: OsloMet
+location-link: https://goo.gl/maps/PrMsmRVxZquQpBvo9
+
+registration-info: "Register on the <a href='https://universal.design/udday22'>Universal Design Day</a> website."
+
 event-date: 2022-05-24T09:30
 event-date-end: 2022-05-24T15:30
 ---

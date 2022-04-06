@@ -3,11 +3,16 @@ layout: event
 title: "Kjønnsdelte hjelpemidler? Kartlegging av hjelpemidler til personer med nedsatt funksjonsevne"
 speakers: Annette Solberg
 summary: Er det forskjell i hva slags hjelpemidler man for avhengig av kjønn?
+
 privacy: public
+
 location-type: stream
-location-name: Zoom-møte
+location-name: Zoom
 location-link: https://nav-it.zoom.us/j/97717821945?pwd=ckNpajI0RTFXU2NjejF4VE9tdXpCUT09
+location-hybrid: 
+
 registration-link: https://forms.office.com/r/ar2XeDpPit?lang=nb-NO
+
 event-date: 2022-05-12T10:00
 event-date-end: 2022-05-12T10:30
 ---

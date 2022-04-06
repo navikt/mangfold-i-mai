@@ -3,11 +3,14 @@ layout: event
 title: Test min løsning
 speakers: Ståle Kjone
 summary: Brukertest med personer som bruker hjelpemidler.
+
 privacy: internal 
+
 location-type: in-person
-location-name:
-location-link:
-registration-link:
+location-name: Testlabben i kjelleren til Fyrstikkalléen 1
+
+registration-info: "Ta kontakt på <a href='https://nav-it.slack.com/archives/C021CRRFN2H'>Slack-kanalen #testlab (NAV internal)</a> for å booke en testtid."
+
 event-date: 2022-05-20T10:00
 event-date-end: 2022-05-20T15:00
 ---
@@ -23,7 +26,6 @@ kl 13 til 14.30 VIP-bruker 2
 
 Mer om "Test min løsning" på [NAVs veiledningssider om universell utforming](https://navikt.github.io/uu/hvordan-faa-det-til/UU-testing/brukertesting/test-min-l%C3%B8sning/).
 
-Hvis du ønsker å booke en testtid her, ta kontakt på NAV-intern slack-kanal #testlab.
 
 ## Dette foredraget er for deg som
 - ønsker å brukerteste løsningen du jobber med med ekte personer som bruker hjelpemidler.

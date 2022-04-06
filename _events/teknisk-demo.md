@@ -3,11 +3,14 @@ layout: event
 title: Teknisk demo - universell utforming av digitale og hybride møter
 speakers: Morten Tollefsen
 summary: Et foredrag for deg som arrangerer og/eller deltar på digitale og hybride møter, og det gjør vi vel alle sammen?
-privacy:
+
+privacy: internal
 location-type: stream
 location-name: Zoom
-location-link:
-registration-link:
+location-hybrid: 
+
+registration-info: "NAV-ansatte kan delta ved å <a href='https://confluence.adeo.no/display/FAIOD/Teknisk+demo'>melde seg på Teknisk Demo på Confluence</a>."
+
 event-date: 2022-05-03T12:00
 event-date-end: 2022-05-03T13:00
 ---
@@ -16,7 +19,7 @@ Digitale og hybride møter har vi blitt vant til. Men, er vi gode til å avvikle
 
 Velkommen: vi skal være best på inkludering i NAV, og det betyr at møtene våre skal være tilgjengelige for alle.
 
-Påmeldingen skjer gjennom påmelding til teknisk demo. Se [NAV-intern side om teknisk demo](https://confluence.adeo.no/display/FAIOD/Teknisk+demo).
+
 
 ## Dette foredraget er for deg som
 Ønsker å skape en mer inkluderende arbeidshverdag.

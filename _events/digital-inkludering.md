@@ -3,11 +3,15 @@ layout: event
 title: "(Digital) inkludering. Ta vare på de som er utafor"
 speakers: [Ina Aschim, Lovise Justad]
 summary: Dette er en historie om noen av de som strever mest med å delta digitalt.
+
 privacy: public
+
 location-type: stream
-location-name: Zoom-møte
+location-name: Zoom
 location-link: https://nav-it.zoom.us/j/98271717368?pwd=ak9iYTdoNDJpYTF6MU5aSXJNMjhNUT09
+
 registration-link: https://forms.office.com/r/Hmg0Q9peEH?lang=nb-NO
+
 event-date: 2022-05-12T13:00
 event-date-end: 2022-05-12T13:30
 ---

@@ -5,10 +5,12 @@ speakers: Eidar Vollan
 summary: NAV-intern workshop rundt design-prinsipper.
 
 privacy: internal
+
 location-type: in-person
-location-name: Fyrstikkalléen 1, 10661 Oslo, Rom B104 Gnisten
-location-link:
-registration-link:
+location-name: Fyrstikkalléen 1, Rom B104 Gnisten
+
+registration-info: "Antall deltagere er begrenset. Ta kontakt med Eidar Vollan om du er interessert i å delta."
+
 event-date: 2022-05-11T12:00
 event-date-end: 2022-05-11T15:00
 ---

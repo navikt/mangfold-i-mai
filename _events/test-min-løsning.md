@@ -3,11 +3,14 @@ layout: event
 title: Test min løsning
 speakers: Ståle Kjone
 summary: Brukertest med personer som bruker hjelpemidler.
+
 privacy: internal 
+
 location-type: in-person
-location-name:
-location-link:
-registration-link:
+location-name: Testlabben i kjelleren til Fyrstikkalléen 1
+
+registration-info: "Ta kontakt på <a href='https://nav-it.slack.com/archives/C021CRRFN2H'>Slack-kanalen #testlab (NAV internal)</a> for å booke en testtid."
+
 event-date: 2022-05-25T10:00
 event-date-end: 2022-05-25T15:00
 ---
