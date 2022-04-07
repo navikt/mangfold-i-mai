@@ -89,7 +89,8 @@ layout: default
             <dt>Hvem er foredragsholderen?</dt>
 
             {% for speaker in page.speakers %}
-                {% assign render-speaker = undefined %}
+                {% assign render-speaker-name = undefined %}
+                {% assign render-speaker-url = undefined %}
 
                 {% for site-speaker in site.speakers %}
                     {% if site-speaker.name == speaker %}
@@ -98,7 +99,7 @@ layout: default
                     {% endif %}
                 {% endfor %}
 
-                {% if render-speaker == undefined %}
+                {% if render-speaker-name == undefined %}
                     {% assign render-speaker-name = speaker %}
                 {% endif %}
 
