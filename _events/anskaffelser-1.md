@@ -20,8 +20,8 @@ event-date-end: 2022-05-06T11:00
 ics: true
 
 ---
-## Hva handler det her om?
-Beskrivelse kommer.
+## Hva handler foredraget om?
+For mange virksomheter er nye ikt-systemer synonymt med en anskaffelsesprosess. I dette foredraget vil Sigbjørn Råsberg gå gjennom hvilke særskilte krav til universell utforming man må ta hensyn til i anskaffelsesprosessen, samt anbefalinger og beste praksis. Videre vil han gå inn på forhold som bør hensyntas i forbindelse med kontrakten.
 
 ## Dette foredraget er for deg som
 - jobber med eller er interessert i anskaffelser, spesielt i det offentlige
