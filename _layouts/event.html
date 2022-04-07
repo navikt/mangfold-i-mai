@@ -100,10 +100,10 @@ layout: default
                 {% endfor %}
 
                 {% if render-speaker-name == undefined %}
-                    {% assign render-speaker-name = speaker %}
+                    <dd>{{ speaker }}</dd>
+                {% else %}
+                    <dd><a href="{{ render-speaker-url }}">{{ render-speaker-name }}</a></dd>
                 {% endif %}
-
-                <dd><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></dd>
 
             {% endfor %}
 
