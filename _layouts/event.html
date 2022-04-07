@@ -90,19 +90,17 @@ layout: default
 
             {% for speaker in page.speakers %}
                 {% assign render-speaker-name = undefined %}
-                {% assign render-speaker-url = undefined %}
 
                 {% for site-speaker in site.speakers %}
                     {% if site-speaker.name == speaker %}
                         {% assign render-speaker-name = site-speaker.name %}
-                        {% assign render-speaker-url = site-speaker.url %}
                     {% endif %}
                 {% endfor %}
 
                 {% if render-speaker-name == undefined %}
                     <dd>{{ speaker }}</dd>
                 {% else %}
-                    <dd><a href="{{ render-speaker-url }}">{{ render-speaker-name }}</a></dd>
+                    <dd><a href="{{ relative_url }}">{{ render-speaker-name }}</a></dd>
                 {% endif %}
 
             {% endfor %}
