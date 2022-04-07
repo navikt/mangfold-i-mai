@@ -86,15 +86,25 @@ layout: default
 
         {% if page.speakers %}
 
-        <dt>Hvem er foredragsholderen?</dt>
+            <dt>Hvem er foredragsholderen?</dt>
 
-        {% for speaker in page.speakers %}
-        {% for site-speaker in site.speakers %}
-        {% if site-speaker.name == speaker %}
-        <dd><a href="{{ site-speaker.url | relative_url }}">{{ speaker }}</a></dd>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
+            {% for speaker in page.speakers %}
+                {% assign render-speaker = undefined %}
+
+                {% for site-speaker in site.speakers %}
+                    {% if site-speaker.name == speaker %}
+                        {% assign render-speaker-name = site-speaker.name %}
+                        {% assign render-speaker-url = site-speaker.url %}
+                    {% endif %}
+                {% endfor %}
+
+                {% if render-speaker == undefined %}
+                    {% assign render-speaker-name = speaker %}
+                {% endif %}
+
+                <dd><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></dd>
+
+            {% endfor %}
 
         {% endif %}
 
