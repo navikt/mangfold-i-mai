@@ -79,10 +79,21 @@
                        <span>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</span></span>
 
                     <span class="summary">
-                        {{event.summary}}
-                        {% if event.speakers %}
-                            <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+
+                        {% if event.summary-special %}
+
+                            {{ event.summary-special }}
+
+                        {% else %}
+
+                            {{event.summary}}
+
+                            {% if event.speakers %}
+                                <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+                            {% endif %}
+
                         {% endif %}
+
                     </span>
 
             </li>
