@@ -3,7 +3,7 @@ lang: en
 
 layout: event
 title: How Vipps works to ensure inclusive design in everyday work
-speakers: [Arranged by Posten","Max Schrøder, Head of Design at Vipps"]
+speakers: ["Arranged by Posten","Max Schrøder, Head of Design at Vipps"]
 summary-special: "[Arranged by Posten] How did Vipps go from a service that excluded users with visual impairments, to winning awards for universal design? Presented by Max Schrøder, Head of Design at Vipps."
 
 privacy: public
