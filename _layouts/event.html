@@ -7,6 +7,7 @@ layout: default
 <dl>
 
     <!-- PRIVACY -->
+
     <dt>Hvem kan delta?</dt>
 
     <dd class="privacy {{ page.privacy}}">
@@ -62,7 +63,7 @@ layout: default
     {% endif%}
 
 
-    <!-- ABOUT THE EVENT -->
+    <!-- DATE AND TIME -->
 
     <dt>Når skjer det?</dt>
     <dd>
@@ -73,45 +74,42 @@ layout: default
 
 
     {% if page.ics %}
-    <dd>
-
-        <a href="ics/{{page.slug}}.ics">Last ned kalendereventet (ics-fil)</a>
-
-    </dd>
+        <dd>
+            <a href="ics/{{page.slug}}.ics">Last ned kalendereventet (ics-fil)</a>
+        </dd>
     {% endif %}
 
+    <!-- SPEAKERS -->
 
-    {% if page.language %}
-    <div lang="{{page.language}}">{% endif %}
+    {% if page.speakers %}
 
-        {% if page.speakers %}
+    <dt>Hvem holder foredraget?</dt>
 
-            <dt>Hvem er foredragsholderen?</dt>
+    {% for speaker in page.speakers %}
+    {% assign render-speaker-name = undefined %}
+    {% assign render-speaker-url = undefined %}
 
-            {% for speaker in page.speakers %}
-                {% assign render-speaker-name = undefined %}
-                {% assign render-speaker-url = undefined %}
-
-                {% for site-speaker in site.speakers %}
-                    {% if site-speaker.name == speaker %}
-                        {% assign render-speaker-name = site-speaker.name %}
-                        {% assign render-speaker-url = site-speaker.url %}
-                    {% endif %}
-                {% endfor %}
-
-                {% if render-speaker-name == undefined %}
-                    <dd>{{ speaker }}</dd>
-                {% else %}
-                    <dd><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></dd>
-                {% endif %}
-
-            {% endfor %}
-
-        {% endif %}
-
-
-        {{ content }}
-
-        {% if page.language %}
-    </div>
+    {% for site-speaker in site.speakers %}
+    {% if site-speaker.name == speaker %}
+    {% assign render-speaker-name = site-speaker.name %}
+    {% assign render-speaker-url = site-speaker.url %}
     {% endif %}
+    {% endfor %}
+
+    {% if render-speaker-name == undefined %}
+    <dd>{{ speaker }}</dd>
+    {% else %}
+    <dd><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></dd>
+    {% endif %}
+
+    {% endfor %}
+
+    {% endif %}
+
+</dl>
+
+{% if page.language %}<div lang="{{page.language}}">{% endif %}
+
+{{ content }}
+
+{% if page.language %}</div>{% endif %}
