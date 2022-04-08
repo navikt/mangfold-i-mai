@@ -10,9 +10,10 @@ privacy: public
 
 location-type: in-person
 location-name: OsloMet
+location-link: https://goo.gl/maps/PrMsmRVxZquQpBvo9
 
-registration-type: link
-registration-link: https://forms.office.com/r/WmyamNnd27
+registration-info: "NAV employees can <a href='https://forms.office.com/r/WmyamNnd27'>register via Forms</a>. Others can register on the <a href='https://universal.design/udday22#block-e44b68dc9d24bae4f203'>Universal Design Day</a> website."
+
 
 event-date: 2022-05-23T09:00
 event-date-end: 2022-05-23T18:00
