@@ -9,6 +9,7 @@ privacy: internal
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 
+registration: true
 registration-info: "Antall deltagere er begrenset. Ta kontakt med Eidar Vollan om du er interessert i å delta."
 
 event-date: 2022-05-11T12:00

@@ -3,15 +3,15 @@ language: en
 
 layout: event
 title: Universal Design Day
-speakers: Anthony Giannoumis
-summary:
+summary: Universal Design Day har som formål å  bevisstgjøre om fordelene med universell utforming og feire den positive innflytelsen universell utforming har i samfunnet.  
 
 privacy: public
 
-location-type: in-person
+location-type: hybrid
 location-name: OsloMet
 location-link: https://goo.gl/maps/PrMsmRVxZquQpBvo9
 
+registration: true
 registration-info: "Register on the <a href='https://universal.design/udday22'>Universal Design Day</a> website."
 
 event-date: 2022-05-24T09:30

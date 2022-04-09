@@ -9,6 +9,7 @@ privacy: internal
 location-type: in-person
 location-name: Testlabben i kjelleren til Fyrstikkalléen 1
 
+registration: true
 registration-info: "Ta kontakt på <a href='https://nav-it.slack.com/archives/C021CRRFN2H'>Slack-kanalen #testlab (NAV internal)</a> for å booke en testtid."
 
 event-date: 2022-05-20T10:00

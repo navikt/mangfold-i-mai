@@ -9,6 +9,7 @@ privacy: internal
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 
+registration: true
 registration-link: https://forms.office.com/r/B4hmMgFHjR?lang=nb-NO
 
 event-date: 2022-05-04T10:30

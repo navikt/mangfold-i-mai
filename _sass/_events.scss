@@ -6,7 +6,6 @@
     display: none;
 }
 
-
 .events {
 
     > h2, > input {
@@ -15,6 +14,10 @@
 
     > h2, > label {
         margin-right: 1rem;
+    }
+
+    .filter-results {
+        margin: 1rem;
     }
 
     section {
@@ -79,7 +82,7 @@
     }
 
     li {
-        margin: .75em 0;
+        margin: .75em 0 1em;
     }
 
     .title {
@@ -108,6 +111,46 @@
             content: ".";
         }
     }
+
+
+    .participation-details {
+        display: block;
+        font-size: .9em;
+        margin-top: .2em;
+
+        span {
+            padding: 0 1em 0 1.25em;
+            background: no-repeat left center / 1em;
+            white-space: nowrap;
+        }
+
+        .public {
+            background-image: url("images/public.svg");
+            padding-left: 1.3em;
+        }
+
+        .internal {
+            background-image: url("images/nav-logo-only-circle-black.svg");
+        }
+
+        .registration-required {
+            background-image: url("images/registration-required.svg");
+        }
+
+        .stream {
+            background-image: url("images/stream.svg");
+            background-size: 1.15em;
+            padding-left: 1.3em;
+        }
+
+        .in-person {
+            background-image: url("images/in-person.svg");
+            background-size: .8em;
+            padding-left: 1em;
+        }
+    }
+
+
 }
 
 
@@ -165,16 +208,30 @@
             }
         }
 
-        .summary {
+        .summary, .participation-details {
             order: 3;
             padding: 0 1rem 0 8rem;
             flex: 1 0 100%;
         }
+
+        .participation-details {
+            order: 4;
+        }
+
     }
 }
 
 
 @media only screen and (min-width: $break2) {
+
+
+    .events {
+        .participation-details {
+            font-size: 1em;
+            display: inline-flex;
+        }
+    }
+
 
 }
 

@@ -93,8 +93,32 @@
                             {% endif %}
 
                         {% endif %}
-
                     </span>
+
+                <span class="participation-details">
+
+                    <span class="{{event.privacy}}">
+                        {% if event.privacy == "public" %}
+                            Åpen for alle
+                        {% else %}
+                            Bare for NAV-ansatte
+                        {% endif %}
+                    </span>
+
+
+                    {% if event.location-type != "in-person"  %}
+                        <span class="stream">Livestream</span>
+                    {% endif %}
+
+                    {% if event.location-type != "stream" %}
+                        <span class="in-person">Fysisk arrangement</span>
+                    {% endif %}
+
+                    {% if event.registration == true %}
+                        <span class="registration-required">Krever påmelding</span>
+                    {% endif %}
+
+                </span>
 
             </li>
 

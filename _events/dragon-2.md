@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Dragon Proffesional Anywhere: norsk talegjenkjenning for PC"
+title: "Dragon Professional Anywhere: norsk talegjenkjenning for PC"
 speakers: [Daniel Scheidegger , Hege Medin , Bengt-Jarle Kjelså]
 summary: "Et kort historisk tilbakeblikk og brukerdemonstrasjon av hvordan talegjenkjenning fungerer for å styre PCen og diktere tekst."
 
