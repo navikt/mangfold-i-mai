@@ -1,11 +1,12 @@
-<article class="events list" aria-live="polite" aria-relevant="all">
+<article class="events list">
     <h2>{{ include.title}}</h2>
 
     <input id="public" type="checkbox">
-    <label for="public">Vis bare arrangementer åpent for deltagere utenfor NAV.</label>
-    <br>
-    <input id="stream" type="checkbox">
-    <label for="stream">Vis bare arrangmeneter som streames.</label>
+    <label for="public">Skjul arrangementer som er bare for NAV-ansatte.</label>
+
+    <div class="filter-results" aria-live="polite">
+        <span>Arrangementene under er åpent for alle, også folk utenfor NAV.</span>
+    </div>
 
     {% assign dates = site.dates | sort: 'event-date' %}
 

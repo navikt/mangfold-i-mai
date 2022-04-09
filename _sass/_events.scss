@@ -1,11 +1,14 @@
-#public:checked ~ section li:not(.public) {
+#public:checked ~ section li:not(.public)   {
     display: none;
 }
 
-#stream:checked ~ section li:not(.stream) {
+.filter-results span {
     display: none;
 }
 
+#public:checked ~ .filter-results span {
+    display: block;
+}
 
 .events {
 
@@ -15,6 +18,10 @@
 
     > h2, > label {
         margin-right: 1rem;
+    }
+
+    .filter-results {
+        margin: 1rem;
     }
 
     section {
