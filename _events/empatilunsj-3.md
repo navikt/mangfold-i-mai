@@ -9,6 +9,7 @@ privacy: internal
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 
+registration: true
 registration-info: "Akkurat denne lunsjen er del av Direktorates onboarding. Deltakerne på onboardingen blir prioritert, men andre NAV-ansatte kan <a href='https://forms.office.com/r/BvSKtxytP6?lang=nb-NO'>melde seg på via Forms</a> så ser vi om det er noen ledige plasser."
 
 event-date: 2022-05-10T10:30

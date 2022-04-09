@@ -13,7 +13,7 @@ main, footer {
         color: $primary;
 
         &:focus {
-            outline: 3px dashed #72A300;
+            outline: 3px dashed $secondary;
         }
     }
 }

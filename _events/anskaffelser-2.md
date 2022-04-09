@@ -10,6 +10,7 @@ location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo
 location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
 
+registration: true
 registration-info: "Antall deltagere er begrenset.  <a href='mailto:universell.utforming@nav.no?subject=Påmelding til anskaffelsesworkshoppen'>Ta kontakt med oss via epost</a> om du er interessert i å delta."
 
 event-date: 2022-05-06T12:00

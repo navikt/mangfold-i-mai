@@ -9,6 +9,7 @@ privacy: internal
 location-type: stream
 location-name: Teams 
 
+registration: true
 registration-link: https://forms.office.com/r/cEywUqAdWt?lang=nb-NO
 
 event-date: 2022-05-04T09:00

@@ -5,10 +5,12 @@ speakers: Morten Tollefsen
 summary: Et foredrag for deg som arrangerer og/eller deltar på digitale og hybride møter, og det gjør vi vel alle sammen?
 
 privacy: internal
+
 location-type: stream
 location-name: Zoom
 location-hybrid: 
 
+registration: true
 registration-info: "NAV-ansatte kan delta ved å <a href='https://confluence.adeo.no/display/FAIOD/Teknisk+demo'>melde seg på Teknisk Demo på Confluence</a>."
 
 event-date: 2022-05-03T12:00
