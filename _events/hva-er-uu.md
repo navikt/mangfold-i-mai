@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/dHJ6i4L7gW?lang=nb-NO
 
 event-date: 2022-05-02T09:00
 event-date-end: 2022-05-02T09:30
+ics: true
 ---
 ## Hva handler kurset om?
 Hva er egentlig universell utforming av IKT? Hva må NAV som offentlig etat forholde seg til, og hvem har ansvar i praksis? Karina Ludwig, fagleder for universell utforming i NAV IT, gir en kort innføring i temaet. Hun gir også innsyn i hvordan du kan sikre universell utforming i digital produktutvikling, og hvilke verktøy team i NAV har for dette.

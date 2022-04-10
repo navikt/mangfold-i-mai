@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/MaseayExPi?lang=nb-NO
 
 event-date: 2022-05-18T10:00
 event-date-end: 2022-05-18T11:00
+ics: true
 ---
 ## Hva handler kurset om?
 Det er mye som skal på plass når man lager skjemaer hvis du ønsker å sikre at de kan brukes av alle.  

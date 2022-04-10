@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/9RakdERNdj?lang=nb-NO
 
 event-date: 2022-05-25T09:00
 event-date-end: 2022-05-25T09:30
+ics: true
 ---
 ## Hva handler det her om?
 Team ResearchOps i NAV har som mål å gjøre hverdagen enklere for produktteamene, slik at de kan gjennomføre brukerinnsiktsarbeid oftere, 

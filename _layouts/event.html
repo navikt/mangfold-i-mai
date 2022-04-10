@@ -74,8 +74,11 @@ layout: default
 
 
     {% if page.ics %}
+
         <dd>
-            <a href="ics/{{page.slug}}.ics">Last ned kalendereventet (ics-fil)</a>
+            <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">
+                Last ned kalendereventet (ics-fil)
+            </a>
         </dd>
     {% endif %}
 

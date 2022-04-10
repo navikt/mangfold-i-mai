@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/pp91Y5ynGS?lang=nb-NO
 
 event-date: 2022-05-10T16:30
 event-date-end: 2022-05-10T17:00
+ics: true
 ---
 ## Hva handler det her om?
 I dette foredraget får du lære om hvordan personer uten syn kan få hjelp til å «se» film, serier og lignende. Norges mest erfarne synstolk Magnar Kvalvik viser deg i praksis hvordan synstolking foregår, og hva du bør legge vekt på for at synshemmede skal få med seg det som skjer. 

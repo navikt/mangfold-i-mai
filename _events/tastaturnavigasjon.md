@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/augVRPPLmf?lang=nb-NO
 
 event-date: 2022-05-18T14:00
 event-date-end: 2022-05-18T15:00
+ics: true
 ---
 ## Hva handler kurset om?
 Beskrivelse kommer

@@ -13,6 +13,7 @@ registration-link: https://forms.office.com/r/9Dk9kGjX8F?lang=nb-NO
 
 event-date: 2022-05-13T09:30
 event-date-end: 2022-05-13T11:00
+ics: true
 ---
 
 ## Gjør alt med stemmen!

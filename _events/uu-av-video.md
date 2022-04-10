@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/neZtSBCLE0?lang=nb-NO
 
 event-date: 2022-05-10T14:00
 event-date-end: 2022-05-10T15:00
+ics: true
 ---
 
 ## Synstolking og teksting?

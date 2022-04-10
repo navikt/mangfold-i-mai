@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/jU0trNCKMv?lang=nb-NO
 
 event-date: 2022-05-09T08:15
 event-date-end: 2022-05-09T09:30
+ics: true
 ---
 ## Hva handler arrangementet om?
 

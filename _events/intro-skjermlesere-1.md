@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/18n45PpWsp?lang=nb-NO
 
 event-date: 2022-05-03T09:00
 event-date-end: 2022-05-03T09:50
+ics: true
 ---
 ## Hva handler kurset om?
 Kurset gir en kort innføring i bruk av skjermleser på mobil og datamaskin. Dette er et nyttig kurs for å skjønne hvordan skjermlesere fungerer. Kurset er også en intro for de som vil lære mer (eksempelvis for å kunne teste med skjermleser). 

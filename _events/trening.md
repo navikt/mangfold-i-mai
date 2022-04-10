@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/51yBUDTG5b?lang=nb-NO
 
 event-date: 2022-05-09T12:00
 event-date-end: 2022-05-09T15:00
+ics: true
 ---
 
 Ikke gå glipp av dette seminaret med inspirerende og kreative foredragsholdere. Dette er personer som har bøttevis med pågangsmot. Hør om prosjekter og enkeltpersoner som bruker fysisk aktivitet til mestring, inkludering og som viser noen av de mange forutsetningene, preferansene og behovene vi skal ta høyde for i arbeidet vårt.

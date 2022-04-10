@@ -14,6 +14,7 @@ registration-link: https://forms.office.com/r/Hmg0Q9peEH?lang=nb-NO
 
 event-date: 2022-05-12T13:00
 event-date-end: 2022-05-12T13:30
+ics: true
 ---
 ## Hva handler det her om?
 Digitale produkter og tjenester har infiltrert de fleste arenaer. Digitaliseringen bidrar uten tvil til effektivisering, underholdning og sosialisering for de aller fleste. Men hvordan påvirker det de som av ulike årsaker står utenfor det digitale fellesskapet?

@@ -17,6 +17,7 @@ registration-link: https://forms.office.com/r/TmQ5b4wTRk?lang=nb-NO
 
 event-date: 2022-05-04T16:00
 event-date-end: 2022-05-04T17:00
+ics: true
 ---
 
 ## What this talk is about

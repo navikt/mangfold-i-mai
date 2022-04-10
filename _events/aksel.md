@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/WBsuSuqWfR?lang=nb-NO
 
 event-date: 2022-05-04T13:00
 event-date-end: 2022-05-04T13:45
+ics: true
 ---
 
 ## Åpent hus og du er invitert!

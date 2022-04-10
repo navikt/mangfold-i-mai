@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/eVRtniiQia?lang=nb-NO
 
 event-date: 2022-05-12T12:00
 event-date-end: 2022-05-12T12:45
+ics: true
 ---
 ## Hva handler kurset om?
 Kræsjkurs i inkluderende språk.

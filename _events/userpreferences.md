@@ -17,6 +17,7 @@ registration-link: https://forms.office.com/r/8cf08CwzQv?lang=nb-NO
 
 event-date:     2022-05-13T08:30
 event-date-end: 2022-05-13T09:15
+ics: true
 ---
 
 ## What is this workshop about?
