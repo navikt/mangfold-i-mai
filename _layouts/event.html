@@ -39,24 +39,32 @@ layout: default
 <section class="speakers">
     <!-- SPEAKERS -->
     {% if page.speakers %}
-    {% for speaker in page.speakers %}
-    {% assign render-speaker-name = undefined %}
-    {% assign render-speaker-url = undefined %}
+        {% for speaker in page.speakers %}
+            {% assign render-speaker-name = undefined %}
+            {% assign render-speaker-url = undefined %}
+            {% assign render-speaker-image = undefined %}
 
-    {% for site-speaker in site.speakers %}
-    {% if site-speaker.name == speaker %}
-    {% assign render-speaker-name = site-speaker.name %}
-    {% assign render-speaker-url = site-speaker.url %}
-    {% endif %}
-    {% endfor %}
+            {% for site-speaker in site.speakers %}
+                {% if site-speaker.name == speaker %}
+                    {% assign render-speaker-name = site-speaker.name %}
+                    {% assign render-speaker-url = site-speaker.url %}
+                    {% assign render-speaker-image = site-speaker.image %}
+                {% endif %}
+            {% endfor %}
 
-    {% if render-speaker-name == undefined %}
-    <div class="">{{ speaker }}</div>
-    {% else %}
-    <div><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></div>
-    {% endif %}
 
-    {% endfor %}
+            {% if render-speaker-name == undefined %}
+                <div>{{ speaker }}</div>
+            {% else %}
+                <div><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></div>
+            {% endif %}
+
+            {% if render-speaker-image %}
+                {% assign image_url = "/assets/images/speakers/" | append: render-speaker-image %}
+                <img src="{{ image_url | relative_url }}" alt="{{ speaker }}">
+            {% endif %}
+
+        {% endfor %}
     {% endif %}
 
 </section>
