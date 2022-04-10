@@ -18,27 +18,12 @@ main, footer {
     }
 }
 
-h1, h2 {
+h1, h2, h3 {
     line-height: 1.2;
-}
-
-h2 {
+    margin-top: 1em;
     margin-bottom: .25em;
 }
 
-dl {
-    margin-bottom: 1.5em;
-}
-
-dt {
-    font-weight: 700;
-    margin-top: .75em;
-
-    &:first-child {
-        margin-top: 0;
-    }
-}
-
-dd {
-    margin: 0;
+p, ul, ol, dl {
+    margin-top: .5em;
 }

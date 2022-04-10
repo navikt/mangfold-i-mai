@@ -39,9 +39,12 @@
 
     &.time {
         background-image: url("images/clock.svg");
+        background-position: left .1em;
     }
 
     &.date {
         background-image: url("images/calendar.svg");
+        background-size: .9em;
+        background-position: left .05em;
     }
 }
