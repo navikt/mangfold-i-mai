@@ -125,10 +125,8 @@
     }
 }
 
-
 @media only screen and (min-width: $break1) {
     .events {
-
 
         section {
             border: 1px solid $primary;
@@ -197,7 +195,6 @@
     .events {
         .participation-details {
             font-size: 1em;
-            display: inline-flex;
         }
     }
 }

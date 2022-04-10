@@ -27,6 +27,6 @@ main {
 
 @media only screen and (min-width: $break3) {
     .wrapper {
-        max-width: 40rem;
+        max-width: $break3;
     }
 }
