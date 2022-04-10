@@ -1,13 +1,13 @@
 // SCSS for the "home" layout
 
-.home-layout {
+.layout-home {
     .colorful {
         line-height: initial;
     }
 }
 
 @media only screen and (min-width: $break3) {
-    .home-layout {
+    .layout-home{
         .logo {
             margin: 0;
             padding-top: 7em;

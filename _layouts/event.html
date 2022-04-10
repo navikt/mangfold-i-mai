@@ -2,11 +2,70 @@
 layout: default
 ---
 
-{% include page-header.html %}
+<h1{% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
 
-<section aria-label="participation-details">
+<section class="metadata">
     <ul>
 
+        <li class="icon date">
+            {% include localized-date.html %}
+        </li>
+
+        <li class="icon time">
+            {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
+        </li>
+
+        <li class="icon {{ page.location-type }}">
+            {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}
+            {{ page.location-name }}
+            {% if page.location-link %}</a>{% endif%}
+        </li>
+
+        {% if page.location-hybrid %}
+        <li class="icon in-person">NAV-ansatte kan se på streamet i {{ page.location-hybrid }}.</li>
+        {% endif%}
+    </ul>
+</section>
+
+
+
+
+
+
+<section class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
+    {{ content }}
+</section>
+
+<section class="speakers">
+    <!-- SPEAKERS -->
+    {% if page.speakers %}
+    {% for speaker in page.speakers %}
+    {% assign render-speaker-name = undefined %}
+    {% assign render-speaker-url = undefined %}
+
+    {% for site-speaker in site.speakers %}
+    {% if site-speaker.name == speaker %}
+    {% assign render-speaker-name = site-speaker.name %}
+    {% assign render-speaker-url = site-speaker.url %}
+    {% endif %}
+    {% endfor %}
+
+    {% if render-speaker-name == undefined %}
+    <div class="">{{ speaker }}</div>
+    {% else %}
+    <div><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></div>
+    {% endif %}
+
+    {% endfor %}
+    {% endif %}
+
+</section>
+
+
+
+<section class="participation-details">
+    <h2>Hvem kan delta?</h2>
+    <ul>
         <!-- PRIVACY -->
         <li class="icon {{ page.privacy}}">
             {% if page.privacy == "internal" %}
@@ -24,7 +83,7 @@ layout: default
 
         {% if page.privacy == "internal" and page.registration-link %}
             <li class="icon internal">
-                NAV-ansatte kan <a href="{{ page.registration-link }}">melde seg på via Forms</a>.
+                NAV-ansatte kan melde seg på via <a href="{{ page.registration-link }}">Forms</a>.
             </li>
         {% endif %}
 
@@ -35,74 +94,17 @@ layout: default
         <!-- CALENDAR LINKS -->
         {% if page.ics %}
             <li class="icon calendar-download">
-                <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">Last ned kalendereventet (.ics-format).</a>
+                Last ned <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">kalendereventet (.ics-format).</a>
             </li>
         {% endif %}
 
         {% if page.privacy == "public" and page.location-type == "stream" %}
             <li class="icon calendar-outlook">
-                Ansatt i NAV? <a href="{{ page.registration-link }}">Be om en Outlook-innkalling</a>.
+                NAV-ansatte kan be om en <a href="{{ page.registration-link }}">Outlook-innkalling</a>.
             </li>
         {% endif %}
     </ul>
 </section>
 
 
-<h2>Om arrangementet</h2>
 
-
-<dl>
-    <!-- DATE AND TIME -->
-    <dt>Når skjer det?</dt>
-    <dd>
-        {% include localized-date.html %}
-        <br>
-        {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
-    </dd>
-
-    <!-- LOCATION -->
-    <dt>Hvor skjer det?</dt>
-
-    {% if page.location-name %}
-        <dd class="icon location {{ page.location-type }}">
-            {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}
-            {{ page.location-name }}
-            {% if page.location-link %}</a>{% endif%}
-        </dd>
-    {% endif %}
-
-    {% if page.location-hybrid %}
-        <dd class="icon in-person">NAV-ansatte kan se på streamet i Fyrstikkalléen 1 i rom {{ page.location-hybrid }}.</dd>
-    {% endif%}
-
-    <!-- SPEAKERS -->
-    {% if page.speakers %}
-        <dt>Hvem holder foredraget?</dt>
-
-        {% for speaker in page.speakers %}
-            {% assign render-speaker-name = undefined %}
-            {% assign render-speaker-url = undefined %}
-
-            {% for site-speaker in site.speakers %}
-                {% if site-speaker.name == speaker %}
-                    {% assign render-speaker-name = site-speaker.name %}
-                    {% assign render-speaker-url = site-speaker.url %}
-                {% endif %}
-            {% endfor %}
-
-            {% if render-speaker-name == undefined %}
-                <dd>{{ speaker }}</dd>
-            {% else %}
-                <dd><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></dd>
-            {% endif %}
-
-        {% endfor %}
-    {% endif %}
-
-</dl>
-
-{% if page.language %}<div lang="{{page.language}}">{% endif %}
-
-{{ content }}
-
-{% if page.language %}</div>{% endif %}

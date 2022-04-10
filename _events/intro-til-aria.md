@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/99266251058?pwd=RHJhZEIwTHJBLzZUcUJJSFN4a2pDdz09
-location-hybrid:
+location-hybrid: B451 Nansen
 
 registration-link: https://forms.office.com/r/anJD4Dqs5p?lang=nb-NO
 
