@@ -17,15 +17,7 @@ event-date: 2022-05-04T13:00
 event-date-end: 2022-05-04T13:45
 ics: true
 ---
-
 ## Åpent hus og du er invitert!
-Aksel er navnet på NAVs verktøykasse. 
-På denne adressen bor blant annet designsystemet og god praksis. 
-
-[AKSEL](https://design.nav.no/)
+[Aksel](https://design.nav.no/) er navnet på NAVs verktøykasse. På denne adressen bor blant annet designsystemet og god praksis. 
 
 I dette webinaret vil Sarah Brodwall og Kari Anne R. Andersen dele hvordan Team Aksel jobber med universell utforming i designsystemet. 
-
-
-## Dette foredraget er for deg som
-...

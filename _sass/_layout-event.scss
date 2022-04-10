@@ -1,6 +1,7 @@
 // SCSS for the layout for individual event pages
 
 .layout-event {
+
     .metadata, .participation-details {
         ul {
             list-style: none;
@@ -12,20 +13,38 @@
             margin-bottom: .25em;
         }
     }
+
+    .metadata {
+
+        ul {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        li {
+            &.date, &.time {
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .speaker {
+        margin: 1em 0;
+        position: relative;
+        display: flex;
+        flex-flow: row nowrap;
+
+        img {
+            width: 30%;
+            height: auto;
+            margin-right: 1em;
+        }
+    }
 }
 
 
-@media only screen and (min-width: $break2) {
+@media only screen and (min-width: $break1) {
     .layout-event {
 
-        .metadata {
-            li {
-                display: inline;
-
-                &.date, &.time {
-                    white-space: nowrap;
-                }
-            }
-        }
     }
 }

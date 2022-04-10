@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Tilgjengelig yoga – verktøy til Empowerment/egenkraftmobilisering"
+title: "Tilgjengelig yoga – verktøy til Empowerment/​egenkraftmobilisering"
 speakers: Line Fritzon
 summary: Foredrag og yoga-session på stol. Hvilken rolle kan yoga spille for inkludering?
 
@@ -17,9 +17,6 @@ event-date: 2022-05-09T08:15
 event-date-end: 2022-05-09T09:30
 ics: true
 ---
-## Hva handler arrangementet om?
-
-### Foredrag - Tilgjengelig yoga – verktøy til Empowerment/egenkraftmobilisering
 Hvorfor er det så viktig at yoga er tilgjengelig og inkluderende for alle?
 
 Yoga er viktig på mange måter. Det fysiske aspektet ved yoga gir en helsefremmende effekt. Men det fins andre aspekt. Yoga handler om så mye mer enn bare de fysiske stillingene og pusten. Det å få tilgang til alle yogaens verktøy gir et menneske muligheten til å finne sin kjerne, sin stemme og sin egen identitet. Det vil gi muligheter for økt livsmestring og egenkraftmobilisering, og høyere livskvalitet.

@@ -28,6 +28,5 @@ Dette kurset er et kort innføring i ARIA-standarden (Accessible Rich Internet A
 ## Hvem er kurset til?
 Dette er et teknisk kurs.  Den er egnet for utviklere som jobber med frontend-kode.  Den kan også være egnet for testere og uu-spesialister som jobber med kode. 
 
-
 ## Dette kurset blir del av NAVs kurskatalog
-"Intro til ARIA" blir en del av uu-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
+Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
