@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Arrangementer
-permalink: events/
+permalink: program/
 categories: menu
 menu-title: Program
 ---

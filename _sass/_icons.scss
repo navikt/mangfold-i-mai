@@ -1,0 +1,42 @@
+.icon {
+    padding: 0 1em 0 1.25em;
+    background: no-repeat left top / 1em;
+
+    &.public {
+        background-image: url("images/public.svg");
+        padding-left: 1.3em;
+    }
+
+    &.internal {
+        background-image: url("images/nav-logo-only-circle-black.svg");
+    }
+
+    &.registration-required {
+        background-image: url("images/registration-required.svg");
+    }
+
+    &.stream {
+        background-image: url("images/stream.svg");
+        background-size: 1.15em;
+        padding-left: 1.3em;
+    }
+
+    &.in-person {
+        background-image: url("images/in-person.svg");
+        background-size: .8em;
+        padding-left: 1em;
+    }
+
+    &.calendar-outlook {
+        background-image: url("images/calendar-outlook.svg");
+    }
+
+    &.calendar-download{
+        background-image: url("images/calendar-download.svg");
+    }
+
+    &.event-time {
+        background-image: url("images/calendar-clock.svg");
+    }
+
+}
