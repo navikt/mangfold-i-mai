@@ -10,10 +10,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <title>
-        {% if page.title %}{{ page.title }} -{% endif %}
         {% if page.layout == "date" %}
-            {% include localized-date.html %} -
+            {% include localized-date.html %}
+        {% else %}
+            {% if page.title %}{{ page.title }}{% endif %}
         {% endif %}
-        {{ site.title }}
+
+        {% if page.layout != "home" %} - {{ site.title }}{% endif %}
     </title>
 </head>

@@ -1,50 +1,51 @@
 .icon {
-    padding: 0 1em 0 1.25em;
+    padding: 0 1em 0 1.5em;
     background: no-repeat left .15em / 1em;
 
     &.public {
-        background-image: url("images/public.svg");
-        padding-left: 1.3em;
+        background-image: url("images/icons/public.svg");
+        background-position: .1em .13em;
     }
 
     &.internal {
-        background-image: url("images/nav-logo-only-circle-black.svg");
+        background-image: url("images/icons/nav-logo-only-circle-black.svg");
     }
 
     &.registration-required {
-        background-image: url("images/registration-required.svg");
+        background-image: url("images/icons/registration-required.svg");
         background-position: left .2em;
     }
 
     &.stream {
-        background-image: url("images/stream.svg");
+        background-image: url("images/icons/stream-black.svg");
         background-size: 1.15em;
-        padding-left: 1.4em;
-        background-position: left .2em;
+        background-position: .05em .25em;
     }
 
     &.in-person {
-        background-image: url("images/in-person.svg");
-        background-size: .8em;
-        padding-left: 1.1em;
+        background-image: url("images/icons/in-person-black.svg");
+        background-size: .75em;
+        background-position: .2em .15em;
     }
 
     &.calendar-outlook {
-        background-image: url("images/calendar-outlook.svg");
+        background-image: url("images/icons/calendar-outlook.svg");
     }
 
-    &.calendar-download{
-        background-image: url("images/calendar-download.svg");
+    &.calendar-download {
+        background-image: url("images/icons/calendar-download-black.svg");
+        background-position: left .1em;
+        background-size: 1.15em;
     }
 
     &.time {
-        background-image: url("images/clock.svg");
-        background-position: left .1em;
+        background-image: url("images/icons/clock-black.svg");
+        background-position: .05em .175em;
     }
 
     &.date {
-        background-image: url("images/calendar.svg");
+        background-image: url("images/icons/calendar-black.svg");
         background-size: .9em;
-        background-position: left .05em;
+        background-position: .14em .1em;
     }
 }
