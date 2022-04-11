@@ -14,6 +14,7 @@ registration-link: https://forms.office.com/r/VipBK8TvEF?lang=nb-NO
 
 event-date: 2022-05-11T09:00
 event-date-end: 2022-05-11T10:00
+ics: true
 ---
 ## Hva handler det her om?
 Beskrivelse kommer.

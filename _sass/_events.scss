@@ -1,3 +1,5 @@
+// For the events listing include
+
 #public:checked ~ section li:not(.public) {
     display: none;
 }
@@ -112,51 +114,19 @@
         }
     }
 
-
     .participation-details {
         display: block;
         font-size: .9em;
         margin-top: .2em;
 
-        span {
-            padding: 0 1em 0 1.25em;
-            background: no-repeat left center / 1em;
+        .icon {
             white-space: nowrap;
         }
-
-        .public {
-            background-image: url("images/public.svg");
-            padding-left: 1.3em;
-        }
-
-        .internal {
-            background-image: url("images/nav-logo-only-circle-black.svg");
-        }
-
-        .registration-required {
-            background-image: url("images/registration-required.svg");
-        }
-
-        .stream {
-            background-image: url("images/stream.svg");
-            background-size: 1.15em;
-            padding-left: 1.3em;
-        }
-
-        .in-person {
-            background-image: url("images/in-person.svg");
-            background-size: .8em;
-            padding-left: 1em;
-        }
     }
-
-
 }
-
 
 @media only screen and (min-width: $break1) {
     .events {
-
 
         section {
             border: 1px solid $primary;
@@ -221,20 +191,10 @@
     }
 }
 
-
 @media only screen and (min-width: $break2) {
-
-
     .events {
         .participation-details {
             font-size: 1em;
-            display: inline-flex;
         }
     }
-
-
-}
-
-@media only screen and (min-width: $break3) {
-
 }

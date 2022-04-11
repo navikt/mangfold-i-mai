@@ -1,0 +1,50 @@
+.icon {
+    padding: 0 1em 0 1.25em;
+    background: no-repeat left .15em / 1em;
+
+    &.public {
+        background-image: url("images/public.svg");
+        padding-left: 1.3em;
+    }
+
+    &.internal {
+        background-image: url("images/nav-logo-only-circle-black.svg");
+    }
+
+    &.registration-required {
+        background-image: url("images/registration-required.svg");
+        background-position: left .2em;
+    }
+
+    &.stream {
+        background-image: url("images/stream.svg");
+        background-size: 1.15em;
+        padding-left: 1.4em;
+        background-position: left .2em;
+    }
+
+    &.in-person {
+        background-image: url("images/in-person.svg");
+        background-size: .8em;
+        padding-left: 1.1em;
+    }
+
+    &.calendar-outlook {
+        background-image: url("images/calendar-outlook.svg");
+    }
+
+    &.calendar-download{
+        background-image: url("images/calendar-download.svg");
+    }
+
+    &.time {
+        background-image: url("images/clock.svg");
+        background-position: left .1em;
+    }
+
+    &.date {
+        background-image: url("images/calendar.svg");
+        background-size: .9em;
+        background-position: left .05em;
+    }
+}

@@ -2,114 +2,124 @@
 layout: default
 ---
 
-{% include page-header.html %}
+<h1{% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
 
-<dl>
+<section class="metadata">
+    <ul>
 
-    <!-- PRIVACY -->
+        <!-- DATE AND TIME -->
+        <li class="icon date">
+            {% include localized-date.html %}
+        </li>
 
-    <dt>Hvem kan delta?</dt>
+        <li class="icon time">
+            {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
+        </li>
 
-    <dd class="privacy {{ page.privacy}}">
-        {% if page.privacy == "internal" %}
-        Arrangementet er kun for NAV-ansatte.
-        {% else %}
-        Arrangemenetet er åpent for hele verden.
+
+        <!-- LOCATION -->
+        <li class="icon {{ page.location-type }}">
+            {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+        </li>
+
+        {% if page.location-hybrid %}
+        <li class="icon in-person">NAV-ansatte kan se på streamet i {{ page.location-hybrid }}.</li>
         {% endif%}
-    </dd>
 
 
-    <!-- REGISTRATION -->
+        <!-- CALENDAR LINKS -->
+        {% if page.ics %}
+        <li class="icon calendar-download">
+            Last ned <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">kalendereventet (.ics-format).</a>
+        </li>
+        {% endif %}
 
-    <dt>Hvordan melder jeg meg på?</dt>
+        {% if page.privacy == "public" and page.location-type == "stream" %}
+        <li class="icon calendar-outlook">
+            NAV-ansatte kan be om en <a href="{{ page.registration-link }}">Outlook-innkalling</a>.
+        </li>
+        {% endif %}
+    </ul>
 
-    {% if page.privacy == "public" %}
-    {% if page.location-type == "stream" %}
-    <dd class="registration">Ingen påmelding, det er bare å delta via <a
-            href="{{page.location-link}}">{{page.location-name}}</a>.
-    </dd>
-    <dd class="registration internal">Er du ansatt i NAV, kan du <a
-            href="{{ page.registration-link }}">be om en kalenderinvitasjon</a>.
-    </dd>
-    {% endif %}
-    {% endif %}
+    <ul>
 
-    {% if page.privacy == "internal" %}
-    {% if page.registration-link %}
-    <dd class="registration internal">NAV-ansatte kan <a href="{{ page.registration-link }}">melde seg på via Forms</a>.
-    </dd>
-    {% endif %}
-    {% endif %}
+        <!-- PRIVACY -->
+        <li class="icon {{ page.privacy}}">
+            {% if page.privacy == "internal" %}
+            Arrangementet er kun for NAV-ansatte.
+            {% else %}
+            Arrangemenetet er åpent for hele verden.
+            {% endif%}
+        </li>
 
-    {% if page.registration-info %}
-    <dd class="registration">{{ page.registration-info }}</dd>
-    {% endif %}
+        <!-- REGISTRATION -->
+        {% if page.privacy == "public" and page.location-type == "stream" %}
+        <li class="icon stream">Ingen påmelding, det er bare å delta via <a href="{{page.location-link}}">{{page.location-name}}</a>.
+        </li>
+        {% endif %}
 
+        {% if page.privacy == "internal" and page.registration-link %}
+        <li class="icon internal">
+            NAV-ansatte kan melde seg på via <a href="{{ page.registration-link }}">Forms</a>.
+        </li>
+        {% endif %}
 
-    <!-- LOCATION -->
-
-    <dt>Hvor skjer det?</dt>
-
-    {% if page.location-name %}
-    <dd class=" location {{ page.location-type }}">
-        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}
-        {{ page.location-name }}
-        {% if page.location-link %}</a>{% endif%}
-    </dd>
-    {% endif %}
-
-    {% if page.location-hybrid %}
-    <dd>NAV-ansatte kan se på streamet i Fyrstikkalléen 1 i rom {{ page.location-hybrid }}.</dd>
-    {% endif%}
+        {% if page.registration-info %}
+        <li class="icon registration-required">{{ page.registration-info }}</li>
+        {% endif %}
 
 
-    <!-- DATE AND TIME -->
 
-    <dt>Når skjer det?</dt>
-    <dd>
-        {% include localized-date.html %}
-        <br>
-        {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
-    </dd>
+    </ul>
+</section>
 
+<section class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
+    {{ content }}
+</section>
 
-    {% if page.ics %}
-        <dd>
-            <a href="ics/{{page.slug}}.ics">Last ned kalendereventet (ics-fil)</a>
-        </dd>
-    {% endif %}
-
-    <!-- SPEAKERS -->
-
+<section class="speakers">
     {% if page.speakers %}
-
-    <dt>Hvem holder foredraget?</dt>
-
     {% for speaker in page.speakers %}
-    {% assign render-speaker-name = undefined %}
-    {% assign render-speaker-url = undefined %}
 
-    {% for site-speaker in site.speakers %}
-    {% if site-speaker.name == speaker %}
-    {% assign render-speaker-name = site-speaker.name %}
-    {% assign render-speaker-url = site-speaker.url %}
-    {% endif %}
+    <div class="speaker">
+        {% assign render-speaker-name = undefined %}
+        {% assign render-speaker-url = undefined %}
+        {% assign render-speaker-image = undefined %}
+        {% assign render-speaker-summary = undefined %}
+
+
+        {% for site-speaker in site.speakers %}
+        {% if site-speaker.name == speaker %}
+        {% assign render-speaker-name = site-speaker.name %}
+        {% assign render-speaker-url = site-speaker.url %}
+        {% assign render-speaker-image = site-speaker.image %}
+        {% assign render-speaker-summary = site-speaker.summary %}
+        {% endif %}
+        {% endfor %}
+
+        {% if render-speaker-image %}
+        {% assign image_url = "/assets/images/speakers/" | append: render-speaker-image %}
+        <img src="{{ image_url | relative_url }}" alt="{{ speaker }}">
+        {% endif %}
+
+        <div class="about">
+            {% if render-speaker-name == undefined %}
+            <span class="name">{{ speaker }}</span>
+            {% else %}
+            <a class="name" href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a>
+            {% endif %}
+
+            {% if render-speaker-summary %}
+            <p class="summary">{{render-speaker-summary}}</p>
+            {% endif %}
+        </div>
+
+    </div>
     {% endfor %}
-
-    {% if render-speaker-name == undefined %}
-    <dd>{{ speaker }}</dd>
-    {% else %}
-    <dd><a href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a></dd>
     {% endif %}
 
-    {% endfor %}
+</section>
 
-    {% endif %}
 
-</dl>
 
-{% if page.language %}<div lang="{{page.language}}">{% endif %}
 
-{{ content }}
-
-{% if page.language %}</div>{% endif %}

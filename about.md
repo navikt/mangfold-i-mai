@@ -4,6 +4,7 @@ permalink: about/
 categories: menu
 title: Om Mangfold i mai
 menu-title: Om Mangfold i mai
+order: 3
 ---
 «Mangfold i mai» er en arrangement-serie i mai rundt mangfold, inkludering og universell utforming; gjennomført delvis digitalt og delvis fysisk i Fyrstikkalléen 1.
 

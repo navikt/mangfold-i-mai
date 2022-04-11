@@ -12,7 +12,7 @@ location-name: Teams
 location-hybrid: B114 Gløden
 
 registration: true
-registration-info: The workshop has a limited number of participants.  NAV employees can <a href="https://forms.office.com/r/Ey2MuGXNA8?lang=nb-NO">register via Forms</a>.
+registration-info: Workshoppen har en begrenset antall deltagere.  NAV-ansatte kan <a href="https://forms.office.com/r/Ey2MuGXNA8?lang=nb-NO">registrere via Forms</a>.
 
 event-date: 2022-05-03T10:00
 event-date-end: 2022-05-03T11:30

@@ -15,7 +15,7 @@ registration-link: https://forms.office.com/r/X9Pqi7xyYp?lang=nb-NO
 
 event-date: 2022-05-11T10:00
 event-date-end: 2022-05-11T10:30
-
+ics: true
 ---
 ## Hva handler det her om?
 Hvordan skal NAV gi folk innhold de kan finne, forstå og få til? Hvordan kan vi gjøre innholdet vårt tilgjengelig, relevant og inkluderende, også for folk som verken er jurister eller saksbehandlere?

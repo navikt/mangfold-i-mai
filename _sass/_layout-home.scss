@@ -1,0 +1,37 @@
+// SCSS for the "home" layout
+
+.layout-home {
+    .colorful {
+        line-height: initial;
+    }
+}
+
+@media only screen and (min-width: $break3) {
+    .layout-home{
+        .logo {
+            margin: 0;
+            padding-top: 7em;
+            width: 35em;
+            background-image:  url("images/logo-large.svg");
+            display: block;
+        }
+
+        .wrapper, .events {
+            max-width: 50em;
+        }
+
+        .events {
+            margin: 0 auto;
+        }
+
+        nav ul {
+            margin-bottom: .1em;
+
+            li {
+                display: block;
+                padding: .25em 0;
+            }
+        }
+
+    }
+}
