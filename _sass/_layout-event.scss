@@ -2,6 +2,7 @@
 
 .layout-event {
 
+
     .metadata, .participation-details {
         ul {
             list-style: none;
@@ -29,15 +30,10 @@
     }
 
     .speaker {
-        margin: 1em 0;
-        position: relative;
-        display: flex;
-        flex-flow: row nowrap;
 
         img {
-            width: 30%;
+            max-width: 100%;
             height: auto;
-            margin-right: 1em;
         }
     }
 }
@@ -45,6 +41,110 @@
 
 @media only screen and (min-width: $break1) {
     .layout-event {
+        .metadata {
+
+            background: $primary;
+            color: #fff;
+
+
+            a {
+                color: #fff;
+            }
+
+
+            ul {
+                display: block;
+                flex-flow: row wrap;
+            }
+
+            li {
+                &.date, &.time {
+                    white-space: initial;
+                }
+            }
+        }
+
+
+
+
+
+        .title, h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+
+        h1, .metadata, .description, .speakers, .participation-details {
+
+        }
+
+.container {
+    margin-top: 2em;
+    border: 1px solid red;
+    > * {
+        padding: 1rem;
+    }
+
+}
+
+
+        .container {  display: grid;
+            grid-template-columns: 30% 1fr;
+            grid-template-rows: max-content min-content max-content;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+    "metadata title"
+    "calendar-invitations description-participation"
+    "speakers description-participation";
+        }
+
+        .metadata {
+            align-self: stretch;
+            grid-area: metadata;
+        }
+
+        .title {
+            align-self: center;
+            grid-area: title;
+        }
+
+        .speakers {
+            align-self: end;
+            grid-area: speakers;
+        }
+
+        .calendar-invitations {
+            align-self: start;
+            grid-area: calendar-invitations;
+        }
+
+        .description-participation {  display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr min-content;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+    "description"
+    "participation-details";
+            grid-area: description-participation;
+        }
+
+        .description { grid-area: description; }
+
+        .participation-details { grid-area: participation-details; }
+
+
+
+
+
+
+
+
+
+
 
     }
 }
