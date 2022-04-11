@@ -7,7 +7,7 @@ summary: Hør hvordan bistår vi ansatte våre med  rekruttering, juridiske avkl
 privacy: public
 
 location-type: stream
-location-name: zoom
+location-name: Zoom
 location-link:  https://nav-it.zoom.us/j/99217445030?pwd=b29ZeS80ZE01MTB1aWM1aHUyRGZ5QT09
 location-hybrid:
 

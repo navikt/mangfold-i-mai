@@ -3,6 +3,9 @@ layout: default
 ---
 
 <div class="container">
+
+    <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
+
     <section class="metadata">
         <ul>
 
@@ -16,18 +19,50 @@ layout: default
             </li>
 
             <!-- LOCATION -->
-            <li class="icon {{ page.location-type }}">
-                {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
-            </li>
+
+
+            {% case page.location-type %}
+
+                {% when "stream" %}
+
+                    <li class="icon stream">
+                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+                    </li>
+
+                {% when "in-person" %}
+
+                    <li class="icon in-person">
+                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+                    </li>
+
+                {% when "hybrid" %}
+
+                    <li class="icon in-person">
+                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+                    </li>
+
+                    <li class="icon stream">
+                        Livestream
+                    </li>
+
+            {% endcase %}
+
+
+
+
+
+
+
+
+
 
             {% if page.location-hybrid %}
-            <li class="icon in-person">{{ page.location-hybrid }}.</li>
+            <li class="icon in-person">{{ page.location-hybrid }}</li>
             {% endif%}
 
         </ul>
     </section>
 
-    <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
     <section class="speakers">
 
         {% if page.speakers %}

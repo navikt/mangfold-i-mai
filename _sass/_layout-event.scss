@@ -65,85 +65,81 @@
         }
 
 
-
-
-
         .title, h2 {
             margin: 0;
             padding: 0;
         }
 
 
-
-
         h1, .metadata, .description, .speakers, .participation-details {
 
         }
 
-.container {
-    margin-top: 2em;
-    border: 1px solid red;
-    > * {
-        padding: 1rem;
-    }
+        .container {
+            margin-top: 2em;
+            border: 1px solid red;
 
-}
+            > * {
+                padding: 1rem;
+            }
+
+        }
 
 
-        .container {  display: grid;
+        .container {
+            display: grid;
             grid-template-columns: 30% 1fr;
             grid-template-rows: max-content min-content max-content;
-            gap: 0px 0px;
             grid-auto-flow: row;
             grid-template-areas:
-    "metadata title"
-    "calendar-invitations description-participation"
-    "speakers description-participation";
+                "metadata title"
+                "calendar-invitations description-participation"
+                "speakers description-participation";
         }
 
         .metadata {
             align-self: stretch;
             grid-area: metadata;
+            order: 1;
         }
 
         .title {
             align-self: center;
             grid-area: title;
+            order: 2;
         }
 
         .speakers {
             align-self: end;
             grid-area: speakers;
+            order: 3;
         }
 
         .calendar-invitations {
             align-self: start;
             grid-area: calendar-invitations;
+            order: 4
         }
 
-        .description-participation {  display: grid;
+        .description-participation {
+            display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr min-content;
-            gap: 0px 0px;
             grid-auto-flow: row;
             grid-template-areas:
-    "description"
-    "participation-details";
+                "description"
+                "participation-details";
             grid-area: description-participation;
+            order: 5;
         }
 
-        .description { grid-area: description; }
+        .description {
+            grid-area: description;
+        }
 
-        .participation-details { grid-area: participation-details; }
-
-
-
-
-
-
-
-
-
+        .participation-details {
+            grid-area: participation-details;
+        }
 
 
     }
