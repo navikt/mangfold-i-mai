@@ -7,10 +7,10 @@
         ul {
             list-style: none;
             padding: 0;
-            margin: 0;
+            margin: 1em 0;
         }
 
-        li {
+        li:not(:last-child) {
             margin-bottom: .25em;
         }
     }
@@ -30,31 +30,48 @@
     }
 
     .speaker {
+        margin: 1em 0 1.5em;
+        display: flex;
+        flex-flow: row nowrap;
+
+        a {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        p {
+            margin: .25em 0;
+        }
 
         img {
-            max-width: 100%;
+            max-width: 30%;
             height: auto;
+            display: inline-block;
+            margin-right: 1em;
         }
+
+    }
+
+    .description > :last-child {
+        margin-bottom: 0;
     }
 }
 
 
-@media only screen and (min-width: $break1) {
+@media only screen and (min-width: $break2) {
     .layout-event {
         .metadata {
-
             background: $primary;
             color: #fff;
-
 
             a {
                 color: #fff;
             }
 
-
             ul {
                 display: block;
                 flex-flow: row wrap;
+                margin: 0;
             }
 
             li {
@@ -62,17 +79,53 @@
                     white-space: initial;
                 }
             }
+
+            .icon {
+                padding-right: 0;
+
+                &.time {
+                    background-image: url("images/icons/clock-white.svg");
+                }
+
+                &.date {
+                    background-image: url("images/icons/calendar-white.svg");
+                }
+
+                &.stream {
+                    background-image: url("images/icons/stream-white.svg");
+                }
+
+                &.in-person {
+                    background-image: url("images/icons/in-person-white.svg");
+                }
+            }
+
+        }
+
+        .icon {
+            padding-right: 0;
+        }
+
+        .speaker {
+            margin: 1em 0 0;
+            flex-flow: column-reverse nowrap;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin-right: 0;
+            }
+        }
+
+        h2 + .speaker {
+            margin-top: .25em;
         }
 
 
         .title, h2 {
             margin: 0;
             padding: 0;
-        }
-
-
-        h1, .metadata, .description, .speakers, .participation-details {
-
         }
 
         .container {
@@ -82,9 +135,7 @@
             > * {
                 padding: 1rem;
             }
-
         }
-
 
         .container {
             display: grid;
@@ -93,52 +144,32 @@
             grid-auto-flow: row;
             grid-template-areas:
                 "metadata title"
-                "calendar-invitations description-participation"
-                "speakers description-participation";
+                "participation-details description"
+                "speakers description";
         }
 
         .metadata {
             align-self: stretch;
             grid-area: metadata;
-            order: 1;
         }
 
         .title {
             align-self: center;
             grid-area: title;
-            order: 2;
         }
 
         .speakers {
             align-self: end;
             grid-area: speakers;
-            order: 3;
         }
 
-        .calendar-invitations {
+        .participation-details {
             align-self: start;
-            grid-area: calendar-invitations;
-            order: 4
-        }
-
-        .description-participation {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr min-content;
-            grid-auto-flow: row;
-            grid-template-areas:
-                "description"
-                "participation-details";
-            grid-area: description-participation;
-            order: 5;
+            grid-area: participation-details;
         }
 
         .description {
             grid-area: description;
-        }
-
-        .participation-details {
-            grid-area: participation-details;
         }
 
 
