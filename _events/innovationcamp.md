@@ -13,7 +13,7 @@ location-name: OsloMet
 location-link: https://goo.gl/maps/PrMsmRVxZquQpBvo9
 
 registration: true
-registration-info: "NAV employees can <a href='https://forms.office.com/r/WmyamNnd27'>register via Forms</a>. Others can register on the <a href='https://universal.design/udday22#block-e44b68dc9d24bae4f203'>Universal Design Day</a> website."
+registration-info: "NAV-ansatte kan <a href='https://forms.office.com/r/WmyamNnd27'>melde seg på via Forms</a>. Andre kan melde seg på via <a href='https://universal.design/udday22#block-e44b68dc9d24bae4f203'>Universal Design Day-nettsiden</a>."
 
 
 event-date: 2022-05-23T09:00
@@ -34,5 +34,3 @@ On the 24th of May, we will have a pitching session where participants will pres
 The event language is English, as many of our mentors and jury members are English-speaking only. You are free to speak Norwegian in the groups if everyone in the group consents to do so.   
 
 We have a code of conduct and request that everyone who participates at the event respects that.
-
-## Who is the event for?

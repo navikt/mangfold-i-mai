@@ -6,7 +6,7 @@ layout: default
 
     <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
 
-    <section class="metadata">
+    <div class="metadata">
         <ul>
 
             <!-- DATE AND TIME -->
@@ -60,9 +60,9 @@ layout: default
             {% endif%}
 
         </ul>
-    </section>
+    </div>
 
-    <section class="participation-details">
+    <div class="participation-details">
         <ul>
             <!-- PRIVACY -->
             <li class="icon {{ page.privacy}}">
@@ -99,13 +99,13 @@ layout: default
             </li>
             {% endif %}
         </ul>
-    </section>
+    </div>
 
-    <section class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
+    <div class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
             {{ content }}
-        </section>
+        </div>
 
-    <section class="speakers">
+    <div class="speakers">
         {% if page.speakers %}
 
             <h2>
@@ -153,6 +153,6 @@ layout: default
                 </div>
             {% endfor %}
         {% endif %}
-    </section>
+    </div>
 
 </div>
