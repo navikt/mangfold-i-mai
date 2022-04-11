@@ -52,14 +52,34 @@
 
     }
 
-    .description > :last-child {
-        margin-bottom: 0;
+    .description {
+
+        > :first-child {
+            margin-top: 0;
+        }
+
+        > :last-child {
+            margin-bottom: 0;
+        }
     }
+
 }
 
 
 @media only screen and (min-width: $break2) {
     .layout-event {
+
+        .metadata, .participation-details {
+
+            ul {
+                margin: 0;
+            }
+
+            .icon {
+                padding-right: 0;
+            }
+        }
+
         .metadata {
             background: $primary;
             color: #fff;
@@ -69,12 +89,14 @@
             }
 
             ul {
-                display: block;
-                flex-flow: row wrap;
-                margin: 0;
+                height: 100%;
+                flex-flow: column nowrap;
+                justify-content: center;
             }
 
             li {
+                width: 100%;
+
                 &.date, &.time {
                     white-space: initial;
                 }
@@ -102,10 +124,6 @@
 
         }
 
-        .icon {
-            padding-right: 0;
-        }
-
         .speaker {
             margin: 1em 0 0;
             flex-flow: column-reverse nowrap;
@@ -121,7 +139,6 @@
         h2 + .speaker {
             margin-top: .25em;
         }
-
 
         .title, h2 {
             margin: 0;
