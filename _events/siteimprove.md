@@ -19,7 +19,7 @@ event-date-end: 2022-05-04T10:00
 I kurset lærer du hvordan verktøyet SiteImprove kan brukes til å finne UU-brudd på deres område av nav.no.
 
 - Ingen forkunnskaper nødvendig
-- [Bestill tilgang til Siteimprove](https://forms.office.com/r/rsWY1L0C1d?lang=nb-NO) før kurset
+- [Bestill tilgang til Siteimprove](https://jira.adeo.no/plugins/servlet/desk/portal/581/create/2641) før kurset
 - Ha tilgjengelig PC/MAC og Mobil
 
 ## Dette foredraget er for deg som ønsker å
