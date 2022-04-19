@@ -17,12 +17,18 @@ event-date: 2022-05-03T14:00
 event-date-end: 2022-05-03T15:00
 ics: true
 ---
-## Hva handler det her om?
-Beskrivelse kommer
+"Hvordan kan jeg gjøre det lettere for skjermleserbrukere å finne frem på siden min?"
 
-## Dette foredraget er for deg som
-jobber med frontend-kode
+"Hvorfor er søkeresultatene mine så elendige?"
 
+"Burde jeg bruke en lenke eller en knapp her?"
 
-## Dette kurset blir del av NAVs kurskatalog
-"Semantisk HTML" blir en del av uu-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
+Semantisk HTML er en del av svaret til alle disse spørsmålene.
+
+Når vi bruker semantisk HTML, gir vi _betydning_ til bitsene og bytsene på siden.  Det hjelper oss gjøre sidens innhold tilgjengelig for mange flere enn bare mennesker som kan oppfatte siden med øynene sine.  I dette kurset lærer du hvordan du får det til. 
+
+## Hvem passer kurset for?
+Dette er et teknisk kurs.  Den er egnet for utviklere som jobber med frontend-kode.  Den kan også være egnet for testere og uu-spesialister som jobber med kode.
+
+## Dette kurset blir del av NAVs kurskatalog.
+Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.

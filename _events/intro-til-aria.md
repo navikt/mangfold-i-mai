@@ -26,8 +26,8 @@ Du kanskje bruker ARIA i koden din, men vet du _egentlig_ hva du holder på med?
 
 Dette kurset er et kort innføring i ARIA-standarden (Accessible Rich Internet Applications) som gjør det mulig til å kommunisere informasjon om avanserte semantiske forhold, dynamisk innhold og sammensatte JavaScript widgets til folk som bruker hjelpemidler.  Du kommer til å lære om egenskapene til ARIA, hva ARIA kan gjøre og kanskje enda viktigere, hva den _ikke_ bør brukes til.  Vi skal dykke ned i hvordan navngivning fungerer, så skal vi se på et par vanlige ARIA mønstre.
 
-### Dette kurset blir del av NAVs kurskatalog.
-Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
-
 ## Hvem passer kurset for?
 Dette er et teknisk kurs.  Den er egnet for utviklere som jobber med frontend-kode.  Den kan også være egnet for testere og uu-spesialister som jobber med kode. 
+
+## Dette kurset blir del av NAVs kurskatalog.
+Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  

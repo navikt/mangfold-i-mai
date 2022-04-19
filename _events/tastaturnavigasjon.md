@@ -17,11 +17,14 @@ event-date: 2022-05-18T14:00
 event-date-end: 2022-05-18T15:00
 ics: true
 ---
-## Hva handler kurset om?
-Beskrivelse kommer
+## Tastaturnavigasjon dreier seg om mye mer enn bare tastaturet.
 
-## Dette foredraget er for deg som
-jobber med frontend-kode
+Når du tenker på tastaturnavigering, ser du sannsynligvis for deg en blind person som bruker en skjermleser, eller kanskje en saksbehandler som lynraskt navigerer gjennom skjermene til et fagsystem. Det du kanskje ikke er klar over er at hvorvidt løsningen din fungerer med bare tastatur påvirker langt flere enn disse.
 
-## Dette kurset blir del av NAVs kurskatalog
-"Tastaturnavigasjon for utviklere" blir en del av UU-teamets kurskatalog.  Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
+I dette kurset lærer du ikke bare hvordan du kan sikre at løsningen din møter kravene til tastaturnavigasjon--alt må fungere med bare tastatur--du lærer også hvordan du kan tilby en positiv brukeropplevelse for mangfoldet av mennesker som navigerer med tastatur.  
+
+## Hvem passer kurset for?
+Dette er et lettere teknisk kurs.  Den er mest egnet for utviklere som jobber med frontend-kode.  Andre som jobber med produktutvikling kan også dra nytte av kurset om de ikke er redd for litt kode.  
+
+## Dette kurset blir del av NAVs kurskatalog.
+Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.

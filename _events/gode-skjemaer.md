@@ -30,8 +30,8 @@ Vi skal se på følgende temaer:
 - Hvordan spesifisere skjemadesignet slik at den blir implementert riktig
 - Hvordan implementere designet på en måte som fungerer for alle og minimerer sjansen for feil
 
-## Hvem er kurset til?
+## Hvem passer kurset for?
 Alle som jobber med spesifikasjon, design, utvikling og testing av skjemaer kan dra nytte av kurset.  Det kan hende du blir eksponert for litt kode, men litt kode har jo aldri skadet noen, ikke sant? 
 
-## Dette kurset blir del av NAVs kurskatalog
-“Gode skjemaer” blir en del av UU-teamets kurskatalog. Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV. 
+## Dette kurset blir del av NAVs kurskatalog.
+Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.
