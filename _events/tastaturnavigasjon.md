@@ -19,7 +19,7 @@ ics: true
 ---
 ## Tastaturnavigasjon dreier seg om mye mer enn bare tastaturet.
 
-Når du tenker på tastaturnavigering, ser du sannsynligvis for deg en blind person som bruker en skjermleser, eller kanskje en saksbehandler som lynraskt navigerer gjennom skjermene til et fagsystem. Det du kanskje ikke er klar over er at hvorvidt løsningen din fungerer med bare tastatur påvirker langt flere enn disse.
+Når du tenker på tastaturnavigering, ser du sannsynligvis for deg en blind person som bruker en skjermleser, eller kanskje en saksbehandler som lynraskt navigerer gjennom skjermene til et fagsystem. Det du kanskje _ikke_ er klar over er at hvorvidt løsningen din fungerer med bare tastatur påvirker langt flere enn disse.
 
 I dette kurset lærer du ikke bare hvordan du kan sikre at løsningen din møter kravene til tastaturnavigasjon--alt må fungere med bare tastatur--du lærer også hvordan du kan tilby en positiv brukeropplevelse for mangfoldet av mennesker som navigerer med tastatur.  
 
