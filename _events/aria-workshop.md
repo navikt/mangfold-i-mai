@@ -9,7 +9,7 @@ privacy: internal
 
 location-type: stream
 location-name: Teams
-location-hybrid: B114 Gløden
+
 
 registration: true
 registration-info: Workshoppen har en begrenset antall deltagere.  NAV-ansatte kan <a href="https://forms.office.com/r/Ey2MuGXNA8?lang=nb-NO">registrere via Forms</a>.
