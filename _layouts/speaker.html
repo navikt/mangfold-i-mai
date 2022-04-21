@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{% include page-header.html %}
 
 {% assign image_url = "/assets/images/speakers/" | append: page.image %}
 
 <img class="speaker" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
 
+{% include page-header.html %}
 
 {{ content }}
 

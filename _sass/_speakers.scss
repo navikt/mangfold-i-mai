@@ -1,0 +1,17 @@
+.wrapper {
+  padding-top: 20px;
+}
+
+img.speaker  {
+  height: 30vh;
+  max-height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 1025px) {
+img.speaker  {
+  border-radius: 4px;
+}
+}
