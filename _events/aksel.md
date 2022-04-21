@@ -1,8 +1,8 @@
 ---
 layout: event
-title: Hjemme hos Aksel
+title: "Hjemme hos Aksel: universell utforming i NAVs designsystem og kokebok"
 speakers: [Sarah Brodwall, Kari Anne Reitan Andersen]
-summary: Innsyn i hvordan Team Aksel jobber med universell utforming i designsystemet.
+summary: Hvordan sikre et konsistente og universelt utformet nettsted i en org med nesten 80 autonome team?
 
 privacy: public
 
