@@ -84,7 +84,7 @@
     }
 
     li {
-        margin: .75em 0 1em;
+        margin: 1.2em 0 2.4em;
     }
 
     .title {
@@ -115,12 +115,48 @@
     }
 
     .participation-details {
-        display: block;
-        font-size: .9em;
-        margin-top: .2em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 8px;
 
-        .icon {
-            white-space: nowrap;
+        .badge {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            padding: 2px 14px 2px 8px;
+            border-radius: 50px;
+            background: #e1f2ff;
+            border: 1px solid #b9b9b9;
+            font-size: .9em;
+
+            &.red {
+                background: #ffcdcd;
+            }
+
+            &.blue {
+                background: #bad8ff;
+            }
+
+            &.green {
+                background: #dfffcd;
+            }
+
+            &.yellow {
+                background: #fff7cd;
+            }
+
+            &.purple {
+                background: #f1cdff;
+            }
+
+            .icon {
+                background-position: center center;
+                padding: 0.6em;
+            }
         }
     }
 }

@@ -97,25 +97,41 @@
 
                 <span class="participation-details">
 
-                    <span class="icon {{event.privacy}}">
+
                         {% if event.privacy == "public" %}
-                            Åpent for alle
+                            <article class="badge red">
+                                <span class="icon {{event.privacy}}"></span>
+                                    <label>Åpent for alle</label>
+                            </article>
+
                         {% else %}
-                            Bare for NAV-ansatte
+                            <article class="badge blue">
+                                <span class="icon {{event.privacy}}"></span>
+                                <label>Bare for NAV-ansatte</label>
+                            </article>
                         {% endif %}
-                    </span>
+
 
 
                     {% if event.location-type != "in-person"  %}
-                        <span class="icon stream">Nettmøte</span>
+                    <article class="badge purple">
+                        <span class="icon stream"></span>
+                        <label>Nettmøte</label>
+                    </article>
                     {% endif %}
 
                     {% if event.location-type != "stream" %}
-                        <span class="icon in-person">Fysisk arrangement</span>
+                    <article class="badge yellow">
+                        <span class="icon in-person"></span>
+                        <label>Fysisk arrangement</label>
+                    </article>
                     {% endif %}
 
                     {% if event.registration == true %}
-                        <span class="icon registration-required">Krever påmelding</span>
+                    <article class="badge green">
+                        <span class="icon registration-required"></span>
+                        <label>Krever påmelding</label>
+                    </article>
                     {% endif %}
 
                 </span>
