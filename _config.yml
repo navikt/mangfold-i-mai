@@ -21,7 +21,7 @@
 title: Mangfold i mai
 email: uu@nav.no
 description: >- # this means to ignore newlines until "baseurl:"
-  «Mangfold i mai» er en arrangement-serie rundt mangfold, inkludering og universell utforming i regi av Arbeids- og velferdsdirektoratet.
+  «Mangfold i mai» er en arrangementsserie rundt mangfold, inkludering og universell utforming i regi av Arbeids- og velferdsdirektoratet.
 baseurl: "/mangfold-i-mai" # the subpath of your site, e.g. /blog
 url: "https://navikt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
