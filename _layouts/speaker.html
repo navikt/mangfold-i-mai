@@ -12,16 +12,30 @@ layout: default
     {% include page-header.html %}
 </header>
 
-{{ content }}
+<article>
+    {{ content }}
+</article>
 
-<h2>Foredragene</h2>
 
-<ul>
-    {% for event in site.events %}
+
+
+<section class="speaker-events">
+    <h2>Foredragene</h2>
+    <section class="event-list">
+        {% for event in site.events %}
         {% for speaker in event.speakers %}
-            {% if speaker == page.name %}
-                <li><a href="{{ event.url | relative_url }}">{{ event.title }}</a></li>
-            {% endif %}
+        {% if speaker == page.name %}
+        <article class="event">
+            <header>
+                <a href="{{ event.url | relative_url }}"><h3 class="title">{{ event.title }}</h3></a>
+                <p class="date">
+                    <span class="icon date">{{event.event-date | date: '%d.%m'}}</span>
+                    <span class="icon time">{{event.event-date | date: '%H:%M'}} - {{event.event-date-end | date: '%H:%M'}}</span></p>
+            </header>
+            <p class="summary">{{event.summary}}</p>
+        </article>
+        {% endif %}
         {% endfor %}
-    {% endfor %}
-</ul>
+        {% endfor %}
+    </section>
+</section>
