@@ -1,4 +1,13 @@
 .layout-speaker {
+    main {
+        .wrapper {
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
     .header {
         display: flex;
         flex-direction: column;
@@ -6,18 +15,66 @@
         align-items: center;
         gap: 0;
         padding: 12px 0;
-    }
 
-    .speaker-image {
-        max-width: 100%;
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 150px;
-    }
+        .speaker-image {
+            max-width: 100%;
+            min-width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 150px;
+        }
 
-    h1 {
-        text-align: center;
+        h1 {
+            text-align: center;
+        }
+    }
+    .speaker-events {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-bottom: 40px;
+
+        .event-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 52px;
+
+            .event {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                text-decoration: none;
+
+                h3, p {
+                    margin: 0;
+                }
+
+                header {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+
+                    .title {
+                        font-size: 1.3rem;
+                    }
+
+                    .date {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        gap: 12px;
+
+                        span {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+
+            }
+        }
     }
 }
 
@@ -38,9 +95,11 @@
 
 @media screen and (min-width: 1025px) {
         .layout-speaker {
-            .speaker-image {
-                width: 250px;
-                height: 250px;
+            .header {
+                .speaker-image {
+                    width: 200px;
+                    height: 200px;
+                }
             }
         }
     }
