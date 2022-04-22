@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<header class="foredragsholder">
+<header class="header">
 
-{% if page.image %}
-    {% assign image_url = "/assets/images/speakers/" | append: page.image %}
-    <img class="speaker" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
-{% endif %}
+    {% if page.image %}
+        {% assign image_url = "/assets/images/speakers/" | append: page.image %}
+        <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
+    {% endif %}
 
     {% include page-header.html %}
 </header>
