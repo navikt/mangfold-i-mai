@@ -2,7 +2,7 @@
 layout: event
 title: "Semantisk HTML"
 speakers: Sarah Brodwall
-summary: Kurset blir del av NAVs interne kurskatalog.
+summary: Gjør HTMLen din mer betydningsfull og løft brukeropplevelsen for brukere av hjelpemidler.
 
 privacy: public
 

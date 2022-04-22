@@ -2,7 +2,7 @@
 layout: event
 title: "Universelt utformet innhold"
 speakers: Sarah Brodwall
-summary: Hvordan utforme skriftlig innhold som fungerer for folk flest? Kurset blir del av NAVs interne kurskatalog.
+summary: Innhold er det viktigste element på nettstedet ditt--hvordan sikre at den funker for så mange som mulig?
 
 privacy: public
 
