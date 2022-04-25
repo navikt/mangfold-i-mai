@@ -8,13 +8,11 @@ layout: default
         {% assign image_url = "/assets/images/speakers/" | append: page.image %}
         <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
     {% endif %}
-
-    {% include page-header.html %}
+    <article>
+        {% include page-header.html %}
+        {{ content }}
+    </article>
 </header>
-
-<article>
-    {{ content }}
-</article>
 
 
 
@@ -30,7 +28,8 @@ layout: default
                 <a href="{{ event.url | relative_url }}"><h3 class="title">{{ event.title }}</h3></a>
                 <p class="date">
                     <span class="icon date">{{event.event-date | date: '%d.%m'}}</span>
-                    <span class="icon time">{{event.event-date | date: '%H:%M'}} - {{event.event-date-end | date: '%H:%M'}}</span></p>
+                    <span class="icon time">{{event.event-date | date: '%H:%M'}} - {{event.event-date-end | date: '%H:%M'}}</span>
+                </p>
             </header>
             <p class="summary">{{event.summary}}</p>
         </article>

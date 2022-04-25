@@ -4,106 +4,116 @@ layout: default
 
 <div class="container">
 
-    <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
+    <header>
+        <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
 
-    <div class="metadata">
-        <ul>
+        <!-- DATE AND TIME -->
+        <section class="metadata">
+            <p class="date">
+                <span class="icon date">{% include localized-date.html %}</span>
+                <span class="icon time">{{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}</span>
+            </p>
+        </section>
 
-            <!-- DATE AND TIME -->
-            <li class="icon date">
-                {% include localized-date.html %}
-            </li>
-
-            <li class="icon time">
-                {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
-            </li>
-
-            <!-- LOCATION -->
-
-            {% case page.location-type %}
-
-                {% when "stream" %}
-
-                    <li class="icon stream">
-                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
-                    </li>
-
-                {% when "in-person" %}
-
-                    <li class="icon in-person">
-                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
-                    </li>
-
-                {% when "hybrid" %}
-
-                    <li class="icon in-person">
-                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
-                    </li>
-
-                    <li class="icon stream">
-                        Nettmøte
-                    </li>
-
-            {% endcase %}
-
-
-
-
-
-
-
-
-
-
-            {% if page.location-hybrid %}
-            <li class="icon in-person">{{ page.location-hybrid }}</li>
-            {% endif%}
-
-        </ul>
-    </div>
-
-    <div class="participation-details">
-        <ul>
+        <section class="participation-details">
             <!-- PRIVACY -->
-            <li class="icon {{ page.privacy}}">
-                {% if page.privacy == "internal" %}
-                Kun for NAV-ansatte
-                {% else %}
-                Åpent for hele verden
-                {% endif%}
-            </li>
+            {% if page.privacy == "public" %}
+            <article class="badge red">
+                <span class="icon {{page.privacy}}"></span>
+                <label>Åpent for alle</label>
+            </article>
 
-            <!-- REGISTRATION -->
+            {% else %}
+            <article class="badge blue">
+                <span class="icon {{page.privacy}}"></span>
+                <label>Bare for NAV-ansatte</label>
+            </article>
+            {% endif %}
+        </section>
+    </header>
+
+    <!-- LOCATION -->
+    <section class="location">
+        <header>
+            <h2>Hvor kan du se det?</h2>
+        </header>
+        {% case page.location-type %}
+        {% when "stream" %}
+            {% if page.location-link %}
+                <a href="{{page.location-link}}" class="button">
+                    {{ page.location-name }}
+                </a>
+            {% else %}
+                <p>{{ page.location-name }}</p>
+            {% endif %}
+
+        {% when "in-person" %}
+                {% if page.location-link %}
+                <a href="{{page.location-link}}" class="button">
+                    {{ page.location-name }}
+                </a>
+                {% else %}
+
+                <p>{{ page.location-name }}</p>
+
+                {% endif %}
+
+        {% when "hybrid" %}
+                {% if page.location-link %}
+                <a href="{{page.location-link}}" class="button">
+                    {{ page.location-name }}
+                </a>
+                 {% else %}
+
+                <p>{{ page.location-name }}</p>
+
+                {% endif %}
+            <p>
+                Nettmøte
+            </p>
+        {% endcase %}
+
+        {% if page.location-hybrid %}
+            <p>{{ page.location-hybrid }}</p>
+        {% endif%}
+
+        <!-- REGISTRATION -->
+        <section class="registration">
             {% if page.privacy == "public" and page.location-type == "stream" %}
-            <li class="icon stream">Ingen påmelding</li>
+            <label>Krever ikke påmelding</label>
             {% endif %}
 
             {% if page.privacy == "internal" and page.registration-link %}
-            <li class="icon registration-required">
-                NAV-ansatte kan melde seg på via <a href="{{ page.registration-link }}">Forms</a>.
-            </li>
+            <a class="button" href="{{ page.registration-link }}">
+                <label>Meld deg på via Forms</label>
+            </a>
             {% endif %}
 
             {% if page.registration-info %}
-            <li class="icon registration-required">{{ page.registration-info }}</li>
+            <article>
+                <p>{{ page.registration-info }}</p>
+            </article>
             {% endif %}
-
-
-            <!-- CALENDAR LINKS -->
-            {% if page.ics %}
-            <li class="icon calendar-download">
-                <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">Legg arrangementet til i kalenderen din (.ics)</a>
-                <br>
-                {% if page.privacy == "public" and page.location-type == "stream" %}NAV-ansatte kan <a href="{{ page.registration-link }}">be om en Outlook-innkalling</a>{% endif %}
-                <br>
-            </li>
-            {% endif %}
-        </ul>
-    </div>
+        </section>
+    </section>
 
     <div class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
             {{ content }}
         </div>
+
+    <!-- CALENDAR LINKS -->
+    {% if page.ics %}
+    <section class="button-group">
+        <a class="button" href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">
+            <label>Legg til i kalenderen din</label>
+        </a>
+        {% if page.privacy == "public" and page.location-type == "stream" %}
+        <a class="button secondary" href="{{ page.registration-link }}">
+            Be om innkalling
+        </a>
+        {% endif %}
+    </section>
+    {% endif %}
 
     <div class="speakers">
         {% if page.speakers %}
@@ -116,23 +126,24 @@ layout: default
                 {% endif %}
             </h2>
 
+        <section class="list">
             {% for speaker in page.speakers %}
-                <div class="speaker">
-                    {% assign render-speaker-name = undefined %}
-                    {% assign render-speaker-url = undefined %}
-                    {% assign render-speaker-image = undefined %}
-                    {% assign render-speaker-summary = undefined %}
+                {% assign render-speaker-name = undefined %}
+                {% assign render-speaker-url = undefined %}
+                {% assign render-speaker-image = undefined %}
+                {% assign render-speaker-summary = undefined %}
 
 
-                    {% for site-speaker in site.speakers %}
-                    {% if site-speaker.name == speaker %}
-                    {% assign render-speaker-name = site-speaker.name %}
-                    {% assign render-speaker-url = site-speaker.url %}
-                    {% assign render-speaker-image = site-speaker.image %}
-                    {% assign render-speaker-summary = site-speaker.summary %}
-                    {% endif %}
-                    {% endfor %}
-
+                {% for site-speaker in site.speakers %}
+                {% if site-speaker.name == speaker %}
+                {% assign render-speaker-name = site-speaker.name %}
+                {% assign render-speaker-url = site-speaker.url %}
+                {% assign render-speaker-image = site-speaker.image %}
+                {% assign render-speaker-summary = site-speaker.summary %}
+                {% endif %}
+                {% endfor %}
+            <a href="{{ render-speaker-url | relative_url }}" class="no-underline">
+                <div class="speaker card">
                     {% if render-speaker-image %}
                         {% assign image_url = "/assets/images/speakers/" | append: render-speaker-image %}
                         <img src="{{ image_url | relative_url }}" alt="{{ speaker }}" aria-hidden="true">
@@ -142,7 +153,7 @@ layout: default
                         {% if render-speaker-name == undefined %}
                         <span class="name">{{ speaker }}</span>
                         {% else %}
-                        <a class="name" href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a>
+                        <p class="name">{{ render-speaker-name }}</p>
                         {% endif %}
 
                         {% if render-speaker-summary %}
@@ -151,7 +162,9 @@ layout: default
                     </div>
 
                 </div>
+            </a>
             {% endfor %}
+        </section>
         {% endif %}
     </div>
 

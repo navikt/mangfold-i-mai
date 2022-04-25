@@ -15,7 +15,7 @@ order: 2
     {% for speaker in speakers %}
 
     <a href="{{ speaker.url  | relative_url }}">
-        <article class="speaker">
+        <article class="speaker card">
             {% if speaker.image %}
                 {% assign image_url = "/assets/images/speakers/" | append: speaker.image %}
                     <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}">

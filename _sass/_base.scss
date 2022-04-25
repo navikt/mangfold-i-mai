@@ -27,3 +27,123 @@ h1, h2, h3 {
 p, ul, ol, dl {
     margin-top: .5em;
 }
+
+.button {
+    background: #0067c5;
+    padding: 4px 12px;
+    border-radius: 2px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    min-height: 44px;
+    min-width: 150px;
+    transition: .1s ease-in-out;
+
+    label {
+        cursor: inherit;
+    }
+
+    &:hover {
+        background: #0056b4
+    }
+
+    &:active {
+        background: #005b82;
+    }
+
+    &.secondary {
+        background: #fff;
+        color: #0067c5;
+        border: 2px solid #0067c5;
+
+        &:hover {
+            background: #fafafa;
+        }
+    }
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 14px 4px 8px;
+    border-radius: 50px;
+    background: #e1f2ff;
+    border: 1px solid #b9b9b9;
+    font-size: .92em;
+    line-height: 1em;
+    font-weight: 500;
+
+    &.red {
+        background: #ffcdcd;
+    }
+
+    &.blue {
+        background: #bad8ff;
+    }
+
+    &.green {
+        background: #dfffcd;
+    }
+
+    &.yellow {
+        background: #fff7cd;
+    }
+
+    &.purple {
+        background: #f1cdff;
+    }
+
+    .icon {
+        height: 24px;
+        width: 24px;
+        padding: 0;
+        background-position: center center!important;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #e7e7e7;
+    height: 100%;
+    min-height: 150px;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        transform: scale3d(1.02,1.02,1.02);
+        box-shadow: 0px 0px 8px #e7e7e7;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .button-group {
+        flex-direction: row;
+
+        .button {
+            width: 100%;
+        }
+    }
+}

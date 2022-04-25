@@ -4,26 +4,9 @@
     gap: 20px;
 
     .speaker {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 12px;
-        padding: 20px;
-        background: #ffffff;
-        border: 1px solid #e8e8e8;
-        border-radius: 8px;
-        height: 100%;
-        min-height: 150px;
-        transition: .2s ease-in-out;
-
-        &:hover {
-            transform: scale3d(1.02,1.02,1.02);
-        }
-
         img {
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             object-fit: cover;
             border-radius: 150px;
         }
@@ -35,11 +18,6 @@
         .speaker {
             flex-direction: row;
             justify-content: flex-start;
-
-            img {
-                width: 120px;
-                height: 120px;
-            }
         }
     }
 }
