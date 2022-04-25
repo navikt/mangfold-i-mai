@@ -31,7 +31,12 @@ layout: default
                     <span class="icon time">{{event.event-date | date: '%H:%M'}} - {{event.event-date-end | date: '%H:%M'}}</span>
                 </p>
             </header>
-            <p class="summary">{{event.summary}}</p>
+            {% if event.summary.size > 0 %}
+                <p class="summary">{{event.summary}}</p>
+
+            {% else %}
+                <p class="summary muted">Beskrivelse av dette arrangementet mangler.</p>
+            {% endif %}
         </article>
         {% endif %}
         {% endfor %}

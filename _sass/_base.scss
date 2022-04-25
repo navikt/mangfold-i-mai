@@ -28,6 +28,12 @@ p, ul, ol, dl {
     margin-top: .5em;
 }
 
+p {
+    &.muted {
+        opacity: 0.75
+    }
+}
+
 .button {
     background: #0067c5;
     padding: 4px 12px;
