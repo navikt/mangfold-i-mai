@@ -13,17 +13,15 @@ order: 2
     {% assign speakers = site.speakers %}
 
     {% for speaker in speakers %}
-
-    <a href="{{ speaker.url  | relative_url }}">
-        <div class="speaker card">
+        <div class="speaker">
             {% if speaker.image %}
                 {% assign image_url = "/assets/images/speakers/" | append: speaker.image %}
                     <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
                 {% endif %}
 
-            <p class="name">{{ speaker.name }}</p>
+            <a href="{{ speaker.url  | relative_url }}" class="name">{{ speaker.name }}</a>
         </div>
-    </a>
+
 
     {% endfor %}
 

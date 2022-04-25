@@ -131,19 +131,21 @@ layout: default
                 {% assign render-speaker-summary = site-speaker.summary %}
                 {% endif %}
                 {% endfor %}
-            <a href="{{ render-speaker-url | relative_url }}" class="no-underline">
-                <div class="speaker card">
+
+                <div class="speaker">
                     {% if render-speaker-image %}
                         {% assign image_url = "/assets/images/speakers/" | append: render-speaker-image %}
                         <img src="{{ image_url | relative_url }}" alt="{{ speaker }}" aria-hidden="true">
                     {% endif %}
 
                     <div class="about">
+                        <a href="{{ render-speaker-url | relative_url }}" class="no-underline">
                         {% if render-speaker-name == undefined %}
                         <span class="name">{{ speaker }}</span>
                         {% else %}
                         <p class="name">{{ render-speaker-name }}</p>
                         {% endif %}
+                        </a>
 
                         {% if render-speaker-summary %}
                         <p class="summary">{{render-speaker-summary}}</p>

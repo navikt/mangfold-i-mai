@@ -93,9 +93,18 @@
     }
 
     .speaker {
-        gap: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        background: #f6f6f6;
+        border-radius: 4px;
+        padding: 20px;
+        min-height: 140px;
 
         img {
+            min-width: 100px;
             width: 100px;
             height: 100px;
             object-fit: cover;
@@ -106,16 +115,11 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-            height: 100%;
-
-            p, span {
-                color: #000;
-                text-decoration: none;
-            }
 
             .name {
                 font-size: 1.2em;
                 font-weight: 500;
+                margin: 0;
             }
         }
     }
@@ -125,6 +129,7 @@
     .layout-event {
         .speaker {
             flex-direction: row;
+            justify-content: flex-start;
 
             .about {
                 justify-content: center;
