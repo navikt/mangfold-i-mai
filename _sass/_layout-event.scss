@@ -12,6 +12,8 @@
     }
 
     .container {
+        margin: 0 auto;
+        max-width: 760px;
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -67,13 +69,15 @@
             margin-top: 20px;
         }
 
-        h2:first-of-type {
+        > *:first-child {
             margin: 0;
         }
     }
 
-    .no-underline {
-        text-decoration: none;
+    .calendar {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
 
     .speakers {
@@ -135,12 +139,6 @@
             padding: 2rem;
             margin-top: 2em;
             border: 1px solid red;
-        }
-
-        .speakers {
-            .list {
-                grid-template-columns: 1fr 1fr;
-            }
         }
     }
 }

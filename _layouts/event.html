@@ -18,16 +18,10 @@ layout: default
         <section class="participation-details">
             <!-- PRIVACY -->
             {% if page.privacy == "public" %}
-            <article class="badge red">
-                <span class="icon {{page.privacy}}"></span>
-                <label>Åpent for alle</label>
-            </article>
+            <span class="badge red icon {{page.privacy}}">Åpent for alle</span>
 
             {% else %}
-            <article class="badge blue">
-                <span class="icon {{page.privacy}}"></span>
-                <label>Bare for NAV-ansatte</label>
-            </article>
+            <span class="badge blue icon {{page.privacy}}">Bare for NAV-ansatte</span>
             {% endif %}
         </section>
     </header>
@@ -40,8 +34,10 @@ layout: default
         {% case page.location-type %}
         {% when "stream" %}
             {% if page.location-link %}
-                <a href="{{page.location-link}}" class="button">
-                    {{ page.location-name }}
+                <a href="{{page.location-link}}">
+                    <button>
+                        {{ page.location-name }}
+                    </button>
                 </a>
             {% else %}
                 <p>{{ page.location-name }}</p>
@@ -50,7 +46,7 @@ layout: default
         {% when "in-person" %}
                 {% if page.location-link %}
                 <a href="{{page.location-link}}" class="button">
-                    {{ page.location-name }}
+                    <button>{{ page.location-name }}</button>
                 </a>
                 {% else %}
 
@@ -60,8 +56,10 @@ layout: default
 
         {% when "hybrid" %}
                 {% if page.location-link %}
-                <a href="{{page.location-link}}" class="button">
-                    {{ page.location-name }}
+                <a href="{{page.location-link}}">
+                    <button>
+                        {{ page.location-name }}
+                    </button>
                 </a>
                  {% else %}
 
@@ -80,12 +78,14 @@ layout: default
         <!-- REGISTRATION -->
         <section class="registration">
             {% if page.privacy == "public" and page.location-type == "stream" %}
-            <label>Krever ikke påmelding</label>
+            <span>Krever ikke påmelding</span>
             {% endif %}
 
             {% if page.privacy == "internal" and page.registration-link %}
-            <a class="button" href="{{ page.registration-link }}">
-                <label>Meld deg på via Forms</label>
+            <a href="{{ page.registration-link }}">
+                <button>
+                    Meld deg på via Forms
+                </button>
             </a>
             {% endif %}
 
@@ -103,16 +103,23 @@ layout: default
 
     <!-- CALENDAR LINKS -->
     {% if page.ics %}
-    <section class="button-group">
-        <a class="button" href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">
-            <label>Legg til i kalenderen din</label>
-        </a>
-        {% if page.privacy == "public" and page.location-type == "stream" %}
-        <a class="button secondary" href="{{ page.registration-link }}">
-            Be om innkalling
-        </a>
-        {% endif %}
+    <section class="calendar">
+        <h2>Legg til i kalenderen din</h2>
+        <div class="button-group">
+            <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">
+                <button>Last ned .ics fil</button>
+            </a>
+
+            {% if page.privacy == "public" and page.location-type == "stream" %}
+            <a href="{{ page.registration-link }}">
+                <button class="button secondary">
+                    Be om innkalling
+                </button>
+            </a>
+            {% endif %}
+        </div>
     </section>
+
     {% endif %}
 
     <div class="speakers">
@@ -120,9 +127,9 @@ layout: default
 
             <h2>
                 {% if page.speakers[1] %}
-                    Foredrags&#x00AD;holderne
+                    Hvem holder foredraget?
                 {% else %}
-                    Foredrags&#x00AD;holder
+                    Hvem holder foredraget?
                 {% endif %}
             </h2>
 

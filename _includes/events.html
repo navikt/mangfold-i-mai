@@ -95,46 +95,28 @@
                         {% endif %}
                     </span>
 
-                <span class="participation-details">
-
-
+                <div class="participation-details">
                         {% if event.privacy == "public" %}
-                            <article class="badge red">
-                                <span class="icon {{event.privacy}}"></span>
-                                    <label>Åpent for alle</label>
-                            </article>
-
+                    <span class="badge red icon {{event.privacy}}">Åpent for alle</span>
                         {% else %}
-                            <article class="badge blue">
-                                <span class="icon {{event.privacy}}"></span>
-                                <label>Bare for NAV-ansatte</label>
-                            </article>
+                    <span class="badge blue icon {{event.privacy}}">Bare for NAV-ansatte</span>
                         {% endif %}
 
 
 
                     {% if event.location-type != "in-person"  %}
-                    <article class="badge purple">
-                        <span class="icon stream"></span>
-                        <label>Nettmøte</label>
-                    </article>
+                        <span class="badge purple icon stream">Nettmøte</span>
                     {% endif %}
 
                     {% if event.location-type != "stream" %}
-                    <article class="badge yellow">
-                        <span class="icon in-person"></span>
-                        <label>Fysisk arrangement</label>
-                    </article>
+                    <span class="badge yellow icon in-person">Fysisk arrangement</span>
                     {% endif %}
 
                     {% if event.registration == true %}
-                    <article class="badge green">
-                        <span class="icon registration-required"></span>
-                        <label>Krever påmelding</label>
-                    </article>
+                    <span class="badge green icon registration-required">Krever påmelding</span>
                     {% endif %}
 
-                </span>
+                </div>
 
             </li>
 

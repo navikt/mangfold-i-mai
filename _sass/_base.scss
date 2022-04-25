@@ -2,7 +2,7 @@
     font-size: 100%;
 }
 
-body {
+body, button {
     font-family: 'Montserrat', serif;
 }
 
@@ -34,13 +34,13 @@ p {
     }
 }
 
-.button {
+button {
     background: #0067c5;
     padding: 4px 12px;
     border-radius: 2px;
+    border: none;
     color: white;
     font-weight: 500;
-    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -50,10 +50,7 @@ p {
     min-height: 44px;
     min-width: 150px;
     transition: .1s ease-in-out;
-
-    label {
-        cursor: inherit;
-    }
+    outline: none;
 
     &:hover {
         background: #0056b4
@@ -67,9 +64,11 @@ p {
         background: #fff;
         color: #0067c5;
         border: 2px solid #0067c5;
+        padding: 4px 20px;
 
         &:hover {
-            background: #fafafa;
+            background: #0056b4;
+            color: #fff
         }
     }
 }
@@ -87,7 +86,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 4px;
-    padding: 4px 14px 4px 8px;
+    padding: 8px 14px 8px 34px!important;
     border-radius: 50px;
     background: #e1f2ff;
     border: 1px solid #b9b9b9;
@@ -115,11 +114,10 @@ p {
         background: #f1cdff;
     }
 
-    .icon {
-        height: 24px;
-        width: 24px;
-        padding: 0;
-        background-position: center center!important;
+    &.icon {
+        background-repeat: no-repeat;
+        background-size: 18px;
+        background-position: 8px center!important;
     }
 }
 
@@ -131,16 +129,16 @@ p {
     gap: 12px;
     padding: 20px;
     background: #ffffff;
-    border: 1px solid #e8e8e8;
+    border: 1px solid #efefef;
     border-radius: 8px;
-    box-shadow: 0px 0px 4px #e7e7e7;
+    box-shadow: 0px 0px 4px #f8f8f8;
     height: 100%;
-    min-height: 150px;
-    transition: .2s ease-in-out;
+    min-height: 125px;
+    transition: .1s ease-in-out;
 
     &:hover {
         transform: scale3d(1.02,1.02,1.02);
-        box-shadow: 0px 0px 8px #e7e7e7;
+        box-shadow: 0px 0px 12px #f5f5f5;
     }
 }
 
