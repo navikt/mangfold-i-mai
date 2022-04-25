@@ -3,7 +3,21 @@
     grid-template-columns: 1fr;
     gap: 20px;
 
+    a {
+        text-decoration: none;
+    }
+
     .speaker {
+        text-decoration: none;
+
+        .name {
+            font-size: 1.2em;
+            font-weight: 500;
+            text-decoration: none;
+            margin: 0;
+            color: #000000;
+        }
+
         img {
             width: 100px;
             height: 100px;
@@ -25,21 +39,5 @@
 @media screen and (min-width: 600px) {
     .layout-speakers-list {
         grid-template-columns: repeat(2, 1fr);
-
-        .speaker {
-            flex-direction: column;
-            justify-content: center;
-        }
-    }
-}
-
-@media screen and (min-width: 1025px) {
-    .layout-speakers-list {
-        grid-template-columns: repeat(2, 1fr);
-
-        .speaker {
-            flex-direction: row;
-            justify-content: flex-start;
-        }
     }
 }

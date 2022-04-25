@@ -12,7 +12,7 @@
         display: flex;
         flex-direction: column;
         justify-items: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 0;
         padding: 12px 0;
 
@@ -23,11 +23,8 @@
             object-fit: cover;
             border-radius: 150px;
         }
-
-        h1 {
-            text-align: center;
-        }
     }
+
     .speaker-events {
         display: flex;
         flex-direction: column;
@@ -78,17 +75,13 @@
     }
 }
 
-@media screen and (min-width: 405px) {
+@media screen and (min-width: 705px) {
     .layout-speaker {
         .header {
                 flex-direction: row;
                 gap: 20px;
                 padding: 20px 0;
                 justify-items: flex-start;
-
-            h1 {
-                text-align: left;
-            }
         }
     }
 }
