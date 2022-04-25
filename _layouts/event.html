@@ -34,20 +34,14 @@ layout: default
         {% case page.location-type %}
         {% when "stream" %}
             {% if page.location-link %}
-                <a href="{{page.location-link}}">
-                    <button>
-                        {{ page.location-name }}
-                    </button>
-                </a>
+                <a href="{{page.location-link}}">{{ page.location-name }}</a>
             {% else %}
                 <p>{{ page.location-name }}</p>
             {% endif %}
 
         {% when "in-person" %}
                 {% if page.location-link %}
-                <a href="{{page.location-link}}" class="button">
-                    <button>{{ page.location-name }}</button>
-                </a>
+                <a href="{{page.location-link}}">{{ page.location-name }}</a>
                 {% else %}
 
                 <p>{{ page.location-name }}</p>
@@ -56,11 +50,7 @@ layout: default
 
         {% when "hybrid" %}
                 {% if page.location-link %}
-                <a href="{{page.location-link}}">
-                    <button>
-                        {{ page.location-name }}
-                    </button>
-                </a>
+                    <a href="{{page.location-link}}">{{ page.location-name }}</a>
                  {% else %}
 
                 <p>{{ page.location-name }}</p>
@@ -82,11 +72,7 @@ layout: default
             {% endif %}
 
             {% if page.privacy == "internal" and page.registration-link %}
-            <a href="{{ page.registration-link }}">
-                <button>
-                    Meld deg på via Forms
-                </button>
-            </a>
+            <a href="{{ page.registration-link }}">Meld deg på via Forms</a>
             {% endif %}
 
             {% if page.registration-info %}
@@ -111,11 +97,7 @@ layout: default
             </a>
 
             {% if page.privacy == "public" and page.location-type == "stream" %}
-            <a href="{{ page.registration-link }}">
-                <button class="button secondary">
-                    Be om innkalling
-                </button>
-            </a>
+            <a href="{{ page.registration-link }}">Be om innkalling</a>
             {% endif %}
         </div>
     </section>
