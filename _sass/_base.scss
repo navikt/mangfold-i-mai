@@ -132,3 +132,14 @@ button {
         }
     }
 }
+
+.til {
+    display: inline-block;
+    overflow: hidden;
+    width: .5em;
+    height: 1.1em;
+
+    &::before {
+        content: "-";
+    }
+}

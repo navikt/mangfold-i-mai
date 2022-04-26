@@ -2,7 +2,7 @@
 layout: event
 title: "Tastaturnavigasjon for utviklere" 
 speakers: Sarah Brodwall
-summary: Kurset blir del av NAVs interne kurskatalog.
+summary: Hvordan utvikle tastaturnavigasjon som gir god UX og teknisk kompatibilitet? 
 
 privacy: public
 

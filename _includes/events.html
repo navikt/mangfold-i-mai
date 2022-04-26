@@ -75,8 +75,11 @@
                 {% endif %}
 
                     <span class="time">
-                       <span>{{ event.event-date | date: "%k"}}:{{ event.event-date | date: "%M"}}</span> -
-                       <span>{{ event.event-date-end | date: "%k"}}:{{ event.event-date-end | date: "%M"}}</span></span>
+                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%H:%M'}}</time>
+                        <span class="til">til</span>
+                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%H:%M'}}</time></span>
+
+
 
                     <span class="summary">
 

@@ -1,7 +1,9 @@
-.layout-speakers-list {
+.speakers-list {
     display: grid;
     grid-template-columns: 1fr;
     gap: 32px;
+    list-style: none;
+    padding: 0;
 
     .speaker {
         display: flex;
@@ -27,7 +29,7 @@
     }
 }
 @media screen and (min-width: 800px) {
-    .layout-speakers-list {
+    .speakers-list {
         grid-template-columns: repeat(2, 1fr);
     }
 }

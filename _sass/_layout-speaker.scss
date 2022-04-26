@@ -8,91 +8,43 @@
         }
     }
 
-    .header {
+    .speaker-header {
         display: flex;
         flex-direction: column;
-        justify-items: center;
-        align-items: flex-start;
-        gap: 0;
-        padding: 12px 0;
+        gap: 20px;
+
+        h1 {
+            margin: 0;
+        }
 
         .speaker-image {
-            max-width: 100%;
             min-width: 150px;
+            width: 150px;
             height: 150px;
             object-fit: cover;
             border-radius: 150px;
+            margin-top: 4px;
         }
     }
 
-    .speaker-events {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        padding-bottom: 40px;
-
-        .event-list {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 52px;
-
-            .event {
-                display: flex;
-                flex-direction: column;
-                gap:12px;
-                text-decoration: none;
-
-                h3, p {
-                    margin: 0;
-                }
-
-                header {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 12px;
-
-                    .title {
-                        font-size: 1.5rem;
-                    }
-
-                    .date {
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: flex-start;
-                        gap: 12px;
-
-                        span {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: center;
-                            align-items: center;
-                        }
-                    }
-                }
-
-            }
-        }
+    .event-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
+
+    .summary {
+        margin: 0 0 2em;
+    }
+
 }
 
-@media screen and (min-width: 705px) {
+@media screen and (min-width: 605px) {
     .layout-speaker {
-        .header {
+        .speaker-header {
                 flex-direction: row;
-                gap: 20px;
-                padding: 20px 0;
-                justify-items: flex-start;
+                gap: 40px;
+                padding: 40px 16px;
         }
     }
 }
-
-@media screen and (min-width: 1025px) {
-        .layout-speaker {
-            .header {
-                .speaker-image {
-                    min-width: 200px;
-                    height: 200px;
-                }
-            }
-        }
-    }

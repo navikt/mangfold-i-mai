@@ -2,44 +2,46 @@
 layout: default
 ---
 
-<header class="header">
-
+<div class="speaker-header">
     {% if page.image %}
         {% assign image_url = "/assets/images/speakers/" | append: page.image %}
-        <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
+        <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}" aria-hidden="true">
     {% endif %}
-    <article>
+
+    <div>
         {% include page-header.html %}
         {{ content }}
-    </article>
-</header>
-
-
+    </div>
+</div>
 
 
 <section class="speaker-events">
     <h2>Foredragene</h2>
-    <section class="event-list">
+    <ul class="event-list">
         {% for event in site.events %}
         {% for speaker in event.speakers %}
         {% if speaker == page.name %}
-        <article class="event">
-            <header>
-                <a href="{{ event.url | relative_url }}"><h3 class="title">{{ event.title }}</h3></a>
+        <li class="event">
+            <div class="event-header">
+                <h3 class="title">
+                    <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+                </h3>
                 <p class="date">
-                    <span class="icon date">{{event.event-date | date: '%d.%m'}}</span>
-                    <span class="icon time">{{event.event-date | date: '%H:%M'}} - {{event.event-date-end | date: '%H:%M'}}</span>
-                </p>
-            </header>
-            {% if event.summary.size > 0 %}
-                <p class="summary">{{event.summary}}</p>
+                    <span class="icon date">
+                        <date datetime="{{event.event-date}}">{{event.event-date | date: '%d.%m'}}</date>
+                    </span>
 
-            {% else %}
-                <p class="summary muted">Beskrivelse av dette arrangementet mangler.</p>
-            {% endif %}
-        </article>
+                    <span class="icon time">
+                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%H:%M'}}</time>
+                        <span class="til">til</span>
+                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%H:%M'}}</time>
+                    </span>
+                </p>
+            </div>
+            <p class="summary">{{event.summary}}</p>
+        </li>
         {% endif %}
         {% endfor %}
         {% endfor %}
-    </section>
+    </ul>
 </section>
