@@ -8,11 +8,11 @@ layout: default
         <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}" aria-hidden="true">
     {% endif %}
 
-    {% include page-header.html %}
+    <div>
+        {% include page-header.html %}
+        {{ content }}
+    </div>
 </div>
-
-
-{{ content }}
 
 
 <section class="speaker-events">
