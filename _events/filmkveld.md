@@ -15,7 +15,7 @@ registration-info: "Arrangementet er begrenset til 60 personer som jobber i Fyrs
 event-date: 2022-05-10T17:00
 event-date-end: 2022-05-10T19:00
 ---
-## Tid for film, pizza, saft og øl
+## Tid for film, pizza, brus og øl
 Vi skal ha filmkveld i Fyrstikkalleen! Filmen er foreløpig hemmelig :)
 
 Arrengementet er dessverre begrenset til 60 personer som jobber i bygget.
