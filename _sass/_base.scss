@@ -123,27 +123,6 @@ button {
     }
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 12px;
-    padding: 20px;
-    background: #ffffff;
-    border: 1px solid #efefef;
-    border-radius: 8px;
-    box-shadow: 0px 0px 4px #f8f8f8;
-    height: 100%;
-    min-height: 125px;
-    transition: .1s ease-in-out;
-
-    &:hover {
-        transform: scale3d(1.02,1.02,1.02);
-        box-shadow: 0px 0px 12px #f5f5f5;
-    }
-}
-
 @media screen and (min-width: 540px) {
     .button-group {
         flex-direction: row;

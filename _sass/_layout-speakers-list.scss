@@ -1,47 +1,33 @@
 .layout-speakers-list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 32px;
 
     .speaker {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        gap: 20px;
-        background: #f6f6f6;
+        gap: 12px;
         border-radius: 4px;
-        padding: 12px;
-        min-height: 120px;
+
+        img {
+            min-width: 60px;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 150px;
+        }
 
         .name {
             font-size: 1.2em;
             font-weight: 500;
             margin: 0;
         }
-
-        img {
-            min-width: 80px;
-            width: 80px;
-            height: 80px;
-            object-fit: cover;
-            border-radius: 150px;
-        }
     }
 }
-
-@media screen and (min-width: 400px) {
-    .layout-speakers-list {
-        .speaker {
-            flex-direction: row;
-            justify-content: flex-start;
-        }
-    }
-}
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .layout-speakers-list {
         grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
     }
 }
