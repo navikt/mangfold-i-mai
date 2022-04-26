@@ -27,3 +27,14 @@ h1, h2, h3 {
 p, ul, ol, dl {
     margin-top: .5em;
 }
+
+.til {
+    display: inline-block;
+    overflow: hidden;
+    width: .5em;
+    height: 1.1em;
+
+    &::before {
+        content: "-";
+    }
+}
