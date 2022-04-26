@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Digital ekskludering i NAV - presentasjon av Sintefs rapport"
+title: "Hvordan legge til rette for inkluderende gaming?"
 speakers: Frank Lunde
 summary: Hvordan kan man tilrettelegge for gaming, også for personer med nedsatt funksjonsevne?
 
