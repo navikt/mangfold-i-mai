@@ -3,7 +3,7 @@ language: en
 
 layout: event
 title: Accessibility, Design and Usability Review in a Combined Toolchain
-speakers: Accessibility team at Facebook / Meta
+speakers: Jesse Beach, Facebook / Meta
 summary: 
 
 privacy: public
