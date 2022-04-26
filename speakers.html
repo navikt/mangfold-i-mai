@@ -8,23 +8,22 @@ order: 2
 ---
 {% include page-header.html %}
 
-<section class="layout-speakers-list">
+<ul class="speakers-list">
 
     {% assign speakers = site.speakers %}
 
     {% for speaker in speakers %}
 
-    <a href="{{ speaker.url  | relative_url }}">
-        <article class="speaker">
+        <li class="speaker">
+            <a href="{{ speaker.url  | relative_url }}">
             {% if speaker.image %}
                 {% assign image_url = "/assets/images/speakers/" | append: speaker.image %}
-                    <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}">
+                    <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}" aria-hidden="true">
                 {% endif %}
-
             {{ speaker.name }}
-        </article>
-    </a>
+            </a>
+        </li>
 
     {% endfor %}
 
-</section>
+</ul>
