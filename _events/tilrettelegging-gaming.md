@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Hvordan legge til rette for inkluderende gaming?"
+title: "Muligheter for tilrettelegging av spill for personer med nedsatt evne til bevegelse"
 speakers: Frank Lunde
-summary: Hvordan kan man tilrettelegge for gaming, også for personer med nedsatt funksjonsevne?
+summary: Hvordan kan man tilrettelegge for gaming, også for personer med nedsatt bevegelse?
 
 privacy: public
 
@@ -17,7 +17,7 @@ event-date-end: 2022-05-19T09:00
 ics: true
 ---
 ## Hva handler foredraget om?
-Beskrivelse kommer.
+Frank Lunde, seniorrådgiver ved NAV Hjelpemiddelsentral Øst-Viken, gir et innblikk i hvilke muligheter som finnes for å tilrettelegge spill slik at flest mulig kan spille. Foredraget har fokus på personer med nedsatt evne til bevegelse.
 
 ## Dette foredraget er for deg som
-
+ - Gjerne vil vite mer om inkluderende gaming.
