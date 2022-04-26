@@ -2,7 +2,7 @@
 layout: event
 title: "Filmkveld med synstolket film"
 speakers:
-summary:
+summary: Se Jo Nesbøs "Hodejegerne" med synstolking!
 
 privacy: public 
 
@@ -16,7 +16,7 @@ event-date: 2022-05-10T17:00
 event-date-end: 2022-05-10T19:00
 ---
 ## Tid for film, pizza, brus og øl
-Vi skal ha filmkveld i Fyrstikkalleen! Filmen er foreløpig hemmelig :)
+Vi skal ha filmkveld i Fyrstikkalleen! Bli med på en annerledes filmopplevelse. Vi viser Jo Nesbøs "Hodejegere" - med synstolking. Du får også lov til å "låne en synsnedsettelse" under filmen.
 
 Arrengementet er dessverre begrenset til 60 personer som jobber i bygget.
 
