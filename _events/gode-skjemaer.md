@@ -18,11 +18,7 @@ event-date-end: 2022-05-18T11:00
 ics: true
 ---
 ## Hva handler kurset om?
-Det er mye som skal på plass når man lager skjemaer hvis du ønsker å sikre at de kan brukes av alle.  
-
-Kurset er organisert basert på idéen at alle i teamet har godt av å bli kjent med god skjemadesign. Innholdet i kurset blir mer teknisk til slutt, slik at du kan   
-
-Vi skal se på følgende temaer:
+Det er mye som skal på plass når man lager skjemaer hvis du ønsker å sikre at de kan brukes av alle.  Vi skal se på følgende temaer:
 
 - Hvordan layout, grafisk design og nøye-skrevet tekst kan gjøre utfylling lettere
 - Hvordan hjelpe folk føle seg trygg under utfylling
