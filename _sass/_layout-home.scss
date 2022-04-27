@@ -6,7 +6,7 @@
     }
 }
 
-@media only screen and (min-width: $break3) {
+@media only screen and (min-width: $break2) {
     .layout-home{
         .logo {
             margin: 0;
@@ -16,12 +16,9 @@
             display: block;
         }
 
-        .wrapper, .events {
-            max-width: 50em;
-        }
-
         .events {
             margin: 0 auto;
+            max-width: 50em;
         }
 
         nav ul {

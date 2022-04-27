@@ -1,10 +1,9 @@
 .icon {
     padding: 0 1em 0 1.5em;
-    background: no-repeat left .15em / 1em;
+    background: no-repeat left center / 18px;
 
     &.public {
         background-image: url("images/icons/public.svg");
-        background-position: .1em .13em;
     }
 
     &.internal {
@@ -13,19 +12,15 @@
 
     &.registration-required {
         background-image: url("images/icons/registration-required.svg");
-        background-position: left .2em;
     }
 
     &.stream {
         background-image: url("images/icons/stream-black.svg");
-        background-size: 1.15em;
-        background-position: .05em .25em;
     }
 
     &.in-person {
         background-image: url("images/icons/in-person-black.svg");
-        background-size: .75em;
-        background-position: .2em .15em;
+        background-size: 13px;
     }
 
     &.calendar-outlook {
@@ -34,18 +29,48 @@
 
     &.calendar-download {
         background-image: url("images/icons/calendar-download-black.svg");
-        background-position: left .1em;
-        background-size: 1.15em;
     }
 
     &.time {
         background-image: url("images/icons/clock-black.svg");
-        background-position: .05em .175em;
     }
 
     &.date {
         background-image: url("images/icons/calendar-black.svg");
-        background-size: .9em;
-        background-position: .14em .1em;
+    }
+}
+
+.badge {
+    display: inline-block;
+    padding: .5em 1em .5em 2.25em;
+    border-radius: 2em;
+    background-color: #e1f2ff;
+    border: 1px solid #b9b9b9;
+    font-size: .92em;
+    line-height: 1em;
+    font-weight: 500;
+
+    &.icon {
+        background-position: .625em center;
+    }
+
+    &.red {
+        background-color: #ffcdcd;
+    }
+
+    &.blue {
+        background-color: #bad8ff;
+    }
+
+    &.green {
+        background-color: #dfffcd;
+    }
+
+    &.yellow {
+        background-color: #fff7cd;
+    }
+
+    &.purple {
+        background-color: #f1cdff;
     }
 }

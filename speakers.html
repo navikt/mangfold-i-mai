@@ -9,22 +9,8 @@ order: 2
 {% include page-header.html %}
 
 <ul class="speakers-list">
-
     {% assign speakers = site.speakers %}
-
     {% for speaker in speakers %}
-
-        <li class="speaker">
-
-            {% if speaker.image %}
-                {% assign image_url = "/assets/images/speakers/" | append: speaker.image %}
-                    <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}" aria-hidden="true">
-                {% endif %}
-            <a href="{{ speaker.url  | relative_url }}">
-            {{ speaker.name }}
-            </a>
-        </li>
-
+        {% include speaker-card.html speaker=speaker.name %}
     {% endfor %}
-
 </ul>

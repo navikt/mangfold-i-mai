@@ -1,34 +1,13 @@
 .speakers-list {
+    margin-top: 2em;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 3em;
     list-style: none;
     padding: 0;
-
-    .speaker {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 12px;
-        border-radius: 4px;
-
-        img {
-            min-width: 60px;
-            width: 60px;
-            height: 60px;
-            object-fit: cover;
-            border-radius: 150px;
-        }
-
-        .name {
-            font-size: 1.2em;
-            font-weight: 500;
-            margin: 0;
-        }
-    }
 }
-@media screen and (min-width: 800px) {
+
+@media screen and (min-width: $break2) {
     .speakers-list {
         grid-template-columns: repeat(2, 1fr);
     }
