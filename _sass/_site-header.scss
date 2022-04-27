@@ -26,7 +26,11 @@
 }
 
 .site-header {
-    padding: 1rem 0;
+    @extend .colorful;
+    background-size: 100% 1em;
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
 
     .wrapper {
         display: flex;
@@ -49,8 +53,11 @@
             padding-right: 0;
         }
     }
+}
 
-    a {
-        color: #fff;
+
+@media only screen and (min-width: $break3) {
+    .site-header {
+        padding: 3em 0 2em;
     }
 }
