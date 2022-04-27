@@ -4,20 +4,23 @@
 {% include head.html %}
 
 <body class="layout-home">
-    <a id="skip" href="#content">Hopp til innholdet.</a>
+<a id="skip" href="#content">Hopp til innholdet.</a>
 
-    {% include site-header.html %}
+{% include site-header.html %}
 
-    <main id="content" tabindex="-1">
-        <div class="wrapper">
-            {{ content }}
+<main id="content" tabindex="-1">
+    <div class="wrapper">
+        <div class="flash">
+            <img class="hero" src="assets/images/people2.png" alt="Fargerike folk" aria-hidden="true">
+            <div>{{ content }}</div>
         </div>
+    </div>
 
-        {% include events-list.html title="Hva har vi planlagt?" %}
+    {% include events-list.html title="Hva har vi planlagt?" %}
 
-    </main>
+</main>
 
-    {% include site-footer.html %}
+{% include site-footer.html %}
 
 </body>
 </html>
