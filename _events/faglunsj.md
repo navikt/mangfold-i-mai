@@ -11,7 +11,7 @@ location-name: Zoom
 location-link: https://nav-it.zoom.us/j/95540090882?pwd=UzB3UDhNZmJucm1UejArQ1dOU2s1dz09
 location-hybrid: 
 
-registration-link:
+registration-link: https://www.meetup.com/nav-faglunsj/events/285515401/?
 
 event-date: 2022-05-11T11:00
 event-date-end: 2022-05-11T12:00
@@ -21,7 +21,7 @@ Digitale og hybride møter har vi blitt vant til. Men, er vi gode til å avvikle
 
 Velkommen: vi skal være best på inkludering i NAV, og det betyr at møtene våre skal være tilgjengelige for alle.
 
-Påmeldingen skjer gjennom Gruppen som jobber med Faglunsj og kommer i slutten av april. https://www.meetup.com/nav-faglunsj/
+Påmeldingen skjer gjennom gruppen som jobber med Faglunsj: https://www.meetup.com/nav-faglunsj/events/285515401/?
 
 ## Dette foredraget er for deg som
 Ønsker å skape en mer inkluderende arbeidshverdag.
