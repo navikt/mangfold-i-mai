@@ -75,14 +75,11 @@
                 {% endif %}
 
                     <span class="time">
-                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%H:%M'}}</time>
+                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
                         <span class="til">til</span>
-                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%H:%M'}}</time></span>
-
-
+                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time></span>
 
                     <span class="summary">
-
                         {% if event.summary-special %}
 
                             {{ event.summary-special }}
