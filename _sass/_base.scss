@@ -18,6 +18,13 @@ main, footer {
     }
 }
 
+
+.colorful {
+    background-image: linear-gradient(-60deg, $sketch-pink, $sketch-orange, $sketch-green, $sketch-medium-blue, $sketch-purple);
+    background-size: 100%;
+}
+
+
 h1, h2, h3 {
     line-height: 1.2;
     margin-top: 1em;
@@ -97,23 +104,23 @@ button {
     font-weight: 500;
 
     &.red {
-        background: #ffcdcd;
+        background: $sketch-pink;
     }
 
     &.blue {
-        background: #bad8ff;
+        background: $sketch-light-blue;
     }
 
     &.green {
-        background: #dfffcd;
+        background: $sketch-green;
     }
 
     &.yellow {
-        background: #fff7cd;
+        background: $sketch-yellow;
     }
 
     &.purple {
-        background: #f1cdff;
+        background: $light-purple;
     }
 
     &.icon {
