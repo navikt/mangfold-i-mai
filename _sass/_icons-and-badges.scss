@@ -55,22 +55,22 @@
     }
 
     &.red {
-        background-color: #ffcdcd;
+        background-color: $sketch-pink;
     }
 
     &.blue {
-        background-color: #bad8ff;
+        background-color: $sketch-light-blue;
     }
 
     &.green {
-        background-color: #dfffcd;
+        background-color: $sketch-green;
     }
 
     &.yellow {
-        background-color: #fff7cd;
+        background-color: $sketch-yellow;
     }
 
     &.purple {
-        background-color: #f1cdff;
+        background-color: $light-purple;
     }
 }
