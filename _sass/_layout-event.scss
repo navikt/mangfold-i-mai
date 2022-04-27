@@ -1,194 +1,146 @@
 // SCSS for the layout for individual event pages
 
 .layout-event {
+    h1, h2, h3, p  {
+        margin: 0;
+    }
 
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
 
-    .metadata, .participation-details {
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 1em 0;
-        }
-
-        li:not(:last-child) {
-            margin-bottom: .25em;
-        }
+    .container {
+        margin: 0 auto;
+        max-width: 760px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 20px;
+    }
+    
+    .participation-details {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
     }
 
     .metadata {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
 
-        ul {
+        .date {
             display: flex;
-            flex-flow: row wrap;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 12px;
+
+            p {
+                margin: 0;
+            }
+
+            span {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    .location {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        h2, h3, h4 {
+            margin-top: 20px;
         }
 
-        li {
-            &.date, &.time {
-                white-space: nowrap;
-            }
+        > *:first-child {
+            margin: 0;
+        }
+    }
+
+    .calendar {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .speakers {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        .list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
         }
     }
 
     .speaker {
-        margin: 1em 0 1.5em;
         display: flex;
-        flex-flow: row nowrap;
-
-        a {
-            font-size: 1.1em;
-            font-weight: bold;
-        }
-
-        p {
-            margin: .25em 0;
-        }
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        border-radius: 4px;
 
         img {
-            max-width: 30%;
-            height: auto;
-            display: inline-block;
-            margin-right: 1em;
+            min-width: 60px;
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 150px;
         }
 
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .name {
+                font-size: 1.2em;
+                font-weight: 500;
+                margin: 0;
+            }
+        }
     }
-
-    .description {
-
-        > :first-child {
-            margin-top: 0;
-        }
-
-        > :last-child {
-            margin-bottom: 0;
-        }
-    }
-
 }
 
+@media screen and (min-width: 400px) {
+    .layout-event {
+        .speaker {
+            flex-direction: row;
+            justify-content: flex-start;
+
+            .about {
+                justify-content: center;
+            }
+        }
+    }
+}
 
 @media only screen and (min-width: $break2) {
     .layout-event {
-
-        .metadata, .participation-details {
-
-            ul {
-                margin: 0;
-            }
-
-            .icon {
-                padding-right: 0;
-            }
-        }
-
-        .metadata {
-            background: $primary;
-            color: #fff;
-
-            a {
-                color: #fff;
-            }
-
-            ul {
-                height: 100%;
-                flex-flow: column nowrap;
-                justify-content: center;
-            }
-
-            li {
-                width: 100%;
-
-                &.date, &.time {
-                    white-space: initial;
-                }
-            }
-
-            .icon {
-                padding-right: 0;
-
-                &.time {
-                    background-image: url("images/icons/clock-white.svg");
-                }
-
-                &.date {
-                    background-image: url("images/icons/calendar-white.svg");
-                }
-
-                &.stream {
-                    background-image: url("images/icons/stream-white.svg");
-                }
-
-                &.in-person {
-                    background-image: url("images/icons/in-person-white.svg");
-                }
-            }
-
-        }
-
-        .speaker {
-            margin: 1em 0 0;
-            flex-flow: column-reverse nowrap;
-
-            img {
-                max-width: 100%;
-                height: auto;
-                display: block;
-                margin-right: 0;
-            }
-        }
-
-        h2 + .speaker {
-            margin-top: .25em;
-        }
-
-        .title, h2 {
-            margin: 0;
-            padding: 0;
-        }
-
         .container {
+            padding: 2rem;
             margin-top: 2em;
             border: 1px solid red;
-
-            > * {
-                padding: 1rem;
-            }
         }
-
-        .container {
-            display: grid;
-            grid-template-columns: 30% 1fr;
-            grid-template-rows: max-content min-content max-content;
-            grid-auto-flow: row;
-            grid-template-areas:
-                "metadata title"
-                "participation-details description"
-                "speakers description";
-        }
-
-        .metadata {
-            align-self: stretch;
-            grid-area: metadata;
-        }
-
-        .title {
-            align-self: center;
-            grid-area: title;
-        }
-
-        .speakers {
-            align-self: end;
-            grid-area: speakers;
-        }
-
-        .participation-details {
-            align-self: start;
-            grid-area: participation-details;
-        }
-
-        .description {
-            grid-area: description;
-        }
-
-
     }
 }

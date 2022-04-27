@@ -2,7 +2,7 @@
     font-size: 100%;
 }
 
-body {
+body, button {
     font-family: 'Montserrat', serif;
 }
 
@@ -18,6 +18,13 @@ main, footer {
     }
 }
 
+
+.colorful {
+    background-image: linear-gradient(-60deg, $sketch-pink, $sketch-orange, $sketch-green, $sketch-medium-blue, $sketch-purple);
+    background-size: 100%;
+}
+
+
 h1, h2, h3 {
     line-height: 1.2;
     margin-top: 1em;
@@ -26,6 +33,111 @@ h1, h2, h3 {
 
 p, ul, ol, dl {
     margin-top: .5em;
+}
+
+p {
+    &.muted {
+        opacity: 0.75
+    }
+}
+
+button {
+    background: #0067c5;
+    padding: 4px 12px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    min-height: 44px;
+    min-width: 150px;
+    transition: .1s ease-in-out;
+    outline: none;
+
+    &:hover {
+        background: #0056b4
+    }
+
+    &:active {
+        background: #005b82;
+    }
+
+    &.secondary {
+        background: #fff;
+        color: #0067c5;
+        border: 2px solid #0067c5;
+        padding: 4px 20px;
+
+        &:hover {
+            background: #0056b4;
+            color: #fff
+        }
+    }
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.badge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 14px 8px 34px!important;
+    border-radius: 50px;
+    background: #e1f2ff;
+    border: 1px solid #b9b9b9;
+    font-size: .92em;
+    line-height: 1em;
+    font-weight: 500;
+
+    &.red {
+        background: $sketch-pink;
+    }
+
+    &.blue {
+        background: $sketch-light-blue;
+    }
+
+    &.green {
+        background: $sketch-green;
+    }
+
+    &.yellow {
+        background: $sketch-yellow;
+    }
+
+    &.purple {
+        background: $light-purple;
+    }
+
+    &.icon {
+        background-repeat: no-repeat;
+        background-size: 18px;
+        background-position: 8px center!important;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .button-group {
+        flex-direction: row;
+
+        .button {
+            width: 100%;
+        }
+    }
 }
 
 .til {
