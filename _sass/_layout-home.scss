@@ -4,24 +4,65 @@
     .colorful {
         line-height: initial;
     }
+
+    .flash {
+        margin: 2em 0;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
 }
 
-@media only screen and (min-width: $break3) {
-    .layout-home{
+@media only screen and (min-width: $break1) {
+
+    .layout-home {
+
+    }
+}
+
+@media only screen and (min-width: $break2) {
+    .layout-home {
+
+        .flash {
+            margin: 2em 0;
+            flex-flow: row-reverse nowrap;
+            gap: 1em;
+
+            h1 {
+                margin: 0;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            img {
+                max-width: 50%;
+            }
+
+        }
+
+
         .logo {
             margin: 0;
             padding-top: 7em;
             width: 35em;
-            background-image:  url("images/logo-large.svg");
+            background-image: url("images/logo-large.svg");
             display: block;
-        }
-
-        .wrapper, .events {
-            max-width: 50em;
         }
 
         .events {
             margin: 0 auto;
+            max-width: 50em;
         }
 
         nav ul {

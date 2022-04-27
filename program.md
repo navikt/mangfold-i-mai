@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: program
 title: Arrangementer
 permalink: program/
 categories: menu

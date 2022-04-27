@@ -62,14 +62,13 @@
             span {
                 display: block;
             }
-
         }
     }
 
     .theme {
         padding: 0 1rem;
         font-size: 1.25em;
-        font-weight: 400;
+        font-weight: 500;
     }
 
     .weekday {
@@ -84,7 +83,7 @@
     }
 
     li {
-        margin: .75em 0 1em;
+        margin: 1.2em 0 2.4em;
     }
 
     .title {
@@ -115,13 +114,11 @@
     }
 
     .participation-details {
-        display: block;
-        font-size: .9em;
-        margin-top: .2em;
-
-        .icon {
-            white-space: nowrap;
-        }
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 8px;
     }
 
 

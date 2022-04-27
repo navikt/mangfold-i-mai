@@ -63,8 +63,15 @@
         }
     }
 
-}
+    .icon {
 
+            background-position: left .25em;
+        
+    }
+
+
+
+}
 
 @media only screen and (min-width: $break2) {
     .layout-event {
@@ -147,7 +154,7 @@
 
         .container {
             margin-top: 2em;
-            border: 1px solid red;
+            border: 1px solid $primary;
 
             > * {
                 padding: 1rem;

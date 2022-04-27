@@ -3,25 +3,31 @@
 }
 
 body {
-    font-family: 'Montserrat', serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: $sketch-dark-blue;
 }
 
-main, footer {
-    line-height: 1.5;
+a {
+    color: $primary;
 
-    a {
-        color: $primary;
-
-        &:focus {
-            outline: 3px dashed $secondary;
-        }
+    &:focus {
+        outline: 3px dashed $secondary;
     }
 }
+
+
+.colorful {
+    background-image: linear-gradient(-60deg, $sketch-pink, $sketch-orange, $sketch-green, $sketch-medium-blue, $sketch-purple);
+    background-size: 100%;
+}
+
+
 
 h1, h2, h3 {
     line-height: 1.2;
     margin-top: 1em;
-    margin-bottom: .25em;
+    margin-bottom: .5em;
 }
 
 p, ul, ol, dl {

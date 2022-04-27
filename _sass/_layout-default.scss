@@ -1,5 +1,4 @@
 // SCSS for all layouts
-
 * {
     box-sizing: border-box;
 }
@@ -25,8 +24,14 @@ main {
     padding: 0 1rem;
 }
 
-@media only screen and (min-width: $break3) {
+@media only screen and (min-width: $break1) {
     .wrapper {
-        max-width: $break3;
+
+    }
+}
+
+@media only screen and (min-width: $break2) {
+    .wrapper {
+        max-width: 50em;
     }
 }

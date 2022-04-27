@@ -1,8 +1,23 @@
----
-layout: default
----
-{% include page-header.html %}
+<!DOCTYPE html>
+<html lang="no">
 
-{{ content }}
+{% include head.html %}
 
-{% include events-list.html heading-level=2 %}
+<body class="layout-home">
+<a id="skip" href="#content">Hopp til innholdet.</a>
+
+{% include site-header.html %}
+
+<main id="content" tabindex="-1">
+    <div class="wrapper">
+        {{ content }}
+    </div>
+
+    {% include events-list.html title="Hva har vi planlagt?" %}
+
+</main>
+
+{% include site-footer.html %}
+
+</body>
+</html>
