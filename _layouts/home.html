@@ -16,11 +16,20 @@
         </div>
     </div>
 
-    {% include events-list.html title="Hva har vi planlagt?" %}
+    {% assign today = "now" | date: "%d" %}
+    {% assign month = "now" | date: "%m" %}
+
+    {% if month == "05" %}
+        {% include events-list.html title="Dagens agenda" date=today show-empty-events=true%}
+    {% else %}
+        {% include events-list.html title="Hva har vi planlagt?" show-filter=true %}
+    {% endif %}
 
 </main>
 
 {% include site-footer.html %}
+
+<!-- Last build: {{ site.time }} -->
 
 </body>
 </html>
