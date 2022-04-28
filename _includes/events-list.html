@@ -1,22 +1,23 @@
 <article class="events list" aria-live="polite" aria-relevant="all">
     <h2>{{ include.title}}</h2>
 
-    <!-- FILTERS -->
-    <input id="public" type="checkbox">
-    <label for="public">Jeg er ikke NAV-ansatt: vis meg arrangementer jeg får delta på.</label>
-
-    <!-- EVENT LIST -->
-    {% assign dates = site.dates | sort: 'event-date' %}
+    {% if show-filter %}
+        <input id="public" type="checkbox">
+        <label for="public">Jeg er ikke NAV-ansatt: vis meg arrangementer jeg får delta på.</label>
+    {% endif %}
 
     {% if include.date %}
 
-        {% include events.html date=include.date heading-level=include.heading-level %}
+        {% include events.html date=include.date  %}
+
+    <a
 
     {% else %}
 
+        {% assign dates = site.dates | sort: 'event-date' %}
         {% for day in dates %}
             {% assign day-number = day.event-date | date: "%d" %}
-            {% include events.html date=day-number heading-level=include-heading-level %}
+            {% include events.html date=day-number %}
         {% endfor %}
 
     {% endif %}

@@ -16,7 +16,15 @@
         </div>
     </div>
 
-    {% include events-list.html title="Hva har vi planlagt?" %}
+    {% assign today = "now" | date: "%d" %}
+    {% assign month = "now" | date: "%m" %}
+
+    {% if month == "04" %}
+        {% include events-list.html title="Dagens agenda" date=today %}
+    {% else %}
+        {% include events-list.html title="Hva har vi planlagt?" show-filter=true %}
+    {% endif %}
+
 
 </main>
 
