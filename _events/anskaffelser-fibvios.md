@@ -12,7 +12,7 @@ location-link:
 location-hybrid: 
 
 registration-type: link
-registration-link: 
+registration-link: https://forms.office.com/r/Bbx7JuZxuC
 
 event-date: 2022-05-06T0915:00
 event-date-end: 2022-05-06T09:45
