@@ -22,7 +22,30 @@
         {% for event in events %}
         {% assign event-date = event.event-date | date: "%d%m%Y" %}
         {% if event-date == day %}
-        <h3><a href="{{ event.url  | relative_url }}">{{event.title}}</a></h3>
+        <div class="today">
+            <header>
+                <h3><a href="{{ event.url  | relative_url }}">{{event.title}}</a></h3>
+                <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
+                <span class="til">til</span>
+                <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time></span>
+            </header>
+            <span class="summary">
+                        {% if event.summary-special %}
+
+                            {{ event.summary-special }}
+
+                        {% else %}
+
+                            {{event.summary}}
+
+                            {% if event.speakers %}
+                                <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+                            {% endif %}
+
+                        {% endif %}
+                    </span>
+        </div>
+
         {% endif %}
         {% endfor %}
     </div>
