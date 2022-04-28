@@ -4,7 +4,7 @@ title: "Dragon Professional Anywhere: norsk talegjenkjenning for PC"
 speakers: [Daniel Scheidegger , Hege Medin , Bengt-Jarle Kjelså]
 summary: "Et kort historisk tilbakeblikk og brukerdemonstrasjon av hvordan talegjenkjenning fungerer for å styre PCen og diktere tekst."
 
-privacy: internal
+privacy: public
 
 location-type: hybrid
 location-name: Zoom og Fyrstikkalléen 1, Rom B104 Gnisten
