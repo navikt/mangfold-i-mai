@@ -1,7 +1,22 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="no">
 
+{% capture title %}
+{{ page.name }} | Mangfold i mai
+{% endcapture %}
+
+{% include head.html
+title=title
+summary="En av mange talere på Mangfold i mai 2022! Feir mangfold med oss!"
+url="https://mangfoldimai.no" %}
+
+<body class="layout-{{ page.layout }}">
+<a id="skip" href="#content">Hopp til innholdet.</a>
+
+{% include site-header.html %}
+
+<main id="content" tabindex="-1">
+    <div class="wrapper">
 <div class="speaker-header">
     {% if page.image %}
         {% assign image_url = "/assets/images/speakers/" | append: page.image %}
@@ -45,3 +60,10 @@ layout: default
         {% endfor %}
     </ul>
 </section>
+    </div>
+</main>
+
+{% include site-footer.html %}
+
+</body>
+</html>

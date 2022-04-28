@@ -1,12 +1,37 @@
----
-layout: default
----
 
-<h1>{% include localized-date.html%}</h1>
+<!DOCTYPE html>
+<html lang="no">
+    {% assign this-date = page.event-date | date: "%d" %}
 
-{{ content }}
+    {% capture title %}
+    {% include localized-date.html %} | Mangfold i mai
+    {% endcapture %}
 
-<h2>Dagens arrangementer</h2>
+    {% include head.html
+    title=title
+    summary="Se arrangementer for dagen! Bli med i feiringen!"
+    url="https://mangfoldimai.no" %}
 
-{% assign this-date = page.event-date | date: "%d" %}
-{% include events-list.html date=this-date %}
+    <body class="layout-{{ page.layout }}">
+    <a id="skip" href="#content">Hopp til innholdet.</a>
+
+    {% include site-header.html %}
+
+        <main id="content" tabindex="-1">
+            <div class="wrapper">
+                <h1>{% include localized-date.html%}</h1>
+
+                {{ content }}
+
+                <h2>Dagens arrangementer</h2>
+
+
+            {% include events-list.html date=this-date %}
+
+            </div>
+        </main>
+
+    {% include site-footer.html %}
+
+    </body>
+</html>
