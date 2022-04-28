@@ -8,9 +8,9 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: 
+location-link: https://nav-it.zoom.us/j/98497023655?pwd=UVVtZVROejBvNjJONWJwZzl0SkVSZz09
 
-registration-link: 
+registration-link: https://forms.office.com/r/x0Cd3XLKaz
 
 event-date: 2022-05-19T08:30
 event-date-end: 2022-05-19T09:00
