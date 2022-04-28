@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Håkon Gisholt
-image: hakon-gisholt.jpg
+image: hakon-gisholt.webp
 ---
 Gisholt har siden 2009 viet mye tid til å motivere synshemmede til et fysisk aktivt liv. Han mottok i 2017 pris som Årets ildsjel i Oslo idrettskrets, og mottok inkluderingsprisen for arbeidet med para-gruppen til Sportsklubben Vidar på Idrettsgallaen to år tidligere.
 

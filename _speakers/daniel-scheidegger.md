@@ -1,6 +1,6 @@
 ---
 layout: speaker
 name: Daniel Scheidegger
-image: daniel-scheidegger.jpg
+image: daniel-scheidegger.webp
 ---
 Daniel Scheidegger er elektroingeniør og pedagog. Han har jobbet med datateknologi for personer med funksjonsnedsettelser siden 1992. De siste 12 årene har han primært jobbet  med norsk talegjenkjenning, og formidlet ulike systemer til over hundre brukere.

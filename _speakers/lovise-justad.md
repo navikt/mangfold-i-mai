@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Lovise Justad
-image: Lovise-Justad.jpg
+image: Lovise-Justad.webp
 ---
 Lovise er produkteier for selvbetjeningsløsninger for økonomisk sosialhjelp i NAV. Hun er utdannet sosionom, og har jobbet med mange forskjellige brukergrupper.
 

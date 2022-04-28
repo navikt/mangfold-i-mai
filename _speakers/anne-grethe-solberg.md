@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Anne Grethe Solberg
-image: anne-grethe-solberg.jpg
+image: anne-grethe-solberg.webp
 ---
 Anne Grethe Solberg ble skutt av eksmannen sin i 2006. Først skjøt han henne i hofta og deretter i skuldra. Hun overlevde ved å spille død.
 
