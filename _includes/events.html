@@ -9,8 +9,7 @@
 {% endfor %}
 
 {% if number-of-events > 0 %}
-
-<section>
+    <section>
 
     {% assign dates = site.dates %}
     {% for day in dates %}
@@ -44,22 +43,11 @@
             <li class="{{event.privacy}} {{event.location-type}}">
                 {% assign hour = event.event-date | date: "%H" %}
 
-
-                {% if include.heading-level == 2 %}
                     <h3 class="title">
-                {% else %}
-                    <h4 class="title">
-                {% endif %}
-
-                    <a href="{{ event.url  | relative_url }}">
-                        {{ event.title }}
-                    </a>
-
-                {% if include.heading-level == 2 %}
+                        <a href="{{ event.url  | relative_url }}">
+                            {{ event.title }}
+                        </a>
                     </h3>
-                {% else %}
-                    </h4>
-                {% endif %}
 
                     <span class="time">
                         <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
@@ -112,5 +100,11 @@
 
     </ul>
 </section>
+
+{% else %}
+
+    {% if include.show-empty-events %}
+        <p class="no-events">Ingen arrangementer i dag.  Se hele <a href="/mangfold-i-mai/program/">programmet</a>.</p>
+    {% endif %}
 
 {% endif %}

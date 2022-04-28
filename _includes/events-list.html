@@ -1,5 +1,5 @@
-<article class="events list" aria-live="polite" aria-relevant="all">
-    <h2>{{ include.title}}</h2>
+<div class="events list" aria-live="polite" aria-relevant="all">
+    {% if include.title %}<h2>{{ include.title}}</h2>{% endif %}
 
     {% if show-filter %}
         <input id="public" type="checkbox">
@@ -8,15 +8,16 @@
 
     {% if include.date %}
 
-        {% include events.html date=include.date  %}
+        {% include events.html date=include.date show-empty-events=true %}
 
     {% else %}
 
         {% assign dates = site.dates | sort: 'event-date' %}
         {% for day in dates %}
             {% assign day-number = day.event-date | date: "%d" %}
-            {% include events.html date=day-number %}
+            {% include events.html date=day-number show-empty-events=false %}
         {% endfor %}
 
     {% endif %}
-</article>
+
+</div>
