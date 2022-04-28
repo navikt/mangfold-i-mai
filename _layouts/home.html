@@ -14,6 +14,17 @@
             <img class="hero" src="assets/images/people2.png" alt="Fargerike folk" aria-hidden="true">
             <div>{{ content }}</div>
         </div>
+
+        <h2>Dette skjer i dag ({{ 'now' | date: "%d.%m.%Y"}})</h2>
+        {% assign events = site.events | sort: 'event-date' %}
+        {% assign day = "04052022" %}
+
+        {% for event in events %}
+        {% assign event-date = event.event-date | date: "%d%m%Y" %}
+        {% if event-date == day %}
+        <h3><a href="{{ event.url  | relative_url }}">{{event.title}}</a></h3>
+        {% endif %}
+        {% endfor %}
     </div>
 
     {% include events-list.html title="Hva har vi planlagt?" %}
