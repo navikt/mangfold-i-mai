@@ -8,8 +8,8 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: 
-location-hybrid:
+location-link: https://nav-it.zoom.us/j/96948082410?pwd=YWRoQ084eksyK1FKOFNkdVl0QlE2UT09
+location-hybrid: Biblioteket ved kantina
 
 registration-link: 
 
@@ -18,4 +18,5 @@ event-date-end: 2022-05-02T14:45
 ics: true
 ---
 ## Offisiell åpning av Mangfold i mai
-Likestillings- og diskrimineringsombud Bjørn Erik Thon åpner Mangfold i mai.
+
+Velkommen til offisiell åpning med likestillings- og diskrimineringsombud Bjørn Erik Thon åpner Mangfold i mai. Vi får også et flott kulturelt innslag med Ulf Nilsen!
