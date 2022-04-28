@@ -15,14 +15,15 @@
             <div>{{ content }}</div>
         </div>
 
-        <h2>Dette skjer i dag ({{ 'now' | date: "%d.%m.%Y"}})</h2>
+        <div class="today">
+        <h2>Dagens agenda</h2>
         {% assign events = site.events | sort: 'event-date' %}
         {% assign day = "04052022" %}
 
         {% for event in events %}
         {% assign event-date = event.event-date | date: "%d%m%Y" %}
         {% if event-date == day %}
-        <div class="today">
+        <div class="event">
             <header>
                 <h3><a href="{{ event.url  | relative_url }}">{{event.title}}</a></h3>
                 <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
@@ -39,17 +40,16 @@
                             {{event.summary}}
 
                             {% if event.speakers %}
-                                <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+                                <span class="speakers">{% for speaker in event.speakers %}<span class="speaker">{{ speaker }}</span>{% endfor %}</span>
                             {% endif %}
 
                         {% endif %}
                     </span>
         </div>
-
         {% endif %}
         {% endfor %}
     </div>
-
+    </div>
     {% include events-list.html title="Hva har vi planlagt?" %}
 
 </main>
