@@ -24,5 +24,5 @@ Mange små og nystartede selskaper sitter ofte med løsninger som kan bistå off
 Offentlig anskaffelsespraksis med stor fokus på krav og detaljsspesifikasjoner innebærer at offentlig sektor ofte går glipp av nye løsninger. I 2021 lanserte regjeringen StartOff-ordningen som skal bidra med mer innovasjon i offentlig sektor, sørge for at flere offentlige oppgaver løses digitalt, og at flere nystartede bedrifter får tilgang til offentlig sektor som marked. StartOff tilrettelegger for samarbeid mellom offentlig sektor og mindre selskaper, særlig oppstartsselskaper (startups) på en måte som er i tråd med anskaffelsesregelverket og tilpasset særegenhetene ved små selskaper. Anskaffelsesmetoden tilrettelegger for at man sammen med leverandørene kan utvikle løsninger som bidrar til inkludering og universell utforming. NAV har i to prosjekter testet ut StartOff-ordningen.
 
 ## Dette foredraget er for deg som
--Jobber med anskaffelser, spesielt i det offentlige
+- Jobber med anskaffelser, spesielt i det offentlige
 - Ønsker innsikt i hvordan man kan arbeide med offentlig-privat samarbeid
