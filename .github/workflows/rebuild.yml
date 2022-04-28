@@ -1,0 +1,19 @@
+name: Rebuild
+
+on:
+  schedule:
+    - cron:  '0 22 * * *' # Runs every day at 1am
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call GitHub pages build endpoint
+        run: |
+          curl --fail --request POST \
+            --url https://api.github.com/repos/${{ github.repository }}/pages/builds \
+            --header "Authorization: Bearer $REBUILD"
+        env:
+          # Create a token at https://github.com/settings/tokens
+          # since you cannot trigger a new build with the regular token.
+          GH_TOKEN: ${{ secrets.REBUILD }}
