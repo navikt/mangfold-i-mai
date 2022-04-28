@@ -23,6 +23,12 @@
     .today {
         display: flex;
         flex-direction: column;
+        background: #eaffef;
+
+        .wrapper {
+            width: 100%;
+            padding: 1rem;
+        }
 
         h2 {
             font-size: 1.8rem;
