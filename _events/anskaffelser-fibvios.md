@@ -8,7 +8,7 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: 
+location-link: https://nav-it.zoom.us/j/92053071942?pwd=NFE1bExwMWhyQU5kS1RhcEhCQUtidz09
 location-hybrid: 
 
 registration-type: link
