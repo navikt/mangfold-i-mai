@@ -33,7 +33,9 @@ url="https://mangfoldimai.no" %}
 <section class="speaker-events">
     <h2>Foredragene</h2>
     <ul class="event-list">
-        {% for event in site.events %}
+        {% assign events = site.events | sort: 'event-date' %}
+
+        {% for event in events %}
         {% for speaker in event.speakers %}
         {% if speaker == page.name %}
         <li class="event">
