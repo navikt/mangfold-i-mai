@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Ina Aschim
-image: Ina-Aschim.jpg
+image: Ina-Aschim.webp
 ---
 Ina er en UX-designer som er opptatt av at vi ikke må glemme brukerne som har dårligst digitale forutsetninger.
 
