@@ -1,8 +1,8 @@
 ---
 layout: event
-title: StartOff-anskaffelser
+title: StartOff – hvordan bruke innovasjonskraften i startup-markedet?
 speakers: Johan Englund
-summary:
+summary: Få en introduksjon til anskaffelsesmodellen i StartOff-ordningen der du i tett samarbeid med små selskaper kan utvikle helt nye løsninger på virksomhetens behov.
 
 privacy: public
 
