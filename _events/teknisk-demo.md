@@ -11,7 +11,7 @@ location-name: Zoom
 location-hybrid: 
 
 registration: true
-registration-info: "NAV-ansatte kan delta ved å <a href='https://confluence.adeo.no/display/FAIOD/Teknisk+demo'>melde seg på Teknisk Demo på Confluence</a>."
+registration-link: https://forms.office.com/r/89nnuFakm8
 
 event-date: 2022-05-03T12:00
 event-date-end: 2022-05-03T13:00
