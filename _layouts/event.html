@@ -103,10 +103,14 @@ url="https://mangfoldimai.no/{page.url}" %}
             <!-- CALENDAR LINKS -->
             {% if page.ics %}
             <li class="icon calendar-download">
-                <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">Legg arrangementet til i kalenderen din (.ics)</a>
+                <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">Legg til kalenderen (.ics)</a>
+
                 <br>
-                {% if page.privacy == "public" and page.location-type == "stream" %}NAV-ansatte kan <a href="{{ page.registration-link }}">be om en Outlook-innkalling</a>{% endif %}
-                <br>
+
+                {% if page.registration-link %}
+                    {% if page.privacy == "public" and page.location-type == "stream" %}NAV-ansatte: <a href="{{ page.registration-link }}">få innkalling</a>.{% endif %}
+                {% endif %}
+
             </li>
             {% endif %}
         </ul>

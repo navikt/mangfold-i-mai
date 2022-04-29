@@ -1,10 +1,9 @@
 <div class="events list" aria-live="polite" aria-relevant="all">
     {% if include.title %}<h2>{{ include.title}}</h2>{% endif %}
 
-    {% if show-filter %}
-        <input id="public" type="checkbox">
-        <label for="public">Jeg er ikke NAV-ansatt: vis meg arrangementer jeg får delta på.</label>
-    {% endif %}
+    <input id="public" type="checkbox">
+    <label for="public">Jeg er ikke NAV-ansatt: vis meg arrangementer jeg får delta på.</label>
+
 
     {% if include.date %}
 
