@@ -2,6 +2,7 @@
 layout: speaker
 name: Team inkluderende design
 image: 
+summary: UU-entusiaster som jobber for å sikre inkludering og universell utforming i NAVs løsninger
 ---
 Teamet for universell utforming og inkluderende design består av UU-entusiaster som jobber iherdig for å sikre inkludering og universell utforming i NAVs løsninger. Teammedlemmene har lang erfaring innen universell utforming, med forskjellige spesialiseringer – fra UU av kode over brukertesting med og uten hjelpemidler, strategisk UU-arbeid til optimalisering av løsninger for hjelpemidler som skjermlesere.
 

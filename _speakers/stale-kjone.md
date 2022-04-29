@@ -2,6 +2,7 @@
 layout: speaker
 name: Ståle Kjone
 image: stale.jpg
+summary: Bygger opp "ResearchOps" i NAV
 ---
 Ståle Kjone har vært en forkjemper for brukervennlighet og universell utforming i mange år. 
 Han har vært sentralt i oppbyggingen av 

@@ -2,6 +2,7 @@
 layout: speaker
 name: Eric Eggert
 image: eric.jpeg
+summary: Web Accessibility Expert at Axess Lab
 ---
 Eric Eggert is a Web Accessibility Expert with the goal of making the Web a better, more inclusive, place.
 

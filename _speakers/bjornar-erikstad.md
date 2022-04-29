@@ -2,6 +2,7 @@
 layout: speaker
 name: Bjørnar Erikstad
 image: bjornar-erikstad.jpg
+summary: Seiltrener i Tønsberg Seilforening og trener på Wang toppidrett
 ---
 I de siste åra har han jobbet som seiltrener i Tønsberg Seilforening og som trener på Wang Toppidrett. Bjørnar har også en stilling i Olympiatoppen Østlandet, i tillegg til at han er ambassadøransvarlig i Stiftelsen VI. 
 
