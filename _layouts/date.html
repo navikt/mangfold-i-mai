@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="no">
     {% assign this-date = page.event-date | date: "%d" %}
@@ -11,27 +10,24 @@
     title=title
     summary="Se arrangementer for dagen! Bli med i feiringen!"
     url="https://mangfoldimai.no" %}
+  
+<body class="layout-home">
+<a id="skip" href="#content">Hopp til innholdet.</a>
 
-    <body class="layout-{{ page.layout }}">
-    <a id="skip" href="#content">Hopp til innholdet.</a>
+{% include site-header.html %}
 
-    {% include site-header.html %}
+<main id="content" tabindex="-1">
+    <div class="wrapper">
+        <h1>{% include localized-date.html%}</h1>
+        {{ content }}
+    </div>
 
-        <main id="content" tabindex="-1">
-            <div class="wrapper">
-                <h1>{% include localized-date.html%}</h1>
+    {% assign this-date = page.event-date | date: "%d" %}
+    {% include events-list.html date=this-date %}
 
-                {{ content }}
+</main>
 
-                <h2>Dagens arrangementer</h2>
+{% include site-footer.html %}
 
-
-            {% include events-list.html date=this-date %}
-
-            </div>
-        </main>
-
-    {% include site-footer.html %}
-
-    </body>
+</body>
 </html>
