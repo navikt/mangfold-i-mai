@@ -2,6 +2,10 @@
     padding: 0 1em 0 1.5em;
     background: no-repeat left center / 18px;
 
+    &.arrow-right {
+        background-image: url("images/icons/arrow-right.svg");
+    }
+
     &.public {
         background-image: url("images/icons/public.svg");
     }

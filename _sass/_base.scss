@@ -47,3 +47,13 @@ p, ul, ol, dl {
         content: "-";
     }
 }
+
+.cta {
+    color: $darker-green;
+    font-size: 1.15em;
+    font-weight: 600;
+    padding-right: 1.35em;
+    background: url("images/icons/arrow-right.svg") no-repeat right center / 1em;
+}
+
+
