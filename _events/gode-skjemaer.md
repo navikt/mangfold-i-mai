@@ -9,7 +9,6 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/98667685463?pwd=NDRiengzTTNPTWg0eGJ6R0hKK0NpUT09
-location-hybrid:
 
 registration-link: https://forms.office.com/r/MaseayExPi?lang=nb-NO
 
