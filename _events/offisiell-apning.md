@@ -11,7 +11,7 @@ location-name: Zoom
 location-link: https://nav-it.zoom.us/j/96948082410?pwd=YWRoQ084eksyK1FKOFNkdVl0QlE2UT09
 location-hybrid: Biblioteket ved kantina
 
-registration-link: https://forms.office.com/r/2t4D2susnb
+registration-link: https://forms.office.com/r/2t4D2susnb?lang=nb-NO
 
 event-date: 2022-05-02T14:15
 event-date-end: 2022-05-02T14:45
