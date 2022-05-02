@@ -3,8 +3,8 @@ language: en
 
 layout: event
 title: Accessibility, Design and Usability Review in a Combined Toolchain
-speakers: Jesse Beach, Facebook / Meta
-summary: 
+speakers: Jesse Beach
+summary: "How Does Facebook how bring inclusive thinking into a fast product development environment?"
 
 privacy: public
 
