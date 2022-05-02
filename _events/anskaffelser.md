@@ -15,7 +15,7 @@ registration-type: link
 registration-link: https://forms.office.com/r/xq2WaqYJc7?lang=nb-NO
 
 event-date: 2022-05-06T10:00
-event-date-end: 2022-05-06T11:00
+event-date-end: 2022-05-06T10:45
 
 ics: true
 ---
