@@ -20,9 +20,7 @@ url="https://mangfoldimai.no" %}
     </div>
 
     {% assign today = "now" | date: "%d" %}
-    {% assign month = "now" | date: "%m" %}
-
-    {% include events-list.html title="Hva har vi planlagt?" show-filter=true %}
+    {% include events-list.html title="Dagens agenda" date=today %}
 
 </main>
 
