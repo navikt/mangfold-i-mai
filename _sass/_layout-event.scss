@@ -35,12 +35,11 @@
         flex-flow: row nowrap;
 
         a {
-            font-size: 1.1em;
             font-weight: bold;
         }
 
         p {
-            margin: .25em 0;
+            margin: 0 0 .25em;
         }
 
         img {
@@ -75,6 +74,10 @@
 
 @media only screen and (min-width: $break2) {
     .layout-event {
+
+        .wrapper {
+            max-width: 65em;
+        }
 
         .metadata, .participation-details {
 
@@ -152,12 +155,21 @@
             padding: 0;
         }
 
+        .speakers h2 {
+            font-size: 1.15em;
+            margin-top: 1em;
+        }
+
         .container {
             margin-top: 2em;
             border: 1px solid $primary;
 
             > * {
                 padding: 1rem;
+            }
+
+            .title, .description {
+                padding-left: 2rem;
             }
         }
 
