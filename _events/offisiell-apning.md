@@ -15,6 +15,7 @@ registration-link: https://forms.office.com/r/2t4D2susnb?lang=nb-NO
 
 event-date: 2022-05-02T14:15
 event-date-end: 2022-05-02T14:45
+ics: false
 
 ---
 ## Offisiell åpning av Mangfold i mai
