@@ -9,6 +9,7 @@ privacy: internal
 location-type: stream
 location-name: Zoom
 location-hybrid: 
+location-name: Fyrstikkalléen 1, Rom B114 Gløden
 
 registration: true
 registration-link: https://forms.office.com/r/89nnuFakm8
