@@ -9,10 +9,9 @@ privacy: public
 location-type: stream
 location-name: Zoom
 
-
 event-date: 2022-05-02T10:00
 event-date-end: 2022-05-02T11:00
-ics: true
+
 ---
 **NB! Skal du på [Eric Eggerts ARIA workshop](aria-workshop.html), er det en god idé å ta dette kurset først som innføring.**
 
