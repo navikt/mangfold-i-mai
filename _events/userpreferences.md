@@ -25,6 +25,3 @@ Accessibility is all about tailoring the user experience to an individual’s ne
 
 ## Who is it for?
 Developers and designers.
-
-## Registration
-Coming soon - Limited number of participants.
