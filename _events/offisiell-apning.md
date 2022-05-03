@@ -11,11 +11,8 @@ location-name: Zoom
 
 location-hybrid: Biblioteket ved kantina
 
-
-
 event-date: 2022-05-02T14:15
 event-date-end: 2022-05-02T14:45
-ics: true
 
 ---
 ## Offisiell åpning av Mangfold i mai
