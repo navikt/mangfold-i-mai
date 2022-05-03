@@ -8,9 +8,9 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: kommer
+location-link: https://nav-it.zoom.us/j/93106900549?pwd=ZHFBR0J3UHlhY25SQlg3dWtueFlmQT09
 
-registration-link: kommer
+registration-link: https://forms.office.com/r/QkBnZgUJKh
 
 event-date: 2022-05-30T09:00
 event-date-end: 2022-05-30T10:00
