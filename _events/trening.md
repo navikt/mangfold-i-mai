@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/99036940078?pwd=M1NESVVWTCtJNnNRMjYrdTN1YlF1dz09
-location-hybrid:
+location-hybrid: FYA1 - C01 Speakers Corner
 
 registration-link: https://forms.office.com/r/51yBUDTG5b?lang=nb-NO
 
