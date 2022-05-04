@@ -10,7 +10,7 @@ location-type: in-person
 location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 
 registration: true
-registration-link: kommer
+registration-link: https://forms.office.com/r/PNcr0xvYNw?lang=no
 
 event-date: 2022-05-23T10:30
 event-date-end: 2022-05-23T12:00
