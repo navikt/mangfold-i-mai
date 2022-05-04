@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Empatilunsj
-speakers: David Hole
+speakers: Miriam Eileen Nes Begnum
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
 privacy: internal 
