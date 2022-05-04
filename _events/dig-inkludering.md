@@ -9,6 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/98271717368?pwd=ak9iYTdoNDJpYTF6MU5aSXJNMjhNUT09
+location-hybrid: FYA1 - B108 Fyrstikken
 
 registration-link: https://forms.office.com/r/Hmg0Q9peEH?lang=nb-NO
 
