@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/91726828835?pwd=N3NxanlvZldYQ2hnWE5OV1JZOGZYQT09
-location-hybrid:
+location-hybrid: FYA1 - B110 Svovelstikken
 
 registration-link: https://forms.office.com/r/eVRtniiQia?lang=nb-NO
 
