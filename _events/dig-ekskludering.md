@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Digital ekskludering i NAV - presentasjon av Sintefs rapport"
-speakers: [Kari Sand]
+speakers: [Kari Sand, Sylvi Thun]
 summary:
 
 privacy: public
