@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Empatilunsj (som del av onboarding)
-speakers: Team inkluderende design
+speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
 privacy: internal
