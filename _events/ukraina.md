@@ -11,7 +11,7 @@ location-name: Zoom
 location-link: https://nav-it.zoom.us/j/93759923414?pwd=RzFjNk5rTnhkbm5pL1A5ZTBNb0d3QT09
 location-hybrid: FYA1 - B108 Fyrstikken
 
-registration-link: https://forms.office.com/r/HZ0Dce3CyD
+registration-link: https://forms.office.com/r/HZ0Dce3CyD?lang=no
 
 event-date: 2022-05-12T14:00
 event-date-end: 2022-05-12T14:45
