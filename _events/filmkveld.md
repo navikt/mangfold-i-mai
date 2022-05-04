@@ -18,8 +18,6 @@ event-date-end: 2022-05-10T19:00
 ## Tid for film, pizza, brus og øl
 Vi skal ha filmkveld i Fyrstikkalleen! Bli med på en annerledes filmopplevelse. Vi viser Jo Nesbøs "Hodejegere" - med synstolking. Du får også lov til å "låne en synsnedsettelse" under filmen.
 
-Arrengementet er dessverre begrenset til 60 personer som jobber i bygget.
-
 ## Dette foredraget er for deg som
 ... har lyst til å oppleve film på en mer uvant måte. Og som helt enkelt ønsker å se en god film i hyggelig selskap.
 
