@@ -12,7 +12,6 @@ location-hybrid:
 location-name: Fyrstikkalléen 1, Rom B114 Gløden
 
 registration: true
-registration-link: https://forms.office.com/r/89nnuFakm8
 
 event-date: 2022-05-03T12:00
 event-date-end: 2022-05-03T13:00
