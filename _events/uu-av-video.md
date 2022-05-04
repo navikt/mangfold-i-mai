@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link:  https://nav-it.zoom.us/j/91250867205?pwd=ZDloLzBSTjdyMmU2YXZNbDE2Nm84dz09
-location-hybrid:
+location-hybrid: FYA1 - B114 Gløden 
 
 registration-link: https://forms.office.com/r/neZtSBCLE0?lang=nb-NO
 
