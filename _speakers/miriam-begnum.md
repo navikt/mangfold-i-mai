@@ -1,6 +1,6 @@
 ---
 layout: speaker
 name: Miriam Eileen Nes Begnum
-image: miriam-begnum.jgp
+image: miriam-begnum.jpg
 summary: Spesialist for inkluderende tjenestedesign
 ---
