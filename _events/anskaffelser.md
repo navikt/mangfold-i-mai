@@ -8,11 +8,11 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/92651849580?pwd=eUhCK0tUYVptcFRyUzNwbDBYeGpvZz09
+location-link: 
 location-hybrid: FYA1 - B104 Gnisten
 
 registration-type: link
-registration-link: https://forms.office.com/r/xq2WaqYJc7?lang=nb-NO
+registration-link:
 
 event-date: 2022-05-06T10:00
 event-date-end: 2022-05-06T10:45
