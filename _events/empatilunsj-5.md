@@ -4,13 +4,13 @@ title: Empatilunsj
 speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
-privacy: internal
+privacy: public
 
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 
 registration: true
-registration-link: https://forms.office.com/r/PNcr0xvYNw?lang=no
+registration-link: NAV-ansatte kan <a href='https://forms.office.com/r/PNcr0xvYNw?lang=no'>melde seg på via Forms</a>.  Andre kan melde seg på via <a href='mailto:universell.utforming@nav.no?subject=&quot;Påmelding til empatilunsj 23. mai&quot;'>epost</a>. Påmeldingsfrist søndag den 22. kl. 16.00."
 
 event-date: 2022-05-23T10:30
 event-date-end: 2022-05-23T12:00
