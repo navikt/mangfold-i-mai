@@ -20,6 +20,7 @@ ics: true
 
 Ikke gå glipp av dette seminaret med inspirerende og kreative foredragsholdere. Dette er personer som har bøttevis med pågangsmot. Hør om prosjekter og enkeltpersoner som bruker fysisk aktivitet til mestring, inkludering og som viser noen av de mange forutsetningene, preferansene og behovene vi skal ta høyde for i arbeidet vårt.
 
+Foredragene blir tegnspråktolket.
 
 ## Disse foredragene er for deg som
 - vil høre noen  sterke historier om hvor mye det bor i oss mennesker
