@@ -6,9 +6,10 @@ summary: "Et kort historisk tilbakeblikk og brukerdemonstrasjon av hvordan taleg
 
 privacy: public
 
-location-type: hybrid
-location-name: Zoom og Fyrstikkalléen 1, Rom B104 Gnisten
+location-type: stream
+location-name: Zoom
 location-link: https://nav-it.zoom.us/j/97295041264?pwd=QS9Xc282YjJ5R2ZGMUFUK3FjT1Z2QT09
+location-hybrid: B104 Gnisten
 
 registration-link: https://forms.office.com/r/9Dk9kGjX8F?lang=nb-NO
 
