@@ -12,8 +12,8 @@ location-name: Fyrstikkalléen 1, Rom C01 Speakers Corner
 registration: true
 registration-info: "Akkurat denne lunsjen er del av Direktorates onboarding. Deltakerne på onboardingen blir prioritert, men andre NAV-ansatte kan <a href='https://forms.office.com/r/BvSKtxytP6?lang=nb-NO'>melde seg på via Forms</a> så ser vi om det er noen ledige plasser."
 
-event-date: 2022-05-10T10:30
-event-date-end: 2022-05-10T12:00
+event-date: 2022-05-10T11:10
+event-date-end: 2022-05-10T12:40
 ---
 ## Hva handler det her om?
 Fokus: Gå fra en vag idé om hva universell utforming (UU) er, til en varig innsikt i hva funksjonstap og UU innebærer i praksis.
