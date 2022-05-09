@@ -27,7 +27,7 @@ Vi i testseksjonene i NAV, Skatt, Politiet og Norsk HelseNett ønsker å lære m
 - 1145-1215 NAV – Anskaffelse av brukertestverktøy ved gryndermetoden Daniel Nergaard
 - 1215-1230 NAV –NAVS Empatilab – film med Ståle Kjone
 - 1235-1305 Skattedirektoratet – Erfaring med tilsyn på ny skattemelding Trond Ausland
-- 1310-1355 Norsk Helsenett - NHN og universell utforming - hvilke løsninger omfattes? Forskrifter, standarder og direktiver - hva gjelder egentlig? Rudolf Brynn
+- 1310-1355 Norsk helsenett og universell utforming – hvilke løsninger omfattes? Innlegget er delt i undertemaene 1) forskrifter, direktiver og standarder – hva gjelder egentlig? (Rudolph Brynn) og 2) Manuell uu testing – hvorfor er det viktig, hvordan gjør man det og hva skal testes. (Ina Tsvetkova).
 - 1400-1450 Paneldebatt om UU og UX - ledes av Gro Eker Politiets IKT-tjenester og Tora Sund NAV. Vi setter pris på spørsmål fra alle som deltar i chatten
 - 1450-1500 Kort oppsummering og avslutning
 - 1500 Avslutning
