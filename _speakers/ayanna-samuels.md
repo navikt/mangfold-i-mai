@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Ayanna T. Samuels
-image: Ayanna.jpg
+image: Ayanna.jpeg
 summary: PhD Fellow | Aerospace Engineer | Assistant Professor | Intl. Dev. Professional | Motivational Speaker | Health & Wellness Consultant
 ---
 
