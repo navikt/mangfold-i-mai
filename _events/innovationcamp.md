@@ -3,7 +3,7 @@ language: en
 
 layout: event
 title: Innovation Camp
-speakers: [Anthony Giannoumis, Ayanna T. Summers]
+speakers: [Anthony Giannoumis, Ayanna T. Samuels]
 summary: Samle et team, løs en utfordring relatert til universell utforming av IKT. I forbindelse med Universal Design Day hos OsloMet. 
 
 privacy: public
