@@ -4,13 +4,13 @@ title: Empatilunsj
 speakers: Miriam Eileen Nes Begnum
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
-privacy: internal 
+privacy: public 
 
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom B104 Gnisten
 
 registration: true
-registration-link: https://forms.office.com/r/diYf4zxCsN?lang=nb
+registration-link: https://forms.office.com/r/diYf4zxCsN?lang=nb 
 
 
 event-date: 2022-05-30T10:30
