@@ -2,7 +2,7 @@ name: Rebuild
 
 on:
   schedule:
-    - cron:  '56 * * * *'
+    - cron:  '13 * * * *'
 
 jobs:
   refresh:
@@ -10,10 +10,10 @@ jobs:
     steps:
       - name: Call GitHub pages build endpoint
         run: |
-          curl --fail --request POST \
-            --url https://api.github.com/repos/navikt/mangfold-i-mai/pages/builds \
-            --header "Authorization: Bearer $REBUILD"
-        env:
-          # Create a token at https://github.com/settings/tokens
-          # since you cannot trigger a new build with the regular token.
+          curl \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/navikt/mangfold-i-mai/pages/builds
+                        
+        env:          
           GH_TOKEN: ${{ secrets.REBUILD }}
