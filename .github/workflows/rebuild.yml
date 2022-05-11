@@ -2,7 +2,7 @@ name: Rebuild
 
 on:
   schedule:
-    - cron:  '47 * * * *'
+    - cron:  '56 * * * *'
 
 jobs:
   refresh:
@@ -14,4 +14,6 @@ jobs:
             --url https://api.github.com/repos/navikt/mangfold-i-mai/pages/builds \
             --header "Authorization: Bearer $REBUILD"
         env:
+          # Create a token at https://github.com/settings/tokens
+          # since you cannot trigger a new build with the regular token.
           GH_TOKEN: ${{ secrets.REBUILD }}
