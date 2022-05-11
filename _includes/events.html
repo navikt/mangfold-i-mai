@@ -8,6 +8,23 @@
 {% endif %}
 {% endfor %}
 
+
+{% assign today = "now" | date: "%d" %}
+{% assign current-time = "now" | date: "%H" | append: "" %}
+{% assign classes = ""%}
+
+
+
+<!-- {{current-time}} -->
+{% if jekyll.environment == "development" %}
+    {% assign current-time = "now" | date: "%H" | append: "" %}
+{% else %}
+    {% assign current-time = "now" | date: "%H" | plus: 2 | append: "" %}
+{% endif %}
+<!-- {{jekyll.environment }} {{current-time}} -->
+
+
+
 {% if number-of-events > 0 %}
     <section>
 
