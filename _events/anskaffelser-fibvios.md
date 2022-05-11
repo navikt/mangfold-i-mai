@@ -8,11 +8,11 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/92053071942?pwd=NFE1bExwMWhyQU5kS1RhcEhCQUtidz09
-location-hybrid: 
+location-link: 
+location-hybrid: B108 Fyrstikken
 
 registration-type: link
-registration-link: https://forms.office.com/r/Bbx7JuZxuC
+registration-link: 
 
 event-date: 2022-05-06T09:15
 event-date-end: 2022-05-06T09:45

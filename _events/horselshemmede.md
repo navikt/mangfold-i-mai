@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/91594372418?pwd=elVjY0pRODZSUEJaZTVpV3NGTFo4UT09
-location-hybrid:
+location-hybrid: FYA1 - B104 Gnisten
 
 registration-link: https://forms.office.com/r/4TKn4MieCt?lang=nb-NO
 

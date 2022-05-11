@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/95540090882?pwd=UzB3UDhNZmJucm1UejArQ1dOU2s1dz09
-location-hybrid: 
+location-hybrid: FYA1 - B104 Gnisten
 
 registration-link: https://www.meetup.com/nav-faglunsj/events/285515401/?
 

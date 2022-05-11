@@ -8,13 +8,14 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link:
-location-hybrid: 
+location-link: https://nav-it.zoom.us/j/93634976341?pwd=OXNxaWpjeFhIQzEyNGg4QmxNMnVBZz09
+location-hybrid: FYA1 - B104 Gnisten
 
 registration-link: https://forms.office.com/r/aMSTFWQbMg?lang=nb-NO
 
 event-date: 2022-05-13T14:00
 event-date-end: 2022-05-13T15:00
+ics: true
 ---
 ## Hva handler foredraget om?
 Visste du at alle digitale enheter kan tilpasses elevenes individuelle behov? Du kan få tekst lest opp, tilpasse skjermbildet og få den til å skrive for deg. I denne workshopen viser vi deg hvordan. Bli med for å få kjennskap til skattekista som ligger klar til bruk på din iPad. Ha gjerne enheten din klar slik at du kan være med å prøve ut underveis.
