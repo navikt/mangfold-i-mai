@@ -2,7 +2,7 @@ name: Rebuild
 
 on:
   schedule:
-    - cron:  '33 * * * *'
+    - cron:  '42 * * * *'
 
 jobs:
   refresh:
