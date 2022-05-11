@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Avlyst: Workshop rundt design-prinsippet "Jeg blir inkludert"
+title: 'Avlyst: Workshop rundt design-prinsippet "Jeg blir inkludert"'
 speakers: Eidar Vollan
 summary: NAV-intern workshop rundt design-prinsipper.
 
