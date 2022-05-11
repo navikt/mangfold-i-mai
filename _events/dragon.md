@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Dragon Professional Anywhere: norsk talegjenkjenning for PC"
-speakers: [Daniel Scheidegger , Hege Medin , Bengt-Jarle Kjelså]
+speakers: [Daniel Scheidegger]
 summary: "Et kort historisk tilbakeblikk og brukerdemonstrasjon av hvordan talegjenkjenning fungerer for å styre PCen og diktere tekst."
 
 privacy: public
@@ -19,7 +19,7 @@ ics: true
 ---
 
 ## Gjør alt med stemmen!
-Hege Medin har brukt engelsk talegjenkjenning i mange år, og nå kan hun endelig bruke morsmålet sitt: norsk. Vi får en ekte bruker-demo, og det er nyttig blant annet for å lage gode tjenester for de som interagerer ved hjelp av tale. Daniel Scheidegger forklarer først hva talegjenkjenning er og hvordan det brukes. Du får et lite historisk tilbakeblikk over utviklingen og prosjektet «Norsk talegjenkjenning». Prosjektet var i regi av NAV med deltagelse av brukere og  firmaet Infoshare som importør av Dragon Naturally Speaking på engelsk.
+Daniel Scheidegger forklarer først hva talegjenkjenning er og hvordan det brukes. Du får et lite historisk tilbakeblikk over utviklingen og prosjektet «Norsk talegjenkjenning». Prosjektet var i regi av NAV med deltagelse av brukere og  firmaet Infoshare som importør av Dragon Naturally Speaking på engelsk. Scheidegger demonstrerer Dragon Professional Anywhere, og det er nyttig blant annet for å lage gode tjenester for de som interagerer ved hjelp av tale.
 
 ## Dette foredraget er for deg som
 - Vil få en forståelse av hvordan talegjenkjenning brukes
