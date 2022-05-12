@@ -8,14 +8,14 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/92768109517?pwd=KzlCQ29GSmJGQkJXQmZoUFpDNGEwUT09
+location-link: 
 location-hybrid: FYA1 - B114 Gløden
 
-registration-link: https://forms.office.com/r/VipBK8TvEF?lang=nb-NO
+registration-link: 
 
 event-date: 2022-05-11T09:00
 event-date-end: 2022-05-11T10:00
-ics: true
+
 ---
 ## Hva handler det her om?
 Hva legger vi i kognisjon, og hva har den å si for hvordan vi opplever og bruker nettsider? I denne presentasjon gir Chris en liten oversikt over hva slags oppgaver kan være kognitivt krevende når man bruker nettsider, og hvilke typer nedsatt funksjonsevne man burde tenke på. Sammen ser vi på noen konkrete eksempler, samt noen enkle prinsipper og grep som kan tas i bruk når vi skaper brukergrensesnitt. Det blir også tid til Q&A for dere som vil stille spørsmål.
