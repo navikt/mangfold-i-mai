@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link: https://nav-it.zoom.us/j/91726828835?pwd=N3NxanlvZldYQ2hnWE5OV1JZOGZYQT09
-location-hybrid: FYA1 - A646 Utforskeren 
+location-hybrid: 
 
 registration-link: https://forms.office.com/r/eVRtniiQia?lang=nb-NO
 
