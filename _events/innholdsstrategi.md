@@ -8,14 +8,14 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/92056878353?pwd=TGQ5RmkyelVFbjVnL1YyOHZnS1crQT09
+location-link: 
 location-hybrid: FYA1 - B104 Gnisten
 
-registration-link: https://forms.office.com/r/X9Pqi7xyYp?lang=nb-NO
+registration-link: 
 
 event-date: 2022-05-11T10:00
 event-date-end: 2022-05-11T10:30
-ics: true
+
 ---
 ## Hva handler det her om?
 Hvordan skal NAV gi folk innhold de kan finne, forstå og få til? Hvordan kan vi gjøre innholdet vårt tilgjengelig, relevant og inkluderende, også for folk som verken er jurister eller saksbehandlere?
