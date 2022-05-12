@@ -3,7 +3,7 @@ layout: event
 title: 'Avlyst: Workshop rundt design-prinsippet "Jeg blir inkludert"'
 speakers: Eidar Vollan
 
-privacy: internal
+privacy: 
 
 location-type: in-person
 
