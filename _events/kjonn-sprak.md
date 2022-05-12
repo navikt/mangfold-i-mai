@@ -20,6 +20,11 @@ ics: true
 ## Hva handler kurset om?
 Kræsjkurs i inkluderende språk.
 
+Lenker Agnethe og Line delte i foredraget:
+- [Ordlister/definisjoner](https://bufdir.no/lhbt/LHBT_ordlista/)
+- [Livskvalitetsundersøkelsen 2020](https://www.ssb.no/sosiale-forhold-og-kriminalitet/artikler-og-publikasjoner/1-av-3-skeive-lite-tilfreds-med-egen-psykisk-helse)
+- [Hatkriminalitet og diskriminering](https://www.bufdir.no/Statistikk_og_analyse/lhbtiq/Hatkriminalitet_og_diskriminering/)
+
 ## Dette foredraget er for deg som
 - Ikke har tenkt på dette temaet før
 - Vil bidra til at NAV blir en mer inkluderende arbeidsplass
