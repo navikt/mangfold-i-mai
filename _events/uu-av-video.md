@@ -8,14 +8,14 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link:  https://nav-it.zoom.us/j/91250867205?pwd=ZDloLzBSTjdyMmU2YXZNbDE2Nm84dz09
+location-link:  
 location-hybrid: FYA1 - B114 Gløden 
 
-registration-link: https://forms.office.com/r/neZtSBCLE0?lang=nb-NO
+registration-link: 
 
 event-date: 2022-05-10T14:00
 event-date-end: 2022-05-10T15:00
-ics: true
+
 ---
 
 ## Synstolking og teksting?
