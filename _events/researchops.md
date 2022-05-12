@@ -9,7 +9,6 @@ privacy: public
 location-type: stream
 location-name: Zoom
 location-link:  https://nav-it.zoom.us/j/99217445030?pwd=b29ZeS80ZE01MTB1aWM1aHUyRGZ5QT09
-location-hybrid: A135 Middelalderparken 
 
 registration-link: https://forms.office.com/r/9RakdERNdj?lang=nb-NO
 
