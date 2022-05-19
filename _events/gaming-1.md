@@ -8,10 +8,6 @@ privacy: public
 
 location-type: stream
 location-name: Zoom
-location-link: https://nav-it.zoom.us/j/93171065035?pwd=RnRkU0lRM2d4WCsyTlU1eDZ5dVRBQT09
-location-hybrid:
-
-registration-link: https://forms.office.com/r/UmcJWkXbWN?lang=nb-NO
 
 event-date: 2022-05-19T09:00
 event-date-end: 2022-05-19T09:35
@@ -22,6 +18,7 @@ Mats Steen led av en livstruende sykdom og var avhengig av assistanse til alle l
 Dette innlegget er en historie som utfordrer oss på hva man definerer som et godt liv, om vennskap, om mestring, tilhørighet og kjærlighet uten fysiske grenser, og om foreldrerollen i en tid der mange ikke forstår hva barna deres egentlig holder på med.
 
 Innlegget er en gjenpublisering av foredraget Robert Steen hold på SPOT-konferansen til Statped i 2021. Takk til Robert Steen og Statped for samarbeid.
+Du kan se foredraget på [Statpeds sider](https://www.statped.no/konferanser/spot/spot-2021/#om-a-finne-flokken-sin-i-gaming---hva-definerer-et-verdifullt-liv).
 
 Staped inviterer til neste SPOT-konferanse 26. og 27. oktober, som blir en fysisk konferanse på The Qube, Gardemoen. Program kommer til sommeren.
 
