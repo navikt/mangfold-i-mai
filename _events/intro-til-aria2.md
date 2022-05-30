@@ -14,9 +14,7 @@ registration-link: https://forms.office.com/r/tKq5xsR7Lv?lang=nb-NO
 
 event-date: 2022-05-30T14:00
 event-date-end: 2022-05-30T15:00
-
 ---
-
 ## Hva handler kurset om?
 Du kanskje bruker ARIA i koden din, men vet du _egentlig_ hva du holder på med?
 
@@ -28,4 +26,4 @@ Dette kurset er et kort innføring i ARIA-standarden (Accessible Rich Internet A
 Dette er et teknisk kurs.  Den er egnet for utviklere som jobber med frontend-kode.  Den kan også være egnet for testere og uu-spesialister som jobber med kode. 
 
 ### Kurset blir del av NAVs kurskatalog
-Vi kommer til å tilby kurset både regelmessig og på etterspørsel internt i NAV.  
+Vi kommer til å tilby kurset regelmessig og på etterspørsel internt i NAV.
