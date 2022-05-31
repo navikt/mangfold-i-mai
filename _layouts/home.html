@@ -18,28 +18,6 @@ url="https://mangfoldimai.no" %}
             <div>{{ content }}</div>
         </div>
     </div>
-
-    {% assign today = "now" | date: "%d" %}
-    {% assign current-time = "now" | date: "%H" %}
-    {% assign month = "now" | date: "%m" %}
-    {% assign date-to-show = today %}
-
-    {% if month == "05" %}
-        {% if current-time > "15" %}
-            {% assign date-to-show = today | plus: 1 | append: "" %}
-        {% endif %}
-
-        {% include events-list.html title="Dagens agenda" date=date-to-show %}
-
-         <p class="wrapper"><a href="/mangfold-i-mai/program/" class="cta">Sjekk ut hele programmet.</a></p>
-
-    {% endif %}
-
-
-
-
-    
-
 </main>
 
 {% include site-footer.html %}
