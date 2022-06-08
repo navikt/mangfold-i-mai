@@ -22,7 +22,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
             <!-- DATE AND TIME -->
             <li class="icon date">
-                {% include localized-date.html %}
+                {% include localized-date.html %} 2022
             </li>
 
             <li class="icon time">
@@ -36,19 +36,19 @@ url="https://mangfoldimai.no/{page.url}" %}
                 {% when "stream" %}
 
                     <li class="icon stream">
-                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+                        {{ page.location-name }}
                     </li>
 
                 {% when "in-person" %}
 
                     <li class="icon in-person">
-                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+                        {{ page.location-name }}
                     </li>
 
                 {% when "hybrid" %}
 
                     <li class="icon in-person">
-                        {% if page.location-link %}<a href="{{page.location-link}}">{% endif%}{{ page.location-name }}{% if page.location-link %}</a>{% endif%}
+                        {{ page.location-name }}
                     </li>
 
                     <li class="icon stream">
@@ -56,13 +56,6 @@ url="https://mangfoldimai.no/{page.url}" %}
                     </li>
 
             {% endcase %}
-
-
-
-
-
-
-
 
 
 
@@ -84,41 +77,18 @@ url="https://mangfoldimai.no/{page.url}" %}
                 {% endif%}
             </li>
 
-            <!-- REGISTRATION -->
-            {% if page.privacy == "public" and page.location-type == "stream" %}
-            <li class="icon stream">Ingen påmelding</li>
-            {% endif %}
-
-            {% if page.privacy == "internal" and page.registration-link %}
-            <li class="icon registration-required">
-                NAV-ansatte kan melde seg på via <a href="{{ page.registration-link }}">Forms</a>.
-            </li>
-            {% endif %}
-
-            {% if page.registration-info %}
-            <li class="icon registration-required">{{ page.registration-info }}</li>
-            {% endif %}
-
-
-            <!-- CALENDAR LINKS -->
-            {% if page.ics %}
-            <li class="icon calendar-download">
-                <a href="ics/meeting-{{ page.event-date | date: '%Y%m%d' }}-{{ page.slug }}.ics">Legg til kalenderen (.ics)</a>
-
-                <br>
-
-                {% if page.registration-link %}
-                    {% if page.privacy == "public" and page.location-type == "stream" %}NAV-ansatte: <a href="{{ page.registration-link }}">få innkalling</a>{% endif %}
-                {% endif %}
-
-            </li>
-            {% endif %}
         </ul>
     </div>
 
     <div class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
-            {{ content }}
-        </div>
+
+        {% if page.video-url %}
+            {% include video.html %}
+        {% endif %}
+
+        {{ content }}
+
+    </div>
 
     <div class="speakers">
         {% if page.speakers %}

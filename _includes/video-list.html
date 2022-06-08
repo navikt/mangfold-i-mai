@@ -1,0 +1,17 @@
+{% assign events = site.events | sort: 'event-date' %}
+<h2>Se opptak</h2>
+
+<p>Noen av eventene har opptak.  Vi legger dem ut fortløpende som vi tekster dem.</p>
+
+<ul>
+    {% for event in events %}
+    {% if event.video  %}
+
+    <li>
+        <a href="{{ event.url  | relative_url }}">
+            {{ event.title }}</a>
+    </li>
+
+    {% endif %}
+    {% endfor %}
+</ul>
