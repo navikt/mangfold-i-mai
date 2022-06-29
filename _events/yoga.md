@@ -26,7 +26,7 @@ Du kan se foredraget her:
 
 
 ---
-Hvorfor er det så viktig at yoga er tilgjengelig og inkluderende for alle?
+## Hvorfor er det så viktig at yoga er tilgjengelig og inkluderende for alle?
 
 Yoga er viktig på mange måter. Det fysiske aspektet ved yoga gir en helsefremmende effekt. Men det fins andre aspekt. Yoga handler om så mye mer enn bare de fysiske stillingene og pusten. Det å få tilgang til alle yogaens verktøy gir et menneske muligheten til å finne sin kjerne, sin stemme og sin egen identitet. Det vil gi muligheter for økt livsmestring og egenkraftmobilisering, og høyere livskvalitet.
 
