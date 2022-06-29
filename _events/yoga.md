@@ -16,6 +16,13 @@ registration-link:
 event-date: 2022-05-09T08:15
 event-date-end: 2022-05-09T09:30
 ics: true
+
+video: true
+---
+## Se opptak
+
+Du kan se foredragene her:
+- [Tilgjengelig yoga – verktøy til Empowerment/egenkraftmobilisering](https://www.youtube.com/watch?v=-41W99FBQ3c)
 ---
 Hvorfor er det så viktig at yoga er tilgjengelig og inkluderende for alle?
 
