@@ -23,6 +23,8 @@ video: true
 
 Du kan se foredraget her:
 - [Tilgjengelig yoga – verktøy til Empowerment/egenkraftmobilisering](https://www.youtube.com/watch?v=-41W99FBQ3c)
+
+
 ---
 Hvorfor er det så viktig at yoga er tilgjengelig og inkluderende for alle?
 
