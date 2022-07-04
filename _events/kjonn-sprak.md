@@ -18,11 +18,13 @@ event-date-end: 2022-05-12T12:45
 ics: true
 video: true
 ---
+
 ## Se opptak
 
 Du kan se foredraget her:
 - [Han, hun og hen hvordan få de til å bli min venn?](https://www.youtube.com/watch?v=Ya-qSreE_vs)
----
+
+
 ## Hva handler kurset om?
 Kræsjkurs i inkluderende språk.
 
