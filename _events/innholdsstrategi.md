@@ -16,8 +16,15 @@ registration-link:
 event-date: 2022-05-11T10:00
 event-date-end: 2022-05-11T10:30
 
+video: true
 ---
-## Hva handler det her om?
+## Se opptak
+
+Du kan se foredraget her:
+- [NAVs innholdsstrategi](https://www.youtube.com/watch?v=mk7FlxJst_s)
+
+
+## Hva handler foredraget om?
 Hvordan skal NAV gi folk innhold de kan finne, forstå og få til? Hvordan kan vi gjøre innholdet vårt tilgjengelig, relevant og inkluderende, også for folk som verken er jurister eller saksbehandlere?
 
 I dette foredraget forteller Tuva Sverstad om hvordan NAVs nye innholdsstrategi løser brukerbehov, støtter universell utforming, minsker den kognitive lasten OG gjør jobben for NAV.
