@@ -20,9 +20,9 @@ event-date-end: 2022-05-04T17:00
 ics: true
 video: true
 ---
-## Se opptak
+## Watch the recording
 
-Du kan se foredraget her:
+You can find the recording of this talk here:
 - [Accessibility, Design and Usability Review in a Combined Toolchain](https://www.youtube.com/watch?v=CaRyGkgiGS8)
 
 
