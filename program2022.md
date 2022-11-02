@@ -1,5 +1,5 @@
 ---
-layout: program 2022
+layout: program
 title: Arrangementer
 permalink: program/
 categories: menu
