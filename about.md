@@ -6,16 +6,18 @@ title: Om Mangfold i mai
 menu-title: Om Mangfold i mai
 order: 3
 ---
-«Mangfold i mai» er en arrangementsserie i mai rundt mangfold, inkludering og universell utforming; gjennomført delvis digitalt og delvis fysisk i Fyrstikkalléen 1.
+# Om Mangfold i mai
+**Mangfold i mai** er en årlig arrangementsserie i mai som startet i 2022 av NAV IT sitt team for universell utforming av IT. 
+Gjennom **Mangfold i mai** ønsker vi sammen med andre offentlige og private aktører ta opp relevante emner knyttet til mangfold, inkludering og universell utforming i og utenfor utvikling av IT-løsninger. Temaene skal være relevant enten du jobber med IT eller andre former for tjenesteutvikling.
 
-## Hvorfor synes vi "Mangfold i mai" er viktig?
-Alt vi gjør, og alle valg vi tar både privat og på jobb, har konsekvenser for om vi inkluderer eller ekskluderer andre.
+Arrangementsserien kommer til å bestå av en kombinasjon av forskjellige foredrag, workshops, kurs og interaktive fagdager gjennom hele mai. De aller fleste arrangementene er digitale og streames, og enkelte kurs/workshops vil kun være fysiske. 
 
-Vi som ansatte i NAV har et ekstra stort ansvar for å passe på at valgene våre er med på å bryte ned barrierer, og ikke bidrar til å bygge nye.
+## Hvorfor Mangfold i mai?
+Vi ønsker å bidra til nettversksbygging og personlig læring. Selv om NAV har en bred kurspakke innen universell utforming av IT, er vi bevisste på at vi ikke kan dekke alle aspekter selv. 
+Vi vet at våre holdninger og valg kan ha stor betydning for hvordan vi er overfor andre enkeltmennesker. Alle valg vi tar har konsekvenser for om vi inkluderer eller ekskluderer andre. Dette gjelder like mye i det private som i situasjoner på jobb.
+Alle ansatte i offentlig sektor har et ekstra stort ansvar for å passe på at vi er med på å bryte ned barrierer for utenforskap. Vi må også sørge for bred inkludering og universell utforming i og utenfor utvikling av IT-løsninger. 
 
-«Mangfold i mai» skal hjelpe deg å forstå hvilken betydning dine valg kan ha for enkeltmennesker, og hvordan du kan bidra til likeverdig deltakelse for alle – både innbyggere, kollegaer og samhandlingspartnere.
+Ved å delta på **Mangfold i mai** vil du i årene fremover få kunnskap og inspirasjon til hvordan du kan bidra til likeverdig deltakelse for alle innbyggere! Du skal sitte igjen med konkrete tips og kunnskap, som kan brukes i ditt daglige arbeid. Det vil være ulike temaer for hvert år.
 
-## Hva er innholdet?
-Arrangementsserien kommer til å bestå av en kombinasjon av forskjellige foredrag, workshops, kurs og interaktive fagdager gjennom hele mai. De aller fleste arrangementene er digitale og streames. Serien videreføres med et kurstilbud rundt universell utforming fra høsten. Deltakerne skal sitte igjen med konkrete tipps og kunnskap, som kan brukes i deres daglige arbeid.
-
-Initiativet er startet av Fagmiljøet for Inkluderende design og universell utforming i Designseksjonen / NAV IT, med Hjelpemiddelområdet som viktigste samarbeidspartner. Vi er bevisste på at vi ikke kan dekke alle aspekter relevant for mangfold, inkludering og universell utforming. Vi har likevel siktet til å få på plass et bredt programm som ivaretar forskjellige perspektiver.
+### Ønsker du å bidra med innhold?
+Vi er alltid på jakt etter godt innhold og samarbeidspartnere. Send oss en e-post til uu@nav.no
