@@ -10,3 +10,7 @@ bundle exec jekyll serve
 ```
 
 → http://127.0.0.1:4000/mangfold-i-mai/
+
+### Obs
+
+`jekyll server` kan gi 'no implicit conversion of Hash into Integer' feilmelding. Dette kommer av at Github Pages ikke er kompatibel med Ruby 3+. Sørg for å kjøre med Ruby 2.7.
