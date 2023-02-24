@@ -1,0 +1,13 @@
+<div class="label {{label.type}}">
+    {% if label.type == open %}
+        <span>Åpent for alle</span>
+    {% if label.type == closed %}
+        <span>Bare for NAV-ansatte</span>
+    {% if label.type == stream %}
+        <span>Nettmøte</span>
+    {% if label.type == physical %}
+        <span>Fysisk arrangement</span>
+    {% if label.type == signup %}
+        <span>Krever påmelding</span>
+    {% endif %}
+</div>

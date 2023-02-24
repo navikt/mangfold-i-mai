@@ -48,7 +48,7 @@
         align-self: stretch;
 
         a {
-            font-size: 1.5em;
+            font-size: 1.25em;
             font-weight: 100;
             color: #fff;
             text-align: center;
@@ -67,6 +67,10 @@
 
             span {
                 display: block;
+            }
+
+            strong {
+                font-weight: bold;
             }
         }
     }
@@ -124,7 +128,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 12px;
-        margin-top: 8px;
+        margin-top: 8px; 
     }
 
 
@@ -134,7 +138,9 @@
     .events {
 
         section {
-            border: 1px solid $primary;
+            // border: 1px solid #ccc;
+            border-top: 5px solid $primary;
+            background:white;
             margin: 1rem;
         }
 
@@ -144,9 +150,8 @@
         }
 
         .date {
-
             a {
-                font-size: 2em;
+                font-size: 1em;
                 width: 7rem;
                 height: 5rem;
             }

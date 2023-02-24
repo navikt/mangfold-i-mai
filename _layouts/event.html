@@ -21,12 +21,12 @@ url="https://mangfoldimai.no/{page.url}" %}
         <ul>
 
             <!-- DATE AND TIME -->
-            <li class="icon date">
-                {% include localized-date.html %} 2022
+            <li>
+                📅 {% include localized-date.html %} 2022
             </li>
 
-            <li class="icon time">
-                {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
+            <li>
+                🕘️ {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
             </li>
 
             <!-- LOCATION -->
@@ -35,23 +35,23 @@ url="https://mangfoldimai.no/{page.url}" %}
 
                 {% when "stream" %}
 
-                    <li class="icon stream">
+                    <li>
                         {{ page.location-name }}
                     </li>
 
                 {% when "in-person" %}
 
-                    <li class="icon in-person">
+                    <li>
                         {{ page.location-name }}
                     </li>
 
                 {% when "hybrid" %}
 
-                    <li class="icon in-person">
+                    <li>
                         {{ page.location-name }}
                     </li>
 
-                    <li class="icon stream">
+                    <li>
                         Nettmøte
                     </li>
 
@@ -60,7 +60,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
 
             {% if page.location-hybrid %}
-            <li class="icon in-person">{{ page.location-hybrid }}</li>
+                <li>{{ page.location-hybrid }}</li>
             {% endif%}
 
         </ul>
@@ -69,12 +69,12 @@ url="https://mangfoldimai.no/{page.url}" %}
     <div class="participation-details">
         <ul>
             <!-- PRIVACY -->
-            <li class="icon {{ page.privacy}}">
+            <li>
                 {% if page.privacy == "internal" %}
-                Kun for NAV-ansatte
+                <span class="badge red">Bare for NAV-ansatte</span>
                 {% else %}
-                Åpent for hele verden
-                {% endif%}
+                <span class="badge green">Åpent for alle</span>
+                {% endif %}
             </li>
 
         </ul>
