@@ -13,7 +13,12 @@ url="https://mangfoldimai.no" %}
 
 <main id="content" tabindex="-1">
     <div class="wrapper">
-        {{ content }}
+        {% include page-header.html %}
+
+        <form>
+            {% include labels.html %}
+        </form>
+
     </div>
 
     {% include events-list.html %}
@@ -21,6 +26,8 @@ url="https://mangfoldimai.no" %}
 </main>
 
 {% include site-footer.html %}
+
+<script type="script" src="_js/program.js"></script> 
 
 </body>
 </html>

@@ -68,16 +68,37 @@ url="https://mangfoldimai.no/{page.url}" %}
 
     <div class="participation-details">
         <ul>
-            <!-- PRIVACY -->
+            {% if page.privacy == "public" %}
+            <li><span class="badge green {{page.privacy}}">Åpent for alle</span></li>
+                {% else %}
+            <li><span class="badge red {{page.privacy}}">Bare for NAV-ansatte</span></li>
+                {% endif %}
+
+
+
+            {% if page.location-type != "in-person"  %}
+                <li><span class="badge purple stream">Nettmøte</span></li>
+            {% endif %}
+
+            {% if page.location-type != "stream" %}
+            <li><span class="badge blue in-person">Fysisk arrangement</span></li>
+            {% endif %}
+
+            {% if page.registration == true %}
+            <li><span class="badge yellow registration-required">Krever påmelding</span></li>
+            {% endif %}
+        </ul>
+        <!--
+        <ul>
             <li>
                 {% if page.privacy == "internal" %}
                 <span class="badge red">Bare for NAV-ansatte</span>
                 {% else %}
-                <span class="badge green">Åpent for alle</span>
+                <span class="badge green">Åpent for asd alle</span>
                 {% endif %}
             </li>
-
         </ul>
+        -->
     </div>
 
     <div class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>

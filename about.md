@@ -7,8 +7,6 @@ menu-title: Om Mangfold i mai
 order: 3
 ---
 
-# Om Mangfold i Mai
-
 **Mangfold i mai** er en årlig arrangementsserie i mai som startet i 2022 av NAV IT sitt team for universell utforming av IT. 
 Gjennom **Mangfold i mai** ønsker vi sammen med andre offentlige og private aktører ta opp relevante emner knyttet til mangfold, inkludering og universell utforming i og utenfor utvikling av IT-løsninger. Temaene skal være relevant enten du jobber med IT eller andre former for tjenesteutvikling.
 
