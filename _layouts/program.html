@@ -15,8 +15,10 @@ url="https://mangfoldimai.no" %}
     <div class="wrapper">
         {% include page-header.html %}
 
-        <form>
-            {% include labels.html %}
+        <form id="program-filter-form">
+            <label><input type="radio" name="filter" checked value="all" />Vis alle</label>
+            <label><input type="radio" name="filter" checked value="public" />Åpent for alle</label>
+            <label><input type="radio" name="filter" checked value="internal" />Bare for NAV-ansatte</label>
         </form>
 
     </div>
@@ -27,7 +29,7 @@ url="https://mangfoldimai.no" %}
 
 {% include site-footer.html %}
 
-<script type="script" src="_js/program.js"></script> 
+<script src="{{ "/assets/js/program.js" | relative_url }}"></script>
 
 </body>
 </html>
