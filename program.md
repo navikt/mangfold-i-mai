@@ -3,7 +3,7 @@ layout: program
 title: Arrangementer
 permalink: program/
 categories: menu
-menu-title: Program 2022
+menu-title: Program
 order: 1
 ---
-# Program 2022
+# Program
