@@ -3,3 +3,52 @@
 
 
 }
+
+.program-header {
+	// display:flex;
+	// justify-content: space-between;
+	// align-items: start;
+	margin-top:2rem;
+	margin-bottom:1rem;
+	position:relative;
+
+	h1 {
+		margin:0;
+	}
+
+	details {
+		position:absolute;
+		top:0;
+		right:0;
+		max-width:300px;
+
+		summary {
+			text-align:right;
+
+			&:hover {
+				cursor:pointer;
+			}
+		}
+
+		form {
+			background:white;
+			padding:1rem;
+			border-radius:0.25rem;
+			box-shadow:0px 0px 10px #ccc;
+			border:1px solid #eee;
+
+			fieldset {
+				border-color: #ddd;
+				
+				legend {
+					font-weight:bold;
+				}
+			}
+
+			label {
+				display:block;
+				margin:0.25rem 0;
+			}
+		}
+	}
+}
