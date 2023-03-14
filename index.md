@@ -10,10 +10,10 @@ For Mangfold i mai 2023 ønsker vi å utforske hvorfor gapet mellom digitalt inn
 Vi ønsker å utforske:
 
 * Hvordan kan vi få oversikt over hvem som er digitalt utenfor når det gjelder offentlige tjenester?
-* Hvordan påvirker digitalt førstevalg utvikling av offentlige tjenester? 
-* Hvordan påvirkes samarbeidet på tvers i offentlig sektor? 
-* Hva kan vi lære av andre og hvordan kan vi bli klar over blindsoner i vår digitale utvikling?
+* Hva kan vi lære av andre, og hvilke intitiativ eller prosjekter har bidratt til digital inkludering?
+* Hvilken rolle spiller språk?
 * Hvordan kan vi motivere til digital inkludering ved å øke mangfoldet generelt i arbeidslivet?
+* Hvilke tiltak kan en organisasjon ta for å minske det digitale gapet?
 
 
 
