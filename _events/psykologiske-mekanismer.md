@@ -15,7 +15,7 @@ event-date-end: 2023-05-22T09:30
 
 ---
 ## Hva handler foredraget om?
-I dette foredraget gir Løvdal en innføring i mekanismer i den menneskelige hjernen som kan føre til diskriminering. Hun sier også noe om hva dette har å si for diskrimineringsjussen og hvordan den bør brukes.
+I dette foredraget får du en innføring i mekanismer i den menneskelige hjernen som kan føre til diskriminering. Du får også vite litt om ulike måter lovverket kan brukes for å håndtere disse mekanismene.
 
 ## Dette foredraget er for deg som
 - Ønsker å forstå hvorfor diskriminering skjer 
