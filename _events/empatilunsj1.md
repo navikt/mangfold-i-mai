@@ -4,9 +4,6 @@ title: Empatilunsj
 speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
-
-location-name: Fyrstikkalléen 1, 
-
 registration: true
 
 event-date: 2022-05-03T10:45
