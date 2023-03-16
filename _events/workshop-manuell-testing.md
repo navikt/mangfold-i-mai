@@ -4,6 +4,8 @@ title: "Workshop: Manuell uu-testing"
 speakers: Vegard Haugstvedt
 summary: 
 
+privacy: internal
+
 location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo
 location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
