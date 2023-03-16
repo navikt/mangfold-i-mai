@@ -5,7 +5,6 @@ speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
 
-location-type: in-person
 location-name: Fyrstikkalléen 1, 
 
 registration: true
