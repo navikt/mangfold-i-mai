@@ -6,7 +6,7 @@ summary:
 
 privacy: public
 
-location-type: stream
+location-type: hybrid
 
 location-hybrid: Amfiet
 
