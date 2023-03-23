@@ -16,7 +16,7 @@ function filterEvents(value) {
 
 		if (value === 'all') {
 
-			events[i].style.display = 'flex';
+			events[i].style.display = 'block';
 
 		} else {
 
@@ -27,7 +27,7 @@ function filterEvents(value) {
 	    		if (badges[j].className.indexOf(value) !== -1) match = true;
 	    	}
 
-	    	if (match) events[i].style.display = 'flex';
+	    	if (match) events[i].style.display = 'block';
 	    	if (!match) events[i].style.display = 'none';
 
 		}

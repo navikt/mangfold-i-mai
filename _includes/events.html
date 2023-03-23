@@ -10,7 +10,6 @@
 
 {% if number-of-events > 0 %}
     <section>
-
     {% assign dates = site.dates %}
     {% for day in dates %}
     {% assign day-date = day.event-date | date: "%d" %}
@@ -44,18 +43,19 @@
             <li class="{{event.privacy}} {{event.location-type}}">
                 {% assign hour = event.event-date | date: "%H" %}
 
+                    <div class="time">
+                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
+                        <span class="til">til</span>
+                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time>
+                    </div>
+
                     <h3 class="title">
                         <a href="{{ event.url  | relative_url }}">
                             {{ event.title }}
                         </a>
                     </h3>
 
-                    <span class="time">
-                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
-                        <span class="til">til</span>
-                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time></span>
-
-                    <span class="summary">
+                    <div class="summary">
                         {% if event.summary-special %}
 
                             {{ event.summary-special }}
@@ -65,11 +65,16 @@
                             {{event.summary}}
 
                             {% if event.speakers %}
-                                <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+                                <ul class="speakers">
+                                    Med 
+                                    {% for speaker in event.speakers %}
+                                        <li>{{ speaker }}</li>
+                                    {% endfor %}
+                                </ul>
                             {% endif %}
 
                         {% endif %}
-                    </span>
+                    </div>
 
                 <div class="participation-details">
                         {% if event.privacy == "public" %}
