@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Intro til universell utforming av IKT"
-speakers: Sarah Brodwall
+speakers: 
 summary: "Hva er universell utforming, egentlig?"
 
 privacy: public
