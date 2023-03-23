@@ -8,7 +8,7 @@ privacy: public
 
 location-type: stream
 
-location-hybrid:
+location-hybrid: Amfiet
 
 event-date: 2023-05-02T10:00
 event-date-end: 2023-05-02T10:30
