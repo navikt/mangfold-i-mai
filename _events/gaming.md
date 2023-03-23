@@ -5,7 +5,7 @@ speakers:
 summary: Kom og spill - og prøv spill med hjelpemidler!
 
 
-location-type: 
+location-type: in-person
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 
 registration-info: "Ingen påmelding, det er bare å komme til kantina og spille :)"
