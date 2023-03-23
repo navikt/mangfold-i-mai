@@ -1,55 +1,55 @@
-.icon {
-    padding: 0 1em 0 1.5em;
-    background: no-repeat left center / 18px;
+// .icon {
+//     padding: 0 1em 0 1.5em;
+//     background: no-repeat left center / 18px;
 
-    &.arrow-right {
-        background-image: url("images/icons/arrow-right.svg");
-    }
+//     &.arrow-right {
+//         background-image: url("images/icons/arrow-right.svg");
+//     }
 
-    &.public {
-        background-image: url("images/icons/public.svg");
-    }
+//     &.public {
+//         background-image: url("images/icons/public.svg");
+//     }
 
-    &.internal {
-        background-image: url("images/icons/nav-logo-only-circle-black.svg");
-    }
+//     &.internal {
+//         background-image: url("images/icons/nav-logo-only-circle-black.svg");
+//     }
 
-    &.registration-required {
-        background-image: url("images/icons/registration-required.svg");
-    }
+//     &.registration-required {
+//         background-image: url("images/icons/registration-required.svg");
+//     }
 
-    &.stream {
-        background-image: url("images/icons/stream-black.svg");
-    }
+//     &.stream {
+//         background-image: url("images/icons/stream-black.svg");
+//     }
 
-    &.in-person {
-        background-image: url("images/icons/in-person-black.svg");
-        background-size: 13px;
-    }
+//     &.in-person {
+//         background-image: url("images/icons/in-person-black.svg");
+//         background-size: 13px;
+//     }
 
-    &.calendar-outlook {
-        background-image: url("images/icons/calendar-outlook.svg");
-    }
+//     &.calendar-outlook {
+//         background-image: url("images/icons/calendar-outlook.svg");
+//     }
 
-    &.calendar-download {
-        background-image: url("images/icons/calendar-download-black.svg");
-    }
+//     &.calendar-download {
+//         background-image: url("images/icons/calendar-download-black.svg");
+//     }
 
-    &.time {
-        background-image: url("images/icons/clock-black.svg");
-    }
+//     &.time {
+//         background-image: url("images/icons/clock-black.svg");
+//     }
 
-    &.date {
-        background-image: url("images/icons/calendar-black.svg");
-    }
-}
+//     &.date {
+//         background-image: url("images/icons/calendar-black.svg");
+//     }
+// }
 
 .badge {
     display: inline-block;
-    padding: .5em 1em .5em 2.25em;
+    padding: .5em 1em;
     border-radius: 2em;
     background-color: #e1f2ff;
-    border: 1px solid #b9b9b9;
+    // border: 1px solid #b9b9b9;
     font-size: .92em;
     line-height: 1em;
     font-weight: 500;
@@ -59,22 +59,22 @@
     }
 
     &.red {
-        background-color: $sketch-pink;
+        background-color: adjust-color(red, $lightness: 40%);
     }
 
     &.blue {
-        background-color: $sketch-light-blue;
+        background-color: adjust-color($sketch-light-blue, $lightness: 15%);
     }
 
     &.green {
-        background-color: $sketch-green;
+        background-color: adjust-color($sketch-green, $lightness: 15%);
     }
 
     &.yellow {
-        background-color: $sketch-yellow;
+        background-color: adjust-color($sketch-yellow, $lightness: 12%);
     }
 
     &.purple {
-        background-color: $light-purple;
+        background-color: adjust-color($light-purple, $lightness: 10%);
     }
 }

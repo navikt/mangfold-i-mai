@@ -13,14 +13,35 @@ url="https://mangfoldimai.no" %}
 
 <main id="content" tabindex="-1">
     <div class="wrapper">
-        {{ content }}
+        <div class="program-header">
+            
+            {% include page-header.html %}
+
+            <details>
+                <summary><span aria-hidden>⚙️ </span>Filter</summary>
+                <form id="program-filter-form">
+                    <fieldset>
+                        <legend>Filtrer program</legend>
+                        <label><input type="radio" name="filter" checked value="all" />Vis alle</label>
+                        <label><input type="radio" name="filter" checked value="public" />Åpent for alle</label>
+                        <label><input type="radio" name="filter" checked value="internal" />Bare for NAV-ansatte</label>
+                        <label><input type="radio" name="filter" checked value="stream" />Nettmøte</label>
+                        <label><input type="radio" name="filter" checked value="in-person" />Fysisk arrangement</label>
+                        <label><input type="radio" name="filter" checked value="registration-required" />Krever påmelding</label>
+                    </fieldset>
+                </form>
+            </details>
+        </div>
+
     </div>
 
-    {% include events-list.html title="Hva har vi planlagt?" %}
+    {% include events-list.html %}
 
 </main>
 
 {% include site-footer.html %}
+
+<script src="{{ "/assets/js/program.js" | relative_url }}"></script>
 
 </body>
 </html>

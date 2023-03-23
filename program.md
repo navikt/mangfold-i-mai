@@ -1,6 +1,6 @@
 ---
 layout: program
-title: Arrangementer
+title: Program
 permalink: program/
 categories: menu
 menu-title: Program

@@ -10,7 +10,6 @@
 
 {% if number-of-events > 0 %}
     <section>
-
     {% assign dates = site.dates %}
     {% for day in dates %}
     {% assign day-date = day.event-date | date: "%d" %}
@@ -20,10 +19,11 @@
                 <a href="{{ day.url  | relative_url }}">
                     <span>
                         <span class="day-number">
-                            {{ day.event-date | date: "%-d" }}
+                            <div>{% include localized-weekday.html weekday=event-weekday %}</div>
+                            <strong>{{ day.event-date | date: "%-d" }}. mai</strong>
                         </span>
                         <span class="weekday">
-                            {% include localized-weekday.html weekday=event-weekday %}
+                            
                         </span>
                     </span>
                 </a>
@@ -43,18 +43,19 @@
             <li class="{{event.privacy}} {{event.location-type}}">
                 {% assign hour = event.event-date | date: "%H" %}
 
+                    <div class="time">
+                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
+                        <span class="til">til</span>
+                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time>
+                    </div>
+
                     <h3 class="title">
                         <a href="{{ event.url  | relative_url }}">
                             {{ event.title }}
                         </a>
                     </h3>
 
-                    <span class="time">
-                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
-                        <span class="til">til</span>
-                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time></span>
-
-                    <span class="summary">
+                    <div class="summary">
                         {% if event.summary-special %}
 
                             {{ event.summary-special }}
@@ -64,31 +65,36 @@
                             {{event.summary}}
 
                             {% if event.speakers %}
-                                <span class="speakers">{% for speaker in event.speakers %}<span>{{ speaker }}</span>{% endfor %}</span>
+                                <ul class="speakers">
+                                    Med 
+                                    {% for speaker in event.speakers %}
+                                        <li>{{ speaker }}</li>
+                                    {% endfor %}
+                                </ul>
                             {% endif %}
 
                         {% endif %}
-                    </span>
+                    </div>
 
                 <div class="participation-details">
                         {% if event.privacy == "public" %}
-                    <span class="badge red icon {{event.privacy}}">Åpent for alle</span>
+                    <span class="badge green {{event.privacy}}">Åpent for alle</span>
                         {% else %}
-                    <span class="badge blue icon {{event.privacy}}">Bare for NAV-ansatte</span>
+                    <span class="badge red {{event.privacy}}">Bare for NAV-ansatte</span>
                         {% endif %}
 
 
 
                     {% if event.location-type != "in-person"  %}
-                        <span class="badge purple icon stream">Nettmøte</span>
+                        <span class="badge purple stream">Nettmøte</span>
                     {% endif %}
 
                     {% if event.location-type != "stream" %}
-                    <span class="badge yellow icon in-person">Fysisk arrangement</span>
+                    <span class="badge blue in-person">Fysisk arrangement</span>
                     {% endif %}
 
                     {% if event.registration == true %}
-                    <span class="badge green icon registration-required">Krever påmelding</span>
+                    <span class="badge yellow registration-required">Krever påmelding</span>
                     {% endif %}
 
                 </div>
