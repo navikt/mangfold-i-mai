@@ -49,6 +49,7 @@
     padding: .5em 1em;
     border-radius: 2em;
     background-color: #e1f2ff;
+    background:#f0f0f0;
     // border: 1px solid #b9b9b9;
     font-size: .92em;
     line-height: 1em;
@@ -76,5 +77,6 @@
 
     &.purple {
         background-color: adjust-color($light-purple, $lightness: 10%);
+        background: #f8e8ff;
     }
 }
