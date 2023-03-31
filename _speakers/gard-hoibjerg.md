@@ -2,6 +2,6 @@
 layout: speaker
 name: Gard Ringen Høibjerg
 image: gard-hoibjerg.png
-summary: Antropolog / Design Researcher i NAV
+summary: Design researcher i NAV IT
 ---
-Gard Ringen Høibjerg jobber som design researcher i NAV IT. For tiden jobber han som del av et tverrfaglig team, Team Ukraina, som ser på mulige kontaktpunkter mellom ukrainske flyktninger og NAV.
+Gard jobber med brukerinnsikt og analyse i NAV IT, og har skrevet om brukerforventinger sammen med Marianne Friess Åsheim i årets omverdensanalyse. Gard har skrevet bachelorgrad i antropologi om DJer og dansing, og en doktorgrad i offentlig tjenesteinnovasjon om integrering av flyktninger i små kommuner.
