@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Digitalt utenforskap!"
+title: "Digitalt utenforskap"
 speakers: Kristin S. Fuglerud
-summary: Sammenhengen mellom universell utforming, digitale ferdigheter og inkludering.![image](https://user-images.githubusercontent.com/30718528/229117884-22995921-d4ef-4e9b-8fb0-42a96aab6e47.png)
+summary: Sammenhengen mellom universell utforming, digitale ferdigheter og inkludering.
 
 
 privacy: public
