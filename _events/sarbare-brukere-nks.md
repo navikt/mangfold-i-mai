@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Sårbare livssituasjoner i møte med NAV Kontaktsenter"
-speakers: [Maien Johnson, Sandra Persson Breivik]
+speakers: [Maien Johnson, Sandra P. Breivik]
 summary: Er det slik at våre dører er lukket selv om de er åpne?
 
 privacy: public
