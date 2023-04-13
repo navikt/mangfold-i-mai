@@ -7,7 +7,8 @@ summary: Hvilke barrierer møter ungdom for å kunne delta digitalt, og hva er l
 privacy: public
 
 location-type: stream
-location-name: 
+location-name:
+recorded: true
 
 registration-link: 
 

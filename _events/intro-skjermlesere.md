@@ -7,6 +7,7 @@ summary: "Hvordan fungerer det å navigere nettet via lydgrensesnitt?"
 privacy: public
 
 location-type: stream
+recorded: true
 
 event-date: 2023-05-03T13:00
 event-date-end: 2023-05-03T13:45

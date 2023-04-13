@@ -4,7 +4,7 @@ title: Empatilunsj
 speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
-location-type: 
+location-type: in-person
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 
 event-date: 2023-05-03T10:45
