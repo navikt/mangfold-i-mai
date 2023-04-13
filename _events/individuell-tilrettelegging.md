@@ -7,6 +7,7 @@ summary: Hvilke regler gjelder for individuell tilrettelegging?
 privacy: public
 
 location-type: stream
+recorded: true
 
 location-hybrid:
 

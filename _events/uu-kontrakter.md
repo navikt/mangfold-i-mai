@@ -5,6 +5,7 @@ speakers: Sigbjørn Råsberg
 summary: Korleis du kan bruke kontraktar som verkemiddel for å oppnå universelt utforma ikt-løysingar
 
 privacy: public
+recorded: true
 
 location-type: stream
 

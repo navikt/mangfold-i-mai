@@ -5,6 +5,7 @@ speakers: Hilde Kristine Braadland-Eriksson
 summary: 
 
 privacy: public
+recorded: true
 
 location-type: stream
 

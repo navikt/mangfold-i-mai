@@ -8,6 +8,7 @@ privacy: public
 
 location-type: stream
 location-name: 
+recorded: true
 
 registration-link: 
 

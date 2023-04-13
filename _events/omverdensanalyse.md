@@ -6,8 +6,9 @@ summary: Omverdensanalysen 2023s kapittel om brukerforventinger med særlig foku
 
 privacy: public
 
-location-type: stream
-location-name: 
+location-type: hybrid
+location-name: Speakers Corner
+recorded: true
 
 registration-link: 
 

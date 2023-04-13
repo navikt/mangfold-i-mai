@@ -6,6 +6,7 @@ summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
+registration: true
 
 event-date: 2023-05-03T11:30
 event-date-end: 2023-05-03T13:00
