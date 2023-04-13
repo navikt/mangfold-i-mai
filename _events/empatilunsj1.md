@@ -7,8 +7,8 @@ summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 
-event-date: 2023-05-03T10:45
-event-date-end: 2023-05-03T11:45
+event-date: 2023-05-03T11:30
+event-date-end: 2023-05-03T13:00
 ---
 ## Hva handler arrangementet om?
 Fokus: Gå fra en vag idé om hva universell utforming (UU) er, til en varig innsikt i hva funksjonstap og UU innebærer i praksis.
