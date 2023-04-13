@@ -2,7 +2,7 @@
 layout: event
 title: "Nav.no - fra støvete leksikon til vennlig hjelper"
 speakers: [Tuva Sverdstad, Tobias McVey]
-summary:Slik har vi jobbet med nettsiden for å gjøre det enklere å finne frem blant de 170 ulike pengestøttene, tjenestene og hjelpemidlene NAV tilbyr.
+summary: Slik har vi jobbet med nettsiden for å gjøre det enklere å finne frem blant de 170 ulike pengestøttene, tjenestene og hjelpemidlene NAV tilbyr.
 
 
 privacy: public
