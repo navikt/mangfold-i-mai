@@ -7,6 +7,7 @@ summary: Finn ut hvordan farge fungerer, og lær å bruke den på en inklusiv m�
 privacy: public
 
 location-type: stream
+recorded: true
 
 event-date: 2023-05-03T12:00
 event-date-end: 2023-05-03T12:45
