@@ -8,7 +8,8 @@ summary: Slik har vi jobbet med nettsiden for å gjøre det enklere å finne fre
 privacy: public
 recorded: true
 
-location-type: stream
+location-type: hybrid
+location-name: Speakers Corner
 
 event-date: 2023-05-10T09:00
 event-date-end: 2023-05-10T09:45
