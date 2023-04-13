@@ -6,7 +6,7 @@ summary: Omverdensanalysen 2023s kapittel om brukerforventinger med særlig foku
 
 privacy: public
 
-location-type: stream
+location-type: hybrid
 location-name: 
 recorded: true
 
