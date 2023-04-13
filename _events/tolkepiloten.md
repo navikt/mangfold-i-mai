@@ -7,6 +7,7 @@ summary: Om bruk av tolk i telefonsamtaler.
 privacy: public
 
 location-type: stream
+recorded: true
 
 event-date: 2023-05-09T12:00
 event-date-end: 2023-05-09T12:30
