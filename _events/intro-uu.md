@@ -7,6 +7,7 @@ summary: "Hva er universell utforming, egentlig?"
 privacy: public
 
 location-type: stream
+recorded: true
 
 event-date: 2023-05-03T10:00
 event-date-end: 2023-05-03T10:30
