@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Forskning på ekskludering i arbeidslivet
+title: "Forskning på ekskludering i arbeidslivet"
 speakers: Kristin S. Fuglerud
 summary: Betydningen av teknologi for et inkluderende arbeidsliv
 

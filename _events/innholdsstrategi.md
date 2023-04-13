@@ -1,7 +1,9 @@
 ---
 layout: event
 title: "Nav.no - fra støvete leksikon til vennlig hjelper"
-speakers: Tuva Sverdstad
+
+speakers: [Tuva Sverdstad, Tobias McVey]
+
 summary: Slik har vi jobbet med nettsiden for å gjøre det enklere å finne frem blant de 170 ulike pengestøttene, tjenestene og hjelpemidlene NAV tilbyr.
 
 
@@ -24,4 +26,3 @@ Likevel tok det 1,5 år fra vi startet oppryddingsarbeidet på nav.no til vi tok
 - Er interessert i hvordan man kan tilgjengeliggjøre kompleks informasjon og rydde opp i stor innholdsgjeld 
 - Er interessert i hvordan innhold, struktur og visuell design påvirker hverandre 
 - Har en sjef som foreslår at dere kan starte med å “bare freshe opp forsiden” 
-
