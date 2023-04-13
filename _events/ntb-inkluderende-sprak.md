@@ -5,6 +5,7 @@ speakers: Heidi Bunæs Eklund
 summary: 
 
 privacy: public
+recorded: true
 
 location-type: stream
 
