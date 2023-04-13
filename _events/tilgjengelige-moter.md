@@ -5,6 +5,7 @@ speakers: Morten Tollefsen
 summary: Hvordan lykkes du med inkluderende kommunikasjon og samarbeid.
 
 privacy: public
+recorded: true
 
 location-type: stream
 
