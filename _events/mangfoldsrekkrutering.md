@@ -5,6 +5,7 @@ speakers: Birthe Olsen
 summary: Mangfold er viktig i NAV. Mangfold bidrar til bedre problemløsing, økt kreativitet, større fleksibilitet og styrker kulturen og arbeidsmiljøet på arbeidsplassen.
 
 privacy: public
+recorded: true
 
 location-type: stream
 
