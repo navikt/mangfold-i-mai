@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Innbyggernes forventinger i, og generelle utviklingstrekk frem mot, 2035"
+title: "Brukerforventninger til NAV i fremtiden"
 speakers: Gard Ringen Høibjerg
-summary: Omverdensanalysen 2023s kapittel om brukerforventinger med særlig fokus på inkluderende tjenester
+summary: Et utdrag fra Omverdensanalysen 2023s kapittel om brukerforventinger
 
 privacy: public
 
