@@ -13,7 +13,7 @@ event-date: 2023-05-22T10:20
 event-date-end: 2023-05-22T10:50
 ---
 ## Hva handler foredraget om?
-Våre ledere skal anerkjenne ulikheter samt rekruttere og sette sammen team der medarbeidere bringer med seg ulike erfaringer og kunnskap. Våre rekrutteringer skal fremme likestilling, mangfold og inkludering.
+NAV skal være en inkluderende arbeidsgiver, og jobbe for å forhindre diskriminering og fremme likestilling. Våre ledere skal anerkjenne ulikheter, samt rekruttere og sette sammen team der medarbeidere bringer med seg ulike erfaringer og kunnskap. Våre rekrutteringer skal fremme likestilling, mangfold og inkludering.
 
 ## Dette foredraget er for deg som
 Er interessert i NAV som arbeidsgiver og rekruttering i offentlig sektor.
