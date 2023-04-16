@@ -2,6 +2,6 @@
 layout: speaker
 name: Tuva Sverdstad
 image: tuva.png
-summary: Produkteier i Team personbruker
+summary: Designer og produktleder i NAV 
 ---
-Tuva Sverdstad er produkteier i Team personbruker som jobber med helhet og struktur på nav.no.
+Tuva er designer og produktleder i team nav.no. De siste årene har hun vært sentral i arbeidet med å utforme og implementere nav.nos første innholdsstrategi. 
