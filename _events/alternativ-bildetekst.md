@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Tekst til ikke-tekstlig innhold"
-speakers: Morten Tollefsen
+speakers: Kari Sand
 summary: Det er mer utfordrende enn du kanskje egentlig vet?
 privacy: public
 
