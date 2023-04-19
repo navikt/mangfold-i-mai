@@ -8,4 +8,4 @@ order: 1
 ---
 # Program
 
-Programmet er under arbeid og oppdateres løpende. Følg med for masse spennende gjennom (nesten) hele mai!
+De fleste arrangementene trenger ikke noe påmelding. Det kommer en streaming-lenke for å bli med på hver arrangementside :) 
