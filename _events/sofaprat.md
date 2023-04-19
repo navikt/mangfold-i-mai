@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kan man være "ikke-digital"?"
+title: "Kan man være ikke-digital?"
 speakers: [Malin Rygg, Karina Ludwig]
 summary: Sofaprat rundt digitalt utenforskap og Mangfold i mai
 
