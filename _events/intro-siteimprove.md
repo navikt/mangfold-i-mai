@@ -5,7 +5,6 @@ speakers: Eilif Johansen
 summary: Lær å bruke Siteimprove til å finne UU-brudd på deres nettsideområde. Kurset blir en del av NAVs interne kurskatalog.
 
 privacy: internal
-
 location-type: stream
 
 registration: true
