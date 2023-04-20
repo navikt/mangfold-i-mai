@@ -4,30 +4,30 @@
 {% assign render-speaker-summary = undefined %}
 
 {% for site-speaker in site.speakers %}
-  {% if site-speaker.name == include.speaker %}
-    {% assign render-speaker-name = site-speaker.name %}
-    {% assign render-speaker-url = site-speaker.url %}
-    {% assign render-speaker-image = site-speaker.image %}
-    {% assign render-speaker-summary = site-speaker.summary %}
-  {% endif %}
+    {% if site-speaker.name == include.speaker %}
+        {% assign render-speaker-name = site-speaker.name %}
+        {% assign render-speaker-url = site-speaker.url %}
+        {% assign render-speaker-image = site-speaker.image %}
+        {% assign render-speaker-summary = site-speaker.summary %}
+    {% endif %}
 {% endfor %}
 
 <li class="speaker-card">
-  {% if render-speaker-image %}
-    {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
-    <img class="pic" src="{{ image_url | relative_url }}" alt="{{ render-speaker-name }}" aria-hidden="true">
-  {% endif %}
-
-  <div class="about">
-    <div class="name">
-      <a href="{{ render-speaker-url | relative_url }}" class="name">
-        {{ render-speaker-name }}
-      </a>
-    </div>
-
-    {% if render-speaker-summary %}
-      <div class="summary">{{render-speaker-summary}}</div>
+    {% if render-speaker-image %}
+        {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
+        <img class="pic" src="{{ image_url | relative_url }}" alt="{{ render-speaker-name }}" aria-hidden="true">
     {% endif %}
-  </div>
+
+    <div class="about">
+        <div class="name">
+            <a href="{{ render-speaker-url | relative_url }}" class="name">
+                {{ render-speaker-name }}
+            </a>
+        </div>
+
+        {% if render-speaker-summary %}
+            <div class="summary">{{render-speaker-summary}}</div>
+        {% endif %}
+    </div>
 
 </li>
