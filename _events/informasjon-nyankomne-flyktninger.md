@@ -2,7 +2,7 @@
 layout: event
 title: "Hvordan nå ut med informasjon til nyankomne flyktninger og innvandrere?"
 speakers: Katarina Heradstveit
-summary: råd og tips til deg som offentlig ansatt
+summary: Råd og tips til deg som offentlig ansatt
 
 privacy: public
 
