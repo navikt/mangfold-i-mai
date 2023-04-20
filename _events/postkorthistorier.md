@@ -7,7 +7,7 @@ summary: Praktiser systemtenkning gjennom historiefortelling
 privacy: internal
 
 location-type: in-person
-location-type: Fyrstikkalléen 1, 0661 Oslo, A135 Middelalderparken
+location-name: Fyrstikkalléen 1, 0661 Oslo, A135 Middelalderparken
 
 registration: true
 registration-info: "Antall deltagere er begrenset. Workshopen er bare tilgjengelig internt i NAV (ansatte og konsulenter).  <a href='https://forms.office.com/e/7kWQ20CZn5'>Meld deg på</a>"
