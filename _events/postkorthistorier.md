@@ -10,7 +10,7 @@ location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo, A135 Middelalderparken
 
 registration: true
-registration-link: https://forms.office.com/e/rXhDPpS9iV
+registration-link: https://forms.office.com/e/7kWQ20CZn5
 
 event-date: 2023-05-03T09:00
 event-date-end: 2023-05-03T11:30
