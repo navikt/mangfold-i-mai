@@ -6,6 +6,8 @@ title="Program | Mangfold i mai"
 summary="Feir mangfold, inkludering og universell utforming!"
 url="https://mangfoldimai.no" %}
 
+{% assign content = content | strip_newlines %}
+
 <body class="layout-home">
 <a id="skip" href="#content">Hopp til innholdet.</a>
 
@@ -13,8 +15,16 @@ url="https://mangfoldimai.no" %}
 
 <main id="content" tabindex="-1">
     <div class="wrapper">
+
+        {% if content == "" %}
+        {% else %}
+        <div class="notice warning" style="position:relative;top:1rem;margin-top:1rem;">
+            {{ content }}
+        </div>
+        {% endif %}
+
         <div class="program-header">
-            
+
             {% include page-header.html %}
 
             <details>

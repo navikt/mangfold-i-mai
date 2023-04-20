@@ -2,7 +2,7 @@
 layout: event
 title: "Digitalt utenforskap i NAV"
 speakers: Charlotte Reikrås-Jacobsen
-summary: - en historie med fokus på vår mangfoldige hjelperolle
+summary: En historie med fokus på vår mangfoldige hjelperolle
 
 
 privacy: public
