@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Digital tilrettelegging av arbeidsplassen for en synshemmet person"
-speakers: [Josette Sirech, Ove Østerby]
+speakers: [Jo Sirech, Ove Østerby]
 summary: Digital tilrettelegging for person med synsnedsettelse i privat eller offentlig sektor
 
 privacy: public
