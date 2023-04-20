@@ -14,7 +14,7 @@ location-name: Smeltedigelen, Fyrstikkalléen 1, 0661 Oslo
 location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
 
 registration: true
-registration-link: https://forms.office.com/pages/responsepage.aspx?id=NGU2YsMeYkmIaZtVNSedCyZLKV1G619OjMmF08wCyrFUQVBTQVNBWFVWUFcxR04xWUxYUktMUUNJNC4u
+registration-link: https://forms.office.com/e/JCpXL7MtXk
 
 event-date: 2023-05-10T13:00
 event-date-end: 2023-05-10T15:00
