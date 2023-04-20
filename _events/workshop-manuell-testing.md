@@ -8,7 +8,7 @@ privacy: internal
 
 location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo, Rom B118 Hjelpestikken
-location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
+
 
 registration: true
 registration-link: https://forms.office.com/e/fwgypzw8B9
