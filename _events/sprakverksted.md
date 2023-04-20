@@ -14,7 +14,7 @@ location-name: Smeltedigelen, Fyrstikkalléen 1, 0661 Oslo
 location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
 
 registration: true
-registration-info: "Antall deltagere er begrenset.  <a href='mailto:universell.utforming@nav.no?subject=Påmelding til spåkverksted'>Ta kontakt med oss via epost</a> om du er interessert i å delta."
+registration-link: https://forms.office.com/pages/responsepage.aspx?id=NGU2YsMeYkmIaZtVNSedCyZLKV1G619OjMmF08wCyrFUQVBTQVNBWFVWUFcxR04xWUxYUktMUUNJNC4u
 
 event-date: 2023-05-10T13:00
 event-date-end: 2023-05-10T15:00
