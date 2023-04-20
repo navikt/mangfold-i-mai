@@ -57,4 +57,13 @@ p, ul, ol, dl {
     background: url("images/icons/arrow-right.svg") no-repeat right center / 1em;
 }
 
+.notice {
+    border-radius:0.25rem;
+    padding:0 1rem;
+    font-size:0.9rem;
 
+    &.warning {
+        background:rgb(255, 236, 204);
+        border: 1px solid rgb(199, 115, 0);
+    }
+}

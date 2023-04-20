@@ -70,28 +70,39 @@ url="https://mangfoldimai.no/{page.url}" %}
 
                         <li>
                             {{ page.location-name }}
+                            {% if page.location-hybrid %}
+                                {% unless page.location-name %}
+                                    {{ page.location-hybrid }}
+                                {% endunless %}
+                            {% endif %}
                         </li>
+
+                        {% if page.location-link %}
 
                         <li>
-                            Nettmøte
+                            ▶️ <a href="{{ page.location-link }}">Nettmøte</a>
                         </li>
 
+                        {% endif %}
+
                 {% endcase %}
-
-
-
-                {% if page.location-hybrid %}
-                    <li>{{ page.location-hybrid }}</li>
-                {% endif%}
 
                 <li>
                     📅 <a href="#" onclick="javascript:cal.download('{{ page.title }} - Mangfold i mai 2023')">Legg til i kalender</a>
                 </li>
+                    
+                {% if page.registration-link %}
+                <li>
+                    📝 <a href="{{ page.registration-link }}">Registrer deg her</a>
+                </li>
+                {% endif %}
 
             </ul>
         </div>
 
         <div class="participation-details">
+            
+
             <ul>
                 {% if page.privacy == "public" %}
                 <li><span class="badge green {{page.privacy}}">Åpent for alle</span></li>
@@ -109,7 +120,7 @@ url="https://mangfoldimai.no/{page.url}" %}
                 <li><span class="badge blue in-person">Fysisk arrangement</span></li>
                 {% endif %}
 
-                {% if page.registration == true %}
+                {% if page.registration == true or page.registration-link %}
                 <li><span class="badge yellow registration-required">Krever påmelding</span></li>
                 {% endif %}
 

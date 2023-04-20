@@ -93,7 +93,7 @@
                     <span class="badge blue in-person">Fysisk arrangement</span>
                     {% endif %}
 
-                    {% if event.registration == true %}
+                    {% if event.registration == true or event.registration-link %}
                     <span class="badge yellow registration-required">Krever påmelding</span>
                     {% endif %}
 
