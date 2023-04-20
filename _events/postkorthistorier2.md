@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Postkorthistorier"
-speakers: Linda Blaasvær
+speakers: Linda Blaasvær 
 summary: Praktiser systemtenkning gjennom historiefortelling
 
 privacy: internal
