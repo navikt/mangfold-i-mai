@@ -61,6 +61,8 @@ p, ul, ol, dl {
     border-radius:0.25rem;
     padding:0 1rem;
     font-size:0.9rem;
+    background: rgb(216, 249, 255);
+    border: 1px solid rgb(54, 141, 168);
 
     &.warning {
         background:rgb(255, 236, 204);
