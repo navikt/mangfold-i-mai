@@ -60,6 +60,14 @@ url="https://mangfoldimai.no/{page.url}" %}
                             {{ page.location-name }}
                         </li>
 
+                        {% if page.location-link %}
+
+                        <li>
+                            ▶️ <a href="{{ page.location-link }}">Nettmøte</a>
+                        </li>
+
+                        {% endif %}
+
                     {% when "in-person" %}
 
                         <li>
