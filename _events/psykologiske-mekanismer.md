@@ -5,10 +5,10 @@ speakers: Lene Løvdal
 summary: Hvilke mekanismer fører til diskriminering?
 
 privacy: public
+recorded: true
 
 location-type: stream
 
-location-hybrid:
 
 event-date: 2023-05-22T09:00
 event-date-end: 2023-05-22T09:30

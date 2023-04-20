@@ -180,7 +180,7 @@ url="https://mangfoldimai.no/{page.url}" %}
                         {% endfor %}
 
                         {% if render-speaker-image %}
-                            {% assign image_url = "/assets/images/speakers/" | append: render-speaker-image %}
+                            {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
                             <img src="{{ image_url | relative_url }}" alt="{{ speaker }}" aria-hidden="true">
                         {% endif %}
 

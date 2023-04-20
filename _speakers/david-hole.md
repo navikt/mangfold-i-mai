@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: David Hole
-image: david-hole.png
+image: david-hole.jpg
 summary: Spesialist i universell utforming av IKT i NAV IT
 ---
 David Hole har jobbet i NAV IT siden 2012 med universell utforming av NAVs digitale tjenester.

@@ -7,6 +7,7 @@ summary: "Hvordan fungerer tilgjengelighetserklæringen for et stort og kompleks
 privacy: public
 
 location-type: stream
+recorded: true
 
 event-date: 2023-05-04T12:20
 event-date-end: 2023-05-04T12:50

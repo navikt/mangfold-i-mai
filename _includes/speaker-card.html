@@ -14,7 +14,7 @@
 
 <li class="speaker-card">
     {% if render-speaker-image %}
-        {% assign image_url = "/assets/images/speakers/" | append: render-speaker-image %}
+        {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
         <img class="pic" src="{{ image_url | relative_url }}" alt="{{ render-speaker-name }}" aria-hidden="true">
     {% endif %}
 
@@ -29,7 +29,5 @@
             <div class="summary">{{render-speaker-summary}}</div>
         {% endif %}
     </div>
-
-
 
 </li>

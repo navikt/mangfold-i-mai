@@ -5,10 +5,10 @@ speakers: Eilif Johansen
 summary: Lær å bruke Siteimprove til å finne UU-brudd på deres nettsideområde. Kurset blir en del av NAVs interne kurskatalog.
 
 privacy: internal
-
 location-type: stream
 
 registration: true
+registration-info: "Antall deltagere er begrenset. Kurset er bare tilgjengelig internt i NAV (ansatte og konsulenter). <a href="https://forms.office.com/e/RJDaB7HaWT">Meld deg på</a>
 
 event-date: 2023-05-04T13:00
 event-date-end: 2023-05-04T13:45
