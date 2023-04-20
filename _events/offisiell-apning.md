@@ -1,7 +1,7 @@
 ---
 layout: event
-title: "Offisiell Åpning av Mangfold i Mai"
-speakers: [Hans Christian Holte, Eve Vangsnes Bergli, Heidrun Larsen Reiseter, Bjørn Erik Thon]
+title: "Offisiell Åpning av Mangfold i mai"
+speakers: [Hans Christian Holte, Eve Vangsnes Bergli, Heidrun Larsen Reisæter, Bjørn Erik Thon]
 summary: 
 
 privacy: public
