@@ -18,6 +18,8 @@ Gaming er for mange en sosial aktivitet med venner og familie. Dessverre kan ter
 
 Vi ønsker å vise hvordan gaming kan gjøres tilgjengelig for flere, spesielt de med funksjonstap. Vi jobber med hvilke spill vi skal ha med, og oppdaterer her :) 
 
+Du trenger ikke å melde deg på, hvis du jobber i NAV (eller andre steder i Fyrstikkalleen 1), er det bare å komme til rommet Samfunnet ved kantina og bli med!
+
 
 ## Dette arrangementet er for deg som
 - ønsker å se hvordan man kan spille hvis man bruker hjelpemidler
