@@ -9,7 +9,7 @@ location-type: stream
 recorded: true
 
 event-date: 2023-05-03T14:00
-event-date-end: 2023-05-03T14:45
+event-date-end: 2023-05-03T14:50
 ---
 ## Hva handler foredraget om?
 Mange vet at grafikk skal ha en alternativ tekst. Men når er disse tekstene egentlig verdifulle? Når kan grafikk skjules for skjermleser? Når er det ordentlig vanskelig å lage alternativ tekst, og når tør vi ikke å beskrive bilder?
