@@ -1,7 +1,7 @@
 ---
 layout: event
-title: "Postkorthistorier" 
-speakers: Linda Blaasvær
+title: "Postkorthistorier"
+speakers: Linda Blaasvær 
 summary: Praktiser systemtenkning gjennom historiefortelling
 
 privacy: internal
@@ -10,10 +10,10 @@ location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo, A135 Middelalderparken
 
 registration: true
-registration-link: https://forms.office.com/e/7kWQ20CZn5
+registration-link: https://forms.office.com/e/rXhDPpS9iV
 
-event-date: 2023-05-03T09:00
-event-date-end: 2023-05-03T11:30
+event-date: 2023-05-04T12:00
+event-date-end: 2023-05-04T15:30
 ---
 ## Hva handler workshopen om?
 Bli med på en praktisk workshop og lær om systemdynamikk og systemtenkning.
