@@ -1,6 +1,6 @@
 ---
 layout: speaker
-name: Maiken Johnson
+name: Maiken Johnsen
 image: Maiken-Johnsen.jpg
 summary: Kommunikasjonsrådgiver i NAV Kontaktsenter
 ---

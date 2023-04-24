@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Tolkepilot i NAV Kontaktsenter"
-speakers: [Maiken Johnson, Sandra P. Breivik]
+speakers: [Maiken Johnsen, Sandra P. Breivik]
 summary: Om bruk av tolk i telefonsamtaler.
 
 privacy: public
