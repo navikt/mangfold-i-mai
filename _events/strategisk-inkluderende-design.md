@@ -31,7 +31,6 @@ Vi går gjennom DOGAs rammeverk for inkluderende design med tilhørende verktøy
 
 Kurset er i samarbeid med Lomi Agency og holdes på engelsk. 
 
-Meld deg på før 13. mai og få 10% rabatt ved å legge "Mangfold10" som en melding til arrangørene.
-[Les mer og meld deg på her](https://doga.no/kalender/kurs-i-strategisk-inkluderende-design/)
+Meld deg på før 13. mai og få 10% rabatt ved å legge "Mangfold10" som en melding til arrangørene, [trykk her for å melde deg på](https://doga.no/kalender/kurs-i-strategisk-inkluderende-design/).
 
-[Lomi skal også holde et kortere foredrag den 12. mai med tittelen «Intro til strategisk inkluderende design», som du kan lese mer om her](https://mangfoldimai.no/mangfold-i-mai/events/intro-strategisk-inkluderende-design.html)
+[Den 12. mai holder Lomi foredraget «Intro til strategisk inkluderende design», trykk her for å lese mer](https://mangfoldimai.no/mangfold-i-mai/events/intro-strategisk-inkluderende-design.html)
