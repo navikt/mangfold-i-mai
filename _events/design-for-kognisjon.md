@@ -12,12 +12,12 @@ recorded: true
 
 registration-link: 
 
-event-date: 2023-05-09T14:00
-event-date-end: 2023-05-09T14:45
+event-date: 2023-05-09T13:00
+event-date-end: 2023-05-09T13:35
 
 ---
 ## Hva handler foredraget om?
-Hva legger vi i kognisjon, og hva har den å si for hvordan vi opplever og bruker nettsider? I denne presentasjon gir Chris en liten oversikt over hva slags oppgaver kan være kognitivt krevende når man bruker nettsider, og hvilke typer nedsatt funksjonsevne man burde tenke på. Sammen ser vi på noen konkrete eksempler, samt noen enkle prinsipper og grep som kan tas i bruk når vi skaper brukergrensesnitt. Det blir også tid til Q&A for dere som vil stille spørsmål.
+Hva legger vi i kognisjon, og hva har den å si for hvordan vi opplever og bruker nettsider? I denne presentasjon gir Chris en liten oversikt over hva slags oppgaver kan være kognitivt krevende når man bruker nettsider, og hvilke typer nedsatt funksjonsevne man burde tenke på. Sammen ser vi på noen konkrete eksempler, samt noen enkle prinsipper og grep som kan tas i bruk når vi skaper brukergrensesnitt.
 
 ## Dette foredraget er for deg som
 - skriver innhold og er opptatt av klart språk og/eller faglig presisjon

@@ -1,6 +1,6 @@
 ---
 layout: speaker
-name: Heidrun Larsen Reiseter
+name: Heidrun Larsen Reisæter
 image: heidrun.jpg
 summary: Teknologidirektør, NAV
 ---
