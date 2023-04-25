@@ -22,10 +22,8 @@ event-date-end: 2023-05-10T15:00
 
 Hvordan kan vi jobbe smart og effektivt med klarspråk? Bli med på praktisk skriveverksted med Eilif Johansen og Louise Eie With.
 
-## Skriveverksted med intro til klarspråkshjelpen
-
-### Hva handler foredraget om?
+## Hva handler foredraget om?
 Klarspråk er en stor satsing i NAV. Vi skal skrive så folk finner informasjonen de leter etter, forstår den, og kan ta den i bruk. Men hva er egentlig klarspråk, og hvordan kan vi jobbe godt med klarspråk i praksis? På denne workshopen presenterer vi en metode med konkrete verktøy for å jobbe smart og effektivt med klarspråk. Deretter prøver vi ut metoden sammen på en tekst fra nav.no.
 
-### Hvem passer workshopen for?
+## Hvem passer workshopen for?
 Skriveverkstedet passer for deg som vil lære mer om klarspråk, og hvordan vi får det til i praksis.
