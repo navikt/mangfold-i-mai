@@ -4,7 +4,7 @@ title: "Skriveverksted med intro til klarspråkshjelpen"
 
 speakers: [Louise Eie With, Eilif Johansen]
 
-summary: Hvordan kan vi jobbe smart og effektivt med klarspråk? Bli med på praktisk skriveverksted!
+summary: Hvordan kan vi jobbe smart og effektivt med klarspråk? Bli med på praktisk skriveverksted.
 
 privacy: internal
 recorded: false
