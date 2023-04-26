@@ -4,7 +4,10 @@ title: Kurs i strategisk inkluderende design
 speakers: [Hallgrim Sagen, Johan Vreeburg]
 summary: På dette dagskurset vil du lære om hvordan du kan bruke inkluderende design for å skape varige resultater både for virksomheten din og for samfunnet.
 
+privacy: public
+location-type: in-person
 location-name: DOGA, Hausmanns gate 16, Oslo
+registration: true
 registration-link: https://doga.no/kalender/kurs-i-strategisk-inkluderende-design/
 
 event-date: 2023-05-25T09:00
