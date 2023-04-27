@@ -7,7 +7,7 @@ summary: Praktiser systemtenkning gjennom historiefortelling
 privacy: internal
 
 location-type: in-person
-location-name: Fyrstikkalléen 1, 0661 Oslo, A135 Middelalderparken
+location-name: Fyrstikkalléen 1, 0661 Oslo, B104 Gnisten
 
 registration: true
 registration-link: https://forms.office.com/e/rXhDPpS9iV
