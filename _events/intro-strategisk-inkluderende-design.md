@@ -22,4 +22,5 @@ Foredraget er på engelsk.
 ## Dette foredraget er for deg som:
 Har interesse for mangfold, likeverd og inkluderende design. Spesielt relevant for designledere og andre med mandat til å drive frem inkluderende design i sin organisasjon.
 
-[Lomi holder kurs om Strategic Inclusive Design på Doga 25. mai, trykk her for å lese mer.](https://mangfoldimai.no/mangfold-i-mai/events/strategisk-inkluderende-design.html)
+[Lomi holder kurs om Strategic Inclusive Design på Doga 25. mai, trykk her for å lese mer.](https://mangfoldimai.no/mangfold-i-mai/events/strategisk-inkluderende-design.html) Meld deg på før 13. mai og få 10% rabatt ved å legge "Mangfold10" som en melding til arrangørene, [trykk her for å melde deg på](https://doga.no/kalender/kurs-i-strategisk-inkluderende-design/).
+
