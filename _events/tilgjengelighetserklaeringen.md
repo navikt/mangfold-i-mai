@@ -9,8 +9,8 @@ privacy: public
 location-type: stream
 recorded: true
 
-event-date: 2023-05-04T12:20
-event-date-end: 2023-05-04T12:50
+event-date: 2023-05-04T11:40
+event-date-end: 2023-05-04T12:10
 ---
 ## Hva handler foredraget om?
 EUs Web Accessibility Directive krever at alle offentlige nettsteder publiserer en tilgjengelighetserklæring som redegjør for hvorvidt løsningen møter 47 suksesskriterier fra WCAG 2.1 Hvordan jobbet NAV med tilgjengelighetserklæringen, og hvordan ble resultatet?
