@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Inklusiv farge"
+title: "Inkluderende farge"
 speakers: Sarah Brodwall
 summary: Finn ut hvordan farge fungerer, og lær å bruke den på en inklusiv måte.
 
