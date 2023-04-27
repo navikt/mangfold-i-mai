@@ -9,8 +9,8 @@ recorded: true
 
 location-type: stream
 
-event-date: 2023-05-10T12:00
-event-date-end: 2023-05-10T12:30
+event-date: 2023-05-10T10:00
+event-date-end: 2023-05-10T10:30
 ---
 ## Hva handler foredraget om?
 Nærmere beskrivelse kommer. 
