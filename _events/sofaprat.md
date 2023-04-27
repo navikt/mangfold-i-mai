@@ -8,7 +8,7 @@ summary: Sofaprat rundt digitalt utenforskap og Mangfold i mai
 privacy: public
 
 location-type: hybrid
-location-type: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
+location-hybrid: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
 
 event-date: 2023-05-02T12:00
 event-date-end: 2023-05-02T12:30
