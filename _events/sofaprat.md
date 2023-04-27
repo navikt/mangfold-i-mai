@@ -17,3 +17,4 @@ event-date-end: 2023-05-02T12:30
 Nærmere beskrivelse kommer 
 
 ## Hvem passer foredraget for? 
+Alle som interessert i digitalt utenforskap, rollen universell utforming spiller her. Og alle som er nysjerrig på å høre mer om bakgrunnen for Mangfold i mai.
