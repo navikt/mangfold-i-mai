@@ -7,6 +7,7 @@ privacy: public
 
 location-type: stream
 recorded: true
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
 event-date: 2023-05-02T11:30
 event-date-end: 2023-05-02T11:50
