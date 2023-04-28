@@ -8,6 +8,7 @@ privacy: public
 
 location-type: hybrid
 location-name: Speakers Corner
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 recorded: true
 
 registration-link: 
