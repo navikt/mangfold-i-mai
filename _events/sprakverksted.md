@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Skriveverksted med intro til klarspråkshjelpen"
+title: "Skriveverksted med intro til Klarspråkshjelpen"
 
 speakers: [Louise Eie With, Eilif Johansen]
 
