@@ -19,6 +19,13 @@ url="https://mangfoldimai.no" %}
                 {{ content }}
             </div>
         </div>
+
+        {% assign today = "now" | date: "%d" %}
+        {% assign month = "now" | date: "%m" %}
+
+        {% if month == "05" %}
+            {% include events-list.html title="Dagens agenda" date=today %}
+        {% endif %}
     </div>
 </main>
 
