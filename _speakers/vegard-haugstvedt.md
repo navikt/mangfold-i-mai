@@ -2,5 +2,5 @@
 layout: speaker
 name: Vegard Haugstvedt
 image: vegard-haugstvedt.jpg
-summary: 
+summary: Utvikler og uu-spesialist i NAV
 ---
