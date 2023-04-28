@@ -4,10 +4,11 @@ title: Empatilunsj
 speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
+privacy: public
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 registration: true
-registration-link: https://forms.office.com/e/vvD94aELvx
+
 
 event-date: 2023-05-03T11:30
 event-date-end: 2023-05-03T13:00
@@ -26,3 +27,7 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 - Bygge opp bevissthet og kompetanse om UU.
 - Lage løsninger og systemer som passer alle brukere.
 - Få en dypere forståelse for brukeres liv og behov.
+
+## Registrering
+Som NAV-ansatt / konsulent i NAV kan du melde deg på her: https://forms.office.com/e/vvD94aELvx
+Hvis du ikke jobber i NAV, send en e-post til uu@nav.no for å bli med. Førsteman til mølla. Du vil få en bekreftelse på e-post.
