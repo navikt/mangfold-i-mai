@@ -7,6 +7,7 @@ summary: Brukere og medarbeider i NAV har idemyldret om fremtidens møteplasser
 privacy: public
 
 location-type: stream
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
 event-date: 2023-05-12T13:20
 event-date-end: 2023-05-12T13:50
