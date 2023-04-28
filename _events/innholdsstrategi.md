@@ -12,6 +12,7 @@ recorded: true
 
 location-type: hybrid
 location-name: Speakers Corner
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
 event-date: 2023-05-10T09:00
 event-date-end: 2023-05-10T09:45
