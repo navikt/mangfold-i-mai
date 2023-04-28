@@ -9,12 +9,13 @@ privacy: public
 
 location-type: hybrid
 location-hybrid: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
 event-date: 2023-05-02T12:00
 event-date-end: 2023-05-02T12:30
 ---
 ## Hva handler praten om?
-Nærmere beskrivelse kommer 
+Sofaprat rundt digitalt utenforskap og Mangfold i mai med Malin Rygg, lederen for uu-tilsynet, og Karina Ludwig, fagleder for universell utforming av IT i NAV.
 
 ## Hvem passer foredraget for? 
 Alle som interessert i digitalt utenforskap, rollen universell utforming spiller her. Og alle som er nysjerrig på å høre mer om bakgrunnen for Mangfold i mai.
