@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Hvordan kan vi sikre at flest mulig kan ta i bruk våre digitale tjenester?"
-speakers: Gudrun Totland Raddatz
+speakers: [Gudrun Totland Raddatz, Moa Alexandra Engelbrektsson]
 summary: Prosjekt ‘Digitale ferdigheter’ forsøker å gjøre noe med dette
 
 privacy: public
