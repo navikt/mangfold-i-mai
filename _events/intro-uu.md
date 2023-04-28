@@ -7,6 +7,7 @@ summary: "Hva er universell utforming, egentlig?"
 privacy: public
 
 location-type: stream
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 recorded: true
 
 event-date: 2023-05-03T10:00
