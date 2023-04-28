@@ -29,5 +29,5 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 - Få en dypere forståelse for brukeres liv og behov.
 
 ## Registrering
-Som NAV-ansatt / konsulent i NAV kan du melde deg på her: https://forms.office.com/e/vvD94aELvx
+Som NAV-ansatt / konsulent i NAV kan du [melde deg på her](https://forms.office.com/e/vvD94aELvx)
 Hvis du ikke jobber i NAV, send en e-post til uu@nav.no for å bli med. Førsteman til mølla. Du vil få en bekreftelse på e-post.
