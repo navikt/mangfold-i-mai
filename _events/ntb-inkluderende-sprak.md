@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Hva er inkluderende språk? Presentasjon av KS nye prinsipper for inkluderende språk"
-speakers: Heidi Bunæs Eklund
+speakers: [Heidi Bunæs Eklund, Hege Berg Løkken]
 summary: 
 
 privacy: public
