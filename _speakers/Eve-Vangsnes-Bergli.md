@@ -1,6 +1,6 @@
 ---
 layout: speaker
 name: Eve Vangsnes Bergli
-image: 
+image: Eve Bergli.jpeg
 summary: Ytelsesdirektør, NAV
 ---
