@@ -17,5 +17,5 @@ event-date-end: 2023-05-02T12:30
 ## Hva handler praten om?
 Sofaprat rundt digitalt utenforskap og Mangfold i mai, med litt ekstra fokus på universell utforming. Med Malin Rygg, lederen for uu-tilsynet, og Karina Ludwig, fagleder for universell utforming av IT i NAV.
 
-## Hvem passer foredraget for? 
+## Hvem passer arrangementet for? 
 Alle som interessert i digitalt utenforskap, rollen universell utforming spiller her. Og alle som er nysjerrig på å høre mer om bakgrunnen for Mangfold i mai.
