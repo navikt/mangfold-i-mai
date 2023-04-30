@@ -8,8 +8,8 @@ privacy: public
 location-type: stream
 recorded: true
 
-event-date: 2023-05-04T12:20
-event-date-end: 2023-05-04T12:50
+event-date: 2023-05-04T11:40
+event-date-end: 2023-05-04T12:00
 ---
 ## Hva handler foredraget om?
 Foredraget belyser teknologiens rolle for inkludering innen digitale tjenester, både offentlige og private. Funnene fra arbeidet med brukerreiser av personer fra sårbare grupper tolkes i lys av resultatene fra en spørreundersøkelse om NAVs digitale tjenester og innbyggernes tilbakemeldinger blant medlemmene til Funksjonshemmedes fellesorganisasjon (FFO).
