@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Likestillingsplikten for offentlig sektor"
-speakers: Christopher Gambert
+speakers: [Christopher Gambert, Viljar Eidsvik]
 summary: Hva handler den forsterkede plikten om og hva må offentlig sektor gjøre for å oppfylle plikten?
 
 privacy: public
