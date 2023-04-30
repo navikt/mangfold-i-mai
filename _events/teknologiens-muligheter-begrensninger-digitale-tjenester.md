@@ -2,7 +2,7 @@
 layout: event
 title: "Teknologiens muligheter og begrensninger for inkluderende digitale tjenester"
 speakers: Till Halbach
-summary: Sårbare gruppers erfaringer
+summary: Sårbare gruppers erfaringer.
 privacy: public
 
 location-type: stream
