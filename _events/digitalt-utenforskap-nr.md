@@ -4,7 +4,6 @@ title: "Digitalt utenforskap"
 speakers: Kristin S. Fuglerud
 summary: Sammenhengen mellom universell utforming, digitale ferdigheter og inkludering.
 
-
 privacy: public
 
 location-type: stream

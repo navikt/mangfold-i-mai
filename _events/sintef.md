@@ -16,3 +16,11 @@ event-date-end: 2023-05-02T11:50
 Digitalt utenforskap er ikke nødvendigvis knyttet til gruppetilhørighet, slik som mye tidligere forskning har vist. Digitalt utenforskap kan heller forstås som en rekke ulike barrierer brukere kan stå overfor når de møter digitale tjenester – barrierer knyttet til en hel rekke forhold som helse, sosiale utfordringer, digital kompetanse, tillit og språk, og kan i prinsippet gjelde hvem som helst. Én type barriere som er lite adressert i norsk forskning er det vi kan kalle kulturelle barrierer. På hvilken måte kan møtet med en digital tjeneste oppleves mindre likeverdig for personer med annen bakgrunn enn norsk majoritet?
 ## Hvem passer foredraget for?
 Dette foredraget er for alle som ønsker å utforske mer om digitalt utenforskap og innenforskap, særlig med tanke på offentlige tjenester. Foredraget er basert på forskningsresultater, men peker også på mange nye forskningsspørsmål om inkludering, likeverdighet og digital diskriminering
+
+## Hvordan koble seg på Zoom-nettmøte:
+Åpne Zoom på maskinen din – klikk på lenken til zoom-møtet satt opp for Mangfold i mai: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09 Om du får beskjed om å bruke møte-ID er den:
+962 6571 7716
+
+Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
+For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
+Oppdater Zoom om du må det først.
