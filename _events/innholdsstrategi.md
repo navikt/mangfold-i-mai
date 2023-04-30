@@ -27,7 +27,7 @@ Likevel tok det 1,5 år fra vi startet oppryddingsarbeidet på nav.no til vi tok
 - Har en sjef som foreslår at dere kan starte med å “bare freshe opp forsiden” 
 
 ## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på lenken til zoom-møtet satt opp for Mangfold i mai: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09Om dersom du får beskjed om å bruke møte-ID er den:
+Åpne Zoom på maskinen din – klikk på lenken til zoom-møtet satt opp for Mangfold i mai: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09 Om du får beskjed om å bruke møte-ID er den:
 962 6571 7716
 
 Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
