@@ -5,6 +5,7 @@ speakers: Till Halbach
 summary: Sårbare gruppers erfaringer.
 privacy: public
 
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 location-type: stream
 recorded: true
 
