@@ -1,11 +1,9 @@
 ---
 layout: event
 title: "Nav.no - fra støvete leksikon til vennlig hjelper"
-
 speakers: [Tuva Sverdstad, Tobias McVey]
 
 summary: Slik har vi jobbet med nettsiden for å gjøre det enklere å finne frem blant de 170 ulike pengestøttene, tjenestene og hjelpemidlene NAV tilbyr.
-
 
 privacy: public
 recorded: true
@@ -27,3 +25,12 @@ Likevel tok det 1,5 år fra vi startet oppryddingsarbeidet på nav.no til vi tok
 - Er interessert i hvordan man kan tilgjengeliggjøre kompleks informasjon og rydde opp i stor innholdsgjeld 
 - Er interessert i hvordan innhold, struktur og visuell design påvirker hverandre 
 - Har en sjef som foreslår at dere kan starte med å “bare freshe opp forsiden” 
+
+## Hvordan koble seg på Zoom-nettmøte:
+Åpne Zoom på maskinen din – klikk på lenken til zoom-møtet satt opp for Mangfold i mai: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09Om dersom du får beskjed om å bruke møte-ID er den:
+962 6571 7716
+
+Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
+For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
+Oppdater Zoom om du må det først. 
+
