@@ -19,7 +19,7 @@ Høsten 2021 arrangerte vi flere større kreative og ikke minst åpne idedugnade
 tenker at NAV bør ha noe å tilby i alle type brukermøter og som lurer på hva dette noe er?
 
 ## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på lenken til zoom-møtet satt opp for Mangfold i mai: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09Om dersom du får beskjed om å bruke møte-ID er den:
+Åpne Zoom på maskinen din – klikk på lenken til zoom-møtet satt opp for Mangfold i mai: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09 Om du får beskjed om å bruke møte-ID er den:
 962 6571 7716
 
 Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
