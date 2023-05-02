@@ -17,3 +17,8 @@ Nettsider og apper lages for å se bra ut, og vi tar det for gitt at de som bruk
 
 ## Målgruppen for dette foredraget er
 utviklere, designere, testere og andre som vil vite litt om skjermleser.
+
+## Se livestreamen her
+
+<iframe title="Video: MiM - skjermleserintro" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=f4feeade-740e-4b4b-9764-a389a1f4480c&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
+
