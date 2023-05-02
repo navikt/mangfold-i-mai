@@ -7,7 +7,7 @@ summary: Lær enkle, gratis måter du kan teste løsningen din på!
 privacy: internal
 
 location-type: in-person
-location-name: Fyrstikkalléen 1, 0661 Oslo, Rom B118 Hjelpestikken
+location-name: Fyrstikkalléen 1, 0661 Oslo, Rom "Samfunnet" ved kantina
 
 
 registration: true
