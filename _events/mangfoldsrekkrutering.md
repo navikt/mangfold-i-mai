@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Hvordan jobber vi i NAV med å tiltrekke, rekruttere og beholde mangfold?"
-speakers: Birthe Olsen
+speakers: [Birthe Olsen, Aisha Mehdi]
 summary: Mangfold er viktig i NAV. Mangfold bidrar til bedre problemløsing, økt kreativitet, større fleksibilitet og styrker kulturen og arbeidsmiljøet på arbeidsplassen.
 
 privacy: public
