@@ -16,3 +16,7 @@ Mange vet at grafikk skal ha en alternativ tekst. Men når er disse tekstene ege
 
 ## Hvem passer foredraget for?
 Målgruppen for foredraget er alle som jobber med nettinnhold inkludert utviklere og designere.
+
+## Se livestream her
+
+<iframe title="Video: MiM - Ikke tekstlig innhold" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=ba540ec9-3020-4b8a-838d-4d752f964212&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
