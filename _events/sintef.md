@@ -20,4 +20,4 @@ Dette foredraget er for alle som ønsker å utforske mer om digitalt utenforskap
 For spørsmål eller andre henvendelser kontakt Kari.Sand@Sintef.no
 
 ## Opptak
-Opptak blir lagt ut så straks dette er ferdig. 
+Opptak blir lagt ut så straks dette er ferdigstilt. 
