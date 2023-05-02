@@ -9,7 +9,7 @@ location-type: stream
 recorded: true
 
 event-date: 2023-05-05T09:40
-event-date-end: 2023-05-05T10:10
+event-date-end: 2023-05-05T10:00
 ---
 ## Hva handler foredraget om?
 Folkebibliotekene spiller en større rolle for digital deltakelse enn mange kanskje er klar over. Kanskje biblioteket kan være din neste samarbeidspartner?
