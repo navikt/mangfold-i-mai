@@ -12,7 +12,7 @@ location-name:
 registration-link: 
 
 event-date: 2023-05-05T10:20
-event-date-end: 2023-05-05T10:50
+event-date-end: 2023-05-05T10:35
 
 ---
 ## Hva handler foredraget om?
