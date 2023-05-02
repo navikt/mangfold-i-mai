@@ -13,7 +13,7 @@ recorded: true
 registration-link: 
 
 event-date: 2023-05-05T12:00
-event-date-end: 2023-05-05T12:30
+event-date-end: 2023-05-05T12:20
 
 ---
 ## Hva handler foredraget om?
