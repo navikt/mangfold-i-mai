@@ -24,3 +24,8 @@ Dette kurset gir deg en innføring i likestillingsplikten for offentlig sektor o
 
 ## Hvem passer kurset for?
 Kurset er særlig relevant for deg som har et ansvar i å utforme offentlige tjenester, og avdelingsledere, tjenesteansvarlige og arbeidsgivere innen offentlig sektor. Kurset er åpent for alle.
+
+## Kort om foredragsholdere
+Christopher Gambert er seniorrådgiver ved Likestillings- og diskrimineringsombudet, der han har jobbet siden 2006. Han har likeverdige offentlige tjenester som spesialfelt og er fagansvarlig for ombudets oppfølging av offentlig myndigheters aktivitets- og redegjørelsesplikt. Gambert er også fagressurs på spørsmål knyttet til etnisitet og religion/livssyn. Gambert er utdannet sosialantropolog og har tidligere erfaring som seniorrådgiver ved Senter for studier av Holocaust og livssynsminoriteter og rådgiver ved Senter mot etnisk diskriminering. Som ansatt ved ombudets veiledningsavdeling har Gambert mange års erfaring med å gi juridisk veiledning til enkeltindivider som har opplevd å bli utsatt for diskriminering, samt til virksomheter som ønsker å jobbe aktivt for likestilling.
+
+Viljar Eidsvik har flere års erfaring som kursholder på tema som berører likestillings-, inkluderings- og antidiskrimineringsarbeid i kommunale virksomheter. Han har særlig kompetanse på spørsmål som handler om seksuell orientering, kjønnsuttrykk og kjønnsidentitet og urfolk og nasjonale minoriteter. Han har tidligere jobbet med likeverdige tjenester og inkluderende arbeidsmiljø gjennom Skeiv kunnskaps kvalitetsmerke Regnbuefyrtårn.
