@@ -25,3 +25,9 @@ Hva legger vi i kognisjon, og hva har den å si for hvordan vi opplever og bruke
 - koder løsninger
 - eier produkter eller tjenester
 - er ellers interessert i hvordan folk tenker og agerer.
+
+## Se foredraget her
+Lenken blir lagt ut her innen sendingen starter.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
