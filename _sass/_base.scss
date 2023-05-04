@@ -69,3 +69,23 @@ p, ul, ol, dl {
         border: 1px solid rgb(199, 115, 0);
     }
 }
+
+// .site-header {
+//     position:relative;
+// }
+
+.archive-link {
+    position:absolute;
+    top:1.25rem;
+    right:-3rem;
+    display:block;
+    padding:0.5rem 3rem;
+    background:$sketch-dark-blue;
+    background:#eee;
+    color:white;
+    color:$sketch-dark-blue;
+    font-weight:bold;
+    transform:rotate(45deg);
+    font-size:0.8rem;
+    box-shadow:0 0 10px #bbb;
+}

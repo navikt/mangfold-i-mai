@@ -1,0 +1,55 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+LAST-MODIFIED:20220317T223602Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Oslo
+X-LIC-LOCATION:Europe/Oslo
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220330T131704Z
+DTSTART;TZID=Europe/Oslo:20220506T100000
+DTEND;TZID=Europe/Oslo:20220506T104500
+SUMMARY:UU i offentlige anskaffelser - hvordan få det til i praksis?
+UID:20220330T131704Z-92651849580@fe80:0:0:0:829:d5ff:feea:afebens5
+TZID:Europe/Oslo
+DESCRIPTION:Karina Ludwig is inviting you to a scheduled Zoom meeting.\n\
+ nJoin Zoom Meeting\nhttps://nav-it.zoom.us/j/92651849580?pwd=eUhCK0tUYVp
+ tcFRyUzNwbDBYeGpvZz09\n\nMeeting ID: 926 5184 9580\nPasscode: 866052\nOn
+ e tap mobile\n+14086380968\,\,92651849580# US (San Jose)\n+16468769923\,
+ \,92651849580# US (New York)\n\nDial by your location\n        +1 408 63
+ 8 0968 US (San Jose)\n        +1 646 876 9923 US (New York)\n        +1 
+ 669 900 6833 US (San Jose)\n        +1 253 215 8782 US (Tacoma)\n       
+  +1 301 715 8592 US (Washington DC)\n        +1 312 626 6799 US (Chicago
+ )\n        +1 346 248 7799 US (Houston)\nMeeting ID: 926 5184 9580\nFind
+  your local number: https://nav-it.zoom.us/u/arJ6Z6smZ\n\nJoin by SIP\n9
+ 2651849580@zoomcrc.com\n\nJoin by H.323\n162.255.37.11 (US West)\n162.25
+ 5.36.11 (US East)\n213.19.144.110 (Amsterdam Netherlands)\n213.244.140.1
+ 10 (Germany)\nMeeting ID: 926 5184 9580\nPasscode: 866052\n\n
+LOCATION:https://nav-it.zoom.us/j/92651849580?pwd=eUhCK0tUYVptcFRyUzNwbDB
+ YeGpvZz09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
