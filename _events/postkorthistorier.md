@@ -21,3 +21,6 @@ Vi skal lage historier gjennom bildebruk og konsepter fra systemtenkning. Vi vil
 
 ## Hvem passer workshopen for?
 Denne workshopen er åpen for alle og er for deg som er nysgjerrig på systemtenkning. Ingen forkunnskaper kreves.
+
+## Opptak
+Dette er en fysisk workshop som ikke blir tatt opp.
