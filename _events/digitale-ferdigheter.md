@@ -23,3 +23,9 @@ I dette foredraget vil vi fortelle mer om hvilke innsikter prosjektet har fått 
 
 ## Dette foredraget er for deg som
 Dette foredraget er for deg som følger opp og veileder brukere som ikke klarer å benytte seg av de offentlige digitale tjenestene.
+
+## Se foredraget her
+Lenken blir lagt ut her innen sendingen starter.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
