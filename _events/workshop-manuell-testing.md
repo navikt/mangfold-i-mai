@@ -23,3 +23,6 @@ I denne workshopen vil dere lære enkle, gratis måter alle på teamet kan teste
 ## Hvem passer workshoppen for?
 Hele teamet! Utviklere, designere, testere, produktutviklere, fagressurser, og andre.
 Ingen forkunnskaper påkrevd, men ta med egen laptop.
+
+## Opptak
+Dette er en fysisk workshop som ikke blir tatt opp.
