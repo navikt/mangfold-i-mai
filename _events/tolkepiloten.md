@@ -17,3 +17,9 @@ Hva gjør vi når vi møter noen på telefonen som ikke kan norsk eller vi kan s
 
 ## Hvem passer foredraget for?
 Alle tjenesteytere som møter en mangfoldig brukergruppe og brukerorganisasjoner.
+
+## Se foredraget her
+Lenken blir lagt ut her innen sendingen starter.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
