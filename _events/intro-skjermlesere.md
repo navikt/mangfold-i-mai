@@ -18,7 +18,9 @@ Nettsider og apper lages for å se bra ut, og vi tar det for gitt at de som bruk
 ## Målgruppen for dette foredraget er
 utviklere, designere, testere og andre som vil vite litt om skjermleser.
 
-## Opptak
+## Se opptak av foredraget
 
-Opptak blir lagt ut så snart det er ferdig.
+Vi jobber med tekstingen, og siden blir opdatert så snart den er ferdig.
+
+<iframe title="Video: Skjermleser: introduksjon til en annerledes måte å bruke teknologi på - Morten Tollefsen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3a924004-48a6-4272-be75-08a0d0b685c0&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
 
