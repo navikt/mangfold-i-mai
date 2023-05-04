@@ -31,3 +31,6 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 ## Registrering
 Som NAV-ansatt / konsulent i NAV kan du [melde deg på her](https://forms.office.com/e/vvD94aELvx)
 Hvis du ikke jobber i NAV, send en e-post til uu@nav.no for å bli med. Førsteman til mølla. Du vil få en kalenderinvitasjon på e-post hvis du har fått plass. Denne blir sendt manuelt, altså med litt forsinkelse.
+
+## Opptak
+Dette er en fysisk workshop som ikke blir tatt opp.
