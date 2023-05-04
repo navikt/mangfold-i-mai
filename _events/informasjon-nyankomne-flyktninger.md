@@ -25,3 +25,6 @@ Dette foredraget er for deg som er offentlig ansatt, både ledere og medarbeider
 Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
 For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
 Oppdater Zoom om du må det først.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
