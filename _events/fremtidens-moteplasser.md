@@ -9,8 +9,8 @@ privacy: public
 location-type: stream
 location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
-event-date: 2023-05-12T13:20
-event-date-end: 2023-05-12T13:50
+event-date: 2023-05-11T09:00
+event-date-end: 2023-05-11T09:30
 ---
 ## Hva handler foredraget om?
 Høsten 2021 arrangerte vi flere større kreative og ikke minst åpne idedugnader med brukere og medarbeidere i NAV. Sammen utforsket vi fremtidens møteplasser, idemyldret og jobbet sammen på kryss og tvers av landet. I foredraget forteller Camilla om hvordan vi har jobbet og deler innsikten vi kom fram til sammen.
