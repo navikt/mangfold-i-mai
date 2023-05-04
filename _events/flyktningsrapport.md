@@ -20,3 +20,10 @@ OsloMet/NIBR-rapporten Flyktningers møte med NAV - kommunikasjon og tilgjengeli
 
 ## Hvem passer dette foredraget for?
 For alle de som er interessert i tjenesteyting som når alle og i hvordan digitale og analoge tjenester må utfyller hverandre for å sikre dette.
+
+## Se foredraget her
+Lenken blir lagt ut her innen sendingen starter.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
+
