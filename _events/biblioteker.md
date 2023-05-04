@@ -21,3 +21,10 @@ I dette foredraget presenteres to prosjekter som har som mål å skape en trygg 
 
 ## Hve passer foredraget for?
 Ansatte og frivillige i kommuner som jobber med eller vil jobbe med digital inkludering av innbyggere.
+
+## Se foredraget her
+Lenken blir lagt ut her innen sendingen starter.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
+
