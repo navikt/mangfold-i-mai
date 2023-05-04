@@ -6,6 +6,7 @@ summary: Sårbare gruppers erfaringer.
 privacy: public
 
 location-type: stream
+location-link: https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=1bb46ab6-a170-4b4a-bb9e-ee77b5a73afc&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume
 recorded: true
 
 event-date: 2023-05-04T12:20
