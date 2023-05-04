@@ -16,3 +16,9 @@ Folkebibliotekene spiller en større rolle for digital deltakelse enn mange kans
 
 ## Hvem passer foredraget for?
 Dette er for deg som er nysgjerrig på bibliotek
+
+## Se foredraget her
+Lenken blir lagt ut her innen sendingen starter.
+
+## Opptak
+Opptak blir lagt ut her så fort det er klart.
