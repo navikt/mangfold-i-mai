@@ -6,7 +6,8 @@ summary: Brukere og medarbeider i NAV har idemyldret om fremtidens møteplasser
 
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-hybrid: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
 location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
 event-date: 2023-05-11T09:00
