@@ -23,4 +23,4 @@ Alle som interessert i digitalt utenforskap, rollen universell utforming spiller
 
 Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: Mangfold i mai, digitalt utenforskap og universell utforming med Malin Rygg og Karina Ludwig" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3c1e50f4-1355-4b90-98ca-41f12d84839c&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
+<iframe title="Video: Mangfold i mai, digitalt utenforskap og universell utforming med Malin Rygg og Karina Ludwig" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3c1e50f4-1355-4b90-98ca-41f12d84839c&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
