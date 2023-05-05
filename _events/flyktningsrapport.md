@@ -8,7 +8,7 @@ privacy: public
 
 location-type: stream
 location-name: 
-location-link: https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf3baabf-2b96-4046-b886-6efc8b83920a&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume
+location-link: 
 recorded: true
 
 registration-link: 
@@ -23,9 +23,7 @@ OsloMet/NIBR-rapporten Flyktningers møte med NAV - kommunikasjon og tilgjengeli
 ## Hvem passer dette foredraget for?
 For alle de som er interessert i tjenesteyting som når alle og i hvordan digitale og analoge tjenester må utfyller hverandre for å sikre dette.
 
-## Se foredraget her
-<iframe title="Video: MiM 05.mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf3baabf-2b96-4046-b886-6efc8b83920a&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
+## Se opptak av foredraget her
 
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
+<iframe title="Video: Flyktningers møte med NAV med Tone Liodden" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=c4448450-d532-4bf9-aae4-236d4ea066de&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
 
