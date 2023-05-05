@@ -7,7 +7,7 @@ summary: Hvilke barrierer møter ungdom for å kunne delta digitalt, og hva er l
 privacy: public
 
 location-type: stream
-location-name:
+location-link: https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf3baabf-2b96-4046-b886-6efc8b83920a&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume
 recorded: true
 
 registration-link: 
@@ -21,8 +21,7 @@ Foredraget handler om at ungdom som ikke har mulighet til å delta digitalt, ikk
 ## Hve passer foredraget for?
 Alle som jobber med oppvekst, utdanning eller har ansvar for tjenester til barn og ungdom
 ## Se foredraget her
-Lenke kommer her innen sendingen starter.
-
+<iframe title="Video: MiM 05.mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf3baabf-2b96-4046-b886-6efc8b83920a&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
 
 ## Opptak
 Opptak blir lagt ut her så fort det er klart.
