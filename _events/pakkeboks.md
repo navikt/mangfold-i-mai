@@ -7,7 +7,7 @@ summary: Hvilke valg må virksomheter ta for å møte utfordringer ulike brukerg
 privacy: public
 
 location-type: stream
-
+recorded: true
 location-hybrid:
 
 event-date: 2023-05-12T15:20
