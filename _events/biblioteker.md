@@ -8,7 +8,7 @@ privacy: public
 
 location-type: stream
 location-name:
-location-link: https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf3baabf-2b96-4046-b886-6efc8b83920a&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume
+location-link: 
 recorded: true
 
 registration-link: 
@@ -23,9 +23,5 @@ I dette foredraget presenteres to prosjekter som har som mål å skape en trygg 
 ## Hve passer foredraget for?
 Ansatte og frivillige i kommuner som jobber med eller vil jobbe med digital inkludering av innbyggere.
 
-## Se foredraget her
-<iframe title="Video: MiM 05.mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf3baabf-2b96-4046-b886-6efc8b83920a&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
-
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
-
+## Se opptak av foredraget her
+<iframe title="Video: Digital inkludering i Halden med Sven Lilleheier" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3392c133-5b86-4895-9ee2-a640c0bed4e8&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
