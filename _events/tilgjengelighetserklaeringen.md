@@ -19,5 +19,8 @@ EUs Web Accessibility Directive krever at alle offentlige nettsteder publiserer 
 ## Hvem passer foredraget for?
 Foredraget passer for alle som bryr seg om regelverk om universell utforming.
 
-## Opptak
-Opptak blir lagt ut her så snart det er klart.
+## Se opptak av foredraget her
+
+Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
+
+<iframe title="Video: Tilgjengelighetserklæringen for nav.no med Sarah Brodwall" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=6619c3e4-8d5d-4bd1-81e6-cd8e412c7bee&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
