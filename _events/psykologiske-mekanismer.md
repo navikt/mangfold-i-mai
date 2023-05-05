@@ -10,8 +10,8 @@ recorded: true
 location-type: stream
 
 
-event-date: 2023-05-22T09:00
-event-date-end: 2023-05-22T09:30
+event-date: 2023-05-22T09:40
+event-date-end: 2023-05-22T10:10
 
 ---
 ## Hva handler foredraget om?
