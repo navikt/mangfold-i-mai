@@ -5,7 +5,7 @@ speakers: Hege Langlo
 summary: Digitalt utenforskap i en verden der stadig mer post sendes digitalt i stedet for fysisk. (ny tid)
 
 privacy: public
-
+recorded: true
 location-type: stream
 
 event-date: 2023-05-12T14:45
