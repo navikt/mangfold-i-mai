@@ -2,7 +2,7 @@
 layout: event
 title: "Pakkeboks, en mulighet for alle? – og hvordan vi kommer oss dit"
 speakers: Andreas Larsen Gjerdalen
-summary: Hvilke valg må virksomheter ta for å møte utfordringer ulike brukergrupper har med både fysiske og digitale tjenester.
+summary: Hvilke valg må virksomheter ta for å møte utfordringer ulike brukergrupper har med både fysiske og digitale tjenester. (ny tid)
 
 privacy: public
 
@@ -10,8 +10,8 @@ location-type: stream
 
 location-hybrid:
 
-event-date: 2023-05-12T14:40
-event-date-end: 2023-05-24T15:10
+event-date: 2023-05-12T15:20
+event-date-end: 2023-05-24T15:35
 
 ---
 ## Hva handler foredraget om?
