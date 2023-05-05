@@ -1,8 +1,8 @@
 ---
 layout: event
-title: "Når postkassa nedi veien er erstattet av en app" (ny tid)
+title: "Når postkassa nedi veien er erstattet av en app" 
 speakers: Hege Langlo
-summary: Digitalt utenforskap i en verden der stadig mer post sendes digitalt i stedet for fysisk.
+summary: Digitalt utenforskap i en verden der stadig mer post sendes digitalt i stedet for fysisk. (ny tid)
 
 privacy: public
 
