@@ -22,6 +22,6 @@ For spørsmål eller andre henvendelser kontakt Kari.Sand@Sintef.no
 
 ## Se opptak av foredraget
 
-
+Vi jobber med tekstingen av opptaket, og oppdaterer videoen så fort den er på plass.
 
 <iframe title="Video: Digital inkludering og likeverdighet - Kari Sand" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=a7293715-9e16-4d0f-b030-239659818ac3&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
