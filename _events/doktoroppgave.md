@@ -6,8 +6,8 @@ summary: Hvilke borgere er på riktig side av velferdspolitikken, men feil side 
 
 privacy: public
 
-location-type: stream
-location-name: 
+location-type: hybrid
+location-name: Speakers Corner
 location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 recorded: true
 
