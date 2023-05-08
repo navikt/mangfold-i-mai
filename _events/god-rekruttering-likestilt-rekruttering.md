@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "God rekruttering er likestilt rekruttering"
+title: "Kurs: God rekruttering er likestilt rekruttering"
 speakers: Thomas Jahren
 summary: En profesjonell rekruttering, som likebehandler ulike kandidater er en nødvendig forutsetning for et likestilt og mangfoldig arbeidsliv.
 
