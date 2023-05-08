@@ -7,7 +7,8 @@ summary: Mangfold er viktig i NAV. Mangfold bidrar til bedre problemløsing, øk
 privacy: public
 recorded: true
 
-location-type: stream
+location-type: hybrid
+location-name: Speakers Corner
 location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
 event-date: 2023-05-22T10:20
