@@ -7,8 +7,9 @@ summary: Alle arbeidsgivere skal jobbe systematisk for å inkludere personer med
 privacy: public
 location-type: stream
 
-registration: true
-registration-link: https://forms.office.com/e/f7AnMi9rbf
+registration: false
+location-link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDUwMjNmOWItZTBkZi00NjZkLTgwMzYtYzgzY2VkYmUzNWUw%40thread.v2/0?context=%7b%22Tid%22%3a%2221557364-3f98-4e9e-89b0-96fce0b5a2c0%22%2c%22Oid%22%3a%220b506462-ce11-47e5-b775-cf8da4951f55%22%7d
+location-name: Teamsmøte
 
 event-date: 2023-05-24T13:30
 event-date-end: 2023-05-24T15:00
@@ -26,4 +27,4 @@ I løpet av kurset vil du få:
 - Konkrete tips til hvordan du kan gå frem og hva du kan gjøre for å bidra til et mer inkluderende arbeidsliv
 
 ## Hvem passer kurset for?
-Kurset er relevant for arbeidsgivere, HR-personell, tillitsvalgte, ansatte i fagforeningene og styremedlemmer.
+Kurset er relevant for arbeidsgivere, HR-personell, tillitsvalgte, ansatte i fagforeningene og styremedlemmer. Kurset er åpent for alle, og du trenger ikke å registrere deg på forhånd.
