@@ -7,9 +7,8 @@ summary: Hvilke problemer møter straffedømte når de skal tilbake til samfunne
 privacy: public
 recorded: true
 
-location-type: hybrid
-location-hybrid: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
-location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
+location-type: stream 
+location-link: https://strim.live/delingsfredag/ 
 
 event-date: 2023-05-12T13:00
 event-date-end: 2023-05-12T14:00
