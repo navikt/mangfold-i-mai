@@ -25,7 +25,7 @@ I dette foredraget vil vi fortelle mer om hvilke innsikter prosjektet har fått 
 Dette foredraget er for deg som følger opp og veileder brukere som ikke klarer å benytte seg av de offentlige digitale tjenestene.
 
 ## Se foredraget her
-Lenken blir lagt ut her innen sendingen starter.
+<iframe title="Video: MiM08mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=1df9aa69-5a9b-472e-afda-7c2ad3009997&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
 
 ## Opptak
 Opptak blir lagt ut her så fort det er klart.
