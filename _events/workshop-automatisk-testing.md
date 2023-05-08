@@ -4,7 +4,7 @@ title: "Workshop: Automatisert uu-testing"
 speakers: Vegard Haugstvedt
 summary: Hvordan kan automatisert testing inkluderes i utviklingsprosessen for å fange opp tilgjengelighetsfeil?
 
-privacy: internal
+privacy: public
 
 location-type: in-person
 location-name: Fyrstikkalléen 1, 0661 Oslo, B114 Gløden
