@@ -75,17 +75,25 @@ p, ul, ol, dl {
 // }
 
 .archive-link {
-    position:absolute;
-    top:1.25rem;
-    right:-3rem;
-    display:block;
-    padding:0.5rem 3rem;
-    background:$sketch-dark-blue;
-    background:#eee;
-    color:white;
-    color:$sketch-dark-blue;
-    font-weight:bold;
-    transform:rotate(45deg);
-    font-size:0.8rem;
-    box-shadow:0 0 10px #bbb;
+  overflow: hidden;
+  position:absolute;
+  top: 0;
+  right: 0;
+  width: 6.5rem;
+  height: 8rem;
+}
+.archive-link a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  background:#eee;
+  color:$sketch-dark-blue;
+  transform: translate(0, -100%) rotate(45deg);
+  transform-origin: 0 100%;
+  padding: 0.5rem 3rem;
+  display: block;
+  box-shadow: 0 0 10px #bbb;
+  font-weight: bold;
+  font-size: 0.8rem;
 }
