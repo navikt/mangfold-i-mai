@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Et mer inkluderende arbeidsliv – Hva funker?"
+title: "Kurs: Et mer inkluderende arbeidsliv – Hva funker?"
 speakers: [Anette Moldrem, Elida Andersen]
 summary: Alle arbeidsgivere skal jobbe systematisk for å inkludere personer med funksjonsnedsettelser på sin arbeidsplass.
 

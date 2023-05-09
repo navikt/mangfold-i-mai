@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Nav Hjelpemiddelsentral – en samarbeidspartner."
+title: "Nav Hjelpemiddelsentral – en samarbeidspartner"
 speakers: Hilde Kristine Braadland-Eriksson
 summary: 
 
