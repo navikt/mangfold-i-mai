@@ -19,8 +19,8 @@ Ytringen er demokratiets grunnstein. Uten ytringer, intet demokrati. I dette for
 ## Hvem passer foredraget for?
 Dette foredraget er for deg som er interessert i språkets makt.
 
-## Se sendingen
-<iframe title="Video: MiM10mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3816e1e6-2fc4-4fa4-a33c-d5a7503c8ee4&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+## Se opptak av foredraget
 
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
+Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
+
+<iframe title="Video: Språk og makt med Ida Seljeseth" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=5b835cf1-0fb8-45b1-b13d-fb77c6335480&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
