@@ -26,10 +26,9 @@ Likevel tok det 1,5 år fra vi startet oppryddingsarbeidet på nav.no til vi tok
 - Er interessert i hvordan innhold, struktur og visuell design påvirker hverandre 
 - Har en sjef som foreslår at dere kan starte med å “bare freshe opp forsiden” 
 
-## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på [lenken til zoom-møtet satt opp for Mangfold i mai](https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09). Om du får beskjed om å bruke møte-ID er den: 962 6571 7716
+## Se opptak av foredraget
 
-Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
-For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
-Oppdater Zoom om du må det først. 
+Vi jobber med tekstingen, og oppdaterer videoen når den er klar.
+
+<iframe title="Video: Nav.no - fra støvete leksikon til vennlig hjelper med Tobias McVey og Tuva Sverdstad" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf05ba8c-e48e-4ccd-9d24-e9bbc7c9517f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
 
