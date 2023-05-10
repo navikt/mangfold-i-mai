@@ -9,7 +9,7 @@ privacy: public
 location-type: stream
 location-name: 
 recorded: true
-location-link: https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=05449b27-c3c9-48d6-b01b-3ae89b7cfe6f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume
+location-link: 
 
 registration-link: 
 
@@ -27,8 +27,5 @@ Hva legger vi i kognisjon, og hva har den å si for hvordan vi opplever og bruke
 - eier produkter eller tjenester
 - er ellers interessert i hvordan folk tenker og agerer.
 
-## Se foredraget her
-<iframe title="Video: MiM09mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=05449b27-c3c9-48d6-b01b-3ae89b7cfe6f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
-
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
+## Se opptak av foredraget her
+<iframe title="Video: Design for kognisjon med Christine Joy Atherton" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=2428f74a-92a1-4a37-b260-d2d9f686f86d&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
