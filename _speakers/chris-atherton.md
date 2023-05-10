@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Chris Atherton
-image: chris.png
+image: chris.jpg
 
 summary: Interaksjonsdesigner i NAV
 ---

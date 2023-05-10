@@ -1,6 +1,6 @@
 ---
 layout: speaker
 name: Hans Christian Holte
-image: Hans Christian Holte.jpg
+image: hans-christian-holte.jpg
 summary: Direktør for Arbeids- og velferdsdirektoratet (NAV)
 ---
