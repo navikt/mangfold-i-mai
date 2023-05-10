@@ -23,12 +23,7 @@ I dette foredraget vil Heidi Bunæs Eklund og Hege Berg Løkken fra NTB Arkiteks
 ## Dette kurset er for deg som
 Foredraget passer for alle som ønsker konkrete tips til hvordan vi kan skrive mer inkluderende tekster som respekterer mangfoldet.
 
-## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på [lenken til zoom-møtet satt opp for Mangfold i mai](https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09). Om du får beskjed om å bruke møte-ID er den: 962 6571 7716
+## Se opptak av foredraget
+Vi jobber med tekstingen, og oppdaterer filen så fort den er klar.
 
-Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
-For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
-Oppdater Zoom om du må det først.
-
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
+<iframe title="Video: Hva er inkluderende språk? med Heidi Bunæs Eklund" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=196b9659-1617-43b2-932a-0dbea4c0fd1f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
