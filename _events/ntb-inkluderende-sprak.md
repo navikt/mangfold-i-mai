@@ -9,7 +9,7 @@ recorded: true
 
 location-type: hybrid
 location-hybrid: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
-location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
+location-link: 
 
 event-date: 2023-05-09T09:00
 event-date-end: 2023-05-09T09:45
