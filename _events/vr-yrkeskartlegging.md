@@ -7,6 +7,7 @@ summary: NAV Trøndelag deler sine erfaringer med bruk av VR i oppfølging av un
 privacy: public
 
 location-type: hybrid
+recorded: true
 location-hybrid: Fyrstikkalléen 1, 0661 Oslo, Speakers Corner
 location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
 
