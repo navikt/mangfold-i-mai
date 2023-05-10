@@ -7,7 +7,7 @@ summary: Om bruk av tolk i telefonsamtaler.
 privacy: public
 
 location-type: stream
-location-link: https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=05449b27-c3c9-48d6-b01b-3ae89b7cfe6f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume
+location-link: 
 recorded: true
 
 event-date: 2023-05-09T12:00
@@ -19,9 +19,5 @@ Hva gjør vi når vi møter noen på telefonen som ikke kan norsk eller vi kan s
 ## Hvem passer foredraget for?
 Alle tjenesteytere som møter en mangfoldig brukergruppe og brukerorganisasjoner.
 
-## Se foredraget her
-
-<iframe title="Video: MiM09mai" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=05449b27-c3c9-48d6-b01b-3ae89b7cfe6f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
-
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
+## Se opptak av foredraget her
+<iframe title="Video: Tolkepilot i NAV Kontaktsenter med Sandra Breivik og Maiken Johnsen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=e202c2ae-8fe3-4da5-b0a3-151562c404b4&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
