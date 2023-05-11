@@ -2,7 +2,7 @@
 layout: event
 title: "Teksting av lyd og video"
 speakers: Morten Tollefsen
-summary: "Med Morten Tollefsen"
+summary: "I dette kurset lærer du mer om etablert praksis for teksting og du får høre om noen aktuelle verktøy."
 
 privacy: public
 
