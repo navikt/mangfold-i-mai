@@ -19,4 +19,4 @@ Hvilke utfordringer oppstår når stadig mer av kommunikasjonen med det offentli
 Foredraget passer for deg som er interessert i hva som er de største utfordringene og mulighetene med digital post, med tanke på digitalt utenforskap. Foredraget passer også for deg som ønsker mer informasjon om hvordan din virksomhet kan bruke digital post på en måte som bidrar til å redusere digitalt utenforskap.
 
 ## Se foredraget
-<iframe title="Video: MiM12mai-del2" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=820f32d4-6353-47f4-ab59-01c66125529f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<iframe title="Video: Når postkassa nedi veien er erstattet av en app med Hege Langlo" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=be1d5318-f382-4745-803c-7a88a182da49&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
