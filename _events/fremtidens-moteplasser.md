@@ -19,9 +19,7 @@ Høsten 2021 arrangerte vi flere større kreative og ikke minst åpne idedugnade
 ## Dette foredraget er for deg som
 tenker at NAV bør ha noe å tilby i alle type brukermøter og som lurer på hva dette noe er?
 
-## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på [lenken til zoom-møtet satt opp for Mangfold i mai](https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09). Om du får beskjed om å bruke møte-ID er den: 962 6571 7716
+## Se opptak av foredraget her
+Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
-For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
-Oppdater Zoom om du må det først. 
+<iframe title="Video: Hvordan vil vi ha Fremtidens Møteplasser i NAV? med Camilla Dahl" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=d1e4a854-9dd2-457e-bc9e-61e76cca03ac&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
