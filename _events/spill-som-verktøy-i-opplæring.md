@@ -31,4 +31,4 @@ Oppdater Zoom om du må det først.
 ## Se opptak av foredraget her
 Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: Spill som et verktøy i opplæring med Sjur Hovi" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=9817a978-8861-4d42-8fac-029d0fe82bf2&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
+<iframe title="Video: Spill som et verktøy i opplæring med Sjur Hovi" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=9817a978-8861-4d42-8fac-029d0fe82bf2&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
