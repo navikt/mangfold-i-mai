@@ -22,4 +22,4 @@ tenker at NAV bør ha noe å tilby i alle type brukermøter og som lurer på hva
 ## Se opptak av foredraget her
 Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: Hvordan vil vi ha Fremtidens Møteplasser i NAV? med Camilla Dahl" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=d1e4a854-9dd2-457e-bc9e-61e76cca03ac&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
+<iframe title="Video: Hvordan vil vi ha Fremtidens Møteplasser i NAV? med Camilla Dahl" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=d1e4a854-9dd2-457e-bc9e-61e76cca03ac&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
