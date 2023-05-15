@@ -22,4 +22,4 @@ I dette foredraget skal du få vite mer om Posten sin satsning på tjenesten Pak
 Dette foredraget er for deg som er interessert i og vil lære mer om mulighetene og utfordringene ulike brukergrupper møter i samhandling med en tjeneste som både har en digital og fysisk kundeflate.
 
 ## Se foredraget
-<iframe title="Video: MiM12mai-del2" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=820f32d4-6353-47f4-ab59-01c66125529f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<iframe title="Video: Pakkeboks, en mulighet for alle? – og hvordan vi kommer oss dit med Andreas Larsen Gjerdalen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=1f54cd09-adc3-4075-b55a-d6417a09ca3b&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
