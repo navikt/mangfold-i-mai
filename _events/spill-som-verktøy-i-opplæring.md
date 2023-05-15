@@ -18,7 +18,7 @@ event-date-end: 2023-05-11T12:50
 I dag opplever mange gaming som et hinder for jobb og utdanning. Men kan det heller representere en mulighet? Kan dataspill brukes til å hjelpe unge gamere i utenforskap? 
 Sjur vil vise hvordan bruk av dataspill kan brukes som et verktøy i møte med sårbar ungdom. Du får se hvordan en spillbasert tilnærming kan øke læringsutbyttet og forebygge utenforskap.
 
-## Dette kurset er for deg som
+## Dette foredraget er for deg som
 Ønsker å lære mer om hvordan dataspill kan være en ressurs for unge voksne.
 
 ## Hvordan koble seg på Zoom-nettmøte:
@@ -28,5 +28,7 @@ Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at ka
 For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
 Oppdater Zoom om du må det først.
 
-## Opptak
-Opptak blir lagt ut her så fort det er klart.
+## Se opptak av foredraget her
+Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
+
+<iframe title="Video: Spill som et verktøy i opplæring med Sjur Hovi" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=9817a978-8861-4d42-8fac-029d0fe82bf2&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="360" width="640"></iframe>
