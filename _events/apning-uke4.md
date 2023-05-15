@@ -5,7 +5,9 @@ speakers: Lars Kolberg
 summary: 
 privacy: public
 
-location-type: stream
+location-name: Speakers Corner
+location-link: https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09
+location-type: hybrid
 recorded: true
 
 event-date: 2023-05-22T09:00
