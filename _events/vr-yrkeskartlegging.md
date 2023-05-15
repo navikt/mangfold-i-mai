@@ -20,9 +20,7 @@ NAV Trøndelag har siden 2017 deltatt i et prosjekt hvor vi tar i bruk VR i oppf
 ## Hvem passer foredraget for?
 Foredraget passer for alle som er interessert i å lære om hvordan ny teknologi kan brukes for å løse NAVs samfunnsoppdrag.
 
-## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på [lenken til zoom-møtet satt opp for Mangfold i mai](https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09). Om du får beskjed om å bruke møte-ID er den: 962 6571 7716
+## Se opptak av foredraget her
+Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
-For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
-Oppdater Zoom om du må det først.
+<iframe title="Video: VR som en del av yrkeskartlegging med Heidi Fossen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=595aa2fc-5ce1-426e-aadc-fd36977eaa25&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
