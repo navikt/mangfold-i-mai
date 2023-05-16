@@ -11,8 +11,8 @@ registration: false
 location-link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2EwMjhkYWUtZWIyZC00NDk4LThiNWMtOTg5OTVmZjFmMGJk%40thread.v2/0?context=%7b%22Tid%22%3a%2221557364-3f98-4e9e-89b0-96fce0b5a2c0%22%2c%22Oid%22%3a%220b506462-ce11-47e5-b775-cf8da4951f55%22%7d
 location-name: Teamsmøte
 
-event-date: 2023-05-25T11:30
-event-date-end: 2023-05-25T12:30
+event-date: 2023-05-25T11:15
+event-date-end: 2023-05-25T12:45
 ---
 ## Hva handler kurset om?
 I 2020 fikk offentlig sektor en forsterket likestillingsplikt. Ombudet har erfaring med at denne likestillingsplikten ikke er så kjent enda og ønsker med dette kurset å gi interesserte en innføring i hva plikten innebærer.
