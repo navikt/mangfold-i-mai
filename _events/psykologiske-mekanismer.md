@@ -21,3 +21,6 @@ I dette foredraget får du en innføring i mekanismer i den menneskelige hjernen
 - Ønsker å forstå hvorfor diskriminering skjer 
 - Jobber i Nav og ønsker å bli mer bevisst på hvordan du kan jobbe for likestilling og inkludering
 - Er generelt opptatt av hvordan jussen fungerer som verktøy mot diskriminering
+
+## Se foredraget her
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3172742/embed/8b424e210d" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
