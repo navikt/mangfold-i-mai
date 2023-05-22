@@ -17,3 +17,6 @@ Ikt-løysingar er ofte eit produkt av ei anskaffing. Dei juridiske og tekniske k
 
 ## Hvem passer foredraget for?
 Føredraget er for deg som har ansvaret for ikt-løysingar, til dømes som produkteigar, avtaleforvaltar, innkjøpar eller liknande.
+
+## Se foredraget her
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3428315/embed/58b3f73d5f" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
