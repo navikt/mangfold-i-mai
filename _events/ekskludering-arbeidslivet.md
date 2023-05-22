@@ -17,3 +17,6 @@ Hvilke barrierer opplever personer med funksjonsnedsettelser knyttet til teknolo
 
 ## Hvem passer foredraget for? 
 Dette foredraget er for alle som er opptatt av et inkluderende arbeidsliv, arbeidsgivere, arbeidstakere, politikere, ansatte i forvaltning, forskere og de som er nysgjerrig på teknologiens betydning for arbeidsdeltakelse. 
+
+## Se foredraget her
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3428282/embed/deacebebef" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
