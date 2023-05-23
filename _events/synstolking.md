@@ -17,5 +17,5 @@ Mange videoer trenger beskrivelser av visuelt innhold for å være universelt ut
 ## Dette foredraget er for deg som
 - jobber med video eller andre som vil vite litt om synstolking.
 
-
-
+## Se foredraget her
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3434164/embed/b01b655b5c" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
