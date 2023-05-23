@@ -1,12 +1,13 @@
 ---
 layout: event
 title: "Synstolket kinovisning av familiefilmen Trio - Jakten på Olavsskrinet" 
+speakers:
 summary: 
+
 privacy: public
 
 location-type: in-person
 location-name: Colosseum kino, Fridtjof Nansens vei 6, 0369 Oslo
-
 
 event-date: 2023-05-30T18:00
 event-date-end: 2023-05-30T19:40
