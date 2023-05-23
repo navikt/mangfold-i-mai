@@ -7,8 +7,6 @@ privacy: public
 location-type: in-person
 location-name: Colosseum kino, Fridtjof Nansens vei 6, 0369 Oslo
 
-registration: true
-registration-link: https://forms.office.com/e/7kWQ20CZn5
 
 event-date: 2023-05-30T18:00
 event-date-end: 2023-05-30T19:40
