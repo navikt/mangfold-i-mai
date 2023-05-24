@@ -3,6 +3,13 @@
     padding: 2rem 0;
     position: relative;
 
+    .wrapper {
+        background-image:  url(images/nav-logo.svg);
+        background-size: 6.5em;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+    }
+
     &::before {
         content: "";
         position: absolute;
@@ -21,30 +28,26 @@
         display: block;
     }
 
-    ul {
+    .links {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        background-image:  url(images/nav-logo.svg);
-        background-size: 6.5em;
-        background-position: right center;
-        background-repeat: no-repeat;
-    }
 
-    li {
-        margin: .25em 0;
-        padding-left: 1.4em;
-        padding-right: 9em;
+        li {
+            margin: .25em 0;
+            padding-left: 1.4em;
+            padding-right: 9em;
 
-        &::before {
-            content: "";
-            display: inline-block;
-            margin-left: -1.4em;
-            width: 1.4em;
-            height: 1em;
-            background-repeat: no-repeat;
-            background-size: contain;
-            vertical-align: text-top;
+            &::before {
+                content: "";
+                display: inline-block;
+                margin-left: -1.4em;
+                width: 1.4em;
+                height: 1em;
+                background-repeat: no-repeat;
+                background-size: contain;
+                vertical-align: text-top;
+            }
         }
     }
 
@@ -71,6 +74,24 @@
             outline: 3px dashed $sketch-dark-blue;
         }
 
+    }
+
+    .sponsors {
+        margin-top:1rem;
+
+        img {
+            max-height:2rem;
+        }
+
+        ul {
+            margin-top:0.5rem;
+            padding:0;
+            
+            li {
+                display:inline;
+                margin-right:1rem;
+            }
+        }
     }
 
 }

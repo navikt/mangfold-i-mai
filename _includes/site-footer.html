@@ -1,7 +1,7 @@
 <footer class="site-footer">
     <div class="wrapper">
         <p><span class="title">Mangfold i mai</span> er en arrangementsserie rundt mangfold, inkludering og universell utforming i regi av Team Universell utforming og inkluderende design hos Arbeids- og velferdsdirektoratet.</p>
-        <ul>
+        <ul class="links">
             <li class="email"><a href="mailto:{{ site.email }}">Send oss en mail</a></li>
             <li class="slack"><a href="https://nav-it.slack.com/archives/C7MANSGLS">Kontakt oss på Slack (NAV internal)</a></li>
             <li class="edit"><a href="{{site.github.repository_url}}/edit/main/{{page.path}}"
@@ -9,5 +9,15 @@
             <li class="public"><a href="https://mangfoldimai.no/mangfold-i-mai/personvernerklaering/"
                    >Personvernserklæring</a></li>
         </ul>
+        <div class="sponsors">
+            {% assign bufdir_url = "/assets/images/bufdir-logo.png" %}
+            {% assign forskningsradet_url = "/assets/images/forskningsradet-logo.png" %}
+
+            Med støtte fra:
+            <ul>
+                <li><img src="{{ bufdir_url | relative_url }}" alt="Bufdir"></li>
+                <li><img src="{{ forskningsradet_url | relative_url }}" alt="Forskningsrådet"></li>
+            </ul>
+        </div>
     </div>
 </footer>
