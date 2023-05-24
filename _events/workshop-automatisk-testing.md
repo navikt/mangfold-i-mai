@@ -7,7 +7,7 @@ summary: Hvordan kan automatisert testing inkluderes i utviklingsprosessen for �
 privacy: public
 
 location-type: in-person
-location-name: Fyrstikkalléen 1, 0661 Oslo, B114 Gløden
+location-name: Fyrstikkalléen 1, 0661 Oslo, U1 Samfunnet
 location-link: https://goo.gl/maps/QAxEtw1X6zYUX3JE7
 
 registration: true
