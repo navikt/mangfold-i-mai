@@ -19,4 +19,3 @@ Vi ønsker å utforske:
 ## En feiring av mangfold, inkludering og universell utforming!
 
 Vi har som mål at det meste skal være tilgjengelig for alle som er interessert i temaer vi tar opp. Årets Mangfold i mai har en rekke digitale og fysiske arrangementer, der formålet er å bli bedre kjent med ulike temaer innenfor universell utforming, tilgjengelighet og begrepet mangfold og inkludering. De fleste arrangementene er åpne for alle. Årets program går fra 2. - 30.mai. Mangfold i mai gjennomføres med midler fra NAV, Forskningsrådet og Bufdir, i samarbeid med Inclusive Creation og Likestillings- og diskrimineringsombudet.
-
