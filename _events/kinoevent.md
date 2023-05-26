@@ -19,6 +19,6 @@ I familiefilmen "TRIO - Jakten på Olavsskrinet" blir vi med den nysgjerrige ung
 ## Dette passer for deg som:
 Alle som ønsker å bli mer bevisst på hvordan de kan bruke synstolkning av presentasjoner og filmer. Filmen har 9 års aldersgrense, barn fra 6-8 år må være i følge med en over 18 år.
 
-[Bestill dine gratisbilletter her](https://www.nfkino.no/showtime/1003/48230)
+[Meld deg på eventet her, det er gratis å bli med]( https://forms.office.com/e/n0qqvz6FfX )
 
 Det er 143 seter i Colosseum sal 3.
