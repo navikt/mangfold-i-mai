@@ -20,4 +20,5 @@ Hva gjør vi når vi møter noen på telefonen som ikke kan norsk eller vi kan s
 Alle tjenesteytere som møter en mangfoldig brukergruppe og brukerorganisasjoner.
 
 ## Se opptak av foredraget her
-<iframe title="Video: Tolkepilot i NAV Kontaktsenter med Sandra Breivik og Maiken Johnsen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=e202c2ae-8fe3-4da5-b0a3-151562c404b4&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831470316?h=5ca0fddb41&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tolkepilot i NAV Kontaktsenter med  Sandra P. Breivik og Maiken Johnsen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

@@ -23,4 +23,5 @@ I dette foredraget får du en innføring i mekanismer i den menneskelige hjernen
 - Er generelt opptatt av hvordan jussen fungerer som verktøy mot diskriminering
 
 ## Se foredraget her
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3172742/embed/8b424e210d" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831467637?h=b033172860&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Psykologiske mekanismer bak diskriminering &amp;ndash; og jussens h&amp;aring;ndtering av dem med Lene L&amp;oslash;vdal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

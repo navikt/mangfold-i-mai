@@ -21,4 +21,4 @@ Offisiell åpning av Mangfold i mai med Arbeids- og velferdsdirektør Hans Chris
 
 Vi jobber med tekstingen, og siden blir oppdatert så fort den er ferdig.
 
-<iframe title="Video: Mangfold i Mai - offisiell åpning" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=c4cbbaa4-3ff1-4cab-9a00-e5fb37a4b7fb&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe> 
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831468568?h=0774afe184&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Offisiell &amp;aring;pning av Mangfold i mai med med Hans Christian Holte, Eve Vangsnes Bergli, Heidrun Larsen Reis&amp;aelig;ter og Bj&amp;oslash;rn Erik Thon"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

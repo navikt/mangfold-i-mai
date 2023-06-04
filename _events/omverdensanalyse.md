@@ -29,4 +29,4 @@ Dette foredraget er for deg som er nysgjerrig på fremtidstenkning og ønsker å
 
 Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: MiM_Zoom_Gard2" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=78b76e64-bac1-4d81-8c6a-bb01d3d10341&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831471741?h=91a130a758&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Brukerforventninger til NAV i fremtiden med Gard Ringen H&amp;oslash;ibjerg"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

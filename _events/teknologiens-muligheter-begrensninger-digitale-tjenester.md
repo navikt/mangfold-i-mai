@@ -19,4 +19,5 @@ Foredraget belyser teknologiens rolle for inkludering innen digitale tjenester, 
 Foredraget passer for alle som er interessert i utforming av gode digitale tjenester.
 
 ## Se opptak av sendingen her
-<iframe title="Video: Teknologiens muligheter og begrensninger for inkluderende digitale tjenester - Till Halbach" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=f53a5ae9-37bc-43b3-8369-2bfd92d28cb7&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831461568?h=31c0dc4fef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Teknologiens muligheter og begrensninger for inkluderende digitale tjenester med Till Halbach"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

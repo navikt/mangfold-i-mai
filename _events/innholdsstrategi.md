@@ -30,5 +30,5 @@ Likevel tok det 1,5 år fra vi startet oppryddingsarbeidet på nav.no til vi tok
 
 Vi jobber med tekstingen, og oppdaterer videoen når den er klar.
 
-<iframe title="Video: Nav.no - fra støvete leksikon til vennlig hjelper med Tobias McVey og Tuva Sverdstad" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=bf05ba8c-e48e-4ccd-9d24-e9bbc7c9517f&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831484581?h=bc1294b098&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Nav.no - fra st&amp;oslash;vete leksikon til vennlig hjelper med Tuva Sverdstad og Tobias McVey"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 

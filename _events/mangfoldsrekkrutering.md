@@ -26,3 +26,5 @@ Er interessert i NAV som arbeidsgiver og rekruttering i offentlig sektor.
 Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
 For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
 Oppdater Zoom om du må det først.
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831484409?h=33d2e44a3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Hvordan jobber vi i NAV med &amp;aring; tiltrekke, rekruttere og beholde mangfold? med Birthe Olsen og Aisha Mehdi"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

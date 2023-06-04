@@ -22,4 +22,4 @@ Dette er for deg som er nysgjerrig på bibliotek
 
 Vi jobber med tekstingen, og oppdaterer videoen når den er klar.
 
-<iframe title="Video: Usynlige hjelpere med Stian Kristensen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=5daa2385-71fe-4b27-9cb0-397f546da4e9&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831470765?h=4f13c7b3c5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Usynlige hjelpere med Stian F. Kristensen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

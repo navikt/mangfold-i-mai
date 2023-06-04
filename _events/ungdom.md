@@ -25,4 +25,4 @@ Alle som jobber med oppvekst, utdanning eller har ansvar for tjenester til barn 
 
 Vi jobber med tekstingen av foredraget, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: Digitale ulikheter blant ungdom med Kaja Hegg" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=b468f0a8-347a-4c0e-856d-5914ebc5dab8&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831464230?h=4cc8283d7e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

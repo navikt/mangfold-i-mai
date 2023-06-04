@@ -28,4 +28,5 @@ Hva legger vi i kognisjon, og hva har den å si for hvordan vi opplever og bruke
 - er ellers interessert i hvordan folk tenker og agerer.
 
 ## Se opptak av foredraget her
-<iframe title="Video: Design for kognisjon med Christine Joy Atherton" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=2428f74a-92a1-4a37-b260-d2d9f686f86d&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831462380?h=0c5659e34a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Design for kognisjon med Chris Atherton"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
