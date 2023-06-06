@@ -6,6 +6,7 @@ title: Mangfold i mai - velkommen!
 # Digitalt innenfor?
 
 For Mangfold i mai 2023 ønsket vi å utforske hvorfor gapet mellom digitalt innenforskap og utenforskap oppstår. Ferske rapporter viser til mange blir digitalt utenfor på grunn av motivasjon, kunnskap og tillit, og at mennesker er «forskjellig digitale» avhengig av konteksten de er i.
+
 Vi har utforsket blant annet:
 
 - Hvordan kan vi få oversikt over hvem som er digitalt utenfor når det gjelder offentlige tjenester?
