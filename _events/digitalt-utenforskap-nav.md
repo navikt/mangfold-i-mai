@@ -24,3 +24,5 @@ Foredraget passer for alle som er interessert i hvilke utfordringer ansatte i NA
 Vi jobber med tekstingen, og oppdaterer videoen når den er klar.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831462025?h=89afa976da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digitalt utenforskap i NAV med Charlotte Reikr&amp;aring;s-Jacobsen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831922714?h=67b7b9df41&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digitalt utenforskap i NAV med Charlotte Reikr&amp;aring;s-Jacobsen - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

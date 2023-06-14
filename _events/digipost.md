@@ -19,4 +19,5 @@ Hvilke utfordringer oppstår når stadig mer av kommunikasjonen med det offentli
 Foredraget passer for deg som er interessert i hva som er de største utfordringene og mulighetene med digital post, med tanke på digitalt utenforskap. Foredraget passer også for deg som ønsker mer informasjon om hvordan din virksomhet kan bruke digital post på en måte som bidrar til å redusere digitalt utenforskap.
 
 ## Se foredraget
-<iframe title="Video: Når postkassa nedi veien er erstattet av en app med Hege Langlo" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=be1d5318-f382-4745-803c-7a88a182da49&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831927581?h=a8c2ba4ebc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="N&amp;aring;r postkassa nedi veien er erstattet av en app med Hege Langlo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

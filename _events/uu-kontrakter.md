@@ -19,4 +19,9 @@ Ikt-løysingar er ofte eit produkt av ei anskaffing. Dei juridiske og tekniske k
 Føredraget er for deg som har ansvaret for ikt-løysingar, til dømes som produkteigar, avtaleforvaltar, innkjøpar eller liknande.
 
 ## Se foredraget her
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3428315/embed/58b3f73d5f" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831460207?h=d131aa360c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Universell utforming i ikt-kontraktar med Sigbj&amp;oslash;rn R&amp;aring;sberg"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<br/>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831919236?h=e19b182f6d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="niversell utforming i ikt-kontraktar med Sigbj&amp;oslash;rn Råsberg - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

@@ -20,5 +20,4 @@ utviklere, designere, testere og andre som vil vite litt om skjermleser.
 
 ## Se opptak av foredraget
 
-<iframe title="Video: Skjermleser: introduksjon til en annerledes måte å bruke teknologi på - Morten Tollefsen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3a924004-48a6-4272-be75-08a0d0b685c0&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
-
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831924675?h=a1ab16be34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Skjermleser: introduksjon til en annerledes m&amp;aring;te &amp;aring; bruke teknologi p&amp;aring; med Morten Tollefsen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

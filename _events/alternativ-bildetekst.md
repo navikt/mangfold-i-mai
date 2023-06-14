@@ -20,4 +20,4 @@ Målgruppen for foredraget er alle som jobber med nettinnhold inkludert utvikler
 ## Se opptaket her
 Vi jobber med tekstingen, og videoen blir oppdatert så snart den er ferdig.
 
-<iframe title="Video: Tekst til ikke-tekstlig innhold - Morten Tollefsen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=e3726778-205b-4c0b-be08-8870f44d7220&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831924474?h=d1dcb29c34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tekst til ikke-tekstlig innhold med Morten Tollefsen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

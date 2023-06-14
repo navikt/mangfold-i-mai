@@ -22,4 +22,8 @@ I dette foredraget skal du få vite mer om Posten sin satsning på tjenesten Pak
 Dette foredraget er for deg som er interessert i og vil lære mer om mulighetene og utfordringene ulike brukergrupper møter i samhandling med en tjeneste som både har en digital og fysisk kundeflate.
 
 ## Se foredraget
-<iframe title="Video: Pakkeboks, en mulighet for alle? – og hvordan vi kommer oss dit med Andreas Larsen Gjerdalen" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=1f54cd09-adc3-4075-b55a-d6417a09ca3b&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831925759?h=34ef7a4895&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pakkeboks, en mulighet for alle? &amp;ndash; og hvordan vi kommer oss dit med Andreas Larsen Gjerdalen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<br/>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831922005?h=c434356c30&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Pakkeboks, en mulighet for alle? &amp;ndash; og hvordan vi kommer oss dit med Andreas Larsen Gjerdalen - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

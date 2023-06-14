@@ -24,4 +24,9 @@ I dette foredraget presenteres to prosjekter som har som mål å skape en trygg 
 Ansatte og frivillige i kommuner som jobber med eller vil jobbe med digital inkludering av innbyggere.
 
 ## Se opptak av foredraget her
-<iframe title="Video: Digital inkludering i Halden med Sven Lilleheier" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=3392c133-5b86-4895-9ee2-a640c0bed4e8&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831460921?h=6a83605a4a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digital inkludering i Halden med Sven Lilleheier"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+<br/>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831921084?h=530a1f20d8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digital inkludering i Halden med Sven Lilleheier - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

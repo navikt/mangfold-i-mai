@@ -18,4 +18,5 @@ Mangfold og tilgjengelighet har i lang tid vært viktig for allmennkringkasteren
 Dette foredraget er for deg som ønsker inspirasjon til en mulig strukturering av mangfoldsarbeid, og motivasjon til å jobbe mer med mangfold og tilgjengelighet.
 
 ## Se foredraget her
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://vimeo.com/event/3305516/embed/1f61f8893d" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831928185?h=f8e4851409&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="NRK og arbeidet med mangfold, tilgjengelighet og tilh&amp;oslash;righet med Siri Antonsen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

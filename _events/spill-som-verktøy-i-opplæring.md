@@ -24,4 +24,4 @@ Sjur vil vise hvordan bruk av dataspill kan brukes som et verktøy i møte med s
 ## Se opptak av foredraget her
 Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: Spill som et verktøy i opplæring med Sjur Hovi" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=9817a978-8861-4d42-8fac-029d0fe82bf2&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831458890?h=b9a3cc1e54&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Spill som et verkt&amp;oslash;y i oppl&amp;aelig;ring med  Sjur Hovi"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

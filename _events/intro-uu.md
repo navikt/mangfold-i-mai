@@ -23,4 +23,4 @@ Alle som jobber med IT.
 
 Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
 
-<iframe title="Video: Intro til universell utforming av IKT med Karina Ludwig" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=892e5fb8-8379-4119-9020-596389d02af1&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume" allowFullScreen="true" frameborder="0" border="0" height="270" width="480"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831458299?h=1f83b52c0d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Intro til universell utforming av IKT medKarina Ludwig"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
