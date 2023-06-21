@@ -21,6 +21,6 @@ Dette foredraget er for deg som er interessert i språkets makt.
 
 ## Se opptak av foredraget
 
-Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
+For å se versjon med tekst, trykk på CC på videospilleren, og trykk på lydikonet for å slå på/av lyden. 
 
 <div style="padding:42.74% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831926203?h=e20ff319ec&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Spr&amp;aring;k og makt med Ida Seljeseth"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
