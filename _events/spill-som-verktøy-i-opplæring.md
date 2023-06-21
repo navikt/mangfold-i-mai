@@ -22,6 +22,7 @@ Sjur vil vise hvordan bruk av dataspill kan brukes som et verktøy i møte med s
 Ønsker å lære mer om hvordan dataspill kan være en ressurs for unge voksne.
 
 ## Se opptak av foredraget her
-Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
+
+For å se versjon med tekst, trykk på CC på videospilleren, og trykk på lydikonet for å slå på/av lyden. 
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831458890?h=b9a3cc1e54&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Spill som et verkt&amp;oslash;y i oppl&amp;aelig;ring med  Sjur Hovi"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
