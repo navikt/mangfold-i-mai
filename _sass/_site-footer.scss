@@ -35,8 +35,6 @@
 
         li {
             margin: .25em 0;
-            padding-left: 1.4em;
-            padding-right: 9em;
 
             &::before {
                 content: "";
@@ -48,33 +46,24 @@
                 background-size: contain;
                 vertical-align: text-top;
             }
+
+            a {
+                text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+                text-decoration:none;
+
+                span {
+                    text-decoration:underline;
+                    text-shadow:none;
+                }
+
+                &:focus {
+                    outline: 3px dashed $sketch-dark-blue;
+                }
+            }
         }
     }
 
-    .email::before {
-        background-image: url("images/icons/email.svg");
-    }
 
-    .slack::before {
-        background-image: url("images/icons/slack.svg");
-    }
-
-    .edit::before {
-        background-image: url("images/icons/edit.svg");
-    }
-    
-    .public::before {
-        background-image: url("images/icons/public.svg");
-    }
-
-    a {
-        color: $sketch-dark-blue;
-
-        &:focus {
-            outline: 3px dashed $sketch-dark-blue;
-        }
-
-    }
 
     .sponsors {
         margin-top:1rem;
