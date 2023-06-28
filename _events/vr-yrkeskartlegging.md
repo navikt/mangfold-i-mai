@@ -21,6 +21,7 @@ NAV Trøndelag har siden 2017 deltatt i et prosjekt hvor vi tar i bruk VR i oppf
 Foredraget passer for alle som er interessert i å lære om hvordan ny teknologi kan brukes for å løse NAVs samfunnsoppdrag.
 
 ## Se opptak av foredraget her
-Vi jobber med tekstingen, og oppdaterer videoen så fort den er klar.
+
+For å se versjon med tekst, trykk på CC på videospilleren, og trykk på lydikonet for å slå på/av lyden. 
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831472052?h=71f4d43905&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VR som en del av yrkeskartlegging med Heidi Fossen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
