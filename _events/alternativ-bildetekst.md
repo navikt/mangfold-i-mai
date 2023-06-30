@@ -18,6 +18,6 @@ Mange vet at grafikk skal ha en alternativ tekst. Men når er disse tekstene ege
 Målgruppen for foredraget er alle som jobber med nettinnhold inkludert utviklere og designere.
 
 ## Se opptaket her
-For å se versjon med tekst, trykk på CC på videospilleren, og trykk på lydikonet for å slå på/av lyden. 
+Du kan velge å slå av/på tekstet versjon ved å trykke på "CC" på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831924474?h=d1dcb29c34&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Tekst til ikke-tekstlig innhold med Morten Tollefsen"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
