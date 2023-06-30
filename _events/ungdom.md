@@ -23,10 +23,12 @@ Alle som jobber med oppvekst, utdanning eller har ansvar for tjenester til barn 
 
 ## Se foredraget her
 
-Vi jobber med tekstingen av foredraget, og oppdaterer videoen så fort den er klar.
+Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831464230?h=4cc8283d7e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <br/>
+
+Du kan velge å slå av/på lyden ved at du trykker på lydikonet på den tolkede videoen.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831914933?h=d54f768c6c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digitale ulikheter blant ungdom med Kaja Hegg - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
