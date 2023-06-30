@@ -30,7 +30,6 @@ Læringsmål for kurset:
 ## Hvem passer kurset for?
 Kurset retter seg mot arbeidsgivere, HR-personell, tillitsvalgte og andre som er involvert i rekruttering og mangfold på arbeidsplassen. Kurset er åpent for alle, og du trenger ikke å registrere deg på forhånd.
 
-## Hvordan koble seg på Teams:
-For å bli med på kurset trykker du på lenken under, da vil du få muligheten til enten å bli med på møtet via nettet eller laste ned skrivebordsprogrammet. Hvis du har Team-appen allerede, åpnes møtet automatisk. 
+## Hvordan delta på kurs hos LDO:
+Sjekk ut nettisden til LDO eller ta kontakt med de for lignede kurs. https://www.ldo.no/diskriminert/nyheiter-og-fag/arrangement/velkommen-til-ldo-kurs/
 
-[Klikk her for å bli med på kurset](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTI5YjUwOWYtMDJhYi00ODFjLWI5NTctYzM3YTA0ZmQzMzE1%40thread.v2/0?context=%7b%22Tid%22%3a%2221557364-3f98-4e9e-89b0-96fce0b5a2c0%22%2c%22Oid%22%3a%220b506462-ce11-47e5-b775-cf8da4951f55%22%7d) 
