@@ -25,8 +25,12 @@ Ansatte og frivillige i kommuner som jobber med eller vil jobbe med digital inkl
 
 ## Se opptak av foredraget her
 
+Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet samme sted.
+
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831460921?h=6a83605a4a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digital inkludering i Halden med Sven Lilleheier"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <br/>
+
+Du kan velge å slå av/på lyden ved å trykke på lydikonet på videospillerens menylinje for den tolkede versjonen.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831921084?h=530a1f20d8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Digital inkludering i Halden med Sven Lilleheier - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
