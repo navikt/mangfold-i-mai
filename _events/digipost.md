@@ -20,4 +20,6 @@ Foredraget passer for deg som er interessert i hva som er de største utfordring
 
 ## Se foredraget
 
+Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet samme sted.
+
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831927581?h=a8c2ba4ebc&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="N&amp;aring;r postkassa nedi veien er erstattet av en app med Hege Langlo"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
