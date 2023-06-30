@@ -20,11 +20,7 @@ NAV skal være en inkluderende arbeidsgiver, og jobbe for å forhindre diskrimin
 ## Dette foredraget er for deg som
 Er interessert i NAV som arbeidsgiver og rekruttering i offentlig sektor.
 
-## Hvordan koble seg på Zoom-nettmøte:
-Åpne Zoom på maskinen din – klikk på [lenken til zoom-møtet satt opp for Mangfold i mai](https://nav-it.zoom.us/j/96265717716?pwd=NDZFaVkzVWgwUEtDNGR0djNJMXB6UT09). Om du får beskjed om å bruke møte-ID er den: 962 6571 7716
-
-Husk at foredraget spilles inn, sørg derfor at mikrofonen din er mutet og at kameraet ditt er slått av dersom du ikke vil filmes. 
-For å styre om du vil se mest av presentatør eller presentasjon kan du flytte på linjen mellom disse to for deg selv.
-Oppdater Zoom om du må det først.
+## Se foredraget her
+Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet samme sted.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831484409?h=33d2e44a3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Hvordan jobber vi i NAV med &amp;aring; tiltrekke, rekruttere og beholde mangfold? med Birthe Olsen og Aisha Mehdi"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
