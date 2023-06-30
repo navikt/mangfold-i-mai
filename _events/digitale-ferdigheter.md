@@ -26,10 +26,12 @@ Dette foredraget er for deg som følger opp og veileder brukere som ikke klarer 
 
 ## Se opptak av foredraget her
 
-For å se versjon med tekst, trykk på CC på videospilleren, og trykk på lydikonet for å slå på/av lyden. 
+Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet samme sted.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831463373?h=33b543803f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Hvordan kan vi sikre at flest mulig kan ta i bruk v&amp;aring;re digitale tjenester? med Gudrun T. Raddatz og Moa A. Engelbrektsson"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <br/>
+
+Du kan velge å slå av/på lyden ved å trykke på lydikonet på menylinjen på den tolkede versjonen.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831914474?h=13c18ca7df&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Hvordan kan vi sikre at flest mulig kan ta i bruk v&amp;aring;re digitale tjenester? med Gudrun Raddatz og Moa Engelbrektsson - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
