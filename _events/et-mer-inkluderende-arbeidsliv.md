@@ -29,7 +29,6 @@ I løpet av kurset vil du få:
 ## Hvem passer kurset for?
 Kurset er relevant for arbeidsgivere, HR-personell, tillitsvalgte, ansatte i fagforeningene og styremedlemmer. Kurset er åpent for alle, og du trenger ikke å registrere deg på forhånd.
 
-## Hvordan koble seg på Teams:
-For å bli med på kurset trykker du på lenken under, da vil du få muligheten til enten å bli med på møtet via nettet eller laste ned skrivebordsprogrammet. Hvis du har Team-appen allerede, åpnes møtet automatisk. 
+Det er ikke lenger mulig å delta på dette kurset. Ønsker du kurs, sjekk ut nettsidene til Likestillings- og diskrimineringsombudet. https://www.ldo.no/diskriminert/nyheiter-og-fag/arrangement/velkommen-til-ldo-kurs/
 
-[Klikk her for å bli med på kurset](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDUwMjNmOWItZTBkZi00NjZkLTgwMzYtYzgzY2VkYmUzNWUw%40thread.v2/0?context=%7b%22Tid%22%3a%2221557364-3f98-4e9e-89b0-96fce0b5a2c0%22%2c%22Oid%22%3a%220b506462-ce11-47e5-b775-cf8da4951f55%22%7d) 
+
