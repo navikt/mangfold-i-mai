@@ -19,9 +19,12 @@ Hvilke barrierer opplever personer med funksjonsnedsettelser knyttet til teknolo
 Dette foredraget er for alle som er opptatt av et inkluderende arbeidsliv, arbeidsgivere, arbeidstakere, politikere, ansatte i forvaltning, forskere og de som er nysgjerrig på teknologiens betydning for arbeidsdeltakelse. 
 
 ## Se foredraget her
+Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet samme sted.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831465732?h=70ba3a4bdb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Forskning p&amp;aring; ekskludering i arbeidslivet med Kristin Fuglerud"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 <br/>
+
+Du kan velge å slå av/på lyden trykker du på lydikonet på menylinjen i den tolkede versjonen.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831916008?h=dee2cc7494&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Forskning p&amp;aring; ekskludering i arbeidslivet med Kristin S. Fuglerud - tolket"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
