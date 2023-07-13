@@ -16,7 +16,5 @@ Vi har utforsket blant annet:
 ## Gikk du glipp av noe? 
 Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.
 
-## Vi ønsker innspill til neste års arrangement 
-Du kan fylle ut skjemaet <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NGU2YsMeYkmIaZtVNSedC7EjoTbgG-xHvGB7myRL0pxUMFlQRURGNjgzNklHRVFVSjk0S1lRQlQySSQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>.
 
 
