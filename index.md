@@ -21,7 +21,7 @@ Vi ønsker at Mangfold i mai tar opp tema som er viktige for publikum. Derfor å
 
 Fyll inn feltene under slik at programkomiteen kan ta stilling til bidraget.
 
-[Send inn ditt forslag innen 15. oktober 2023.](https://forms.office.com/e/PgFzPzQtFz)
+[Send inn ditt forslag innen 2. april 2024.](https://forms.office.com/e/PgFzPzQtFz)
 
 Vi gir deg svar senest 31.januar 2024. Mangfold i mai blir mest sannsynlig holdt en gang mellom 2.-16.mai.
 
