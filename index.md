@@ -3,25 +3,21 @@ layout: home
 title: Mangfold i mai - velkommen!
 ---
 
-# Digitalt innenfor?
+# Vil du bidra med innhold til Mangfold i mai i år?
+Vi ønsker at Mangfold i mai 2024 har fokus på fagområdet Universell utforming og hvordan teknologi ikke skal gi barrierer for oss som bruker det. Vi ønsker å ta opp tema som er viktige for publikum. 
 
-For Mangfold i mai 2023 ønsket vi å utforske hvorfor gapet mellom digitalt innenforskap og utenforskap oppstår. Ferske rapporter viser til mange blir digitalt utenfor på grunn av motivasjon, kunnskap og tillit, og at mennesker er «forskjellig digitale» avhengig av konteksten de er i.
 
-Vi har utforsket blant annet:
+Ønsker du å holde innlegg eller et kurs under Mangfold i mai 2024?
 
-- Hvordan kan vi få oversikt over hvem som er digitalt utenfor når det gjelder offentlige tjenester?
-- Hvilken rolle spiller språk?
-- Hvordan kan vi motivere til digital inkludering ved å øke mangfoldet generelt i arbeidslivet?
-
-## Gikk du glipp av noe? 
-Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.
-
-## Vil du bidra med innhold til neste år?
-Vi ønsker at Mangfold i mai tar opp tema som er viktige for publikum. Derfor åpner vi opp for å innspill til ulike bidrag til Mangfold i mai 2024. Basert på innspill kan vi se om det dannes et hovedtema eller flere undertema. Vi ønsker å samle forslagene som blir valgt basert på tematikk.
-
-Fyll inn feltene under slik at programkomiteen kan ta stilling til bidraget.
+Datoene for Mangfold i mai er:
+- 7.mai
+- 8.mai
+- 9.mai
+- 14.mai
+- 15.mai
+- 16.mai 
 
 [Send inn ditt forslag innen 2. april 2024.](https://forms.office.com/e/PgFzPzQtFz)
 
-Vi gir deg svar senest 31.januar 2024. Mangfold i mai blir mest sannsynlig holdt en gang mellom 2.-16.mai.
-
+## Gikk du glipp av noe? 
+Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.
