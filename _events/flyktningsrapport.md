@@ -24,11 +24,3 @@ OsloMet/NIBR-rapporten Flyktningers møte med NAV - kommunikasjon og tilgjengeli
 
 ## Hvem passer dette foredraget for?
 For alle de som er interessert i tjenesteyting som når alle og i hvordan digitale og analoge tjenester må utfyller hverandre for å sikre dette.
-
-## Se opptak av foredraget her
-
-Du kan velge å slå av/på tekstet versjon ved å trykke på “CC” på videospillerens menylinje. For å slå av/på lyden trykker du på lydikonet samme sted.
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/831925119?h=8d554762f5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Flyktningers m&amp;oslash;te med NAV - kommunikasjon og tilgjengelighet i en digital kontekst med Tone Liodden"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-Er du NAV-ansatt kan du se opptaket av hele lanseringsseminaret på vårt intranett: [(NAV-intern lenke](https://navno.sharepoint.com/sites/intranett-kunnskap/SitePages/I.aspx).
