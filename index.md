@@ -3,21 +3,10 @@ layout: home
 title: Mangfold i mai - velkommen!
 ---
 
-# Vil du bidra med innhold til Mangfold i mai i år?
-Vi ønsker at Mangfold i mai 2024 har fokus på fagområdet Universell utforming og hvordan teknologi ikke skal gi barrierer for oss som bruker det. Vi ønsker å ta opp tema som er viktige for publikum. 
+# Bli klar for en mini-Mangfold-i-mai i 2024 :) 
 
+Snart kan du finne årets program på nettsiden her.
+Men sett av datoene: Årets Mangfold i mai skal finne sted 13., 15. og 16. mai, der vi strømmer. Dette er åpent for alle. Vi skal ha noen enkelte kurs lokalt for NAV-ansatte andre dager i mai i tillegg.
 
-Ønsker du å holde innlegg eller et kurs under Mangfold i mai 2024?
-
-Datoene for Mangfold i mai er:
-- 7.mai
-- 8.mai
-- 9.mai
-- 14.mai
-- 15.mai
-- 16.mai 
-
-[Send inn ditt forslag innen 2. april 2024.](https://forms.office.com/e/PgFzPzQtFz)
-
-## Gikk du glipp av noe? 
+## Gikk du glipp av noe i fjor? 
 Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.
