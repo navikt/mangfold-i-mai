@@ -1,8 +1,8 @@
 ---
 layout: program
-title: Program 2023
+title: Program
 permalink: program/
 categories: menu
-menu-title: Program 2023
+menu-title: Program
 order: 1
 ---
