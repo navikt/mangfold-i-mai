@@ -36,6 +36,8 @@ collections:
     output: true
   "2022":
     output: true
+  "2023":
+    output: true
 
 theme: null
 
