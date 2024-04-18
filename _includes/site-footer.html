@@ -6,7 +6,7 @@
             <li><a href="mailto:{{ site.email }}">✉️ <span>Send oss en mail<span></a></li>
             <li><a href="https://nav-it.slack.com/archives/C7MANSGLS">💬 <span>Kontakt oss på Slack (NAV internal)<span></a></li>
             <li><a href="{{site.github.repository_url}}/edit/main/{{page.path}}" target="_blank">✏️ <span>Rediger denne siden på Github (åpner i en ny fane)<span></a></li>
-            <li><a href="https://mangfoldimai.no/mangfold-i-mai/personvernerklaering/">📄 <span>Personvernserklæring<span></a></li>
+            <li><a href={{ "/personvernerklaering/" | relative_url }}>📄 <span>Personvernserklæring<span></a></li>
         </ul>
         <div class="sponsors">
             {% assign bufdir_url = "/assets/images/bufdir-logo.svg" %}
