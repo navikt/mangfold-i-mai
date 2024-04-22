@@ -2,7 +2,7 @@
 layout: event
 title: "Er uu bare mas, eller er det kjempestas"
 speakers: Morten Tollefsen
-summary: Universell utforming av elektroniske dokumenter
+summary: Universell utforming av elektroniske dokumenter.
 privacy: public
 
 location-type: stream
