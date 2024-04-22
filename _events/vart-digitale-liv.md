@@ -6,7 +6,7 @@ summary:
 privacy: public
 
 location-type: stream
-recorded: true
+recorded: 
 
 event-date: 2024-05-16T12:00
 event-date-end: 2024-05-16T12:20
