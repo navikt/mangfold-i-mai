@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Utvikling av KI-baserte verktøy for økt tilgjengelighet»"
+title: "Utvikling av KI-baserte verktøy for økt tilgjengelighet"
 speakers: Kristin Skeide Fuglerud
 summary: 
 privacy: public
