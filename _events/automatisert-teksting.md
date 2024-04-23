@@ -8,8 +8,8 @@ privacy: public
 location-type: stream
 recorded: true
 
-event-date: 2024-05-16T09:10
-event-date-end: 2024-05-16T09:50
+event-date: 2024-05-16T10:30
+event-date-end: 2024-05-16T11:15
 ---
 ## Hva handler foredraget om?
 I NAV ruller vi ut ny kode til produksjon 1600 ganger i uken. For å klare å sikre at det vi lager fungerer for alle, så må vi bruke tiden mest mulig effektivt. Et ledd i det arbeidet er å automatisere den testingen vi kan.
