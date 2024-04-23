@@ -17,4 +17,4 @@ UU-teamet i NAV jobber med opplæring, veiledning og oppfølging av universell u
 I denne presentasjonen vil du få lære mer om hvordan vi jobber strukturert med å løfte universell utforming i NAV.
 
 ## Hvem passer foredraget for?
-Dette innlegget passer for deg som enten må levere en tilgjengelighetserklæring eller bare er interessert i temaet.
+For deg som er interessert i hvordan å jobbe med uu i en stor organisasjon.
