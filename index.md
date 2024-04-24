@@ -5,11 +5,13 @@ title: Mangfold i mai - velkommen!
 
 
 
-# Mye av programmet er online!
+# Programmet for årets Mangfold i mai er online!
 
-Du finner nå mye av programmet på [program-siden](https://navikt.github.io/mangfold-i-mai/program/). 
+Du finner nå størsteparten av programmet på [program-siden](https://navikt.github.io/mangfold-i-mai/program/). 
 
-Årets program blir mer komprimert, mest dere finner masse spennende på **13., 15. og 16. mai**. Vi strømmer størstedelen av innholdet. Mangfold i mai er som alltid gratis og åpent for alle. Vi skal ha noen enkelte kurs lokalt for NAV-ansatte andre dager i mai i tillegg. 
+Årets program blir mer komprimert, og dere finner masse spennende på **13., 15. og 16. mai**, med en kickoff **3. mai** med UDDay 2024. 
+
+Vi strømmer størstedelen av innholdet. Mangfold i mai er som alltid gratis og åpent for alle. Vi skal ha noen enkelte kurs lokalt for NAV-ansatte andre dager i mai i tillegg. 
 
 ## Gikk du glipp av noe i fjor? 
 Fortvil ikke. For mange innlegg har vi lagt ut videoopptak. Se [fjorårets program](https://navikt.github.io/mangfold-i-mai/2023/program/).
