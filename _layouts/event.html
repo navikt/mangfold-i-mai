@@ -18,7 +18,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
     <script type="text/javascript">
         var summary = '{{ page.summary }}';
-        cal = ics();
+        cal = ics('{{ page.title }} - Mangfold i mai 2024');
         cal.addEvent(
             '{{ page.title }} - Mangfold i mai 2024',
             summary,
