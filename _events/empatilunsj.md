@@ -29,7 +29,7 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 - Få en dypere forståelse for brukeres liv og behov.
 
 ## Registrering
-Som NAV-ansatt / konsulent i NAV kan du [melde deg på lunsjen](https://delta.nav.no/event/e446aad5-6c3c-47c6-b77c-9bd2c36564a6). Påmeldingsfrist er **8. mai kl. 09.00**
+Som NAV-ansatt / konsulent i NAV kan du [melde deg på lunsjen](https://delta.nav.no/event/e446aad5-6c3c-47c6-b77c-9bd2c36564a6). Påmeldingsfrist er **8. mai kl. 09.00** Maksimalt antall deltakere er 20.
 
 ## Opptak
 Dette er en fysisk workshop som ikke blir tatt opp.
