@@ -11,7 +11,7 @@ registration: true
 
 
 event-date: 2024-05-08T10:30
-event-date-end: 2024-05-08T12:15
+event-date-end: 2024-05-08T12:00
 ---
 ## Hva handler lunsjen om?
 Fokus: Gå fra en vag idé om hva universell utforming (UU) er, til en varig innsikt i hva funksjonstap og UU innebærer i praksis.
