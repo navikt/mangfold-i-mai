@@ -3,7 +3,7 @@ layout: home
 title: Mangfold i mai - velkommen!
 ---
 
-
+![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-top.png)
 
 # Programmet for årets Mangfold i mai er online!
 
