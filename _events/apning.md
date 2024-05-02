@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Åpning med Tilsynet for universell utforming"
+title: "Åpning med Tilsynet for universell utforming av ikt"
 speakers: 
 summary: 
 privacy: public
