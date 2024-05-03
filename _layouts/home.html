@@ -20,6 +20,13 @@ url="https://mangfoldimai.no" %}
             </div>
         </div>
 
+        {% assign today = "now" | date: "%d" %}
+        {% assign month = "now" | date: "%m" %}
+
+        {% if month == "05" %}
+            {% include events-list.html title="Dagens agenda" date=today %}
+        {% endif %}
+
         <div style="padding:56.25% 0 0 0;position:relative;">
             <iframe
                 src="https://vimeo.com/event/4269617/embed/882ab89d6f"
@@ -31,13 +38,6 @@ url="https://mangfoldimai.no" %}
             ></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
-
-        {% assign today = "now" | date: "%d" %}
-        {% assign month = "now" | date: "%m" %}
-
-        {% if month == "05" %}
-            {% include events-list.html title="Dagens agenda" date=today %}
-        {% endif %}
     </div>
 </main>
 
