@@ -5,7 +5,7 @@ speakers:
 summary: 
 privacy: public
 
-location-type: streames
+location-type: stream
 recorded: false
 
 event-date: 2024-05-13T09:00
