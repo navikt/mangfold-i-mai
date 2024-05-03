@@ -157,42 +157,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
             {{ content }}
 
-            {% if page.location-type != "in-person" and page.skip-video != true %}
-                {% if true %}
-                    <p>Videosendingen starter
-                    {% assign event-date = page.event-date | date: "%d" %}
-                    {% assign today = "now" | date: "%d" %}
-                    {% if event-date != today %}
-                        {{ page.event-date | date: "%-d" }}.
-                        {% case m %}
-                            {% when '1' %}januar
-                            {% when '2' %}februar
-                            {% when '3' %}mars
-                            {% when '4' %}april
-                            {% when '5' %}mai
-                            {% when '6' %}juni
-                            {% when '7' %}juli
-                            {% when '8' %}august
-                            {% when '9' %}september
-                            {% when '10' %}oktober
-                            {% when '11' %}november
-                            {% when '12' %}desember
-                        {% endcase %}
-                    {% endif %}
-                    kl. {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}}.</p>
-                {% endif %}
-                <div style="padding:56.25% 0 0 0;position:relative;">
-                    <iframe
-                        src="https://vimeo.com/event/4269617/embed/882ab89d6f"
-                        frameborder="0"
-                        allow="autoplay; fullscreen; picture-in-picture"
-                        allowfullscreen=""
-                        style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                        title="Live feed for Mangfold i mai"
-                    ></iframe>
-                </div>
-                <script src="https://player.vimeo.com/api/player.js"></script>
-            {% endif %}
+            {% include live-stream.html %}
 
         </div>
 
