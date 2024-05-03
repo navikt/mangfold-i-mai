@@ -157,7 +157,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
             {{ content }}
 
-            {% if page.location-type != "in-person" %}
+            {% if page.location-type != "in-person" and page.skip-video != true %}
                 <div style="padding:56.25% 0 0 0;position:relative;">
                     <iframe
                         src="https://vimeo.com/event/4269617/embed/882ab89d6f"

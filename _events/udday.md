@@ -10,6 +10,8 @@ recorded:
 
 event-date: 2024-05-03T13:00
 event-date-end: 2024-05-03T14:00
+
+skip-video: true
 ---
 ## What is UDDay about?
 Universal Design Day is an annual celebration. The purpose of this day is to bring together the world's leading experts on universal design,
