@@ -19,3 +19,5 @@ representatives from local companies and international institutions, to discuss 
 
 ## Registration
 [Register for Universal Design Day 2024](https://us06web.zoom.us/webinar/register/WN_ftEL-QRbQjmiymJPou9IZg) on Inclusive Creations' website. 
+
+The event is streamed through Zoom. You will receive the link once you register.
