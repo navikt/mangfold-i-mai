@@ -4,7 +4,7 @@ title: Empatilunsj
 speakers: David Hole
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
-privacy: internal
+privacy: public
 location-type: in-person
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 registration: true
@@ -30,6 +30,8 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 
 ## Registrering
 Som NAV-ansatt / konsulent i NAV kan du [melde deg på lunsjen](https://delta.nav.no/event/e446aad5-6c3c-47c6-b77c-9bd2c36564a6). Påmeldingsfrist er **8. mai kl. 09.00**. 
+
+Er du ikke ansatt i NAV og ønsker å delta - kan du sende e-post til david.hole@nav.no innen onsdag 8.mai kl 09.00. Er det fortsatt plass får du e-post innkalling. Lunsj for eksterne koster ca 100,-
 
 Maksimalt antall deltakere er 20.
 
