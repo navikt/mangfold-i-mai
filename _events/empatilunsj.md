@@ -33,7 +33,7 @@ Som NAV-ansatt / konsulent i NAV kan du [melde deg på lunsjen](https://delta.na
 
 Er du ikke ansatt i NAV og ønsker å delta - kan du sende e-post til david.hole@nav.no innen onsdag 8.mai kl 09.00. Er det fortsatt plass får du e-post innkalling. Lunsj for eksterne koster ca 100,-
 
-Maksimalt antall deltakere er 20.
+Maksimalt antall deltakere er 23.
 
 ## Opptak
 Dette er en fysisk workshop som ikke blir tatt opp.
