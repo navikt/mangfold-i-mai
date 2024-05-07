@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Jon-Vegard Sparre
-image: 
+image: jon-vegard-sparre.png
 summary: Fagfasilitator for KI-fagmiljøet i NAVs IT-avdeling.
 ---
 
