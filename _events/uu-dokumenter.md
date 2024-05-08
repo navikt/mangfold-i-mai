@@ -5,7 +5,8 @@ speakers: Morten Tollefsen
 summary: Universell utforming av elektroniske dokumenter.
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-15T13:30
