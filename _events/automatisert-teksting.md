@@ -5,7 +5,8 @@ speakers: Vegard Haugstvedt
 summary: Rydd tid til de viktige oppgavene ved å automatisere det du kan.
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-16T10:30
