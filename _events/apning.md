@@ -6,6 +6,7 @@ summary: Hvem er de unge NAV møter, hva er planene fremover, og hvordan henger 
 privacy: public
 
 location-type: hybrid
+location-name: Fyrstikkalléen 1, Amfiet
 recorded: false
 
 event-date: 2024-05-13T09:00
