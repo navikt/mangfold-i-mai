@@ -5,7 +5,8 @@ speakers: Till Halbach
 summary: Lønner det seg i investere i universell utforming av IKT? Og har du råd til å la være?
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-15T13:00
