@@ -5,7 +5,8 @@ speakers: [Beate Sletvold Øistad, Thomas Jahren, Jon-Vegard Sparre]
 summary: It innblikk i Likestillings og diskrimineringsombudets og NAVs arbeid med KI
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-15T12:00
