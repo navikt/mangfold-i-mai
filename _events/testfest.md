@@ -2,7 +2,7 @@
 layout: event
 title: "Testfest"
 speakers: Mikael Snaprud
-summary: 
+summary: "Jo flere som deler jo flere kan delta – Testfester bringer brukere og utviklere sammen for inkluderende digitale tjenester"
 privacy: public
 
 location-type: stream
@@ -25,9 +25,8 @@ det enkelt å registrere tilbakemeldinger fra brukerne.
 Testfestene samler Tjenesteeiere og mennesker med funksjonsnedsettelser
 som kan teste utvalgte tjenester på ulike måter. Aktuelle verktøy kan
 være ulike PCer, mobiler, leselister, skjermlesere,
-skjermforstørrelsesprogramvare og øyesporingsutstyr. Testfestene har
-allerede bidratt til at Oslo kommune og Norsk Helsenett (NHN) funnet og
-fjernet flere feil. For å legge tilrette for videre bruk av
+skjermforstørrelsesprogramvare og øyesporingsutstyr. Testfestene har avdekket barrierer, og etablert innsikter som allerede
+er omsatt til mer inkluderende digitale tjenester. For å legge tilrette for videre bruk av
 forskningsresultatene, vil metode og programvare fra prosjektet bli
 publisert under en åpen lisens.
 
