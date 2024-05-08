@@ -5,7 +5,8 @@ speakers: Cathrine Einarsson
 summary: Synes du digital inkludering virker vanskelig? Bli litt klokere på hvorfor, og få ideer til hva DU kan gjøre for at flere skal trives i sitt digitale liv.
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: 
 
 event-date: 2024-05-16T12:00
