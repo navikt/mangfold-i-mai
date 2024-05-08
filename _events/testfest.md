@@ -5,7 +5,8 @@ speakers: Mikael Snaprud
 summary: "Jo flere som deler jo flere kan delta – Testfester bringer brukere og utviklere sammen for inkluderende digitale tjenester"
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-16T14:30
