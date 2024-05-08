@@ -13,5 +13,5 @@ event-date: 2024-05-13T09:00
 event-date-end: 2024-05-13T09:45
 ---
 ## Hva handler arrangementet om?
-
+Hvem er de unge NAV møter, hva er planene fremover, og hvordan henger det sammen med universell utforming av IT?
 Mer informasjon kommer.
