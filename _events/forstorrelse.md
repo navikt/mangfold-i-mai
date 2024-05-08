@@ -5,7 +5,8 @@ speakers: Frode Eika Sandnes
 summary: Hvordan jeg laget det smarte forstørrelsesprogrammet jeg alltid har drømt om!
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-15T14:20
