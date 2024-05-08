@@ -5,7 +5,8 @@ speakers: Vegard Haugstvedt
 summary: Aksel og uu-teamet skalerer uu-arbeidet i 80 produktteam.
 privacy: public
 
-location-type: stream
+location-type: hybrid
+location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
 
 event-date: 2024-05-16T09:10
