@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Hilde Kristine Braadland
-image: hilde-kristine-braadland.jpg
+image: hilde-kristine-braadland.jpeg
 summary: Seniorrådgiver hos NAV Hjelpemiddelsentralen Vest-Viken
 ---
 Seniorrådgiver arbeid og utdanning ved Nav Hjelpemiddelsentral Vest-Viken. 
