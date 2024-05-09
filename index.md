@@ -7,7 +7,7 @@ title: Mangfold i mai - velkommen!
 
 # Programmet for årets Mangfold i mai er online!
 
-Du finner nå størsteparten av programmet på [program-siden](https://navikt.github.io/mangfold-i-mai/program/). 
+Du finner programmet på [program-siden](https://navikt.github.io/mangfold-i-mai/program/). 
 
 Årets program blir mer komprimert, og dere finner masse spennende på **8., 13., 15. og 16. mai**, med en kickoff **3. mai** med UDDay 2024. 
 
