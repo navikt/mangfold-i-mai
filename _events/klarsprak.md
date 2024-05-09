@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Kahoot om inkluderende språk?"
+title: "Kahoot om inkluderende språk"
 speakers: [Inger Margrethe Hvenekilde Seim, Louise Eie With]
 summary: Ta med deg mobilen din, vinnerinstinktet og ditt universelt utformede sinn – og bli med på kviss!
 privacy: public
