@@ -19,5 +19,7 @@ Ta med deg mobilen din, vinnerinstinktet og ditt universelt utformede sinn – o
 
 De tre mest årvåkne får premier!
 
+Som NAV-ansatt / konsulent i NAV kan du [melde deg på](https://delta.nav.no/event/78556849-1bbc-4efa-9311-d207adcdf093).
+
 ## Hvem passer foredraget for?
 Foredraget passer for deg som er interessert i inkluderende språk.
