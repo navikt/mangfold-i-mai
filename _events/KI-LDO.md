@@ -2,7 +2,7 @@
 layout: event
 title: "KI og diskriminering - kan det unngås?"
 speakers: [Beate Sletvold Øistad, Thomas Jahren, Jon-Vegard Sparre]
-summary: It innblikk i Likestillings og diskrimineringsombudets og NAVs arbeid med KI
+summary: Et innblikk i Likestillings og diskrimineringsombudets og NAVs arbeid med KI
 privacy: public
 
 location-type: hybrid
