@@ -13,6 +13,8 @@ Du finner programmet på [program-siden](https://navikt.github.io/mangfold-i-mai
 
 Vi strømmer størstedelen av innholdet. Mangfold i mai er som alltid gratis og åpent for alle. Vi skal ha noen enkelte kurs lokalt for NAV-ansatte andre dager i mai i tillegg. 
 
+Vi er takknemlig hvis du kan gi oss en kort [tilbakemelding på innleggene du har sett](https://www.survey-xact.no/LinkCollector?key=6AC7T977UK3J). Det tar bare veldig kort tid, og hjelper oss masse. Takk!
+
 <!--
 ## Gikk du glipp av noe i fjor? 
 Fortvil ikke. For mange innlegg har vi lagt ut videoopptak. Se [fjorårets program](https://navikt.github.io/mangfold-i-mai/2023/program/).
