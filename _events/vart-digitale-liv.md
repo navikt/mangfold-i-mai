@@ -7,7 +7,7 @@ privacy: public
 
 location-type: hybrid
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
-recorded: 
+recorded: true
 
 event-date: 2024-05-16T12:00
 event-date-end: 2024-05-16T12:20
