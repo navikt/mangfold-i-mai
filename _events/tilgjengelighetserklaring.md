@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "Tilgjengelighetserklæringer i en stor organisasjon: utfordringer og muligheter"
+title: "MÅ DESSVERRE AVLYSES. Tilgjengelighetserklæringer i en stor organisasjon: utfordringer og muligheter"
 speakers: Sarah Brodwall
 summary: 
 privacy: public
