@@ -5,7 +5,7 @@ title: Mangfold i mai - velkommen!
 
 ![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-top4.png)
 
-# Da er årets Mangfold i mai i gang
+# Happy Global Accessibility Awareness Day!
 
 Du finner programmet på [program-siden](https://navikt.github.io/mangfold-i-mai/program/). 
 
