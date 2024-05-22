@@ -1,8 +1,10 @@
-{% if page.location-type != "in-person" and page.skip-video != true %}
-    {% if true %}
+{% assign event-date = page.event-date | date: "%F" %}
+{% assign today = "now" | date: "%F" %}
+{% assign event-date-unix = page.event-date | date: "%s" %}
+{% assign today-unix = "now" | date: "%s" %}
+{% if page.location-type != "in-person" and page.skip-video != true and event-date >= today %}
+    {% if event-date-unix > today-unix %}
         <p>Videosendingen starter
-        {% assign event-date = page.event-date | date: "%d" %}
-        {% assign today = "now" | date: "%d" %}
         {% if event-date != today %}
             {{ page.event-date | date: "%-d" }}.
             {% case m %}
@@ -33,4 +35,6 @@
         ></iframe>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
+{% elsif page.video-url %}
+    {% include video.html %}
 {% endif %}

@@ -151,10 +151,6 @@ url="https://mangfoldimai.no/{page.url}" %}
 
         <div class="description" {% if page.language %} lang="{{page.language}}"{% endif %}>
 
-            {% if page.video-url %}
-                {% include video.html %}
-            {% endif %}
-
             {{ content }}
 
             {% include live-stream.html %}
