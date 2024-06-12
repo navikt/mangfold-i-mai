@@ -8,6 +8,7 @@ privacy: public
 location-type: hybrid
 location-name: Fyrstikkalléen 1, Amfiet
 recorded: false
+video-url: https://player.vimeo.com/video/954345144?h=e336370c31&badge=0&autopause=0&player_id=0&app_id=58479
 
 event-date: 2024-05-13T09:00
 event-date-end: 2024-05-13T09:45
