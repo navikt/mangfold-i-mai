@@ -132,7 +132,9 @@ url="https://mangfoldimai.no/{page.url}" %}
                 <li><span class="badge yellow registration-required">Krever påmelding</span></li>
                 {% endif %}
 
-                {% if page.recorded == true %}
+                {% if event.video-url %}
+                <span class="badge recorded">Opptak tilgjengelig</span>
+                {% elsif event.recorded == true %}
                 <span class="badge recorded">Blir tatt opp</span>
                 {% endif %}
             </ul>
