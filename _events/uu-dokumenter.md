@@ -8,6 +8,7 @@ privacy: public
 location-type: hybrid
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
+video-url: https://player.vimeo.com/video/954355605?h=851799d17a&badge=0&autopause=0&player_id=0&app_id=58479
 
 event-date: 2024-05-15T13:30
 event-date-end: 2024-05-15T14:10
