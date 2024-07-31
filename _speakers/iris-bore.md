@@ -1,7 +1,7 @@
 ---
 layout: speaker
 name: Iris Bore
-image: IrisBore.jpeg
+image: IrisBore.jpg
 summary: Data Scientist i NAV IT
 ---
 
