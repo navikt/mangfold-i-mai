@@ -8,12 +8,14 @@ privacy: public
 location-type: hybrid
 location-name: Fyrstikkalléen 1, Rom "Samfunnet" ved kantina
 recorded: true
-video-url: https://player.vimeo.com/video/954355137?h=3b89ea2f5a&badge=0&autopause=0&player_id=0&app_id=58479
+video-url: https://player.vimeo.com/video/954355137?h=3b89ea2f5a&badge=0&autopause=0&player_id=0&app_id=58479&texttrack=no
 
 event-date: 2024-05-16T14:30
 event-date-end: 2024-05-16T14:50
 ---
+
 ## Hva handler foredraget om?
+
 EUs webdirektiv (WAD) pålegger offentlige nettsteder å ha en
 funksjonalitet hvor brukerne kan melde fra om avvik fra universell
 utforming. Selv om mange brukere opplever barrierer blir denne
@@ -38,4 +40,5 @@ Landsforbund. Tjensteeierne som deltar er Arbeidstilsynet, Nasjonalt
 Helsenett (NHN), Oslo Kommune, og Universitetet i Oslo.
 
 ## Hvem passer foredraget for?
+
 Til deg som er interessert i å brukerteste.
