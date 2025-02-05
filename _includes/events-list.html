@@ -1,16 +1,16 @@
 <div class="events list" id="event-list" aria-live="polite" aria-relevant="all">
-    {% if include.title %}<h2>{{ include.title}}</h2>{% endif %}
+    {% if include.title %}<h2>{{ title}}</h2>{% endif %}
 
-    {% if include.date %}
+    {% if date %}
 
-        {% include 'events.html', date=include.date, show-empty-events=true %}
+        {% include 'events.html', date:date, show-empty-events:true %}
 
     {% else %}
 
         {% assign dates = collections.dates | sort: 'event-date' %}
         {% for day in dates %}
-            {% assign day-number = day.event-date | date: "%d" %}
-            {% include 'events.html', date=day-number, show-empty-events=false %}
+            {% assign day-number = day.data.event-date | date: "%d" %}
+            {% include 'events.html', date:day-number, show-empty-events:false %}
         {% endfor %}
 
     {% endif %}

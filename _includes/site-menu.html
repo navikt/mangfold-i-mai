@@ -1,11 +1,11 @@
+{% assign siteMenu = collections.all | eleventyNavigation %}
+
 <nav>
     <ul>
-        {% assign sorted-menu-pages = collections.all | eleventyNavigation:"menu" %}
-
-        {% for item in sorted-menu-pages %}
+        {% for item in siteMenu %}
         <li>
             <a href="{{ item.url }}">
-                {% if item.menu-title %}
+                {% if item.title %}
                 {{ item.title }}
                 {% else %}
                 {{ title }}

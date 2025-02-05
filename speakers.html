@@ -10,8 +10,7 @@ eleventyNavigation:
 {% include 'page-header.html' %}
 
 <ul class="speakers-list">
-    {% assign speakers = collections.speakers %}
-    {% for speaker in speakers %}
-        {% include 'speaker-card.html', speaker=speaker.name %}
+    {% for speaker in collections.speakers %}
+        {% render 'speaker-card.html' speaker:speaker.data %}
     {% endfor %}
 </ul>

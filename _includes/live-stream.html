@@ -1,12 +1,13 @@
-{% assign event-date = page.event-date | date: "%F" %}
-{% assign today = "now" | date: "%F" %}
-{% assign event-date-unix = page.event-date | date: "%s" %}
+{% assign event-date = event-date | date: "%F" %}
+{% assign today = now | date: "%F" %}
+{% assign event-date-unix = event-date | date: "%s" %}
 {% assign today-unix = "now" | date: "%s" %}
-{% if page.location-type != "in-person" and page.skip-video != true and event-date >= today %}
+
+{% if location-type != "in-person" and skip-video != true and event-date >= today %}
     {% if event-date-unix > today-unix %}
         <p>Videosendingen starter
         {% if event-date != today %}
-            {{ page.event-date | date: "%-d" }}.
+            {{ event-date | date: "%-d" }}.
             {% case m %}
                 {% when '1' %}januar
                 {% when '2' %}februar
@@ -22,7 +23,7 @@
                 {% when '12' %}desember
             {% endcase %}
         {% endif %}
-        kl. {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}}.</p>
+        kl. {{ event-date | date: "%k"}}:{{ event-date | date: "%M"}}.</p>
     {% endif %}
     <div style="padding:56.25% 0 0 0;position:relative;">
         <iframe
@@ -35,6 +36,6 @@
         ></iframe>
     </div>
     <script src="https://player.vimeo.com/api/player.js"></script>
-{% elsif page.video-url %}
-    {% include video.html %}
+{% elsif video-url %}
+    {% include 'video.html' %}
 {% endif %}

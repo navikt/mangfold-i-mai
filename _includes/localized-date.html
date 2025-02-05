@@ -1,4 +1,4 @@
-{% assign d = page.event-date | date: "%A" %}
+{% assign d = event-date | date: "%A" %}
 {% case d %}
     {% when 'Monday' %}Mandag
     {% when 'Tuesday' %}Tirsdag
@@ -9,9 +9,9 @@
     {% when 'Sunday' %}Søndag
 {% endcase %}
 
-{% assign m = page.event-date | date: "%-m" %}
+{% assign m = event-date | date: "%-m" %}
 
-{{ page.event-date | date: "%-d" }}.
+{{ event-date | date: "%-d" }}.
 {% case m %}
 {% when '1' %}januar
 {% when '2' %}februar
@@ -27,4 +27,4 @@
 {% when '12' %}desember
 {% endcase %}
 
-{{ page.event-date | date: "%Y" }}
+{{ event-date | date: "%Y" }}

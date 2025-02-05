@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="no">
 
+
 {% include 'head.html',
 site_title:title,
 site_summary:summary,
 site_url:page.url %}
 
-<body class="layout-{{ page.layout }}">
+<body class="layout-event">
 
 
     <script type="text/javascript">
@@ -36,7 +37,7 @@ site_url:page.url %}
         <div class="wrapper">
     <div class="container">
 
-        <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ page.title }}</h1>
+        <h1 class="title" {% if page.language %} lang="{{page.language}}"{% endif %}>{{ title }}</h1>
 
         <div class="metadata">
             <ul>
@@ -47,23 +48,23 @@ site_url:page.url %}
                 </li>
 
                 <li>
-                    {{ page.event-date | date: "%k"}}:{{ page.event-date | date: "%M"}} - {{ page.event-date-end | date: "%k"}}:{{ page.event-date-end | date: "%M"}}
+                    {{ event-date | date: "%k"}}:{{ event-date | date: "%M"}} - {{ event-date-end | date: "%k"}}:{{ event-date-end | date: "%M"}}
                 </li>
 
                 <!-- LOCATION -->
 
-                {% case page.location-type %}
+                {% case location-type %}
 
                     {% when "stream" %}
 
                         <li>
-                            {{ page.location-name }}
+                            {{ location-name }}
                         </li>
 
-                        {% if page.location-link %}
+                        {% if location-link %}
 
                         <li>
-                            ▶️ <a href="{{ page.location-link }}">Nettmøte</a>
+                            ▶️ <a href="{{ location-link }}">Nettmøte</a>
                         </li>
 
                         {% endif %}
@@ -71,21 +72,21 @@ site_url:page.url %}
                     {% when "in-person" %}
 
                         <li>
-                            {{ page.location-name }}
+                            {{ location-name }}
                         </li>
 
                     {% when "hybrid" %}
 
                         <li>
-                            {{ page.location-name }}
-                            {% if page.location-hybrid %}
-                                {% unless page.location-name %}
-                                    {{ page.location-hybrid }}
+                            {{ location-name }}
+                            {% if location-hybrid %}
+                                {% unless location-name %}
+                                    {{ location-hybrid }}
                                 {% endunless %}
                             {% endif %}
                         </li>
 
-                        {% if page.location-link %}
+                        {% if location-link %}
 
                         <li>
                             ▶️ <a href="{{ page.location-link }}">Nettmøte</a>
@@ -99,7 +100,7 @@ site_url:page.url %}
                     📅 <a href="#" onclick="javascript:cal.download('{{ page.title }} - Mangfold i mai 2024')">Legg til i kalender</a>
                 </li>
                     
-                {% if page.registration-link %}
+                {% if registration-link %}
                 <li>
                     📝 <a href="{{ page.registration-link }}">Registrer deg her</a>
                 </li>
@@ -112,7 +113,7 @@ site_url:page.url %}
             
 
             <ul>
-                {% if page.privacy == "public" %}
+                {% if privacy == "public" %}
                 <li><span class="badge green {{page.privacy}}">Åpent for alle</span></li>
                     {% else %}
                 <li><span class="badge red {{page.privacy}}">Bare for NAV-ansatte</span></li>
@@ -120,19 +121,19 @@ site_url:page.url %}
 
 
 
-                {% if page.location-type != "in-person"  %}
+                {% if location-type != "in-person"  %}
                     <li><span class="badge purple stream">Nettmøte</span></li>
                 {% endif %}
 
-                {% if page.location-type != "stream" %}
+                {% if location-type != "stream" %}
                 <li><span class="badge blue in-person">Fysisk arrangement</span></li>
                 {% endif %}
 
-                {% if page.registration == true or page.registration-link %}
+                {% if registration == true or registration-link %}
                 <li><span class="badge yellow registration-required">Krever påmelding</span></li>
                 {% endif %}
 
-                {% if event.video-url %}
+                {% if event.data.video-url %}
                 <span class="badge recorded">Opptak tilgjengelig</span>
                 {% elsif event.recorded == true %}
                 <span class="badge recorded">Blir tatt opp</span>
@@ -160,17 +161,17 @@ site_url:page.url %}
         </div>
 
         <div class="speakers">
-            {% if page.speakers %}
+            {% if speakers %}
 
                 <h2>
-                    {% if page.speakers[1] %}
+                    {% if speakers[1] %}
                         Foredrags&#x00AD;holderne
                     {% else %}
                         Foredrags&#x00AD;holder
                     {% endif %}
                 </h2>
 
-                {% for speaker in page.speakers %}
+                {% for speaker in speakers %}
                     <div class="speaker">
                         {% assign render-speaker-name = undefined %}
                         {% assign render-speaker-url = undefined %}
@@ -178,25 +179,24 @@ site_url:page.url %}
                         {% assign render-speaker-summary = undefined %}
 
 
-                        {% for site-speaker in site.speakers %}
-                        {% if site-speaker.name == speaker %}
-                        {% assign render-speaker-name = site-speaker.name %}
-                        {% assign render-speaker-url = site-speaker.url %}
-                        {% assign render-speaker-image = site-speaker.image %}
-                        {% assign render-speaker-summary = site-speaker.summary %}
-                        {% endif %}
+                        {% for site-speaker in collections.speakers %}
+                          {% if site-speaker.data.name == speaker %}
+                            {% assign render-speaker-name = site-speaker.data.name %}
+                            {% assign render-speaker-url = site-speaker.url %}
+                            {% assign render-speaker-image = site-speaker.data.image %}
+                            {% assign render-speaker-summary = site-speaker.data.summary %}
+                          {% endif %}
                         {% endfor %}
 
                         {% if render-speaker-image %}
-                            {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
-                            <img src="{{ image_url | htmlBaseUrl }}" alt="{{ speaker }}" aria-hidden="true">
+                            <img src="/assets/images/speakers/optimized/{{ render-speaker-image }}" alt="{{ speaker }}" aria-hidden="true" eleventy:widths="400">
                         {% endif %}
 
                         <div class="about">
                             {% if render-speaker-name == undefined %}
                             <span class="name">{{ speaker }}</span>
                             {% else %}
-                            <a class="name" href="{{ render-speaker-url | htmlBaseUrl }}">{{ render-speaker-name }}</a>
+                            <a class="name" href="{{ render-speaker-url }}">{{ render-speaker-name }}</a>
                             {% endif %}
 
                             {% if render-speaker-summary %}

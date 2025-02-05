@@ -1,32 +1,17 @@
-{% assign render-speaker-name = undefined %}
-{% assign render-speaker-url = undefined %}
-{% assign render-speaker-image = undefined %}
-{% assign render-speaker-summary = undefined %}
-
-{% for site-speaker in collections.speakers %}
-    {% if site-speaker.name == include.speaker %}
-        {% assign render-speaker-name = site-speaker.name %}
-        {% assign render-speaker-url = site-speaker.url %}
-        {% assign render-speaker-image = site-speaker.image %}
-        {% assign render-speaker-summary = site-speaker.summary %}
-    {% endif %}
-{% endfor %}
-
 <li class="speaker-card">
-    {% if render-speaker-image %}
-        {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
-        <img class="pic" src="{{ image_url | htmlBaseUrl }}" alt="{{ render-speaker-name }}" aria-hidden="true" loading="lazy">
+    {% if speaker.image %}
+        <img class="pic" src="/assets/images/speakers/optimized/{{ speaker.image }}" alt="{{ render-speaker-name }}" aria-hidden="true" loading="lazy" eleventy:widths="200">
     {% endif %}
 
     <div class="about">
         <div class="name">
-            <a href="{{ render-speaker-url | htmlBaseUrl }}" class="name">
-                {{ render-speaker-name }}
+            <a href="/speakers/{{ speaker.name | slugify }}.html" class="name">
+                {{ speaker.name }}
             </a>
         </div>
 
-        {% if render-speaker-summary %}
-            <div class="summary">{{render-speaker-summary}}</div>
+        {% if speaker.summary %}
+            <div class="summary">{{ speaker.summary }}</div>
         {% endif %}
     </div>
 

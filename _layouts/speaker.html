@@ -10,7 +10,7 @@ site_title:title,
 site_summary:"En av mange talere på Mangfold i mai 2024! Feir mangfold med oss!",
 site_url:"https://mangfoldimai.no" %}
 
-<body class="layout-{{ page.layout }}">
+<body class="layout-speaker">
 <a id="skip" href="#content">Hopp til innholdet.</a>
 
 {% include 'site-header.html' %}
@@ -18,14 +18,13 @@ site_url:"https://mangfoldimai.no" %}
 <main id="content" tabindex="-1">
     <div class="wrapper">
 <div class="speaker-header">
-    {% if page.image %}
-        {% assign image_url = "/assets/images/speakers/optimized/" | append: page.image %}
-        <img class="speaker-image" src="{{ image_url | htmlBaseUrl }}" alt="{{ page.name }}" aria-hidden="true">
+    {% if image %}
+        <img class="speaker-image" src="/assets/images/speakers/optimized/{{ image }}" alt="{{ page.name }}" aria-hidden="true" eleventy:widths="300">
     {% endif %}
 
     <div>
-        {% include 'page-header.html' %}
-        <p class="summary">{{page.summary}}</p>
+        {% include 'page-header.html', title:name %}
+        <p class="summary">{{summary}}</p>
         {{ content }}
     </div>
 </div>
@@ -34,29 +33,28 @@ site_url:"https://mangfoldimai.no" %}
 <section class="speaker-events">
     <h2>Foredragene</h2>
     <ul class="event-list">
-        {% assign events = site.events | sort: 'event-date' %}
-
-        {% for event in events %}
-        {% for speaker in event.speakers %}
-        {% if speaker == page.name %}
+      {% assign events = collections.events | sort: 'event-date' %}
+      {% for event in events %}
+        {% for speaker in event.data.speakers %}
+        {% if speaker == name %}
         <li class="event">
             <div class="event-header">
                 <h3 class="title">
-                    <a href="{{ event.url | htmlBaseUrl }}">{{ event.title }}</a>
+                    <a href="/events/{{ event.data.title | slugify }}.html">{{ event.data.title }}</a>
                 </h3>
                 <p class="date">
                     <span class="icon date">
-                        <date datetime="{{event.event-date}}">{{event.event-date | date: '%d.%m'}}</date>
+                        <date datetime="{{event.data.event-date}}">{{event.data.event-date | date: '%d.%m'}}</date>
                     </span>
 
                     <span class="icon time">
-                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%H:%M'}}</time>
+                        <time datetime="{{event.data.event-date | date: '%H:%M'}}">{{event.data.event-date | date: '%H:%M'}}</time>
                         <span class="til">til</span>
-                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%H:%M'}}</time>
+                        <time datetime="{{event.data.event-date-end | date: '%H:%M'}}">{{event.data.event-date-end | date: '%H:%M'}}</time>
                     </span>
                 </p>
             </div>
-            <p class="summary">{{event.summary}}</p>
+            <p class="summary">{{event.data.summary}}</p>
         </li>
         {% endif %}
         {% endfor %}

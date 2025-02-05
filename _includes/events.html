@@ -1,26 +1,28 @@
 {% assign number-of-events = 0 %}
-{% assign events = collections.events | sort: 'event-date' %}
+{% assign events = collections.events | sort: 'data.event-date' %}
+
 {% for event in events %}
-{% assign event-date = event.event-date | date: "%d" %}
-{% if include.date == event-date %}
-{% assign number-of-events = number-of-events | plus:1 %}
-{% assign event-weekday = event.event-date | date: "%A" %}
-{% endif %}
+  {% assign event-date = event.data.event-date | date: "%d" %}
+  {% if date == event-date %}
+  {% assign number-of-events = number-of-events | plus:1 %}
+  {% assign event-weekday = event.data.event-date | date: "%A" %}
+  {% endif %}
 {% endfor %}
 
 {% if number-of-events > 0 %}
     <section>
     {% assign dates = collections.dates %}
     {% for day in dates %}
-    {% assign day-date = day.event-date | date: "%d" %}
-    {% if day-date == include.date %}
+    {% assign day-date = day.data.event-date | date: "%d" %}
+
+    {% if day-date == date %}
         <div class="day-header">
             <h3 class="date">
-                <a href="{{ day.url  | htmlBaseUrl }}">
+                <a href="/dates/{{ day.fileSlug }}.html">
                     <span>
                         <span class="day-number">
-                            <div>{% include localized-weekday.html weekday=event-weekday %}</div>
-                            <strong>{{ day.event-date | date: "%-d" }}. mai</strong>
+                            <div>{% include 'localized-weekday.html', weekday:event-weekday %}</div>
+                            <strong>{{ day.data.event-date | date: "%-d" }}. mai</strong>
                         </span>
                         <span class="weekday">
                             
@@ -28,8 +30,8 @@
                     </span>
                 </a>
            </h3>
-            {% if day.theme %}
-                <span class="theme">{{ day.theme }}</span>
+            {% if day.data.theme %}
+                <span class="theme">{{ day.data.theme }}</span>
             {% endif %}
         </div>
     {% endif %}
@@ -37,37 +39,37 @@
 
     <ul class="schedule">
         {% for event in events %}
-            {% assign event-date = event.event-date | date: "%d" %}
-            {% if include.date == event-date %}
+            {% assign event-date = event.data.event-date | date: "%d" %}
+            {% if date == event-date %}
 
             <li class="{{event.privacy}} {{event.location-type}}">
-                {% assign hour = event.event-date | date: "%H" %}
+                {% assign hour = event.data.event-date | date: "%H" %}
 
                     <div class="time">
-                        <time datetime="{{event.event-date | date: '%H:%M'}}">{{event.event-date | date: '%k:%M'}}</time>
+                        <time datetime="{{event.data.event-date | date: '%H:%M'}}">{{event.data.event-date | date: '%k:%M'}}</time>
                         <span class="til">til</span>
-                        <time datetime="{{event.event-date-end | date: '%H:%M'}}">{{event.event-date-end | date: '%k:%M'}}</time>
+                        <time datetime="{{event.data.event-date-end | date: '%H:%M'}}">{{event.data.event-date-end | date: '%k:%M'}}</time>
                     </div>
 
                     <h3 class="title">
-                        <a href="{{ event.url  | htmlBaseUrl }}">
-                            {{ event.title }}
+                        <a href="{{ event.url }}">
+                            {{ event.data.title }}
                         </a>
                     </h3>
 
                     <div class="summary">
-                        {% if event.summary-special %}
+                        {% if event.data.summary-special %}
 
-                            {{ event.summary-special }}
+                            {{ event.data.summary-special }}
 
                         {% else %}
 
-                            {{event.summary}}
+                            {{event.data.summary}}
 
-                            {% if event.speakers %}
+                            {% if event.data.speakers %}
                                 <ul class="speakers">
                                     Med 
-                                    {% for speaker in event.speakers %}
+                                    {% for speaker in event.data.speakers %}
                                         <li>{{ speaker }}</li>
                                     {% endfor %}
                                 </ul>
@@ -77,29 +79,29 @@
                     </div>
 
                 <div class="participation-details">
-                        {% if event.privacy == "public" %}
-                    <span class="badge green {{event.privacy}}">Åpent for alle</span>
+                        {% if event.data.privacy == "public" %}
+                    <span class="badge green {{event.data.privacy}}">Åpent for alle</span>
                         {% else %}
-                    <span class="badge red {{event.privacy}}">Bare for NAV-ansatte</span>
+                    <span class="badge red {{event.data.privacy}}">Bare for NAV-ansatte</span>
                         {% endif %}
 
 
 
-                    {% if event.location-type != "in-person"  %}
+                    {% if event.data.location-type != "in-person"  %}
                         <span class="badge purple stream">Nettmøte</span>
                     {% endif %}
 
-                    {% if event.location-type != "stream" %}
+                    {% if event.data.location-type != "stream" %}
                     <span class="badge blue in-person">Fysisk arrangement</span>
                     {% endif %}
 
-                    {% if event.registration == true or event.registration-link %}
+                    {% if event.data.registration == true or event.data.registration-link %}
                     <span class="badge yellow registration-required">Krever påmelding</span>
                     {% endif %}
 
-                    {% if event.video-url %}
+                    {% if event.data.video-url %}
                     <span class="badge recorded">Opptak tilgjengelig</span>
-                    {% elsif event.recorded == true %}
+                    {% elsif event.data.recorded == true %}
                     <span class="badge recorded">Blir tatt opp</span>
                     {% endif %}
 
@@ -115,7 +117,7 @@
 
 {% else %}
 
-    {% if include.show-empty-events %}
+    {% if show-empty-events %}
         <p class="no-events">Ingen&nbsp;arrangementer&nbsp;i&nbsp;dag.</p>
     {% endif %}
 
