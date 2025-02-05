@@ -1,18 +1,17 @@
 <nav>
     <ul>
-        {% assign sorted-menu-pages = site.pages | sort:"order" %}
-        {% for page in sorted-menu-pages %}
-        {% if page.categories contains 'menu' %}
+        {% assign sorted-menu-pages = collections.all | eleventyNavigation:"menu" %}
+
+        {% for item in sorted-menu-pages %}
         <li>
-                {% if page.menu-title %}
-                {{ page.menu-title }}
             <a href="{{ item.url }}">
+                {% if item.menu-title %}
+                {{ item.title }}
                 {% else %}
-                {{ page.title }}
+                {{ title }}
                 {% endif %}
             </a>
         </li>
-        {% endif %}
         {% endfor %}
     </ul>
 </nav>
