@@ -3,7 +3,7 @@
 {% assign render-speaker-image = undefined %}
 {% assign render-speaker-summary = undefined %}
 
-{% for site-speaker in site.speakers %}
+{% for site-speaker in collections.speakers %}
     {% if site-speaker.name == include.speaker %}
         {% assign render-speaker-name = site-speaker.name %}
         {% assign render-speaker-url = site-speaker.url %}
