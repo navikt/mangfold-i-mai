@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="no">
 
-{% include head.html
-title=page.title
-summary=page.summary
+{% include 'head.html',
+title=page.title,
+summary=page.summary,
 url="https://mangfoldimai.no/{page.url}" %}
 
 <body class="layout-{{ page.layout }}">
@@ -30,7 +30,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
     <a id="skip" href="#content">Hopp til innholdet.</a>
 
-    {% include site-header.html %}
+    {% include 'site-header.html' %}
 
     <main id="content" tabindex="-1">
         <div class="wrapper">
@@ -43,7 +43,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
                 <!-- DATE AND TIME -->
                 <li>
-                    <b>{% include localized-date.html %}</b>
+                    <b>{% include 'localized-date.html' %}</b>
                 </li>
 
                 <li>
@@ -155,7 +155,7 @@ url="https://mangfoldimai.no/{page.url}" %}
 
             {{ content }}
 
-            {% include live-stream.html %}
+            {% include 'live-stream.html' %}
 
         </div>
 
@@ -213,7 +213,7 @@ url="https://mangfoldimai.no/{page.url}" %}
         </div>
     </main>
 
-    {% include site-footer.html %}
+    {% include 'site-footer.html' %}
 
 </body>
 </html>

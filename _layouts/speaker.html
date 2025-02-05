@@ -5,15 +5,15 @@
 {{ page.name }} | Mangfold i mai
 {% endcapture %}
 
-{% include head.html
-title=title
-summary="En av mange talere på Mangfold i mai 2024! Feir mangfold med oss!"
+{% include 'head.html',
+title=title,
+summary="En av mange talere på Mangfold i mai 2024! Feir mangfold med oss!",
 url="https://mangfoldimai.no" %}
 
 <body class="layout-{{ page.layout }}">
 <a id="skip" href="#content">Hopp til innholdet.</a>
 
-{% include site-header.html %}
+{% include 'site-header.html' %}
 
 <main id="content" tabindex="-1">
     <div class="wrapper">
@@ -24,7 +24,7 @@ url="https://mangfoldimai.no" %}
     {% endif %}
 
     <div>
-        {% include page-header.html %}
+        {% include 'page-header.html' %}
         <p class="summary">{{page.summary}}</p>
         {{ content }}
     </div>
@@ -66,7 +66,7 @@ url="https://mangfoldimai.no" %}
     </div>
 </main>
 
-{% include site-footer.html %}
+{% include 'site-footer.html' %}
 
 </body>
 </html>

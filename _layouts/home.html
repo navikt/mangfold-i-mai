@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="no">
 
-{% include head.html
-title="Mangfold i mai"
-summary="Feir mangfold, inkludering og universell utforming!"
+{% include 'head.html',
+title="Mangfold i mai",
+summary="Feir mangfold, inkludering og universell utforming!",
 url="https://mangfoldimai.no" %}
 
 <body class="layout-home">
 <a id="skip" href="#content">Hopp til innholdet.</a>
 
-{% include site-header.html %}
+{% include 'site-header.html' %}
 
 <main id="content" tabindex="-1">
     <div class="wrapper">
@@ -27,7 +27,7 @@ url="https://mangfoldimai.no" %}
         {% assign today-date = "now" | date: "%F" %}
 
         {% if month == "05" and last-date >= today-date %}
-            {% include events-list.html title="Dagens agenda" date=today %}
+            {% include 'events-list.html', title="Dagens agenda", date=today %}
             
             <div style="padding:56.25% 0 0 0;position:relative;">
                 <iframe
@@ -47,7 +47,7 @@ url="https://mangfoldimai.no" %}
     </div>
 </main>
 
-{% include site-footer.html %}
+{% include 'site-footer.html' %}
 
 <!-- Last build: {{ site.time }} -->
 <!-- Calculated time: {{ current-time }} -->

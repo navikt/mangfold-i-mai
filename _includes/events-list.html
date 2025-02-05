@@ -3,14 +3,14 @@
 
     {% if include.date %}
 
-        {% include events.html date=include.date show-empty-events=true %}
+        {% include 'events.html', date=include.date, show-empty-events=true %}
 
     {% else %}
 
-        {% assign dates = site.dates | sort: 'event-date' %}
+        {% assign dates = collections.dates | sort: 'event-date' %}
         {% for day in dates %}
             {% assign day-number = day.event-date | date: "%d" %}
-            {% include events.html date=day-number show-empty-events=false %}
+            {% include 'events.html', date=day-number, show-empty-events=false %}
         {% endfor %}
 
     {% endif %}

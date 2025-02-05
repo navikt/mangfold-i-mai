@@ -7,11 +7,11 @@ eleventyNavigation:
   title: Foredragsholdere
   order: 2
 ---
-{% include page-header.html %}
+{% include 'page-header.html' %}
 
 <ul class="speakers-list">
     {% assign speakers = site.speakers %}
     {% for speaker in speakers %}
-        {% include speaker-card.html speaker=speaker.name %}
+        {% include 'speaker-card.html', speaker=speaker.name %}
     {% endfor %}
 </ul>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="no">
 
-{% include head.html
-title="Program | Mangfold i mai"
-summary="Feir mangfold, inkludering og universell utforming!"
+{% include 'head.html',
+title="Program | Mangfold i mai",
+summary="Feir mangfold, inkludering og universell utforming!",
 url="https://mangfoldimai.no" %}
 
 {% assign content = content | strip_newlines %}
@@ -11,7 +11,7 @@ url="https://mangfoldimai.no" %}
 <body class="layout-home">
 <a id="skip" href="#content">Hopp til innholdet.</a>
 
-{% include site-header.html %}
+{% include 'site-header.html' %}
 
 <main id="content" tabindex="-1">
     <div class="wrapper">
@@ -25,7 +25,7 @@ url="https://mangfoldimai.no" %}
 
         <div class="program-header">
 
-            {% include page-header.html %}
+            {% include 'page-header.html' %}
 
             <details>
                 <summary><span aria-hidden>⚙️ </span>Filter</summary>
@@ -45,11 +45,11 @@ url="https://mangfoldimai.no" %}
 
     </div>
 
-    {% include events-list.html %}
+    {% include 'events-list.html' %}
 
 </main>
 
-{% include site-footer.html %}
+{% include 'site-footer.html' %}
 
 <script src="{{ "/assets/js/program.js" | relative_url }}"></script>
 
