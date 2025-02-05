@@ -1,5 +1,5 @@
 {% assign number-of-events = 0 %}
-{% assign events = site.events | sort: 'event-date' %}
+{% assign events = collections.events | sort: 'event-date' %}
 {% for event in events %}
 {% assign event-date = event.event-date | date: "%d" %}
 {% if include.date == event-date %}
@@ -10,7 +10,7 @@
 
 {% if number-of-events > 0 %}
     <section>
-    {% assign dates = site.dates %}
+    {% assign dates = collections.dates %}
     {% for day in dates %}
     {% assign day-date = day.event-date | date: "%d" %}
     {% if day-date == include.date %}

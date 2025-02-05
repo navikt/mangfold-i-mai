@@ -22,7 +22,7 @@ url="https://mangfoldimai.no" %}
 
         {% assign today = "now" | date: "%d" %}
         {% assign month = "now" | date: "%m" %}
-        {% assign dates = site.dates | sort: 'event-date' %}
+        {% assign dates = collections.dates | sort: 'event-date' %}
         {% assign last-date = dates.last.event-date | date: "%F" %}
         {% assign today-date = "now" | date: "%F" %}
 
