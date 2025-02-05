@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: about/
-categories: menu
 title: Om Mangfold i mai
-menu-title: Om Mangfold i mai
-order: 3
+eleventyNavigation:
+  key: menu
+  title: Om Mangfold i mai
+  order: 3
 ---
 
 **Mangfold i mai** er en årlig arrangementsserie i mai som startet i 2022 av NAV IT sitt team for universell utforming av IT. 
