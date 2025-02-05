@@ -8,7 +8,7 @@
     {% if event.video  %}
 
     <li>
-        <a href="{{ event.url  | relative_url }}">
+        <a href="{{ event.url  | htmlBaseUrl }}">
             {{ event.title }}</a>
     </li>
 

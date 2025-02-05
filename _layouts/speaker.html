@@ -20,7 +20,7 @@ url="https://mangfoldimai.no" %}
 <div class="speaker-header">
     {% if page.image %}
         {% assign image_url = "/assets/images/speakers/optimized/" | append: page.image %}
-        <img class="speaker-image" src="{{ image_url | relative_url }}" alt="{{ page.name }}" aria-hidden="true">
+        <img class="speaker-image" src="{{ image_url | htmlBaseUrl }}" alt="{{ page.name }}" aria-hidden="true">
     {% endif %}
 
     <div>
@@ -42,7 +42,7 @@ url="https://mangfoldimai.no" %}
         <li class="event">
             <div class="event-header">
                 <h3 class="title">
-                    <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+                    <a href="{{ event.url | htmlBaseUrl }}">{{ event.title }}</a>
                 </h3>
                 <p class="date">
                     <span class="icon date">

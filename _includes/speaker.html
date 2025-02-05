@@ -5,10 +5,10 @@
 
 <p>{{ speaker }}</p>
 
-<p>Les mer om <a href="{{ speaker.url | relative_url }}">{{ speaker.name }}</a></p>
+<p>Les mer om <a href="{{ speaker.url | htmlBaseUrl }}">{{ speaker.name }}</a></p>
 
 {% assign image_url = "/assets/images/speakers/" | append: speaker.image %}
-<img src="{{ image_url | relative_url }}" alt="{{ speaker.name }}">
+<img src="{{ image_url | htmlBaseUrl }}" alt="{{ speaker.name }}">
 
 {% endif %}
 {% endfor %}

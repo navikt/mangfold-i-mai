@@ -189,14 +189,14 @@ url="https://mangfoldimai.no/{page.url}" %}
 
                         {% if render-speaker-image %}
                             {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
-                            <img src="{{ image_url | relative_url }}" alt="{{ speaker }}" aria-hidden="true">
+                            <img src="{{ image_url | htmlBaseUrl }}" alt="{{ speaker }}" aria-hidden="true">
                         {% endif %}
 
                         <div class="about">
                             {% if render-speaker-name == undefined %}
                             <span class="name">{{ speaker }}</span>
                             {% else %}
-                            <a class="name" href="{{ render-speaker-url | relative_url }}">{{ render-speaker-name }}</a>
+                            <a class="name" href="{{ render-speaker-url | htmlBaseUrl }}">{{ render-speaker-name }}</a>
                             {% endif %}
 
                             {% if render-speaker-summary %}

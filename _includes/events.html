@@ -16,7 +16,7 @@
     {% if day-date == include.date %}
         <div class="day-header">
             <h3 class="date">
-                <a href="{{ day.url  | relative_url }}">
+                <a href="{{ day.url  | htmlBaseUrl }}">
                     <span>
                         <span class="day-number">
                             <div>{% include localized-weekday.html weekday=event-weekday %}</div>
@@ -50,7 +50,7 @@
                     </div>
 
                     <h3 class="title">
-                        <a href="{{ event.url  | relative_url }}">
+                        <a href="{{ event.url  | htmlBaseUrl }}">
                             {{ event.title }}
                         </a>
                     </h3>

@@ -15,12 +15,12 @@
 <li class="speaker-card">
     {% if render-speaker-image %}
         {% assign image_url = "/assets/images/speakers/optimized/" | append: render-speaker-image %}
-        <img class="pic" src="{{ image_url | relative_url }}" alt="{{ render-speaker-name }}" aria-hidden="true" loading="lazy">
+        <img class="pic" src="{{ image_url | htmlBaseUrl }}" alt="{{ render-speaker-name }}" aria-hidden="true" loading="lazy">
     {% endif %}
 
     <div class="about">
         <div class="name">
-            <a href="{{ render-speaker-url | relative_url }}" class="name">
+            <a href="{{ render-speaker-url | htmlBaseUrl }}" class="name">
                 {{ render-speaker-name }}
             </a>
         </div>

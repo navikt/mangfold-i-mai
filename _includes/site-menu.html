@@ -4,9 +4,9 @@
         {% for page in sorted-menu-pages %}
         {% if page.categories contains 'menu' %}
         <li>
-            <a href="{{ page.url | relative_url }}">
                 {% if page.menu-title %}
                 {{ page.menu-title }}
+            <a href="{{ item.url }}">
                 {% else %}
                 {{ page.title }}
                 {% endif %}

@@ -1,9 +1,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="icon" type="image/svg+xml" href="{{ "/assets/images/favicon.svg" | relative_url }}">
-    <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" | relative_url }}">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="icon" type="image/svg+xml" href="{{ "/assets/images/favicon.svg" | htmlBaseUrl }}">
+    <link rel="icon" type="image/png" href="{{ "/assets/images/favicon.png" | htmlBaseUrl }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
     <meta property="og:title" content="{{include.title}}">
     <meta property="og:description" content="{{include.summary}}">
     <meta property="og:url" content="{{include.url}}">
-    <meta property="og:image" content="{{ '/assets/images/mim-banner.png' | relative_url }}">
+    <meta property="og:image" content="{{ '/assets/images/mim-banner.png' | htmlBaseUrl }}">
     <meta property="og:image:alt" content="Fargerike folk">
     
     <script>
