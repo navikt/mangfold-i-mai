@@ -53,6 +53,7 @@
     }
 }
 
+
 @media only screen and (min-width: $break2) {
     .layout-home {
 
@@ -71,8 +72,8 @@
 
             img {
                 max-width: 50%;
+                height: auto;
             }
-
         }
 
         .events {
