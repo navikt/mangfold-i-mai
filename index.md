@@ -7,7 +7,7 @@ title: Mangfold i mai - velkommen!
 
 # Happy Global Accessibility Awareness Day!
 
-Du finner programmet til årets Mangfold i mai på [program-siden](https://navikt.github.io/mangfold-i-mai/program/). 
+Du finner programmet til årets Mangfold i mai på [program-siden](program/). 
 
 Årets program blir mer komprimert, og dere finner masse spennende på **8., 13., 14., 15. og 16. mai**, med en kickoff **3. mai** med UDDay 2024. 
 
