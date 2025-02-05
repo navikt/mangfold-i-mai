@@ -14,6 +14,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('assets/images/nav-logo.svg')
   eleventyConfig.addPassthroughCopy('assets/images/mim-banner.png')
+  eleventyConfig.addPassthroughCopy('assets/images/favicon.png')
+  eleventyConfig.addPassthroughCopy('assets/images/favicon.svg')
 
   // Sass stuff
   eleventyConfig.addTemplateFormats('scss')
@@ -64,10 +66,8 @@ export default async function (eleventyConfig) {
     return new Date().toISOString()
   })
 
-  eleventyConfig.setLiquidOptions({
-    dynamicPartials: false,
-    root: ['_includes', '.'],
-  })
+  // Liquid Templating Language Options
+  eleventyConfig.setLiquidOptions({})
 }
 
 export const config = {
