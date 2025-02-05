@@ -1,5 +1,17 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
-@import "main";
+@charset "utf-8";
+@import "../_sass/variables";
+@import "../_sass/base";
+@import "../_sass/events";
+@import "../_sass/site-header";
+@import "../_sass/site-footer";
+@import "../_sass/icons-and-badges";
+@import "../_sass/speaker-card";
+@import "../_sass/layout-default";
+@import "../_sass/layout-date";
+@import "../_sass/layout-event";
+@import "../_sass/layout-home";
+@import "../_sass/layout-page";
+@import "../_sass/layout-no-page";
+@import "../_sass/layout-program";
+@import "../_sass/layout-speaker";
+@import "../_sass/layout-speakers-list";
