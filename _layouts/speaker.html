@@ -2,13 +2,13 @@
 <html lang="no">
 
 {% capture title %}
-{{ page.name }} | Mangfold i mai
+{{ name }} | Mangfold i mai
 {% endcapture %}
 
 {% include 'head.html',
-title=title,
-summary="En av mange talere på Mangfold i mai 2024! Feir mangfold med oss!",
-url="https://mangfoldimai.no" %}
+site_title:title,
+site_summary:"En av mange talere på Mangfold i mai 2024! Feir mangfold med oss!",
+site_url:"https://mangfoldimai.no" %}
 
 <body class="layout-{{ page.layout }}">
 <a id="skip" href="#content">Hopp til innholdet.</a>
