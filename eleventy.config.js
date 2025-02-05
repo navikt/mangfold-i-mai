@@ -16,6 +16,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets/images/mim-banner.png')
   eleventyConfig.addPassthroughCopy('assets/images/favicon.png')
   eleventyConfig.addPassthroughCopy('assets/images/favicon.svg')
+  eleventyConfig.addPassthroughCopy('assets/Montserrat.latin.woff2')
 
   // Sass stuff
   eleventyConfig.addTemplateFormats('scss')
