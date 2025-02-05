@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Iris Bore
 image: IrisBore.jpg
 summary: Data Scientist i NAV IT

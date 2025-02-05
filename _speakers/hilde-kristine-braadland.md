@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Hilde Kristine Braadland
 image: hilde-kristine-braadland.jpeg
 summary: Seniorrådgiver hos NAV Hjelpemiddelsentralen Vest-Viken

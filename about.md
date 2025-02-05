@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: "page.html"
 permalink: about/
 title: Om Mangfold i mai
 eleventyNavigation:

@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "MÅ DESSVERRE AVLYSES. Tilgjengelighetserklæringer i en stor organisasjon: utfordringer og muligheter"
 speakers: Sarah Brodwall
 summary: 

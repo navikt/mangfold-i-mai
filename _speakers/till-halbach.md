@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Till Halbach
 image: till-halbach.jpg
 summary: Seniorforsker ved forskningsstiftelsen Norsk Regnesentral 

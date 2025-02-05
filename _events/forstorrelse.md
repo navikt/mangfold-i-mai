@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "Liten skrift, nedsatt syn, og «magiske forstørrelsesglass»"
 speakers: Frode Eika Sandnes
 summary: Hvordan jeg laget det smarte forstørrelsesprogrammet jeg alltid har drømt om!

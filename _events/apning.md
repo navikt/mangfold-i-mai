@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "Åpning av Mangfold i mai"
 speakers:
   [

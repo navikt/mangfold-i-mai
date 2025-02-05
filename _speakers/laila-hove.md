@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Laila Hove
 image: laila.jpeg
 summary: Leder av Team NAV Ung, Arbeids- og tjenesteavdeling, NAV

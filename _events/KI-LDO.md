@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "KI og diskriminering - kan det unngås?"
 speakers:
   [

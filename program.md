@@ -1,5 +1,5 @@
 ---
-layout: program
+layout: "program.html"
 title: Program
 permalink: program/
 eleventyNavigation:

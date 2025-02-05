@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Frode Eika Sandnes
 image: frode.jpg
 summary: Professor Frode Eika Sandes, faggruppen for universell utforming av IKT, OsloMet.

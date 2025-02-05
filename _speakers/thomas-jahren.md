@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Thomas Jahren
 image: thomas.jpg
 summary: Seniorrådgiver i Likestillings- og Diskrimineringsombudet

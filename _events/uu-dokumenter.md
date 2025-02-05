@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "Dokumenter - Er uu bare mas, eller er det kjempestas?"
 speakers: Morten Tollefsen
 summary: Universell utforming av elektroniske dokumenter.

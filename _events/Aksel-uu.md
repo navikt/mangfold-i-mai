@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "Slik rigger vi NAV for å bli best på universell utforming"
 speakers: Vegard Haugstvedt
 summary: Aksel og uu-teamet skalerer uu-arbeidet i 80 produktteam.

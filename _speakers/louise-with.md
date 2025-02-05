@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Louise Eie With
 image: louise.jpg
 summary: Fagansvarlig for klarspråk i NAV

@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: "event.html"
 title: "Automatisert testing av universell utforming"
 speakers: Vegard Haugstvedt
 summary: Rydd tid til de viktige oppgavene ved å automatisere det du kan.

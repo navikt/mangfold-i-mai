@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: David Hole
 image: david-hole.jpg
 summary: Spesialist i universell utforming av IKT i NAV IT

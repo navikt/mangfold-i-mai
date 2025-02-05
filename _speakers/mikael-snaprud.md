@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Mikael Snaprud
 image: mikael-snaprud2.jpg
 summary: Mikael er daglig leder for Tingtun AS og førsteamanuensis ved Universitetet i Agder.

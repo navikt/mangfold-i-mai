@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Kristin Skeide Fuglerud
 image: Kristin-Fuglerud.jpg
 summary: Sjefsforsker og fagansvarlig for digital inkludering ved forskningsinstituttet Norsk Regnesentral og førsteamanuensis II ved Senter for helse og teknologi ved Universitetet i Sørøst-Norge.

@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Beate Sletvold Øistad
 image: beate.png
 summary: Seniorrådgiver i Likestillings- og Diskrimineringsombudet

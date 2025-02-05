@@ -1,5 +1,5 @@
 ---
-layout: speaker
+layout: "speaker.html"
 name: Jon-Vegard Sparre
 image: jon-vegard-sparre.png
 summary: Fagfasilitator for KI-fagmiljøet i NAVs IT-avdeling.
