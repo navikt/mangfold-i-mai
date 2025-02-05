@@ -1,4 +1,4 @@
 {
-  "permalink": false,
+  "permalink": "/dates/{{ page.fileSlug }}.html",
   "tags": ["dates"]
 }
