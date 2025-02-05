@@ -50,6 +50,7 @@ export default async function (eleventyConfig) {
     formats: ['avif', 'webp', 'auto'],
     widths: ['auto'],
     failOnError: false,
+    urlPath: '/assets/images/',
     htmlOptions: {
       imgAttributes: {
         loading: 'lazy',
