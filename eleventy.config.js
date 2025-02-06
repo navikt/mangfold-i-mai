@@ -1,25 +1,26 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
+import compression from 'compression'
+import { minifyHtml } from './_11ty/transforms.js'
+import markdownItAttrs from 'markdown-it-attrs'
 
 import * as sass from 'sass'
 import path from 'path'
 
 export default async function (eleventyConfig) {
-  // Watch images for the image pipeline.
-  eleventyConfig.addWatchTarget('*.scss')
-
   // Passthrough Copy
   eleventyConfig.addPassthroughCopy('assets/js')
+  eleventyConfig.addPassthroughCopy('assets/Montserrat.latin.woff2')
   eleventyConfig.addPassthroughCopy('assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('assets/images/nav-logo.svg')
   eleventyConfig.addPassthroughCopy('assets/images/mim-banner.png')
   eleventyConfig.addPassthroughCopy('assets/images/favicon.png')
   eleventyConfig.addPassthroughCopy('assets/images/favicon.svg')
-  eleventyConfig.addPassthroughCopy('assets/Montserrat.latin.woff2')
 
-  // Sass stuff
+  // Scss Compilation
   eleventyConfig.addTemplateFormats('scss')
+  eleventyConfig.addWatchTarget('*.scss')
   eleventyConfig.addExtension('scss', {
     outputFileExtension: 'css', // optional, default: "html"
 
@@ -32,12 +33,14 @@ export default async function (eleventyConfig) {
 
       let result = sass.compileString(inputContent, {
         loadPaths: [parsed.dir || '.', this.config.dir.includes],
+        style: 'compressed',
+        sourceMap: true,
       })
 
       this.addDependencies(inputPath, result.loadedUrls)
 
       // This is the render function, `data` is the full data cascade
-      return async (data) => {
+      return async () => {
         return result.css
       }
     },
@@ -46,7 +49,6 @@ export default async function (eleventyConfig) {
   // Eleventy Plugins
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin)
-
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ['avif', 'webp', 'auto'],
     widths: ['auto'],
@@ -63,6 +65,9 @@ export default async function (eleventyConfig) {
     },
   })
 
+  // Transforms
+  eleventyConfig.addTransform('minifyHtml', minifyHtml)
+
   // Filters
   eleventyConfig.addShortcode('currentBuildDate', () => {
     return new Date().toISOString()
@@ -70,6 +75,17 @@ export default async function (eleventyConfig) {
 
   // Liquid Templating Language Options
   eleventyConfig.setLiquidOptions({})
+
+  // Eleventy Dev Server
+  eleventyConfig.setServerOptions({
+    enabled: true,
+    showVersion: true,
+    port: 8888,
+    middleware: [compression()],
+  })
+
+  // Extend Markdown-It
+  eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(markdownItAttrs))
 }
 
 export const config = {
@@ -80,5 +96,6 @@ export const config = {
     data: '_data',
     output: '_site_new',
   },
-  pathPrefix: '/mangfold-i-mai',
+  // pathPrefix: '/mangfold-i-mai',
 }
+
