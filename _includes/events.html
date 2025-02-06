@@ -14,19 +14,17 @@
     {% assign dates = collections.dates %}
     {% for day in dates %}
     {% assign day-date = day.data.event-date | date: "%d" %}
-
     {% if day-date == date %}
         <div class="day-header">
             <h3 class="date">
                 <a href="/dates/{{ day.fileSlug }}.html">
                     <span>
-                        <span class="day-number">
-                            <div>{% include 'localized-weekday.html', weekday:event-weekday %}</div>
-                            <strong>{{ day.data.event-date | date: "%-d" }}. mai</strong>
-                        </span>
-                        <span class="weekday">
-                            
-                        </span>
+                      <span class="weekday">
+                        {% include 'localized-weekday.html', weekday:event-weekday %}
+                      </span>
+                      <span class="day-number">
+                          <strong>{{ day.data.event-date | date: "%-d" }}. mai</strong>
+                      </span>
                     </span>
                 </a>
            </h3>
