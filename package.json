@@ -4,8 +4,8 @@
   "description": "[Legg inn en issue](https://github.com/navikt/mangfold-i-mai/issues) eller ta kontakt med [uu-teamet](mailto:uu@nav.no) hvis du har kommentarer eller spørsmål.",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,11 @@
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^6.0.1",
     "@11ty/eleventy-navigation": "^0.3.5",
+    "html-minifier-terser": "^7.2.0",
+    "markdown-it-attrs": "^4.3.1",
     "sass": "^1.83.4"
+  },
+  "devDependencies": {
+    "compression": "^1.7.5"
   }
 }
