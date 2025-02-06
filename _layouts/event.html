@@ -482,22 +482,6 @@
 
             {% for speaker in speakers %}
             <div class="speaker">
-              {% assign render-speaker-name = undefined %} {% assign
-              render-speaker-url = undefined %} {% assign render-speaker-image =
-              undefined %} {% assign render-speaker-summary = undefined %} {%
-              for site-speaker in collections.speakers %} {% if
-              site-speaker.data.name == speaker %} {% assign render-speaker-name
-              = site-speaker.data.name %} {% assign render-speaker-url =
-              site-speaker.url %} {% assign render-speaker-image =
-              site-speaker.data.image %} {% assign render-speaker-summary =
-              site-speaker.data.summary %} {% endif %} {% endfor %} {% if
-              render-speaker-image %}
-              <img
-                src="/assets/images/speakers/optimized/{{ render-speaker-image }}"
-                alt="{{ speaker }}"
-                aria-hidden="true"
-                eleventy:widths="400"
-              />
               {% endif %}
 
               <div class="about">
@@ -509,6 +493,27 @@
                 >
                 {% endif %} {% if render-speaker-summary %}
                 <p class="summary">{{render-speaker-summary}}</p>
+                {% assign render-speaker-name = undefined %}
+                {% assign render-speaker-url = undefined %}
+                {% assign render-speaker-image = undefined %}
+                {% assign render-speaker-summary = undefined %}
+                {% for site-speaker in collections.speakers %} 
+                  {% if site-speaker.data.name == speaker %}
+                    {% assign render-speaker-name = site-speaker.data.name %}
+                    {% assign render-speaker-url = site-speaker.url %}
+                    {% assign render-speaker-image = site-speaker.data.image %}
+                    {% assign render-speaker-summary = site-speaker.data.summary %}
+                  {% endif %}
+                {% endfor %}
+                {% if render-speaker-image %}
+                <img
+                  src="/assets/images/speakers/optimized/{{ render-speaker-image }}"
+                  alt="{{ speaker }}"
+                  aria-hidden="true"
+                  eleventy:widths="400"
+                  loading="eager"
+                  decoding="auto"
+                />
                 {% endif %}
               </div>
             </div>

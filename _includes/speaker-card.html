@@ -1,6 +1,13 @@
 <li class="speaker-card">
     {% if speaker.image %}
-        <img class="pic" src="/assets/images/speakers/optimized/{{ speaker.image }}" alt="{{ render-speaker-name }}" aria-hidden="true" loading="lazy" eleventy:widths="200">
+        <img 
+          class="pic" 
+          src="/assets/images/speakers/optimized/{{ speaker.image }}" 
+          alt="{{ render-speaker-name }}" 
+          aria-hidden="true" 
+          loading="{% if index < 4 %}eager{% else %}lazy{% endif %}"
+          decoding="auto"
+          eleventy:widths="200">
     {% endif %}
 
     <div class="about">

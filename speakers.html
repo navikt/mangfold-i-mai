@@ -11,6 +11,7 @@ eleventyNavigation:
 
 <ul class="speakers-list">
     {% for speaker in collections.speakers %}
-        {% render 'speaker-card.html' speaker:speaker.data %}
+      {% assign index = forloop.index %}
+        {% render 'speaker-card.html' speaker:speaker.data, index:index %}
     {% endfor %}
 </ul>
