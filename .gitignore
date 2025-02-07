@@ -7,3 +7,4 @@ vendor
 .idea
 /Gemfile.lock
 .bundle
+.vscode/settings.json
