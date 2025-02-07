@@ -17,6 +17,9 @@ a {
     }
 }
 
+picture {
+  display: contents;
+}
 
 .colorful {
     background-image: linear-gradient(-60deg, $sketch-pink, $sketch-orange, $sketch-green, $sketch-medium-blue, $sketch-purple);
