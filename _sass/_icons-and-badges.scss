@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use "variables" as v;
+
 // .icon {
 //     padding: 0 1em 0 1.5em;
 //     background: no-repeat left center / 18px;
@@ -60,23 +63,23 @@
     }
 
     &.red {
-        background-color: adjust-color(red, $lightness: 40%);
+        background-color: color.adjust(red, $lightness: 40%);
     }
 
     &.blue {
-        background-color: adjust-color($sketch-light-blue, $lightness: 15%);
+        background-color: color.adjust(v.$sketch-light-blue, $lightness: 15%);
     }
 
     &.green {
-        background-color: adjust-color($sketch-green, $lightness: 15%);
+        background-color: color.adjust(v.$sketch-green, $lightness: 15%);
     }
 
     &.yellow {
-        background-color: adjust-color($sketch-yellow, $lightness: 12%);
+        background-color: color.adjust(v.$sketch-yellow, $lightness: 12%);
     }
 
     &.purple {
-        background-color: adjust-color($light-purple, $lightness: 10%);
+        background-color: color.adjust(v.$light-purple, $lightness: 10%);
         background: #f8e8ff;
     }
 }

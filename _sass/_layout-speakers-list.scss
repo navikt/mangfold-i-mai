@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 .speakers-list {
     margin-top: 2em;
     display: grid;
@@ -7,7 +9,7 @@
     padding: 0;
 }
 
-@media screen and (min-width: $break2) {
+@media screen and (min-width: v.$break2) {
     .speakers-list {
         grid-template-columns: repeat(2, 1fr);
     }

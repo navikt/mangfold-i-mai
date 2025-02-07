@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 // SCSS for the "home" layout
 
 .layout-home {
@@ -37,7 +39,7 @@
 
     a {
         text-decoration: none;
-        color: $darker-green;
+        color: v.$darker-green;
 
         &:hover, &:focus {
             text-decoration: underline;
@@ -47,7 +49,7 @@
 
 }
 
-@media only screen and (min-width: $break1) {
+@media only screen and (min-width: v.$break1) {
 
     .layout-home {
 
@@ -55,7 +57,7 @@
 }
 
 
-@media only screen and (min-width: $break2) {
+@media only screen and (min-width: v.$break2) {
     .layout-home {
 
         .flash {

@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 :root {
     font-size: 100%;
 }
@@ -5,15 +7,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
-    color: $sketch-dark-blue;
+    color: v.$sketch-dark-blue;
     background:#fafafa;
 }
 
 a {
-    color: $primary;
+    color: v.$primary;
 
     &:focus {
-        outline: 3px dashed $secondary;
+        outline: 3px dashed v.$secondary;
     }
 }
 
@@ -22,7 +24,7 @@ picture {
 }
 
 .colorful {
-    background-image: linear-gradient(-60deg, $sketch-pink, $sketch-orange, $sketch-green, $sketch-medium-blue, $sketch-purple);
+    background-image: linear-gradient(-60deg, v.$sketch-pink, v.$sketch-orange, v.$sketch-green, v.$sketch-medium-blue, v.$sketch-purple);
     background-size: 100%;
 }
 
@@ -53,7 +55,7 @@ p, ul, ol, dl {
 }
 
 .cta {
-    color: $darker-green;
+    color: v.$darker-green;
     font-size: 1.15em;
     font-weight: 600;
     padding-right: 1.35em;
@@ -91,7 +93,7 @@ p, ul, ol, dl {
   top: 0;
   white-space: nowrap;
   background:#eee;
-  color:$sketch-dark-blue;
+  color: v.$sketch-dark-blue;
   transform: translate(0, -100%) rotate(45deg);
   transform-origin: 0 100%;
   padding: 0.5rem 3rem;

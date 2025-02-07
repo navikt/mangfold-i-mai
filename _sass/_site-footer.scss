@@ -1,3 +1,6 @@
+@use "variables" as v;
+@forward "_base";
+
 .site-footer {
     margin: 1rem 0 0;
     padding: 2rem 0;
@@ -57,7 +60,7 @@
                 }
 
                 &:focus {
-                    outline: 3px dashed $sketch-dark-blue;
+                    outline: 3px dashed v.$sketch-dark-blue;
                 }
             }
         }
@@ -86,7 +89,7 @@
 }
 
 
-@media only screen and (min-width: $break2) {
+@media only screen and (min-width: v.$break2) {
     .site-footer {
         padding: 2rem 0;
 
@@ -100,7 +103,7 @@
     }
 }
 
-@media only screen and (min-width: $break3) {
+@media only screen and (min-width: v.$break3) {
     .site-footer {
         padding: 4rem 0;
 

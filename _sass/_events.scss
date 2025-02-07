@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 // For the events listing include
 
 #public:checked ~ section li:not(.public) {
@@ -14,11 +16,11 @@
         display: flex;
         align-items: center;
         justify-content: stretch;
-        border-top:5px solid $primary;
+        border-top:5px solid v.$primary;
 
         .date {
             margin: 0;
-            background: $primary;
+            background: v.$primary;
             align-self: stretch;
 
             a {
