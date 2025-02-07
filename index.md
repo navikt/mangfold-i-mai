@@ -3,7 +3,7 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-top4.png)
+![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-top4.png){ loading=eager eleventy:widths=800 decoding=auto }
 
 # Happy Global Accessibility Awareness Day!
 
