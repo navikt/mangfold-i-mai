@@ -1,5 +1,9 @@
 @use "variables" as v;
 
+@view-transition {
+  navigation: auto;
+}
+
 :root {
     font-size: 100%;
 }
