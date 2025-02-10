@@ -1,6 +1,6 @@
 ---
 layout: program
-title: Program
+title: Program 2024
 permalink: program/
 categories: menu
 menu-title: Program
