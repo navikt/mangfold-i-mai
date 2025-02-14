@@ -3,6 +3,7 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
 import compression from 'compression'
 import { minifyHtml } from './_11ty/transforms.js'
+import { readableDate, listFormat } from './_11ty/filters.js'
 import markdownItAttrs from 'markdown-it-attrs'
 
 import * as sass from 'sass'
@@ -67,10 +68,14 @@ export default async function (eleventyConfig) {
     },
   })
 
+  // Filters
+  eleventyConfig.addFilter('readableDate', readableDate);
+  eleventyConfig.addFilter('listFormat', listFormat);
+
   // Transforms
   eleventyConfig.addTransform('minifyHtml', minifyHtml)
 
-  // Filters
+  // Shortcode
   eleventyConfig.addShortcode('currentBuildDate', () => {
     return new Date().toISOString()
   })
