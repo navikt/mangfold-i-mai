@@ -57,9 +57,9 @@ layout: 'default.html'
       <div class="participation-details">
         <ul>
           {% if privacy == "public" %}
-          <li><span class="badge green {{page.privacy}}">Åpent for alle</span></li>
+          <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
           {% else %}
-          <li><span class="badge red {{page.privacy}}">Bare for NAV-ansatte</span></li>
+          <li><span class="badge red {{ privacy }}">Bare for NAV-ansatte</span></li>
           {% endif %} 
 
           {% if location-type != "in-person" %}
@@ -78,20 +78,20 @@ layout: 'default.html'
           <span class="badge recorded">Blir tatt opp</span>
           {% endif %}
         </ul>
-        <!--
+        {% comment %}
         <ul>
             <li>
-                {% if page.privacy == "internal" %}
+                {% if privacy == "internal" %}
                 <span class="badge red">Bare for NAV-ansatte</span>
                 {% else %}
-                <span class="badge green">Åpent for asd alle</span>
+                <span class="badge green">Åpent for alle</span>
                 {% endif %}
             </li>
         </ul>
-        -->
+        {% endcomment %}
       </div>
 
-      <div class="description" {% if page.language %}lang="{{page.language}}"{% endif %}>
+      <div class="description" {% if language %}lang="{{ language }}"{% endif %}>
         {{ content }} 
         {% include 'live-stream.html' %}
       </div>
@@ -134,7 +134,7 @@ layout: 'default.html'
               </a>
               {% endif %}
               {% if render-speaker-summary %}
-              <p class="summary">{{render-speaker-summary}}</p>
+              <p class="summary">{{ render-speaker-summary }}</p>
               {% endif %}
             </div>
           </div>

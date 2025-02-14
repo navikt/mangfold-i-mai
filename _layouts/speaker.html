@@ -12,7 +12,7 @@ layout: 'default.html'
 
       <div>
         {% include 'page-header.html' %}
-        <p class="summary">{{summary}}</p>
+        <p class="summary">{{ summary }}</p>
         {{ content }}
       </div>
       </div>
@@ -41,7 +41,7 @@ layout: 'default.html'
             </span>
           </p>
         </div>
-        <p class="summary">{{event.data.summary}}</p>
+        <p class="summary">{{ event.data.summary }}</p>
       </li>
     {% endif %}
     {% endfor %}

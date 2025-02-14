@@ -1,8 +1,8 @@
 hello {{ privacy }} 123
 {% if privacy == "public" %}
-<span class="badge green {{event.privacy}}">Åpent for alle</span>
+<span class="badge green {{ event.privacy }}">Åpent for alle</span>
     {% else %}
-<span class="badge red {{event.privacy}}">Bare for NAV-ansatte</span>
+<span class="badge red {{ event.privacy }}">Bare for NAV-ansatte</span>
     {% endif %}
 
 
