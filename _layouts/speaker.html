@@ -23,7 +23,7 @@ layout: 'default.html'
       {% assign events = collections.events | sort: 'event-date' %}
       {% for event in events %}
       {% for speaker in event.data.speakers %}
-      {% if speaker == name %}
+      {% if speaker == title %}
       <li class="event">
         <div class="event-header">
           <h3 class="title">

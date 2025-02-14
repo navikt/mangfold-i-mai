@@ -3,7 +3,7 @@
         <img 
           class="pic" 
           src="/assets/images/speakers/optimized/{{ speaker.image }}" 
-          alt="{{ render-speaker-name }}" 
+          alt="{{ speaker.title }}" 
           aria-hidden="true" 
           loading="{% if index < 4 %}eager{% else %}lazy{% endif %}"
           decoding="auto"
@@ -12,8 +12,8 @@
 
     <div class="about">
         <div class="name">
-            <a href="/speakers/{{ speaker.name | slugify }}.html" class="name">
-                {{ speaker.name }}
+            <a href="/speakers/{{ speaker.title | slugify }}.html" class="name">
+                {{ speaker.title }}
             </a>
         </div>
 
