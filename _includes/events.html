@@ -62,11 +62,11 @@
 
                         {% else %}
 
-                            {{event.data.summary}}
+                            <p>{{event.data.summary}}</p>
 
                             {% if event.data.speakers %}
+                              <p>Med</p>
                                 <ul class="speakers">
-                                    Med 
                                     {% for speaker in event.data.speakers %}
                                         <li>{{ speaker }}</li>
                                     {% endfor %}
@@ -77,11 +77,11 @@
                     </div>
 
                 <div class="participation-details">
-                        {% if event.data.privacy == "public" %}
+                  {% if event.data.privacy == "public" %}
                     <span class="badge green {{event.data.privacy}}">Åpent for alle</span>
-                        {% else %}
+                  {% else %}
                     <span class="badge red {{event.data.privacy}}">Bare for NAV-ansatte</span>
-                        {% endif %}
+                  {% endif %}
 
 
 
