@@ -2,121 +2,104 @@
 {% assign events = collections.events | sort: 'data.event-date' %}
 
 {% for event in events %}
-  {% assign event-date = event.data.event-date | date: "%d" %}
+  {% assign event-date = event.data.event-date | readableDate: "dd" %}
   {% if date == event-date %}
   {% assign number-of-events = number-of-events | plus:1 %}
-  {% assign event-weekday = event.data.event-date | date: "%A" %}
+  {% assign event-weekday = event.data.event-date | readableDate: "d" %}
   {% endif %}
 {% endfor %}
 
 {% if number-of-events > 0 %}
     <section>
-    {% assign dates = collections.dates %}
-    {% for day in dates %}
-    {% assign day-date = day.data.event-date | date: "%d" %}
-    {% if day-date == date %}
-        <div class="day-header">
-            <h3 class="date">
-                <a href="/dates/{{ day.fileSlug }}.html">
-                    <span>
-                      <span class="weekday">
-                        {% include 'localized-weekday.html', weekday:event-weekday %}
-                      </span>
-                      <span class="day-number">
-                          <strong>{{ day.data.event-date | date: "%-d" }}. mai</strong>
-                      </span>
-                    </span>
+      {% assign dates = collections.dates %}
+      {% for day in dates %}
+      {% assign day-date = day.data.event-date | readableDate: "dd" %}
+      {% if day-date == date %}
+        <div>
+            <h3>
+                <a class="dateblob" href="/dates/{{ day.fileSlug }}.html" aria-label="{{ day.data.event-date | readableDate: 'cccc dd. LLLL' |  capitalize }}">
+                  <span class="dateblob__day" aria-hidden="true">
+                    {{ day.data.event-date | readableDate: 'ccc' | remove: '.' }}
+                  </span>
+                  <span class="dateblob__number" aria-hidden="true">
+                    {{ day.data.event-date | readableDate: "dd" | remove: '.' }}
+                  </span>
                 </a>
            </h3>
             {% if day.data.theme %}
-                <span class="theme">{{ day.data.theme }}</span>
+                <p class="theme">{{ day.data.theme }}</p>
             {% endif %}
         </div>
-    {% endif %}
-    {% endfor %}
+      {% endif %}
+      {% endfor %}
 
-    <ul class="schedule">
-        {% for event in events %}
-            {% assign event-date = event.data.event-date | date: "%d" %}
+      <ul class="schedule">
+          {% for event in events %}
+            {% assign event-date = event.data.event-date | readableDate: "dd" %}
             {% if date == event-date %}
+              <li class="{{ event.privacy }} {{ event.location-type }}">
+                <div class="time">
+                    <time datetime="{{ event.data.event-date | readableDate: 'T' }}">
+                      {{ event.data.event-date | readableDate: 'T' }}
+                    </time>
+                    <span class="til">til</span>
+                    <time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">
+                      {{ event.data.event-date-end | readableDate: 'T' }}
+                    </time>
+                </div>
 
-            <li class="{{event.privacy}} {{event.location-type}}">
-                {% assign hour = event.data.event-date | date: "%H" %}
+                <h3 class="title">
+                    <a href="{{ event.url }}">
+                        {{ event.data.title }}
+                    </a>
+                </h3>
 
-                    <div class="time">
-                        <time datetime="{{event.data.event-date | date: '%H:%M'}}">{{event.data.event-date | date: '%k:%M'}}</time>
-                        <span class="til">til</span>
-                        <time datetime="{{event.data.event-date-end | date: '%H:%M'}}">{{event.data.event-date-end | date: '%k:%M'}}</time>
-                    </div>
-
-                    <h3 class="title">
-                        <a href="{{ event.url }}">
-                            {{ event.data.title }}
-                        </a>
-                    </h3>
-
-                    <div class="summary">
-                        {% if event.data.summary-special %}
-
-                            {{ event.data.summary-special }}
-
-                        {% else %}
-
-                            <p>{{event.data.summary}}</p>
-
-                            {% if event.data.speakers %}
-                              <p>Med</p>
-                                <ul class="speakers">
-                                    {% for speaker in event.data.speakers %}
-                                        <li>{{ speaker }}</li>
-                                    {% endfor %}
-                                </ul>
-                            {% endif %}
-
-                        {% endif %}
-                    </div>
+                <div class="summary">
+                    {% if event.data.summary-special %}
+                        {{ event.data.summary-special }}
+                    {% else %}
+                        <p>
+                          {{ event.data.summary }}
+                          {% if event.data.speakers %}
+                            Med {{ event.data.speakers | listFormat }}.
+                          {% endif %}
+                        </p>
+                    {% endif %}
+                </div>
 
                 <div class="participation-details">
                   {% if event.data.privacy == "public" %}
-                    <span class="badge green {{event.data.privacy}}">Åpent for alle</span>
+                    <span class="badge green {{ event.data.privacy }}">Åpent for alle</span>
                   {% else %}
-                    <span class="badge red {{event.data.privacy}}">Bare for NAV-ansatte</span>
+                    <span class="badge red {{ event.data.privacy }}">Bare for NAV-ansatte</span>
                   {% endif %}
 
+                  {% if event.data.location-type != "in-person"  %}
+                    <span class="badge purple stream">Nettmøte</span>
+                  {% endif %}
 
-
-                    {% if event.data.location-type != "in-person"  %}
-                        <span class="badge purple stream">Nettmøte</span>
-                    {% endif %}
-
-                    {% if event.data.location-type != "stream" %}
+                  {% if event.data.location-type != "stream" %}
                     <span class="badge blue in-person">Fysisk arrangement</span>
-                    {% endif %}
+                  {% endif %}
 
-                    {% if event.data.registration == true or event.data.registration-link %}
+                  {% if event.data.registration == true or event.data.registration-link %}
                     <span class="badge yellow registration-required">Krever påmelding</span>
-                    {% endif %}
+                  {% endif %}
 
-                    {% if event.data.video-url %}
+                  {% if event.data.video-url %}
                     <span class="badge recorded">Opptak tilgjengelig</span>
-                    {% elsif event.data.recorded == true %}
+                  {% elsif event.data.recorded == true %}
                     <span class="badge recorded">Blir tatt opp</span>
-                    {% endif %}
-
+                  {% endif %}
                 </div>
-
-            </li>
-
+                <hr>
+              </li>
             {% endif %}
-        {% endfor %}
-
-    </ul>
-</section>
-
+          {% endfor %}
+        </ul>
+    </section>
 {% else %}
-
     {% if show-empty-events %}
-        <p class="no-events">Ingen&nbsp;arrangementer&nbsp;i&nbsp;dag.</p>
+        <p class="no-events">Ingen arrangementer i dag.</p>
     {% endif %}
-
 {% endif %}

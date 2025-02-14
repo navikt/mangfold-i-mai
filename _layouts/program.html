@@ -14,23 +14,23 @@ title: 'Program'
 {% endunless %}
 
 <div class="program-header">
-  {% include 'page-header.html' %}
+  <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1>
 
-    <details>
-      <summary><span aria-hidden>⚙️ </span>Filter</summary>
-      <form id="program-filter-form">
-        <fieldset>
-          <legend>Filtrer program</legend>
-          <label><input type="radio" name="filter" checked value="all" />Vis alle</label>
-          <label><input type="radio" name="filter" checked value="public" />Åpent for alle</label>
-          <label><input type="radio" name="filter" checked value="internal" />Bare for NAV-ansatte</label>
-          <label><input type="radio" name="filter" checked value="stream" />Nettmøte</label>
-          <label><input type="radio" name="filter" checked value="in-person" />Fysisk arrangement</label>
-          <label><input type="radio" name="filter" checked value="registration-required" />Krever påmelding</label>
-        </fieldset>
-      </form>
-    </details>
-    </div>
+  <details>
+    <summary><span aria-hidden>⚙️ </span>Filter</summary>
+    <form id="program-filter-form">
+      <fieldset>
+        <legend>Filtrer program</legend>
+        <label><input type="radio" name="filter" checked value="all" />Vis alle</label>
+        <label><input type="radio" name="filter" checked value="public" />Åpent for alle</label>
+        <label><input type="radio" name="filter" checked value="internal" />Bare for NAV-ansatte</label>
+        <label><input type="radio" name="filter" checked value="stream" />Nettmøte</label>
+        <label><input type="radio" name="filter" checked value="in-person" />Fysisk arrangement</label>
+        <label><input type="radio" name="filter" checked value="registration-required" />Krever påmelding</label>
+      </fieldset>
+    </form>
+  </details>
+</div>
 
 {% include 'events-list.html' %}
 

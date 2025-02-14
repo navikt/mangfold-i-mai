@@ -4,7 +4,7 @@ layout: 'default.html'
 
 {% block content %}
   <div class="container">
-      <h1 class="title" {% if page.language %}lang="{{page.language}}"{% endif %}>
+      <h1 class="title" {% if page.language %}lang="{{ page.language }}"{% endif %}>
         {{ title }}
       </h1>
 
@@ -12,24 +12,24 @@ layout: 'default.html'
         <ul>
           <!-- DATE AND TIME -->
           <li>
-            <b>{% include 'localized-date.html' %}</b>
+            <b>{{ event-date | readableDate: 'DDDD' | capitalize }}</b>
           </li>
 
           <li>
-            {{ event-date | date: "%k"}}:{{ event-date | date: "%M"}} - {{
-            event-date-end | date: "%k"}}:{{ event-date-end | date: "%M"}}
+            {{ event-date | readableDate: 'T' }}–{{
+            event-date-end | readableDate: 'T' }}
           </li>
 
           <!-- LOCATION -->
 
           {% case location-type %} 
             {% when "stream" %}
-              <li>{{ location-name }}</li>
+              {% if location-name %}<li>{{ location-name }}</li>{% endif %}
               {% if location-link %}
               <li>▶️ <a href="{{ location-link }}">Nettmøte</a></li>
               {% endif %} 
             {% when "in-person" %}
-              <li>{{ location-name }}</li>
+              {% if location-name %}<li>{{ location-name }}</li>{% endif %}
               {% when "hybrid" %}
               <li>
                 {{ location-name }} 
@@ -38,7 +38,7 @@ layout: 'default.html'
                 {% endif %}
               </li>
               {% if location-link %}
-              <li>▶️ <a href="{{ page.location-link }}">Nettmøte</a></li>
+              <li>▶️ <a href="{{ location-link }}">Nettmøte</a></li>
               {% endif %}
           {% endcase %}
 
@@ -48,7 +48,7 @@ layout: 'default.html'
 
           {% if registration-link %}
           <li>
-            📝 <a href="{{ page.registration-link }}">Registrer deg her</a>
+            📝 <a href="{{ registration-link }}">Registrer deg her</a>
           </li>
           {% endif %}
         </ul>

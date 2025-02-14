@@ -1,38 +1,27 @@
-{% assign event-date = event-date | date: "%F" %}
-{% assign today = now | date: "%F" %}
-{% assign event-date-unix = event-date | date: "%s" %}
-{% assign today-unix = "now" | date: "%s" %}
+{% assign event-date = event-date | readableDate: "yyyy-LL-dd" %}
+{% assign today = site.today | readableDate: "yyyy-LL-dd" %}
+{% assign event-date-unix = event-date | readableDate: "X" %}
+{% assign today-unix = site.today | readableDate: "X" %}
 
 {% if location-type != "in-person" and skip-video != true and event-date >= today %}
+  
     {% if event-date-unix > today-unix %}
-        <p>Videosendingen starter
+      <p>Videosendingen starter
         {% if event-date != today %}
-            {{ event-date | date: "%-d" }}.
-            {% case m %}
-                {% when '1' %}januar
-                {% when '2' %}februar
-                {% when '3' %}mars
-                {% when '4' %}april
-                {% when '5' %}mai
-                {% when '6' %}juni
-                {% when '7' %}juli
-                {% when '8' %}august
-                {% when '9' %}september
-                {% when '10' %}oktober
-                {% when '11' %}november
-                {% when '12' %}desember
-            {% endcase %}
+        {{ event-date | readableDate: "DDD" }}.
         {% endif %}
-        kl. {{ event-date | date: "%k"}}:{{ event-date | date: "%M"}}.</p>
+        kl. {{ event-date| readableDate: 'T' }}.
+      </p>
     {% endif %}
+
     <iframe
-        class="video"
-        src="https://vimeo.com/event/4269617/embed/882ab89d6f"
-        frameborder="0"
-        allow="autoplay; fullscreen; picture-in-picture"
-        allowfullscreen=""
-        title="Live feed for Mangfold i mai"
-    ></iframe>
+      class="video"
+      src="https://vimeo.com/event/4269617/embed/882ab89d6f"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen=""
+      title="Live feed for Mangfold i mai">
+    </iframe>
     <script src="https://player.vimeo.com/api/player.js"></script>
 {% elsif video-url %}
     {% include 'video.html' %}

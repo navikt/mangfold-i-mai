@@ -7,11 +7,12 @@ eleventyNavigation:
   title: Foredragsholdere
   order: 2
 ---
-{% include 'page-header.html' %}
+
+<h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1>
 
 <ul class="speakers-list">
-    {% for speaker in collections.speakers %}
-      {% assign index = forloop.index %}
-        {% render 'speaker-card.html' speaker:speaker.data, index:index %}
-    {% endfor %}
+  {% for speaker in collections.speakers %}
+    {% assign index = forloop.index %}
+      {% include 'speaker-card.html', speaker:speaker.data, index:index %}
+  {% endfor %}
 </ul>

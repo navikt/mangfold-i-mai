@@ -9,7 +9,7 @@ eleventyComputed:
 
     {{ content }}
         
-    {% assign this-date = event-date | date: "%d" %}
+    {% assign this-date = event-date | readableDate: "dd" %}
     {% include 'events-list.html', date:this-date %}
 
 {% endblock %}
