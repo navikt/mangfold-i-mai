@@ -1,33 +1,15 @@
-<!DOCTYPE html>
-<html lang="no">
-    {% assign this-date = event-date | date: "%d" %}
+---
+layout: 'default.html'
+eleventyComputed: 
+  title: '{{ event-date | readableDate: "cccc d. MMMM yyyy" | capitalize }}'
+---
 
-    {% capture title %}
-    {% include 'localized-date.html' %} | Mangfold i mai
-    {% endcapture %}
+{% block content %}  
+    <h1>{{ title }}</h1>
 
-    {% include 'head.html',
-    site_title:title,
-    site_summary:"Se arrangementer for dagen! Bli med i feiringen!",
-    site_url:"https://mangfoldimai.no" %}
-  
-<body class="layout-home">
-<a id="skip" href="#content">Hopp til innholdet.</a>
-
-{% include 'site-header.html' %}
-
-<main id="content" tabindex="-1">
-    <div class="wrapper">
-        <h1>{% include 'localized-date.html' %}</h1>
-        {{ content }}
-    </div>
-
+    {{ content }}
+        
     {% assign this-date = event-date | date: "%d" %}
     {% include 'events-list.html', date:this-date %}
 
-</main>
-
-{% include 'site-footer.html' %}
-
-</body>
-</html>
+{% endblock %}
