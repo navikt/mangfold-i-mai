@@ -1,5 +1,5 @@
 ---
-layout: "page.html"
+layout: "default.html"
 permalink: personvernerklaering/
 title: Personvern og sikkerhet på mangfoldimai.no
 ---
