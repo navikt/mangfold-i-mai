@@ -30,7 +30,7 @@ layout: 'default.html'
             <a href="/events/{{ event.data.title | slugify }}.html">{{ event.data.title }}</a>
           </h3>
           <p class="date">
-            <date datetime="{{ event.data.event-date }}">{{ event.data.event-date | readableDate: 'd. MMM' }}</date>,
+            <time datetime="{{ event.data.event-date }}">{{ event.data.event-date | readableDate: 'd. MMM' }}</time>,
 
             <time datetime="{{ event.data.event-date | readableDate: 'T' }}">{{ event.data.event-date | readableDate: 'T' }}</time>–<time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">{{ event.data.event-date-end | readableDate: 'T' }}</time>
           </p>
