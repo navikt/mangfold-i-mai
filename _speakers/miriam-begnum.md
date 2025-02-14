@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Miriam Begnum
+title: Miriam Begnum
 image: MiriamBegnum.png
 summary: Produktleder i NAV
 ---

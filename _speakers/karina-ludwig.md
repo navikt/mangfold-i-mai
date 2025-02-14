@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Karina Ludwig
+title: Karina Ludwig
 image: karina-ludwig.jpg
 summary: Fagleder for inkluderende design og universell utforming i NAV IT
 ---

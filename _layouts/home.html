@@ -1,55 +1,37 @@
-<!DOCTYPE html>
-<html lang="no">
+---
+layout: 'default.html'
+---
 
-{% include 'head.html',
-site_title:"Mangfold i mai",
-site_summary:"Feir mangfold, inkludering og universell utforming!",
-site_url:"https://mangfoldimai.no" %}
+{% block content %}
+  <div class="flash">
+      <div>
+          {{ content }}
+      </div>
+  </div>
 
-<body class="layout-home">
-<a id="skip" href="#content">Hopp til innholdet.</a>
+  {% assign today = "now" | date: "%d" %}
+  {% assign month = "now" | date: "%m" %}
+  {% assign dates = collections.dates | sort: 'event-date' %}
+  {% assign last-date = dates.last.event-date | date: "%F" %}
+  {% assign today-date = "now" | date: "%F" %}
 
-{% include 'site-header.html' %}
+  {% if month == "05" and last-date >= today-date %}
+      {% include 'events-list.html', title:"Dagens agenda", date:today %}
+      
+      <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe
+              src="https://vimeo.com/event/4269617/embed/882ab89d6f"
+              frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowfullscreen=""
+              style="position:absolute;top:0;left:0;width:100%;height:100%;"
+              title="Live feed for Mangfold i mai"
+          ></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+  {% elsif last-date < today-date %}
+      <h2 id="gikk-du-glipp-av-noe">Gikk du glipp av noe?</h2>
+      <p>Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.</p>
+  {% endif %}
 
-<main id="content" tabindex="-1">
-    <div class="wrapper">
-
-        <div class="flash">
-            <div>
-                {{ content }}
-            </div>
-        </div>
-
-        {% assign today = "now" | date: "%d" %}
-        {% assign month = "now" | date: "%m" %}
-        {% assign dates = collections.dates | sort: 'event-date' %}
-        {% assign last-date = dates.last.event-date | date: "%F" %}
-        {% assign today-date = "now" | date: "%F" %}
-
-        {% if month == "05" and last-date >= today-date %}
-            {% include 'events-list.html', title:"Dagens agenda", date:today %}
-            
-            <div style="padding:56.25% 0 0 0;position:relative;">
-                <iframe
-                    src="https://vimeo.com/event/4269617/embed/882ab89d6f"
-                    frameborder="0"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowfullscreen=""
-                    style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                    title="Live feed for Mangfold i mai"
-                ></iframe>
-            </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
-        {% elsif last-date < today-date %}
-            <h2 id="gikk-du-glipp-av-noe">Gikk du glipp av noe?</h2>
-            <p>Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.</p>
-        {% endif %}
-    </div>
-</main>
-
-{% include 'site-footer.html' %}
-
-<!-- Last build: {{ site.time }} -->
-<!-- Calculated time: {{ current-time }} -->
-</body>
-</html>
+{% endblock %}

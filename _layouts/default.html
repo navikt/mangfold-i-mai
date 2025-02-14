@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="no">
 
-{% include 'head.html',
-site_title:"Mangfold i mai",
-site_summary:"Feir mangfold, inkludering og universell utforming!",
-site_url:"https://mangfoldimai.no" %}
+  {% include 'head.html' %}
 
-<body class="layout-{{ page.layout }}">
-    <a id="skip" href="#content">Hopp til innholdet.</a>
-
+  <body>
     {% include 'site-header.html' %}
 
     <main id="content" tabindex="-1">
-        <div class="wrapper">
-            {{ content }}
-        </div>
+      {% block content %}
+      {{ content }}
+      {% endblock %}
     </main>
 
     {% include 'site-footer.html' %}
+    {% block script %}{% endblock %}
 
-</body>
+    <!-- Last build: {{ site.time }} -->
+    <!-- Calculated time: {{ current-time }} -->
+  </body>
 </html>

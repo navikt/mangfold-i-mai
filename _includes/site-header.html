@@ -1,10 +1,19 @@
-<header class="site-header">
-    <div class="wrapper">
+{% assign siteMenu = collections.all | eleventyNavigation %}
 
-        <a class="logo" href="/">
-            Mangfold i mai
-        </a>
+<a id="skip" href="#content">Hopp til innholdet.</a>
 
-        {% include 'site-menu.html' %}
-    </div>
+<header class='site-header'>
+    <a class='logo' href='/' {% if page.url == '/' %}aria-current="page"{% endif %}>Mangfold i mai</a>
+    <nav>
+      <ul>
+        {% for item in siteMenu %}
+          <li>
+            <a href='{{ item.url }}' {% if page.url == item.url %}aria-current="page"{% endif %}>
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
 </header>

@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Cathrine Einarsson
+title: Cathrine Einarsson
 image: cathrineeinarsson.jpg
 summary: Senior tjenestedesigner i EGGS
 ---

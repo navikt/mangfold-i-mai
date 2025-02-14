@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Inger Margrethe Hvenekilde Seim
+title: Inger Margrethe Hvenekilde Seim
 image: IngerMargrethteSeim.jpeg
 summary: Fagansvarlig for klarspråk i NAV
 ---

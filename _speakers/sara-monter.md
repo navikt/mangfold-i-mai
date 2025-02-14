@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Sara A. Manzanares Monter
+title: Sara A. Manzanares Monter
 image: SaraMonter.png
 summary: Design researcher i NAV
 ---

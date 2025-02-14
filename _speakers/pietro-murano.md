@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Pietro Murano
+title: Pietro Murano
 image: 
 summary: Professor ved OsloMet, Avdeling for Datavitenskap, Faggruppen for universell utforming av IKT
 ---

@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Sarah Brodwall
+title: Sarah Brodwall
 image: sarah.jpg
 summary: Spesialist i universell utforming av nettsider hos NAV IKT
 ---

@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Morten Tollefsen
+title: Morten Tollefsen
 image: morten.jpg
 summary: Spesialist i universell utforming av nettsider hos NAV IKT.
 ---

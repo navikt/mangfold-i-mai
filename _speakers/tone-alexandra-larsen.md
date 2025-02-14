@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Tone Alexandra Larsen
+title: Tone Alexandra Larsen
 image: ToneAlexandraLarsen_02.jpeg
 summary: Seniorrådgiver i Bufdir og prosjektleder for konferansen UD2024.
 ---

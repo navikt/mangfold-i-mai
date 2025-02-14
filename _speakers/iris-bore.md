@@ -1,6 +1,6 @@
 ---
 layout: "speaker.html"
-name: Iris Bore
+title: Iris Bore
 image: IrisBore.jpg
 summary: Data Scientist i NAV IT
 ---

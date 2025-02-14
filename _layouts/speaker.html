@@ -1,70 +1,51 @@
-<!DOCTYPE html>
-<html lang="no">
+---
+layout: 'default.html'
+---
 
-{% capture title %}
-{{ name }} | Mangfold i mai
-{% endcapture %}
-
-{% include 'head.html',
-site_title:title,
-site_summary:"En av mange talere på Mangfold i mai 2024! Feir mangfold med oss!",
-site_url:"https://mangfoldimai.no" %}
-
-<body class="layout-speaker">
-<a id="skip" href="#content">Hopp til innholdet.</a>
-
-{% include 'site-header.html' %}
-
-<main id="content" tabindex="-1">
-    <div class="wrapper">
+  
+{% block content %}
 <div class="speaker-header">
-    {% if image %}
-        <img class="speaker-image" src="/assets/images/speakers/optimized/{{ image }}" alt="{{ page.name }}" aria-hidden="true" loading="eager" decoding="auto" eleventy:widths="400">
-    {% endif %}
+  {% if image %}
+  <img class="speaker-image" src="/assets/images/speakers/optimized/{{ image }}" alt="{{ title }}" aria-hidden="true"
+    loading="eager" decoding="auto" eleventy:widths="400">
+  {% endif %}
 
-    <div>
-        {% include 'page-header.html', title:name %}
+      <div>
+        {% include 'page-header.html' %}
         <p class="summary">{{summary}}</p>
         {{ content }}
-    </div>
-</div>
+      </div>
+      </div>
 
-
-<section class="speaker-events">
+  <section class="speaker-events">
     <h2>Foredragene</h2>
     <ul class="event-list">
       {% assign events = collections.events | sort: 'event-date' %}
       {% for event in events %}
-        {% for speaker in event.data.speakers %}
-        {% if speaker == name %}
-        <li class="event">
-            <div class="event-header">
-                <h3 class="title">
-                    <a href="/events/{{ event.data.title | slugify }}.html">{{ event.data.title }}</a>
-                </h3>
-                <p class="date">
-                    <span class="icon date">
-                        <date datetime="{{event.data.event-date}}">{{event.data.event-date | date: '%d.%m'}}</date>
-                    </span>
+      {% for speaker in event.data.speakers %}
+      {% if speaker == name %}
+      <li class="event">
+        <div class="event-header">
+          <h3 class="title">
+            <a href="/events/{{ event.data.title | slugify }}.html">{{ event.data.title }}</a>
+          </h3>
+          <p class="date">
+            <span class="icon date">
+              <date datetime="{{event.data.event-date}}">{{event.data.event-date | date: '%d.%m'}}</date>
+            </span>
 
-                    <span class="icon time">
-                        <time datetime="{{event.data.event-date | date: '%H:%M'}}">{{event.data.event-date | date: '%H:%M'}}</time>
-                        <span class="til">til</span>
-                        <time datetime="{{event.data.event-date-end | date: '%H:%M'}}">{{event.data.event-date-end | date: '%H:%M'}}</time>
-                    </span>
-                </p>
-            </div>
-            <p class="summary">{{event.data.summary}}</p>
-        </li>
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-    </ul>
+            <span class="icon time">
+              <time datetime="{{event.data.event-date | date: '%H:%M'}}">{{event.data.event-date | date: '%H:%M'}}</time>
+              <span class="til">til</span>
+              <time datetime="{{event.data.event-date-end | date: '%H:%M'}}">{{event.data.event-date-end | date: '%H:%M'}}</time>
+            </span>
+          </p>
+        </div>
+        <p class="summary">{{event.data.summary}}</p>
+      </li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </ul>
 </section>
-    </div>
-</main>
-
-{% include 'site-footer.html' %}
-
-</body>
-</html>
+{% endblock %}
