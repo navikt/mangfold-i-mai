@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+@use 'fonts';
+@use 'base';
+
+:where(#skip) {
+  position: absolute;
+  overflow: clip;
+  clip-path: rect(1px, 1px, 1px, 1px);
+  inline-size: 1px;
+
+  &:focus-visible {
+    inline-size: auto;
+    clip-path: none;
+  }
+}
+
+.site-header {
+  padding-block: 1lh;
+}
+
+:where(.logo, .menu) {
+  @media (width > 40rem) {
+    grid-row: 1;
+  }
+}
+
+.logo {
+  justify-self: start;
+
+  @media (width > 40rem) {
+    grid-column: wrapper / auto;
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 3ch;
+  
+  @media (width > 40rem) {
+    grid-column: auto / wrapper;
+    justify-content: end;
+  }
+
+  ul {
+    display: contents;
+    margin-inline-start: auto;
+    list-style: none;
+    padding-inline-start: 0;
+
+  }
+}
+
+.page-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25lh 2ch;
+}
+
+
+
+.dateblob {
+  background-color: color-mix(in srgb, var(--purple-light) 50%, transparent);
+  display: inline-grid;
+  place-items: center;
+  align-content: center;
+  gap: 0.125lh;
+  border-radius: 2.5ch;
+  inline-size: 5rem;
+  aspect-ratio: 1 / 1;
+  text-decoration: none;
+  grid-row: span 2;
+  padding: 0.5rem 1.25rem;
+}
+
+.dateblob--sticky {
+  position: sticky;
+  inset-block-start: 0.25lh;
+  margin-block-end: 1.75lh;
+}
+
+.dateblob__day {
+    text-transform: uppercase;
+    font-size: 81.25%;
+    translate: 0 0.125lh;
+}
+
+.dateblob__number {
+    font-size: 180%;
+    font-weight: 800;
+}
+
+.series {}
+
+.series__day {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2ch;
+  align-content: start;
+  padding-block-start: 1lh;
+  border-block-start: 1px solid var(--purple-light);
+}
+
+.series__events {
+  grid-column: 2;
+  margin-block-end: 1lh;
+}
+.series__event {
+  padding-block-end: 1lh;
+
+  &:not(:first-of-type) {
+    padding-block-start: 1lh;
+    border-block-start: 1px solid var(--purple-light);
+  }
+}
+
+
+
+.speakers {
+  display: grid;
+  gap: 2lh 8ch;
+  grid-template-columns: repeat(auto-fit, minmax(auto, 40ch));
+  justify-content: space-between;
+}
+
+.speaker-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2ch;
+  align-items: start;
+
+  img {
+    aspect-ratio: 1;
+    overflow: clip;
+    object-fit: cover;
+    border-radius: 4.5ch;
+    max-inline-size: 12ch;
+  }
+  h2 {
+    margin-block-start: 0.25lh;
+  }
+  p {
+    text-wrap: balance;
+  }
+}
+
+.site-footer {
+  background-color: var(--purple-light);
+  padding-block: 1lh;
+  margin-block-start: 3lh;
+}

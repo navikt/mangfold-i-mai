@@ -11,16 +11,13 @@ import path from 'path'
 
 export default async function (eleventyConfig) {
   // Passthrough Copy
-  eleventyConfig.addPassthroughCopy('assets/js')
-  eleventyConfig.addPassthroughCopy('assets/Montserrat.latin.woff2')
-  eleventyConfig.addPassthroughCopy('assets/Nunito.latin.woff2')
-  eleventyConfig.addPassthroughCopy('assets/O-a11y.woff2')
+  eleventyConfig.addPassthroughCopy('assets/scripts')
+  eleventyConfig.addPassthroughCopy('assets/fonts')
   eleventyConfig.addPassthroughCopy('assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('assets/images/nav-logo.svg')
   eleventyConfig.addPassthroughCopy('assets/images/mim-banner.png')
-  eleventyConfig.addPassthroughCopy('assets/images/favicon.png')
-  eleventyConfig.addPassthroughCopy('assets/images/favicon.svg')
-
+  eleventyConfig.addPassthroughCopy('assets/images/favicon.{png|svg}')
+  
   // Scss Compilation
   eleventyConfig.addTemplateFormats('scss')
   eleventyConfig.addWatchTarget('*.scss')
