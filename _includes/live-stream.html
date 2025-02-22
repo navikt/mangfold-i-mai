@@ -1,7 +1,7 @@
 {% assign event-date = event-date | readableDate: "yyyy-LL-dd" %}
-{% assign today = site.today | readableDate: "yyyy-LL-dd" %}
+{% assign today = site.buildDate | readableDate: "yyyy-LL-dd" %}
 {% assign event-date-unix = event-date | readableDate: "X" %}
-{% assign today-unix = site.today | readableDate: "X" %}
+{% assign today-unix = site.buildDate | readableDate: "X" %}
 
 {% if location-type != "in-person" and skip-video != true and event-date >= today %}
   

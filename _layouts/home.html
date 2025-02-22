@@ -1,11 +1,11 @@
 ---
 layout: 'default.html'
 ---
-{% assign today = site.today | readableDate: "dd" %}
-{% assign month = site.today | readableDate: "LL" %}
+{% assign today = site.buildDate | readableDate: "dd" %}
+{% assign month = site.buildDate | readableDate: "LL" %}
 {% assign dates = collections.dates | sort: 'event-date' %}
 {% assign last-date = dates.last.data.event-date | readableDate: "yyyy-LL-dd" %}
-{% assign today-date = site.today | readableDate: "yyyy-LL-dd" %}
+{% assign today-date = site.buildDate | readableDate: "yyyy-LL-dd" %}
 
 {% block content %}
 
