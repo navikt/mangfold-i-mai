@@ -156,11 +156,11 @@ a.dateblob:hover {
 
 
 
-.speakers {
-  display: grid;
-  gap: 2lh 8ch;
-  grid-template-columns: repeat(auto-fit, minmax(auto, 40ch));
-  justify-content: space-between;
+.speaker-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(36ch, 100%), 1fr));
+    justify-content: space-between;
+    gap: 1lh 8ch;
 }
 
 .speaker-card {

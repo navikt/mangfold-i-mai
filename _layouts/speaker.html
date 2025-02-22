@@ -2,44 +2,51 @@
 layout: 'default.html'
 ---
 
-  
 {% block content %}
-<div class="speaker-header">
-  {% if image %}
-  <img class="speaker-image" src="/assets/images/speakers/optimized/{{ image }}" alt="{{ title }}" aria-hidden="true"
-    loading="eager" decoding="auto" eleventy:widths="400">
-  {% endif %}
+  <div class="speaker">
+    {%- if image %}
+      <img 
+        class="speaker-image" 
+        style="view-transition-name: img-{{ title | slugify }}"
+        src="/assets/images/speakers/optimized/{{ image }}" 
+        alt="{{ title }}" 
+        aria-hidden="true"
+        loading="eager" 
+        decoding="auto" 
+        eleventy:widths="400">
+    {%- endif %}
 
-      <div>
-        <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1>
-        <p class="summary">{{ summary }}</p>
-        {{ content }}
-      </div>
-      </div>
+    <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1> 
+    <p class="summary">{{ summary }}.</p>
 
-  <section class="speaker-events">
-    <h2>Foredragene</h2>
-    <ul class="event-list">
-      {% assign events = collections.events | sort: 'event-date' %}
-      {% for event in events %}
-      {% for speaker in event.data.speakers %}
-      {% if speaker == title %}
-      <li class="event">
-        <div class="event-header">
+    {{ content }}
+
+    <section class="speaker-events">
+      <h2>Foredrag</h2>
+      <ul class="event-list">
+        {% assign events = collections.events | sort: 'event-date' %}
+        {% for event in events %}
+        {% for speaker in event.data.speakers %}
+        {% if speaker == title %}
+        <li class="event">
           <h3 class="title">
-            <a href="/events/{{ event.data.title | slugify }}.html">{{ event.data.title }}</a>
+            <a href="/events/{{ event.data.title | slugify }}.html">
+              {% if event.data.canceled %}DESSVERRE AVLYST –{% endif %} 
+              {{ event.data.title }}
+            </a>
           </h3>
-          <p class="date">
+          <p class="date {% if event.data.canceled %}canceled{% endif %}">
             <time datetime="{{ event.data.event-date }}">{{ event.data.event-date | readableDate: 'd. MMM' }}</time>,
 
             <time datetime="{{ event.data.event-date | readableDate: 'T' }}">{{ event.data.event-date | readableDate: 'T' }}</time>–<time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">{{ event.data.event-date-end | readableDate: 'T' }}</time>
           </p>
-        </div>
-        <p class="summary">{{ event.data.summary }}</p>
-      </li>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-  </ul>
-</section>
+          <p class="summary">{{ event.data.summary }}</p>
+        </li>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </ul>
+    </section>
+  
+  </div>
 {% endblock %}
