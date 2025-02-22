@@ -92,7 +92,7 @@ layout: 'default.html'
       </div>
       
       {% if speakers %}
-      <h2>Foredrags&shy;holder{% if speakers | isPlural %}e{% endif %}</h2>
+      <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
       <div class="speaker-list">
 
           {% for speaker in speakers %}
@@ -102,7 +102,7 @@ layout: 'default.html'
             {% assign render_speaker_image = undefined %}
             {% assign render_speaker_summary = undefined %}
 
-            {% for site-speaker in collections.speakers %} 
+            {% for site-speaker in collections.speaker %} 
               {% if site-speaker.data.title == speaker %}
                 {% assign render_speaker_title = site-speaker.data.title %}
                 {% assign render_speaker_url = site-speaker.url %}

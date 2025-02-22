@@ -19,12 +19,11 @@ const listFormat = function (list) {
   }
 }
 
-const isPlural = function (value) {
-  if (value instanceof Array) {
-    return true
-  } else {
-    return false
-  }
+const exclude = (arr, exclude) => arr.filter((el) => el !== exclude)
+const limit = (arr, limit) => arr.slice(0, limit)
+
+const pluck = (arr, selections, attr) => {
+  return arr.filter((item) => selections.includes(item.data[attr]))
 }
 
-export { readableDate, listFormat, isPlural }
+export { readableDate, listFormat, pluck }
