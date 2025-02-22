@@ -1,7 +1,6 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
-import compression from 'compression'
 import { minifyHtml } from './_11ty/transforms.js'
 import { readableDate, listFormat, isPlural } from './_11ty/filters.js'
 import markdownItAttrs from 'markdown-it-attrs'
@@ -87,7 +86,6 @@ export default async function (eleventyConfig) {
     enabled: true,
     showVersion: true,
     port: 8888,
-    middleware: [compression()],
   })
 
   // Extend Markdown-It
