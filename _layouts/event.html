@@ -46,20 +46,23 @@ layout: 'default.html'
         
         <ul class="tags">
           {% if privacy == "public" %}
-            <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
-            {% else %}
-            <li><span class="badge red {{ privacy }}">Bare for NAV-ansatte</span></li>
+          <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
+          {% else %}
+          <li><span class="badge red {{ privacy }}">Bare for NAV-ansatte</span></li>
           {% endif %} 
           
           {% if location-type != "in-person" %}
-            <li><span class="badge purple stream">Nettmøte</span></li>
+          <li><span class="badge purple stream">Nettmøte</span></li>
           {% endif %} 
           
           {% if location-type != "stream" %}
-            <li><span class="badge blue in-person">Fysisk arrangement</span></li>
+          <li><span class="badge blue in-person">Fysisk arrangement</span></li>
           {% endif %} 
+
           {% if registration == true or registration-link %}
-            <li><span class="badge yellow registration-required">Krever påmelding</span></li>
+          <li>
+            <span class="badge yellow registration-required">Krever påmelding</span>
+          </li>
           {% endif %}
           {% if event.data.video-url %}
             <span class="badge recorded">Opptak tilgjengelig</span>
@@ -93,50 +96,20 @@ layout: 'default.html'
       
       {% if speakers %}
       <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
-      <div class="speaker-list">
-
-          {% for speaker in speakers %}
-          <div class="speaker-card">
-            {% assign render_speaker_title = undefined %}
-            {% assign render_speaker_url = undefined %}
-            {% assign render_speaker_image = undefined %}
-            {% assign render_speaker_summary = undefined %}
-
-            {% for site-speaker in collections.speaker %} 
-              {% if site-speaker.data.title == speaker %}
-                {% assign render_speaker_title = site-speaker.data.title %}
-                {% assign render_speaker_url = site-speaker.url %}
-                {% assign render_speaker_image = site-speaker.data.image %}
-                {% assign render_speaker_summary = site-speaker.data.summary %}
-              {% endif %}
-            {% endfor %}
-
-            {% if render_speaker_image %}
-              <img 
-              class="pic" 
-              src="/assets/images/speakers/optimized/{{ render_speaker_image }}"
-              alt="{{ speaker }}"
-              aria-hidden="true" 
-              loading="lazy"
-              decoding="auto"
-              eleventy:widths="200">
-            {% endif %}
-     
-            <div class="bio">
-              <h3 class="name">
-                {% if render_speaker_title == undefined %}
-                  {{ speaker }}
-                {% else %}
-                  <a href="/speakers/{{ render_speaker_title | slugify }}.html">{{ render_speaker_title }}</a>
-                {% endif %}
-              </h3>
-              {% if render_speaker_summary %}
-              <p>{{ render_speaker_summary }}</p>
-              {% endif %}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
+      <ul class="speaker-list">
+        {% for speaker in speakers %}
+          {% assign speaker_with_url = collections.speaker | find_exp: 'item', 'item.data.title == speaker' %}
+        {% if speaker_with_url %}
+          {% include 'speaker-card.html'
+            , speaker: speaker_with_url.data
+            , index: index %}
+        {% else %}
+          <li class="name">
+            {{ speaker }}
+          </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
       {% endif %}
     </div>    
 {% endblock %}

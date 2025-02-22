@@ -24,28 +24,27 @@ layout: 'default.html'
     <section class="speaker-events">
       <h2>Foredrag</h2>
       <ul class="event-list">
-        {% assign events = collections.event | sort: 'event-date' %}
-        {% for event in events %}
-        {% for speaker in event.data.speakers %}
-        {% if speaker == title %}
-        <li class="event">
-          <h3 class="title">
-            <a href="/events/{{ event.data.title | slugify }}.html">
-              {% if event.data.canceled %}DESSVERRE AVLYST –{% endif %} 
-              {{ event.data.title }}
-            </a>
-          </h3>
-          <p class="date {% if event.data.canceled %}canceled{% endif %}">
-            <time datetime="{{ event.data.event-date }}">{{ event.data.event-date | readableDate: 'd. MMM' }}</time>,
 
-            <time datetime="{{ event.data.event-date | readableDate: 'T' }}">{{ event.data.event-date | readableDate: 'T' }}</time>–<time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">{{ event.data.event-date-end | readableDate: 'T' }}</time>
-          </p>
-          <p class="summary">{{ event.data.summary }}</p>
-        </li>
+
+      {% for event in collections.event %}
+        {% assign speaking = event.data.speakers | find_exp: 'item', 'item == title' %}
+        {% if speaking %}
+          <li class="series__event">
+            <h3 class="title">
+              <a href="/events/{{ event.data.title | slugify }}.html">
+                {% if event.data.canceled %}DESSVERRE AVLYST –{% endif %} 
+                {{ event.data.title }}
+              </a>
+            </h3>
+            <p class="date {% if event.data.canceled %}canceled{% endif %}">
+              <time datetime="{{ event.data.event-date }}">{{ event.data.event-date | readableDate: 'd. MMM' }}</time>,
+              <time datetime="{{ event.data.event-date | readableDate: 'T' }}">{{ event.data.event-date | readableDate: 'T' }}</time>–<time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">{{ event.data.event-date-end | readableDate: 'T' }}</time>
+            </p>
+            <p class="summary">{{ event.data.summary }}</p>
+          </li>
+  
         {% endif %}
-        {% endfor %}
-        {% endfor %}
-      </ul>
+      {% endfor %}
     </section>
   
   </div>
