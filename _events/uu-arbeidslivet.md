@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Hva vet vi om lønnsomheten av digital universell utforming?"
-speakers: Till Halbach
+speakers: [Till Halbach]
 summary: Lønner det seg i investere i universell utforming av IKT? Og har du råd til å la være?
 privacy: public
 

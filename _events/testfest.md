@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Testfest"
-speakers: Mikael Snaprud
+speakers: [Mikael Snaprud]
 summary: "Jo flere som deler jo flere kan delta – Testfester bringer brukere og utviklere sammen for inkluderende digitale tjenester"
 privacy: public
 

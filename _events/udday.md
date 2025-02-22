@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Universal Design Day 2024"
-speakers:
+speakers: null
 summary: Join us in this year’s online event to explore how inclusive design creates a better future for all.
 privacy: public
 

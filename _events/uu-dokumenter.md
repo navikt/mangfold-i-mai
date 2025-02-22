@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Dokumenter - Er uu bare mas, eller er det kjempestas?"
-speakers: Morten Tollefsen
+speakers: [Morten Tollefsen]
 summary: Universell utforming av elektroniske dokumenter.
 privacy: public
 

@@ -1,19 +1,19 @@
 ---
 layout: "event.html"
 title: "Rapportlansering: Må diskrimineringsloven endres på grunn av kunstig intelligens?"
-speakers: Likestillings- og diskrimineringsombudet (LDO)
+speakers: [Likestillings- og diskrimineringsombudet (LDO)]
 summary: Eksternt arrangement relatert til Mangfold i mai.
 privacy: public
 
 location-type: in-person
 recorded: false
 
-event-date: 2024-05-07T108:30
-event-date-end: 2024-05-15T10:00
+event-date: 2024-05-07T08:30
+event-date-end: 2024-05-07T10:00
 ---
 ## Hva handler arrangementet om?
 
-7. mai lanserer Likestillings- og diskriminieringsombudet rapporten "Algoritmer, kunstig intelligens og diskriminering. En analyse av likestillings- og diskrimineringslovens muligheter og utfordringer."
+7\. mai lanserer Likestillings- og diskriminieringsombudet rapporten "Algoritmer, kunstig intelligens og diskriminering. En analyse av likestillings- og diskrimineringslovens muligheter og utfordringer."
 
 Rapporten er en analyse av likestillings- og diskrimineringslovens muligheter og begrensninger. Skrevet av professor og ekspert i likestillingsrett ved Universitetet i Oslo, Vibeke Blaker Strand, på oppdrag fra Likestillings- og diskrimineringsombudet.
 
