@@ -1,8 +1,8 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
-import { minifyHtml } from './_11ty/transforms.js'
-import { readableDate, listFormat, pluck } from './_11ty/filters.js'
+import { minifyHtml } from './src/_11ty/transforms.js'
+import { readableDate, listFormat, pluck } from './src/_11ty/filters.js'
 import markdownItAttrs from 'markdown-it-attrs'
 
 import * as sass from 'sass'
@@ -95,6 +95,7 @@ export default async function (eleventyConfig) {
 export const config = {
   templateFormats: ['md', 'html'],
   dir: {
+    input: 'src',
     includes: '_includes',
     layouts: '_layouts',
     data: '_data',

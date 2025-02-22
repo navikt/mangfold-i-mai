@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 layout: "event.html"
 title: "Rapportlansering: Må diskrimineringsloven endres på grunn av kunstig intelligens?"
 speakers: [Likestillings- og diskrimineringsombudet (LDO)]
