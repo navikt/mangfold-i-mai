@@ -5,6 +5,6 @@ export default {
   title: 'Mangfold i mai',
   summary: 'Feir mangfold, inkludering og universell utforming!',
   // url: 'https://mangfoldimai.no',
-  url: 'https://navikt.github.io',
-  today: DateTime.fromISO(new Date().toISOString())
+  url: 'https://navikt.github.io/mangfold-i-mai/',
+  today: DateTime.fromISO(new Date().toISOString()),
 }

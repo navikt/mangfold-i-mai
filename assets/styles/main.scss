@@ -6,57 +6,80 @@
 :where(#skip) {
   position: absolute;
   overflow: clip;
-  clip-path: rect(1px, 1px, 1px, 1px);
+  clip-path: rect(1px 1px 1px 1px);
   inline-size: 1px;
 
   &:focus-visible {
-    inline-size: auto;
-    clip-path: none;
+    background-color: var(--blue-dark);
+    color: var(--gray-light);
+    justify-self: center;
+    inline-size: unset;
+    clip-path: unset;
+    padding: 0.25ch 1ch;
+    z-index: 2;
   }
 }
 
 .site-header {
-  padding-block: 1lh;
+    background-color: color-mix(in srgb, var(--purple-light) 50%, white);
+    padding-block: 0.375lh;
+    align-items: baseline;
 }
 
 :where(.logo, .menu) {
-  @media (width > 40rem) {
+  @media (width > 32rem) {
     grid-row: 1;
   }
 }
 
 .logo {
-  justify-self: start;
+    font-family: 'O-a11y', 'Nunito', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 125%;
+    text-decoration: none;
+    justify-self: start;
+    color: currentColor;
 
-  @media (width > 40rem) {
-    grid-column: wrapper / auto;
-  }
+    @media (width > 32rem) {
+        grid-column: wrapper / auto;
+    }
+
+    &:hover {
+        color: var(--purple-dark);
+    }
 }
 
 .menu {
-  display: flex;
-  gap: 3ch;
-  
-  @media (width > 40rem) {
-    grid-column: auto / wrapper;
-    justify-content: end;
-  }
+    display: flex;
+    gap: 3ch;
 
-  ul {
-    display: contents;
-    margin-inline-start: auto;
-    list-style: none;
-    padding-inline-start: 0;
+    @media (width < 32rem) {
+        margin-block-start: 0.25lh;
+    }    
+    @media (width > 32rem) {
+        grid-column: auto / wrapper;
+        justify-content: end;
+        translate: 0 -0.025lh;
+    }
 
-  }
+    ul {
+        display: contents;
+        list-style: none;
+        margin-inline-start: auto;
+        padding-inline-start: 0;
+    }
+    a:hover {
+        text-decoration: none;
+        color: currentColor;
+    }
 }
 
 .page-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.25lh 2ch;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.25lh 2ch;
 }
 
 
