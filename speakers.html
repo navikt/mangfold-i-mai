@@ -11,7 +11,7 @@ eleventyNavigation:
 <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1>
 
 <ul class="speaker-list">
-  {% for speaker in collections.speakers %}
+  {% for speaker in collections.speaker %}
     {% assign index = forloop.index %}
       {% include 'speaker-card.html', speaker:speaker.data, index:index %}
   {% endfor %}

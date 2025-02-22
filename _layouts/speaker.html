@@ -24,7 +24,7 @@ layout: 'default.html'
     <section class="speaker-events">
       <h2>Foredrag</h2>
       <ul class="event-list">
-        {% assign events = collections.events | sort: 'event-date' %}
+        {% assign events = collections.event | sort: 'event-date' %}
         {% for event in events %}
         {% for speaker in event.data.speakers %}
         {% if speaker == title %}

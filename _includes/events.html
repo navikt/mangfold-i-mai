@@ -1,5 +1,5 @@
 {% assign number-of-events = 0 %}
-{% assign events = collections.events | sort: 'data.event-date' %}
+{% assign events = collections.event | sort: 'data.event-date' %}
 
 {% for event in events %}
   {% assign event-date = event.data.event-date | readableDate: "dd" %}

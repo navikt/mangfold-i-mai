@@ -1,4 +1,0 @@
-{
-  "permalink": "/speakers/{{ title | slugify }}.html",
-  "tags": ["speakers"]
-}
