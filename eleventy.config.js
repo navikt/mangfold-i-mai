@@ -3,7 +3,7 @@ import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
 import compression from 'compression'
 import { minifyHtml } from './_11ty/transforms.js'
-import { readableDate, listFormat } from './_11ty/filters.js'
+import { readableDate, listFormat, isPlural } from './_11ty/filters.js'
 import markdownItAttrs from 'markdown-it-attrs'
 
 import * as sass from 'sass'
@@ -16,8 +16,9 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('assets/images/nav-logo.svg')
   eleventyConfig.addPassthroughCopy('assets/images/mim-banner.png')
-  eleventyConfig.addPassthroughCopy('assets/images/favicon.{png|svg}')
-  
+  eleventyConfig.addPassthroughCopy('assets/images/favicon.png')
+  eleventyConfig.addPassthroughCopy('assets/images/favicon.svg')
+
   // Scss Compilation
   eleventyConfig.addTemplateFormats('scss')
   eleventyConfig.addWatchTarget('*.scss')
@@ -66,8 +67,9 @@ export default async function (eleventyConfig) {
   })
 
   // Filters
-  eleventyConfig.addFilter('readableDate', readableDate);
-  eleventyConfig.addFilter('listFormat', listFormat);
+  eleventyConfig.addFilter('readableDate', readableDate)
+  eleventyConfig.addFilter('listFormat', listFormat)
+  eleventyConfig.addFilter('isPlural', isPlural)
 
   // Transforms
   eleventyConfig.addTransform('minifyHtml', minifyHtml)
@@ -100,6 +102,6 @@ export const config = {
     data: '_data',
     output: '_site_new',
   },
-  pathPrefix: '/mangfold-i-mai',
+  // pathPrefix: '/mangfold-i-mai',
 }
 
