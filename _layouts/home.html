@@ -9,11 +9,7 @@ layout: 'default.html'
 
 {% block content %}
 
-<div class="flash">
-      <div>
-          {{ content }}
-      </div>
-  </div>
+  {{ content }}
 
   {% if month == "05" and last-date >= today-date %}
       {% include 'events-list.html', title:"Dagens agenda", date:today %}
