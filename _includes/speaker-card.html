@@ -2,6 +2,7 @@
     {% if speaker.image %}
         <img 
           class="pic" 
+          style="view-transition-name: img-{{ speaker.title | slugify }}"
           src="/assets/images/speakers/optimized/{{ speaker.image }}" 
           alt="{{ speaker.title }}" 
           aria-hidden="true" 
@@ -10,16 +11,14 @@
           eleventy:widths="200">
     {% endif %}
 
-    <div class="about">
-        <div class="name">
-            <a href="/speakers/{{ speaker.title | slugify }}.html" class="name">
+    <div class="bio">
+        <h2 class="name">
+            <a href="/speakers/{{ speaker.title | slugify }}.html">
                 {{ speaker.title }}
             </a>
-        </div>
-
+        </h2>
         {% if speaker.summary %}
-            <div class="summary">{{ speaker.summary }}</div>
+            <p>{{ speaker.summary }}</p>
         {% endif %}
     </div>
-
 </li>

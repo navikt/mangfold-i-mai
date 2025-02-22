@@ -6,10 +6,9 @@ eleventyComputed:
 
 {% block content %}  
     <h1>{{ title }}</h1>
-
     {{ content }}
-        
+
     {% assign this-date = event-date | readableDate: "dd" %}
     {% include 'events-list.html', date:this-date %}
-
+    <p><a href="/program/">Se hele programmet</a></p>
 {% endblock %}

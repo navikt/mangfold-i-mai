@@ -9,7 +9,7 @@ function main() {
 }
 
 function filterEvents(value) {
-	var eventList = document.getElementById('event-list');
+	var eventList = document.getElementById('event-series')
 	var events = eventList.getElementsByTagName('li');
 
 	for(var i = 0; i < events.length; i++) {

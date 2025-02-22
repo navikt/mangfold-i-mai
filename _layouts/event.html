@@ -3,150 +3,147 @@ layout: 'default.html'
 ---
 
 {% block content %}
-  <div class="container">
-      <h1 class="title" {% if page.language %}lang="{{ page.language }}"{% endif %}>
-        {{ title }}
+  <div class="event">
+      <h1{% if page.language %} lang="{{ page.language }}"{% endif %}>
+        {% if canceled %}DESSVERRE AVLYST –{% endif %} {{ title }}
       </h1>
 
+      {% unless canceled %}        
       <div class="metadata">
-        <ul>
-          <!-- DATE AND TIME -->
-          <li>
-            <b>{{ event-date | readableDate: 'DDDD' | capitalize }}</b>
-          </li>
-
-          <li>
-            {{ event-date | readableDate: 'T' }}–{{
-            event-date-end | readableDate: 'T' }}
-          </li>
-
+        <p>
+          <time datetime="{{ event-date }}">
+            {{ event-date | readableDate: 'EEEE dd. MMMM' | capitalize }},
+            {{ event-date | readableDate: 'T' }}–{{ event-date-end | readableDate: 'T' }}
+          </time>
+          <br>
           <!-- LOCATION -->
-
           {% case location-type %} 
             {% when "stream" %}
               {% if location-name %}<li>{{ location-name }}</li>{% endif %}
               {% if location-link %}
-              <li>▶️ <a href="{{ location-link }}">Nettmøte</a></li>
+              <span>▶️ <a href="{{ location-link }}">Nettmøte</a></span>
               {% endif %} 
             {% when "in-person" %}
-              {% if location-name %}<li>{{ location-name }}</li>{% endif %}
+              {% if location-name %}<span>{{ location-name }}</span>{% endif %}
               {% when "hybrid" %}
-              <li>
+              <span>
                 {{ location-name }} 
                 {% if location-hybrid %} 
                 {% unless location-name %}{{ location-hybrid }}{% endunless %} 
                 {% endif %}
-              </li>
+              </span>
               {% if location-link %}
-              <li>▶️ <a href="{{ location-link }}">Nettmøte</a></li>
+              <span>▶️ <a href="{{ location-link }}">Nettmøte</a></span>
               {% endif %}
           {% endcase %}
+        </p>
 
-          <li>
-            📅 <button type="button" onclick="javascript:cal.download('{{ title }} - Mangfold i mai 2024')">Legg til i kalender</button>
-          </li>
-
-          {% if registration-link %}
-          <li>
-            📝 <a href="{{ registration-link }}">Registrer deg her</a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="participation-details">
-        <ul>
+        {% if registration-link %}
+        <p>
+          📝 <a href="{{ registration-link }}">Registrer deg her</a>
+        </p>
+        {% endif %}
+        
+        <ul class="tags">
           {% if privacy == "public" %}
-          <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
-          {% else %}
-          <li><span class="badge red {{ privacy }}">Bare for NAV-ansatte</span></li>
+            <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
+            {% else %}
+            <li><span class="badge red {{ privacy }}">Bare for NAV-ansatte</span></li>
           {% endif %} 
-
+          
           {% if location-type != "in-person" %}
-          <li><span class="badge purple stream">Nettmøte</span></li>
+            <li><span class="badge purple stream">Nettmøte</span></li>
           {% endif %} 
-
+          
           {% if location-type != "stream" %}
-          <li><span class="badge blue in-person">Fysisk arrangement</span></li>
+            <li><span class="badge blue in-person">Fysisk arrangement</span></li>
           {% endif %} 
           {% if registration == true or registration-link %}
-          <li><span class="badge yellow registration-required">Krever påmelding</span></li>
+            <li><span class="badge yellow registration-required">Krever påmelding</span></li>
           {% endif %}
           {% if event.data.video-url %}
-          <span class="badge recorded">Opptak tilgjengelig</span>
+            <span class="badge recorded">Opptak tilgjengelig</span>
           {% elsif event.recorded == true %}
-          <span class="badge recorded">Blir tatt opp</span>
+            <span class="badge recorded">Blir tatt opp</span>
           {% endif %}
         </ul>
+
         {% comment %}
         <ul>
-            <li>
-                {% if privacy == "internal" %}
-                <span class="badge red">Bare for NAV-ansatte</span>
-                {% else %}
-                <span class="badge green">Åpent for alle</span>
-                {% endif %}
-            </li>
+          <li>
+            {% if privacy == "internal" %}
+            <span class="badge red">Bare for NAV-ansatte</span>
+            {% else %}
+            <span class="badge green">Åpent for alle</span>
+            {% endif %}
+          </li>
         </ul>
         {% endcomment %}
+
+        <button class="ical" type="button" onclick="javascript:cal.download('{{ title }} | Mangfold i mai 2024')">
+          📅 Legg til i kalender
+        </button>      
       </div>
+      {% endunless %}
 
       <div class="description" {% if language %}lang="{{ language }}"{% endif %}>
         {{ content }} 
         {% include 'live-stream.html' %}
       </div>
-
-      <div class="speakers">
-        {% if speakers %}
-          <h2>Foredrags&shy;holder{% if speakers[1] %}ne{% endif %}</h2>
+      
+      {% if speakers %}
+      <h2>Foredrags&shy;holder{% if speakers | isPlural %}e{% endif %}</h2>
+      <div class="speaker-list">
 
           {% for speaker in speakers %}
-          <div class="speaker">
-            {% assign render-speaker-name = undefined %}
-            {% assign render-speaker-url = undefined %}
-            {% assign render-speaker-image = undefined %}
-            {% assign render-speaker-summary = undefined %}
+          <div class="speaker-card">
+            {% assign render_speaker_title = undefined %}
+            {% assign render_speaker_url = undefined %}
+            {% assign render_speaker_image = undefined %}
+            {% assign render_speaker_summary = undefined %}
+
             {% for site-speaker in collections.speakers %} 
-              {% if site-speaker.data.name == speaker %}
-                {% assign render-speaker-name = site-speaker.data.name %}
-                {% assign render-speaker-url = site-speaker.url %}
-                {% assign render-speaker-image = site-speaker.data.image %}
-                {% assign render-speaker-summary = site-speaker.data.summary %}
+              {% if site-speaker.data.title == speaker %}
+                {% assign render_speaker_title = site-speaker.data.title %}
+                {% assign render_speaker_url = site-speaker.url %}
+                {% assign render_speaker_image = site-speaker.data.image %}
+                {% assign render_speaker_summary = site-speaker.data.summary %}
               {% endif %}
             {% endfor %}
-            {% if render-speaker-image %}
-            <img
-              src="/assets/images/speakers/optimized/{{ render-speaker-image }}"
-              alt="{{ speaker }}"
-              aria-hidden="true"
-              eleventy:widths="400"
-              loading="eager"
-              decoding="auto"
-            />
-            {% endif %}
 
-            <div class="about">
-              {% if render-speaker-name == undefined %}
-              <span class="name">{{ speaker }}</span>
-              {% else %}
-              <a class="name" href="{{ render-speaker-url }}">
-                {{ render-speaker-name }}
-              </a>
-              {% endif %}
-              {% if render-speaker-summary %}
-              <p class="summary">{{ render-speaker-summary }}</p>
+            {% if render_speaker_image %}
+              <img 
+              class="pic" 
+              src="/assets/images/speakers/optimized/{{ render_speaker_image }}"
+              alt="{{ speaker }}"
+              aria-hidden="true" 
+              loading="lazy"
+              decoding="auto"
+              eleventy:widths="200">
+            {% endif %}
+     
+            <div class="bio">
+              <h3 class="name">
+                {% if render_speaker_title == undefined %}
+                  {{ speaker }}
+                {% else %}
+                  <a href="/speakers/{{ render_speaker_title | slugify }}.html">{{ render_speaker_title }}</a>
+                {% endif %}
+              </h3>
+              {% if render_speaker_summary %}
+              <p>{{ render_speaker_summary }}</p>
               {% endif %}
             </div>
           </div>
           {% endfor %}
-        {% endif %}
-      </div>
+        </div>
+      {% endif %}
     </div>    
 {% endblock %}
 
 {% block script %}
-  <script src="/assets/js/ics.min.js"></script>
-  <script type="text/javascript">
+  <script src="/assets/js/ics.min.js" defer></script>
+  <script type="text/javascript" async>
 
     /*! ics.js Wed Aug 20 2014 17:23:02 */
     var saveAs =

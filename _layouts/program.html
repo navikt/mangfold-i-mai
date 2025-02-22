@@ -13,10 +13,10 @@ title: 'Program'
 </div>
 {% endunless %}
 
-<div class="program-header">
+<div class="page-header">
   <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1>
 
-  <details>
+  <details class="filter">
     <summary><span aria-hidden>⚙️ </span>Filter</summary>
     <form id="program-filter-form">
       <fieldset>
@@ -37,5 +37,5 @@ title: 'Program'
 {% endblock %}
 
 {% block script %}
-<script src="/assets/js/program.js"></script>
+<script src="/assets/scripts/program.js" async></script>
 {% endblock %}

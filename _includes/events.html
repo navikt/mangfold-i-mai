@@ -3,71 +3,62 @@
 
 {% for event in events %}
   {% assign event-date = event.data.event-date | readableDate: "dd" %}
+
   {% if date == event-date %}
-  {% assign number-of-events = number-of-events | plus:1 %}
-  {% assign event-weekday = event.data.event-date | readableDate: "d" %}
+    {% assign number-of-events = number-of-events | plus:1 %}
+    {% assign event-weekday = event.data.event-date | readableDate: "d" %}
   {% endif %}
 {% endfor %}
 
 {% if number-of-events > 0 %}
-    <section>
+    <section class="series__day">
       {% assign dates = collections.dates %}
       {% for day in dates %}
       {% assign day-date = day.data.event-date | readableDate: "dd" %}
       {% if day-date == date %}
-        <div>
-            <h3>
-                <a class="dateblob" href="/dates/{{ day.fileSlug }}.html" aria-label="{{ day.data.event-date | readableDate: 'cccc dd. LLLL' |  capitalize }}">
-                  <span class="dateblob__day" aria-hidden="true">
-                    {{ day.data.event-date | readableDate: 'ccc' | remove: '.' }}
-                  </span>
-                  <span class="dateblob__number" aria-hidden="true">
-                    {{ day.data.event-date | readableDate: "dd" | remove: '.' }}
-                  </span>
-                </a>
-           </h3>
-            {% if day.data.theme %}
-                <p class="theme">{{ day.data.theme }}</p>
-            {% endif %}
-        </div>
+        <a class="dateblob {% if number-of-events >= 2 %}dateblob--sticky{% endif %}" href="/dates/{{ day.fileSlug }}.html" aria-label="{{ day.data.event-date | readableDate: 'cccc dd. LLLL' |  capitalize }}">
+          <span class="dateblob__day" aria-hidden="true">
+            {{ day.data.event-date | readableDate: 'ccc' | remove: '.' }}
+          </span>
+          <span class="dateblob__number" aria-hidden="true">
+            {{ day.data.event-date | readableDate: "dd" | remove: '.' }}
+          </span>
+        </a>
+        {% comment %}
+        {% if day.data.theme %}
+            <p class="theme">{{ day.data.theme }}</p>
+        {% endif %}
+        {% endcomment %}
       {% endif %}
       {% endfor %}
 
-      <ul class="schedule">
+      <ul class="series__events">
           {% for event in events %}
             {% assign event-date = event.data.event-date | readableDate: "dd" %}
             {% if date == event-date %}
-              <li class="{{ event.privacy }} {{ event.location-type }}">
-                <div class="time">
-                    <time datetime="{{ event.data.event-date | readableDate: 'T' }}">
-                      {{ event.data.event-date | readableDate: 'T' }}
-                    </time>
-                    <span class="til">til</span>
-                    <time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">
-                      {{ event.data.event-date-end | readableDate: 'T' }}
-                    </time>
+              <li class="series__event {{ event.privacy }} {{ event.location-type }}">
+                <div class="time {% if event.data.canceled %}canceled{% endif %}">
+                    <time datetime="{{ event.data.event-date | readableDate: 'T' }}">{{ event.data.event-date | readableDate: 'T' }}</time>–<time datetime="{{ event.data.event-date-end | readableDate: 'T' }}">{{ event.data.event-date-end | readableDate: 'T' }}</time>
                 </div>
 
-                <h3 class="title">
+                <h2 class="title">
                     <a href="{{ event.url }}">
-                        {{ event.data.title }}
+                    {% if event.data.canceled %}DESSVERRE AVLYST –{% endif %} {{ event.data.title }}
                     </a>
-                </h3>
+                </h2>
 
-                <div class="summary">
-                    {% if event.data.summary-special %}
-                        {{ event.data.summary-special }}
-                    {% else %}
-                        <p>
-                          {{ event.data.summary }}
-                          {% if event.data.speakers %}
-                            Med {{ event.data.speakers | listFormat }}.
-                          {% endif %}
-                        </p>
+                <p>
+                  {% if event.data.summary-special %}
+                    {{ event.data.summary-special }}
+                  {% else %}
+                    {{ event.data.summary }}
+                    {% if event.data.speakers %}
+                      Med {{ event.data.speakers | listFormat }}.
                     {% endif %}
-                </div>
+                  {% endif %}
+                </p>
 
-                <div class="participation-details">
+                <div class="tags">
                   {% if event.data.privacy == "public" %}
                     <span class="badge green {{ event.data.privacy }}">Åpent for alle</span>
                   {% else %}
@@ -92,7 +83,6 @@
                     <span class="badge recorded">Blir tatt opp</span>
                   {% endif %}
                 </div>
-                <hr>
               </li>
             {% endif %}
           {% endfor %}
