@@ -1,46 +1,66 @@
-@view-transition {
-  navigation: auto;
-}
-
 :root {
-    --red: #D05C4A;
+    --white: #fff;
+    --red: #d05c4a;
     --red-nav: #c30000;
     --red-dark: #ae4649;
     --blue-light: #99c3ff;
     --blue-medium: #0067c5;
     --blue-dark: #002252;
-    --green: #99DEAD;
-    --green-medium: #66C786;
-    --green-dark: #4AA571;
-    --green-darker: #3A8259;
-    --pink: #F9D2CC;
-    --purple: #A18DBB;
-    --purple-light: #D0C5DD;
-    --orange: #FFC166;
-    --yellow: #FFD799;
+    --gray-light: #e8e8e8;
+    --green: #99dead;
+    --green-medium: #66c786;
+    --green-dark: #4aa571;
+    --green-darker: #3a8259;
+    --pink: #f9d2cc;
+    --purple: #a18dbb;
+    --purple-light: #d0c5dd;
+    --purple-dark: #505096;
+    --orange: #ffc166;
+    --yellow: #ffd799;
 
     background-color: var(--purple-light);
     color-scheme: light dark;
     box-sizing: border-box;
     overflow-y: scroll;
     block-size: 100%;
+    font-size: 1.125em;
+
+    @media (width > 64rem) {
+        font-size: 1.25em;
+    }
 }
 
-*, :before, :after {
-  box-sizing: inherit;
+
+// clamp(100%, 50% + 0.666vw, 150%)
+
+*,
+:before,
+:after {
+    box-sizing: inherit;
 }
 
 body {
-    font-family: 'Nunito', system-ui, sans-serif;
-    line-height: 1.5;
-    color: var(--blue-dark);
     margin: 0;
-    background-color: white;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     min-block-size: 100%;
+    background-color: #FAFAFA;
+    font-family: 'Nunito', system-ui, sans-serif;
+    line-height: 1.55;
+    color: var(--blue-dark);
+    align-items: start;
+}
+
+p {
+    max-inline-size: 56ch;
+    text-wrap: pretty;
 }
 
 a {
-    color: var(--blue-dark);
+    color: var(--purple-dark);
+    text-decoration-thickness: 0.1ch;
+    text-decoration-color: color-mix(in srgb, currentColor 60%, transparent);
+    text-underline-offset: 0.125ch;
 
     &:focus-visible {
         outline: 3px dashed var(--purple);
@@ -48,41 +68,84 @@ a {
 }
 
 picture {
-  display: contents;
+    display: contents;
 }
 
 :where(img, svg) {
-  max-inline-size: 100%;
-  block-size: auto;
+    max-inline-size: 100%;
+    block-size: auto;
 }
 
 :where(h1, h2, h3) {
+    margin-block: 0.75lh 0.25lh;
     line-height: 1.2;
-    margin-top: 1em;
-    margin-bottom: .5em;
+}
+
+
+:where(h1) {
+    font-weight: 700;
+    margin-block: 0 0.5lh;
+    text-wrap: pretty;
+}
+:where(h2) {
+    font-size: 1.5em;
+}
+
+:where(h2:first-child) {
+    margin-block-start: 0.125lh;
+}
+
+iframe {
+    max-inline-size: 64ch;
+    inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 16 / 9;
 }
 
 :where(p, ul, ol, dl) {
-    margin-top: .5em;
+    margin-block: 0.25lh 1lh;
 }
 
 :where(ol, ul):has([class]) {
-  padding-inline-start: 0;
-  list-style: none;
+    padding-inline-start: 0;
+    list-style: none;
 }
 
-
+summary {
+    cursor: pointer;
+}
 
 :where(header, main, footer) {
-  --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
-  --wrapper: minmax(0, 50ch);
+    --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
+    --wrapper: minmax(0, 42ch);
 
-  display: grid;
-  grid-template-columns: 
-    var(--edge) auto [wrapper-start] repeat(2, var(--wrapper)) [wrapper-end] auto var(--edge);
+    display: grid;
+    grid-template-columns: var(--edge) auto [wrapper-start] repeat(
+        2,
+        var(--wrapper)
+        ) [wrapper-end] auto var(--edge);
 
-  & > * {
-    grid-column: wrapper;
-  }
+    & > * {
+        grid-column: wrapper;
+    }
+}
+
+main {
+    padding-block: 2lh;
+    container: main / inline-size;
+}
+
+::selection {
+    background-color: color-mix(in srgb, var(--purple) 40%, transparent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+        navigation: auto;
+    }
+
+    ::view-transition-group(root) {
+        animation-duration: 0.2s;
+    }
 }
 
