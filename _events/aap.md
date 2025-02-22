@@ -1,6 +1,6 @@
 ---
 layout: "event.html"
-title: "AAP søknad - Hvordan AAP-søknaden vant brukeropplevelsesprisen"
+title: "Hvordan AAP-søknaden vant brukeropplevelsesprisen"
 speakers: [Miriam Begnum, Sara A. Manzanares Monter]
 summary: Miriam og Sara forteller om prosessen rundt utviklingen av den nye AAP-søknaden og hvorfor den vant brukeropplevelsesprisen 2024.
 privacy: public
