@@ -53,7 +53,7 @@
                   {% else %}
                     {{ event.data.summary }}
                     {% if event.data.speakers %}
-                      Med {{ event.data.speakers | listFormat }}.
+                      Med {{ event.data.speakers | sentence }}.
                     {% endif %}
                   {% endif %}
                 </p>

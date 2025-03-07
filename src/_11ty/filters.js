@@ -8,7 +8,7 @@ const readableDate = function (date, format) {
       .toFormat(format);
 };
 
-const listFormat = function (list) {
+const sentence = function (list) {
   if (Array.isArray(list)) {
     return new Intl.ListFormat('no', {
       style: 'long',
@@ -19,11 +19,8 @@ const listFormat = function (list) {
   }
 }
 
-const exclude = (arr, exclude) => arr.filter((el) => el !== exclude)
-const limit = (arr, limit) => arr.slice(0, limit)
-
 const pluck = (arr, selections, attr) => {
   return arr.filter((item) => selections.includes(item.data[attr]))
 }
 
-export { readableDate, listFormat, pluck }
+export { readableDate, sentence, pluck }

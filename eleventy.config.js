@@ -2,7 +2,7 @@ import { EleventyHtmlBasePlugin } from '@11ty/eleventy'
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
 import eleventyNavigationPlugin from '@11ty/eleventy-navigation'
 import { minifyHtml } from './src/_11ty/transforms.js'
-import { readableDate, listFormat, pluck } from './src/_11ty/filters.js'
+import { readableDate, sentence, pluck } from './src/_11ty/filters.js'
 import markdownItAttrs from 'markdown-it-attrs'
 
 import * as sass from 'sass'
@@ -67,7 +67,7 @@ export default async function (eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter('readableDate', readableDate)
-  eleventyConfig.addFilter('listFormat', listFormat)
+  eleventyConfig.addFilter('sentence', sentence)
   eleventyConfig.addFilter('pluck', pluck)
 
   // Transforms
