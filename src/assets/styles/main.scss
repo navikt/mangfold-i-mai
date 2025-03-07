@@ -91,7 +91,7 @@
     align-content: center;
     gap: 0.125lh;
     border-radius: 40%;
-    inline-size: 5.5ch;
+    inline-size: 4ch;
     aspect-ratio: 1 / 1;
     text-decoration: none;
     grid-row: span 2;
@@ -105,21 +105,22 @@ a.dateblob:hover {
 
 .dateblob--sticky {
     position: sticky;
-    inset-block-start: 0.75lh;
+    inset-block-start: 0.5lh;
     margin-block-end: 1.4375lh;
 }
 
 .dateblob__day {
     text-transform: uppercase;
-    font-size: 75%;
+    font-size: 50%;
     font-weight: 600;
+    letter-spacing: 0.05ch;
     translate: 0 0.125lh;
 }
 
-.dateblob__number {
-    font-size: 150%;
+.dateblob__date {
+    font-size: 100%;
     font-weight: 800;
-    translate: 0 0.05lh;
+    translate: 0 0.025lh;
 }
 
 .series {
@@ -142,8 +143,6 @@ a.dateblob:hover {
     margin-block: 0;
 }
 .series__event {
-    padding-block-end: 1lh;
-
     &:not(:first-of-type) {
         padding-block-start: 1lh;
         border-block-start: 1px solid var(--purple-light);
@@ -276,7 +275,8 @@ a.dateblob:hover {
 
     @media (width > 64rem) {
         grid-template-columns: 2fr 1fr;
-        column-gap: 6ch;            
+        column-gap: 6ch;
+        align-items: start;
     }
 
     & > * {
@@ -287,20 +287,34 @@ a.dateblob:hover {
     h1 {
         grid-column: 1 / -1;
     }
-    .metadata {
-        margin-block: 0.25lh 1lh;
 
-        @media (width > 64rem) {
+    .metadata {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: start;
+        column-gap: 1.5ch;
+        margin-block-end: 1.5lh;
+
+        & > * {
             grid-column: 2;
-            grid-row-start: 2;
         }
     
-        ul {
-            list-style: none;
-            padding-inline-start: 0;
-        }
         time {
             font-weight: 700;
+        }
+        p {
+            margin-block: 0;
+            text-wrap: balance;
+        }
+        .dateblob {
+            font-size: 1.5em;
+            grid-column: 1;
+            grid-row: 1 / span 3;
+            translate: -0.125ch -0.125lh;
+        }
+        .tags {
+            grid-column: 1 / -1;
+            margin-block: 1lh 0;
         }
     }
 }
@@ -313,6 +327,14 @@ a.dateblob:hover {
     font: inherit;
     border-radius: 0.5ch;
     color: var(--white);
+    margin-block: 0 1lh;        
+
+    @media (width > 64rem) {
+        grid-column: 2;
+        grid-row-start: 2;
+        margin-block-start: 0.5lh;        
+    }
+
 }
 
 .tags {

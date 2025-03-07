@@ -117,7 +117,7 @@ summary {
 
 :where(header, main, footer) {
     --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
-    --wrapper: minmax(0, 42ch);
+    --wrapper: minmax(0, 48ch);
 
     display: grid;
     grid-template-columns: var(--edge) auto [wrapper-start] repeat(
