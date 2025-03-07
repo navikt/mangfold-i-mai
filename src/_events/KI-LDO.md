@@ -1,6 +1,6 @@
 ---
 layout: "event.html"
-title: "KI og diskriminering - kan det unngås?"
+title: "KI og diskriminering – kan det unngås?"
 speakers:
   [
     Beate Sletvold Øistad,
