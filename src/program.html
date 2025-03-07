@@ -78,9 +78,7 @@ eleventyNavigation:
         </fieldset>
       </form>
     </details>
-</div>
-
-  {% comment %} {% include 'events-list.html' %} {% endcomment %}
+  </div>
 
   {% assign series = collections.event | sort: "data.event-date" | group_by_exp: "item", "item.data.event-date | split: 'T' | first" %}
   <div class="series" id="event-series">

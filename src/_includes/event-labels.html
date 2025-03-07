@@ -1,26 +1,23 @@
-hello {{ privacy }} 123
 {% if privacy == "public" %}
-<span class="badge green {{ event.privacy }}">Åpent for alle</span>
-    {% else %}
-<span class="badge red {{ event.privacy }}">Bare for NAV-ansatte</span>
-    {% endif %}
-
-
+  <span class="badge green {{ event.privacy }}">Åpent for alle</span>
+{% else %}
+  <span class="badge red {{ event.privacy }}">Bare for NAV-ansatte</span>
+{% endif %}
 
 {% if event.location-type != "in-person"  %}
-    <span class="badge purple stream">Nettmøte</span>
+  <span class="badge purple stream">Nettmøte</span>
 {% endif %}
 
 {% if event.location-type != "stream" %}
-<span class="badge blue in-person">Fysisk arrangement</span>
+  <span class="badge blue in-person">Fysisk arrangement</span>
 {% endif %}
 
 {% if event.registration == true %}
-<span class="badge yellow registration-required">Krever påmelding</span>
+  <span class="badge yellow registration-required">Krever påmelding</span>
 {% endif %}
 
 {% if event.video-url %}
-<span class="badge recorded">Opptak tilgjengelig</span>
+  <span class="badge recorded">Opptak tilgjengelig</span>
 {% elsif event.recorded == true %}
-<span class="badge yellow registration-required">Blir tatt opp</span>
+  <span class="badge yellow registration-required">Blir tatt opp</span>
 {% endif %}

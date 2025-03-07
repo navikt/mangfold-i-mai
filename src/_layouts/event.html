@@ -8,36 +8,42 @@ layout: 'default.html'
         {% if canceled %}DESSVERRE AVLYST –{% endif %} {{ title }}
       </h1>
 
-      {% unless canceled %}        
+      {% unless canceled %}
       <div class="metadata">
+        <div class="dateblob" aria-hidden="true">
+          <span class="dateblob__day">
+          {{ event-date | readableDate: 'ccc' | remove: '.' }}
+          </span>
+          <span class="dateblob__date">
+          {{ event-date | readableDate: 'dd' | remove: '.' }}
+          </span>            
+        </div>
+ 
+        <time datetime="{{ event-date }}">
+          {{ event-date | readableDate: 'T' }}–{{ event-date-end | readableDate: 'T' }}
+        </time>
+    
+        <!-- LOCATION -->
         <p>
-          <time datetime="{{ event-date }}">
-            {{ event-date | readableDate: 'EEEE dd. MMMM' | capitalize }},
-            {{ event-date | readableDate: 'T' }}–{{ event-date-end | readableDate: 'T' }}
-          </time>
-          <br>
-          <!-- LOCATION -->
-          {% case location-type %} 
+          {%- case location-type %} 
             {% when "stream" %}
               {% if location-name %}<li>{{ location-name }}</li>{% endif %}
               {% if location-link %}
-              <span>▶️ <a href="{{ location-link }}">Nettmøte</a></span>
+              <a href="{{ location-link }}">Nettmøte</a>
               {% endif %} 
             {% when "in-person" %}
-              {% if location-name %}<span>{{ location-name }}</span>{% endif %}
+              {% if location-name %}{{ location-name }}{% endif %}
               {% when "hybrid" %}
-              <span>
-                {{ location-name }} 
-                {% if location-hybrid %} 
-                {% unless location-name %}{{ location-hybrid }}{% endunless %} 
-                {% endif %}
-              </span>
-              {% if location-link %}
-              <span>▶️ <a href="{{ location-link }}">Nettmøte</a></span>
+              {{ location-name }} 
+              {% if location-hybrid %} 
+              {% unless location-name %}{{ location-hybrid }}{% endunless %} 
               {% endif %}
-          {% endcase %}
+              {% if location-link %}
+              <a href="{{ location-link }}">Nettmøte</a>
+              {% endif %}
+          {%- endcase %}
         </p>
-
+  
         {% if registration-link %}
         <p>
           📝 <a href="{{ registration-link }}">Registrer deg her</a>
@@ -70,23 +76,13 @@ layout: 'default.html'
             <span class="badge recorded">Blir tatt opp</span>
           {% endif %}
         </ul>
+      </div>
+      {% endunless %}
 
-        {% comment %}
-        <ul>
-          <li>
-            {% if privacy == "internal" %}
-            <span class="badge red">Bare for NAV-ansatte</span>
-            {% else %}
-            <span class="badge green">Åpent for alle</span>
-            {% endif %}
-          </li>
-        </ul>
-        {% endcomment %}
-
+      {% unless canceled %}
         <button class="ical" type="button" onclick="javascript:cal.download('{{ title }} | Mangfold i mai 2024')">
           📅 Legg til i kalender
         </button>      
-      </div>
       {% endunless %}
 
       <div class="description" {% if language %}lang="{{ language }}"{% endif %}>
@@ -95,7 +91,12 @@ layout: 'default.html'
       </div>
       
       {% if speakers %}
+
+        case
       <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
+      <p>tes2t</p>
+
+      {% comment %} 
       <ul class="speaker-list">
         {% for speaker in speakers %}
           {% assign speaker_with_url = collections.speaker | find_exp: 'item', 'item.data.title == speaker' %}
@@ -110,12 +111,13 @@ layout: 'default.html'
         {% endif %}
         {% endfor %}
       </ul>
+      {% endcomment %}
       {% endif %}
     </div>    
 {% endblock %}
 
 {% block script %}
-  <script src="/assets/js/ics.min.js" defer></script>
+  <script src="/assets/scripts/ics.min.js" defer></script>
   <script type="text/javascript" async>
 
     /*! ics.js Wed Aug 20 2014 17:23:02 */
