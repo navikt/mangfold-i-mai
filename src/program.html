@@ -1,0 +1,133 @@
+---
+layout: "default.html"
+title: Program
+permalink: 'program/index.html'
+eleventyNavigation:
+  key: menu
+  title: Program
+  order: 1
+---
+
+
+{% assign content = content | strip_newlines %}
+
+{% block content %}
+
+  {% unless content %}
+    <div class="notice" style="position:relative;top:1rem;margin-top:1rem;">
+      {{ content }}
+    </div>
+  {% endunless %}
+
+  <div class="page-header">
+    <h1
+      {% if language %}
+      lang="{{ language }}"
+      {% endif %}>{{ title }}</h1>
+
+    <details class="filter">
+      <summary>
+        <span aria-hidden>⚙️
+        </span>Filter</summary>
+      <form id="program-filter-form">
+        <fieldset>
+          <legend>Filtrer program</legend>
+          <label>
+            <input
+              type="radio"
+              name="filter"
+              checked
+              value="all" />
+            <span>Vis alle</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="public" />
+            <span>Åpent for alle</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="internal" />
+            <span>Bare for NAV-ansatte</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="stream" />
+            <span>Nettmøte</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="in-person" />
+            <span>Fysisk arrangement</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="registration-required" />
+            <span>Krever påmelding</span>
+          </label>
+        </fieldset>
+      </form>
+    </details>
+</div>
+
+  {% comment %} {% include 'events-list.html' %} {% endcomment %}
+
+  {% assign series = collections.event | sort: "data.event-date" | group_by_exp: "item", "item.data.event-date | split: 'T' | first" %}
+  <div class="series" id="event-series">
+    {% for event in series %}
+      <div class="series__day">
+        <h2 aria-label="{{ event.name | readableDate: 'DDD' }}">
+          <a href="#" class="dateblob {% if event.items.length > 2 %}dateblob--sticky{% endif %}">
+            <span class="dateblob__day">
+              {{ event.name | readableDate: 'EEE' | slice: 0, 3 }}
+            </span>
+            <span class="dateblob__date">
+              {{ event.name | readableDate: 'dd' }}
+            </span>
+          </a>
+        </h2>
+        <ul class="series__events">
+          {% for item in event.items %}
+            <li class="series__event">
+              <time
+                {% if item.data.canceled %}
+                class="canceled"
+                {% endif %}>{{ item.data.event-date | readableDate: 'T' }}–{{ item.data.event-date-end | readableDate: 'T' }}</time>
+              <h3 class="title">
+                <a href="/events/{{ item.data.title | slugify }}.html">
+                  {% if item.data.canceled %}
+                    DESSVERRE AVLYST –
+                  {% endif %}
+                  {{ item.data.title }}
+                </a>
+              </h3>
+              <p>
+                {{ item.data.summary }}
+                Med {{ item.data.speakers | sentence }}.
+              </p>
+              <ul class="tags">
+                {% include "event-labels.html"
+                  , event: item.data %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
+
+{% block script %}
+  <script src="/assets/scripts/program.js" async></script>
+{% endblock %}
