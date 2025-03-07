@@ -1,4 +1,4 @@
 export default {
-  permalink: '/speakers/{{ title | slugify }}.html',
+  permalink: '/foredragsholdere/{{ title | slugify }}.html',
   tags: ['speaker'],
 }

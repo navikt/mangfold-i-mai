@@ -91,13 +91,14 @@
     align-content: center;
     gap: 0.125lh;
     border-radius: 40%;
-    inline-size: 4ch;
+    inline-size: 3.75ch;
     aspect-ratio: 1 / 1;
     text-decoration: none;
     grid-row: span 2;
     padding: 0.25rem 0.5rem;
     line-height: 1;
     color: inherit;
+    translate: -0.125ch -0.125lh;
 }
 a.dateblob:hover {
     background-color: color-mix(in srgb, var(--purple-light) 80%, white);
@@ -106,7 +107,7 @@ a.dateblob:hover {
 .dateblob--sticky {
     position: sticky;
     inset-block-start: 0.5lh;
-    margin-block-end: 1.4375lh;
+    margin-block-end: 0.875lh;
 }
 
 .dateblob__day {
@@ -143,8 +144,10 @@ a.dateblob:hover {
     margin-block: 0;
 }
 .series__event {
+    padding-block: 0.25lh;
+
     &:not(:first-of-type) {
-        padding-block-start: 1lh;
+        padding-block-start: 1.125lh;
         border-block-start: 1px solid var(--purple-light);
     }
 
@@ -157,7 +160,7 @@ a.dateblob:hover {
 
 .speaker-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(36ch, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(32ch, 100%), 1fr));
     justify-content: space-between;
     gap: 1lh 8ch;
 }
@@ -209,7 +212,7 @@ a.dateblob:hover {
 .title {
     font-size: 1.25em;
     font-weight: 700;
-    margin-block-start: 0.25lh;
+    margin-block-start: 0.125lh;
 }
 
 .badge {
@@ -294,6 +297,7 @@ a.dateblob:hover {
         align-items: start;
         column-gap: 1.5ch;
         margin-block-end: 1.5lh;
+        line-height: 1.5;
 
         & > * {
             grid-column: 2;
@@ -310,7 +314,6 @@ a.dateblob:hover {
             font-size: 1.5em;
             grid-column: 1;
             grid-row: 1 / span 3;
-            translate: -0.125ch -0.125lh;
         }
         .tags {
             grid-column: 1 / -1;
@@ -323,16 +326,18 @@ a.dateblob:hover {
 .ical {
     border: 0;
     background-color: var(--purple-dark);
-    padding: 0.75ch 1.5ch;
+    padding: 0.75ch 2ch;
     font: inherit;
     border-radius: 0.5ch;
     color: var(--white);
-    margin-block: 0 1lh;        
+    margin-block: 0 1lh;
+    inline-size: max-content;
 
     @media (width > 64rem) {
         grid-column: 2;
         grid-row-start: 2;
-        margin-block-start: 0.5lh;        
+        margin-block-start: 0.5lh;
+        justify-self: end;
     }
 
 }
@@ -341,13 +346,12 @@ a.dateblob:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75ch 0.5ch;
+    translate: -0.125ch 0;
 }
 
 .hero {
-    @media (width > 48rem) {
-        float: right;
-        max-inline-size: 30ch;
-    }
+    inline-size: 100%;
+    max-inline-size: 48ch;
 }
 
 .filter {

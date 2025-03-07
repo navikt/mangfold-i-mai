@@ -31,7 +31,7 @@ layout: 'default.html'
         {% if speaking %}
           <li class="series__event">
             <h3 class="title">
-              <a href="/events/{{ event.data.title | slugify }}.html">
+              <a href="/program/{{ event.data.title | slugify }}.html">
                 {% if event.data.canceled %}DESSVERRE AVLYST –{% endif %} 
                 {{ event.data.title }}
               </a>

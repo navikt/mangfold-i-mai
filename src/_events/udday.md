@@ -4,13 +4,11 @@ title: "Universal Design Day 2024"
 speakers: null
 summary: Join us in this year’s online event to explore how inclusive design creates a better future for all.
 privacy: public
-
 location-type: stream
-recorded:
-
+location-link: https://us06web.zoom.us/webinar/register/WN_ftEL-QRbQjmiymJPou9IZg
 event-date: 2024-05-03T13:00
 event-date-end: 2024-05-03T14:00
-
+language: en
 skip-video: true
 ---
 

@@ -2,11 +2,13 @@
 layout: 'default.html'
 ---
 
+{% capture lang -%}
+{% if language %} lang="{{ language }}"{% endif %}    
+{%- endcapture %}
+
 {% block content %}
   <div class="event">
-      <h1{% if page.language %} lang="{{ page.language }}"{% endif %}>
-        {% if canceled %}DESSVERRE AVLYST –{% endif %} {{ title }}
-      </h1>
+      <h1{{ lang }}>{% if canceled %}DESSVERRE AVLYST –{% endif %} {{ title }}</h1>
 
       {% unless canceled %}
       <div class="metadata">
@@ -30,7 +32,7 @@ layout: 'default.html'
               {% if location-name %}<li>{{ location-name }}</li>{% endif %}
               {% if location-link %}
               <a href="{{ location-link }}">Nettmøte</a>
-              {% endif %} 
+              {% endif %}
             {% when "in-person" %}
               {% if location-name %}{{ location-name }}{% endif %}
               {% when "hybrid" %}
@@ -85,16 +87,31 @@ layout: 'default.html'
         </button>      
       {% endunless %}
 
-      <div class="description" {% if language %}lang="{{ language }}"{% endif %}>
+      <div class="description" {{ lang }}>
         {{ content }} 
         {% include 'live-stream.html' %}
       </div>
       
       {% if speakers %}
 
-        case
       <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
-      <p>tes2t</p>
+      {% capture speaker_list %}          
+        {% for speaker in speakers -%}
+          {% assign speaker_with_url = collections.speaker | find_exp: 'item', 'item.data.title == speaker' %}
+          {%- capture person %}
+            {% if speaker_with_url %}
+              <a href="/foredragsholdere/{{ speaker_with_url.data.title | slugify }}.html">{{ speaker_with_url.data.title }}</a>
+              {% else %}
+              {{ speaker }}
+            {% endif %}
+          {% endcapture -%}
+          {% unless forloop.first -%}
+            {% if forloop.last %} og {% else %}, {% endif %}
+          {%- endunless %}{{ person | strip }}
+        {%- endfor %}
+      {% endcapture %}
+
+      <p>{{ speaker_list }}</p>
 
       {% comment %} 
       <ul class="speaker-list">

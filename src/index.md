@@ -9,7 +9,7 @@ title: Mangfold i mai - velkommen!
 
 Du finner programmet til årets Mangfold i mai på [program-siden](program/). 
 
-Årets program blir mer komprimert, og dere finner masse spennende på **8., 13., 14., 15. og 16. mai**, med en kickoff **3. mai** med UDDay 2024. 
+Årets program blir mer komprimert, og dere finner masse spennende den **8, 13, 14, 15. og 16. mai**, med en kickoff **3. mai** med UDDay 2024. 
 
 Vi strømmer størstedelen av innholdet. Mangfold i mai er som alltid gratis og åpent for alle. Vi skal ha noen enkelte kurs lokalt for NAV-ansatte andre dager i mai i tillegg. Det blir opptak av de fleste foredragene. Vi legger dem ut om en liten stund, du finner da opptakene på de enkelte foredragssidene.
 
