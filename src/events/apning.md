@@ -8,7 +8,7 @@ speakers:
     Hilde Kristine Braadland,
     Karina Ludwig,
   ]
-summary: Hvem er de unge NAV møter, hva er utfordringene og mulighetene, hvordan jobber NAV med ungdomsgarantien, og hvordan henger det sammen med universell utforming av IKT?
+summary: Hvem er de unge Nav møter, hva er utfordringene og mulighetene, hvordan jobber Nav med ungdomsgarantien, og hvordan henger det sammen med universell utforming av IKT?
 privacy: public
 
 location-type: hybrid
@@ -22,6 +22,6 @@ event-date-end: 2024-05-13T09:45
 
 ## Hva handler arrangementet om?
 
-Hvem er de unge NAV møter, hva er utfordringene og mulighetene, hvordan jobber NAV med ungdomsgarantien, og hvordan henger det sammen med universell utforming av IKT?
+Hvem er de unge Nav møter, hva er utfordringene og mulighetene, hvordan jobber Nav med ungdomsgarantien, og hvordan henger det sammen med universell utforming av IKT?
 
-Bli med i en samtale mellom NAV ung, Hjelpemiddelområdet, uu-tilsynet og fagmiljøet for universell utforming av IKT i NAV.
+Bli med i en samtale mellom Nav ung, Hjelpemiddelområdet, uu-tilsynet og fagmiljøet for universell utforming av IKT i Nav.

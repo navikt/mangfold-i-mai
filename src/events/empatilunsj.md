@@ -29,9 +29,9 @@ Målet er å fjerne usikkerhet om hva UU innebærer; og å lære om funksjonsgap
 - Få en dypere forståelse for brukeres liv og behov.
 
 ## Registrering
-Som NAV-ansatt / konsulent i NAV kan du [melde deg på lunsjen](https://delta.nav.no/event/e446aad5-6c3c-47c6-b77c-9bd2c36564a6). Påmeldingsfrist er **8. mai kl. 09.00**. 
+Som Nav-ansatt / konsulent i Nav kan du [melde deg på lunsjen](https://delta.nav.no/event/e446aad5-6c3c-47c6-b77c-9bd2c36564a6). Påmeldingsfrist er **8. mai kl. 09.00**. 
 
-Er du ikke ansatt i NAV og ønsker å delta - kan du sende e-post til david.hole@nav.no innen onsdag 8.mai kl 09.00. Er det fortsatt plass får du e-post innkalling. Lunsj for eksterne koster ca 100,-
+Er du ikke ansatt i Nav og ønsker å delta - kan du sende e-post til david.hole@nav.no innen onsdag 8.mai kl 09.00. Er det fortsatt plass får du e-post innkalling. Lunsj for eksterne koster ca 100,-
 
 Maksimalt antall deltakere er 23.
 
