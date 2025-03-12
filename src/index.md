@@ -3,7 +3,7 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-top4.png){ loading=eager eleventy:widths=800 decoding=auto class=hero }
+![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-figurer.svg){ class=hero }
 
 # Happy Global Accessibility Awareness Day!
 
@@ -15,7 +15,7 @@ Vi strømmer størstedelen av innholdet. Mangfold i mai er som alltid gratis og 
 
 Vi er takknemlig hvis du kan gi oss en kort [tilbakemelding på innleggene du har sett](https://www.survey-xact.no/LinkCollector?key=6AC7T977UK3J). Det tar bare veldig kort tid, og hjelper oss masse. Takk!
 
-<!--
+{% comment %}
 ## Gikk du glipp av noe i fjor? 
 Fortvil ikke. For mange innlegg har vi lagt ut videoopptak. Se [fjorårets program](https://navikt.github.io/mangfold-i-mai/2023/program/).
--->
+{% endcomment %}

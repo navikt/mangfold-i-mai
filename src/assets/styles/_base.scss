@@ -18,6 +18,8 @@
     --orange: #ffc166;
     --yellow: #ffd799;
 
+    --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
+
     background-color: var(--purple-light);
     color-scheme: light dark;
     box-sizing: border-box;
@@ -102,32 +104,18 @@ iframe {
     aspect-ratio: 16 / 9;
 }
 
-:where(p, ul, ol, dl) {
+:where(p, ul, ol, dl):not([class]) {
     margin-block: 0.25lh 1lh;
 }
 
-:where(ol, ul):has([class]) {
+:where(ol[class], ul[class]) {
     padding-inline-start: 0;
+    margin: 0;
     list-style: none;
 }
 
 summary {
     cursor: pointer;
-}
-
-:where(header, main, footer) {
-    --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
-    --wrapper: minmax(0, 48ch);
-
-    display: grid;
-    grid-template-columns: var(--edge) auto [wrapper-start] repeat(
-        2,
-        var(--wrapper)
-        ) [wrapper-end] auto var(--edge);
-
-    & > * {
-        grid-column: wrapper;
-    }
 }
 
 main {

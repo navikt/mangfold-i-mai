@@ -3,17 +3,23 @@
 <a id="skip" href="#content">Hopp til innholdet.</a>
 
 <header class='site-header'>
-    <a class="logo" href="/" {% if page.url == '/' %}aria-current="page"{% endif %}>Mangfold i mai</a>
-    <nav class="menu">
-      <ul>
-        {% for item in siteMenu %}
-          <li>
-            <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>
-              {{ item.title }}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
+  <nav class="nav">
+    <div class="logo">
+      <a href="/" {% if page.url == '/' %}aria-current="page"{% endif %}>
+        <svg width="48" height="48" fill="none" viewBox="0 0 48 48" aria-hidden="true" focusable=""false>
+          <path fill="currentColor" fill-rule="evenodd" d="M0 24a24 24 0 1 1 48 0 24 24 0 0 1-48 0ZM24 7.5a3.75 3.75 0 1 1 0 7.5 3.75 3.75 0 0 1 0-7.5Zm11.12 12.67-5.56 1.58c-.24.07-.47.11-.71.16l-.35.06v5.85L31.37 36a2.25 2.25 0 1 1-4.24 1.48l-2.43-6.62a.75.75 0 0 0-1.4 0l-2.43 6.62A2.25 2.25 0 0 1 16.63 36l2.87-8.2v-5.84l-.35-.06a6.87 6.87 0 0 1-.71-.16l-5.56-1.58a2.26 2.26 0 0 1 .36-4.41c.3-.03.6 0 .88.07l5.55 1.6c2.83.8 5.83.8 8.66 0l5.55-1.6a2.24 2.24 0 0 1 2.58 3.26c-.29.52-.77.91-1.34 1.08Z" clip-rule="evenodd"/>
+        </svg>
+        <span>Mangfold i mai</span>
+      </a>
+    </div>
+    <ul class="menu">
+      {% for item in siteMenu %}
+      <li>
+        <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>

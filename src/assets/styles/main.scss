@@ -21,10 +21,47 @@
 }
 
 .site-header {
-    background-color: color-mix(in srgb, var(--purple-light) 50%, white);
-    padding-block: 0.375lh;
-    align-items: baseline;
+    padding-block-start: 0.5lh;
+    overflow: clip;
+    display: flex;
+    inline-size: 100%;
+    gap: 0.875em;
+
+    @media (width > 48rem) {
+        padding-block-start: 1lh;
+
+        &:before,
+        &:after {
+            content: "";
+            background-color: var(--gray-light);
+            align-self: stretch;
+            border-radius: 99px;
+            min-inline-size: var(--edge); 
+            flex: 1;
+        }
+        &:before {
+            border-radius: 0 99px 99px 0;
+            translate: -2.875rem 0;
+        }
+        &:after {
+            border-radius: 99px 0 0 99px;
+        }
+    }
 }
+
+.nav {
+    grid-column: full;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    flex-basis: 96ch;
+    flex-grow: 0;
+
+    @media (width > 48rem) {
+        flex-direction: row;
+    }
+}
+
 
 :where(.logo, .menu) {
   @media (width > 32rem) {
@@ -33,45 +70,117 @@
 }
 
 .logo {
-    font-family: 'O-a11y', 'Nunito', system-ui, sans-serif;
     font-weight: 700;
     font-size: 125%;
     text-decoration: none;
     justify-self: start;
-    color: currentColor;
+    display: flex;
 
-    @media (width > 32rem) {
-        grid-column: wrapper / auto;
+    @media (width < 48rem) {
+        &:before,
+        &:after {
+            content: "";
+            background-color: var(--gray-light);
+            align-self: stretch;
+            border-radius: 99px;
+            min-inline-size: var(--edge); 
+        }
+        &:before {
+            border-radius: 0 99px 99px 0;
+            translate: -0.5em 0;
+        }
+        &:after {
+            border-radius: 99px 0 0 99px;
+            translate: 0.5em 0;
+            flex: 1;
+        }
     }
 
-    &:hover {
+
+    a {
+        display: flex;
+        gap: 0.5em;
+        text-decoration: none;
+        color: currentColor;
+
+        &:hover {
+            span {
+                background-color: var(--purple-light);
+                border-color: var(--blue-dark);
+                color: var(--blue-dark);
+            }
+        }
+    }
+    span {
+        display: flex;
+        border: 3px solid var(--purple-dark);
+        border-radius: 99px;
+        padding: 0 0.75em;
+        align-items: center;
         color: var(--purple-dark);
+    }
+    svg {
+        @media (width > 48rem) {
+            margin-inline-start: -3rem;
+        }
     }
 }
 
 .menu {
+    grid-column: wrapper;
+    list-style: none;
+    padding-inline-start: 0;
     display: flex;
-    gap: 3ch;
+    flex-wrap: wrap;
+    gap: 0.625em;
+    flex: 1;
 
-    @media (width < 32rem) {
-        margin-block-start: 0.25lh;
-    }    
-    @media (width > 32rem) {
-        grid-column: auto / wrapper;
-        justify-content: end;
-        translate: 0 -0.025lh;
+    &:before,
+    &:after {
+        content: "";
+        background-color: var(--gray-light);
+        align-self: stretch;
+        border-radius: 99px;
+        flex: 1;        
     }
-
-    ul {
+    &:before {
+        @media (width < 48rem) {
+            border-radius: 0 99px 99px 0;
+        }
+    }
+    &:after {
+        @media (width < 48rem) {
+            border-radius: 99px 0 0 99px;
+        }
+        @media (width > 48rem) {
+            display: none;
+        }
+    }
+    li {
         display: contents;
-        list-style: none;
-        margin-inline-start: auto;
-        padding-inline-start: 0;
+
+        &:first-of-type a {
+            background-color: var(--green);
+        }
+        &:last-of-type a {
+            background-color: var(--yellow);
+        }
     }
-    a:hover {
+    a {
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        padding: 0.75em 1em;
+        border-radius: 99px;
+        background-color: var(--gray-light);
         text-decoration: none;
         color: currentColor;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
+    
 }
 
 .page-header {
@@ -82,7 +191,19 @@
     gap: 0.25lh 2ch;
 }
 
+.container {
 
+    display: grid;
+    grid-template-columns: 
+        [full-start] var(--edge) auto 
+        [wrapper-start] repeat(1, minmax(0, 96ch)) 
+        [wrapper-end] auto var(--edge) 
+        [full-end];
+
+    & > * {
+        grid-column: wrapper;
+    }
+}
 
 .dateblob {
     background-color: color-mix(in srgb, var(--purple-light) 40%, white);
@@ -326,9 +447,9 @@ a.dateblob:hover {
 .ical {
     border: 0;
     background-color: var(--purple-dark);
-    padding: 0.75ch 2ch;
+    padding: 0.5ch 3ch;
     font: inherit;
-    border-radius: 0.5ch;
+    border-radius: 99px;
     color: var(--white);
     margin-block: 0 1lh;
     inline-size: max-content;
@@ -352,6 +473,15 @@ a.dateblob:hover {
 .hero {
     inline-size: 100%;
     max-inline-size: 48ch;
+
+    @media (width > 48rem) {
+        float: right;
+        margin: 0 0 1lh 3ch;
+    }
+}
+
+p:has(img) {
+    display: contents;
 }
 
 .filter {

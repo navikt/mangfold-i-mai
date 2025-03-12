@@ -54,6 +54,9 @@ export default async function (eleventyConfig) {
     widths: ['auto'],
     failOnError: false,
     urlPath: '/assets/images/',
+    svgAllowUpscale: false,
+    svgShortCircuit: true,
+    svgCompressionSize: 'br',
     htmlOptions: {
       imgAttributes: {
         loading: 'lazy',
