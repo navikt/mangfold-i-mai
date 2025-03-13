@@ -2,7 +2,7 @@
 eleventyExcludeFromCollections: true
 layout: "event.html"
 title: "Rapportlansering: Må diskrimineringsloven endres på grunn av kunstig intelligens?"
-speakers: [Likestillings- og diskrimineringsombudet (LDO)]
+speakers: ['Likestillings- og diskrimineringsombudet (LDO)']
 summary: Eksternt arrangement relatert til Mangfold i mai.
 privacy: public
 

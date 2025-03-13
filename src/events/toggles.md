@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Toggles og brukervennlighet"
-speakers: [Pietro Murano]
+speakers: ['Pietro Murano']
 summary: Hvordan utforme toggles. Noen konkrete retningslinjer.
 privacy: public
 

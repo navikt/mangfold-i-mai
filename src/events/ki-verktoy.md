@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Utvikling av KI-baserte verktøy for økt tilgjengelighet"
-speakers: [Kristin Skeide Fuglerud]
+speakers: ['Kristin Skeide Fuglerud']
 summary: Bli med for å høre mer om hvordan kunstig intelligens kan bidra til økt inkludering.
 privacy: public
 

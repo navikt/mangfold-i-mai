@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Vårt digitale liv"
-speakers: [Cathrine Einarsson]
+speakers: ['Cathrine Einarsson']
 summary: Synes du digital inkludering virker vanskelig? Bli litt klokere på hvorfor, og få ideer til hva DU kan gjøre for at flere skal trives i sitt digitale liv.
 privacy: public
 

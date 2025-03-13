@@ -3,10 +3,10 @@ layout: "event.html"
 title: "Åpning av Mangfold i mai"
 speakers:
   [
-    Espen Rørvik Tjøstolvsen,
-    Laila Hove,
-    Hilde Kristine Braadland,
-    Karina Ludwig,
+    'Espen Rørvik Tjøstolvsen',
+    'Laila Hove',
+    'Hilde Kristine Braadland',
+    'Karina Ludwig',
   ]
 summary: Hvem er de unge Nav møter, hva er utfordringene og mulighetene, hvordan jobber Nav med ungdomsgarantien, og hvordan henger det sammen med universell utforming av IKT?
 privacy: public

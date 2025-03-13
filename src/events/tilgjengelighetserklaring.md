@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: "Tilgjengelighetserklæringer i en stor organisasjon: utfordringer og muligheter"
-speakers: [Sarah Brodwall]
+speakers: ['Sarah Brodwall']
 summary: 
 privacy: public
 canceled: true

@@ -3,11 +3,11 @@ layout: "event.html"
 title: "KI og diskriminering – kan det unngås?"
 speakers:
   [
-    Beate Sletvold Øistad,
-    Thomas Jahren,
-    Jon-Vegard Sparre,
-    Iris Bore,
-    Jacob Sjødin,
+    'Beate Sletvold Øistad',
+    'Thomas Jahren',
+    'Jon-Vegard Sparre',
+    'Iris Bore',
+    'Jacob Sjødin',
   ]
 summary: Et innblikk i Likestillings og diskrimineringsombudets og Navs arbeid med KI
 privacy: public

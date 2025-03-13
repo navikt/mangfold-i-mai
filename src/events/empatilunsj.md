@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
 title: Empatilunsj
-speakers: [David Hole]
+speakers: ['David Hole']
 summary: Fysisk lunsj med utstyr som simulerer funksjonstap.
 
 privacy: public
