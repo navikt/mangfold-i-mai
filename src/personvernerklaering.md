@@ -1,8 +1,10 @@
 ---
 layout: "default.html"
 permalink: personvernerklaering/
-title: Personvern og sikkerhet på mangfoldimai.no
+title: Personvernerklæring
 ---
+
+# {{ title }}
 
 Mangfoldimai.no er en nettside Nav Arbeids- og velferdsdirektoratet har behandlingsansvaret for.
 
