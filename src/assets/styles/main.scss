@@ -265,15 +265,34 @@ a.dateblob:hover {
     margin-block: 0;
 }
 .series__event {
-    padding-block: 0.25lh;
+    padding-block: 0.25lh 1.5lh;
+
+    @media (width > 64rem) {
+        display: grid;
+        grid-template-columns: [main] 1fr [side] 24ch;
+        column-gap: 4ch;
+    }
 
     &:not(:first-of-type) {
         padding-block-start: 1.125lh;
         border-block-start: 1px solid var(--purple-light);
     }
 
+    & > * {
+        grid-column: main;
+    }
+
     p:last-of-type {
         margin-block-end: 0.75lh;
+
+        @media (width > 64rem) {
+            margin-block-end: 0;
+        }
+    }
+    .tags {
+        grid-column: side;
+        align-self: center;
+        grid-row: 1 / span 3;
     }
 }
 

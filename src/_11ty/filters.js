@@ -19,8 +19,20 @@ const sentence = function (list) {
   }
 }
 
-const pluck = (arr, selections, attr) => {
-  return arr.filter((item) => selections.includes(item.data[attr]))
+const eventsBySpeaker = (arr, value) => {
+  return arr.filter((item) => {
+    if (item.data.speakers != null) {
+      return item.data.speakers.includes(value)
+    }
+  })
 }
 
-export { readableDate, sentence, pluck }
+const where_includes = (arr, a, b) => {
+  return arr.filter((item) => {
+    if (a != null) {
+      return a.includes(b)
+    }
+  })
+}
+
+export { readableDate, sentence, eventsBySpeaker, where_includes }

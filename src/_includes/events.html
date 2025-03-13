@@ -22,7 +22,7 @@
                 {% if item.data.canceled %}
                 class="canceled"
                 {% endif %}>{{ item.data.event-date | readableDate: 'T' }}–{{ item.data.event-date-end | readableDate: 'T' }}</time>
-              <h3 class="title" {{ lang }}>
+              <h3 class="title"{{ lang }}>
                 <a href="/program/{{ item.data.title | slugify }}.html">
                   {% if item.data.canceled %}
                     DESSVERRE AVLYST –
