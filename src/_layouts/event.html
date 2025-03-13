@@ -7,8 +7,10 @@ layout: 'default.html'
 {%- endcapture %}
 
 {% block content %}
+
+
   <div class="event">
-      <h1{{ lang }}>{% if canceled %}DESSVERRE AVLYST –{% endif %} {{ title }}</h1>
+      <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
 
       {% unless canceled %}
       <div class="metadata">

@@ -9,7 +9,7 @@ layout: 'default.html'
 {% assign last-date = last-event.data['event-date'] | readableDate: "yyyy-LL-dd" %}
 
 {% assign events_today = collections.event | where_exp: "item", "item.data.day == today-date" %}
-{% assign events = events_today | sort: "data.event-date" | group_by_exp: "item", "item.data.day" %}
+{% assign events = events_today | sort: "data.event-date" | group_by: "data.day" %}
 
 {% block content %} 
 

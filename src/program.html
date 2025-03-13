@@ -68,7 +68,7 @@ eleventyNavigation:
     </details>
   </div>
 
-  {% assign events = collections.event | sort: "data.event-date" | group_by_exp: "item", "item.data.day" %}
+  {% assign events = collections.event | sort: "data.event-date" | group_by: "data.day" %}
   {% include "events.html", events: events %}
 
 {% endblock %}
