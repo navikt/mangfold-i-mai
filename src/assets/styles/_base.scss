@@ -85,12 +85,12 @@ picture {
 
 
 :where(h1) {
-    font-weight: 700;
+    font-weight: 800;
     margin-block: 0 0.5lh;
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 :where(h2) {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 :where(h2:first-child) {
@@ -124,7 +124,8 @@ main {
 }
 
 ::selection {
-    background-color: color-mix(in srgb, var(--purple) 40%, transparent);
+    background-color: color-mix(in srgb, var(--yellow) 75%, transparent);
+    color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
