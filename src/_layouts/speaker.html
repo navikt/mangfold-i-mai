@@ -3,32 +3,27 @@ layout: 'default.html'
 ---
 
 {% block content %}
-  <div class="speaker">
-    {%- if image %}
-      <img 
-        class="speaker-image" 
-        style="view-transition-name: img-{{ title | slugify }}"
-        src="/assets/images/speakers/optimized/{{ image }}" 
-        alt="{{ title }}" 
-        aria-hidden="true"
-        loading="eager" 
-        decoding="auto" 
-        eleventy:widths="400">
-    {%- endif %}
+  {%- if image %}
+    <img 
+      class="portrait" 
+      style="view-transition-name: img-{{ title | slugify }}"
+      src="/assets/images/speakers/optimized/{{ image }}" 
+      alt="{{ title }}" 
+      aria-hidden="true"
+      loading="eager" 
+      decoding="auto" 
+      eleventy:widths="400">
+  {%- endif %}
 
-    <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1> 
-    <p class="summary">{{ summary }}.</p>
+  <h1{% if language %} lang="{{ language }}"{% endif %}>{{ title }}</h1> 
+  <p class="summary">{{ summary }}.</p>
 
-    {{ content }}
-
-
-    {% assign events_by_speaker = collections.event | eventsBySpeaker: title %}
-    {% assign events = events_by_speaker | sort: "data.event-date" | group_by: "data.day" %}
-   
-    <section aria-labelledby="speaking" class="clear">
-      <h2 id="speaking">Foredrag</h2>     
-      {% include "events.html", events: events %}
-    </section>
+  {{ content }}
   
-  </div>
+  <section aria-labelledby="speaking" class="clear">
+    <h2 id="speaking">Foredrag</h2>     
+    {% assign events_by_speaker = collections.event | eventsBySpeaker: title %}
+    {% assign events = events_by_speaker | sort: "data.event-date" | group_by: "data.day" %} 
+    {% include "events.html", events: events %}
+  </section>
 {% endblock %}
