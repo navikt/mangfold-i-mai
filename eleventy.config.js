@@ -10,13 +10,19 @@ import path from 'path'
 
 export default async function (eleventyConfig) {
   // Passthrough Copy
-  eleventyConfig.addPassthroughCopy('assets/scripts')
-  eleventyConfig.addPassthroughCopy('assets/fonts')
-  eleventyConfig.addPassthroughCopy('assets/images/logo-small.svg')
-  eleventyConfig.addPassthroughCopy('assets/images/nav-logo.svg')
-  eleventyConfig.addPassthroughCopy('assets/images/mim-banner.png')
-  eleventyConfig.addPassthroughCopy('assets/images/favicon.png')
-  eleventyConfig.addPassthroughCopy('assets/images/favicon.svg')
+  eleventyConfig.addPassthroughCopy('./src/assets/scripts')
+  eleventyConfig.addPassthroughCopy('./src/assets/fonts')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/logo-small.svg')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/nav-logo.svg')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/mim-banner.png')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/favicon.png')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/favicon.svg')
+
+  eleventyConfig.addPassthroughCopy({ './_2022': '2022' })
+  eleventyConfig.addPassthroughCopy({ './_2023': '2023' })
+
+  // Extend Markdown-It
+  eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(markdownItAttrs))
 
   // Scss Compilation
   eleventyConfig.addTemplateFormats('scss')
@@ -76,23 +82,12 @@ export default async function (eleventyConfig) {
   // Transforms
   eleventyConfig.addTransform('minifyHtml', minifyHtml)
 
-  // Shortcode
-  eleventyConfig.addShortcode('currentBuildDate', () => {
-    return new Date().toISOString()
-  })
-
-  // Liquid Templating Language Options
-  eleventyConfig.setLiquidOptions({})
-
   // Eleventy Dev Server
   eleventyConfig.setServerOptions({
     enabled: true,
     showVersion: true,
     port: 8888,
   })
-
-  // Extend Markdown-It
-  eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(markdownItAttrs))
 }
 
 export const config = {
@@ -104,6 +99,6 @@ export const config = {
     data: '_data',
     output: '_site_new',
   },
-  // pathPrefix: '/mangfold-i-mai',
+  pathPrefix: '/mangfold-i-mai',
 }
 
