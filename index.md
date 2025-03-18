@@ -7,8 +7,9 @@ title: Mangfold i mai - velkommen!
 
 # Mangfold i mai - Global Accessibility Awareness Day Edition
 
-Årets Mangfold i mai byr på en rekke spennende foredrag og workshops på Global Accessibility Awareness Day 15. mai.
+Årets Mangfold i mai byr på en rekke spennende foredrag og workshops på Global Accessibility Awareness Day 15. mai. 
 
+## Ikke noe streaming - men det kommer opptak
 Denne gangen har vi dessverre ikke mulighet til å streame live, og dagen kjøres mest lokalt hos oss i Nav. Vi kommer til å legge ut opptak i etterkant der mulig :) 
 
 ## Hvorfor er opplegget annerledes i år?
