@@ -7,13 +7,9 @@ title: Mangfold i mai - velkommen!
 
 # Mangfold i mai - Global Accessibility Awareness Day Edition
 
-Årets Mangfold i mai byr på en rekke spennende foredrag og workshops på Global Accessibility Awareness Day 15. mai. 
+Mangfold i mai 2025 byr på en dag med spennende foredrag og workshops i anledning Global Accessibility Awareness Day - 15. mai.
+Det blir ikke noe streaming live denne dagen, men det kommer opptak.
 
-## Ikke noe streaming - men det kommer opptak
-Denne gangen har vi dessverre ikke mulighet til å streame live, og dagen kjøres mest lokalt hos oss i Nav. Vi kommer til å legge ut opptak i etterkant der mulig :) 
-
-## Hvorfor er opplegget annerledes i år?
-Vi i Nav er midt i en omorgansiering, der vi ser hvordan vi skal rigge oss best mulig for å yte enda bedre service til dere der ute. Arbeidet med universell utforming og mangfold blir en viktig del av dette. Det betyr samtidig at vi i år må bruke en del tid for å få akkurat denne riggen på plass, og har mindre rom for å kjøre en omfattende Mangfold i mai.
-
-## Gikk du glipp av noe i fjor? 
-Fortvil ikke. For mange innlegg har vi lagt ut videoopptak. Se [fjorårets program](https://navikt.github.io/mangfold-i-mai/2024/program/).
+## Hvorfor er det bare en dag i år?
+Nav holder på å omorganisere seg, og ny organisasjon starter 5.mai. Derfor reduserer vi til kun én dag i år. Vi som jobber med universell utforming og inkluderende design vil bli en del av en ny avdeling for Brukeropplevelse. Arbeidet med universell utforming og mangfold blir en viktig del av denne avdelingen.
+Tidligere års opptak ligger arkivert på siden her.
