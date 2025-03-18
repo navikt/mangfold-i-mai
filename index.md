@@ -7,7 +7,7 @@ title: Mangfold i mai - velkommen!
 
 # Mangfold i mai - Global Accessibility Awareness Day Edition
 
-Mangfold i mai 2025 byr på en dag med spennende foredrag og workshops i anledning Global Accessibility Awareness Day - 15. mai.
+Mangfold i mai 2025 byr på en dag med spennende foredrag og workshops i anledning **Global Accessibility Awareness Day - 15. mai**.
 Det blir ikke noe streaming live denne dagen, men det kommer opptak.
 
 ## Hvorfor er det bare en dag i år?
