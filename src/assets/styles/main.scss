@@ -195,8 +195,10 @@
 }
 
 .container {
-    inline-size: min(96ch, 100%);
+    max-inline-size: calc(96ch + (var(--edge) * 2));
+    inline-size: 100%;
     margin-inline: auto;
+    padding-inline: var(--edge);
 }
 
 .dateblob {
@@ -206,11 +208,11 @@
     align-content: center;
     gap: 0.125lh;
     border-radius: 40%;
-    inline-size: 3.75ch;
+    inline-size: 4.5ch;
     aspect-ratio: 1 / 1;
     text-decoration: none;
-    grid-row: span 2;
-    padding: 0.25rem 0.5rem;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
     line-height: 1;
     color: inherit;
     translate: -0.125ch -0.125lh;
@@ -227,16 +229,16 @@ a.dateblob:hover {
 
 .dateblob__day {
     text-transform: uppercase;
-    font-size: 50%;
-    font-weight: 600;
+    font-size: 55%;
+    font-weight: 650;
     letter-spacing: 0.05ch;
     translate: 0 0.125lh;
 }
 
 .dateblob__date {
-    font-size: 100%;
+    font-size: 120%;
     font-weight: 800;
-    translate: 0 0.025lh;
+    translate: 0 0.1lh;
 }
 
 .series {
@@ -249,7 +251,7 @@ a.dateblob:hover {
     display: grid;
     grid-template-columns: auto 1fr;
     align-content: start;
-    column-gap: 1.5ch;
+    column-gap: 1ch;
     padding-block-start: 1lh;
     border-block-start: 1px solid var(--purple-light);
 }
@@ -263,7 +265,7 @@ a.dateblob:hover {
 
     @media (width > 64rem) {
         display: grid;
-        grid-template-columns: [main] 1fr [side] 24ch;
+        grid-template-columns: [main] 1fr [side] clamp(10rem, -2rem + 20vw, 14rem);
         column-gap: 4ch;
     }
 
@@ -274,6 +276,9 @@ a.dateblob:hover {
 
     & > * {
         grid-column: main;
+    }
+    .title {
+        margin-block-end: 0.25lh;
     }
 
     p:last-of-type {
@@ -287,10 +292,9 @@ a.dateblob:hover {
         grid-column: side;
         align-self: center;
         grid-row: 1 / span 3;
+        margin-block-end: 0;
     }
 }
-
-
 
 .speaker-list {
     display: grid;
@@ -319,8 +323,8 @@ a.dateblob:hover {
         aspect-ratio: 1;
         overflow: clip;
         object-fit: cover;
-        border-radius: 40%;
-        max-inline-size: clamp(4.5rem, 4rem + 2.5vw, 6rem);
+        border-radius: 42%;
+        max-inline-size: clamp(4.5rem, 3.625rem + 4.375vw, 8rem);
     }
     :is(h2, h3) {
         margin-block-start: 0.25lh;
@@ -336,6 +340,7 @@ a.dateblob:hover {
     background-color: color-mix(in srgb, var(--purple-light) 40%, white);
     padding-block: 1lh;
     margin-block-start: 3lh;
+    border-image: conic-gradient(color-mix(in srgb, var(--purple-light) 40%, white) 0 0) fill 0 / / 0 100vw;
 
     .wrapper {
         @media (width > 64rem) {
@@ -402,65 +407,47 @@ a.dateblob:hover {
 .portrait {
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    border-radius: 40%;
-    max-inline-size: clamp(6rem, 4rem + 10vw, 12rem);
+    border-radius: 42%;
+    max-inline-size: clamp(6rem, 3.3333rem + 13.3333vw, 14rem);
     float: right;
-    clear: right;
     margin-inline-start: 3ch;
     margin-block-end: 0.5lh;
 
-    @media (width > 50rem) {
+    @media (width > 64rem) {
         margin-inline-start: 6ch;
     }
 }
 
-.event {
-    display: grid;
-    container: event / inline-size;
-
-    @media (width > 50rem) {
-        grid-template-columns: 2fr 1fr;
-        column-gap: 6ch;
-        align-items: start;
-    }
-
-    & > * {
-        @media (width > 50rem) {
-            grid-column: 1;
-        }
-    }
-    h1 {
-        grid-column: 1 / -1;
-    }
-
-    .metadata {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        align-items: start;
-        column-gap: 1.5ch;
-        margin-block-end: 1.5lh;
-        line-height: 1.5;
-
-        & > * {
-            grid-column: 2;
-        }
+.metadata {
+    margin-block-start: 1.5lh;
+    line-height: 1.5;
     
-        time {
-            font-weight: 700;
-        }
-        p {
-            margin-block: 0;
-            text-wrap: balance;
-        }
-        .dateblob {
-            font-size: 1.5em;
-            grid-column: 1;
-            grid-row: 1 / span 3;
-        }
-        .tags {
-            grid-column: 1 / -1;
-            margin-block: 1lh 0;
-        }
+    @media (width > 75rem) {
+        float: right;
+        max-inline-size: 28ch;
+        margin-inline-start: 4ch;
+        margin-block-start: clamp(-2lh, -1vh - 3vi, -1lh);
+    }
+}
+.date-location {
+    display: flex;
+    align-items: start;
+    column-gap: 1.5ch;
+
+    time {
+        font-weight: 700;
+    }
+    p {
+        margin-block: 0;
+        text-wrap: balance;
+        max-inline-size: 36ch;
+    }
+    .dateblob {
+        flex-shrink: 0;
+    }
+    .tags {
+        grid-column: 1 / -1;
+        margin-block: 1lh 0;
     }
 }
 
@@ -472,8 +459,8 @@ a.dateblob:hover {
     font: inherit;
     border-radius: 99px;
     color: var(--white);
-    margin-block: 0 1lh;
-    inline-size: max-content;
+    margin-block: 1lh;
+    inline-size: min(32ch, 100%);
 
     @media (width > 64rem) {
         grid-column: 2;
@@ -489,6 +476,7 @@ a.dateblob:hover {
     flex-wrap: wrap;
     gap: 0.75ch 0.5ch;
     translate: -0.125ch 0;
+    margin-block-end: 1lh;
 }
 
 .hero {
