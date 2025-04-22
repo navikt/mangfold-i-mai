@@ -526,6 +526,42 @@ p:has(img) {
     }
 }
 
+.video {
+    background-color: var(--purple-dark);
+    border-radius: 12px;
+    aspect-ratio: 16 / 9;
+    overflow: clip;
+    max-inline-size: 640px;
+    display: grid;
+
+    &[ready] {
+        border-radius: 0;
+    }
+}
+
+.video > * {
+    grid-area: 1 / 1
+}
+
+.video button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font: inherit;
+}
+.video svg {
+    pointer-events: none;
+}
+.video span {
+    display: block;
+    margin-block-end: -0.75lh;
+    text-shadow: 0 1px 2px #0009;
+}
+
+.video iframe {
+    vertical-align: top;
+}
+
 .clear {
     clear:both;
 }
