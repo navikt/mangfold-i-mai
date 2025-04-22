@@ -11,6 +11,9 @@ import path from 'path'
 export default async function (eleventyConfig) {
   // Passthrough Copy
   eleventyConfig.addPassthroughCopy('./src/assets/scripts')
+  eleventyConfig.addPassthroughCopy({
+    './node_modules/@11ty/is-land/is-land.js': '/assets/scripts',
+  })
   eleventyConfig.addPassthroughCopy('./src/assets/fonts')
   eleventyConfig.addPassthroughCopy('./src/assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('./src/assets/images/nav-logo.svg')
@@ -20,6 +23,7 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({ './_2022': '2022' })
   eleventyConfig.addPassthroughCopy({ './_2023': '2023' })
+  eleventyConfig.addPassthroughCopy({ './_2024': '2024' })
 
   // Extend Markdown-It
   eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(markdownItAttrs))
