@@ -3,18 +3,22 @@
     <p>
       <b>Mangfold i mai</b> er en arrangementsserie rundt mangfold, inkludering og universell utforming i regi av Team Universell utforming og inkluderende design hos Arbeids- og velferdsdirektoratet.
     </p>
-    <p>
-      <b>Arkiv for tidligere år:</b>
-      <a href="{{ "/2024" }}">2024</a>
-      <a href="{{ "/2023" }}">2023</a>
-      <a href="{{ "/2022" }}">2022</a>
-    </p>
-    <p>
-      <b>Kontakt oss</b> på
-      <a href="mailto:{{ site.email }}">e-post</a> eller
-      <a href="https://nav-it.slack.com/archives/C7MANSGLS">Slack (for Nav-ansatte)</a>.
-    </p>
-    <p><a href={{ "/personvernerklaering/" }}>Personvernerklæring</a></p>
+    {% comment %}
+      <p>
+        <b>Arkiv for tidligere år:</b>
+        <a href="{{ "/2024" }}">2024</a>
+        <a href="{{ "/2023" }}">2023</a>
+        <a href="{{ "/2022" }}">2022</a>
+      </p>
+    {% endcomment %}
+    <div>
+      <p>
+        <b>Kontakt oss</b>:<br>
+        <a href="mailto:{{ site.email }}">E-post</a> eller
+        <a href="https://nav-it.slack.com/archives/C7MANSGLS">Slack (for Nav-ansatte)</a>.
+      </p>
+      <p><a href={{ "/personvernerklaering/" }}>Personvernerklæring</a></p>
+    </div>
   </div>
 </footer>
 

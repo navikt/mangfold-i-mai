@@ -1,0 +1,22 @@
+---
+layout: "default.html"
+pagination:
+  data: collections.archive
+  alias: recording
+  size: 1
+eleventyComputed:
+  title: "{{ recording.data.title }}"
+  permalink: "opptak/{{ recording.fileSlug }}-{{ recording.data.year }}/index.html"
+---
+
+{% block content %}
+  <h1>{{ recording.data.title }}</h1>
+  <p>{{ recording.data.speakers | sentence }}</p>
+
+  {% if recording.data.video %}
+    <p>[VIIIIDEO]</p>
+  {% endif %}
+
+
+  {{ recording.templateContent }}
+{% endblock %}

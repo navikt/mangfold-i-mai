@@ -1,0 +1,42 @@
+---
+layout: "default.html"
+title: Opptak fra tidligere år
+permalink: 'opptak/index.html'
+eleventyNavigation:
+  key: menu
+  title: Opptak fra tidligere år
+  order: 2
+blobs:
+  - 'assets/images/blobs/upper-half-circle.svg'
+  - 'assets/images/blobs/triangle.svg'
+  - 'assets/images/blobs/wide-rectangle.svg'
+---
+
+{% assign archive = collections.archive | group_by: 'data.year' | sort: "name" | reverse %}
+
+<h1>{{ title }}</h1>
+
+{% for year in archive %}
+  <div class="archive">
+    <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
+    <h2>{{ year.name }}</h2>
+    {% assign events = year.items | sort: 'data.title' %}
+    <ul>
+      {% for event in events %}
+
+        {% capture lang -%}
+        {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
+        {%- endcapture %}
+
+        <li{{ lang }}>
+          <h3>
+            <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
+              {{ event.data.title }}
+            </a>
+          </h3>
+          <p>{{ event.data.speakers | sentence }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
