@@ -1,5 +1,8 @@
 <div class="series" id="event-series">
     {% for event in events %}
+
+      <div>{{ event.event-date }}</div>
+
       <div class="series__day">
         <h2 aria-label="{{ event.name | readableDate: 'DDD' }}">
           <span class="dateblob {% if event.items.length > 2 %}dateblob--sticky{% endif %}">

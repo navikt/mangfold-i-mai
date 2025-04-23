@@ -1,0 +1,49 @@
+---
+layout: "default.html"
+---
+
+{% block content %}
+  <div>
+    <h1>{{ title }}</h1>
+    {{ content }}
+  </div>
+
+  {% assign events = collections.event | sort: "data.time" %}
+  <div class="program" id="event-series">
+    {% for event in events %}
+
+      <div class="program__event">
+        <h2>{{ event.data['event-date'] | readableDate: 'T' }}–{{ event.data['event-date-end'] | readableDate: 'T' }}</h2>
+
+        <div>
+          {% capture lang -%}
+          {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
+          {%- endcapture %}
+          <h3 class="title" {{ lang }}>
+            {% if event.data.canceled %}
+              DESSVERRE AVLYST –
+            {% endif %}
+            {{ event.data.title }}
+          </h3>
+          <p>{{ event.data.speakers | sentence }}.</p>
+
+        {% comment %}
+          <p{{ lang }}>
+          {{ event.data.summary }}
+          Med {{ event.data.speakers | sentence }}.
+          </p>
+          <ul class="tags">
+          {% include "event-labels.html"
+          , event: event.data %}
+          </ul>
+        {% endcomment %}
+
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
+
+{% block script %}
+  <script src="/assets/scripts/program.js" async></script>
+{% endblock %}
