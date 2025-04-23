@@ -3,8 +3,8 @@ title: 'Han, hun og hen hvordan få de til å bli min venn?'
 speakers:
   - Agnethe Stensrud Heggelund
   - Line Moseng
-video: 
-  youtube: https://www.youtube.com/watch?v=Ya-qSreE_vs
+
+youtube: https://www.youtube.com/watch?v=Ya-qSreE_vs
 ---
 
 Kræsjkurs i inkluderende språk.

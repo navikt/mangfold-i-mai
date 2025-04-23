@@ -529,7 +529,7 @@ p:has(img) {
     position: relative;
     display: grid;
     grid-template-columns: auto 1fr;
-    column-gap: clamp(1rem, 0rem + 5vw, 4rem);
+    column-gap: clamp(1rem, 0.3333rem + 3.3333vw, 3rem);
     align-items: start;
 
     img {
@@ -560,13 +560,12 @@ p:has(img) {
         padding-block: 1lh;
         margin-block: 0;
         list-style: none;
-        flex: 1;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(32ch, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 32ch), 1fr));
         column-gap: clamp(1rem, 0.3333rem + 3.3333vw, 3rem);
+        min-inline-size: 0;
     }
     li {
-        break-inside: avoid;
         padding-block: 1px;
     }
     p {

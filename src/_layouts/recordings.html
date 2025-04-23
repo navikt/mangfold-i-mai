@@ -1,23 +1,19 @@
 ---
 layout: "default.html"
-title: Opptak fra tidligere år
-permalink: 'opptak/index.html'
-eleventyNavigation:
-  key: menu
-  title: Opptak fra tidligere år
-  order: 2
 blobs:
-  - 'assets/images/blobs/upper-half-circle.svg'
-  - 'assets/images/blobs/triangle.svg'
-  - 'assets/images/blobs/wide-rectangle.svg'
+  - '/assets/images/blobs/upper-half-circle.svg'
+  - '/assets/images/blobs/triangle.svg'
+  - '/assets/images/blobs/wide-rectangle.svg'
 ---
 
-{% assign archive = collections.archive | group_by: 'data.year' | sort: "name" | reverse %}
+{% assign archive = collections.opptak | group_by: 'data.year' | sort: "name" | reverse %}
 
 <h1>{{ title }}</h1>
 
+{{ content }}
+
 {% for year in archive %}
-  <div class="archive">
+  <section class="archive">
     <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
     <h2>{{ year.name }}</h2>
     {% assign events = year.items | sort: 'data.title' %}
@@ -38,5 +34,5 @@ blobs:
         </li>
       {% endfor %}
     </ul>
-  </div>
+  </section>
 {% endfor %}

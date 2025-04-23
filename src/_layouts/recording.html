@@ -1,0 +1,71 @@
+---
+layout: "default.html"
+permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
+---
+
+{% block content %}
+  <h1>{{ title }}</h1>
+  <p>{{ speakers | sentence }}</p>
+
+  {% if video %}
+    {% assign video_provider = video | split: "/" %}
+    {% assign video_id = video | split: "/" %}
+
+    <is-land class="video" on:interaction>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        width="960"
+        height="540"
+        fill="none"
+        viewBox="0 0 960 540">
+        <path fill="#F7ABC5" d="M910.5 255.3a37.3 37.3 0 0 0 38.2 22c4-.4 7.7-.2 11.3.4v161.6c-3.6.7-7.4.9-11.3.5a37.3 37.3 0 0 0-38.2 22 37.3 37.3 0 0 1-68.3 0 37.3 37.3 0 0 0-38.2-22 37.3 37.3 0 0 1-34.2-59.2c9.6-13.1 9.6-31 0-44.1a37.3 37.3 0 0 1 34.2-59.2 37.3 37.3 0 0 0 38.2-22 37.3 37.3 0 0 1 68.3 0Z" />
+        <path fill="#fff" d="M826 347.8a23.2 23.2 0 1 0 46.4 0 23.2 23.2 0 0 0-46.4 0Z" />
+        <path fill="#000" d="M826.2 341.5c-2.5 9.1.9 18.4 7.7 24 .6 0 1.1-.2 1.7-.3a23.2 23.2 0 0 0 9.3-40.6 23.2 23.2 0 0 0-18.7 16.9Z" />
+        <path fill="#fff" d="M887.8 347.8a23.2 23.2 0 1 0 46.4 0 23.2 23.2 0 0 0-46.4 0Z" />
+        <path fill="#000" d="M888 341.5c-2.4 9.1.9 18.4 7.8 24l1.6-.3a23.2 23.2 0 0 0 9.3-40.6 23.2 23.2 0 0 0-18.7 16.9Zm-10 58.7c-15.2 0-21.4-4.9-22-5.4a3 3 0 1 1 3.8-4.6s5.2 4 18.2 4a45 45 0 0 0 19.6-4.4 3 3 0 0 1 3 5.3c-.4.2-9.5 5.1-22.6 5.1Z" />
+        <path fill="#FFC533" d="M47.3 540c8-185.8-20.6-315.5 50.8-315.5 71.5 0 222.1 129.7 261.4 315.5H47.3Z" />
+        <path fill="#fff" d="M202.4 399.8a23.8 23.8 0 1 1-33.7-33.7 23.8 23.8 0 0 1 33.7 33.7Z" />
+        <path fill="#000" d="M202.5 366a23.8 23.8 0 0 0-25.4-5.4l-.5 1.6a23.8 23.8 0 0 0 31.3 29.2 23.9 23.9 0 0 0-5.4-25.4Z" />
+        <path fill="#fff" d="M138.8 399.8a23.8 23.8 0 1 1-33.7-33.7 23.8 23.8 0 0 1 33.7 33.7Z" />
+        <path fill="#000" d="M142.6 371a23.8 23.8 0 0 0-23-11.8 23.8 23.8 0 0 0 21.8 37.7 23.9 23.9 0 0 0 1.2-25.9Zm12.1 70.7c-10.2 0-21.2-3.1-21.2-10.1a3 3 0 0 1 6.2 0c.3 1 5.5 4 15 4 9.6 0 14.7-3 15-4a3 3 0 0 1 3.1-3.1c1.7 0 3.1 1.4 3.1 3 0 7-11 10.2-21.2 10.2Z" />
+      </svg>
+      <button type="button" class="load-embed">
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          width="96"
+          height="96"
+          fill="none"
+          viewBox="0 0 128 128">
+          <rect
+            width="128"
+            height="128"
+            fill="#002252"
+            rx="58" />
+          <path fill="#fff" d="M53.12 92.34a4.96 4.96 0 0 1-7.59-4.2V39.86c0-3.9 4.29-6.28 7.6-4.21l38.6 24.13a4.96 4.96 0 0 1 0 8.42l-38.6 24.13Z" />
+        </svg>
+        <span>Last inn og start video</span>
+      </button>
+      <template data-island="replace">
+      {% comment %}
+        <iframe
+        src="https://player.vimeo.com/video/954355277?h=1192572fd0&amp;badge=0&amp;autoplay=1&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+        title="KI og diskriminering - kan det unngås?  Med Beate Sletvold ØistadThomas JahrenJon-Vegard Sparre"></iframe>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+      {% endcomment %}
+
+      {% comment %}
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-41W99FBQ3c?si=EH2idRoT_Gn2hbM9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      {% endcomment %}
+      </template>
+    </is-land>
+
+
+  {% endif %}
+
+
+  {{ content }}
+{% endblock %}

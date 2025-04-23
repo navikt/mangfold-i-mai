@@ -2,8 +2,8 @@
 title: 'Om å finne flokken sin i gaming – hva definerer et verdifullt liv?'
 speakers:
   - Robert Steen
-video:
-  youtube: https://www.youtube.com/watch?v=-he2wJkLjAo
+
+youtube: https://www.youtube.com/watch?v=-he2wJkLjAo
 ---
 
 Mats Steen led av en livstruende sykdom og var avhengig av assistanse til alle livets funksjoner. Han satt stort sett i kjellerleiligheten sin bak nedrullede gardiner og spilte data til langt på natt. Til foreldrenes store sorg isolerte han seg og ville ikke ut å treffe folk. Men da Mats døde 25 år gammel, tente venner over hele Europa lys for ham. Det ble en vekker for foreldrene. De visste ikke at Mats hadde hatt et rikt sosialt liv i gaming-verdenen. World of Warcraft-gruppa Starlight var Mats sitt nettverk, og hans avatarer Ibelin og Jerome gjorde alt det Mats ikke kunne: løpe, være et midtpunkt og bidra i andre menneskers liv. Mats fant og til og med kjærligheten her.
