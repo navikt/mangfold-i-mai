@@ -12,9 +12,10 @@ blobs:
 
 {{ content }}
 
+<div class="archive">
 {% for year in archive %}
-  <section class="archive">
-    <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
+  <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
+  <section>
     <h2>{{ year.name }}</h2>
     {% assign events = year.items | sort: 'data.title' %}
     <ul>
@@ -36,3 +37,4 @@ blobs:
     </ul>
   </section>
 {% endfor %}
+</div>
