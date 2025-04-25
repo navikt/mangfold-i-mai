@@ -26,6 +26,7 @@ blobs:
         {%- endcapture %}
 
         <li{{ lang }}>
+          <img src="/{{ event.filePathStem }}.jpeg" alt="">
           <h3>
             <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
               {{ event.data.title }}

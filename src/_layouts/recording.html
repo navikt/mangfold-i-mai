@@ -7,14 +7,15 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
   <h1>{{ title }}</h1>
   <p>Med {{ speakers | sentence }}.</p>
 
-  {% if youtube or vimeo %}
+  {% if youtube or vimeo or qbrick %}
     <is-land class="video" on:interaction>
+      <img src="/{{ page.filePathStem }}.jpeg" alt="">
       <button type="button" class="load-embed">
         <svg aria-hidden="true" focusable="false" width="96" height="96" fill="none" viewBox="0 0 128 128">
           <rect width="128" height="128" fill="#002252" rx="58" />
           <path fill="#fff" d="M53.12 92.34a4.96 4.96 0 0 1-7.59-4.2V39.86c0-3.9 4.29-6.28 7.6-4.21l38.6 24.13a4.96 4.96 0 0 1 0 8.42l-38.6 24.13Z" />
         </svg>
-        <span>Last inn og start video</span>
+        <span class="sr-only">Last inn og start video</span>
       </button>
       <template data-island="replace">
 
@@ -29,6 +30,10 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 
           <iframe src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
           <script src="https://player.vimeo.com/api/player.js"></script>
+        {% endif %}
+        
+        {% if qbrick %}
+          {{ qbrick }}
         {% endif %}
 
         </template>
