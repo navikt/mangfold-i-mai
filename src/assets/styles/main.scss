@@ -539,7 +539,7 @@ p:has(img) {
         margin-block-start: clamp(-2lh, -0.25lh - 3vw, 0.01lh);
     }
 
-    img {
+    & > img {
         translate: 0 1px;
         vertical-align: bottom;
         max-inline-size: max(96px, 6% + 3vi);
@@ -620,8 +620,10 @@ p:has(img) {
     border: none;
     font: inherit;
 }
-.video svg {
+.video picture {
     pointer-events: none;
+    display: block;
+    vertical-align: top;
 }
 .video span {
     display: block;
@@ -639,4 +641,16 @@ p:has(img) {
 
 .clear {
     clear:both;
+}
+
+.sr-only {
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    position: absolute;
+    overflow: hidden;
 }
