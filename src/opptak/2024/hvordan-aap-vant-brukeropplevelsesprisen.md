@@ -1,5 +1,5 @@
 ---
-title: 'AAP søknad - Hvordan AAP-søknaden vant brukeropplevelsesprisen'
+title: 'Hvordan AAP-søknaden vant brukeropplevelses&shy;prisen'
 speakers:
   - Miriam Begnum
   - Sara A. Manzanares Monter

@@ -14,28 +14,26 @@ blobs:
 
 <div class="archive">
 {% for year in archive %}
-  <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
-  <section>
-    <h2>{{ year.name }}</h2>
-    {% assign events = year.items | sort: 'data.title' %}
-    <ul>
-      {% for event in events %}
+  <img class="archive__blob" src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
+  <h2 class="archive__chapter" id="fra-{{ year.name }}"><a href="#fra-{{ year.name }}">{{ year.name }}</a></h2>
+  {% assign events = year.items | sort: 'data.title' %}
+  <ul class="archive__events">
+    {% for event in events %}
 
-        {% capture lang -%}
-        {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
-        {%- endcapture %}
+      {% capture lang -%}
+      {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
+      {%- endcapture %}
 
-        <li{{ lang }}>
-          <img src="/{{ event.filePathStem }}.jpeg" alt="">
-          <h3>
-            <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
-              {{ event.data.title }}
-            </a>
-          </h3>
-          <p>{{ event.data.speakers | sentence }}</p>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
+      <li class="archive__event" data-theme="{{ event.data.year }}" {{ lang }}>
+        <h3>
+          <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
+            {{ event.data.title }}
+          </a>
+        </h3>
+        <p>{{ event.data.speakers | sentence }}</p>
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}
 </div>
+

@@ -25,7 +25,9 @@ layout: "default.html"
             {% endif %}
             {{ event.data.title }}
           </h3>
-          <p>{{ event.data.speakers | sentence }}.</p>
+          {% if event.data.speakers.length >= 1 %}
+            <p>{{ event.data.speakers | sentence }}.</p>
+          {% endif %}
 
         {% comment %}
           <p{{ lang }}>

@@ -1,23 +1,28 @@
 :root {
-    --white: #fff;
-    --red: #d05c4a;
-    --red-nav: #c30000;
-    --red-dark: #ae4649;
-    --blue-light: #99c3ff;
-    --blue-medium: #0067c5;
-    --blue-dark: #002252;
-    --gray-light: #e4e6e8;
-    --gray: #d4d6d8;
-    --green: #99dead;
-    --green-medium: #66c786;
-    --green-dark: #4aa571;
-    --green-darker: #3a8259;
-    --pink: #f9d2cc;
-    --purple: #a18dbb;
-    --purple-light: #d0c5dd;
-    --purple-dark: #505096;
-    --orange: #ffc166;
-    --yellow: #ffd799;
+    --white: hsl(0, 0%, 100%);
+    --red: hsl(8, 59%, 55%);
+    --red-nav: hsl(0, 100%, 38%);
+    --red-dark: hsl(358, 43%, 48%);
+    --blue-light: hsl(215, 100%, 80%);
+    --blue-medium: hsl(209, 100%, 39%);
+    --blue-dark: hsl(215, 100%, 16%);
+    --gray-light: hsl(200, 6%, 91%);
+    --gray: hsl(210, 5%, 84%);
+    --green: hsl(156, 40%, 60%);
+    --green-lighter: hsl(156, 48%, 90%);
+    --green-light: hsl(156, 56%, 80%);
+    --green-dark: hsl(156, 36%, 44%);
+    --green-darker: hsl(156, 64%, 24%);
+    --pink: hsl(340, 80%, 75%);
+    --pink-dark: hsl(340, 90%, 60%);
+    --pink-light: hsl(340, 64%, 90%);
+    --purple: hsl(266, 25%, 64%);
+    --purple-lighter: hsl(268, 25%, 90%);
+    --purple-light: hsl(268, 26%, 82%);
+    --purple-dark: hsl(240, 30%, 45%);
+    --orange: hsl(35, 95%, 64%);
+    --yellow: hsl(45, 100%, 75%);
+    --yellow-light: hsl(45, 80%, 90%);
 
     --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
 
