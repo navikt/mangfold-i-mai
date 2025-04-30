@@ -5,7 +5,7 @@ title: Mangfold i mai - velkommen!
 
 ![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/mim-top4.png)
 
-# Programmet for 2025 er (nesten) klar!
+# Programmet for 2025 er (nesten) klart!
 
 Mangfold i mai 2025 byr på en dag med spennende foredrag og workshops i anledning **Global Accessibility Awareness Day - 15. mai**.
 Det blir ikke noe streaming for deltakere utenfor Nav denne dagen, men det kommer opptak der det lar seg gjøre.
