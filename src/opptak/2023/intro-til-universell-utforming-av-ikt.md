@@ -1,7 +1,7 @@
 ---
 title: 'Intro til universell utforming av IKT'
 speakers:
-  - Karina Ludwig
+  - name: Karina Ludwig
 vimeo: 'https://vimeo.com/831458299/1f83b52c0d'
 ---
 

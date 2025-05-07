@@ -1,8 +1,8 @@
 ---
 title: 'Hva er inkluderende språk? Presentasjon av KS nye prinsipper for inkluderende språk'
 speakers:
-  - Heidi Bunæs Eklund
-  - Hege Berg Løkken
+  - name: Heidi Bunæs Eklund
+  - name: Hege Berg Løkken
 vimeo: 'https://vimeo.com/831924230/bd61ac0c05'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Brukerforventninger til NAV i fremtiden'
 speakers:
-  - Gard Ringen Høibjerg
+  - name: Gard Ringen Høibjerg
 vimeo: 'https://vimeo.com/831471741/91a130a758'
 ---
 

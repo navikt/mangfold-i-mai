@@ -1,7 +1,7 @@
 ---
 title: 'Språk som inkluderings- og ekskluderingsverktøy: Noen funn fra arbeidet med flyktninger fra Ukraina'
 speakers:
-  - Gard Ringen Høibjerg
+  - name: Gard Ringen Høibjerg
 youtube: https://www.youtube.com/watch?v=bHot-ulVTsk
 ---
 

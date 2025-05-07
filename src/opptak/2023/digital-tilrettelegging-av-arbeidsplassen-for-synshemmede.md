@@ -1,8 +1,8 @@
 ---
 title: 'Digital tilrettelegging av arbeidsplassen for en synshemmet person'
 speakers:
-  - Jo Sirech
-  - Ove Østerby
+  - name: Jo Sirech
+  - name: Ove Østerby
 vimeo: 'https://vimeo.com/831469682/111e3b3ed1'
 ---
 

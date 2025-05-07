@@ -1,7 +1,7 @@
 ---
 title: 'UU i offentlige anskaffelser – hvordan få det til i praksis?'
 speakers:
-  - Sigbjørn Råsberg
+  - name: Sigbjørn Råsberg
 youtube: 'https://www.youtube.com/watch?v=J7wCDYoXS8w'
 ---
 

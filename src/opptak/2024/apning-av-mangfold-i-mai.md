@@ -1,10 +1,15 @@
 ---
 title: 'Åpning av Mangfold i mai'
+event-date: '2024-05-13'
 speakers:
-  - Espen Rørvik Tjøstolvsen
-  - Laila Hove
-  - Hilde Kristine Braadland
-  - Karina Ludwig
+  - name: Espen Rørvik Tjøstolvsen
+    role: Seksjonsleder i seksjon for data hos UU-tilsynet
+  - name: Laila Hove
+    role: Leder av Team Nav ung i Nav
+  - name: Hilde Kristine Braadland
+    role: Seniorrådgiver i Nav, hjelpemiddelsentralen Vest-Viken
+  - name: Karina Ludwig
+    role: Fagleder for inkluderende design og universell utforming i Nav
 
 vimeo: 'https://vimeo.com/954345144/e336370c31'
 ---

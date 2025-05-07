@@ -1,7 +1,7 @@
 ---
 title: 'Digitalt utenforskap i NAV'
 speakers:
-  - Charlotte Reikrås-Jacobsen
+  - name: Charlotte Reikrås-Jacobsen
 vimeo: 'https://vimeo.com/831462025/89afa976da'
 ---
 

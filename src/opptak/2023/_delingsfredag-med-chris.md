@@ -1,7 +1,7 @@
 ---
 title: 'Delingsfredag med Chris Atherton'
 speakers:
-  - Chris Atherton
+  - name: Chris Atherton
 vimeo: 'https://vimeo.com/831926203/c341cec473'
 eleventyExcludeFromCollections: true
 ---

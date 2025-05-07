@@ -1,9 +1,9 @@
 ---
 title: 'Hemmelighetene i innstillingsmenyene på Chromebook, Windows og iPad'
 speakers:
-  - Gitte Gjersdal
-  - Inger Lene Hustuft
-  - Yngvild Rye
+  - name: Gitte Gjersdal
+  - name: Inger Lene Hustuft
+  - name: Yngvild Rye
 
 eleventyExcludeFromCollections: true
 ---

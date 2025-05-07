@@ -1,7 +1,7 @@
 ---
 title: 'Muligheter for tilrettelegging av spill for personer med nedsatt evne til bevegelse'
 speakers:
-  - Frank Lunde
+  - name: Frank Lunde
 
 youtube: https://www.youtube.com/watch?v=EHetEzp76u0
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Spill som et verktøy i opplæring'
 speakers:
-  - Sjur Hovi
+  - name: Sjur Hovi
 vimeo: 'https://vimeo.com/831458890/b9a3cc1e54'
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 'Digitalisering og inkluderende arbeidsliv'
 speakers:
-  - Rudolph Brynn
-  - Ina Tsvetkova
+  - name: Rudolph Brynn
+  - name: Ina Tsvetkova
 vimeo: 'https://vimeo.com/831463861/2d9481552b'
 ---
 

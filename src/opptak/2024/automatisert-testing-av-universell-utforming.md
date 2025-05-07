@@ -1,7 +1,9 @@
 ---
 title: 'Automatisert testing av universell utforming'
+event-date: '2024-05-16'
 speakers:
-  - Vegard Haugstvedt
+  - name: Vegard Haugstvedt
+    role: Utvikler og UU-spesialist i NAV
 vimeo: 'https://vimeo.com/994953569/bd0ce6c20e'
 ---
 

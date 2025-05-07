@@ -1,8 +1,8 @@
 ---
 title: Hvordan kommuniserer du best med hørselshemmede i ulike situasjoner?
 speakers:
-  - Anke Imsen
-  - Hilde Kristine Braadland-Eriksson
+  - name: Anke Imsen
+  - name: Hilde Kristine Braadland-Eriksson
 youtube: 'https://www.youtube.com/watch?v=Pmcq8sQjIqU'
 ---
 

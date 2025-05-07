@@ -1,7 +1,7 @@
 ---
 title: 'Digital inkludering i Halden'
 speakers:
-  - Sven Lilleheier
+  - name: Sven Lilleheier
 vimeo: 'https://vimeo.com/831460921/6a83605a4a'
 ---
 

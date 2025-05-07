@@ -4,23 +4,12 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 ---
 
 {% block content %}
-  <h1>{{ title }}</h1>
-  <p>Med {{ speakers | sentence }}.</p>
+  <p>{{ event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</p>
+  <h1>Opptak fra «{{ title }}»</h1>
 
   {% if youtube or vimeo or qbrick %}
-    <is-land class="video" on:interaction>
-      <img src="/{{ page.filePathStem }}.jpeg" alt="">
-      <button type="button" class="load-embed">
-        <svg aria-hidden="true" focusable="false" width="96" height="96" fill="none" viewBox="0 0 128 128">
-          <rect width="128" height="128" fill="#002252" rx="58" />
-          <path fill="#fff" d="M53.12 92.34a4.96 4.96 0 0 1-7.59-4.2V39.86c0-3.9 4.29-6.28 7.6-4.21l38.6 24.13a4.96 4.96 0 0 1 0 8.42l-38.6 24.13Z" />
-        </svg>
-        <span class="sr-only">Last inn og start video</span>
-      </button>
-      <template data-island="replace">
-
         {% if youtube %}
-          <iframe width="560" height="315" src="{{ youtube | replace: "watch?v=", "embed/" }}" title="{{ title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
+          <iframe class="video" width="560" height="315" src="{{ youtube | replace: "watch?v=", "embed/" }}" title="{{ title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
         {% endif %}
 
         {% if vimeo %}
@@ -28,7 +17,7 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
           {% assign vimeo_channel = vimeo_url_segments | split: "/" | first %}
           {% assign vimeo_id = vimeo_url_segments | split: "/" | last %}
 
-          <iframe src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
+          <iframe class="video" src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
           <script src="https://player.vimeo.com/api/player.js"></script>
         {% endif %}
         
@@ -36,13 +25,35 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
           {{ qbrick }}
         {% endif %}
 
+    {% comment %} 
+      <is-land class="video" on:interaction>
+        <img src="/{{ page.filePathStem }}.jpeg" alt="">
+        <button type="button" class="load-embed">
+          <svg aria-hidden="true" focusable="false" width="96" height="96" fill="none" viewBox="0 0 128 128">
+            <rect width="128" height="128" fill="#002252" rx="58" />
+            <path fill="#fff" d="M53.12 92.34a4.96 4.96 0 0 1-7.59-4.2V39.86c0-3.9 4.29-6.28 7.6-4.21l38.6 24.13a4.96 4.96 0 0 1 0 8.42l-38.6 24.13Z" />
+          </svg>
+          <span class="sr-only">Last inn og start video</span>
+        </button>
+        <template data-island="replace">
         </template>
-    </is-land>
-    <br>
+      </is-land>
+    {% endcomment %}
+
   {% endif %}
 
-
   {{ content }}
+
+  <h2>Foredragsholdere</h2>
+  <ul>
+    {% for speaker in speakers %}
+      <li>
+      <b>{{ speaker.name }}</b>
+      {%- if speaker.role.length > 1 %},<br>{{ speaker.role }}{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
 {% endblock %}
 
 {% block script %}

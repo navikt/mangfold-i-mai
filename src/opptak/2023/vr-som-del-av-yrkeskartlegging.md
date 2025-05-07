@@ -1,7 +1,7 @@
 ---
 title: 'VR som en del av yrkeskartlegging'
 speakers:
-  - Heidi Fossen
+  - name: Heidi Fossen
 vimeo: 'https://vimeo.com/831472052/71f4d43905'
 ---
 

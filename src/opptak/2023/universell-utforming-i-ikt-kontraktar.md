@@ -1,7 +1,7 @@
 ---
 title: 'Universell utforming i ikt-kontraktar'
 speakers:
-  - Sigbjørn Råsberg
+  - name: Sigbjørn Råsberg
 vimeo: 'https://vimeo.com/831919236/e19b182f6d'
 ---
 

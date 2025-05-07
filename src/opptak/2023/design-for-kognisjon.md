@@ -1,7 +1,7 @@
 ---
 title: 'Design for kognisjon'
 speakers:
-  - Chris Atherton
+  - name: Chris Atherton
 vimeo: 'https://vimeo.com/831462380/0c5659e34a'
 ---
 

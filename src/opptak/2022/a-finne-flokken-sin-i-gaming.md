@@ -1,7 +1,7 @@
 ---
 title: 'Om å finne flokken sin i gaming – hva definerer et verdifullt liv?'
 speakers:
-  - Robert Steen
+  - name: Robert Steen
 
 youtube: https://www.youtube.com/watch?v=-he2wJkLjAo
 ---

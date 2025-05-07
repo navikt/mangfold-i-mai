@@ -1,7 +1,7 @@
 ---
 title: 'Tilgjengelighets&shy;erklæringen for nav.no'
 speakers:
-  - Sarah Brodwall
+  - name: Sarah Brodwall
 vimeo: 'https://vimeo.com/831458675/a8d161e601'
 ---
 

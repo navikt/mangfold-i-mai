@@ -1,7 +1,7 @@
 ---
 title: 'Mangfold og digitale møter'
 speakers:
-  - Morten Tollefsen
+  - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831928303/0b8ef14e2e'
 ---
 

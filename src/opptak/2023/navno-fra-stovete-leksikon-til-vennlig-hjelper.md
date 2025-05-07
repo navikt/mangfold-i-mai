@@ -1,8 +1,8 @@
 ---
 title: 'Nav.no – fra støvete leksikon til vennlig hjelper'
 speakers:
-  - Tuva Sverdstad
-  - Tobias McVey
+  - name: Tuva Sverdstad
+  - name: Tobias McVey
 vimeo: 'https://vimeo.com/831484581/bc1294b098'
 ---
 

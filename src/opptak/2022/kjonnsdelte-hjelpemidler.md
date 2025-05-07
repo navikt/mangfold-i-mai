@@ -1,7 +1,7 @@
 ---
 title: 'Kjønnsdelte hjelpemidler? Kartlegging av hjelpemidler til personer med nedsatt funksjonsevne'
 speakers: 
-  - Annette Solberg
+  - name: Annette Solberg
 
 youtube: https://www.youtube.com/watch?v=gqjpMScU7Ek
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Hvordan vil vi ha Fremtidens Møteplasser i NAV?'
 speakers:
-  - Camilla Dahl
+  - name: Camilla Dahl
 vimeo: 'https://vimeo.com/831471296/62517c3e43'
 ---
 

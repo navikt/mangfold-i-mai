@@ -1,7 +1,9 @@
 ---
 title: 'Testfest'
+event-date: '2024-05-16'
 speakers:
-  - Mikael Snaprud
+  - name: Mikael Snaprud
+    role: Daglig leder for Tingtun AS og førsteamanuensis ved Universitetet i Agder
 vimeo: 'https://vimeo.com/954355137/3b89ea2f5a'
 ---
 

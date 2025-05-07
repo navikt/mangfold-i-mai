@@ -1,7 +1,7 @@
 ---
 title: 'Respecting User Preferences on the Web'
 speakers:
-  - Eric Eggert
+  - name: Eric Eggert
 youtube: https://www.youtube.com/watch?v=9wfsA8XmRwE
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Pakkeboks, en mulighet for alle? – og hvordan vi kommer oss dit'
 speakers:
-  - Andreas Larsen Gjerdalen
+  - name: Andreas Larsen Gjerdalen
 vimeo: 'https://vimeo.com/831925759/34ef7a4895'
 ---
 

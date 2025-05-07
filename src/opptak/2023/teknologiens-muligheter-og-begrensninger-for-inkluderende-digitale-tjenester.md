@@ -1,7 +1,7 @@
 ---
 title: 'Teknologiens muligheter og begrensninger for inkluderende digitale tjenester'
 speakers:
-  - Till Halbach
+  - name: Till Halbach
 vimeo: 'https://vimeo.com/831461568/31c0dc4fef'
 ---
 

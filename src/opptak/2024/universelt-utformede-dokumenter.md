@@ -1,7 +1,9 @@
 ---
 title: 'Dokumenter - Er uu bare mas, eller er det kjempestas?'
+event-date: '2024-05-15'
 speakers:
-  - Morten Tollefsen
+  - name: Morten Tollefsen
+    role: UU-spesialist i Nav.
 vimeo: 'https://vimeo.com/954355605/851799d17a'
 ---
 

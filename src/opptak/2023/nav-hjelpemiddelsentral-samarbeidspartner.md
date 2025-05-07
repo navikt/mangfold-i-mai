@@ -1,7 +1,7 @@
 ---
 title: 'Nav Hjelpemiddelsentral – en samarbeidspartner'
 speakers:
-  - Hilde Kristine Braadland-Eriksson
+  - name: Hilde Kristine Braadland-Eriksson
 vimeo: 'https://vimeo.com/831459940/111995c379'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Skjermleser: Introduksjon til en annerledes måte å bruke teknologi på'
 speakers:
-  - Morten Tollefsen
+  - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831924675/a1ab16be34'
 ---
 

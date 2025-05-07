@@ -1,8 +1,8 @@
 ---
 title: 'Tolkepilot i NAV Kontaktsenter'
 speakers:
-  - Maiken Johnsen
-  - Sandra P. Breivik
+  - name: Maiken Johnsen
+  - name: Sandra P. Breivik
 vimeo: 'https://vimeo.com/831470316/5ca0fddb41'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 'Teksting av lyd og video'
 speakers:
-  - Morten Tollefsen
+  - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831924287/81677a7af8'
 ---
 

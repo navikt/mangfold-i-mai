@@ -1,8 +1,7 @@
 ---
 title: 'Digitalt utenforskap'
 speakers:
-  - Kristin S. Fuglerud
-
+  - name: Kristin S. Fuglerud
 vimeo: 'https://vimeo.com/831465186/354e444ff8'
 ---
 

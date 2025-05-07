@@ -1,7 +1,7 @@
 ---
 title: 'Språk og makt'
 speakers:
-  - Ida Seljeseth
+  - name: Ida Seljeseth
 vimeo: 'https://vimeo.com/831926203/e20ff319ec'
 ---
 

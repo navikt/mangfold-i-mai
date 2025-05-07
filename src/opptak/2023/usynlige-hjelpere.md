@@ -1,7 +1,7 @@
 ---
 title: 'Usynlige hjelpere'
 speakers:
-  - Stian F. Kristensen
+  - name: Stian F. Kristensen
 vimeo: 'https://vimeo.com/831470765/4f13c7b3c5'
 ---
 

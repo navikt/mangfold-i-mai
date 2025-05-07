@@ -2,7 +2,7 @@
 title: Accessibility, Design and Usability Review in a Combined Toolchain
 language: en
 speakers:
- - Jesse Beach
+ - name: Jesse Beach
 youtube: https://www.youtube.com/watch?v=CaRyGkgiGS8
 ---
 

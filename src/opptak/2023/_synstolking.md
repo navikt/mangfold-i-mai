@@ -1,7 +1,7 @@
 ---
 title: 'Synstolking: beskrivelser av levende bilder'
 speakers:
-  - Morten Tollefsen
+  - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831926203/b01b655b5c'
 eleventyExcludeFromCollections: true
 ---

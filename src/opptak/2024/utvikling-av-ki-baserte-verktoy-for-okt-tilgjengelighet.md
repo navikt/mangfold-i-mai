@@ -1,7 +1,9 @@
 ---
 title: 'Utvikling av KI-baserte verktøy for økt tilgjengelighet'
+event-date: '2024-05-16'
 speakers:
-  - Kristin Skeide Fuglerud
+  - name: Kristin Skeide Fuglerud
+    role: Sjefsforsker og fagansvarlig for digital inkludering ved forskningsinstituttet Norsk Regnesentral og førsteamanuensis II ved Senter for helse og teknologi ved Universitetet i Sørøst-Norge
 vimeo: 'https://vimeo.com/954386759/b648181340'
 ---
 

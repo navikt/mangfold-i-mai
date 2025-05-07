@@ -1,7 +1,7 @@
 ---
 title: 'Tekst til ikke-tekstlig innhold'
 speakers:
-  - Morten Tollefsen
+  - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831924474/d1dcb29c34'
 ---
 

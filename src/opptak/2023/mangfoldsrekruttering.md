@@ -1,8 +1,8 @@
 ---
 title: 'Hvordan jobber vi i NAV med å tiltrekke, rekruttere og beholde mangfold?'
 speakers:
-  - Birthe Olsen
-  - Aisha Mehdi
+  - name: Birthe Olsen
+  - name: Aisha Mehdi
 vimeo: 'https://vimeo.com/831484409/33d2e44a3f'
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: 'Sårbare livssituasjoner i møte med NAV Kontaktsenter'
 speakers:
-  - Maiken Johnsen
-  - Sandra P. Breivik
+  - name: Maiken Johnsen
+  - name: Sandra P. Breivik
 vimeo: 'https://vimeo.com/831926241/2cdd0c63ec'
 ---
 

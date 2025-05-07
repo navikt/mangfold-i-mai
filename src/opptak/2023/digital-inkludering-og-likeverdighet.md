@@ -1,7 +1,7 @@
 ---
 title: 'Digital inkludering og likeverdighet'
 speakers: 
-  - Kari Sand
+  - name: Kari Sand
 vimeo: 'https://vimeo.com/831473173/35cb2eeb13'
 ---
 

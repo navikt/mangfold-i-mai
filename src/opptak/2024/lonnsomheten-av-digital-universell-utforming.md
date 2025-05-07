@@ -1,7 +1,9 @@
 ---
 title: 'Hva vet vi om lønnsomheten av digital universell utforming?'
+event-date: '2024-05-15'
 speakers:
-  - Till Halbach
+  - name: Till Halbach
+    role: Seniorforsker ved forskningsstiftelsen Norsk Regnesentral
 vimeo: 'https://vimeo.com/954354874/e4617cbf91'
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: 'Liten skrift, nedsatt syn, og «magiske forstørrelsesglass»'
+event-date: '2024-05-15'
 speakers:
-  - Frode Eika Sandnes
+  - name: Frode Eika Sandnes
+    role: Professor og forsker i OsloMet
 vimeo: 'https://vimeo.com/954354981/a5e4632dc6'
 ---
 

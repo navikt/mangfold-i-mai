@@ -1,7 +1,7 @@
 ---
 title: 'Dragon Professional Anywhere: norsk talegjenkjenning for PC'
 speakers:
-  - Daniel Scheidegger
+  - name: Daniel Scheidegger
 youtube: https://www.youtube.com/watch?v=KOii8VFWq_U
 ---
 

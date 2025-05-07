@@ -17,20 +17,29 @@ blobs:
   <img class="archive__blob" src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
   <h2 class="archive__chapter" id="fra-{{ year.name }}"><a href="#fra-{{ year.name }}">{{ year.name }}</a></h2>
   {% assign events = year.items | sort: 'data.title' %}
-  <ul class="archive__events">
+  <ul class="archive__events" data-theme="{{ year.name }}">
     {% for event in events %}
 
       {% capture lang -%}
       {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
       {%- endcapture %}
 
-      <li class="archive__event" data-theme="{{ event.data.year }}" {{ lang }}>
+      <li class="archive__event" {{ lang }}>
         <h3>
           <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
             {{ event.data.title }}
           </a>
         </h3>
-        <p>{{ event.data.speakers | sentence }}</p>
+        <p>
+          <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <g stroke-width="1.75" stroke="currentColor">
+              <circle cx="12" cy="9.5" r="3"/>
+              <path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/>
+              <circle cx="12" cy="12" r="9"/>
+            </g>
+          </svg>
+          <span>{{ event.data.speakers | map: 'name' | concat | sentence }}</span>
+        </p>
       </li>
     {% endfor %}
   </ul>

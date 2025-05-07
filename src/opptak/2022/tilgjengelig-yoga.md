@@ -1,7 +1,7 @@
 ---
 title: 'Tilgjengelig yoga – verktøy til ​egenkraftmobilisering'
 speakers: 
-  - Line Fritzon
+  - name: Line Fritzon
 youtube: https://www.youtube.com/watch?v=-41W99FBQ3c
 ---
 

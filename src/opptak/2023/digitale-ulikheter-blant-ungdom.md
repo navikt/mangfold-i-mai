@@ -1,7 +1,7 @@
 ---
 title: 'Digitale ulikheter blant ungdom'
 speakers:
-  - Kaja Hegg
+  - name: Kaja Hegg
 vimeo: 'https://vimeo.com/831464230/4cc8283d7e'
 ---
 

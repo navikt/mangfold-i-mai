@@ -1,8 +1,8 @@
 ---
 title: 'Intro til strategisk inkluderende design'
 speakers:
-  - Hallgrim Sagen
-  - Johan Vreeburg
+  - name: Hallgrim Sagen
+  - name: Johan Vreeburg
 vimeo: 'https://vimeo.com/831472504/ee677b4857'
 ---
 

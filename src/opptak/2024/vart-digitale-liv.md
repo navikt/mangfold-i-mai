@@ -1,7 +1,9 @@
 ---
 title: 'Vårt digitale liv'
+event-date: '2024-05-16'
 speakers:
-  - Cathrine Einarsson
+  - name: Cathrine Einarsson
+    role: Senior tjenestedesigner i Eggs, part of Sopra Steria
 vimeo: 'https://vimeo.com/954355465/66557c6e47'
 ---
 

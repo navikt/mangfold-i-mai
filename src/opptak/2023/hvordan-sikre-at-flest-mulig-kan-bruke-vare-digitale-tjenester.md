@@ -1,8 +1,8 @@
 ---
 title: 'Hvordan kan vi sikre at flest mulig kan ta i bruk våre digitale tjenester?'
 speakers:
-  - Gudrun Totland Raddatz
-  - Moa Alexandra Engelbrektsson
+  - name: Gudrun Totland Raddatz
+  - name: Moa Alexandra Engelbrektsson
 vimeo: 'https://vimeo.com/831463373/33b543803f'
 ---
 

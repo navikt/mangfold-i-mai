@@ -1,7 +1,7 @@
 ---
 title: 'NRK og arbeidet med mangfold, tilgjengelighet og tilhørighet'
 speakers:
-  - Siri Antonsen
+  - name: Siri Antonsen
 vimeo: 'https://vimeo.com/831928185/f8e4851409'
 ---
 

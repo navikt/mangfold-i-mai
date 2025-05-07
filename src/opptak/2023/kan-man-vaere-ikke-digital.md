@@ -1,8 +1,8 @@
 ---
 title: 'Kan man være ikke-digital?'
 speakers: 
-  - Malin Rygg
-  - Karina Ludwig
+  - name: Malin Rygg
+  - name: Karina Ludwig
 vimeo: 'https://vimeo.com/831457652/54e3a65e29'
 ---
 

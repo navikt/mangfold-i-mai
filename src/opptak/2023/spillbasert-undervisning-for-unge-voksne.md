@@ -1,8 +1,8 @@
 ---
 title: 'Spillbasert undervisning for unge voksne'
 speakers:
-  - Vegard Osa Lie
-  - Trude Jesting
+  - name: Vegard Osa Lie
+  - name: Trude Jesting
 vimeo: 'https://vimeo.com/831459360/9f20476637'
 ---
 

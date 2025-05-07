@@ -1,7 +1,7 @@
 ---
 title: 'Forskning på ekskludering i arbeidslivet'
 speakers:
-  - Kristin S. Fuglerud
+  - name: Kristin S. Fuglerud
 vimeo: 'https://vimeo.com/831465732/70ba3a4bdb'
 ---
 

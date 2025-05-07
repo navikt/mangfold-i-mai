@@ -1,10 +1,10 @@
 ---
 title: 'Offisiell åpning av Mangfold i mai'
 speakers:
-  - Hans Christian Holte
-  - Eve Vangsnes Bergli
-  - Heidrun Larsen Reisæter
-  - Bjørn Erik Thon
+  - name: Hans Christian Holte
+  - name: Eve Vangsnes Bergli
+  - name: Heidrun Larsen Reisæter
+  - name: Bjørn Erik Thon
 vimeo: https://vimeo.com/831468568/0774afe184
 ---
 
