@@ -35,7 +35,10 @@
               </h3>
               <p{{ lang }}>
                 {{ item.data.summary }}
-                Med {{ item.data.speakers | sentence }}.
+                {% if item.data.speakers %}
+                  {% assign speakers = event.data.speakers | map: 'name' | compact %}
+                        Med {{ speakers | sentence }}.
+                {% endif %}
               </p>
               <ul class="tags">
                 {% include "event-labels.html"
