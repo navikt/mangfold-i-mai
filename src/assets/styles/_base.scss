@@ -4,25 +4,28 @@
     --red-nav: hsl(0, 100%, 38%);
     --red-dark: hsl(358, 43%, 48%);
     --blue-light: hsl(215, 100%, 80%);
-    --blue-medium: hsl(209, 100%, 39%);
+    --blue-medium: hsl(209, 100%, 36%);
     --blue-dark: hsl(215, 100%, 16%);
     --gray-light: hsl(200, 6%, 91%);
     --gray: hsl(210, 5%, 84%);
     --green: hsl(156, 40%, 60%);
     --green-lighter: hsl(156, 48%, 90%);
     --green-light: hsl(156, 56%, 80%);
-    --green-dark: hsl(156, 36%, 44%);
+    --green-dark: hsl(156, 36%, 48%);
     --green-darker: hsl(156, 64%, 24%);
-    --pink: hsl(340, 80%, 75%);
-    --pink-dark: hsl(340, 90%, 60%);
+    --pink: hsl(340, 80%, 72%);
+    --pink-dark: hsl(340, 80%, 56%);
     --pink-light: hsl(340, 64%, 90%);
-    --purple: hsl(266, 25%, 64%);
+    --purple: hsl(266, 25%, 56%);
     --purple-lighter: hsl(268, 25%, 90%);
     --purple-light: hsl(268, 26%, 82%);
-    --purple-dark: hsl(240, 30%, 45%);
-    --orange: hsl(35, 95%, 64%);
-    --yellow: hsl(45, 100%, 75%);
+    --purple-dark: hsl(240, 30%, 48%);
+    --yellow: hsl(45, 100%, 72%);
     --yellow-light: hsl(45, 80%, 90%);
+    --yellow-dark: hsl(45, 100%, 56%);
+    --orange: hsl(30, 90%, 72%);
+    --orange-light: hsl(30, 96%, 85%);
+    --orange-dark: hsl(30, 100%, 48%);
 
     --edge: clamp(1.25rem, -2.8rem + 13.5vw, 8rem);
 
@@ -37,9 +40,6 @@
         font-size: 1.25em;
     }
 }
-
-
-// clamp(100%, 50% + 0.666vw, 150%)
 
 *,
 :before,
@@ -65,13 +65,17 @@ p {
 }
 
 a {
-    color: var(--purple-dark);
+    color: var(--blue-medium);
     text-decoration-thickness: 0.1ch;
     text-decoration-color: color-mix(in srgb, currentColor 60%, transparent);
     text-underline-offset: 0.125ch;
 
     &:focus-visible {
         outline: 3px dashed var(--purple);
+    }
+    &:hover {
+        text-decoration-thickness: 0.2ch;
+        color: var(--purple-dark);
     }
 }
 
@@ -104,6 +108,14 @@ picture {
     margin-block-start: 0.125lh;
 }
 
+:where(h2, h3, h4) + :where(p) {
+    margin-block-start: 0.25lh;
+}
+:where(h2, h3, h4):has(+ :where(p)) {
+    margin-block-end: 0;
+}
+
+
 iframe {
     max-inline-size: 64ch;
     inline-size: 100%;
@@ -111,14 +123,13 @@ iframe {
     aspect-ratio: 16 / 9;
 }
 
-:where(p, ul, ol, dl):not([class]) {
-    margin-block: 0.25lh 1lh;
-}
-
 :where(ol[class], ul[class]) {
     padding-inline-start: 0;
-    margin: 0;
     list-style: none;
+}
+
+:where(ul, ul):not([class]) li ~ li {
+    margin-block-start: 0.375lh;
 }
 
 summary {
