@@ -103,6 +103,6 @@ export const config = {
     data: '_data',
     output: '_site_new',
   },
-  pathPrefix: '/mangfold-i-mai',
+  // pathPrefix: '/mangfold-i-mai',
 }
 
