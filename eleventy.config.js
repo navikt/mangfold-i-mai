@@ -14,6 +14,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('./src/assets/images/nav-logo.svg')
   eleventyConfig.addPassthroughCopy('./src/assets/images/mim-banner.png')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/mim-banner-2.webp')
+  eleventyConfig.addPassthroughCopy('./src/assets/images/mim-banner-3.webp')
   eleventyConfig.addPassthroughCopy('./src/assets/images/favicon.png')
   eleventyConfig.addPassthroughCopy('./src/assets/images/favicon.svg')
 
