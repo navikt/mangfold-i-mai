@@ -1,9 +1,7 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -18,7 +16,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: "22"
           cache: npm
 
       - name: Persist Eleventy .cache
@@ -28,11 +26,10 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - run: npm ci
-      - run: npm run build-ghpages
+      - run: npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
