@@ -354,10 +354,37 @@ a.dateblob:hover {
 }
 
 
+.blob-grid {
+    display: grid;
+    grid-template-columns: 3fr auto 2fr;
+    align-items: end;
+    grid-auto-flow: dense;
+    align-content: end;
+    column-gap: 1ch;
+
+    :where(img:nth-child(1), img:nth-child(3)) {
+        grid-row: 2;
+    }
+    img:nth-child(2) {
+        grid-row: 1;
+        margin-block-start: -0.25lh;
+        justify-self: center;
+
+        @media (width > 32rem) {
+            grid-row: 2;
+            grid-column: 2;
+        }
+    }
+    img:nth-child(3) {
+        grid-row: 1 / span 2;
+        grid-column: 2 / span 2;
+        justify-self: end;
+    }
+}
+
 .site-footer {
     background-color: color-mix(in srgb, var(--purple-light) 40%, white);
     padding-block: 1lh;
-    margin-block-start: 3lh;
     border-image: conic-gradient(color-mix(in srgb, var(--purple-light) 40%, white) 0 0) fill 0 / / 0 100vw;
 
     .wrapper {
@@ -609,28 +636,18 @@ p:has(img) {
         margin-block: 0 1lh;
         padding-block: 1lh;
         list-style: none;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(min(100%, 32ch), 1fr));
-        gap: 1rem;
+        columns: 33ch;
+        column-gap: 12ch;
         min-inline-size: 0;
     }
     &__event {
-        padding: 1lh 12% 1lh 6%;
-        // aspect-ratio: 16/9;
         display: grid;
         align-items: start;
         align-content: start;
-        background-color: var(--_bg);
-        outline: 2px solid var(--_border);
         border-radius: 8px;
-        position: relative;
-        overflow: clip;
-        transition: background-color 100ms, outline 100ms ease-out;  
-
-        &:has(a:hover) {
-            outline-width: 4px;
-            background-color: var(--white);
-        }
+        break-inside: avoid;
+        margin-block-end: 0.75lh;
+        padding-block: 0.25lh;
 
         h3 {
             font-size: clamp(1rem, 0.9583rem + 0.2083vw, 1.125rem);
@@ -646,17 +663,15 @@ p:has(img) {
         }
 
         p {
+            margin-block-start: 0.125lh;
             max-inline-size: none;
+        }
+        svg {
+            margin-inline-start: -0.125ch;
         }
 
         p:last-of-type {
             margin-block-end: 0;
-        }
-
-        a:before {
-            content: "";
-            position: absolute;
-            inset: 0;
         }
     }
     & [data-theme="2024"] {
@@ -678,6 +693,27 @@ p:has(img) {
     display: flex;
     flex-direction: column;
     gap: 0.125lh 2ch;
+}
+
+.pill-delta {
+    background-color: var(--yellow);
+    border-radius: 99px;
+    padding: 0.5em 1.25em 0.5em 1em;
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    gap: 0.5ch;
+
+    &:hover {
+        background-color: var(--blue-dark);
+        color: var(--white);
+    }
+}
+
+.blob-star {
+    float: right;
 }
 
 .speakers li ~ li {
