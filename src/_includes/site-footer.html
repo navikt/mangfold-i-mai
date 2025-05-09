@@ -19,18 +19,18 @@
         </p>
       </div>
 
-      <div>
+      <div style="display:grid">
         <p>
           <b>Kontakt oss</b>:<br>
           <a href="mailto:{{ site.email }}">E-post</a> eller
           <a href="https://nav-it.slack.com/archives/C7MANSGLS">Slack (for Nav-ansatte)</a>.
         </p>
-        <p><a href={{ "/personvernerklaering/" }}>Personvernerklæring</a></p>
+        <p style="align-self:end;margin-block-start:0"><a href={{ "/personvernerklaering/" }}>Personvernerklæring</a></p>
       </div>
     </div>
   </footer>
 </div>
 
-<div class="edit">
-  <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" target="_blank">✏️ <span>Rediger denne siden på Github (åpner i en ny fane)</span></a>
-</div>
+{% comment %} <div class="edit">
+  <a href="{{ site.github_repository }}/edit/main/{{ page.path }}" target="_blank">✏️ <span>Rediger denne siden på Github (åpner i en ny fane)</span></a>
+</div> {% endcomment %}
