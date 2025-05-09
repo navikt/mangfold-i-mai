@@ -680,6 +680,10 @@ p:has(img) {
     gap: 0.125lh 2ch;
 }
 
+.speakers li ~ li {
+    margin-block-start: 0.375lh;
+}
+
 .edit {
     background-color: var(--blue-dark);
     color: var(--white);
