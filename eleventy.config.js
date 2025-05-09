@@ -10,10 +10,6 @@ import path from 'path'
 
 export default async function (eleventyConfig) {
   // Passthrough Copy
-  eleventyConfig.addPassthroughCopy('./src/assets/scripts')
-  eleventyConfig.addPassthroughCopy({
-    './node_modules/@11ty/is-land/is-land.js': '/assets/scripts',
-  })
   eleventyConfig.addPassthroughCopy('./src/assets/fonts')
   eleventyConfig.addPassthroughCopy('./src/assets/images/logo-small.svg')
   eleventyConfig.addPassthroughCopy('./src/assets/images/nav-logo.svg')
@@ -101,8 +97,7 @@ export const config = {
     includes: '_includes',
     layouts: '_layouts',
     data: '_data',
-    output: '_site_new',
+    output: '_site',
   },
-  // pathPrefix: '/mangfold-i-mai',
 }
 
