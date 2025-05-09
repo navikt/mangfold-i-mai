@@ -1,6 +1,6 @@
 ---
 layout: "default.html"
-permalink: about/
+permalink: false
 title: Om Mangfold i mai
 # eleventyNavigation:
 #   key: menu
