@@ -1,5 +1,6 @@
 ---
 title: 'Tolkepilot i NAV Kontaktsenter'
+event-date: '2023-05-09'
 speakers:
   - name: Maiken Johnsen
   - name: Sandra P. Breivik

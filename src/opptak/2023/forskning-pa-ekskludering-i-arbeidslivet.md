@@ -1,5 +1,6 @@
 ---
 title: 'Forskning på ekskludering i arbeidslivet'
+event-date: '2023-05-23'
 speakers:
   - name: Kristin S. Fuglerud
 vimeo: 'https://vimeo.com/831465732/70ba3a4bdb'

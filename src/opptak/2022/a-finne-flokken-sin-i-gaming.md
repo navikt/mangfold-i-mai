@@ -1,5 +1,6 @@
 ---
 title: 'Om å finne flokken sin i gaming – hva definerer et verdifullt liv?'
+event-date: '2022-05-19'
 speakers:
   - name: Robert Steen
 

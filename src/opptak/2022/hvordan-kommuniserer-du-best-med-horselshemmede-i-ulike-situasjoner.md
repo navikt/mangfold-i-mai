@@ -1,5 +1,6 @@
 ---
 title: Hvordan kommuniserer du best med hørselshemmede i ulike situasjoner?
+event-date: '2022-05-10'
 speakers:
   - name: Anke Imsen
   - name: Hilde Kristine Braadland-Eriksson

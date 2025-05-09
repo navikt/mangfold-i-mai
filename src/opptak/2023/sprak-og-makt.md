@@ -1,5 +1,6 @@
 ---
 title: 'Språk og makt'
+event-date: '2023-05-10'
 speakers:
   - name: Ida Seljeseth
 vimeo: 'https://vimeo.com/831926203/e20ff319ec'

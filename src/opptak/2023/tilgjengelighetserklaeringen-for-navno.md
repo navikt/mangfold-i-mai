@@ -1,5 +1,6 @@
 ---
 title: 'Tilgjengelighets&shy;erklæringen for nav.no'
+event-date: '2023-05-04'
 speakers:
   - name: Sarah Brodwall
 vimeo: 'https://vimeo.com/831458675/a8d161e601'

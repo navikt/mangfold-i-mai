@@ -1,5 +1,6 @@
 ---
 title: 'Pakkeboks, en mulighet for alle? – og hvordan vi kommer oss dit'
+event-date: '2023-05-12'
 speakers:
   - name: Andreas Larsen Gjerdalen
 vimeo: 'https://vimeo.com/831925759/34ef7a4895'

@@ -1,5 +1,6 @@
 ---
 title: 'Kan man være ikke-digital?'
+event-date: '2023-05-02'
 speakers: 
   - name: Malin Rygg
   - name: Karina Ludwig

@@ -1,5 +1,6 @@
 ---
 title: 'Han, hun og hen hvordan få de til å bli min venn?'
+event-date: '2022-05-12'
 speakers:
   - name: Agnethe Stensrud Heggelund
   - name: Line Moseng

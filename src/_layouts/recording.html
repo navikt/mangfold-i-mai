@@ -4,8 +4,9 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 ---
 
 {% block content %}
-  <p>{{ event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</p>
   <h1>Opptak fra «{{ title }}»</h1>
+
+  <p>{{ event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</p>
 
   {% if youtube or vimeo or qbrick %}
         {% if youtube %}
@@ -44,16 +45,24 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 
   {{ content }}
 
-  <h2>Foredragsholdere</h2>
-  <ul>
-    {% for speaker in speakers %}
+  <h2>Foredragsholder{% if speakers.length > 1 %}e{% endif %}</h2>
+  {% if speakers.length > 1 %}
+    <ul class="speakers">
+      {% for speaker in speakers %}
       <li>
-      <b>{{ speaker.name }}</b>
-      {%- if speaker.role.length > 1 %},<br>{{ speaker.role }}{% endif %}
+        <b>{{ speaker.name }}</b>
+        {%- if speaker.role.length > 1 %},<br>{{ speaker.role }}{% endif %}
       </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    {% for speaker in speakers %}
+      <p>
+        <b>{{ speaker.name }}</b>
+        {%- if speaker.role.length > 1 %},<br>{{ speaker.role }}{% endif %}
+      </p>
     {% endfor %}
-  </ul>
-
+  {% endif %}
 {% endblock %}
 
 {% block script %}

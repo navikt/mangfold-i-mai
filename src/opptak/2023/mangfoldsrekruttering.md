@@ -1,5 +1,6 @@
 ---
 title: 'Hvordan jobber vi i NAV med å tiltrekke, rekruttere og beholde mangfold?'
+event-date: '2023-05-22'
 speakers:
   - name: Birthe Olsen
   - name: Aisha Mehdi

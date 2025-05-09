@@ -1,5 +1,6 @@
 ---
 title: 'Mangfold og digitale møter'
+event-date: '2023-05-24'
 speakers:
   - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831928303/0b8ef14e2e'

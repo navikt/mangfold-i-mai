@@ -1,5 +1,6 @@
 ---
 title: 'Tekst til ikke-tekstlig innhold'
+event-date: '2023-05-03'
 speakers:
   - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831924474/d1dcb29c34'

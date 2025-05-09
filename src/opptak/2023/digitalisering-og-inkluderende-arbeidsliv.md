@@ -1,5 +1,6 @@
 ---
 title: 'Digitalisering og inkluderende arbeidsliv'
+event-date: '2023-05-23'
 speakers:
   - name: Rudolph Brynn
   - name: Ina Tsvetkova

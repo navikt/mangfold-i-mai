@@ -1,5 +1,6 @@
 ---
 title: 'Når postkassa nedi veien er erstattet av en app'
+event-date: '2023-05-12'
 speakers:
   - name: Hege Langlo
 vimeo: 'https://vimeo.com/831927581/a8c2ba4ebc'

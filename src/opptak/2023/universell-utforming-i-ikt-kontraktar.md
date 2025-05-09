@@ -1,5 +1,6 @@
 ---
 title: 'Universell utforming i ikt-kontraktar'
+event-date: '2023-05-23'
 speakers:
   - name: Sigbjørn Råsberg
 vimeo: 'https://vimeo.com/831919236/e19b182f6d'

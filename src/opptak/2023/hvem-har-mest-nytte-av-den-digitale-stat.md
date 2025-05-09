@@ -1,5 +1,6 @@
 ---
 title: 'Hvem har mest nytte av den digitale stat?'
+event-date: '2023-05-08'
 speakers:
   - name: Karl Kristian Larsson
 vimeo: 'https://vimeo.com/831458486/18e04ecde5'

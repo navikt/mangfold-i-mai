@@ -1,5 +1,6 @@
 ---
 title: 'Hva er inkluderende språk? Presentasjon av KS nye prinsipper for inkluderende språk'
+event-date: '2023-05-09'
 speakers:
   - name: Heidi Bunæs Eklund
   - name: Hege Berg Løkken

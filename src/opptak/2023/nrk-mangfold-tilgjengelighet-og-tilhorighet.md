@@ -1,5 +1,6 @@
 ---
 title: 'NRK og arbeidet med mangfold, tilgjengelighet og tilhørighet'
+event-date: '2023-05-22'
 speakers:
   - name: Siri Antonsen
 vimeo: 'https://vimeo.com/831928185/f8e4851409'

@@ -1,5 +1,6 @@
 ---
 title: 'Hemmelighetene i innstillingsmenyene på Chromebook, Windows og iPad'
+event-date: '2022-05-13'
 speakers:
   - name: Gitte Gjersdal
   - name: Inger Lene Hustuft

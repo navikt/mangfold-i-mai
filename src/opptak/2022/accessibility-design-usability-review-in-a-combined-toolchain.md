@@ -1,5 +1,6 @@
 ---
 title: Accessibility, Design and Usability Review in a Combined Toolchain
+event-date: '2022-05-04'
 language: en
 speakers:
  - name: Jesse Beach

@@ -1,5 +1,6 @@
 ---
 title: 'Digital tilrettelegging av arbeidsplassen for en synshemmet person'
+event-date: '2023-05-24'
 speakers:
   - name: Jo Sirech
   - name: Ove Østerby

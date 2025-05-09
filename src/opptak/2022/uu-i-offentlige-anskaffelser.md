@@ -1,5 +1,6 @@
 ---
 title: 'UU i offentlige anskaffelser – hvordan få det til i praksis?'
+event-date: '2022-05-06'
 speakers:
   - name: Sigbjørn Råsberg
 youtube: 'https://www.youtube.com/watch?v=J7wCDYoXS8w'

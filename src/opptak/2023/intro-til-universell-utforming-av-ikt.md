@@ -1,5 +1,6 @@
 ---
 title: 'Intro til universell utforming av IKT'
+event-date: '2023-05-03'
 speakers:
   - name: Karina Ludwig
 vimeo: 'https://vimeo.com/831458299/1f83b52c0d'

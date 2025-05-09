@@ -1,5 +1,6 @@
 ---
 title: 'Digitale ulikheter blant ungdom'
+event-date: '2023-05-05'
 speakers:
   - name: Kaja Hegg
 vimeo: 'https://vimeo.com/831464230/4cc8283d7e'

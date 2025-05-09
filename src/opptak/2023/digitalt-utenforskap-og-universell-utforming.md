@@ -1,5 +1,6 @@
 ---
 title: 'Digitalt utenforskap'
+event-date: '2023-05-03'
 speakers:
   - name: Kristin S. Fuglerud
 vimeo: 'https://vimeo.com/831465186/354e444ff8'

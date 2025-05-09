@@ -1,5 +1,6 @@
 ---
 title: 'Spill som et verktøy i opplæring'
+event-date: '2023-05-11'
 speakers:
   - name: Sjur Hovi
 vimeo: 'https://vimeo.com/831458890/b9a3cc1e54'

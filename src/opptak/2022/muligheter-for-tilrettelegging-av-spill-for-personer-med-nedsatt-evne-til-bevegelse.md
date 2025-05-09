@@ -1,5 +1,6 @@
 ---
 title: 'Muligheter for tilrettelegging av spill for personer med nedsatt evne til bevegelse'
+event-date: '2022-05-19'
 speakers:
   - name: Frank Lunde
 

@@ -1,5 +1,6 @@
 ---
 title: 'Intro til strategisk inkluderende design'
+event-date: '2023-05-12'
 speakers:
   - name: Hallgrim Sagen
   - name: Johan Vreeburg

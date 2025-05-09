@@ -1,5 +1,6 @@
 ---
 title: 'Spillbasert undervisning for unge voksne'
+event-date: '2023-05-11'
 speakers:
   - name: Vegard Osa Lie
   - name: Trude Jesting

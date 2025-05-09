@@ -1,5 +1,6 @@
 ---
 title: 'Digital inkludering og likeverdighet'
+event-date: '2023-05-02'
 speakers: 
   - name: Kari Sand
 vimeo: 'https://vimeo.com/831473173/35cb2eeb13'

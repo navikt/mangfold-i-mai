@@ -1,5 +1,6 @@
 ---
 title: 'Sårbare livssituasjoner i møte med NAV Kontaktsenter'
+event-date: '2023-05-12'
 speakers:
   - name: Maiken Johnsen
   - name: Sandra P. Breivik

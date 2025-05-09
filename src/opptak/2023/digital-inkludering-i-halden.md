@@ -1,5 +1,6 @@
 ---
 title: 'Digital inkludering i Halden'
+event-date: '2023-05-05'
 speakers:
   - name: Sven Lilleheier
 vimeo: 'https://vimeo.com/831460921/6a83605a4a'

@@ -1,5 +1,6 @@
 ---
 title: 'Teknologiens muligheter og begrensninger for inkluderende digitale tjenester'
+event-date: '2023-05-04'
 speakers:
   - name: Till Halbach
 vimeo: 'https://vimeo.com/831461568/31c0dc4fef'

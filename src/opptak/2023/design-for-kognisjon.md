@@ -1,5 +1,6 @@
 ---
 title: 'Design for kognisjon'
+event-date: '2023-05-09'
 speakers:
   - name: Chris Atherton
 vimeo: 'https://vimeo.com/831462380/0c5659e34a'

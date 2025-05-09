@@ -1,5 +1,6 @@
 ---
 title: 'Digitalt utenforskap i NAV'
+event-date: '2023-05-08'
 speakers:
   - name: Charlotte Reikrås-Jacobsen
 vimeo: 'https://vimeo.com/831462025/89afa976da'

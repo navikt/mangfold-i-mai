@@ -1,5 +1,6 @@
 ---
 title: 'Psykologiske mekanismer bak diskriminering – og jussens håndtering av dem'
+event-date: '2023-05-22'
 speakers:
   - name: Lene Løvdal
 vimeo: 'https://vimeo.com/831467637/b033172860'

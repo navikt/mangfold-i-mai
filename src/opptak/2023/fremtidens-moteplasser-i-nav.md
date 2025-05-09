@@ -1,5 +1,6 @@
 ---
 title: 'Hvordan vil vi ha Fremtidens Møteplasser i NAV?'
+event-date: '2023-05-11'
 speakers:
   - name: Camilla Dahl
 vimeo: 'https://vimeo.com/831471296/62517c3e43'

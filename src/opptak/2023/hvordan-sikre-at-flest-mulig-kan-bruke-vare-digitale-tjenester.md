@@ -1,5 +1,6 @@
 ---
 title: 'Hvordan kan vi sikre at flest mulig kan ta i bruk våre digitale tjenester?'
+event-date: '2023-05-08'
 speakers:
   - name: Gudrun Totland Raddatz
   - name: Moa Alexandra Engelbrektsson

@@ -1,5 +1,6 @@
 ---
 title: 'Brukerforventninger til NAV i fremtiden'
+event-date: '2023-05-08'
 speakers:
   - name: Gard Ringen Høibjerg
 vimeo: 'https://vimeo.com/831471741/91a130a758'

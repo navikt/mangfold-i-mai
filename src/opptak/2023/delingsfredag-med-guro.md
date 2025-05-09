@@ -1,5 +1,6 @@
 ---
 title: 'Delingsfredag med Guro Sollien Eriksrud'
+event-date: '2023-05-12'
 speakers:
   - name: Guro Sollien Eriksrud
 qbrick: '<iframe class="video" title="Video: Guro Eriksrud - Gjeld og straffedømte" src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&amp;mediaId=0a7105ce-4c52-4b01-9dce-faea22fca2a1&amp;configId=qbrick-player&amp;pageStyling=adaptive&amp;autoplay=false&amp;repeat=false&amp;sharing=true&amp;download=false&amp;volume" allowfullscreen="true" frameborder="0" border="0" height="270" width="480"></iframe>'

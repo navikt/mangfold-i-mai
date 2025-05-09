@@ -1,5 +1,6 @@
 ---
 title: 'Hvordan nå ut med informasjon til nyankomne flyktninger og innvandrere?'
+event-date: '2023-05-09'
 speakers:
   - name: Katarina Heradstveit
 vimeo: 'https://vimeo.com/831928244/9fee7fdcc9'

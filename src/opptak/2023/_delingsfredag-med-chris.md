@@ -1,5 +1,6 @@
 ---
 title: 'Delingsfredag med Chris Atherton'
+event-date: '2023-05-26'
 speakers:
   - name: Chris Atherton
 vimeo: 'https://vimeo.com/831926203/c341cec473'

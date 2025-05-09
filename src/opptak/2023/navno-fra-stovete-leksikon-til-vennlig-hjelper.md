@@ -1,5 +1,6 @@
 ---
 title: 'Nav.no – fra støvete leksikon til vennlig hjelper'
+event-date: '2023-05-10'
 speakers:
   - name: Tuva Sverdstad
   - name: Tobias McVey

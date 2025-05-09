@@ -1,5 +1,6 @@
 ---
 title: 'Synstolking: beskrivelser av levende bilder'
+event-date: '2023-05-25'
 speakers:
   - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831926203/b01b655b5c'

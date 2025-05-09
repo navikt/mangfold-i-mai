@@ -1,5 +1,6 @@
 ---
 title: 'Kjønnsdelte hjelpemidler? Kartlegging av hjelpemidler til personer med nedsatt funksjonsevne'
+event-date: '2022-05-12'
 speakers: 
   - name: Annette Solberg
 

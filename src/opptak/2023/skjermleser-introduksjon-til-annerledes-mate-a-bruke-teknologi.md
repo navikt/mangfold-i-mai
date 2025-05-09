@@ -1,5 +1,6 @@
 ---
 title: 'Skjermleser: Introduksjon til en annerledes måte å bruke teknologi på'
+event-date: '2023-05-03'
 speakers:
   - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831924675/a1ab16be34'

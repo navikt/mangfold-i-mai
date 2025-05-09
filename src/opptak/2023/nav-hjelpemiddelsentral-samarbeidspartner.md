@@ -1,5 +1,6 @@
 ---
 title: 'Nav Hjelpemiddelsentral – en samarbeidspartner'
+event-date: '2023-05-24'
 speakers:
   - name: Hilde Kristine Braadland-Eriksson
 vimeo: 'https://vimeo.com/831459940/111995c379'

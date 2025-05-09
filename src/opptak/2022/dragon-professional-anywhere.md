@@ -1,5 +1,6 @@
 ---
 title: 'Dragon Professional Anywhere: norsk talegjenkjenning for PC'
+event-date: '2022-05-13'
 speakers:
   - name: Daniel Scheidegger
 youtube: https://www.youtube.com/watch?v=KOii8VFWq_U

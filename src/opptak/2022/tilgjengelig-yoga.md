@@ -1,5 +1,6 @@
 ---
 title: 'Tilgjengelig yoga – verktøy til ​egenkraftmobilisering'
+event-date: '2022-05-09'
 speakers: 
   - name: Line Fritzon
 youtube: https://www.youtube.com/watch?v=-41W99FBQ3c

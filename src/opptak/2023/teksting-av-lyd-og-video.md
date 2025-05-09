@@ -1,5 +1,6 @@
 ---
 title: 'Teksting av lyd og video'
+event-date: '2023-05-25'
 speakers:
   - name: Morten Tollefsen
 vimeo: 'https://vimeo.com/831924287/81677a7af8'

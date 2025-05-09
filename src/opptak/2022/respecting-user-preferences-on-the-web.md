@@ -1,5 +1,7 @@
 ---
 title: 'Respecting User Preferences on the Web'
+language: en
+event-date: '2022-05-13'
 speakers:
   - name: Eric Eggert
 youtube: https://www.youtube.com/watch?v=9wfsA8XmRwE
