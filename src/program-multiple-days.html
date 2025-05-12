@@ -1,0 +1,75 @@
+---
+layout: "default.html"
+title: Program
+permalink: false
+---
+
+{% assign content = content | strip_newlines %}
+{% block content %}
+  <div class="page-header">
+    <h1>{{ title }}</h1>
+
+    <details class="filter">
+      <summary>
+        <span aria-hidden>⚙️
+        </span>Filter</summary>
+      <form id="program-filter-form">
+        <fieldset>
+          <legend>Filtrer program</legend>
+          <label>
+            <input
+              type="radio"
+              name="filter"
+              checked
+              value="all" />
+            <span>Vis alle</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="public" />
+            <span>Åpent for alle</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="internal" />
+            <span>Bare for Nav-ansatte</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="stream" />
+            <span>Nettmøte</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="in-person" />
+            <span>Fysisk arrangement</span>
+          </label>
+          <label><input
+              type="radio"
+              name="filter"
+              checked
+              value="registration-required" />
+            <span>Krever påmelding</span>
+          </label>
+        </fieldset>
+      </form>
+    </details>
+  </div>
+
+  {% assign events = collections.event | sort: "data.event-date" | group_by: "data.day" %}
+  {% include "events.html"
+    , events: events %}
+
+{% endblock %}
+
+{% block script %}
+  <script src="/assets/scripts/program.js" async></script>
+{% endblock %}

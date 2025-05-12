@@ -1,0 +1,26 @@
+<li class="speaker-card">
+    {%- if speaker.image %}
+      <img 
+        class="pic" 
+        style="view-transition-name: img-{{ speaker.title | slugify }}"
+        src="/assets/images/speakers/optimized/{{ speaker.image }}" 
+        alt="{{ speaker.title }}" 
+        aria-hidden="true" 
+        loading="{% if index < 4 %}eager{% else %}lazy{% endif %}"
+        decoding="auto"
+        eleventy:widths="200"
+      >
+    {% endif -%}
+
+    <div class="bio">
+        <a 
+          class="name" 
+          href="/foredragsholdere/{{ speaker.title | slugify }}.html"
+        >
+          {{ speaker.title }}
+        </a>
+        {% if speaker.summary %}
+          <p>{{ speaker.summary }}</p>
+        {% endif %}
+    </div>
+</li>

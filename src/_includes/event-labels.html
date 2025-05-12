@@ -1,0 +1,23 @@
+{% if event.privacy == "public" %}
+  <li class="badge green {{ event.privacy }}">Åpent for alle</li>
+{% else %}
+  <li class="badge red {{ event.privacy }}">Bare for Nav-ansatte</li>
+{% endif %}
+
+{% if event['location-type'] != "in-person"  %}
+  <li class="badge purple stream">Nettmøte</li>
+{% endif %}
+
+{% if event['location-type'] != "stream" %}
+  <li class="badge blue in-person">Fysisk arrangement</li>
+{% endif %}
+
+{% if event.registration == true %}
+  <li class="badge yellow registration-required">Krever påmelding</li>
+{% endif %}
+
+{% if event['video-url'] %}
+  <li class="badge recorded">Opptak tilgjengelig</li>
+{% elsif event.recorded == true %}
+  <li class="badge yellow registration-required">Blir tatt opp</li>
+{% endif %}

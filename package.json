@@ -1,0 +1,24 @@
+{
+  "name": "mangfold-i-mai",
+  "version": "1.0.0",
+  "description": "[Legg inn et issue](https://github.com/navikt/mangfold-i-mai/issues) eller ta kontakt med [uu-teamet](mailto:uu@nav.no) hvis du har kommentarer eller spørsmål.",
+  "scripts": {
+    "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "dev-quiet": "ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
+    "dev-debug": "DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
+    "build": "ELEVENTY_ENV=production npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.2",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "@11ty/is-land": "^4.0.1",
+    "html-minifier-terser": "^7.2.0",
+    "markdown-it-attrs": "^4.3.1",
+    "sass": "^1.87.0"
+  }
+}

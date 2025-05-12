@@ -1,0 +1,36 @@
+---
+layout: 'default.html'
+---
+
+{% assign month = site.today | readableDate: "LL" %}
+{% assign today-date = site.today | readableDate: "yyyy-LL-dd" %}
+
+{% assign last-event = collections.event | last %}
+{% assign last-date = last-event.data['event-date'] | readableDate: "yyyy-LL-dd" %}
+
+{% assign events_today = collections.event | where_exp: "item", "item.data.day == today-date" %}
+{% assign events = events_today | sort: "data.event-date" | group_by: "data.day" %}
+
+{% block content %} 
+
+  {{ content }}
+  
+  {% comment %} {% if month == "05" and last-date >= today-date %}     
+    <h2>Dagens program</h2>
+    {% include "events.html", events: events %}
+
+    <iframe
+      class="video"
+      src="https://vimeo.com/event/4269617/embed/882ab89d6f"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen=""
+      title="Live feed for Mangfold i mai"
+    ></iframe>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  {% elsif last-date < today-date %} 
+    <h2 id="gikk-du-glipp-av-noe">Gikk du glipp av noe?</h2>
+    <p>Fortvil ikke. Opptak med teksting legges ut på hvert enkelt arrangement som vi har rettighet til å legge ut opptaket på.</p>
+  {% endif %} {% endcomment %}
+      
+{% endblock %}

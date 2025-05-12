@@ -1,0 +1,52 @@
+<div class="series" id="event-series">
+    {% for event in events %}
+
+      <div>{{ event.event-date }}</div>
+
+      <div class="series__day">
+        <h2 aria-label="{{ event.name | readableDate: 'DDD' }}">
+          <span class="dateblob {% if event.items.length > 2 %}dateblob--sticky{% endif %}">
+            <span class="dateblob__day">
+              {{ event.name | readableDate: 'EEE' | slice: 0, 3 }}
+            </span>
+            <span class="dateblob__date">
+              {{ event.name | readableDate: 'dd' }}
+            </span>
+          </span>
+        </h2>
+        <ul class="series__events">
+          {% for item in event.items %}
+            {% capture lang -%}
+            {% if item.data.language %} lang="{{ item.data.language }}"{% endif %}    
+            {%- endcapture %}
+          
+            <li class="series__event">
+              <time
+                {% if item.data.canceled %}
+                class="canceled"
+                {% endif %}>{{ item.data.event-date | readableDate: 'T' }}–{{ item.data.event-date-end | readableDate: 'T' }}</time>
+              <h3 class="title"{{ lang }}>
+                <a href="/program/{{ item.data.title | slugify }}.html">
+                  {% if item.data.canceled %}
+                    DESSVERRE AVLYST –
+                  {% endif %}
+                  {{ item.data.title }}
+                </a>
+              </h3>
+              <p{{ lang }}>
+                {{ item.data.summary }}
+                {% if item.data.speakers %}
+                  {% assign speakers = event.data.speakers | map: 'name' | compact %}
+                        Med {{ speakers | sentence }}.
+                {% endif %}
+              </p>
+              <ul class="tags">
+                {% include "event-labels.html"
+                  , event: item.data %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>

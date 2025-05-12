@@ -1,0 +1,17 @@
+{
+	"Frontmatter for opptak": {
+		"scope": "markdown",
+		"prefix": "opp",
+		"body": [
+			"---",
+      "title: '$1'",
+      "speakers:",
+      "  - $2",
+      "vimeo: '$3'",
+			"---",
+      "",
+      "$4"
+		],
+    "description": "Insert frontmatter for 'opptak'"
+	}
+}

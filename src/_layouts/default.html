@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="no">
+
+  {% include 'head.html' %}
+
+  <body>
+    {% include 'site-header.html' %}
+
+    <main id="content" class="container" tabindex="-1">
+      {% block content %}
+      {{ content }}
+      {% endblock %}
+    </main>
+
+    {% include 'site-footer.html' %}
+    {% block script %}{% endblock %}
+
+    <!-- Last build: {{ site.today }} -->
+    <!-- Layout: {{ layout }} -->
+  </body>
+</html>
