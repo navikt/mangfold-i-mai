@@ -1,6 +1,6 @@
 ---
 title: 'Slik rigger vi NAV for å bli best på universell utforming'
-event-date: '2024-05-016'
+event-date: '2024-05-16'
 speakers:
   - name: Vegard Haugstvedt
     role: Utvikler og UU-spesialist i Nav
