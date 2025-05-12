@@ -18,6 +18,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./src/assets/images/mim-banner-3.webp')
   eleventyConfig.addPassthroughCopy('./src/assets/images/favicon.png')
   eleventyConfig.addPassthroughCopy('./src/assets/images/favicon.svg')
+  eleventyConfig.addPassthroughCopy('./src/robots.txt')
 
   eleventyConfig.addPassthroughCopy({ './_2022': '2022' })
   eleventyConfig.addPassthroughCopy({ './_2023': '2023' })
