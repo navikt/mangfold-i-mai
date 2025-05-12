@@ -102,6 +102,6 @@ export const config = {
     data: '_data',
     output: '_site',
   },
-  pathPrefix: '/mangfold-i-mai',
+  pathPrefix: '/',
 }
 
