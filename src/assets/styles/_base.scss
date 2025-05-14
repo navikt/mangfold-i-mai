@@ -60,9 +60,12 @@ body {
 }
 
 p {
-    max-inline-size: 56ch;
     margin-block: 1lh;
     text-wrap: pretty;
+}
+
+main :where(p) {
+    max-inline-size: 56ch;
 }
 
 a {

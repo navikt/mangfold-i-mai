@@ -3,9 +3,9 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-![mim-figurer - blobs med forskjellige ansikter og farger](assets/images/blobs/star.svg){ class=blob-star }
-
 # Programmet for 2025 er (nesten) klart!
+
+<img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
 I år arrangeres alle de spennende foredragene og workshoppene den 15. mai, på den internasjonale tilgjengelighetsdagen (Global Accessibility Awareness Day). På grunn av omorganisering av direktoratet, er arrangementene kun for ansatte i Nav.
 

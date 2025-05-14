@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="no">
+  <meta charset="utf-8" />
+  <title>Omdirigerer til riktig side &hellip;</title>
+  <link rel="canonical" href="{{ redirect }}" />
+  <script>
+    location = '{{ redirect }}';
+  </script>
+  <meta http-equiv="refresh" content="0; url={{ redirect }}" />
+  <meta name="robots" content="noindex" />
+  <h1>Omdirigerer til riktig side &hellip;</h1>
+  <a href="{{ redirect }}">
+    Bruk lenken hvis omdirigeringen ikke skjer automatisk
+  </a>
+</html>
