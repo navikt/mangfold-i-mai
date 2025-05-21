@@ -74,6 +74,7 @@ a {
 
     &:focus-visible {
         outline: 3px dashed var(--purple);
+        outline-offset: 2px;
     }
     &:hover {
         text-decoration-thickness: 0.2ch;

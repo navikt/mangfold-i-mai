@@ -15,14 +15,14 @@ var CookieBanner = (function () {
     _createDiv: function (html) {
       var bodytag = document.getElementsByTagName('body')[0]
       var banner = document.createElement('div')
-      banner.setAttribute('id', 'cookie-law')
+      banner.setAttribute('id', 'cookie-banner')
       banner.innerHTML = html
 
       // Adds the Cookie Law Banner just after the opening <body> tag
       bodytag.prepend(banner)
 
       // Adds a class to the <body> tag when the banner is visible
-      bodytag.classList.add('cookie-banner')
+      bodytag.classList.add('show-cookie-banner')
 
       if (CookieBanner.createCookieWhenBannerIsShown) {
         CookieBanner.createAcceptCookie()
@@ -74,7 +74,7 @@ var CookieBanner = (function () {
     },
 
     closeBanner: function () {
-      var element = document.getElementById('cookie-law')
+      var element = document.getElementById('cookie-banner')
       element.parentNode.removeChild(element)
     },
 
@@ -106,7 +106,7 @@ window.onload = function () {
 
   // Add buttons
   html +=
-    '<div><button type="button" onclick="CookieBanner.acceptOptional();">Ja</button> <button type="button" onclick="CookieBanner.acceptFunctional();">Nei</button></div>'
+    '<div class="buttons"><button type="button" onclick="CookieBanner.acceptOptional();">Ja</button> <button type="button" onclick="CookieBanner.acceptFunctional();">Nei</button></div>'
 
   CookieBanner.showUnlessAccepted(html)
 }
