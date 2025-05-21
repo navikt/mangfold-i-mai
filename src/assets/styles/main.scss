@@ -3,6 +3,7 @@
 @use 'fonts';
 @use 'base';
 
+
 :where(#skip) {
   position: absolute;
   overflow: clip;
@@ -19,6 +20,16 @@
     z-index: 2;
   }
 }
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+body.cookie-banner {
+    grid-template-rows: auto auto 1fr auto;
+}
+
 
 .site-header {
     padding-block: 0.5lh;
@@ -799,4 +810,31 @@ p:has(img) {
 
 #content:focus-visible {
     outline: none;
+}
+
+
+
+
+
+
+#cookie-law {
+    background-color: var(--purple-lighter);
+    padding: 20px 5%;
+    display: grid;
+}
+
+#cookie-law > div:first-child > a {
+    color: inherit;
+}
+
+#cookie-law > div:last-child {
+    vertical-align: middle;
+}
+
+#cookie-law > div:last-child > a {
+    padding: 10px 20px;
+    background-color: var(--green);
+    border-radius: 5px;
+    color: var(--blue-dark);
+    text-decoration: none;
 }
