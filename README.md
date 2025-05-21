@@ -4,7 +4,7 @@
 
 ## Kom i gang
 
-Vi bruker [Eleventy](https://www.11ty.dev/) som statisk sidegenerator rammeverk.
+Vi bruker [Eleventy](https://www.11ty.dev/) som statisk sidegenerator.
 
 ```
 npm install
