@@ -101,10 +101,8 @@ var CookieBanner = (function () {
       CookieBanner.closeBanner()
     },
 
-    showUnlessCookieExists: function () {
-      if (getCookieByName(CookieBanner.cookieName) == null) {
-        CookieBanner._createBanner()
-      }
+    showCookieBanner: function () {
+      CookieBanner._createBanner()
     },
   }
 })()
@@ -115,5 +113,8 @@ window.onload = function () {
   if (cookie === 'true') {
     addUmamiTracking()
   }
-  CookieBanner.showUnlessCookieExists()
+
+  if (cookie === null) {
+    CookieBanner.showCookieBanner()
+  }
 }
