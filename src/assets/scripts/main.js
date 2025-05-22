@@ -1,3 +1,16 @@
+
+const getCookieByName = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) {
+    return parts
+      .pop()
+      .split(';')
+      .shift()
+  }
+  return null
+}
+
 const addUmamiTracking = function () {
   var el = document.createElement('script')
   el.setAttribute(
@@ -89,7 +102,7 @@ var CookieBanner = (function () {
     },
 
     showUnlessCookieExists: function () {
-      if (document.cookie.startsWith(CookieBanner.cookieName) == '') {
+      if (getCookieByName(CookieBanner.cookieName) == null) {
         CookieBanner._createBanner()
       }
     },
@@ -97,8 +110,9 @@ var CookieBanner = (function () {
 })()
 
 window.onload = function () {
-  const cookie = document.cookie.split('=')
-  if (cookie[0] === CookieBanner.cookieName && cookie[1] === 'true') {
+  const cookie = getCookieByName(CookieBanner.cookieName)
+
+  if (cookie === 'true') {
     addUmamiTracking()
   }
   CookieBanner.showUnlessCookieExists()
