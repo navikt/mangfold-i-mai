@@ -1,4 +1,29 @@
+const getCookieByName = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) {
+    return parts
+      .pop()
+      .split(';')
+      .shift()
+  }
+  return null
+}
+
+const removeUmamiTracking = function () {
+  const el = document.querySelector('script[src="https://cdn.nav.no/team-researchops/sporing/sporing.js"]')
+  if (el) {
+    el.parentNode.removeChild(el)
+  }
+  if (typeof window.umami !== 'undefined') {
+    delete window.umami
+  }
+}
+
 const addUmamiTracking = function () {
+  if (typeof window.umami !== 'undefined') {
+    return
+  }
   var el = document.createElement('script')
   el.setAttribute(
     'src',
@@ -15,7 +40,7 @@ var CookieBanner = (function () {
   </p>
   <div class="buttons">
     <button type="button" onclick="CookieBanner.acceptOptionalCookie();">Ja</button>
-    <button type="button" onclick="CookieBanner.acceptFunctionalCookie();">Nei</button>
+    <button type="button" onclick="CookieBanner.declineOptionalCookie();">Nei</button>
   </div>`
 
   return {
@@ -24,6 +49,9 @@ var CookieBanner = (function () {
     cookieValue: false, // Default value
 
     _createBanner: function () {
+      if (document.getElementById('cookie-banner')) {
+        return
+      }
       var bodytag = document.getElementsByTagName('body')[0]
       var banner = document.createElement('div')
       banner.setAttribute('id', 'cookie-banner')
@@ -70,36 +98,60 @@ var CookieBanner = (function () {
       element.parentNode.removeChild(element)
     },
 
-    acceptFunctionalCookie: function () {
+    declineOptionalCookie: function () {
       CookieBanner._createCookie(
         CookieBanner.cookieName,
-        CookieBanner.cookieValue,
+        false,
         CookieBanner.cookieDuration,
       )
+      removeUmamiTracking();
       CookieBanner.closeBanner()
     },
 
     acceptOptionalCookie: function () {
       CookieBanner._createCookie(
         CookieBanner.cookieName,
-        (CookieBanner.cookieValue = true),
+        true,
         CookieBanner.cookieDuration,
       )
+      addUmamiTracking();
       CookieBanner.closeBanner()
     },
 
+    showCookieBanner: function () {
+      CookieBanner._createBanner()
+    },
+
     showUnlessCookieExists: function () {
-      if (document.cookie.startsWith(CookieBanner.cookieName) == '') {
-        CookieBanner._createBanner()
+      const cookie = getCookieByName(CookieBanner.cookieName)
+      if (cookie !== null) {
+        CookieBanner._eraseCookie(CookieBanner.cookieName)
       }
+      CookieBanner.showCookieBanner()
     },
   }
 })()
 
+// Make CookieBanner available globally
+window.CookieBanner = CookieBanner
+
 window.onload = function () {
-  const cookie = document.cookie.split('=')
-  if (cookie[0] === CookieBanner.cookieName && cookie[1] === 'true') {
+  const cookie = getCookieByName(CookieBanner.cookieName)
+
+  if (cookie === 'true') {
     addUmamiTracking()
   }
-  CookieBanner.showUnlessCookieExists()
+
+  if (cookie === null) {
+    CookieBanner.showCookieBanner()
+  }
+
+  // Add event listener to the cookie consent change link
+  const changeCookieConsentLink = document.getElementById('change-cookie-consent')
+  if (changeCookieConsentLink) {
+    changeCookieConsentLink.addEventListener('click', function(e) {
+      e.preventDefault()
+      CookieBanner.showUnlessCookieExists()
+    })
+  }
 }

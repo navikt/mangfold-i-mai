@@ -8,3 +8,5 @@ vendor
 /Gemfile.lock
 .bundle
 .vscode/settings.json
+
+node_modules
