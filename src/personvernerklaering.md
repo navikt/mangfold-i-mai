@@ -17,4 +17,4 @@ Informasjonskapsler er små tekstfiler som plasseres på din datamaskin når du 
 
 Vi bruker informasjonskapsler til å forbedre brukeropplevelsen og innholdet. Når du besøker mangfoldimai.no, sender nettleseren din opplysninger til Navs analyseverktøy. For hver side du åpner, lagres opplysninger om hvilken side du er på, hvilken side du kommer fra og går til, hvilken nettleser du bruker, om du bruker PC eller mobile løsninger m.m. Slik kan vi forbedre flyten og opplevelsen for alle som bruker nettsiden.
 
-Opplysningene brukes til å kartlegge hvordan og hvor mye mangfoldimai.no brukes, uten å identifisere IP-adresser. Vi bruker verktøyet Amplitude i analysearbeidet.
+Opplysningene brukes til å kartlegge hvordan og hvor mye mangfoldimai.no brukes, uten å identifisere IP-adresser. Vi bruker verktøyet Umami i analysearbeidet.

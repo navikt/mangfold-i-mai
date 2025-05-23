@@ -3,6 +3,7 @@
 @use 'fonts';
 @use 'base';
 
+
 :where(#skip) {
   position: absolute;
   overflow: clip;
@@ -19,6 +20,16 @@
     z-index: 2;
   }
 }
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+body.show-cookie-banner {
+    grid-template-rows: auto auto 1fr auto;
+}
+
 
 .site-header {
     padding-block: 0.5lh;
@@ -101,6 +112,7 @@
         font-size: 110%;
         font-weight: 700;
         text-decoration: none;
+        border-radius: 99px;
         color: currentColor;
 
         span {
@@ -199,6 +211,9 @@
             outline: 3px solid var(--blue-dark);
             background-color: var(--blue-dark);
             color: var(--white);
+        }
+        &:focus-visible {
+            outline-offset: 2px;
         }
     }
     
@@ -799,4 +814,52 @@ p:has(img) {
 
 #content:focus-visible {
     outline: none;
+}
+
+
+
+
+
+
+#cookie-banner {
+    background-color: var(--purple-dark);
+    color: var(--white);
+    padding: 1lh 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 1ch 4ch;
+}
+#cookie-banner p {
+    margin-block: 0;
+    max-inline-size: 68ch;
+}
+#cookie-banner a {
+    color: inherit;
+}
+#cookie-banner .buttons {
+    flex: 1;
+    display: flex;
+    gap: 1ch;
+    translate: 0 0.4375lh;
+}
+#cookie-banner button {
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    padding: 0.25lh 2ch;
+    background-color: var(--yellow);
+    border: 0;
+    border-radius: 99px;
+    flex: 1;
+    max-inline-size: 12ch;
+    color: var(--blue-dark);
+
+    &:hover {
+        background-color: var(--white);
+    }
+    &:focus-visible {
+        outline: 3px dashed var(--white);
+        outline-offset: 2px;
+    }
 }

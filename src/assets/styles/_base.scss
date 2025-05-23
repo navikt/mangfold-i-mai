@@ -49,8 +49,6 @@
 
 body {
     margin: 0;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
     min-block-size: 100%;
     background-color: #FAFAFA;
     font-family: 'Nunito', system-ui, sans-serif;
@@ -76,6 +74,7 @@ a {
 
     &:focus-visible {
         outline: 3px dashed var(--purple);
+        outline-offset: 2px;
     }
     &:hover {
         text-decoration-thickness: 0.2ch;
