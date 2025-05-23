@@ -398,9 +398,9 @@ a.dateblob:hover {
 }
 
 .site-footer {
-    background-color: color-mix(in srgb, var(--purple-light) 40%, white);
-    padding-block: 1lh;
-    border-image: conic-gradient(color-mix(in srgb, var(--purple-light) 40%, white) 0 0) fill 0 / / 0 100vw;
+    background-color: var(--purple-lighter);
+    padding-block: 1lh 1.5lh;
+    border-image: #{"conic-gradient(var(--purple-lighter) 0 0) fill 0 // 0 100vw"};
 
     .wrapper {
         @media (width > 64rem) {
@@ -823,12 +823,16 @@ p:has(img) {
 
 #cookie-banner {
     background-color: var(--purple-dark);
+    border-image: #{"conic-gradient(var(--purple-dark) 0 0) fill 0 // 0 100vw"};
     color: var(--white);
-    padding: 1lh 5%;
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: start;
     gap: 1ch 4ch;
+    max-inline-size: calc(96ch + (var(--edge) * 2));
+    inline-size: 100%;
+    padding: 1lh var(--edge) 1.25lh;
+    margin-inline: auto;
 }
 #cookie-banner p {
     margin-block: 0;
@@ -841,9 +845,10 @@ p:has(img) {
     flex: 1;
     display: flex;
     gap: 1ch;
-    translate: 0 0.4375lh;
+    margin-block-start: 0.2lh;
 }
 #cookie-banner button {
+    display: inline-block;
     cursor: pointer;
     font: inherit;
     margin: 0;
