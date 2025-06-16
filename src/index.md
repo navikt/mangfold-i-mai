@@ -3,12 +3,13 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-# Programmet for 2025 er (nesten) klart!
+# Årets Mangfold i mai er over
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
-I år arrangeres alle de spennende foredragene og workshoppene den 15. mai, på den internasjonale tilgjengelighetsdagen (Global Accessibility Awareness Day). På grunn av omorganisering av direktoratet, er arrangementene kun for ansatte i Nav.
+I år ble alle de spennende foredragene og workshoppene lagt til fagdagen, 15. mai, som også var den internasjonale tilgjengelighetsdagen (Global Accessibility Awareness Day). På grunn av omorganisering av direktoratet, var arrangementene kun for ansatte i Nav.
 
+{% comment %}
 <a class="pill-delta" href="https://delta.nav.no/mim">
 <svg class="icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <g stroke="currentColor" stroke-linejoin="round" stroke-width="2">
@@ -23,7 +24,7 @@ I år arrangeres alle de spennende foredragene og workshoppene den 15. mai, på 
 
 Vi legger ut [opptak av foredrag](/opptak) i etterkant, der vi har mulighet.
 
-{% comment %}
+
 Vi er takknemlig for [tilbakemeldinger på innleggene du har sett](#). Det tar kort tid og hjelper oss masse. Takk!
 {% endcomment %}
 
