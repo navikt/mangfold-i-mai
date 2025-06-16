@@ -2,16 +2,15 @@ const getCookieByName = function (name) {
   const value = `; ${document.cookie}`
   const parts = value.split(`; ${name}=`)
   if (parts.length === 2) {
-    return parts
-      .pop()
-      .split(';')
-      .shift()
+    return parts.pop().split(';').shift()
   }
   return null
 }
 
 const removeUmamiTracking = function () {
-  const el = document.querySelector('script[src="https://cdn.nav.no/team-researchops/sporing/sporing.js"]')
+  const el = document.querySelector(
+    'script[src="https://cdn.nav.no/team-researchops/sporing/sporing.js"]',
+  )
   if (el) {
     el.parentNode.removeChild(el)
   }
@@ -104,7 +103,7 @@ var CookieBanner = (function () {
         false,
         CookieBanner.cookieDuration,
       )
-      removeUmamiTracking();
+      removeUmamiTracking()
       CookieBanner.closeBanner()
     },
 
@@ -114,7 +113,7 @@ var CookieBanner = (function () {
         true,
         CookieBanner.cookieDuration,
       )
-      addUmamiTracking();
+      addUmamiTracking()
       CookieBanner.closeBanner()
     },
 
@@ -147,9 +146,11 @@ window.onload = function () {
   }
 
   // Add event listener to the cookie consent change link
-  const changeCookieConsentLink = document.getElementById('change-cookie-consent')
+  const changeCookieConsentLink = document.getElementById(
+    'change-cookie-consent',
+  )
   if (changeCookieConsentLink) {
-    changeCookieConsentLink.addEventListener('click', function(e) {
+    changeCookieConsentLink.addEventListener('click', function (e) {
       e.preventDefault()
       CookieBanner.showUnlessCookieExists()
     })

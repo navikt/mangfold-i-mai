@@ -234,6 +234,10 @@ body.show-cookie-banner {
     padding-inline: var(--edge);
 }
 
+#content {
+    margin-block-end: auto;
+}
+
 .dateblob {
     background-color: color-mix(in srgb, var(--purple-light) 40%, white);
     display: inline-grid;
@@ -376,6 +380,7 @@ a.dateblob:hover {
     grid-auto-flow: dense;
     align-content: end;
     column-gap: 1ch;
+    margin-block-start: -2lh;
 
     :where(img:nth-child(1), img:nth-child(3)) {
         grid-row: 2;

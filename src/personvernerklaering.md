@@ -6,15 +6,38 @@ title: Personvernerklæring
 
 # {{ title }}
 
-Mangfoldimai.no er en nettside Nav Arbeids- og velferdsdirektoratet har behandlingsansvaret for.
+Nav Arbeids- og velferdsdirektoratet har behandlingsansvaret for mangfoldimai.no.
 
-Denne personvernerklæringen er knyttet til behandlingen av personopplysninger på dette nettstedet. For utfyllende informasjon om hvordan Nav behandler dine personopplysninger, kan du lese mer i [Navs generelle personvernerklæring](https://www.nav.no/no/nav-og-samfunn/om-nav/personvern-i-arbeids-og-velferdsetaten).
+Denne personvernerklæringen er knyttet til behandlingen av personopplysninger på dette nettstedet. For utfyllende informasjon om hvordan Nav behandler dine personopplysninger, kan du lese mer i [Navs generelle personvernerklæring](https://www.nav.no/personvernerklaering).
 
-## Bruk av informasjonskapsler (cookies)
-Når du besøker nettsiden bruker vi informasjonskapsler (cookies).
+## Hva er informasjonskapsler?
+Vi bruker informasjonskapsler og tilsvarende teknologi på på mangfoldimai.no. Dette er teknologi som lagrer små biter med informasjon i nettleseren din, eller som henter ut enkelte opplysninger om datamaskinen, nettbrettet eller mobilen din. For enkelhets skyld bruker vi begrepet «informasjonskapsel» når vi beskriver denne typen teknologi.
 
-Informasjonskapsler er små tekstfiler som plasseres på din datamaskin når du laster ned en nettside. Noen av informasjonskapslene er nødvendige for at ulike tjenester på nettsiden vår skal fungere slik vi ønsker. Funksjonen kan slås av og på i de fleste nettlesere gjennom «innstillinger», «sikkerhet» eller liknende. Hvis du slår av informasjonskapsler i nettleseren din, vil ikke all funksjonalitet virke som den skal. Informasjonskapsler inneholder ikke personopplysninger og er ingen sikkerhetsrisiko for deg.
+Hvis du samtykker, bruker vi valgfrie informasjonskapsler fra statistikk- og analyseverktøyet Umami for å kartlegge hvordan og hvor mye mangfoldimai.no brukes. Målet er å samle data som hjelper oss å forbedre nettsidene, uten å identifisere deg. Vi har iverksatt flere tiltak for å hindre identifisering, og vi deler ikke data med tredjeparter.
 
-Vi bruker informasjonskapsler til å forbedre brukeropplevelsen og innholdet. Når du besøker mangfoldimai.no, sender nettleseren din opplysninger til Navs analyseverktøy. For hver side du åpner, lagres opplysninger om hvilken side du er på, hvilken side du kommer fra og går til, hvilken nettleser du bruker, om du bruker PC eller mobile løsninger m.m. Slik kan vi forbedre flyten og opplevelsen for alle som bruker nettsiden.
+## Hvilke informasjonskapsler bruker vi?
 
-Opplysningene brukes til å kartlegge hvordan og hvor mye mangfoldimai.no brukes, uten å identifisere IP-adresser. Vi bruker verktøyet Umami i analysearbeidet.
+<<<<<<< Updated upstream
+Opplysningene brukes til å kartlegge hvordan og hvor mye mangfoldimai.no brukes, uten å identifisere IP-adresser. Vi bruker verktøyet Amplitude i analysearbeidet.
+=======
+Umami er et statistikk- og analyseverktøy som hjelper oss å forstå hvordan folk bruker mangfoldimai.no. Formålet med dataene vi samler inn er å lage statistikk over blant annet: 
+
+* Hvor mange som besøker ulike sider
+* Hvor lenge besøket varer
+* Hvilke nettsteder brukerne kommer fra
+* Hvilke nettlesere som benyttes
+* Hvilket språk nettleseren bruker
+* Hvilke ulike størrelse på skjerm/nettleservindu som blir brukt
+* Hvordan nettstedet og tjenestene blir brukt, som navigasjon mellom sider, klikk på knapper, lenker og lignende.
+
+## Godkjenn eller avvis informasjonskapsler
+
+Første gang du besøker nettsidene våre, spør vi deg om vi får bruke valgfrie informasjonskapsler. Hvis du svarer ja, bruker vi valgfrie informasjonskapsler. Etter 90 dager sletter vi de valgfrie informasjonskapslene og spør deg på nytt.
+
+<button class="change-cookie-consent" type="button" onclick="changeCookieConsent()">Endre samtykke for informasjonskapsler</button>
+
+
+Det ligger også en lenke i menyen i bunnen av mangfoldimai.no, som du kan klikke på for å endre samtykke for informasjonskapsler.
+
+Du kan også bruke innstillingene i nettleseren din for å avvise bruk av informasjonskapsler.
+>>>>>>> Stashed changes
