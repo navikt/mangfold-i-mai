@@ -5,7 +5,7 @@ const minifyHtml = (content, outputPath) => {
   if (env === 'production' && outputPath && outputPath.endsWith('.html')) {
     let minified = htmlMinifier.minify(content, {
       useShortDoctype: true,
-      removeComments: true,
+      removeComments: false,
       collapseWhitespace: true,
       minifyCSS: {
         level: 2,
