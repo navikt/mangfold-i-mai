@@ -3,17 +3,17 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-# Frokostseminar på FNs dag for personer med nedsatt funksjonsevne (3. desember, kl. 08-09)
+# Frokostseminar på FNs dag for personer med nedsatt funksjonsevne (3. desember, kl. 08–09)
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
 ## Hvordan få flere personer med nedsatt funksjonsevne i arbeid?
 Likestillings- og diskrimineringsombudet (LDO) presenterer en ny <a href="https://ldo.no/blog/2025/10/22/slik-tilset-du-fleire-personar-med-funksjonsnedsetjing/">verktøykasse</a> som kan bidra i dette arbeidet!
 
-Presentasjonen varer omtrent 20 minutter. Den avsluttes med en panelsamtale med Stine Dybvik (LDO), Helene Ugelstad (Nav Hjelpemiddel og tilrettelegging) og Maren Anna Lervik (Bufdir).
+Presentasjonen varer omtrent 20 minutter. Arrangementet avsluttes med en panelsamtale med Stine Dybvik (LDO), Helene Ugelstad (Nav Hjelpemiddel og tilrettelegging) og Maren Anna Lervik (Bufdir).
 
 ## Når og hvor?
-- onsdag 3. desember 2025, kl. 08.00-09.00
+- Onsdag 3. desember 2025, kl. 08.00–09.00.
 - Arrangementet er åpent for alle digitalt (følg med på <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzNjOWIxYWEtZWI2MS00NTY1LWE3Y2UtNjk1ZTZiMDU0ODFh%40thread.v2/0?context=%7b%22Tid%22%3a%2262366534-1ec3-4962-8869-9b5535279d0b%22%2c%22Oid%22%3a%221d166766-b1a2-4878-bf6e-3e6e52c714ce%22%7d">streamen</a>).
 - Hvis du jobber i Nav, er du også hjertelig velkommen til å bli med fysisk (<a href="https://delta.nav.no/event/29dea4e2-58a1-4fb7-9ec7-b7763e7e3d34">påmelding</a>) i direktorates lokaler på Helsfyr. 
 
