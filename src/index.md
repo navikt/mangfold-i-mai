@@ -10,7 +10,7 @@ title: Mangfold i mai - velkommen!
 ## Hvordan få flere personer med nedsatt funksjonsevne i arbeid?
 Likestillings- og diskrimineringsombudet (LDO) presenterer en ny <a href="https://ldo.no/blog/2025/10/22/slik-tilset-du-fleire-personar-med-funksjonsnedsetjing/">verktøykasse</a> som kan bidra i dette arbeidet!
 
-Presentasjonen varer omtrent 20 minutter. Arrangementet avsluttes med en panelsamtale med Stine Dybvik (LDO), Helene Ugelstad (Nav Hjelpemiddel og tilrettelegging) og Maren Anna Lervik (Bufdir).
+Presentasjonen varer omtrent 20 minutter. Arrangementet avsluttes med en panelsamtale med Stine Dybvik (LDO), Helene Ugelstad (Nav Hjelpemiddel og tilrettelegging), Maren Anna Lervik (Bufdir) og Linn Huse-Amundsen (Nav Mennesker og organisasjon).
 
 ## Når og hvor?
 - Onsdag 3. desember 2025, kl. 08.00–09.00.
