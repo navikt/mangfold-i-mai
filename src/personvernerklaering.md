@@ -17,9 +17,6 @@ Hvis du samtykker, bruker vi valgfrie informasjonskapsler fra statistikk- og ana
 
 ## Hvilke informasjonskapsler bruker vi?
 
-<<<<<<< Updated upstream
-Opplysningene brukes til å kartlegge hvordan og hvor mye mangfoldimai.no brukes, uten å identifisere IP-adresser. Vi bruker verktøyet Amplitude i analysearbeidet.
-=======
 Umami er et statistikk- og analyseverktøy som hjelper oss å forstå hvordan folk bruker mangfoldimai.no. Formålet med dataene vi samler inn er å lage statistikk over blant annet: 
 
 * Hvor mange som besøker ulike sider
@@ -36,8 +33,6 @@ Første gang du besøker nettsidene våre, spør vi deg om vi får bruke valgfri
 
 <button class="change-cookie-consent" type="button" onclick="changeCookieConsent()">Endre samtykke for informasjonskapsler</button>
 
-
 Det ligger også en lenke i menyen i bunnen av mangfoldimai.no, som du kan klikke på for å endre samtykke for informasjonskapsler.
 
 Du kan også bruke innstillingene i nettleseren din for å avvise bruk av informasjonskapsler.
->>>>>>> Stashed changes
