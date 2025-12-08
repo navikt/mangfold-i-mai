@@ -54,17 +54,16 @@ var CookieBanner = (function () {
       var bodytag = document.getElementsByTagName('body')[0]
       var banner = document.createElement('div')
       banner.setAttribute('id', 'cookie-banner')
+      banner.setAttribute('tabindex', '-1')
       banner.innerHTML = markup
 
       // Adds the Cookie Law Banner just after the opening <body> tag
       bodytag.prepend(banner)
 
       // Adds a class to the <body> tag when the banner is visible
-      bodytag.classList.add('cookie-banner')
-
-      // if (CookieBanner.createCookieWhenBannerIsShown) {
-      //   CookieBanner.createAcceptCookie()
-      // }
+      if (CookieBanner.createCookieWhenBannerIsShown) {
+        CookieBanner.createAcceptCookie()
+      }
     },
 
     _createCookie: function (name, value, days) {
@@ -127,6 +126,7 @@ var CookieBanner = (function () {
         CookieBanner._eraseCookie(CookieBanner.cookieName)
       }
       CookieBanner.showCookieBanner()
+      document.getElementById('cookie-banner').focus()
     },
   }
 })()
@@ -144,15 +144,9 @@ window.onload = function () {
   if (cookie === null) {
     CookieBanner.showCookieBanner()
   }
+}
 
-  // Add event listener to the cookie consent change link
-  const changeCookieConsentLink = document.getElementById(
-    'change-cookie-consent',
-  )
-  if (changeCookieConsentLink) {
-    changeCookieConsentLink.addEventListener('click', function (e) {
-      e.preventDefault()
-      CookieBanner.showUnlessCookieExists()
-    })
-  }
+const changeCookieConsent = function (e) {
+  CookieBanner.showUnlessCookieExists()
+  window.scrollTo(0, 0)
 }

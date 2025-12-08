@@ -68,10 +68,11 @@ main :where(p, li) {
     max-inline-size: 56ch;
 }
 
-a {
+:where(a, .change-cookie-consent) {
     color: var(--blue-medium);
     text-decoration-thickness: 0.1ch;
     text-decoration-color: color-mix(in srgb, currentColor 60%, transparent);
+    text-decoration-line: underline;
     text-underline-offset: 0.125ch;
 
     &:focus-visible {

@@ -5,7 +5,7 @@
 
 
 :where(#skip) {
-  position: absolute;
+  position: fixed;
   overflow: clip;
   clip-path: rect(1px 1px 1px 1px);
   inline-size: 1px;
@@ -18,10 +18,12 @@
     clip-path: unset;
     padding: 0.25ch 1ch;
     z-index: 2;
+    align-self:start;
   }
 }
 
 body {
+    position:relative;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
@@ -823,6 +825,16 @@ p:has(img) {
 
 
 
+.change-cookie-consent {
+    display:inline;
+    appearance: unset;
+    border:0;
+    background:none;
+    padding:0;
+    font: unset;
+    text-align: unset;
+    cursor: pointer;
+}
 
 
 
