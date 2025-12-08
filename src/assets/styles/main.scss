@@ -3,8 +3,9 @@
 @use 'fonts';
 @use 'base';
 
+
 :where(#skip) {
-  position: absolute;
+  position: fixed;
   overflow: clip;
   clip-path: rect(1px 1px 1px 1px);
   inline-size: 1px;
@@ -17,8 +18,20 @@
     clip-path: unset;
     padding: 0.25ch 1ch;
     z-index: 2;
+    align-self:start;
   }
 }
+
+body {
+    position:relative;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+body.show-cookie-banner {
+    grid-template-rows: auto auto 1fr auto;
+}
+
 
 .site-header {
     padding-block: 0.5lh;
@@ -101,6 +114,7 @@
         font-size: 110%;
         font-weight: 700;
         text-decoration: none;
+        border-radius: 99px;
         color: currentColor;
 
         span {
@@ -200,6 +214,9 @@
             background-color: var(--blue-dark);
             color: var(--white);
         }
+        &:focus-visible {
+            outline-offset: 2px;
+        }
     }
     
 }
@@ -217,6 +234,10 @@
     inline-size: 100%;
     margin-inline: auto;
     padding-inline: var(--edge);
+}
+
+#content {
+    margin-block-end: auto;
 }
 
 .dateblob {
@@ -361,6 +382,7 @@ a.dateblob:hover {
     grid-auto-flow: dense;
     align-content: end;
     column-gap: 1ch;
+    margin-block-start: -2lh;
 
     :where(img:nth-child(1), img:nth-child(3)) {
         grid-row: 2;
@@ -383,9 +405,9 @@ a.dateblob:hover {
 }
 
 .site-footer {
-    background-color: color-mix(in srgb, var(--purple-light) 40%, white);
-    padding-block: 1lh;
-    border-image: conic-gradient(color-mix(in srgb, var(--purple-light) 40%, white) 0 0) fill 0 / / 0 100vw;
+    background-color: var(--purple-lighter);
+    padding-block: 1lh 1.5lh;
+    border-image: #{"conic-gradient(var(--purple-lighter) 0 0) fill 0 // 0 100vw"};
 
     .wrapper {
         @media (width > 64rem) {
@@ -799,4 +821,67 @@ p:has(img) {
 
 #content:focus-visible {
     outline: none;
+}
+
+
+
+.change-cookie-consent {
+    display:inline;
+    appearance: unset;
+    border:0;
+    background:none;
+    padding:0;
+    font: unset;
+    text-align: unset;
+    cursor: pointer;
+}
+
+
+
+#cookie-banner {
+    background-color: var(--purple-dark);
+    border-image: #{"conic-gradient(var(--purple-dark) 0 0) fill 0 // 0 100vw"};
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 1ch 4ch;
+    max-inline-size: calc(96ch + (var(--edge) * 2));
+    inline-size: 100%;
+    padding: 1lh var(--edge) 1.25lh;
+    margin-inline: auto;
+}
+#cookie-banner p {
+    margin-block: 0;
+    max-inline-size: 68ch;
+}
+#cookie-banner a {
+    color: inherit;
+}
+#cookie-banner .buttons {
+    flex: 1;
+    display: flex;
+    gap: 1ch;
+    margin-block-start: 0.2lh;
+}
+#cookie-banner button {
+    display: inline-block;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    padding: 0.25lh 2ch;
+    background-color: var(--yellow);
+    border: 0;
+    border-radius: 99px;
+    flex: 1;
+    max-inline-size: 12ch;
+    color: var(--blue-dark);
+
+    &:hover {
+        background-color: var(--white);
+    }
+    &:focus-visible {
+        outline: 3px dashed var(--white);
+        outline-offset: 2px;
+    }
 }
