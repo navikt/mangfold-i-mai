@@ -12,7 +12,7 @@ speakers:
     role: Data Scientist i Nav
   - name: Jacob Sjødin
     role: Data Scientist i Nav
-vimeo: 'https://vimeo.com/954355277/1192572fd0'
+vimeo: '[https://vimeo.com/954355277/1192572fd0](https://vimeo.com/1142971046/08045c416e?share=copy&fl=sv&fe=ci)'
 ---
 
 Beate Sletvold Øistad og Thomas Jahren fra Likestillings- og diskrimineringsombudet gi deg en innføring i hva diskriminering egentlig er, hvordan KI-verktøy kan diskriminere, og vise hvordan du kan gå fram for å forebygge og avdekke diskriminerende bruk av KI, gjennom konkrete case.
