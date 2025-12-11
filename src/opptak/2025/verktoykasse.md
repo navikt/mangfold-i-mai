@@ -12,7 +12,7 @@ speakers:
     role: Fagdirektør i avdeling for likestilling og universell utforming i Bufdir
   - name: Karina Ludwig
     role: Fagleder for universell utforming av IKT i Nav
-vimeo: 'https://vimeo.com/1142971046/08045c416e?'
+vimeo: 'https://vimeo.com/1142971046/08045c416e?share=copy&fl=sv&fe=ci'
 ---
 
 Selv om personer med nedsatt funksjonsevne på papiret har de samme rettighetene som alle andre, står fortsatt mer enn 105.000 utenfor arbeidslivet.
