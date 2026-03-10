@@ -83,40 +83,15 @@ layout: 'default.html'
     
     {% if speakers %}
       <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
-      {% capture speaker_list %}          
-        {% for speaker in speakers -%}
-          {% assign speaker_with_url = collections.speaker | find_exp: 'item', 'item.data.title == speaker' %}
-          {%- capture person %}
-            {% if speaker_with_url %}
-              <a href="/foredragsholdere/{{ speaker_with_url.data.title | slugify }}.html">{{ speaker_with_url.data.title }}</a>
-              {% else %}
-              {{ speaker }}
-            {% endif %}
-          {% endcapture -%}
-          {% unless forloop.first -%}
-            {% if forloop.last %} og {% else %}, {% endif %}
-          {%- endunless %}{{ person | strip }}
-        {%- endfor %}
-      {% endcapture %}
-
-      <p>{{ speaker_list }}</p>
-
-      {% comment %} 
-      <ul class="speaker-list">
-        {% for speaker in speakers %}
-          {% assign speaker_with_url = collections.speaker | find_exp: 'item', 'item.data.title == speaker' %}
-          {% if speaker_with_url %}
-            {% include 'speaker-card.html'
-              , speaker: speaker_with_url.data
-              , index: index %}
-          {% else %}
-            <li class="name">
-              {{ speaker }}
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      {% endcomment %}
+      {% if speakers.length > 1 %}
+        <ul>
+          {% for speaker in speakers %}
+              <li>{{ speaker.name }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>{{ speakers[0].name }}</p>
+      {% endif %}
     {% endif %}
   </div>    
 {% endblock %}
