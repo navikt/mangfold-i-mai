@@ -10,13 +10,17 @@ title: Mangfold i mai - velkommen!
 ## Vi jobber på og oppdaterer her når ting er på plass
 Hold gjerne av 19.-21. mai 2026 :) 
 
-<a class="pill-delta" href="/program/">
-<span>Program</span>
-</a>
+## Gikk du glipp av vårt frokostseminar 3. desember 2025?
+Vi hadde besøk fra Likestillings- og diskrimineringsombudet (LDO), som presenterte en ny <a href="https://ldo.no/blog/2025/10/22/slik-tilset-du-fleire-personar-med-funksjonsnedsetjing/">verktøykasse</a> som kan bidra med å hjelpe deg å ansette personer med nedsatt funksjonsevne!
 
 
+Arrangementet ble avsluttet med en panelsamtale med Stine Dybvik (LDO), Helene Ugelstad (Nav Hjelpemiddel og tilrettelegging), Maren Anna Lervik (Bufdir) og Linn Huse-Amundsen (Nav Mennesker og organisasjon).
+
+Lyst til å se? Sjekk <a href="https://mangfoldimai.no/opptak/verktoykasse-2025/">opptaket</a>.
 
 {% comment %}
+<a class="pill-delta" href="/program/">Program</a>
+
 Vi legger ut [opptak av foredrag](/opptak) i etterkant, der vi har mulighet.
 
 Vi er takknemlig for [tilbakemeldinger på innleggene du har sett](#). Det tar kort tid og hjelper oss masse. Takk!
