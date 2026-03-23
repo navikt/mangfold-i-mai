@@ -6,10 +6,10 @@ summary: "Kort beskrivelse av workshopen"
 event-date: 2026-05-20T14:15
 event-date-end: 2026-05-20T15:15
 speakers: 
-  - name: Audrey Charlotte Chisholm Høibråten
-    role: Seniorrådgiver hos OUS
+  - name: 
+    role: 
 delta: ""
-location: "Helsfyr, B108"
+location: "Helsfyr, B108 Fyrstikken"
 delta: ""
 ---
 Lengre beskrivelse av workshpen
