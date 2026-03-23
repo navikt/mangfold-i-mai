@@ -1,6 +1,6 @@
 ---
-layout: "event.html"(GAAD)
-title: "Åpning av dag 2 - Global Accessibility Awareness Day "
+layout: "event.html"
+title: "Åpning av dag 2 - Global Accessibility Awareness Day GAAD"
 summary: "Med videohilsen av skaperne av GAAD"
 event-date: 2026-05-21T09:00
 event-date-end: 2026-05-21T09:15
