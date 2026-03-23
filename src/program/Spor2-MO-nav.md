@@ -1,0 +1,17 @@
+---
+layout: "event.html"
+title: "Spor 2: Hvordan Nav jobber med inkluderende rekruttering"
+titleShort: ""
+summary: "Kort beskrivelse av foredraget"
+event-date: 2026-05-20T14.15
+event-date-end: 2026-05-20T14.30
+speakers: 
+  - name: Vegar Mørk
+    role: 
+delta: ""
+location: "Helsfyr B104 Gnisten"
+delta: ""
+---
+Lengre beskrivelse av foredraget
+
+**Om Vegard:**
