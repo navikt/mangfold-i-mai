@@ -3,8 +3,8 @@ layout: "event.html"
 title: "TADAgen og juridisk møteplass - KI og diskriminering"
 titleShort: ""
 summary: ""
-event-date: 2025-05-15T12:05
-event-date-end: 2025-05-15T14:30
+event-date: 2026-05-20T12:05
+event-date-end: 2026-05-20T14:30
 speakers: 
   - name: Emilie Mellbye Rytter-Ingebrigtsen
     role: Jurist i Nav

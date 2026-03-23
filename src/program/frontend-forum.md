@@ -3,8 +3,8 @@ layout: "event.html"
 title: "Placeholder for Frontend forum"
 titleShort: ""
 summary: ""
-event-date: 2025-05-15T14:00
-event-date-end: 2025-05-15T15:00
+event-date: 2026-05-20T14:00
+event-date-end: 2026-05-20T15:00
 speakers: 
   - name: UU-teamet
   - name: Aksel-teamet

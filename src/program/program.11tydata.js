@@ -1,5 +1,5 @@
 export default {
-  permalink: false,
+  layout: 'event.html',
   tags: ['event'],
   eleventyComputed: {
     day: (data) => data['event-date'].split('T')[0],

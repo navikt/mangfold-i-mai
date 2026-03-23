@@ -1,10 +1,8 @@
 ---
-layout: "event.html"
 title: "Blind øl-smaking på Afterwork"
-titleShort: ""
 summary: "Gjett hvilket øl du drikker og test din evne til å kjenne forskjellen på øl med og uten alkohol."
-event-date: 2025-05-15T17:00
-event-date-end: 2025-05-15T18:00
+event-date: 2026-05-21T17:00
+event-date-end: 2026-05-21T18:00
 speakers: 
   - name: David Hole
     role: UU-spesialist i Nav

@@ -1,10 +1,8 @@
 ---
-layout: "event.html"
 title: "Placeholder for Lean Coffee"
-titleShort: ""
 summary: ""
-event-date: 2025-05-15T13:30
-event-date-end: 2025-05-15T14:30
+event-date: 2026-05-20T13:30
+event-date-end: 2026-05-20T14:30
 speakers: 
   - name: Tommy Jocumsen
 delta: "https://delta.nav.no/event/4564d147-b951-4fa0-a898-93a13dbab1cd"

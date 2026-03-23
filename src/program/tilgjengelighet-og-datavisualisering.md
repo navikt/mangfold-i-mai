@@ -1,10 +1,9 @@
 ---
 layout: "event.html"
 title: "Det du tror du vet om tilgjengelighet og datavisualisering"
-titleShort: "Tilgjengelighet og datavisualisering"
 summary: "Tall blir til innsikt når visualiseringen treffer. Men hvem blir faktisk truffet, og hvem blir stående igjen på utsiden?"
-event-date: 2025-05-15T10:20
-event-date-end: 2025-05-15T11:00
+event-date: 2026-05-21T10:20
+event-date-end: 2026-05-21T11:00
 speakers: 
   - name: Sarah Brodwall
     role: UU-spesialist i Nav

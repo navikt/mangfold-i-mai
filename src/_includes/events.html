@@ -1,52 +1,100 @@
-<div class="series" id="event-series">
-    {% for event in events %}
+<div class="program" id="event-series">
+  {% for day in events %}
+    <div class="program__day">
+    <h2 class="program__day-title">{{ day.name | readableDate: 'dd. MMMM' }}</h2>    
+    {% for event in day.items %}
+      <div class="program__event">
+        <time>
+          {{ event.data['event-date'] | readableDate: 'T' }}–{{ event.data['event-date-end'] | readableDate: 'T' }}
+        </time>
 
-      <div>{{ event.event-date }}</div>
-
-      <div class="series__day">
-        <h2 aria-label="{{ event.name | readableDate: 'DDD' }}">
-          <span class="dateblob {% if event.items.length > 2 %}dateblob--sticky{% endif %}">
-            <span class="dateblob__day">
-              {{ event.name | readableDate: 'EEE' | slice: 0, 3 }}
-            </span>
-            <span class="dateblob__date">
-              {{ event.name | readableDate: 'dd' }}
-            </span>
-          </span>
-        </h2>
-        <ul class="series__events">
-          {% for item in event.items %}
-            {% capture lang -%}
-            {% if item.data.language %} lang="{{ item.data.language }}"{% endif %}    
-            {%- endcapture %}
+        <div>
+          {% capture lang -%}
+          {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
+          {%- endcapture %}
+          <h3 class="title" {{ lang }}>
+            {% if event.data.canceled %}
+              DESSVERRE AVLYST –
+            {% endif %}
+            <a href="{{ event.url }}">{{ event.data.title }}</a>
+          </h3>
           
-            <li class="series__event">
-              <time
-                {% if item.data.canceled %}
-                class="canceled"
-                {% endif %}>{{ item.data.event-date | readableDate: 'T' }}–{{ item.data.event-date-end | readableDate: 'T' }}</time>
-              <h3 class="title"{{ lang }}>
-                <a href="/program/{{ item.data.title | slugify }}.html">
-                  {% if item.data.canceled %}
-                    DESSVERRE AVLYST –
-                  {% endif %}
-                  {{ item.data.title }}
-                </a>
-              </h3>
-              <p{{ lang }}>
-                {{ item.data.summary }}
-                {% if item.data.speakers %}
-                  {% assign speakers = event.data.speakers | map: 'name' | compact %}
-                        Med {{ speakers | sentence }}.
-                {% endif %}
+          {% if event.data.summary.length > 0 %}
+            <p>{{ event.data.summary }}</p>
+          {% endif %}
+
+          {% if event.data.speakers.length and event.data.speakers.length >= 1 %}
+              <p>
+                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <g stroke-width="1.75" stroke="currentColor">
+                    <circle cx="12" cy="9.5" r="3"/>
+                    <path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/>
+                    <circle cx="12" cy="12" r="9"/>
+                  </g>
+                </svg>
+
+                {% for speaker in event.data.speakers %}
+                {{ speaker.name }}{%- if speaker.role %}, {{ speaker.role }}{% endif -%}
+                {% unless forloop.last %} + {% endunless %}
+                {% endfor %}
               </p>
-              <ul class="tags">
-                {% include "event-labels.html"
-                  , event: item.data %}
-              </ul>
+            {% endif %}
+
+          
+          {% comment %}
+          <ul class="key-info">
+            {% if event.data.speakers.length and event.data.speakers.length >= 1 %}
+              <li>
+                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <g stroke-width="1.75" stroke="currentColor">
+                    <circle cx="12" cy="9.5" r="3"/>
+                    <path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/>
+                    <circle cx="12" cy="12" r="9"/>
+                  </g>
+                </svg>
+                {% for speaker in event.data.speakers %}
+                {{ speaker.name }}{%- if speaker.role %}, {{ speaker.role }}{% endif -%}
+                {% unless forloop.last %} + {% endunless %}
+                {% endfor %}
+              </li>
+            {% endif %}
+            <li>
+              <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <g stroke="currentColor" stroke-width="1.75">
+                  <circle cx="12" cy="10" r="3"/>
+                  <path stroke-linejoin="round" d="M5 10c0 1.23.38 2.5.94 3.5C6.5 14.5 9 18 12 21c3-3 5.5-6.5 6.06-7.5A7 7 0 1 0 5 10Z"/>
+                </g>
+              </svg>
+              {% if event.data.location.length > 0 -%}
+                {{ event.data.location }}
+              {%- else %}
+                <i>Sted er ikke lagt inn</i>
+              {%- endif %}
+            </li>     
+            <li>
+              <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <g stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="7" cy="5.5" r="3"/>
+                  <circle cx="17.5" cy="11" r="2.5"/>
+                  <path d="M3 21v-6a4 4 0 0 1 4-4v0a4 4 0 0 1 4 4v6m3 0v-1.5c0-2 1.6-3.5 3.5-3.5v0c2 0 3.5 1.6 3.5 3.5V21"/>
+                </g>
+              </svg>
+              <span>For alle</span>
             </li>
-          {% endfor %}
-        </ul>
+            <li>
+              <a class="delta" href="{{ event.data.delta }}">
+                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linejoin="round" stroke-width="1.75"  d="m12 3 7.8 17.25H4.2L12 3Z"/>
+                </svg>
+                <span>Påmelding i Delta</span>
+              </a>
+            </li>
+          </ul>
+          {% endcomment %}
+        </div>
+
       </div>
     {% endfor %}
-  </div>
+    </div>
+  {% endfor %}
+</div>
