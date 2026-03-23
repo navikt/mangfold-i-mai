@@ -21,4 +21,8 @@
     <meta property="og:url" content="{{ site_url | htmlBaseUrl }}">
     <meta property="og:image" content="/assets/images/mim-banner-3.webp">
     <meta property="og:image:alt" content="Fargerike folk">
+
+    {% if noindex %}
+      <meta name="robots" content="noindex">
+    {% endif %}
 </head>

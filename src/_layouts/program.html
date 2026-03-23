@@ -8,12 +8,13 @@ layout: "default.html"
     {{ content }}
   </div>
 
-  {% assign events = collections.event | sort: "data.time" %}
+  {% comment %}
+    {% assign events = collections.event | sort: "data.time" %}
+    {% endcomment %}
+    
+  {% assign events = collections.event | sort: "data.event-date" | group_by: "data.day" %}
   {% include "events.html", events: events %}
 {% endblock %}
 
-{% comment %}
 {% block script %}
-  <script src="/assets/scripts/program.js" async></script>
 {% endblock %}
-{% endcomment %}

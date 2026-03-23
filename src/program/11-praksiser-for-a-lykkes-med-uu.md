@@ -1,10 +1,8 @@
 ---
-layout: "event.html"
 title: "Hva skal til for å lykkes med UU – 11 praksiser for digitale produktteam"
-titleShort: ""
 summary: "Lurer du på hva som skal til for å lykkes med universelt utformede digitale løsninger? Er du usikker på om teamet har gode nok rammer, kompetanse og rutiner til å levere digitale løsninger som er tilgjengelige for alle? Her får du svar på det."
-event-date: 2025-05-15T14:30
-event-date-end: 2025-05-15T15:00
+event-date: 2026-05-21T14:30
+event-date-end: 2026-05-21T15:00
 speakers: 
   - name: Miriam Nes Begnum
     role: Produktleder i Nav
