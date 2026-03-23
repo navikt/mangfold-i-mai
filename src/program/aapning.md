@@ -1,5 +1,5 @@
 ---
-title: "Hvordan kan sikre at våre tjenester er likeverdige? Åpning av Mangfold i mai 2026"
+title: "Likeverdige offentlige tjenster - åpning av Mangfold i mai 2026"
 summary: ""
 image: ""
 event-date: 2026-05-20T09:00
