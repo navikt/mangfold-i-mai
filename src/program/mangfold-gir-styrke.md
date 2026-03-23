@@ -12,3 +12,6 @@ delta: ""
 location: "Vimeo + Amfiet"
 ---
 Lengre beskrivelse av foredraget
+
+**Om Faten:**
+
