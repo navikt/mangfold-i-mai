@@ -97,9 +97,11 @@ picture {
 
 :where(h1, h2, h3) {
     margin-block: 1.25lh 0.25lh;
-    line-height: 1.2;
 }
 
+:where(h1, h2) {
+    line-height: 1.2;
+}
 
 :where(h1) {
     font-weight: 800;
@@ -112,6 +114,10 @@ picture {
 
 :where(h2:first-child) {
     margin-block-start: 0.125lh;
+}
+
+:where(h3) {
+    line-height: 1.35;
 }
 
 :where(h2, h3, h4) + p {

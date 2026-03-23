@@ -431,7 +431,7 @@ a.dateblob:hover {
 }
 
 .title {
-    font-size: 1.25em;
+    font-size: 1.125rem;
     font-weight: 700;
     margin-block: 0.25lh;
 }
@@ -604,6 +604,14 @@ p:has(img) {
     }
 }
 
+.program__day {
+    margin-block-start: 2lh;
+}
+.program__day-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
 .program__event {
     border-block-start: 1px solid var(--gray);
     padding-block: 0.75lh;
@@ -615,9 +623,13 @@ p:has(img) {
         align-items: baseline;    
     }
 
-    h2 {
+    time {
         font-size: 1rem;
         font-weight: 400;
+
+        @media(width < 48rem) {
+            margin-block-end: .5em;
+        }
     }
     p {
         max-inline-size: none;

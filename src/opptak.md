@@ -1,5 +1,5 @@
 ---
-layout: "recordings.html"
+layout: "archive.html"
 title: Opptak fra tidligere
 permalink: 'opptak/index.html'
 eleventyNavigation:
