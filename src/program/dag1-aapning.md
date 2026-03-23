@@ -16,4 +16,4 @@ delta: ""
 om likeverdige tjenester og hvor vi vil. Retning og forankring.
 
 **Om Heidi Braaen og Miriam Valerio Norgård**
-...
+
