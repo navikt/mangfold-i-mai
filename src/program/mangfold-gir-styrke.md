@@ -1,8 +1,8 @@
 ---
 layout: "event.html"
 title: "Mangfold gir styrke"
-titleShort: "Kort beskrivelse av foredraget"
-summary: ""
+titleShort: ""
+summary: "Kort beskrivelse av foredraget"
 event-date: 2026-05-20T09:10
 event-date-end: 2026-05-20T09:30
 speakers: 
