@@ -35,7 +35,7 @@ const addUmamiTracking = function () {
 
 var CookieBanner = (function () {
   const markup = `<p>
-  <strong>Får vi bruke valgfrie informasjons&shy;kapsler?</strong> Om du svarer ja, bruker vi informasjons&shy;kapsler og lignende teknologi til statistikk og analyse. Målet er å forstå hvordan du og andre bruker mangfoldimai.no, slik at vi kan forbedre nettsidene.
+  <strong>Får vi bruke valgfrie informasjons&shy;kapsler?</strong><br>Om du svarer ja, bruker vi informasjons&shy;kapsler og lignende teknologi til statistikk og analyse. Målet er å forstå hvordan du og andre bruker mangfoldimai.no, slik at vi kan forbedre nettsidene.
   </p>
   <div class="buttons">
     <button type="button" onclick="CookieBanner.acceptOptionalCookie();">Ja</button>
