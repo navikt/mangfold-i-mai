@@ -14,4 +14,3 @@ location: "Amfiet + Vimeo"
 Lengre beskrivelse av foredraget
 
 
-
