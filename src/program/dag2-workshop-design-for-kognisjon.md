@@ -1,8 +1,8 @@
 ---
 title: "Workshop Design for kognisjon"
 summary: "Kort beskrivelse av foredraget"
-event-date: 2026-05-20T12.45
-event-date-end: 2026-05-20T13.15
+event-date: 2026-05-21T12:45
+event-date-end: 2026-05-21T13:15
 speakers: 
   - name: 
     role: 
