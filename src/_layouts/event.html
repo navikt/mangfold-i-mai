@@ -8,91 +8,52 @@ layout: 'default.html'
   <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
 
   {% unless canceled %}
-    <ul class="tags">
-      {% if privacy == "public" %}
-        <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
-      {% else %}
-        <li><span class="badge red {{ privacy }}">Bare for Nav-ansatte</span></li>
-      {% endif %}        
-
-      {% if location-type != "in-person" %}
-        <li><span class="badge purple stream">Nettmøte</span></li>
-      {% endif %} 
-        
-      {% if location-type != "stream" %}
-        <li><span class="badge blue in-person">Fysisk arrangement</span></li>
-      {% endif %} 
-
-      {% if registration == true or registration-link %}
-        <li><span class="badge yellow registration-required">Krever påmelding</span></li>
-      {% endif %}
-
-      {% if event.data.video-url %}
-        <li><span class="badge recorded">Opptak tilgjengelig</span></li>
-      {% elsif event.recorded == true %}
-        <li><span class="badge recorded">Blir tatt opp</span></li>
-      {% endif %}
-    </ul>
-
-    {% comment %}
     <div class="metadata">
-      <div class="date-location">
-        <p class="dateblob" aria-hidden="true">
-          <span class="dateblob__day">
-          {{ event-date | readableDate: 'ccc' | remove: '.' }}
-          </span>
-          <span class="dateblob__date">
-          {{ event-date | readableDate: 'dd' | remove: '.' }}
-          </span>            
-        </p>
-
-        <p>
-          <time datetime="{{ event-date }}">
-            {{ event-date | readableDate: 'T' }}–{{ event-date-end | readableDate: 'T' }}
-          </time>
-      
-          <!-- LOCATION -->   
-          {%- case location-type %} 
-            {% when "stream" %}
-              {% if location-name %}{{ location-name }}{% endif %}
-              {% if location-link %}<a href="{{ location-link }}">Nettmøte</a>{% endif %} 
-            {% when "in-person" %}
-              {% if location-name %}{{ location-name }}{% endif %}
-            {% when "hybrid" %}
-              {{ location-name }} 
-              {% if location-hybrid %} 
-              {% unless location-name %}{{ location-hybrid }}{% endunless %} 
-              {% endif %}
-              {% if location-link %}<a href="{{ location-link }}">Nettmøte</a>{% endif %}
-          {%- endcase %}
-        </p>
-      
-        {% if registration-link %}
-          <p>📝 <a href="{{ registration-link }}">Registrer deg her</a></p>
-        {% endif %}    
-      </div>
-      <button class="ical" type="button" onclick="javascript:cal.download('{{ title }} | Mangfold i mai 2024')">
-        📅 Legg til i kalender
-      </button>      
+      {% if audience %}<p>{{ audience }}</p>{% endif %}
+      <p>
+        {{ event-date | readableDate: 'EEEE dd. MMM' |  capitalize }},
+        <time datetime="{{ event-date }}">
+          kl. {{ event-date | readableDate: 'T' }}–{{ event-date-end | readableDate: 'T' }}
+        </time>
+      </p>
+      <p>{{ location }}</p>     
+      {% if delta %}<p>📝 <a href="{{ delta }}">Meld deg på i Delta</a></p>{% endif %}    
     </div>
-    {% endcomment %}
   {% endunless %}
 
 
   <div class="description" {{ lang }}>
     {{ content }} 
+
     {% include 'live-stream.html' %}
     
     {% if speakers %}
       <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
-      {% if speakers.length > 1 %}
-        <ul>
+      {% if speakers.length > 0 %}
+        <div class="speakers">
           {% for speaker in speakers %}
-              <li>{{ speaker.name }}</li>
+            <article class="speakers__item">
+              {%- if speaker.image %}
+              <img 
+                class="avatar" 
+                src="{{ speaker.image }}" 
+                alt="" 
+                aria-hidden="true" 
+                loading="lazy"
+                decoding="auto"
+                eleventy:widths="72"
+              >
+            {% endif -%}
+              <h3>
+                {{ speaker.name }}{% if speaker.role != null %}, {% endif %}
+                {% if speaker.role != null %}<span>{{ speaker.role }}</span>{% endif %}
+              </h3>
+              {% if speaker.info %}                
+                <p>{{ speaker.info }}</p>
+              {% endif %}
+            </article>
           {% endfor %}
-        </ul>
-      {% else %}
-        <p>{{ speakers[0].name }}</p>
+          </div>
       {% endif %}
     {% endif %}
   </div>    

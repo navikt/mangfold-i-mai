@@ -93,6 +93,10 @@ picture {
     vertical-align: top;
 }
 
+p:has(img) {
+    display: contents;
+}
+
 :where(h1, h2, h3) {
     margin-block: 1.25lh 0.25lh;
 }
@@ -107,7 +111,7 @@ picture {
     text-wrap: balance;
 }
 :where(h2) {
-    font-size: 1.25em;
+    font-size: 1.375em;
 }
 
 :where(h2:first-child) {
@@ -115,11 +119,12 @@ picture {
 }
 
 :where(h3) {
+    font-size:1em;
     line-height: 1.35;
 }
 
 :where(h2, h3, h4) + p {
-    margin-block-start: 0.375lh;
+    margin-block-start: 0;
 }
 
 iframe {

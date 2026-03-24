@@ -13,7 +13,50 @@ layout: "default.html"
     {% endcomment %}
     
   {% assign events = collections.event | sort: "data.event-date" | group_by: "data.day" %}
-  {% include "events.html", events: events %}
+
+  <div class="program" id="event-series">
+    {% for day in events %}
+      <div class="program__day">
+      <h2 class="program__day-title">{{ day.name | readableDate: 'dd. MMMM' }}</h2>    
+      {% for event in day.items %}
+        <div class="program__event">
+          <time>
+            {{ event.data['event-date'] | readableDate: 'T' }}–{{ event.data['event-date-end'] | readableDate: 'T' }}
+          </time>
+          <div>
+            {% capture lang -%}
+            {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
+            {%- endcapture %}
+            <h3 class="title" {{ lang }}>
+              {% if event.data.canceled %}DESSVERRE AVLYST – {% endif %}
+              <a href="{{ event.url }}">{{ event.data.title }}</a>
+            </h3>
+            
+            {% if event.data.summary.length > 0 %}
+              <p>{{ event.data.summary }}</p>
+            {% endif %}
+
+            {% if event.data.speakers.length and event.data.speakers.length >= 1 %}
+              <ul class="speakers">
+                {% for speaker in event.data.speakers %}
+                <li>
+                  {% if speaker.image %}                
+                    <img class="avatar" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="32">
+                  {% else  %}
+                    <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
+                  {% endif %}
+                  <b>{{ speaker.name }}{%- if speaker.role != null %},</b> {{ speaker.role }}{% endif -%}
+                </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
 {% endblock %}
 
 {% block script %}

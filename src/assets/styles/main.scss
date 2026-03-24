@@ -219,46 +219,6 @@
     padding-inline: var(--edge);
 }
 
-.dateblob {
-    background-color: color-mix(in srgb, var(--purple-light) 40%, white);
-    display: inline-grid;
-    place-items: center;
-    align-content: center;
-    gap: 0.125lh;
-    border-radius: 40%;
-    inline-size: 4.5ch;
-    aspect-ratio: 1 / 1;
-    text-decoration: none;
-    padding: 0.25em 0.5em;
-    font-size: 1.25rem;
-    line-height: 1;
-    color: inherit;
-    translate: -0.125ch -0.125lh;
-}
-a.dateblob:hover {
-    background-color: color-mix(in srgb, var(--purple-light) 80%, white);
-}
-
-.dateblob--sticky {
-    position: sticky;
-    inset-block-start: 0.5lh;
-    margin-block-end: 0.875lh;
-}
-
-.dateblob__day {
-    text-transform: uppercase;
-    font-size: 55%;
-    font-weight: 650;
-    letter-spacing: 0.05ch;
-    translate: 0 0.125lh;
-}
-
-.dateblob__date {
-    font-size: 120%;
-    font-weight: 800;
-    translate: 0 0.1lh;
-}
-
 .series {
     margin-block-end: 0.5lh;
     border-block-end: 1px solid var(--purple-light);
@@ -314,42 +274,43 @@ a.dateblob:hover {
     }
 }
 
-.speaker-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(32ch, 100%), 1fr));
-    justify-content: space-between;
-    gap: 1lh 8ch;
+
+
+
+.speakers {
+    .avatar {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        vertical-align: top;
+        align-self: start;
+    }
 }
 
-.speaker-card {
+.speakers__item + .speakers__item {
+    margin-block-start: .5lh;
+}
+
+.speakers__item {
     display: grid;
     grid-template-columns: auto 1fr;
-    column-gap: 2ch;
+    column-gap: .75em;
     align-items: start;
 
-    &:has(picture) > div {
-        grid-column: 2;
-    }
-
-    picture {
-        display: block;
-        translate: 0 0.125lh;
-        grid-column: 1;
-        grid-row: 1;
-    }
-    img {
-        aspect-ratio: 1;
-        overflow: clip;
-        object-fit: cover;
-        border-radius: 42%;
-        max-inline-size: clamp(4.5rem, 3.625rem + 4.375vw, 8rem);
-    }
     :is(h2, h3) {
-        margin-block-start: 0.25lh;
+        margin-block: 0.25lh 1lh;
+        line-height: 1.5;
         grid-row: 1;
+        grid-column: 2;
+
+        span {
+            font-weight: 400;
+            display: block;
+        }
     }
     p {
-        text-wrap: balance;
+        grid-row: 3;
+        grid-column: 2;
+        text-wrap: pretty;
     }
 }
 
@@ -414,34 +375,14 @@ a.dateblob:hover {
     margin-block: 0.25lh;
 }
 
-.badge {
-    border-radius: 99ch;
-    background-color: var(--gray-light);
-    font-size: 81.25%;
-    line-height: 1.4;
-    padding: 0.5ch 1.25ch;
-    white-space: nowrap;
 
-    &.red {
-        background-color: color-mix(in srgb-linear, var(--red) 30%, white);
-    }
-
-    &.blue {
-        background-color: color-mix(in srgb-linear, var(--blue-light) 40%, white);
-    }
-
-    &.green {
-        background-color: color-mix(in srgb-linear, var(--green) 40%, white);
-    }
-
-    &.yellow {
-        background-color: color-mix(in srgb-linear, var(--yellow) 50%, white);
-    }
-
-    &.purple {
-        background-color: color-mix(in srgb-linear, var(--purple-light) 50%, white);
-    }
-
+.avatar {
+    aspect-ratio: 1;
+    overflow: clip;
+    object-fit: cover;
+    border-radius: 3in;
+    corner-shape: squircle;
+    max-inline-size: clamp(4.5rem, 3.625rem + 4.375vw, 8rem);
 }
 
 .name {
@@ -449,54 +390,28 @@ a.dateblob:hover {
     font-weight: 700;    
 }
 
-.portrait {
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    border-radius: 42%;
-    max-inline-size: clamp(6rem, 3.3333rem + 13.3333vw, 14rem);
-    float: right;
-    margin-inline-start: 3ch;
-    margin-block-end: 0.5lh;
-
-    @media (width > 64rem) {
-        margin-inline-start: 6ch;
-    }
-}
 
 .metadata {
+    background-color: var(--purple-lighter);
+    border-radius: 1em;
+    padding: 1em;
     margin-block-start: 1.5lh;
     line-height: 1.5;
     
     @media (width > 75rem) {
         float: right;
+        inline-size: stretch;
         max-inline-size: 28ch;
         margin-inline-start: 4ch;
-        margin-block-start: clamp(-2lh, -1vh - 3vi, -1lh);
+        margin-block-start: 0;
     }
-}
-
-.date-location {
-    display: flex;
-    align-items: start;
-    column-gap: 1.5ch;
-
+    p:first-child {
+        margin-block-start: 0;
+    }
     time {
         font-weight: 700;
     }
-    p {
-        margin-block: 0;
-        text-wrap: balance;
-        max-inline-size: 36ch;
-    }
-    .dateblob {
-        flex-shrink: 0;
-    }
-    .tags {
-        grid-column: 1 / -1;
-        margin-block: 1lh 0;
-    }
 }
-
 
 .ical {
     border: 0;
@@ -514,7 +429,6 @@ a.dateblob:hover {
         margin-block-start: 0.5lh;
         justify-self: end;
     }
-
 }
 
 .delta {
@@ -534,14 +448,6 @@ a.dateblob:hover {
     }
 }
 
-.tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75ch 0.5ch;
-    translate: -0.125ch 0;
-    margin-block-end: 1lh;
-}
-
 .hero {
     inline-size: 100%;
     max-inline-size: 48ch;
@@ -550,10 +456,6 @@ a.dateblob:hover {
         float: right;
         margin: 0 0 1lh 4ch;
     }
-}
-
-p:has(img) {
-    display: contents;
 }
 
 .filter {
@@ -613,6 +515,7 @@ p:has(img) {
         max-inline-size: none;
     }
 }
+
 
 
 .archive {   
@@ -726,10 +629,6 @@ p:has(img) {
 
 .blob-star {
     float: right;
-}
-
-.speakers li ~ li {
-    margin-block-start: 0.375lh;
 }
 
 .edit {
