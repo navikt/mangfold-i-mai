@@ -6,10 +6,10 @@ event-date-end: 2026-05-20T09:30
 speakers: 
   - name: Faten Lubani
     role: Leder av Globale Sandefjord
+    info: En setning om hva Faten jobber med.
 delta: ""
 location: "Vimeo + Amfiet"
 ---
 Lengre beskrivelse av foredraget
 
-**Om Faten:**
 
