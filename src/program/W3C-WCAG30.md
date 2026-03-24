@@ -1,5 +1,4 @@
 ---
-layout: "event.html"
 title: "What´s new in WCAG 3.0?"
 summary: "An introduction by the W3C"
 event-date: 2026-05-21T10:15
