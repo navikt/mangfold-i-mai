@@ -6,10 +6,9 @@ event-date-end: 2026-05-20T10:00
 speakers: 
   - name: Audrey Charlotte Chisholm Høibråten
     role: Seniorrådgiver hos OUS
-delta: ""
-location: "Vimeo + Amfiet"
+    image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
+delta:
+location: "Amfiet + Vimeo"
 ---
 Lengre beskrivelse av foredraget
-
-**Om Audrey Charlotte:**
 

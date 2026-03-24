@@ -6,8 +6,7 @@ event-date-end: 2026-05-20T10:00
 speakers: 
   - name: 
     role: 
-delta: ""
-location: "Vimeo + Speakers Corner"
+delta:
+location: "Speakers Corner + Vimeo"
 ---
 
-**Om xy**

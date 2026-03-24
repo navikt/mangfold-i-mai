@@ -6,8 +6,8 @@ event-date-end: 2026-05-20T15:30
 speakers: 
   - name: Ina Tsvetkova
     role: Spesialist for universell utforming av IKT in Nav
-delta: ""
-location: "Vimeo + Speakers Corner"
+    image: /assets/images/speakers/ina-tsvetkova.jpg
+delta:
+location: "Speakers Corner + Vimeo"
 ---
 
-#### 

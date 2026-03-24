@@ -6,7 +6,7 @@ event-date-end: 2026-05-21T10:45
 speakers: 
   - name: Kevin
     role: 
-delta: ""
-location: "Vimeo + Speakers Corner"
+delta:
+location: "Speakers Corner + Vimeo"
 ---
 

@@ -7,10 +7,12 @@ event-date-end: 2026-05-21T09:15
 speakers: 
   - name: Heidi Braaen
     role: Avdelingsdirektør for Brukerinnsikt
+    image: /assets/images/speakers/heidi-braaen.jpg
   - name: Karina Ludwig
     role: Fagleder for universell utforming av IKT i Nav
-delta: ""
-location: "Vimeo + Speakers Corner"
+    image: /assets/images/speakers/karina-ludwig.jpg
+delta:
+location: "Speakers Corner + Vimeo"
 ---
 
 beskrivelse

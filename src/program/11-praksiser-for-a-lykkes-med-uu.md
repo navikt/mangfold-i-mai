@@ -6,6 +6,7 @@ event-date-end: 2026-05-21T15:00
 speakers: 
   - name: Miriam Nes Begnum
     role: Produktleder i Nav
+    image: /assets/images/speakers/miriam-begnum.jpg
 delta: "https://delta.nav.no/event/86e897ac-36a5-4039-afd3-8b55083ff610"
 location: "Teams + U1 Smeltedigelen"
 ---

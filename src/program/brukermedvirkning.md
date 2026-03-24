@@ -6,9 +6,7 @@ event-date-end: 2026-05-20T12:30
 speakers: 
   - name: "t.b.a."
     role: 
-delta: ""
-location: "Vimeo + Speakers Corner"
+delta:
+location: "Speakers Corner + Vimeo"
 ---
 Lengre beskrivelse av foredraget
-
-**Om xy:**

@@ -6,13 +6,12 @@ event-date: 2026-05-20T09:00
 event-date-end: 2026-05-20T09:10
 speakers: 
   - name: Heidi Braaen
+    image: /assets/images/speakers/heidi-braaen.jpg
     role: Avdelingsdirektør for Brukerinnsikt
   - name: Miriam Valerio Norgård
     role: Avdelingsdirektør Likestilling og mangfold
-delta: ""
+    image: /assets/images/speakers/miriam-valerio-norgard.jpg
+delta:
 ---
 
-om likeverdige tjenester og hvor vi vil. Retning og forankring.
-
-**Om Heidi Braaen og Miriam Valerio Norgård**
-
+Om likeverdige tjenester og hvor vi vil. Retning og forankring.

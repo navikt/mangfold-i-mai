@@ -6,9 +6,8 @@ event-date-end: 2026-05-20T15:15
 speakers: 
   - name: 
     role: 
-delta: ""
+delta:
 location: "Helsfyr, B108 Fyrstikken"
 ---
 Lengre beskrivelse av workshpen
 
-**Om LDO:**
