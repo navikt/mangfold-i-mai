@@ -8,7 +8,7 @@ speakers:
     role: Seniorrådgiver hos OUS
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
 delta:
-location: "Amfiet + Vimeo"
+location: "Amfiet"
 ---
 Lengre beskrivelse av foredraget
 
