@@ -5,7 +5,14 @@ layout: 'default.html'
 {% capture lang -%}{% if language %} lang="{{ language }}"{% endif %}{%- endcapture %}
 
 {% block content %}
+<div class="event">
   <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
+
+  <div class="description" {{ lang }}>
+    {{ content }}
+
+    {% include 'live-stream.html' %}
+  </div>
 
   {% unless canceled %}
     <div class="metadata">
@@ -21,42 +28,34 @@ layout: 'default.html'
     </div>
   {% endunless %}
 
+  {% if speakers.length > 0 %}
+  <div class="speakers-list">
+    <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
 
-  <div class="description" {{ lang }}>
-    {{ content }} 
+    {% for speaker in speakers %}
+      <article class="speakers-list__item">
+        {%- if speaker.image %}
+        <img src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" class="avatar" eleventy:widths="72">
+        {% endif -%}
+        <div>
+          <h3>
+            {{ speaker.name }}{% if speaker.role != null %}, {% endif %}
+            {% if speaker.role != null %}<span>{{ speaker.role }}</span>{% endif %}
+          </h3>
+          {% if speaker.info %}                
+            <p>{{ speaker.info }}</p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  {% endif %}
 
-    {% include 'live-stream.html' %}
-    
-    {% if speakers %}
-      <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
-      {% if speakers.length > 0 %}
-        <div class="speakers">
-          {% for speaker in speakers %}
-            <article class="speakers__item">
-              {%- if speaker.image %}
-              <img 
-                class="avatar" 
-                src="{{ speaker.image }}" 
-                alt="" 
-                aria-hidden="true" 
-                loading="lazy"
-                decoding="auto"
-                eleventy:widths="72"
-              >
-            {% endif -%}
-              <h3>
-                {{ speaker.name }}{% if speaker.role != null %}, {% endif %}
-                {% if speaker.role != null %}<span>{{ speaker.role }}</span>{% endif %}
-              </h3>
-              {% if speaker.info %}                
-                <p>{{ speaker.info }}</p>
-              {% endif %}
-            </article>
-          {% endfor %}
-          </div>
-      {% endif %}
-    {% endif %}
-  </div>    
+  <div class="backlink">
+    <a class="pill-button" href="/program/">Se hele programmet</a>
+  </div>
+
+</div>      
 {% endblock %}
 
 {% block script %}

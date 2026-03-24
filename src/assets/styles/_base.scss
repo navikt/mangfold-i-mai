@@ -152,6 +152,10 @@ main {
     container: main / inline-size;
 }
 
+hr {
+    inline-size: stretch;
+}
+
 ::selection {
     background-color: color-mix(in srgb, var(--yellow) 75%, transparent);
     color: black;

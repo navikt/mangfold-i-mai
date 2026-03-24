@@ -19,7 +19,7 @@ Arrangementet ble avsluttet med en panelsamtale med Stine Dybvik (LDO), Helene U
 Lyst til å se? Sjekk <a href="https://mangfoldimai.no/opptak/verktoykasse-2025/">opptaket</a>.
 
 {% comment %}
-<a class="pill-delta" href="/program/">Program</a>
+<a class="pill-button" href="/program/">Program</a>
 
 Vi legger ut [opptak av foredrag](/opptak) i etterkant, der vi har mulighet.
 
