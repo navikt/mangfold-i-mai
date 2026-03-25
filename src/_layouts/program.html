@@ -16,47 +16,66 @@ layout: "default.html"
 
   <div class="program">
     {% for day in events %}
-      <div class="program__day">
-      <h2 class="program__day-title">{{ day.name | readableDate: 'dd. MMMM' }}</h2>    
-      {% for event in day.items %}
-        <div class="program__event">
-          <time>
-            {{ event.data['event-date'] | readableDate: 'T' }}–{{ event.data['event-date-end'] | readableDate: 'T' }}
-          </time>
-          <div>
-            {% capture lang -%}
-            {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
-            {%- endcapture %}
+    <div class="program__day">
+      <div class="program__day-header">
+        <h2 class="program__day-title">{{ day.name | readableDate: 'dd. MMMM' }}</h2>
+        <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
+      </div>
+
+
+          
+      {% assign days = day.items | sort: "data.event-date" | group_by: "data.event-date" %}
+      {% for day in days %}
+
+      <div class="program__events {% if forloop.first %}program__events--first{% endif %}">
+        <time>{{ day.name | readableDate: 'T' }}</time>
+        <div class="program__tracks">
+
+          {% assign tracks = day.items | sort: "data.title" %}
+          {% for track in tracks  %}
+
+          <!-- Filename: {{ track.fileSlug }} -->
+          <div class="program__event">
+            {%- capture lang %}
+            {% if track.data.language %} lang="{{ track.data.language }}"{% endif %}
+            {% endcapture -%}
+
             <h3 class="title" {{ lang }}>
-              {% if event.data.canceled %}DESSVERRE AVLYST – {% endif %}
-              <a href="{{ event.url }}">{{ event.data.title }}</a>
+              {% if track.data.canceled %}DESSVERRE AVLYST – {% endif %}
+              <a href="{{ track.url }}">{{ track.data.title }}</a>
             </h3>
             
-            {% if event.data.summary.length > 0 %}
-              <p>{{ event.data.summary }}</p>
+            {% if track.data.summary.length > 0 %}
+              <p>{{ track.data.summary }}</p>
             {% endif %}
 
-            {% if event.data.speakers.length and event.data.speakers.length >= 1 %}
-              <ul class="speakers-list">
-                {% for speaker in event.data.speakers %}
-                <li class="speakers-list__item">
-                  {% if speaker.image %}                
-                    <img class="avatar" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="32">
-                  {% else  %}
-                    <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
-                  {% endif %}
-                  <div><b>{{ speaker.name }}{%- if speaker.role != null %},</b> <span>{{ speaker.role }}</span>{% endif -%}</div>
-                </li>
-                {% endfor %}
-              </ul>
+            {% if track.data.speakers.length and track.data.speakers.length >= 1 %}
+            <ul class="speakers-list">
+              {% for speaker in track.data.speakers %}
+              <li class="speakers-list__item">
+                {% if speaker.image %}                
+                <img class="avatar" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="24">
+                {% else  %}
+                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
+                {% endif %}
+                <div>
+                  <b>{{ speaker.name }}{%- if speaker.role != null %},</b> 
+                  <span>{{ speaker.role }}</span>{% endif -%}
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
             {% endif %}
+
           </div>
+          {% endfor %}
+
         </div>
-      {% endfor %}
       </div>
+      {% endfor %}
+    </div>
     {% endfor %}
   </div>
-
 {% endblock %}
 
 {% block script %}

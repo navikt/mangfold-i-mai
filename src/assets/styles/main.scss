@@ -280,7 +280,7 @@
 }
 
 .speakers-list__item {
-    margin-block-start: .375lh;
+    margin-block-start: .25lh;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: .375em;
@@ -292,9 +292,12 @@
 
     > * { grid-row: 1 }
 
+    img {
+        align-self: center;
+        translate: 0 .125em;
+    }
     h3 {
         margin-block: 0.25lh 1lh;
-        line-height: 1.5;
 
         span {
             font-weight: 400;
@@ -366,7 +369,6 @@
     grid-column: 1 / -1;
 }
 
-
 .avatar {
     aspect-ratio: 1;
     overflow: clip;
@@ -408,22 +410,6 @@
     }
 }
 
-.filter {
-    position: relative;
-    z-index: 2;
-
-    & form {
-        position: absolute;
-        inset-block-start: 1lh;
-        inset-inline-end: 0;
-        inline-size: 40rem;
-        max-inline-size: 24ch;
-        background-color: #FAFAFA;
-    }
-    & fieldset {
-        display: grid;
-    }
-}
 
 .program {
     h3 {
@@ -437,21 +423,47 @@
 .program__day {
     margin-block-start: 2lh;
 }
-.program__day-title {
-    font-size: 1.5rem;
-    font-weight: 800;
+.program__day-header {
+    border-block-start: 2px solid var(--purple-lighter);
+    padding-block-end: 1lh;
+    position: sticky;
+    inset-block-start: -2px;
+    z-index: 1;
+    display: flex;
+    align-items: start;
+    gap: 5ch;
+
+    h2 {
+        font-weight: 800;
+        flex-shrink: 0;
+        padding: .5ch 1ch;
+        margin: 0 0 0 -1ch;
+        background: hsl(from hsl var(--gray-lighter) H S L / .97);
+        backdrop-filter: blur(.25ch);
+        border-radius: 0 0 .5em .5em;
+        text-shadow: 0 1px var(--gray-lighter);
+    }
+    img {
+        pointer-events: none;
+        margin-inline: auto;
+        margin-block-start:-1px;
+        max-inline-size: max(72px, 6% + 3vi);
+        scale:-1;
+    }
 }
 
-.program__event {
-    border-block-start: 1px solid var(--gray);
-    padding-block: 0.75lh;
+.program__events {
+    padding-block-end: 1lh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: clamp(1rem, 0.6667rem + 1.6667vw, 2rem);
+    align-items: baseline;    
 
-    @media(width > 48rem) {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        column-gap: clamp(1rem, 0.6667rem + 1.6667vw, 2rem);
-        align-items: baseline;    
+    & + & {
+        border-block-start: 1px dashed var(--purple-light);
+        padding-block-start: 1lh;
     }
+
 
     time {
         font-size: 1rem;
@@ -467,6 +479,13 @@
 }
 
 
+.program__event:not(:first-of-type) {
+    margin-block-start: 1lh;
+}
+
+.program__event .speakers-list {
+    margin-block: 0;
+}
 
 .archive {   
     --_bg: var(--gray-light);

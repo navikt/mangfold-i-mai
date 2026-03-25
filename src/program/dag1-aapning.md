@@ -1,7 +1,6 @@
 ---
-title: "Hvordan sikrer vi likeverdige offentlige tjenster? Åpning av Mangfold i mai 2026"
+title: "Åpning av Mangfold i mai 2026: Hvordan sikrer vi likeverdige offentlige tjenster?"
 summary: "Kort oppsummering av temaet"
-image: ""
 event-date: 2026-05-20T09:00
 event-date-end: 2026-05-20T09:10
 speakers: 

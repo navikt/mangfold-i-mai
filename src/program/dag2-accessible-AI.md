@@ -10,5 +10,6 @@ speakers:
     info: "Eksempel på en liten bio til foredragsholderen. Begrens lengden til et avsnitt."
 delta:
 location: "Speakers Corner"
+language: en
 ---
 Lengre beskrivelse av foredraget

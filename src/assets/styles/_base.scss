@@ -7,6 +7,7 @@
     --blue-medium: hsl(209, 100%, 36%);
     --blue-dark: hsl(215, 100%, 16%);
     --gray-light: hsl(200, 6%, 91%);
+    --gray-lighter: hsl(200, 4%, 97%);
     --gray: hsl(210, 5%, 84%);
     --green: hsl(156, 40%, 60%);
     --green-lighter: hsl(156, 48%, 90%);
@@ -52,7 +53,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-block-size: 100%;
-    background-color: #FAFAFA;
+    background-color: var(--gray-lighter);
     font-family: 'Nunito', system-ui, sans-serif;
     line-height: 1.55;
     color: var(--blue-dark);
@@ -111,7 +112,7 @@ p:has(img) {
     text-wrap: balance;
 }
 :where(h2) {
-    font-size: 1.375em;
+    font-size: 1.4275em;
 }
 
 :where(h2:first-child) {
