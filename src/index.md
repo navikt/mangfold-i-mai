@@ -9,7 +9,9 @@ title: Mangfold i mai - velkommen!
 
 ## Hold av dagene!
 Hold gjerne av 20. og 21. mai 2026 :) 
+
 20. mai kommer til å handle om likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjeneste utvikling.
+
 21. mai - Global Accessibility Awareness Day - kommer til å handle mest om universell utforming av IKT.
 
 ## Gikk du glipp av vårt frokostseminar 3. desember 2025?
