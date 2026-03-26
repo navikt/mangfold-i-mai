@@ -28,7 +28,7 @@ layout: "default.html"
       {% for day in days %}
 
       <div class="program__events {% if forloop.first %}program__events--first{% endif %}">
-        <time>{{ day.name | readableDate: 'T' }}</time>
+        <time>{{ day.name | readableDate: 'T' | replace: ":", "." }}</time>
         <div class="program__tracks">
 
           {% assign tracks = day.items | sort: "data.title" %}
