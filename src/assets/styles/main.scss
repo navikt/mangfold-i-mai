@@ -280,7 +280,7 @@
 }
 
 .speakers-list__item {
-    margin-block-start: .25lh;
+    margin-block-start: .125lh;
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: .375em;
@@ -436,7 +436,7 @@
     h2 {
         font-weight: 800;
         flex-shrink: 0;
-        padding: .5ch 1ch;
+        padding: 1ch 1ch 0.25ch;
         margin: 0 0 0 -1ch;
         background: hsl(from hsl var(--gray-lighter) H S L / .97);
         backdrop-filter: blur(.25ch);
@@ -484,7 +484,7 @@
 }
 
 .program__event .speakers-list {
-    margin-block: 0;
+    margin-block-end: 0;
 }
 
 .archive {   
