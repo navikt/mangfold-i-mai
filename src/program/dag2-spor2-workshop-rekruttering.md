@@ -6,7 +6,7 @@ event-date-end: 2026-05-20T15:15
 speakers: 
   - name: Thomas Jahren
     role: seniorrådgiver hos likestillings- og diskrimineringsombudet (LDO)
-    image: /assets/images/speakers/thomas-jahren.jpg
+    image: /assets/images/speakers/Thomas-Jahren.jpg
 delta:
 location: "Helsfyr, B108"
 ---
