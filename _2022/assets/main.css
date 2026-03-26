@@ -18,7 +18,7 @@ p, ul, ol, dl { margin-top: .5em; }
 
 .cta { color: #3A8259; font-size: 1.15em; font-weight: 600; padding-right: 1.35em; background: url("images/icons/arrow-right.svg") no-repeat right center/1em; }
 
-.old-site-notice { background: red; font-weight: bold; padding: 0.5rem; color: white; text-align: center; }
+.old-site-notice { background: #C30000; font-weight: bold; padding: 0.5rem; color: white; text-align: center; }
 .old-site-notice a { color: white; }
 
 #public:checked ~ section li:not(.public) { display: none; }

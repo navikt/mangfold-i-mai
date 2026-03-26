@@ -64,7 +64,7 @@ p, ul, ol, dl { margin-top: .5em; }
 .site-header li:last-child { padding-right: 0; }
 
 @media only screen and (min-width: 769px) { .site-header { padding: 3em 0 0; } }
-.old-site-notice { background: red; font-weight: bold; padding: 0.5rem; color: white; text-align: center; }
+.old-site-notice { background: #C30000; font-weight: bold; padding: 0.5rem; color: white; text-align: center; }
 .old-site-notice a { color: white; }
 
 .site-footer { margin: 1rem 0 0; padding: 2rem 0; position: relative; }
