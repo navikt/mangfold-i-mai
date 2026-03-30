@@ -5,7 +5,7 @@ event-date: 2026-05-21T10:45
 event-date-end: 2026-05-21T11:15
 speakers: 
   - name: Kevin White
-    role: W3C Accessibility Working Group
+    role: Accessibility Technical Lead, W3C Accessibility Working Group
 delta:
 location: "Speakers Corner"
 ---
