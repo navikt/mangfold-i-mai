@@ -1,6 +1,6 @@
 ---
-title: "Case: Hvordan Comte jobber med adferdsdesign for å lage en målrettet støttemateriell"
-summary: "Om Mangfoldskompasset og støtte til kommunene i arbeid med kjønns- og seksualitetsmangfold"
+title: "Case: Hvordan Comte jobber med adferdsdesign for å lage målrettet støttemateriell for arbeid med kjønns- og seksualitetsmangfold"
+summary: "Om Mangfoldskompasset"
 event-date: 2026-05-20T12:45
 event-date-end: 2026-05-20T12:15
 speakers: 
