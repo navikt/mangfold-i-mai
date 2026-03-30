@@ -1,12 +1,12 @@
 ---
 title: "What´s new in WCAG 3.0?"
-summary: "An introduction by the W3C"
+summary: "An introduction by the W3C "
 event-date: 2026-05-21T10:45
 event-date-end: 2026-05-21T11:15
 speakers: 
   - name: Kevin
-    role: 
+    role: W3C Accessibility Working Group
 delta:
-location: "Speakers Corner + Vimeo"
+location: "Speakers Corner"
 ---
-
+t.b.a.
