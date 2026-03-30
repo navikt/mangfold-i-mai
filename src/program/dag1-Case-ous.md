@@ -1,6 +1,6 @@
 ---
 title: "Case: Hvordan Oslo Universitetssykehus jobber med likestilling"
-summary: "Kort beskrivelse av foredraget"
+summary: " "
 event-date: 2026-05-20T09:30
 event-date-end: 2026-05-20T10:00
 speakers: 
@@ -10,5 +10,5 @@ speakers:
 delta:
 location: "Amfiet"
 ---
-Lengre beskrivelse av foredraget
+mer info kommer
 
