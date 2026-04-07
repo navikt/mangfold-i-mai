@@ -10,9 +10,9 @@ title: Mangfold i mai - velkommen!
 ## Hold av dagene!
 Hold gjerne av 20. og 21. mai 2026 :) 
 
-20. mai kommer til å handle om likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjeneste utvikling.
+20\. mai kommer til å handle om likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjeneste utvikling.
 
-21. mai - Global Accessibility Awareness Day - kommer til å handle mest om universell utforming av IKT.
+21\. mai - Global Accessibility Awareness Day - kommer til å handle mest om universell utforming av IKT.
 
 ## Gikk du glipp av vårt frokostseminar 3. desember 2025?
 Vi hadde besøk fra Likestillings- og diskrimineringsombudet (LDO), som presenterte en ny <a href="https://ldo.no/blog/2025/10/22/slik-tilset-du-fleire-personar-med-funksjonsnedsetjing/">verktøykasse</a> som kan bidra med å hjelpe deg å ansette personer med nedsatt funksjonsevne!
