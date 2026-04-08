@@ -1,5 +1,4 @@
 ---
-layout: "event.html"
 title: "Panel: Metodikk for likeverdige tjenester"
 summary: "Kort beskrivelse av panelet"
 event-date: 2026-05-20T13:15

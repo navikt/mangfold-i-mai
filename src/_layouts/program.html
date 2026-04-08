@@ -7,11 +7,7 @@ layout: "default.html"
     <h1>{{ title }}</h1>
     {{ content }}
   </div>
-
-  {% comment %}
-    {% assign events = collections.event | sort: "data.time" %}
-    {% endcomment %}
-    
+   
   {% assign events = collections.event | sort: "data.event-date" | group_by: "data.day" %}
 
   <div class="program">
@@ -28,7 +24,7 @@ layout: "default.html"
       {% for day in days %}
 
       <div class="program__events {% if forloop.first %}program__events--first{% endif %}">
-        <time>{{ day.name | readableDate: 'T' | replace: ":", "." }}</time>
+        <time>{{ day.name | readableDate: 'T' | replace: ":", "." }}–{{ day.items[0].data.event-date-end | readableDate: 'T' | replace: ":", "." }}</time>
         <div class="program__tracks">
 
           {% assign tracks = day.items | sort: "data.title" %}
@@ -42,7 +38,11 @@ layout: "default.html"
 
             <h3 class="title" {{ lang }}>
               {% if track.data.canceled %}DESSVERRE AVLYST – {% endif %}
-              <a href="{{ track.url }}">{{ track.data.title }}</a>
+              {% if track.data.permalink %}
+                <a href="{{ track.url }}">{{ track.data.title }}</a>
+              {% else %}
+                {{ track.data.title }}
+              {% endif %}
             </h3>
             
             {% if track.data.summary.length > 0 %}
