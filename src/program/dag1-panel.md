@@ -1,7 +1,7 @@
 ---
 layout: "event.html"
-title: "Panel: Hvordan kan vi sikre likeverdige offentlige tjenester?"
-summary: "Kort beskrivelse av panelet"
+title: "Panel: Ingen er et gjennomsnitt"
+summary: "Hvordan kan vi sikre likeverdige offentlige tjenester?"
 event-date: 2026-05-20T13:15
 event-date-end: 2026-05-20T14:00
 speakers: 
