@@ -1,5 +1,5 @@
 ---
-title: "Case: Mangfold og likeverdige helsetjenester i OUS"
+title: "Mangfold og likeverdige helsetjenester i OUS"
 summary: "Hvordan jobber OUS for å sikre likeverdige helsetjenester til en mangfoldig befolkning?"
 event-date: 2026-05-20T09:30
 event-date-end: 2026-05-20T10:00
