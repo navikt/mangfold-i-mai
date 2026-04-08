@@ -5,7 +5,7 @@ event-date: 2026-05-20T14:15
 event-date-end: 2026-05-20T14:30
 speakers: 
   - name: Vegar Mørk
-    role: Teamleder rekruttering i Nav
+    role: Teamleder for rekruttering i Nav
     image: /assets/images/speakers/vegar-mork.jpg
 location: "Helsfyr B104 Gnisten"
 delta:
