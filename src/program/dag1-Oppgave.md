@@ -1,12 +1,12 @@
 ---
-title: "Hvordan påvirker likestilling arbeidet ditt?"
-summary: "Refleksjonsoppgave"
+title: "Hvordan påvirker bias og tankefeller din hverdag?"
+summary: "Refleksjoner om vanlige blindsoner og feilslutninger"
 event-date: 2026-05-20T10:00
 event-date-end: 2026-05-20T10:15
 speakers: 
-  - name: Faten Lubani
-    role: Leder av Globale Sandefjord
-    image: /assets/images/speakers/faten-lubani.jpg
+  - name: Lene Løvdal
+    role: Likestillings- og menneskerettsjurist, seniorrådgiver i Nav
+    image: /assets/images/speakers/Lene-Lovdal.jpg
 
 location: "Amfiet"
 ---
