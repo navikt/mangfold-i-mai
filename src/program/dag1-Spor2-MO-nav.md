@@ -11,5 +11,5 @@ location: "Helsfyr B104 Gnisten"
 delta:
 ---
 
-Lengre beskrivelse av foredraget
+Mer informasjon kommer.
 
