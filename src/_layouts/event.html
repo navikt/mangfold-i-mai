@@ -20,11 +20,13 @@ permalink: "/program/{{ title | slugify }}/"
       {% if audience %}<p>{{ audience }}</p>{% endif %}
       <p>
         {{ event-date | readableDate: 'EEEE dd. MMM' |  capitalize }},
-        <time datetime="{{ event-date }}">
-          kl. {{ event-date | readableDate: 'T' | replace: ":", "." }}–{{ event-date-end | readableDate: 'T' | replace: ":", "." }}
+        <time datetime="{{ event-date }}"><br>
+          <abbr title="klokken">kl.</abbr> {{ event-date | readableDate: 'T' | replace: ":", "." }}–{{ event-date-end | readableDate: 'T' | replace: ":", "." }}
         </time>
       </p>
-      <p>{{ location }}</p>     
+      {% if location != null %}       
+        <p>Sted/møterom:<br><b>{{ location }}</b></p>     
+      {% endif %}
       {% if delta %}<p>📝 <a href="{{ delta }}">Meld deg på i Delta</a></p>{% endif %}    
     </div>
   {% endunless %}

@@ -224,11 +224,11 @@
 }
 
 .event {
-    @media (width > 75rem) {
+    @media (width > 56rem) {
         display: grid;
         grid-template-columns: 2fr 1fr;
         align-content: start;
-        column-gap: 2ch;
+        column-gap: 6ch;
 
         
         & > :not(.metadata) {
@@ -260,6 +260,9 @@
     }
     p:first-child {
         margin-block-start: 0;
+    }
+    p:last-child {
+        margin-block-end: 0;
     }
     time {
         font-weight: 700;
@@ -425,10 +428,11 @@
 }
 .program__day-header {
     border-block-start: 2px solid var(--purple-lighter);
-    padding-block-end: 1lh;
+    margin-block-end: 2.5lh;
     position: sticky;
     inset-block-start: -2px;
     z-index: 1;
+    block-size:0;
     display: flex;
     align-items: start;
     gap: 5ch;
@@ -438,10 +442,8 @@
         flex-shrink: 0;
         padding: 1ch 1ch 0.25ch;
         margin: 0 0 0 -1ch;
-        background: hsl(from hsl var(--gray-lighter) H S L / .97);
-        backdrop-filter: blur(.25ch);
+        background: var(--gray-lighter);
         border-radius: 0 0 .5em .5em;
-        text-shadow: 0 1px var(--gray-lighter);
     }
     img {
         pointer-events: none;
