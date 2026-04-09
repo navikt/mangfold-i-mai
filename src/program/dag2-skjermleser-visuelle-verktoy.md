@@ -1,14 +1,14 @@
 ---
-title: "Når skjermlesere møter visuelle samhandlingsverktøy"
-summary: "kort sammendrag"
-event-date: 2026-05-21T13:15
-event-date-end: 2026-05-21T13:45
+title: "Tilgjengelige samhandlingsverktøy"
+summary: "Når skjermlesere møter Mural, Miro og Figjam"
+event-date: 2026-05-21T10:15
+event-date-end: 2026-05-21T10:45
 speakers: 
   - name: Morten Tollefsen
     role: Spesialist på universell utforming av IKT i Nav
     image: 
-    info: "Eksempel på en liten bio til foredragsholderen. Begrens lengden til et avsnitt."
+    info: ""
 delta:
 location: "Speakers Corner"
 ---
-Lengre beskrivelse av foredraget
+Mer informasjon kommer
