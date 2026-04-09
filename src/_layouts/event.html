@@ -1,12 +1,13 @@
 ---
 layout: 'default.html'
-permalink: "/program/{{ title | slugify }}/"
+permalink: "/program/{{ title | slugify }}-{{ event-date | readableDate: 'x' | slugify }}/"
 ---
 
 {% capture lang -%}{% if language %} lang="{{ language }}"{% endif %}{%- endcapture %}
 
 {% block content %}
 <div class="event">
+
   <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
 
   <div class="description" {{ lang }}>
