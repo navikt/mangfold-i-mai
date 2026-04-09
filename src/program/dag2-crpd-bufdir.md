@@ -1,6 +1,6 @@
 ---
 title: "Utvidete rettigheter for personer med nedsatt funksjonsevne - hva betyr CRPD for offentlige tjenester?"
-summary: "CRPD (UN Convention on the Rights of Persons with Disabilities) er del av menneskerettsloven"
+summary: "Om CRPD (UN Convention on the Rights of Persons with Disabilities) som del av menneskerettsloven"
 event-date: 2026-05-21T13:20
 event-date-end: 2026-05-21T13:40
 speakers: 
