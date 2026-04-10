@@ -1,6 +1,6 @@
 ---
-title: "tba"
-summary: "tba"
+title: "tba (brukerperspektiver)"
+summary: ""
 event-date: 2026-05-20T12:00
 event-date-end: 2026-05-20T12:30
 speakers: 
