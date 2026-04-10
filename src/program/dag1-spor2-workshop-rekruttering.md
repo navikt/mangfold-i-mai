@@ -11,5 +11,10 @@ speakers:
 delta:
 location: "Helsfyr, B108"
 ---
-Rekrutteringsprosesser er veien inn i det ordinære arbeidslivet. Rekrutteringsprosesser må være frie for diskriminering. En profesjonell rekruttering, som likebehandler ulike kandidater er en nødvendig men ikke tilstrekkelig forutsetning for et likestilt og mangfoldig arbeidsliv. I denne workshopen ser vi på hvordan vi kan lykkes med å rekruttere mer mangfoldig og hvordan arbeidsgiver kan gå et steg lenger enn bare likebehandling.
+Rekrutteringsprosesser er veien inn i det ordinære arbeidslivet. De må være frie for diskriminering. 
 
+En profesjonell rekruttering, som likebehandler ulike kandidater er en nødvendig men ikke tilstrekkelig forutsetning for et likestilt og mangfoldig arbeidsliv. 
+
+I denne workshopen ser vi på hvordan vi kan lykkes med å rekruttere mer mangfoldig og hvordan arbeidsgiver kan gå et steg lenger enn bare likebehandling.
+
+Workshopen passer for deg som er leder og ansetter personer inn i team e.l., for deg som jobber profesjonelt med rekruttering eller for deg som helt enkelt er interessert i tematikken.
