@@ -5,10 +5,11 @@ event-date: 2026-05-20T14:30
 event-date-end: 2026-05-20T15:15
 speakers: 
   - name: Thomas Jahren
-    role: seniorrådgiver hos likestillings- og diskrimineringsombudet (LDO)
+    role: seniorrådgiver hos Likestillings- og diskrimineringsombudet (LDO)
     image: /assets/images/speakers/Thomas-Jahren.jpg
+    info: "Thomas Jahren jobber primært med likestilling og diskriminering i arbeidslivet, teknologi og KI, veiledning og kurs. Han jobber særlig med arbeidsgivers aktivitets- og redegjørelsesplikt og lønnskartlegging, og har en bred erfaring fra forskjellige virksomheter i næringslivet."
 delta:
 location: "Helsfyr, B108"
 ---
-Mer informasjon kommer
+Rekrutteringsprosesser er veien inn i det ordinære arbeidslivet. Rekrutteringsprosesser må være frie for diskriminering. En profesjonell rekruttering, som likebehandler ulike kandidater er en nødvendig men ikke tilstrekkelig forutsetning for et likestilt og mangfoldig arbeidsliv. I denne workshopen ser vi på hvordan vi kan lykkes med å rekruttere mer mangfoldig og hvordan arbeidsgiver kan gå et steg lenger enn bare likebehandling.
 
