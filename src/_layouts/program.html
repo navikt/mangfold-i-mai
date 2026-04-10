@@ -15,7 +15,7 @@ layout: "default.html"
     <div class="program__day">
       <div class="program__day-header">
         <h2 class="program__day-title">{{ day.name | readableDate: 'dd. MMMM' }}</h2>
-        <img src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
+        <img src="{{ blobs[forloop.index0] }}" alt="" style="margin-inline: {% cycle "auto", "auto 10ch" %}">
       </div>
 
 
