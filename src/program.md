@@ -4,7 +4,7 @@ title: Program
 permalink: 'program/index.html'
 # eleventyNavigation:
 #   key: menu
-#   title: Program
+#   title: Program - Likeverdige offentlige tjenester
 #   order: 1
 noindex: true
 blobs:
@@ -12,4 +12,6 @@ blobs:
   - '/assets/images/blobs/triangle.svg'
 ---
 
-Det er mulighet for å legge inn mer innhold over selve programmet, dersom det er behov for det.
+Årets Mangfold i mai er for deg som lager tjenester og produkter - bli klokere rundt hvordan bias påvirker dine beslutninger og hvordan du kan sikre likeverdig tilang for alle i det du lager. 
+
+Vi kjører live fra Arbeids- og velferdsetatens lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi streamer så mye vi kan helt åpent, og skal også legge ut opptak av så mye som mulig i etterkant :) 
