@@ -1,6 +1,9 @@
 ---
 title: "What´s new in WCAG 3.0?"
-summary: "An introduction by the W3C "
+summary: "An introduction by the W3C"
+tags:
+  - Foredrag
+
 event-date: 2026-05-21T11:30
 event-date-end: 2026-05-21T12:00
 speakers: 

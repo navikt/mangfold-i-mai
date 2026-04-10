@@ -49,6 +49,18 @@ layout: "default.html"
               <p>{{ track.data.summary }}</p>
             {% endif %}
 
+            {% assign trackTags = track.data.tags | excludes: "event" %}
+            {% if track.data.permalink != false %}
+            <div class="tags">
+              {% for tag in trackTags %}
+                <span class="tag" data-tag="{{ tag }}">
+                  {{ tag }}
+                </span>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+            {% comment %}
             {% if track.data.speakers.length and track.data.speakers.length >= 1 %}
             <ul class="speakers-list">
               {% for speaker in track.data.speakers %}
@@ -59,13 +71,13 @@ layout: "default.html"
                 <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
                 {% endif %}
                 <div>
-                  <b>{{ speaker.name }}{%- if speaker.role != null %},</b> 
-                  <span>{{ speaker.role }}</span>{% endif -%}
+                  <b>{{ speaker.name }}</b>
                 </div>
               </li>
               {% endfor %}
             </ul>
             {% endif %}
+            {% endcomment %}
 
           </div>
           {% endfor %}

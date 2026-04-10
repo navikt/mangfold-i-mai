@@ -12,6 +12,3 @@ blobs:
   - '/assets/images/blobs/triangle.svg'
 ---
 
-Årets Mangfold i mai er for deg som lager tjenester og produkter - bli klokere rundt hvordan bias påvirker dine beslutninger og hvordan du kan sikre likeverdig tilang for alle i det du lager. 
-
-Vi kjører live fra Arbeids- og velferdsetatens lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Vi skal også legge ut opptak av så mye som mulig i etterkant :) 

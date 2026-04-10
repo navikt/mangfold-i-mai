@@ -28,10 +28,11 @@ blobs:
       <li class="archive__event" {{ lang }}>
         <h3>
           <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
-            {{ event.data.title }}
+          {{ event.data.title }}
           </a>
         </h3>
-        <p>
+        <div>{{ event.data.event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</div>
+        <p hidden>
           <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <g stroke-width="1.75" stroke="currentColor">
               <circle cx="12" cy="9.5" r="3"/>

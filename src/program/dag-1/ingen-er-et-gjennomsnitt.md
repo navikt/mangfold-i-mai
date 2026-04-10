@@ -1,7 +1,8 @@
 ---
-layout: "event.html"
-title: "Panel: Ingen er et gjennomsnitt"
+title: "Ingen er et gjennomsnitt"
 summary: "Hvordan kan vi sikre likeverdige offentlige tjenester?"
+tags:
+  - Panel
 event-date: 2026-05-20T13:15
 event-date-end: 2026-05-20T14:00
 speakers: 
@@ -11,10 +12,11 @@ speakers:
     info: ""
   - name: Miriam Eileen Nes Begnum
     role: Produktleder i Nav
-    image:
+    image: /assets/images/speakers/miriam-begnum.jpg
     info: "Miriam har en doktorgrad i Computer Science UX fra NTNU, og har jobbet med universell utforming av IKT siden 2006. Miriam er opptatt av å finne og å ta i bruk beste-praksis for inkluderende tjenestedesign, universell utforming og brukskvalitet for alle."
 delta:
-location: "Amfiet + Vimeo"
+location: "Amfiet"
+streaming: true
 ---
 Mer informasjon kommer.
 

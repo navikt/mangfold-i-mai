@@ -10,7 +10,6 @@ speakers:
   - name: Miriam Valerio Norgård
     role: Avdelingsdirektør HMS og styring i Nav
     image: /assets/images/speakers/miriam-valerio-norgard.jpg
-delta:
 ---
 
 mer info kommer

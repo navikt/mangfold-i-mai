@@ -1,6 +1,8 @@
 ---
-title: "Likestilling i offentlige tjenester - Hvordan bør Nav jobbe med dette?"
-summary: "Om likestilling, ikke-diskriminering og hvilken rolle Avdeling for brukeropplevelse spiller her"
+title: "Likestilling i offentlige tjenester"
+summary: "Hvordan bør Nav jobbe med dette? Om likestilling, ikke-diskriminering og hvilken rolle avdeling for brukeropplevelse spiller her"
+tags:
+  - Foredrag
 event-date: 2026-05-20T11:30
 event-date-end: 2026-05-20T12:00
 speakers: 
@@ -10,7 +12,6 @@ speakers:
   - name: Karina Ludwig
     role: Fagleder for universell utforming av IKT i Nav.
     image: /assets/images/speakers/karina-ludwig.webp
-delta:
 location: "Speakers Corner"
 ---
 

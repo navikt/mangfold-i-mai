@@ -1,12 +1,14 @@
 ---
 title: "Spor 1 (workshop): Få hjelp med å se om din tjeneste ekskluderer"
 summary: "Vi hjelper deg med å se på mulige fallgruver i det du lager"
+tags:
+  - Workshop
+
 event-date: 2026-05-20T14:15
 event-date-end: 2026-05-20T15:15
 speakers: 
   - name: 
     role: 
-delta:
 location: "Helsfyr, B108 Fyrstikken"
 ---
 Vi alle har våre biaser, som også påvirker hvordan vi lager tjenester og produkter. 

@@ -1,5 +1,4 @@
 ---
-layout: "event.html"
 title: "Åpning av dag 2 - Global Accessibility Awareness Day GAAD"
 summary: "Med videohilsen fra skaperne av GAAD"
 event-date: 2026-05-21T09:00
@@ -11,7 +10,6 @@ speakers:
   - name: Karina Ludwig
     role: Fagleder for universell utforming av IKT i Nav
     image: /assets/images/speakers/karina-ludwig.jpg
-delta:
 location: "Speakers Corner + Vimeo"
 ---
 

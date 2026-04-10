@@ -35,4 +35,8 @@ const where_includes = (arr, a, b) => {
   })
 }
 
-export { readableDate, sentence, eventsBySpeaker, where_includes }
+const excludes = (arr, value) => {
+  return arr.filter((item) => item != value)
+}
+
+export { readableDate, sentence, eventsBySpeaker, where_includes, excludes }

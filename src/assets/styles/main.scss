@@ -591,12 +591,51 @@
     align-items: center;
     font-weight: 500;
     gap: 0.5ch;
-
-    &:hover {
-        background-color: var(--blue-dark);
-        color: var(--white);
-    }
 }
+a.pill-button:hover {
+    background-color: var(--blue-dark);
+    color: var(--white);
+}
+
+[data-readonly] {
+    cursor: not-allowed
+}
+
+.tags {
+    margin-block-start: .25lh;
+}
+
+.tag {
+    border-radius: 99ch;
+    background-color: var(--gray-light);
+    font-size: 81.25%;
+    line-height: 1.4;
+    padding: 0.5ch 1.25ch;
+    white-space: nowrap;
+    margin-inline-end: 1ch;
+
+    &[data-tag="Case"] {
+        background-color: color-mix(in srgb-linear, var(--red) 30%, white);
+    }
+
+    &[data-tag="Workshop"] {
+        background-color: color-mix(in srgb-linear, var(--blue-light) 40%, white);
+    }
+
+    &[data-tag="Panel"] {
+        background-color: color-mix(in srgb-linear, var(--green) 40%, white);
+    }
+
+    &[data-tag="Mini-kurs"] {
+        background-color: color-mix(in srgb-linear, var(--yellow) 50%, white);
+    }
+
+    &[data-tag="Foredrag"] {
+        background-color: color-mix(in srgb-linear, var(--purple-light) 50%, white);
+    }
+
+}
+
 
 .blob-star {
     float: right;
