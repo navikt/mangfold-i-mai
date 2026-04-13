@@ -12,4 +12,4 @@ speakers:
     image: /assets/images/speakers/miriam-valerio-norgard.jpg
 ---
 
-mer info kommer
+Mer informasjon kommer. 
