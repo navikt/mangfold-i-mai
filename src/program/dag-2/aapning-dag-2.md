@@ -1,6 +1,6 @@
 ---
 title: "Åpning av dag 2 - Global Accessibility Awareness Day GAAD"
-summary: "Med videohilsen fra skaperne av GAAD"
+summary: ""
 event-date: 2026-05-21T09:00
 event-date-end: 2026-05-21T09:15
 speakers: 
@@ -13,5 +13,5 @@ speakers:
 location: "Speakers Corner + Vimeo"
 ---
 
-beskrivelse
+Mer informasjon kommer
 
