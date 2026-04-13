@@ -49,37 +49,37 @@ layout: "default.html"
               <p>{{ track.data.summary }}</p>
             {% endif %}
 
-            {% assign trackTags = track.data.tags | excludes: "event" %}
-            {% if track.data.permalink != false %}
+            {% if track.data.speakers and track.data.speakers[0].name != null %}
+            <div class="speakers">
+              {% for speaker in track.data.speakers %}
+              <div class="byline">
+                {% if speaker.image %}                
+                <img class="avatar byline__image" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="24">
+                {% else  %}
+                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
+                {% endif %}
+                <div class="byline__text">
+                  <p class="byline__name">{{ speaker.name }}</p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+
+
+            {% unless track.data.permalink == false %}
+            {% assign tags = track.data.tags | excludes: "event" %}
             <div class="tags">
-              {% for tag in trackTags %}
+              {% for tag in tags %}
                 <span class="tag" data-tag="{{ tag }}">
                   {{ tag }}
                 </span>
               {% endfor %}
             </div>
-            {% endif %}
+            {% endunless %}
 
-            {% comment %}
-            {% if track.data.speakers.length and track.data.speakers.length >= 1 %}
-            <ul class="speakers-list">
-              {% for speaker in track.data.speakers %}
-              <li class="speakers-list__item">
-                {% if speaker.image %}                
-                <img class="avatar" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="24">
-                {% else  %}
-                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
-                {% endif %}
-                <div>
-                  <b>{{ speaker.name }}</b>
-                </div>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-            {% endcomment %}
 
-          </div>
+            </div>
           {% endfor %}
 
         </div>

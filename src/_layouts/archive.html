@@ -16,23 +16,26 @@ blobs:
 <div class="archive">
 {% for year in archive %}
   <img class="archive__blob" src="{{ blobs[forloop.index0] }}" alt="" style="justify-self: {% cycle "end", "center", "end" %}">
-  <h2 class="archive__chapter" id="fra-{{ year.name }}"><a href="#fra-{{ year.name }}">{{ year.name }}</a></h2>
-  {% assign events = year.items | sort: 'data.title' %}
-  <ul class="archive__events" data-theme="{{ year.name }}">
+  <h2 class="archive__chapter" id="fra-{{ year.name }}">
+    <a href="#fra-{{ year.name }}">{{ year.name }}</a>
+  </h2>
+  {% assign events = year.items | group_by: 'data.day' | sort: 'data.title' %}
+  <div class="archive__events" data-theme="{{ year.name }}">
     {% for event in events %}
-
       {% capture lang -%}
       {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
       {%- endcapture %}
 
-      <li class="archive__event" {{ lang }}>
-        <h3>
+      <h3>{{ event.name | readableDate: 'cccc d. MMMM' |  capitalize }}</h3>
+      <div style="margin-block-end: 1lh">
+      {% for event in event.items %}
+      <article class="archive__event" {{ lang }}>
+        <h4>
           <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
           {{ event.data.title }}
           </a>
-        </h3>
-        <div>{{ event.data.event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</div>
-        <p hidden>
+        </h4>
+        <p>
           <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <g stroke-width="1.75" stroke="currentColor">
               <circle cx="12" cy="9.5" r="3"/>
@@ -42,9 +45,11 @@ blobs:
           </svg>
           <span>{{ event.data.speakers | map: 'name' | concat | sentence }}</span>
         </p>
-      </li>
+      </article>
+      {% endfor %}
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 {% endfor %}
 </div>
 

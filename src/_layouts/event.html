@@ -10,45 +10,62 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
 
   <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
 
+  {% assign tags = tags | excludes: "event" %}
+
+  <div class="tags">
+    {% for tag in tags %}
+      <span class="tag" data-tag="{{ tag }}">
+        {{ tag }}
+      </span>
+    {% endfor %}
+  </div>
+
   <div class="description" {{ lang }}>
     {{ content }}
+
+    {% if stream %}
+      {% assign vimeo_url_segments = stream | replace: "https://vimeo.com/", "" %}
+      {% assign vimeo_channel = vimeo_url_segments | split: "/" | first %}
+      {% assign vimeo_id = vimeo_url_segments | split: "/" | last %}
+
+      <iframe class="video" src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;dnt=1&amp; badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    {% endif %}
 
     {% include 'live-stream.html' %}
   </div>
 
   {% unless canceled %}
     <div class="metadata">
-      {% if audience %}<p>{{ audience }}</p>{% endif %}
+      
       <p>
         {{ event-date | readableDate: 'EEEE dd. MMM' |  capitalize }},
         <time datetime="{{ event-date }}"><br>
-          <abbr title="klokken">kl.</abbr> {{ event-date | readableDate: 'T' | replace: ":", "." }}–{{ event-date-end | readableDate: 'T' | replace: ":", "." }}
+        <abbr title="klokken">kl.</abbr> {{ event-date | readableDate: 'T' | replace: ":", "." }}–{{ event-date-end | readableDate: 'T' | replace: ":", "." }}
         </time>
-      </p>
-      {% if location != null %}       
-        <p>Sted/møterom:<br><b>{{ location }}</b></p>     
-      {% endif %}
+        </p>
+        
+      {% if location %}<p>Sted (for ansatte i Nav):<br><b>{{ location }}</b></p>{% endif %}
+      {% if audience %}<p>Målgruppe:<br><b>{{ audience }}</b></p>{% endif %}
+
       {% if delta %}<p>📝 <a href="{{ delta }}">Meld deg på i Delta</a></p>{% endif %}    
+      {% if stream %}<p>📝 <a href="{{ stream }}">Stream</a></p>{% endif %}    
     </div>
   {% endunless %}
 
   {% if speakers.length > 0 and speakers[0].name != null %}
-  <div class="speakers-list">
+  <div class="speakers">
     <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
 
     {% for speaker in speakers %}
-      <article class="speakers-list__item">
+      <article class="byline">
         {%- if speaker.image %}
-        <img src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" class="avatar" eleventy:widths="72">
+        <img src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" class="avatar byline__image" eleventy:widths="72">
         {% endif -%}
-        <div>
-          <h3>
-            {{ speaker.name }}{% if speaker.role != null %}, {% endif %}
-            {% if speaker.role != null %}<span>{{ speaker.role }}</span>{% endif %}
-          </h3>
-          {% if speaker.info %}                
-            <p>{{ speaker.info }}</p>
-          {% endif %}
+        <div class="byline__text">
+          <p class="byline__name"><strong>{{ speaker.name }}</strong></p>
+          {% if speaker.role %}<p class="byline__role">{{ speaker.role }}</p>{% endif %}
+          {% if speaker.info %}<p class="byline__info">{{ speaker.info }}</p>{% endif %}
         </div>
       </article>
     {% endfor %}
