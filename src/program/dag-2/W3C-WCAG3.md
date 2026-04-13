@@ -1,6 +1,6 @@
 ---
-title: "What´s new in WCAG 3.0?"
-summary: "An introduction by the W3C"
+title: "Shaping WCAG 3"
+summary: "How the W3C works on the next version of the Web Content Accessibility Guidelines"
 tags:
   - Foredrag
 
@@ -10,7 +10,11 @@ speakers:
   - name: Kevin White
     role: Accessibility Technical Lead, W3C Accessibility Working Group
     image: /assets/images/speakers/kevin-white.jpg
+    info: "As Senior Principal Accessibility Specialist at W3C WAI, Kevin contributes to internationally recognized standards that support accessibility. He provides support and oversight of the accessibility Working Groups, collaborates on WAI strategic planning, and manages W3C accessibility support."
 delta:
 location: "Speakers Corner"
+language: en
 ---
-Mer info kommer
+Work continues on the W3C Content Accessibility Guidelines (WCAG) 3. The Accessibility Guidelines Working Group Team Contact will give you the low down on the pit falls and progress on the latest update to the internationally recognized WCAG 3.
+
+(The talk will be given in English.)

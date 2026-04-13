@@ -13,7 +13,7 @@ speakers:
   - name: Miriam Valerio Norgård
     role: Avdelingsdirektør HMS og styring i Nav
     image: /assets/images/speakers/miriam-valerio-norgard.jpg
-location: '?'
+location: "Amfiet"
 ---
 
-mer info kommer
+Årets Mangfold i mai åpnes av Heidi Braaen og Miriam Valerio Nordgård, som sammen representerer både Brukeropplevelse og Mennesker og organisasjon / HR i Nav. I åpningen deler de sine ambisjoner for hvordan Nav skal ta nye steg mot mer likeverdige tjenester for alle brukere og et Nav som speiler samfunnet vi er til for. Med dette setter de tonen for to dager fylt med refleksjon, læring og inspirasjon.
