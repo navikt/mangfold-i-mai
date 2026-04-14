@@ -9,7 +9,7 @@ speakers:
   - name: Audrey Charlotte Chisholm Høibråten
     role: Rådgiver for mangfold og likeverdige helsetjenester i seksjon helsekompetanse, Oslo universitetssykehus
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
-
+    info: 
   - name: Miriam Eileen Nes Begnum
     role: Produktleder i Nav
     image: /assets/images/speakers/miriam-begnum.jpg
