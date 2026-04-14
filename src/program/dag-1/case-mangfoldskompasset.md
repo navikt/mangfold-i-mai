@@ -12,7 +12,7 @@ speakers:
 location: "Speakers Corner"
 ---
 
-I dette innlegget får du vite mer om Stimulab-prosjektet Mangfoldskompasset, som har som mål å øke kompetansen om kjønns- og seksualitetsmangfold i offentlig sektor. En av de tilnærmingene i prosjektet er atferdsdesign -  å bruke kunnskap om psykologiske funksjoner og tankefeller for å lette bruken av en løsning.  Vi presenterer prosjektet, og gir noen enkle verktøy som kan gjøre løsningene dine enklere og mer attraktive. 
+I dette innlegget får du vite mer om Stimulab-prosjektet _Mangfoldskompasset_, som har som mål å øke kompetansen om kjønns- og seksualitetsmangfold i offentlig sektor. En av de tilnærmingene i prosjektet er atferdsdesign -  å bruke kunnskap om psykologiske funksjoner og tankefeller for å lette bruken av en løsning.  Vi presenterer prosjektet, og gir noen enkle verktøy som kan gjøre løsningene dine enklere og mer attraktive. 
 
 Mangfoldskompasset ledes av Bufdir, og er et samarbeid mellom:
 
