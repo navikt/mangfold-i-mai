@@ -18,3 +18,5 @@ Vi hjelper deg med å se hvor noen fallgruver kan ligge, og du kan få innspill 
 
 Vi har plass til 4 til 5 team / grupper - send en melding til mangfoldimai@nav.no hvis du vil være med :) 
 
+Workshopen gjennomføres fysisk på Direktoratets lokaler og streames ikke.
+
