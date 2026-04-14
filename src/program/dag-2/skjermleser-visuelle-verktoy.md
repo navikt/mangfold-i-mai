@@ -1,6 +1,6 @@
 ---
-title: "Tilgjengelige samhandlingsverktøy"
-summary: "Når skjermlesere møter Mural, Miro og Figjam"
+title: "Det koker i hodet mitt: Samarbeidsverktøy er noen dritt"
+summary: "Kan blinde gjøre en god jobb i dagens digitale samfunn?"
 tags:
   - Foredrag
 
