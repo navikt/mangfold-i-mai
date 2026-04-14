@@ -1,5 +1,5 @@
 ---
-title: "Det koker i hodet mitt: Samarbeidsverktøy er noen dritt"
+title: "Det koker i hodet mitt: Samarbeid er noe dritt"
 summary: "Kan blinde gjøre en god jobb i dagens digitale samfunn?"
 tags:
   - Foredrag
