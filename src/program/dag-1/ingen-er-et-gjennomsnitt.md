@@ -18,6 +18,10 @@ speakers:
     role: Seniorrådgiver universell utforming hos Bufdir
     image: 
     info: ""
+  - name: Faten Lubani
+    role: Leder av Globale Sandefjord
+    image: /assets/images/speakers/faten-lubani.jpg
+    info: "Faten Lubani er leder for Globale Sandefjord, der målet er å fremme mangfoldskompetanse som et konkurransefortrinn i næringslivet. Hun har en mastergrad innen utviklingsarbeid og jobbet i FNs organisasjon for industriell utvikling. Hun er sertifisert mangfoldsleder, har ledet Sandefjord kommunes handlingsplan for mangfold og inkludering, og har blitt tildelt en inkluderingspris for sin innsats."
 delta:
 location: "Amfiet"
 streaming: true
