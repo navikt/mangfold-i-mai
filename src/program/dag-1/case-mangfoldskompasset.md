@@ -1,5 +1,5 @@
 ---
-title: "Gjør det enkelt! Atferdsdesign for økt kompetanse og kjønns- og seksualitetsmangfold"
+title: "Gjør det enkelt! Atferdsdesign for økt kompetanse om kjønns- og seksualitetsmangfold"
 summary: "I Bufdir sitt prosjekt Mangfoldskompasset bruker vi designtilnærming og atferdspsykologi for å lage gode offentlige tjenester. "
 tags:
   - Foredrag
