@@ -1,6 +1,6 @@
 ---
-title: "Likestilling i offentlige tjenester"
-summary: "Hvordan bør Nav jobbe med dette? Om likestilling, ikke-diskriminering og hvilken rolle avdeling for brukeropplevelse spiller her"
+title: "Offentlige tjenester og risiko for diskriminering"
+summary: "Om tankefeller, ubevisst diskriminering og det loven krever"
 tags:
   - Foredrag
 event-date: 2026-05-20T11:30
@@ -15,4 +15,4 @@ speakers:
 location: "Speakers Corner"
 ---
 
-mer informasjon kommer
+Alle har fordommer og går i tankefeller. Risikoen er høy for at offentlige tjenesteyter diskriminerer uten å se det selv. Hvilke krav stiller loven? Og hvordan jobber Nav med å oppfylle disse kravene? 
