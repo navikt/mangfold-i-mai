@@ -1,10 +1,11 @@
 ---
 title: "Ingen er et gjennomsnitt"
 summary: "Hvordan kan vi sikre likeverdige offentlige tjenester?"
-tags:
-  - Panel
+
 event-date: 2026-05-20T13:15
 event-date-end: 2026-05-20T14:00
+event-tags: ['Panel']
+
 speakers: 
   - name: Audrey Charlotte Chisholm Høibråten
     role: Rådgiver for mangfold og likeverdige helsetjenester i seksjon helsekompetanse, Oslo universitetssykehus

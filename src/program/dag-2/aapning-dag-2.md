@@ -1,10 +1,9 @@
 ---
 title: "Åpning av dag 2 - Global Accessibility Awareness Day GAAD"
-summary: ""
+summary: 
 event-date: 2026-05-21T09:00
 event-date-end: 2026-05-21T09:15
-tags:
-  - Foredrag
+event-tags: ['Foredrag']
 
 speakers: 
   - name: Heidi Braaen
@@ -14,7 +13,7 @@ speakers:
     role: Fagleder for universell utforming av IKT i Nav
     image: /assets/images/speakers/karina-ludwig.jpg
 
-location: "Speakers Corner + Vimeo"
+location: "Speakers Corner"
 ---
 
 Mer informasjon kommer

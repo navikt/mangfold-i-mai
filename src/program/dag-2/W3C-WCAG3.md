@@ -1,11 +1,11 @@
 ---
 title: "Shaping WCAG 3"
 summary: "How the W3C works on the next version of the Web Content Accessibility Guidelines"
-tags:
-  - Foredrag
 
 event-date: 2026-05-21T11:30
 event-date-end: 2026-05-21T12:00
+event-tags: ['Foredrag']
+
 speakers: 
   - name: Kevin White
     role: Accessibility Technical Lead, W3C Accessibility Working Group

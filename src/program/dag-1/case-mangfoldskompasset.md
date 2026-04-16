@@ -1,19 +1,18 @@
 ---
 title: "Gjør det enkelt! Atferdsdesign for økt kompetanse om kjønns- og seksualitetsmangfold"
 summary: "I Bufdir sitt prosjekt Mangfoldskompasset bruker vi designtilnærming og atferdspsykologi for å lage gode offentlige tjenester. "
-tags:
-  - Foredrag
 event-date: 2026-05-20T12:45
 event-date-end: 2026-05-20T13:15
+event-tags: ['Foredrag']
 speakers: 
   - name: Jan Bjørkelo
     role: Prosjektleder i Comte Bureau
     image: /assets/images/speakers/jan-bjoerkelo.jpg
-    info: ""
+    info: 
   - name: Yngve Bråten
     role: Seniorrådgiver universell utforming hos Bufdir
-    image: 
-    info: ""
+    image: /assets/images/speakers/yngve-braaten.jpg 
+    info: 
 location: "Speakers Corner"
 ---
 

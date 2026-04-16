@@ -1,10 +1,10 @@
 ---
 title: "Offentlige tjenester og risiko for diskriminering"
 summary: "Om tankefeller, ubevisst diskriminering og det loven krever"
-tags:
-  - Foredrag
+
 event-date: 2026-05-20T11:30
 event-date-end: 2026-05-20T12:00
+event-tags: ['Foredrag']
 speakers: 
   - name: Lene Løvdal
     role: Likestillings- og menneskerettsjurist. Seniorrådgiver i Nav.

@@ -1,11 +1,11 @@
 ---
 title: "På vegne av noen andre"
 summary: "Hvorfor er det fortsatt så vanskelig å hjelpe mennesker som ikke mestrer digitale tjenester?"
-tags:
-  - Foredrag
 
 event-date: 2026-05-21T13:40
 event-date-end: 2026-05-21T14:00
+event-tags: ['Foredrag']
+
 speakers: 
   - name: "Hege Langlo"
     role: "Produktleder i Team representasjon i Nav"

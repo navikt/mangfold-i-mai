@@ -1,11 +1,9 @@
 ---
 title: "Likeverd og offentlige tjenester"
 summary: "Åpning av Mangfold i mai 2026"
-tags:
-  - Foredrag
-
 event-date: 2026-05-20T09:00
 event-date-end: 2026-05-20T09:10
+event-tags: ['Foredrag']
 speakers: 
   - name: Heidi Braaen
     image: /assets/images/speakers/heidi-braaen.jpg

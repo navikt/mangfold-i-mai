@@ -1,10 +1,11 @@
 ---
 title: "Mangfold gir styrke"
 summary: "Mangfoldskompetanse – det nye gullet"
-tags:
-  - Foredrag
+
 event-date: 2026-05-20T09:10
 event-date-end: 2026-05-20T09:30
+event-tags: ['Foredrag']
+
 speakers: 
   - name: Faten Lubani
     role: Leder av Globale Sandefjord

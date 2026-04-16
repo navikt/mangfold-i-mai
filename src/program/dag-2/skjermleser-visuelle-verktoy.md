@@ -1,11 +1,11 @@
 ---
 title: "Det koker i hodet mitt: Samarbeid er noe dritt"
 summary: "Kan blinde gjøre en god jobb i dagens digitale samfunn?"
-tags:
-  - Foredrag
 
 event-date: 2026-05-21T10:15
 event-date-end: 2026-05-21T10:45
+event-tags: ['Foredrag']
+
 speakers: 
   - name: Morten Tollefsen
     role: Spesialist på universell utforming av IKT i Nav

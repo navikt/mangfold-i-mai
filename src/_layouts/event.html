@@ -10,10 +10,8 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
 
   <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
 
-  {% assign tags = tags | excludes: "event" %}
-
   <div class="tags">
-    {% for tag in tags %}
+    {% for tag in event-tags %}
       <span class="tag" data-tag="{{ tag }}">
         {{ tag }}
       </span>
@@ -24,12 +22,12 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
     {{ content }}
 
     {% if stream %}
-      {% assign vimeo_url_segments = stream | replace: "https://vimeo.com/", "" %}
+      {% comment %} {% assign vimeo_url_segments = stream | replace: "https://vimeo.com/", "" %}
       {% assign vimeo_channel = vimeo_url_segments | split: "/" | first %}
       {% assign vimeo_id = vimeo_url_segments | split: "/" | last %}
 
       <iframe class="video" src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;dnt=1&amp; badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
-      <script src="https://player.vimeo.com/api/player.js"></script>
+      <script src="https://player.vimeo.com/api/player.js"></script> {% endcomment %}
     {% endif %}
 
     {% include 'live-stream.html' %}

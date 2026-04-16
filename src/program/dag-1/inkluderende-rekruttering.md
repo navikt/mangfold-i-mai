@@ -1,11 +1,11 @@
 ---
 title: "Spor 2: Inkluderende rekruttering"
 summary: "Foredrag og workshop"
-tags: 
-  - Foredrag
-  - Workshop
+
 event-date: 2026-05-20T14:15
 event-date-end: 2026-05-20T15:15
+event-tags: ['Foredrag','Workshop']
+
 speakers: 
   - name: Vegar Mørk
     role: Teamleder for rekruttering i Nav

@@ -70,9 +70,8 @@ layout: "default.html"
 
 
             {% unless track.data.permalink == false %}
-            {% assign tags = track.data.tags | excludes: day.fileSlug %}
             <div class="tags">
-              {% for tag in tags %}
+              {% for tag in track.data.event-tags %}
                 <span class="tag" data-tag="{{ tag }}">
                   {{ tag }}
                 </span>
