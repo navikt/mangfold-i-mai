@@ -1,6 +1,8 @@
 ---
-title: "tema: brukerperspektiver rundt likestilling og offentlige tjenester"
+title: "tema: Hvordan opplever brukere manglende likestilling i offentlige tjenester?"
 summary: "Innlegget er ikke ferdig avklart, vi oppdaterer snart."
+tags:
+  - Panel
 event-date: 2026-05-20T12:00
 event-date-end: 2026-05-20T12:30
 speakers: 
