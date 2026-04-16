@@ -26,27 +26,27 @@ blobs:
       {% if event.data.language %} lang="{{ event.data.language }}"{% endif %}    
       {%- endcapture %}
 
-      <h3>{{ event.name | readableDate: 'cccc d. MMMM' |  capitalize }}</h3>
-      <div style="margin-block-end: 1lh">
-      {% for event in event.items %}
-      <article class="archive__event" {{ lang }}>
-        <h4>
-          <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
-          {{ event.data.title }}
-          </a>
-        </h4>
-        <p>
-          <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
-            <g stroke-width="1.75" stroke="currentColor">
-              <circle cx="12" cy="9.5" r="3"/>
-              <path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/>
-              <circle cx="12" cy="12" r="9"/>
-            </g>
-          </svg>
-          <span>{{ event.data.speakers | map: 'name' | concat | sentence }}</span>
-        </p>
-      </article>
-      {% endfor %}
+      <div class="archive__event-group">
+        <h3>{{ event.name | readableDate: 'cccc d. MMMM' |  capitalize }}</h3>
+        {% for event in event.items %}
+        <article class="archive__event" {{ lang }}>
+          <h4>
+            <a href="{{ event.fileSlug }}-{{ event.data.year }}/">
+            {{ event.data.title }}
+            </a>
+          </h4>
+          <p>
+            <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <g stroke-width="1.75" stroke="currentColor">
+                <circle cx="12" cy="9.5" r="3"/>
+                <path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/>
+                <circle cx="12" cy="12" r="9"/>
+              </g>
+            </svg>
+            <span>{{ event.data.speakers | map: 'name' | concat | sentence }}</span>
+          </p>
+        </article>
+        {% endfor %}
       </div>
     {% endfor %}
   </div>

@@ -16,7 +16,7 @@ speakers:
     info: "Miriam har en doktorgrad i Computer Science UX fra NTNU, og har jobbet med universell utforming av IKT siden 2006. Miriam er opptatt av å finne og å ta i bruk beste-praksis for inkluderende tjenestedesign, universell utforming og brukskvalitet for alle."
   - name: Yngve Bråten
     role: Seniorrådgiver universell utforming hos Bufdir
-    image: 
+    image: /assets/images/speakers/yngve-braaten.jpg
     info: ""
   - name: Faten Lubani
     role: Leder av Globale Sandefjord

@@ -7,27 +7,29 @@ layout: "default.html"
     <h1>{{ title }}</h1>
     {{ content }}
   </div>
-   
-  {% assign events = collections.event | sort: "data.event-date" | group_by: "data.day" %}
 
   <div class="program">
-    {% for day in events %}
+    {% assign days = collections.days | sort: "data.title" %}
+
+    {% for day in days %}
+    <div class="program__blob-wrapper">
+      <img src="{{ blobs[forloop.index0] }}" alt="" style="margin-inline: {% cycle "auto", "auto 10ch" %}">
+    </div>
     <div class="program__day">
       <div class="program__day-header">
-        <h2 class="program__day-title">{{ day.name | readableDate: 'dd. MMMM' }}</h2>
-        <img src="{{ blobs[forloop.index0] }}" alt="" style="margin-inline: {% cycle "auto", "auto 10ch" %}">
+        <h2 class="program__day-title">{{ day.data.title }}</h2>
+        {{ day.content }}
       </div>
-
-
           
-      {% assign days = day.items | sort: "data.event-date" | group_by: "data.event-date" %}
-      {% for day in days %}
+      {% assign events = collections[day.fileSlug] | sort: "data.event-date" | group_by: "data.event-date" %}
+      
+      {% for event in events %}
 
       <div class="program__events {% if forloop.first %}program__events--first{% endif %}">
-        <time>{{ day.name | readableDate: 'T' | replace: ":", "." }}–{{ day.items[0].data.event-date-end | readableDate: 'T' | replace: ":", "." }}</time>
+        <time>{{ event.name | readableDate: 'T' | replace: ":", "." }}–{{ event.items[0].data.event-date-end | readableDate: 'T' | replace: ":", "." }}</time>
         <div class="program__tracks">
 
-          {% assign tracks = day.items | sort: "data.title" %}
+          {%- assign tracks = event.items | sort: "data.title" -%}
           {% for track in tracks  %}
 
           <!-- Filename: {{ track.fileSlug }} -->
@@ -68,7 +70,7 @@ layout: "default.html"
 
 
             {% unless track.data.permalink == false %}
-            {% assign tags = track.data.tags | excludes: "event" %}
+            {% assign tags = track.data.tags | excludes: day.fileSlug %}
             <div class="tags">
               {% for tag in tags %}
                 <span class="tag" data-tag="{{ tag }}">

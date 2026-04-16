@@ -8,6 +8,7 @@ event-date-end: 2026-05-20T13:15
 speakers: 
   - name: Jan Bjørkelo
     role: Prosjektleder i Comte Bureau
+    image: /assets/images/speakers/jan-bjoerkelo.jpg
     info: ""
 location: "Speakers Corner"
 ---
