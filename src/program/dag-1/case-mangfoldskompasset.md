@@ -9,6 +9,10 @@ speakers:
   - name: Jan Bjørkelo
     role: Prosjektleder i Comte Bureau
     info: ""
+  - name: Yngve Bråten
+    role: Seniorrådgiver universell utforming hos Bufdir
+    image: 
+    info: ""
 location: "Speakers Corner"
 ---
 
