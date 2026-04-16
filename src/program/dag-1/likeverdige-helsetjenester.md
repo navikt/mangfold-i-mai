@@ -11,7 +11,7 @@ speakers:
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
 audience: Målgruppe X
 location: "Amfiet"
-stream: 'https://vimeo.com/1142971046/08045c416e'
+stream: 'Lenke til stream'
 ---
 I dette innlegget vil du få høre mer om hvordan Oslo universitetssykehus jobber med mangfold og likeverdige helsetjenester. Både med fokus på tjenester rettet mot pasienter og brukere, samt kompetanseheving av egne ansatte om sentrale temaer for å sikre at helsetjenesten oppleves trygg og inkluderende. 
 
