@@ -10,9 +10,9 @@ speakers:
     image: /assets/images/speakers/jan-bjoerkelo.jpg
     info: 
   - name: Yngve Bråten
-    role: Seniorrådgiver universell utforming hos Bufdir
+    role: Seniorrådgiver i avdeling for likestilling og universell utforming i Bufdir
     image: /assets/images/speakers/yngve-braaten.jpg 
-    info: 
+    info: "Yngve er koordinator av Bufdirs team for universell utforming. Yngve er opptatt av å utvikle og formidle informasjon om universell utforming som generell samfunnskvalitet og verktøy for økt likestilling."
 location: "Speakers Corner"
 ---
 
