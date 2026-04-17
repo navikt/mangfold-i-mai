@@ -23,4 +23,4 @@ Om rekruttering uten søknadsbrev, traineeprogram i staten og andre gode grep fo
 ## Del 2 (workshop): Hvordan rekruttere mer mangfoldig og likestilt 
 Rekrutteringsprosesser er veien inn i det ordinære arbeidslivet. De må være frie for diskriminering. En profesjonell rekruttering, som likebehandler ulike kandidater er en nødvendig, men ikke tilstrekkelig forutsetning for et likestilt og mangfoldig arbeidsliv.
 
-I workshopen ser vi på hvordan vi kan lykkes med å rekruttere mer mangfoldig og hvordan arbeidsgiver kan gå et steg lenger enn bare likebehandling. Med Thonas Jahren, LDO.
+I workshopen ser vi på hvordan vi kan lykkes med å rekruttere mer mangfoldig og hvordan arbeidsgiver kan gå et steg lenger enn bare likebehandling. Med Thomas Jahren, LDO.
