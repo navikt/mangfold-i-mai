@@ -16,7 +16,7 @@ layout: "default.html"
         <div class="program__day-header">
           <h2 class="program__day-title">{{ day.data.title }}</h2>
           {{ day.content }}
-          <img src="{{ blobs[forloop.index0] }}" alt="" style="float:right; margin-inline: {% cycle "auto", "auto 10ch" %}">
+          <img src="{{ blobs[forloop.index0] }}" alt="" style="float:right; margin-inline-start: {% cycle "auto", "10vw" %}">
       </div>
           
       {% assign events = collections[day.fileSlug] | sort: "data.event-date" | group_by: "data.event-date" %}

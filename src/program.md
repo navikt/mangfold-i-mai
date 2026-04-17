@@ -1,10 +1,11 @@
 ---
 layout: "program.html"
 title: Program
+# title: Program - Likeverdige offentlige tjenester
 permalink: 'program/index.html'
 # eleventyNavigation:
 #   key: menu
-#   title: Program - Likeverdige offentlige tjenester
+#   title: Program
 #   order: 1
 noindex: true
 blobs:
