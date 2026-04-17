@@ -12,4 +12,4 @@ speakers:
 location: "Amfiet"
 ---
 
-mer informasjon kommer
+Mer informasjon kommer snart

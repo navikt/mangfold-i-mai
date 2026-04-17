@@ -337,6 +337,9 @@
             align-self: start;
         }
     }
+    .description *:first-child {
+        margin-block-start: 1.25lh;
+    }
 }
 
 
@@ -635,7 +638,7 @@ a.pill-button:hover {
     cursor: not-allowed
 }
 
-.tags {
+.event .tags {
     margin-block-start: .25lh;
 }
 
