@@ -7,8 +7,12 @@ event-date-end: 2026-05-21T10:00
 event-tags: ['Mini-kurs']
 
 speakers: 
-  - name: 
-    role: 
+  - name: Lene Mari Jensen
+    role:
+    info:
+  - name: Siri Vinjevoll
+    role:
+    info:
 delta:
 location: "Speakers Corner"
 streaming: true
