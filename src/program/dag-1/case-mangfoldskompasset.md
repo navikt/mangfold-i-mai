@@ -8,7 +8,7 @@ speakers:
   - name: Jan Bjørkelo
     role: Prosjektleder i Comte Bureau
     image: /assets/images/speakers/jan-bjoerkelo.jpg
-    info: 
+    info: "Jan Bjørkelo er prosjektleder fra Comte Bureau, og har over 10 års erfaring fra tjenestedesign, organisasjonsutvikling og prosjektledelse, med særlig fokus på innovasjon i offentlig sektor. Han kombinerer analytisk kompetanse med praktisk gjennomføringsevne, og jobber med å utvikle kunnskapsbaserte løsninger."
   - name: Yngve Bråten
     role: Seniorrådgiver i avdeling for likestilling og universell utforming i Bufdir
     image: /assets/images/speakers/yngve-braaten.jpg 
