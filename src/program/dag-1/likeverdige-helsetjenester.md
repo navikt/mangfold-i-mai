@@ -9,9 +9,9 @@ speakers:
   - name: Audrey Charlotte Chisholm Høibråten
     role: Rådgiver for mangfold og likeverdige helsetjenester i seksjon helsekompetanse, Oslo universitetssykehus
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
-audience: Målgruppe X
+audience:
 location: "Amfiet"
-stream: 'Lenke til stream'
+stream: 
 ---
 I dette innlegget vil du få høre mer om hvordan Oslo universitetssykehus jobber med mangfold og likeverdige helsetjenester. Både med fokus på tjenester rettet mot pasienter og brukere, samt kompetanseheving av egne ansatte om sentrale temaer for å sikre at helsetjenesten oppleves trygg og inkluderende. 
 
