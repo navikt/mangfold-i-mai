@@ -364,6 +364,9 @@
     time {
         font-weight: 700;
     }
+    a {
+        display: block;
+    }
 }
 
 
@@ -387,12 +390,7 @@
 
 .byline__image {
     align-self: start;
-    grid-column: 1;
     vertical-align: top;
-}
-
-.byline__text {
-    grid-column: 2;
 }
 
 :is(.byline__name, .byline__role) {
@@ -629,10 +627,32 @@
     font-weight: 500;
     gap: 0.5ch;
 }
+
 a.pill-button:hover {
     background-color: var(--blue-dark);
     color: var(--white);
 }
+
+.rounded-button {
+    background-color: var(--purple-dark);
+    border-radius: 8px;
+    margin-block-start: .125lh;
+    padding: 0.5em 1.25em;
+    text-decoration: none;
+    color: var(--white);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 0.5ch;
+}
+
+a.rounded-button:hover {
+    background-color: var(--blue-dark);
+    color: var(--white);
+}
+
+
 
 [data-readonly] {
     cursor: not-allowed

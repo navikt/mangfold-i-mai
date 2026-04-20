@@ -18,3 +18,4 @@ location: "Speakers Corner"
 streaming: true
 ---
 
+Gode råd fra Hjelpemiddelsentralen. Mer informasjon kommer snart.

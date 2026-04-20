@@ -22,20 +22,12 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
     {{ content }}
 
     {% if stream %}
-      {% comment %} {% assign vimeo_url_segments = stream | replace: "https://vimeo.com/", "" %}
-      {% assign vimeo_channel = vimeo_url_segments | split: "/" | first %}
-      {% assign vimeo_id = vimeo_url_segments | split: "/" | last %}
-
-      <iframe class="video" src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;dnt=1&amp; badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
-      <script src="https://player.vimeo.com/api/player.js"></script> {% endcomment %}
+      {% include 'live-stream.html' %}
     {% endif %}
-
-    {% include 'live-stream.html' %}
   </div>
 
   {% unless canceled %}
     <div class="metadata">
-      
       <p>
         {{ event-date | readableDate: 'EEEE dd. MMM' |  capitalize }},
         <time datetime="{{ event-date }}"><br>
@@ -43,10 +35,13 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
         </time>
         </p>
         
-      {% if location %}<p>Sted (for ansatte i Nav):<br><b>{{ location }}</b></p>{% endif %}
       {% if audience %}<p>Målgruppe:<br><b>{{ audience }}</b></p>{% endif %}
-
-      {% if delta %}<p>📝 <a href="{{ delta }}">Meld deg på i Delta</a></p>{% endif %}    
+      {% if delta %}
+        <p>
+          <span>For ansatte i Nav:</span>
+          <a class="rounded-button" href="{{ delta }}">Påmelding i Delta</a>
+        </p>
+      {% endif %}    
       {% if stream %}<p>📝 <a href="{{ stream }}">Stream</a></p>{% endif %}    
     </div>
   {% endunless %}
@@ -59,7 +54,7 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
       <article class="byline">
         {%- if speaker.image %}
         <img src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" class="avatar byline__image" eleventy:widths="72">
-        {% endif -%}
+        {%- endif %}
         <div class="byline__text">
           <p class="byline__name"><strong>{{ speaker.name }}</strong></p>
           {% if speaker.role %}<p class="byline__role">{{ speaker.role }}</p>{% endif %}
