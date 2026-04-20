@@ -17,10 +17,12 @@ speakers:
 location: "Helsfyr B104 Gnisten"
 ---
 
-## Del 1 (foredrag): Hvordan Nav jobber med inkluderende rekruttering 
+## Del 1 (foredrag)
+### Hvordan Nav jobber med inkluderende rekruttering 
 Om rekruttering uten søknadsbrev, traineeprogram i staten og andre gode grep for mer inkludernde rekruttering. Med Vegar Mørk, Nav.
 
-## Del 2 (workshop): Hvordan rekruttere mer mangfoldig og likestilt 
+## Del 2 (workshop)
+### Hvordan rekruttere mer mangfoldig og likestilt 
 Rekrutteringsprosesser er veien inn i det ordinære arbeidslivet. De må være frie for diskriminering. En profesjonell rekruttering, som likebehandler ulike kandidater er en nødvendig, men ikke tilstrekkelig forutsetning for et likestilt og mangfoldig arbeidsliv.
 
 I workshopen ser vi på hvordan vi kan lykkes med å rekruttere mer mangfoldig og hvordan arbeidsgiver kan gå et steg lenger enn bare likebehandling. Med Thomas Jahren, LDO.

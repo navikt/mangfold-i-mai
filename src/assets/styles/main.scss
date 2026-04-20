@@ -235,13 +235,9 @@
 
     :where(h2, p) {
         grid-column-start: 1;
-    }
-    
+    }    
     h2 {
-        font-weight: 800;
-        flex-shrink: 0;
-        background: var(--gray-lighter);
-        border-radius: 0 0 .5em .5em;
+        inset-block-start: .25lh;
     }
     p {
         padding-block-end: 1lh;
@@ -256,7 +252,7 @@
 }
 
 .program__day {
-    margin-block-end: 3lh;
+    margin-block: 3lh;
 }
 
 .program__timeslot {
@@ -301,7 +297,6 @@
     border-image: conic-gradient(var(--yellow-light)) fill 1/0 100% / 0 100vw;
     background-color: var(--yellow-light);
     z-index: 20;
-    position: relative;
     border-radius: 99ch;
     padding-block: .5lh .375lh;
 
@@ -482,12 +477,6 @@
 }
 
 
-.title {
-    font-size: 1.125rem;
-    font-weight: 700;
-    margin-block: 0 0.125lh;
-    grid-column: 1 / -1;
-}
 
 .delta {
     display: inline-block;
@@ -667,6 +656,13 @@ a.rounded-button:hover {
     margin-inline-start: -0.25ch;
 }
 
+.program .title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-block: 0 0.125lh;
+    grid-column: 1 / -1;
+}
+
 
 .tag {
     border-radius: 99ch;
@@ -702,6 +698,12 @@ a.rounded-button:hover {
 
 .blob-star {
     float: right;
+}
+
+.squiggle {
+    display: block;
+    zoom: 1.25;
+    margin-inline: auto;
 }
 
 .edit {

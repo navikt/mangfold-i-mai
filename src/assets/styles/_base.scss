@@ -107,16 +107,17 @@ p:has(img) {
 }
 
 :where(h1, h2) {
+    font-weight: 800;
     line-height: 1.2;
 }
 
 :where(h1) {
-    font-weight: 800;
+    font-size:2.5em;
     margin-block: 0 0.5lh;
     text-wrap: balance;
 }
 :where(h2) {
-    font-size: 1.4275em;
+    font-size: 1.75em;
 }
 
 :where(h2:first-child) {
@@ -124,8 +125,12 @@ p:has(img) {
 }
 
 :where(h3) {
-    font-size:1em;
+    font-size:1.375em;
+    font-weight: 700;
     line-height: 1.35;
+}
+:where(h2 + h3) {
+    margin-block-start:0;
 }
 
 :where(h2, h3, h4) + p {
