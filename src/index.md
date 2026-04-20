@@ -11,7 +11,7 @@ Bli klokere på hvordan bias påvirker dine beslutninger og hvordan du kan sikre
 
 - **20. mai** har tema likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjenesteutvikling.
     
-- **21. mai** har tema universell utforming av IKT og inkluderende møtekultur, det er også årets _(Global Accessibility Awareness Day)_ !
+- **21. mai** har tema universell utforming av IKT og inkluderende møtekultur, det er også årets _Global Accessibility Awareness Day_ !
 
 
 ## Hvordan kan jeg bli med?
