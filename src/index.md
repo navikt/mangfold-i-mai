@@ -15,12 +15,12 @@ title: Mangfold i mai - velkommen!
 
 Bli klokere på hvordan bias påvirker dine beslutninger og hvordan du kan sikre likeverdig tilgang for alle i det du lager. 
 
-Alt skjer i Arbeids- og velferdsdirektoratet lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant. 
-
 20\. mai er tema likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjeneste utvikling.
 
 21\. mai _(Global Accessibility Awareness Day)_ er tema universell utforming av IKT og inkluderende møtekultur.
 
+## Hvordan kan jeg bli med?
+Alt skjer i Arbeids- og velferdsdirektoratet lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant. 
 
 <div class="pill-button" data-readonly>
   <svg class="icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
