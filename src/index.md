@@ -3,7 +3,7 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-# Delta på Mangfold i mai 2026 20. og 21. mai 
+# Delta på Mangfold i mai 2026, den 20. og 21. mai 
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
