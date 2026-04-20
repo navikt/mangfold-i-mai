@@ -5,4 +5,4 @@ tags: ['days']
 permalink: false
 ---
 
-Global Accessibility Awareness Day. Tema er universell utforming av IKT.
+Global Accessibility Awareness Day. Tema er universell utforming av IKT og inkluderende møtekultur.
