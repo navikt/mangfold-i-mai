@@ -3,17 +3,17 @@ layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
 
-# Hold av 20. og 21. mai 2026
+# Delta på Mangfold i mai 2026 20. og 21. mai 
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
 Årets Mangfold i mai er for deg som lager tjenester og produkter. Bli klokere på hvordan bias påvirker dine beslutninger og hvordan du kan sikre likeverdig tilgang for alle i det du lager. 
 
-Alt skjer i Arbeids- og velferdsetatens lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant.
+Alt skjer i Arbeids- og velferdsetatens lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant. 
 
 20\. mai er tema likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjeneste utvikling.
 
-21\. mai _(Global Accessibility Awareness Day)_ er tema universell utforming av IKT.
+21\. mai _(Global Accessibility Awareness Day)_ er tema universell utforming av IKT og inkluderende møtekultur.
 
 
 <div class="pill-button" data-readonly>
