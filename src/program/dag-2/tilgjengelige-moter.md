@@ -1,6 +1,6 @@
 ---
-title: "Hvordan blir møtene dine tilgjengelig for alle deltakerne?"
-summary: "Gode råd fra Hjelpemiddelsentralen"
+title: "Hvordan kan du gjøre møtene dine tilgjengelig for alle?"
+summary: "Universell utforming i digitale møter"
 
 event-date: 2026-05-21T09:15
 event-date-end: 2026-05-21T10:00
@@ -8,14 +8,14 @@ event-tags: ['Mini-kurs']
 
 speakers: 
   - name: Lene Mari Jensen
-    role:
-    info:
+    role: Seniorrådgiver, Nav hjelpemiddelsental, Troms og Finnmark
+    info: "Siri Vinjevoll har bakgrunn som optiker med master i optometri og lang erfaring innen ulike områder i optometrien. Siri arbeider i dag med tilrettelegging for synsvansker, og er opptatt av hvordan smartere jobbing og energiøkonomisering kan bidra til økt deltakelse og redusert belastning i arbeidslivet." 
   - name: Siri Vinjevoll
-    role:
-    info:
+    role: Seniorrådgiver, Nav hjelpemiddelsentral, Vestland - Førde
+    info: "Siri Vinjevoll har bakgrunn som optiker med master i optometri og lang erfaring innen ulike områder i optometrien. Siri arbeider i dag med tilrettelegging for synsvansker, og er opptatt av hvordan smartere jobbing og energiøkonomisering kan bidra til økt deltakelse og redusert belastning i arbeidslivet. "
 delta:
 location: "Speakers Corner"
 streaming: true
 ---
 
-Gode råd fra Hjelpemiddelsentralen. Mer informasjon kommer snart.
+I en stadig mer digital arbeidshverdag foregår mye veiledning og samarbeid via digitale plattformer. For at digitale møter skal være inkluderende og ikke oppleves belastende over tid, er det viktig med kunnskap om hvordan tilrettelegge møtene på en måte som fremmer deltakelse og skaper gode opplevelser – både for innbyggere og kolleger. Enkel tilrettelegging kan gjøre stor forskjell, særlig for personer med syns– og hørselsvansker, utmattelse, konsentrasjonsvansker og andre kognitive helseutfordringer. Kurset gir deg innsikt i hvordan du kan tilrettelegge digitale møteplasser slik at de fungerer godt for alle.
