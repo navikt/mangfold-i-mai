@@ -12,9 +12,15 @@ layout: "default.html"
     {% assign days = collections.days | sort: "data.title" %}
 
     {% for day in days %}
+      
+      {% if forloop.last %}
+        <svg class="squiggle" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="244" height="16" fill="none" viewBox="0 0 244 16">
+          <path stroke="currentColor" stroke-linecap="round" stroke-width="3" d="M2 3s8 10 15 10S25 3 32 3s8 10 15 10S55 3 62 3s8 10 15 10S85 3 92 3s8 10 15 10 8-10 15-10 8 10 15 10 8-10 15-10 8 10 15 10 8-10 15-10 8 10 15 10 8-10 15-10 8 10 15 10 15-10 15-10"/>
+        </svg>
+      {% endif %}
       <div class="program__day">
         <div class="program__day-header">
-          <h2 class="program__day-title">{{ day.data.title }}</h2>
+          <h2>{{ day.data.title }}</h2>
           {{ day.content }}
           <img src="{{ blobs[forloop.index0] }}" alt="" style="float:right; margin-inline-start: {% cycle "auto", "10vw" %}">
       </div>
