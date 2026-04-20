@@ -7,17 +7,12 @@ title: Mangfold i mai - velkommen!
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
-Årets Mangfold i mai er for deg som lager tjenester og produkter.
-
-- Hvor stor er risikoen for å utvikle diskriminerende tjenester – og hvordan reduserer vi den?
-
-- Hvordan vet vi at tjenestene våre faktisk fungerer for alle, også for dem som har minst forutsetninger for å bruke dem?
-
 Bli klokere på hvordan bias påvirker dine beslutninger og hvordan du kan sikre likeverdig tilgang for alle i det du lager. 
 
-- 20\. mai er tema likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjenesteutvikling.
+- **20. mai** har tema likeverdige tjenester. Innholdet er mest egnet for deg som jobber med produkt- og tjenesteutvikling.
+    
+- **21. mai** har tema universell utforming av IKT og inkluderende møtekultur, det er også årets _(Global Accessibility Awareness Day)_ !
 
-- 21\. mai _(Global Accessibility Awareness Day)_ er tema universell utforming av IKT og inkluderende møtekultur.
 
 ## Hvordan kan jeg bli med?
 Alt skjer i Arbeids- og velferdsdirektoratet lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant. 
