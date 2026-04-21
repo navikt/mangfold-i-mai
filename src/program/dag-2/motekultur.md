@@ -1,5 +1,5 @@
 ---
-title: "tema: inkluderende møtekultur"
+title: "Tema: Inkluderende møtekultur"
 summary: "Innlegget er ikke ferdig avklart, vi oppdaterer snart."
 
 event-date: 2026-05-21T14:45

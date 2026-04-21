@@ -1,5 +1,5 @@
 ---
-title: "tema: panel rundt representasjon"
+title: "Tema: Panel rundt representasjon"
 summary: "Innlegget er ikke ferdig avklart, vi oppdaterer snart."
 
 event-date: 2026-05-21T14:15
