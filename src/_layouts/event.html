@@ -36,8 +36,12 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
     {% if delta %}
       <p>Påmelding for ansatte i Nav</p>
       <div>
-        <a class="rounded-button" href="{{ delta.fysisk }}">Delta fysisk</a>
-        <a class="rounded-button" href="{{ delta.digital }}">Delta digitalt</a>
+        {% if delta.fysisk %}
+          <a class="rounded-button" href="{{ delta.fysisk }}">Delta fysisk</a>
+        {% endif %}
+        {% if delta.digitalt %}
+          <a class="rounded-button" href="{{ delta.digitalt }}">Delta digitalt</a>
+        {% endif %}
       </div>       
     {% endif %}    
 
