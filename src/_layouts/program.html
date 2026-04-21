@@ -19,10 +19,10 @@ layout: "default.html"
         </svg>
       {% endif %}
       <div class="program__day">
-        <div class="program__day-header">
-          <h2>{{ day.data.title }}</h2>
-          {{ day.content }}
-          <img src="{{ blobs[forloop.index0] }}" alt="" style="float:right; margin-inline-start: {% cycle "auto", "10vw" %}">
+      <h2><span>{{ day.data.title }}</span></h2>
+      <div class="program__description">
+        {{ day.content }}
+        <img src="{{ blobs[forloop.index0] }}" alt="" style="float:right; margin-inline-start: {% cycle "auto", "10vw" %}">
       </div>
           
       {% assign events = collections[day.fileSlug] | sort: "data.event-date" | group_by: "data.event-date" %}
@@ -30,66 +30,65 @@ layout: "default.html"
       {% for event in events %}
 
       <div class="program__timeslot {% if event.items[0].data.event-type == 'pause' %}pause{% endif %}">
-        <time>{{ event.name | readableDate: 'T' | replace: ":", "." }}–{{ event.items[0].data.event-date-end | readableDate: 'T' | replace: ":", "." }}</time>
-        <div class="program__tracks">
+        <time class="program__timestamp">{{ event.name | readableDate: 'T' | replace: ":", "." }}–{{ event.items[0].data.event-date-end | readableDate: 'T' | replace: ":", "." }}</time>
 
-          {%- assign tracks = event.items | sort: "data.title" -%}
-          {% for track in tracks  %}
+        {%- assign tracks = event.items | sort: "data.title" -%}
+        {% for track in tracks  %}
 
-          <!-- Filename: {{ track.fileSlug }} -->
-          <div class="program__event">
-            {%- capture lang %}
-            {% if track.data.language %} lang="{{ track.data.language }}"{% endif %}
-            {% endcapture -%}
+        <!-- Filename: {{ track.fileSlug }} -->
+        <div class="program__event">
+          {%- capture lang %}
+          {% if track.data.language %} lang="{{ track.data.language }}"{% endif %}
+          {% endcapture -%}
 
-            <h3 class="title" {{ lang }}>
-              {% if track.data.canceled %}DESSVERRE AVLYST – {% endif %}
-              {% if track.data.permalink %}
-                <a href="{{ track.url }}">{{ track.data.title }}</a>
-              {% else %}
-                {{ track.data.title }}
-              {% endif %}
-            </h3>
+          <h3 class="title" {{ lang }}>
+            {% if track.data.canceled %}DESSVERRE AVLYST – {% endif %}
+            {% if track.data.permalink %}
+              <a href="{{ track.url }}">{{ track.data.title }}</a>
+            {% else %}
+              {{ track.data.title }}
+            {% endif %}
+          </h3>
             
-            {% if track.data.summary.length > 0 %}
-              <p>{{ track.data.summary }}</p>
-            {% endif %}
+          {% if track.data.summary.length > 0 %}
+            <p>{{ track.data.summary }}</p>
+          {% endif %}
 
-            {% if track.data.speakers and track.data.speakers[0].name != null %}
-            <div class="speakers">
-              {% for speaker in track.data.speakers %}
-              <div class="byline">
-                {% if speaker.image %}                
-                <img class="avatar byline__image" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="24">
-                {% else  %}
-                <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
-                {% endif %}
-                <div class="byline__text">
-                  <p class="byline__name">{{ speaker.name }}</p>
-                </div>
+          {% if track.data.speakers and track.data.speakers[0].name != null %}
+          <div class="speakers">
+            {% for speaker in track.data.speakers %}
+            <div class="byline">
+              {% if speaker.image %}                
+              <img class="avatar byline__image" src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" eleventy:widths="24">
+              {% else  %}
+              <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
+              {% endif %}
+              <div class="byline__text">
+                <p class="byline__name">{{ speaker.name }}</p>
               </div>
-              {% endfor %}
             </div>
-            {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
 
 
-            {% unless track.data.permalink == false %}
-            <div class="tags">
-              {% for tag in track.data.event-tags %}
-                <span class="tag" data-tag="{{ tag }}">
-                  {{ tag }}
-                </span>
-              {% endfor %}
-            </div>
-            {% endunless %}
+          {% unless track.data.permalink == false %}
+          <div class="tags">
+            {% for tag in track.data.event-tags %}
+              <span class="tag" data-tag="{{ tag }}">
+                {{ tag }}
+              </span>
+            {% endfor %}
+          </div>
+          {% endunless %}
 
 
-            </div>
-          {% endfor %}
+          </div>
+        {% endfor %}
 
-        </div>
       </div>
       {% endfor %}
+
     </div>
     {% endfor %}
   </div>
