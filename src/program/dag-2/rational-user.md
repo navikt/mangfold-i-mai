@@ -10,7 +10,7 @@ speakers:
   - name: Ina Tsvetkova
     role: Spesialist på universell utforming av IKT i Nav
     image: /assets/images/speakers/Ina-Tsvetkova.jpg
-delta:
+delta: https://delta.nav.no/event/b361da99-47cd-4af9-9b0a-497b36cd74ff
 location: "Speakers Corner"
 streaming: true
 ---
