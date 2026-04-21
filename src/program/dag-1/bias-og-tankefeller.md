@@ -8,8 +8,8 @@ speakers:
   - name: Lene Løvdal
     role: Likestillings- og menneskerettsjurist, seniorrådgiver i Nav
     image: /assets/images/speakers/Lene-Lovdal.jpg
-
 location: "Amfiet"
+delta: https://delta.nav.no/event/b93345bc-9d42-43c4-b8e2-cefa98c0e4ab
 ---
 
 Mer informasjon kommer snart
