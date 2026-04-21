@@ -11,7 +11,7 @@ speakers:
     role: "Produktleder i Team representasjon i Nav"
     info: "Hege er produktleder i Nav, hvor hun leder et team som har fått i oppdrag å se på hvordan Nav kan løse digital representasjon på tvers av ulike tekniske løsninger. Hun har flere års erfaring med produktutvikling av digitale tjenester i offentlig og privat sektor, og har alltid vært opptatt av å lage løsninger som kan brukes av alle."
     image: /assets/images/speakers/hege-langlo.jpg
-delta:
+delta: https://delta.nav.no/event/e85ef309-40ba-46e6-9354-e320c5053f0f
 location: "Speakers Corner"
 streaming: true
 ---
