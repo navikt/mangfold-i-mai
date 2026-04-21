@@ -12,7 +12,9 @@ speakers:
   - name: Karina Ludwig
     role: Fagleder for universell utforming av IKT i Nav
     image: /assets/images/speakers/karina-ludwig.jpg
-delta: https://delta.nav.no/event/00e121e8-b8a8-494f-8e40-b6cc8477ca7f
+delta:
+  fysisk: https://delta.nav.no/event/00e121e8-b8a8-494f-8e40-b6cc8477ca7f
+  digitalt: 
 location: "Speakers Corner"
 ---
 

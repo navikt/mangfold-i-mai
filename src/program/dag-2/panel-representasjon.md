@@ -11,7 +11,9 @@ speakers:
     role: 
     image: 
     info: ""
-delta: https://delta.nav.no/event/df8938f4-55e5-47ea-a582-40c56c1b8ac3
+delta:
+  fysisk: https://delta.nav.no/event/df8938f4-55e5-47ea-a582-40c56c1b8ac3
+  digitalt: 
 location: "Amfiet"
 streaming: true
 ---

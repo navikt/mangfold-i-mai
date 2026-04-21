@@ -13,7 +13,9 @@ speakers:
     role: Fagleder for universell utforming av IKT i Nav.
     image: /assets/images/speakers/karina-ludwig.webp
 location: "Speakers Corner"
-delta: https://delta.nav.no/event/09c790d8-ec16-4d8b-8873-4dd7bd59f8c6
+delta:
+  fysisk: https://delta.nav.no/event/09c790d8-ec16-4d8b-8873-4dd7bd59f8c6
+  digitalt: 
 ---
 
 Alle har fordommer og går i tankefeller. Risikoen er høy for at offentlige tjenesteyter diskriminerer uten å se det selv. Hvilke krav stiller loven? Og hvordan jobber Nav med å oppfylle disse kravene? 

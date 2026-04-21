@@ -23,7 +23,10 @@ speakers:
     role: Leder av Globale Sandefjord
     image: /assets/images/speakers/faten-lubani.jpg
     info: "Faten Lubani er leder for Globale Sandefjord, der målet er å fremme mangfoldskompetanse som et konkurransefortrinn i næringslivet. Hun har en mastergrad innen utviklingsarbeid og jobbet i FNs organisasjon for industriell utvikling. Hun er sertifisert mangfoldsleder, har ledet Sandefjord kommunes handlingsplan for mangfold og inkludering, og har blitt tildelt en inkluderingspris for sin innsats."
-delta: https://delta.nav.no/event/019c3295-bc78-4b88-bd68-2981ae82fac6
+delta: 
+  fysisk: https://delta.nav.no/event/019c3295-bc78-4b88-bd68-2981ae82fac6
+  digitalt: 
+
 location: "Amfiet"
 streaming: true
 ---

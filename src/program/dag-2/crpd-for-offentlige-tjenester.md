@@ -10,6 +10,8 @@ speakers:
   - name: 
     role: 
 location: "Speakers Corner"
-delta: https://delta.nav.no/event/e85ef309-40ba-46e6-9354-e320c5053f0f
+delta:
+  fysisk: https://delta.nav.no/event/e85ef309-40ba-46e6-9354-e320c5053f0f
+  digitalt: 
 ---
 

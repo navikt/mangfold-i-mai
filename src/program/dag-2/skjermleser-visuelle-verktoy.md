@@ -11,7 +11,9 @@ speakers:
     role: 
     image: 
     info: ""
-delta: https://delta.nav.no/event/7dbc9bd2-8f08-4c09-8734-fd5e978f21f2
+delta:
+  fysisk: https://delta.nav.no/event/7dbc9bd2-8f08-4c09-8734-fd5e978f21f2
+  digitalt: 
 location: "Speakers Corner"
 ---
 

@@ -7,7 +7,9 @@ event-tags: []
 speakers: 
   - name:
     role: 
-delta: https://delta.nav.no/event/09c790d8-ec16-4d8b-8873-4dd7bd59f8c6
+delta:
+  fysisk: https://delta.nav.no/event/09c790d8-ec16-4d8b-8873-4dd7bd59f8c6
+  digitalt: 
 location: "Speakers Corner"
 ---
 Mer informasjon kommer.
