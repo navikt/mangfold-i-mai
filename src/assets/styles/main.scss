@@ -247,6 +247,7 @@
                 padding: 0.25lh 0.75ch;
                 margin-inline: -0.75ch;
                 border-radius: 0 0 0.5em 0.5em;
+                background-color: var(--gray-lighter);
 
                 @container sticky-heading scroll-state(stuck: top) {
                     background-color: var(--purple-lighter);
