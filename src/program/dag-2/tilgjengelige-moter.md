@@ -13,7 +13,7 @@ speakers:
   - name: Siri Vinjevoll
     role: Seniorrådgiver, Nav hjelpemiddelsentral, Vestland - Førde
     info: "Siri Vinjevoll har bakgrunn som optiker med master i optometri og lang erfaring innen ulike områder i optometrien. Siri arbeider i dag med tilrettelegging for synsvansker, og er opptatt av hvordan smartere jobbing og energiøkonomisering kan bidra til økt deltakelse og redusert belastning i arbeidslivet. "
-delta:
+delta: https://delta.nav.no/event/00e121e8-b8a8-494f-8e40-b6cc8477ca7f
 location: "Speakers Corner"
 streaming: true
 ---
