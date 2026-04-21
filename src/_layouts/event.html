@@ -64,6 +64,8 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
       <article class="byline">
         {%- if speaker.image %}
         <img src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" class="avatar byline__image" eleventy:widths="72">
+        {% else %}
+        <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
         {%- endif %}
         <div class="byline__text">
           <p class="byline__name"><strong>{{ speaker.name }}</strong></p>
