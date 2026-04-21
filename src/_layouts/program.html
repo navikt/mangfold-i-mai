@@ -3,10 +3,8 @@ layout: "default.html"
 ---
 
 {% block content %}
-  <div>
-    <h1>{{ title }}</h1>
-    {{ content }}
-  </div>
+  <h1>{{ title }}</h1>
+  {{ content }}
 
   <div class="program">
     {% assign days = collections.days | sort: "data.title" %}

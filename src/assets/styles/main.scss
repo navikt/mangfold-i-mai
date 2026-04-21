@@ -108,7 +108,7 @@
         span {
             border-radius: 99px;
             display: flex;
-            background-color: var(--purple);
+            background-color: var(--purple-dark);
             color: var(--white);
             outline-offset: -3px;
             padding-inline: 1.5ch;
@@ -240,18 +240,17 @@
         @media (width > 56rem) {
             position: sticky;
             top: 0;
+        }
+        span {
+            transition: background-color 300ms, color 300ms;
+            display: inline-block;
+            padding: 0.25lh 0.75ch;
+            margin-inline: -0.75ch;
+            border-radius: 0 0 0.5em 0.5em;
+            background-color: var(--gray-lighter);
 
-            span {
-                transition: background-color 300ms, color 300ms;
-                display: inline-block;
-                padding: 0.25lh 0.75ch;
-                margin-inline: -0.75ch;
-                border-radius: 0 0 0.5em 0.5em;
-                background-color: var(--gray-lighter);
-
-                @container sticky-heading scroll-state(stuck: top) {
-                    background-color: var(--purple-lighter);
-                }
+            @container sticky-heading scroll-state(stuck: top) {
+                background-color: var(--purple-lighter);
             }
         }
     }
@@ -360,23 +359,30 @@
 }
 
 .event {
+    display: grid;
+    align-content: start;
+
     @media (width > 56rem) {
-        display: grid;
         grid-template-columns: 1fr 25ch;
-        align-content: start;
         column-gap: 6ch;
-        
-        & > :not(.signup) {
-            grid-column-start: 1;
-        }
-        & > h1 {
-            grid-column-end: -1;
+    }
+
+    & > h1 {
+        @media (width > 56rem) {
             margin-block:0.125lh 0.375lh;
         }
-        & > .signup {
+    }
+    & > :not(.signup) {
+        @media (width > 56rem) {
+            grid-column-start: 1;
+        }
+    }
+    & > .signup {
+        align-self: start;
+
+        @media (width > 56rem) {
             grid-column: 2;
             grid-row: span 8;
-            align-self: start;
         }
     }
 
@@ -428,7 +434,7 @@
     background-color: var(--orange-light);
     border-radius: 1em;
     padding: 1em;
-    margin-block: 1.5lh;
+    margin-block: 0 1.5lh;
     line-height: 1.5;
     max-inline-size: 36ch;
     inline-size: stretch;
