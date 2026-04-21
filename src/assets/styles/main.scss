@@ -293,10 +293,7 @@
     font-size: 1rem;
     font-weight: 400;
     display: inline-block;
-
-    @media(width < 48rem) {
-        margin-block-end: .125lh;
-    }
+    margin-block-end: .125lh;
 }
 
 .program__timeslot {
@@ -727,7 +724,7 @@ a.rounded-button:hover {
     grid-column: 1/-1;
     display: block;
     zoom: 1.25;
-    margin: 1lh auto;
+    margin: 1.5lh auto;
 }
 
 .edit {
