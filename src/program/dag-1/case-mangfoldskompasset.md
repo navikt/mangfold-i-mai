@@ -16,7 +16,8 @@ speakers:
 location: "Speakers Corner"
 delta:
   fysisk: https://delta.nav.no/event/019c3295-bc78-4b88-bd68-2981ae82fac6
-  digitalt: 
+  digitalt: https://delta.nav.no/event/52ecf9a9-ed98-4693-9a73-bf6e6d7841a2
+stream: true
 ---
 
 I dette innlegget får du vite mer om Stimulab-prosjektet _Mangfoldskompasset_, som har som mål å øke kompetansen om kjønns- og seksualitetsmangfold i offentlig sektor. En av de tilnærmingene i prosjektet er atferdsdesign -  å bruke kunnskap om psykologiske funksjoner og tankefeller for å lette bruken av en løsning.  Vi presenterer prosjektet, og gir noen enkle verktøy som kan gjøre løsningene dine enklere og mer attraktive. 
