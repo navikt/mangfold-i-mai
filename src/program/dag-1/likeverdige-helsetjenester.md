@@ -14,7 +14,8 @@ stream:
 location: "Amfiet"
 delta: 
   fysisk: https://delta.nav.no/event/b93345bc-9d42-43c4-b8e2-cefa98c0e4ab
-  digitalt: 
+  digitalt: https://delta.nav.no/event/05f837d8-7fd0-4a47-be80-2ed42e3952bd
+stream: true
 ---
 I dette innlegget vil du få høre mer om hvordan Oslo universitetssykehus jobber med mangfold og likeverdige helsetjenester. Både med fokus på tjenester rettet mot pasienter og brukere, samt kompetanseheving av egne ansatte om sentrale temaer for å sikre at helsetjenesten oppleves trygg og inkluderende. 
 
