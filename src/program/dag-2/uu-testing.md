@@ -9,7 +9,7 @@ event-tags: ['Foredrag']
 speakers: 
   - name: Jan Beniamin Kwiek  
     role: Teknolog i Uu-tilsynet
-    image: 
+    image: /assets/images/speakers/jan-beniamin-kwiek.jpg
     info:
 delta:
   fysisk:
