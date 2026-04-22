@@ -17,7 +17,8 @@ speakers:
 location: "Helsfyr B104 Gnisten"
 delta:
   fysisk: https://delta.nav.no/event/78b5b365-7844-4454-b030-1875d658da09
-  digitalt: 
+  digitalt:
+stream: false
 ---
 
 ## Del 1 (foredrag)

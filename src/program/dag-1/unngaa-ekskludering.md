@@ -10,6 +10,7 @@ speakers:
   - name: 
     role: 
 location: "Helsfyr, B108 Fyrstikken"
+stream: false
 ---
 Vi alle har våre biaser, som også påvirker hvordan vi lager tjenester og produkter. 
 Hvordan er det i de tingene du jobber med? Fungerer det du lager like godt for alle, uavhengig av for eksempel kjønn, funksjonsevne, etnisitet eller alder?
