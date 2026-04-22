@@ -10,7 +10,6 @@ speakers:
     role: Rådgiver for mangfold og likeverdige helsetjenester i seksjon helsekompetanse, Oslo universitetssykehus
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
 audience:
-stream: 
 location: "Amfiet"
 delta: 
   fysisk: https://delta.nav.no/event/b93345bc-9d42-43c4-b8e2-cefa98c0e4ab
