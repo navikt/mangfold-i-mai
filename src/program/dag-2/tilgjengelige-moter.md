@@ -9,13 +9,15 @@ event-tags: ['Mini-kurs']
 speakers: 
   - name: Lene Mari Jensen
     role: Seniorrådgiver, Nav hjelpemiddelsental, Troms og Finnmark
+    image: /assets/images/speakers/lene-mari-jensen.jpeg
     info: "Siri Vinjevoll har bakgrunn som optiker med master i optometri og lang erfaring innen ulike områder i optometrien. Siri arbeider i dag med tilrettelegging for synsvansker, og er opptatt av hvordan smartere jobbing og energiøkonomisering kan bidra til økt deltakelse og redusert belastning i arbeidslivet." 
   - name: Siri Vinjevoll
     role: Seniorrådgiver, Nav hjelpemiddelsentral, Vestland - Førde
+    image: /assets/images/speakers/siri-vinjevoll.jpeg
     info: "Siri Vinjevoll har bakgrunn som optiker med master i optometri og lang erfaring innen ulike områder i optometrien. Siri arbeider i dag med tilrettelegging for synsvansker, og er opptatt av hvordan smartere jobbing og energiøkonomisering kan bidra til økt deltakelse og redusert belastning i arbeidslivet. "
 delta:
   fysisk: https://delta.nav.no/event/00e121e8-b8a8-494f-8e40-b6cc8477ca7f
-  digitalt: 
+  digitalt: https://delta.nav.no/event/2ef41c00-859c-4676-bfbc-d8c52ab8fc93
 location: "Speakers Corner"
 streaming: true
 ---

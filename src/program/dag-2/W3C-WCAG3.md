@@ -13,7 +13,7 @@ speakers:
     info: "As Senior Principal Accessibility Specialist at W3C WAI, Kevin contributes to internationally recognized standards that support accessibility. He provides support and oversight of the accessibility Working Groups, collaborates on WAI strategic planning, and manages W3C accessibility support."
 delta:
   fysisk: https://delta.nav.no/event/b361da99-47cd-4af9-9b0a-497b36cd74ff
-  digitalt: 
+  digitalt: https://delta.nav.no/event/5f0dfa13-b89f-410c-a447-dcd5723bf7f9
 location: "Speakers Corner"
 language: en
 ---

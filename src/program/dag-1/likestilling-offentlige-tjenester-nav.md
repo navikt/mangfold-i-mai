@@ -15,7 +15,7 @@ speakers:
 location: "Speakers Corner"
 delta:
   fysisk: https://delta.nav.no/event/09c790d8-ec16-4d8b-8873-4dd7bd59f8c6
-  digitalt: 
+  digitalt: https://delta.nav.no/event/302cb3f6-8187-4e86-9635-2e7048e48170
 ---
 
 Alle har fordommer og går i tankefeller. Risikoen er høy for at offentlige tjenesteyter diskriminerer uten å se det selv. Hvilke krav stiller loven? Og hvordan jobber Nav med å oppfylle disse kravene? 

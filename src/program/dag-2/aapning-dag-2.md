@@ -14,7 +14,7 @@ speakers:
     image: /assets/images/speakers/karina-ludwig.jpg
 delta:
   fysisk: https://delta.nav.no/event/00e121e8-b8a8-494f-8e40-b6cc8477ca7f
-  digitalt: 
+  digitalt: https://delta.nav.no/event/41aae1bf-0311-4e4c-b238-6084831e142a
 location: "Speakers Corner"
 ---
 

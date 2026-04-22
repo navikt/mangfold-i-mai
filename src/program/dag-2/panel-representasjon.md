@@ -13,7 +13,7 @@ speakers:
     info: ""
 delta:
   fysisk: https://delta.nav.no/event/df8938f4-55e5-47ea-a582-40c56c1b8ac3
-  digitalt: 
+  digitalt: https://delta.nav.no/event/d1664014-8f24-44d7-8ae5-964274fa051f
 location: "Amfiet"
 streaming: true
 ---
