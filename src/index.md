@@ -2,7 +2,6 @@
 layout: "home.html"
 title: Mangfold i mai - velkommen!
 ---
-
 # Delta på Mangfold i mai 2026, den 20. og 21. mai 
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
@@ -13,10 +12,12 @@ Bli klokere på hvordan bias påvirker dine beslutninger og hvordan du kan sikre
     
 - **21. mai** har tema universell utforming av IKT og inkluderende møtekultur, det er også årets _Global Accessibility Awareness Day_ !
 
-
 ## Hvordan kan jeg bli med?
 Alt skjer i Arbeids- og velferdsdirektoratet lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant. 
 
+<a class="pill-button" href="/program/">Se programmet</a>
+
+{% comment %}
 <div class="pill-button" data-readonly>
   <svg class="icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g stroke="currentColor" stroke-linejoin="round" stroke-width="2">
@@ -28,11 +29,6 @@ Alt skjer i Arbeids- og velferdsdirektoratet lokaler i Oslo. På grunn av begren
   </svg>
   <span>Programmet er snart klart</span>
 </div>
-
-{% comment %}
-
-
-<a class="pill-button" href="/program/">Program</a>
 
 Vi er takknemlig for [tilbakemeldinger på innleggene du har sett](#). Det tar kort tid og hjelper oss masse. Takk!
 
