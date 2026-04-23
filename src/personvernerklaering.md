@@ -13,7 +13,7 @@ Denne personvernerklæringen er knyttet til behandlingen av personopplysninger p
 ## Hva er informasjonskapsler?
 Vi bruker informasjonskapsler og tilsvarende teknologi på på mangfoldimai.no. Dette er teknologi som lagrer små biter med informasjon i nettleseren din, eller som henter ut enkelte opplysninger om datamaskinen, nettbrettet eller mobilen din. For enkelhets skyld bruker vi begrepet «informasjonskapsel» når vi beskriver denne typen teknologi.
 
-Hvis du samtykker, bruker vi valgfrie informasjonskapsler fra statistikk- og analyseverktøyet Umami for å kartlegge hvordan og hvor mye mangfoldimai.no brukes. Målet er å samle data som hjelper oss å forbedre nettsidene, uten å identifisere deg. Vi har iverksatt flere tiltak for å hindre identifisering, og vi deler ikke data med tredjeparter.
+Hvis du samtykker, bruker vi valgfrie informasjonskapsler fra statistikk- og analyseverktøyet Umami for å kartlegge hvordan og hvor mye mangfoldimai.no brukes. Målet er å forbedre nettsidene gjennom analyse av statistikk, uten å identifisere deg. Vi har iverksatt flere tiltak for å hindre identifisering, og vi deler ikke data med tredjeparter.
 
 ## Hvilke informasjonskapsler bruker vi?
 
