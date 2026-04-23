@@ -8,25 +8,10 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 
   <p>{{ event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</p>
 
-  {% if youtube or vimeo or qbrick %}
-    {% if youtube %}
-      <iframe class="video" width="560" height="315" src="{{ youtube | replace: "youtube.com", "youtube-nocookie.com" | replace: "watch?v=", "embed/" }}" title="{{ title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
-    {% endif %}
-
-    {% if vimeo %}
-      {% assign vimeo_url_segments = vimeo | replace: "https://vimeo.com/", "" %}
-      {% assign vimeo_channel = vimeo_url_segments | split: "/" | first %}
-      {% assign vimeo_id = vimeo_url_segments | split: "/" | last %}
-
-      <iframe class="video" src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;dnt=1&amp; badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
-      <script src="https://player.vimeo.com/api/player.js"></script>
-    {% endif %}
-    
-    {% if qbrick %}
-      {{ qbrick }}
-    {% endif %}
-  {% endif %}
-
+  {% if youtube %}<a class="pill-button" href="{{ youtube }}">Se opptak på YouTube</a>{% endif %}
+  {% if vimeo %}<a class="pill-button" href="{{ vimeo }}">Se opptak på Vimeo</a>{% endif %}
+  {% if qbrick %}<a class="pill-button" href="{{ qbrick }}">Se opptak i Qbrick</a>{% endif %}
+  
   {{ content }}
 
   <h2>Foredragsholder{% if speakers.length > 1 %}e{% endif %}</h2>
@@ -51,3 +36,26 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 
 {% block script %}
 {% endblock %}
+
+
+{% comment %} 
+
+{% if youtube or vimeo or qbrick %}
+    {% if youtube %}
+      <iframe class="video" width="560" height="315" src="{{ youtube | replace: "youtube.com", "youtube-nocookie.com" | replace: "watch?v=", "embed/" }}" title="{{ title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>          
+    {% endif %}
+
+    {% if vimeo %}
+      {% assign vimeo_url_segments = vimeo | replace: "https://vimeo.com/", "" %}
+      {% assign vimeo_channel = vimeo_url_segments | split: "/" | first %}
+      {% assign vimeo_id = vimeo_url_segments | split: "/" | last %}
+
+      <iframe class="video" src="https://player.vimeo.com/video/{{ vimeo_channel }}?h={{ vimeo_id }}&amp;dnt=1&amp; badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Digitale ulikheter blant ungdom med Kaja Hegg"></iframe>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    {% endif %}
+    
+    {% if qbrick %}
+      {{ qbrick }}
+    {% endif %}
+  {% endif %}
+{% endcomment %}
