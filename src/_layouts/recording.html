@@ -15,23 +15,13 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
   {{ content }}
 
   <h2>Foredragsholder{% if speakers.length > 1 %}e{% endif %}</h2>
-  {% if speakers.length > 1 %}
-    <ul class="speakers">
-      {% for speaker in speakers %}
-      <li>
-        <b>{{ speaker.name }}</b>
-        {%- if speaker.role.length > 1 %},<br>{{ speaker.role }}{% endif %}
-      </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    {% for speaker in speakers %}
-      <p>
-        <b>{{ speaker.name }}</b>
-        {%- if speaker.role.length > 1 %},<br>{{ speaker.role }}{% endif %}
-      </p>
-    {% endfor %}
-  {% endif %}
+  {% for speaker in speakers %}
+  <p>
+    <b>{{ speaker.name }}</b><br>
+    {{ speaker.role }}
+  </p>
+  {% endfor %}
+
 {% endblock %}
 
 {% block script %}
