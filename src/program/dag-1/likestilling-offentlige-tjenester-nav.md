@@ -20,4 +20,4 @@ delta:
 stream: true
 ---
 
-Alle har fordommer og går i tankefeller. Risikoen er høy for at offentlige tjenesteyter diskriminerer uten å se det selv. Hvilke krav stiller loven? Og hvordan oppleves manglende likestilling for brukerne?
+Alle har fordommer og går i tankefeller. Risikoen er høy for at offentlige tjenesteyter diskriminerer uten å se det selv. Hvilke krav stiller loven? Hvordan jobber Nav med å møte disse kravene? Og hvordan oppleves manglende likestilling for brukerne?
