@@ -8,4 +8,6 @@ export default {
   // url: 'https://navikt.github.io/mangfold-i-mai/',
   github_repository: 'https://github.com/navikt/mangfold-i-mai/',
   today: DateTime.fromISO(new Date().toISOString()),
+  stream: '#',
+  // stream: 'https://vimeo.com/event/5115379/910dd41941',
 }

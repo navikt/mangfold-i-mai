@@ -1,434 +1,96 @@
 ---
 layout: 'default.html'
+permalink: "/program/{{ page.fileSlug | slugify }}/"
 ---
 
 {% capture lang -%}{% if language %} lang="{{ language }}"{% endif %}{%- endcapture %}
 
 {% block content %}
+<div class="event">
+
+  <div class="tags">
+    {% for tag in event-tags %}
+      <span class="tag" data-tag="{{ tag }}">
+        {{ tag }}
+      </span>
+    {% endfor %}
+  </div>
+
   <h1{{ lang }}>{%- if canceled %}DESSVERRE AVLYST – {% endif %}{{ title }}</h1>
 
+  <div class="metadata">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path transform="translate(0 3)" fill-rule="evenodd" clip-rule="evenodd" d="M9 2.25C9.41421 2.25 9.75 2.58579 9.75 3V4.25H14.25V3C14.25 2.58579 14.5858 2.25 15 2.25C15.4142 2.25 15.75 2.58579 15.75 3V4.25H19.5C20.1904 4.25 20.75 4.80964 20.75 5.5V18.5C20.75 19.1904 20.1904 19.75 19.5 19.75H4.5C3.80964 19.75 3.25 19.1904 3.25 18.5V5.5C3.25 4.80964 3.80964 4.25 4.5 4.25H8.25V3C8.25 2.58579 8.58579 2.25 9 2.25ZM15.75 7C15.75 7.41421 15.4142 7.75 15 7.75C14.5858 7.75 14.25 7.41421 14.25 7V5.75H9.75V7C9.75 7.41421 9.41421 7.75 9 7.75C8.58579 7.75 8.25 7.41421 8.25 7V5.75H4.75V9.25H19.25V5.75H15.75V7ZM4.75 18.25V10.75H19.25V18.25H4.75ZM6.75 13C6.75 12.5858 7.08579 12.25 7.5 12.25H8.5C8.91421 12.25 9.25 12.5858 9.25 13C9.25 13.4142 8.91421 13.75 8.5 13.75H7.5C7.08579 13.75 6.75 13.4142 6.75 13ZM10.75 13C10.75 12.5858 11.0858 12.25 11.5 12.25H12.5C12.9142 12.25 13.25 12.5858 13.25 13C13.25 13.4142 12.9142 13.75 12.5 13.75H11.5C11.0858 13.75 10.75 13.4142 10.75 13ZM15.5 12.25C15.0858 12.25 14.75 12.5858 14.75 13C14.75 13.4142 15.0858 13.75 15.5 13.75H16.5C16.9142 13.75 17.25 13.4142 17.25 13C17.25 12.5858 16.9142 12.25 16.5 12.25H15.5ZM10.75 16C10.75 15.5858 11.0858 15.25 11.5 15.25H12.5C12.9142 15.25 13.25 15.5858 13.25 16C13.25 16.4142 12.9142 16.75 12.5 16.75H11.5C11.0858 16.75 10.75 16.4142 10.75 16ZM15.5 15.25C15.0858 15.25 14.75 15.5858 14.75 16C14.75 16.4142 15.0858 16.75 15.5 16.75H16.5C16.9142 16.75 17.25 16.4142 17.25 16C17.25 15.5858 16.9142 15.25 16.5 15.25H15.5ZM6.75 16C6.75 15.5858 7.08579 15.25 7.5 15.25H8.5C8.91421 15.25 9.25 15.5858 9.25 16C9.25 16.4142 8.91421 16.75 8.5 16.75H7.5C7.08579 16.75 6.75 16.4142 6.75 16Z" fill="currentColor"/></svg>
+
+    {{ event-date | readableDate: 'EEEE dd. MMM' |  capitalize }},
+    <time datetime="{{ event-date }}">
+      <abbr title="klokken">kl.</abbr>
+      {{ event-date | readableDate: 'T' | replace: ":", "." }}–{{ event-date-end | readableDate: 'T' | replace: ":", "." }}
+    </time>
+  </div>
+
+    
   {% unless canceled %}
-    <ul class="tags">
-      {% if privacy == "public" %}
-        <li><span class="badge green {{ privacy }}">Åpent for alle</span></li>
-      {% else %}
-        <li><span class="badge red {{ privacy }}">Bare for Nav-ansatte</span></li>
-      {% endif %}        
+  <div class="signup">
+    {% if audience %}<p>Målgruppe:<br><b>{{ audience }}</b></p>{% endif %}        
 
-      {% if location-type != "in-person" %}
-        <li><span class="badge purple stream">Nettmøte</span></li>
-      {% endif %} 
-        
-      {% if location-type != "stream" %}
-        <li><span class="badge blue in-person">Fysisk arrangement</span></li>
-      {% endif %} 
-
-      {% if registration == true or registration-link %}
-        <li><span class="badge yellow registration-required">Krever påmelding</span></li>
-      {% endif %}
-
-      {% if event.data.video-url %}
-        <li><span class="badge recorded">Opptak tilgjengelig</span></li>
-      {% elsif event.recorded == true %}
-        <li><span class="badge recorded">Blir tatt opp</span></li>
-      {% endif %}
-    </ul>
-
-    {% comment %}
-    <div class="metadata">
-      <div class="date-location">
-        <p class="dateblob" aria-hidden="true">
-          <span class="dateblob__day">
-          {{ event-date | readableDate: 'ccc' | remove: '.' }}
-          </span>
-          <span class="dateblob__date">
-          {{ event-date | readableDate: 'dd' | remove: '.' }}
-          </span>            
-        </p>
-
-        <p>
-          <time datetime="{{ event-date }}">
-            {{ event-date | readableDate: 'T' }}–{{ event-date-end | readableDate: 'T' }}
-          </time>
-      
-          <!-- LOCATION -->   
-          {%- case location-type %} 
-            {% when "stream" %}
-              {% if location-name %}{{ location-name }}{% endif %}
-              {% if location-link %}<a href="{{ location-link }}">Nettmøte</a>{% endif %} 
-            {% when "in-person" %}
-              {% if location-name %}{{ location-name }}{% endif %}
-            {% when "hybrid" %}
-              {{ location-name }} 
-              {% if location-hybrid %} 
-              {% unless location-name %}{{ location-hybrid }}{% endunless %} 
-              {% endif %}
-              {% if location-link %}<a href="{{ location-link }}">Nettmøte</a>{% endif %}
-          {%- endcase %}
-        </p>
-      
-        {% if registration-link %}
-          <p>📝 <a href="{{ registration-link }}">Registrer deg her</a></p>
-        {% endif %}    
-      </div>
-      <button class="ical" type="button" onclick="javascript:cal.download('{{ title }} | Mangfold i mai 2024')">
-        📅 Legg til i kalender
-      </button>      
-    </div>
-    {% endcomment %}
+    {% if delta %}
+      <p>Påmelding for ansatte i Nav</p>
+      <div>
+        {% if delta.fysisk %}
+          <a class="rounded-button" href="{{ delta.fysisk }}">Delta fysisk</a>
+        {% endif %}
+        {% if delta.digitalt %}
+          <a class="rounded-button" href="{{ delta.digitalt }}">Delta digitalt</a>
+        {% endif %}
+      </div>       
+    {% endif %}    
+  </div>
   {% endunless %}
 
-
   <div class="description" {{ lang }}>
-    {{ content }} 
-    {% include 'live-stream.html' %}
-    
-    {% if speakers %}
-      <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
-      {% if speakers.length > 1 %}
-        <ul>
-          {% for speaker in speakers %}
-              <li>{{ speaker.name }}</li>
-          {% endfor %}
-        </ul>
-      {% else %}
-        <p>{{ speakers[0].name }}</p>
-      {% endif %}
+    {{ content }}   
+
+    {% if stream %}
+    <p class="stream">Arrangementet blir strømmet direkte, og er åpent for alle.<br>
+      <a class="pill-button" href="{{ site.stream }}" data-readonly>
+        <svg class="icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <g stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+            <path d="M8 10V7c0-2.5 2-4 4-4s4 1.5 4 4v3"/>
+            <path d="M6 20v-9c0-.5.5-1 1-1h10c.5 0 1 .5 1 1v9H6Z"/>
+          </g>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 16.8v-2.6"/>
+          <circle cx="12" cy="14.3" r="1.5" fill="currentColor"/>
+        </svg>
+        <span>Direktestrøm (Vimeo)</span>
+      </a>
+    </p>    
     {% endif %}
-  </div>    
+  </div>
+
+
+  {% if speakers.length > 0 and speakers[0].name != null %}
+  <div class="speakers">
+    <h2>Foredrags&shy;holder{% if speakers.length > 1 %}e{% endif %}</h2>
+
+    {% for speaker in speakers %}
+      <article class="byline">
+        {%- if speaker.image %}
+        <img src="{{ speaker.image }}" alt="" aria-hidden="true" loading="lazy" decoding="auto" class="avatar byline__image" eleventy:widths="72">
+        {% else %}
+        <svg class="icon" aria-hidden="true" focusable="false" width="24" height="24" fill="none" viewBox="0 0 24 24"><g stroke-width="1.75" stroke="currentColor"><circle cx="12" cy="9.5" r="3"/><path d="M16.5 19.5a4.5 4.5 0 1 0-9 0"/><circle cx="12" cy="12" r="9"/></g></svg>
+        {%- endif %}
+        <div class="byline__text">
+          <p class="byline__name"><strong>{{ speaker.name }}</strong></p>
+          {% if speaker.role %}<p class="byline__role">{{ speaker.role }}</p>{% endif %}
+          {% if speaker.info %}<p class="byline__info">{{ speaker.info }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+    </div>
+  {% endif %}
+
+</div>      
 {% endblock %}
 
 {% block script %}
-  <script src="/assets/scripts/ics.min.js" defer></script>
-  <script type="text/javascript" async>
-
-    /*! ics.js Wed Aug 20 2014 17:23:02 */
-    var saveAs =
-      saveAs ||
-      (function (e) {
-        'use strict'
-        if (
-          typeof e === 'undefined' ||
-          (typeof navigator !== 'undefined' &&
-            /MSIE [1-9]\./.test(navigator.userAgent))
-        ) {
-          return
-        }
-        var t = e.document,
-          n = function () {
-            return e.URL || e.webkitURL || e
-          },
-          r = t.createElementNS('http://www.w3.org/1999/xhtml', 'a'),
-          o = 'download' in r,
-          a = function (e) {
-            var t = new MouseEvent('click')
-            e.dispatchEvent(t)
-          },
-          i = /constructor/i.test(e.HTMLElement) || e.safari,
-          f = /CriOS\/[\d]+/.test(navigator.userAgent),
-          u = function (t) {
-            ;(e.setImmediate || e.setTimeout)(function () {
-              throw t
-            }, 0)
-          },
-          s = 'application/octet-stream',
-          d = 1e3 * 40,
-          c = function (e) {
-            var t = function () {
-              if (typeof e === 'string') {
-                n().revokeObjectURL(e)
-              } else {
-                e.remove()
-              }
-            }
-            setTimeout(t, d)
-          },
-          l = function (e, t, n) {
-            t = [].concat(t)
-            var r = t.length
-            while (r--) {
-              var o = e['on' + t[r]]
-              if (typeof o === 'function') {
-                try {
-                  o.call(e, n || e)
-                } catch (a) {
-                  u(a)
-                }
-              }
-            }
-          },
-          p = function (e) {
-            if (
-              /^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(
-                e.type,
-              )
-            ) {
-              return new Blob([String.fromCharCode(65279), e], {
-                type: e.type,
-              })
-            }
-            return e
-          },
-          v = function (t, u, d) {
-            if (!d) {
-              t = p(t)
-            }
-            var v = this,
-              w = t.type,
-              m = w === s,
-              y,
-              h = function () {
-                l(v, 'writestart progress write writeend'.split(' '))
-              },
-              S = function () {
-                if ((f || (m && i)) && e.FileReader) {
-                  var r = new FileReader()
-                  r.onloadend = function () {
-                    var t = f
-                      ? r.result
-                      : r.result.replace(
-                          /^data:[^;]*;/,
-                          'data:attachment/file;',
-                        )
-                    var n = e.open(t, '_blank')
-                    if (!n) e.location.href = t
-                    t = undefined
-                    v.readyState = v.DONE
-                    h()
-                  }
-                  r.readAsDataURL(t)
-                  v.readyState = v.INIT
-                  return
-                }
-                if (!y) {
-                  y = n().createObjectURL(t)
-                }
-                if (m) {
-                  e.location.href = y
-                } else {
-                  var o = e.open(y, '_blank')
-                  if (!o) {
-                    e.location.href = y
-                  }
-                }
-                v.readyState = v.DONE
-                h()
-                c(y)
-              }
-            v.readyState = v.INIT
-            if (o) {
-              y = n().createObjectURL(t)
-              setTimeout(function () {
-                r.href = y
-                r.download = u
-                a(r)
-                h()
-                c(y)
-                v.readyState = v.DONE
-              })
-              return
-            }
-            S()
-          },
-          w = v.prototype,
-          m = function (e, t, n) {
-            return new v(e, t || e.name || 'download', n)
-          }
-        if (typeof navigator !== 'undefined' && navigator.msSaveOrOpenBlob) {
-          return function (e, t, n) {
-            t = t || e.name || 'download'
-            if (!n) {
-              e = p(e)
-            }
-            return navigator.msSaveOrOpenBlob(e, t)
-          }
-        }
-        w.abort = function () {}
-        w.readyState = w.INIT = 0
-        w.WRITING = 1
-        w.DONE = 2
-        w.error =
-          w.onwritestart =
-          w.onprogress =
-          w.onwrite =
-          w.onabort =
-          w.onerror =
-          w.onwriteend =
-            null
-        return m
-      })(
-        (typeof self !== 'undefined' && self) ||
-          (typeof window !== 'undefined' && window) ||
-          this.content,
-      )
-    if (typeof module !== 'undefined' && module.exports) {
-      module.exports.saveAs = saveAs
-    } else if (
-      typeof define !== 'undefined' &&
-      define !== null &&
-      define.amd !== null
-    ) {
-      define('FileSaver.js', function () {
-        return saveAs
-      })
-    }
-
-    var ics = function (e, t) {
-      'use strict'
-      {
-        if (
-          !(
-            navigator.userAgent.indexOf('MSIE') > -1 &&
-            -1 == navigator.userAgent.indexOf('MSIE 10')
-          )
-        ) {
-          void 0 === e && (e = 'default'), void 0 === t && (t = 'Calendar')
-          var r = -1 !== navigator.appVersion.indexOf('Win') ? '\r\n' : '\n',
-            n = [],
-            i = ['BEGIN:VCALENDAR', 'PRODID:' + t, 'VERSION:2.0'].join(r),
-            o = r + 'END:VCALENDAR',
-            a = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA']
-          return {
-            events: function () {
-              return n
-            },
-            calendar: function () {
-              return i + r + n.join(r) + o
-            },
-            addEvent: function (t, i, o, l, u, s) {
-              if (
-                void 0 === t ||
-                void 0 === i ||
-                void 0 === o ||
-                void 0 === l ||
-                void 0 === u
-              )
-                return !1
-              if (s && !s.rrule) {
-                if (
-                  'YEARLY' !== s.freq &&
-                  'MONTHLY' !== s.freq &&
-                  'WEEKLY' !== s.freq &&
-                  'DAILY' !== s.freq
-                )
-                  throw "Recurrence rrule frequency must be provided and be one of the following: 'YEARLY', 'MONTHLY', 'WEEKLY', or 'DAILY'"
-                if (s.until && isNaN(Date.parse(s.until)))
-                  throw "Recurrence rrule 'until' must be a valid date string"
-                if (s.interval && isNaN(parseInt(s.interval)))
-                  throw "Recurrence rrule 'interval' must be an integer"
-                if (s.count && isNaN(parseInt(s.count)))
-                  throw "Recurrence rrule 'count' must be an integer"
-                if (void 0 !== s.byday) {
-                  if (
-                    '[object Array]' !==
-                    Object.prototype.toString.call(s.byday)
-                  )
-                    throw "Recurrence rrule 'byday' must be an array"
-                  if (s.byday.length > 7)
-                    throw "Recurrence rrule 'byday' array must not be longer than the 7 days in a week"
-                  s.byday = s.byday.filter(function (e, t) {
-                    return s.byday.indexOf(e) == t
-                  })
-                  for (var c in s.byday)
-                    if (a.indexOf(s.byday[c]) < 0)
-                      throw "Recurrence rrule 'byday' values must include only the following: 'SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'"
-                }
-              }
-              var g = new Date(l),
-                d = new Date(u),
-                f = new Date(),
-                S = ('0000' + g.getFullYear().toString()).slice(-4),
-                E = ('00' + (g.getMonth() + 1).toString()).slice(-2),
-                v = ('00' + g.getDate().toString()).slice(-2),
-                y = ('00' + g.getHours().toString()).slice(-2),
-                A = ('00' + g.getMinutes().toString()).slice(-2),
-                T = ('00' + g.getSeconds().toString()).slice(-2),
-                b = ('0000' + d.getFullYear().toString()).slice(-4),
-                D = ('00' + (d.getMonth() + 1).toString()).slice(-2),
-                N = ('00' + d.getDate().toString()).slice(-2),
-                h = ('00' + d.getHours().toString()).slice(-2),
-                I = ('00' + d.getMinutes().toString()).slice(-2),
-                R = ('00' + d.getMinutes().toString()).slice(-2),
-                M = ('0000' + f.getFullYear().toString()).slice(-4),
-                w = ('00' + (f.getMonth() + 1).toString()).slice(-2),
-                L = ('00' + f.getDate().toString()).slice(-2),
-                O = ('00' + f.getHours().toString()).slice(-2),
-                p = ('00' + f.getMinutes().toString()).slice(-2),
-                Y = ('00' + f.getMinutes().toString()).slice(-2),
-                U = '',
-                V = ''
-              y + A + T + h + I + R != 0 &&
-                ((U = 'T' + y + A + T), (V = 'T' + h + I + R))
-              var B,
-                C = S + E + v + U,
-                j = b + D + N + V,
-                m = M + w + L + ('T' + O + p + Y)
-              if (s)
-                if (s.rrule) B = s.rrule
-                else {
-                  if (((B = 'rrule:FREQ=' + s.freq), s.until)) {
-                    var x = new Date(Date.parse(s.until)).toISOString()
-                    B +=
-                      ';UNTIL=' +
-                      x.substring(0, x.length - 13).replace(/[-]/g, '') +
-                      '000000Z'
-                  }
-                  s.interval && (B += ';INTERVAL=' + s.interval),
-                    s.count && (B += ';COUNT=' + s.count),
-                    s.byday &&
-                      s.byday.length > 0 &&
-                      (B += ';BYDAY=' + s.byday.join(','))
-                }
-              new Date().toISOString()
-              var H = [
-                'BEGIN:VEVENT',
-                'UID:' + n.length + '@' + e,
-                'CLASS:PUBLIC',
-                'DESCRIPTION:' + i,
-                'DTSTAMP;VALUE=DATE-TIME:' + m,
-                'DTSTART;VALUE=DATE-TIME:' + C,
-                'DTEND;VALUE=DATE-TIME:' + j,
-                'LOCATION:' + o,
-                'SUMMARY;LANGUAGE=en-us:' + t,
-                'TRANSP:TRANSPARENT',
-                'END:VEVENT',
-              ]
-              return B && H.splice(4, 0, B), (H = H.join(r)), n.push(H), H
-            },
-            download: function (e, t) {
-              if (n.length < 1) return !1
-              ;(t = void 0 !== t ? t : '.ics'),
-                (e = void 0 !== e ? e : 'calendar')
-              var a,
-                l = i + r + n.join(r) + o
-              if (-1 === navigator.userAgent.indexOf('MSIE 10'))
-                a = new Blob([l])
-              else {
-                var u = new BlobBuilder()
-                u.append(l),
-                  (a = u.getBlob(
-                    'text/x-vCalendar;charset=' + document.characterSet,
-                  ))
-              }
-              return saveAs(a, e + t), l
-            },
-            build: function () {
-              return !(n.length < 1) && i + r + n.join(r) + o
-            },
-          }
-        }
-        console.log('Unsupported Browser')
-      }
-    }
-
-    var summary = '{{ summary }}'
-    cal = ics('{{ title }} - Mangfold i mai 2024')
-    cal.addEvent(
-      '{{ title }} - Mangfold i mai 2024',
-      summary,
-      '{{ location-name }}',
-      '{{ event-date }}',
-      '{{ event-date-end }}',
-    )
-  </script>
 {% endblock %}

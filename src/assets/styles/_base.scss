@@ -7,6 +7,7 @@
     --blue-medium: hsl(209, 100%, 36%);
     --blue-dark: hsl(215, 100%, 16%);
     --gray-light: hsl(200, 6%, 91%);
+    --gray-lighter: hsl(200, 4%, 97%);
     --gray: hsl(210, 5%, 84%);
     --green: hsl(156, 40%, 60%);
     --green-lighter: hsl(156, 48%, 90%);
@@ -21,7 +22,7 @@
     --purple-light: hsl(268, 26%, 82%);
     --purple-dark: hsl(240, 30%, 48%);
     --yellow: hsl(45, 100%, 72%);
-    --yellow-light: hsl(45, 80%, 90%);
+    --yellow-light: hsl(45, 80%, 92%);
     --yellow-dark: hsl(45, 100%, 56%);
     --orange: hsl(30, 90%, 72%);
     --orange-light: hsl(30, 96%, 85%);
@@ -34,11 +35,7 @@
     box-sizing: border-box;
     overflow-y: scroll;
     block-size: 100%;
-    font-size: 1.125em;
-
-    @media (width > 64rem) {
-        font-size: 1.25em;
-    }
+    font-size: clamp(1.125em, 16px + .3125vw, 1.25em);
 }
 
 *,
@@ -50,7 +47,7 @@
 body {
     margin: 0;
     min-block-size: 100%;
-    background-color: #FAFAFA;
+    background-color: var(--gray-lighter);
     font-family: 'Nunito', system-ui, sans-serif;
     line-height: 1.55;
     color: var(--blue-dark);
@@ -85,6 +82,10 @@ main :where(p, li) {
     }
 }
 
+abbr {
+    text-decoration: none;
+}
+
 picture {
     display: contents;
 }
@@ -95,21 +96,26 @@ picture {
     vertical-align: top;
 }
 
+p:has(img) {
+    display: contents;
+}
+
 :where(h1, h2, h3) {
     margin-block: 1.25lh 0.25lh;
 }
 
 :where(h1, h2) {
+    font-weight: 800;
     line-height: 1.2;
 }
 
 :where(h1) {
-    font-weight: 800;
+    font-size:2.25em;
     margin-block: 0 0.5lh;
     text-wrap: balance;
 }
 :where(h2) {
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 :where(h2:first-child) {
@@ -117,11 +123,16 @@ picture {
 }
 
 :where(h3) {
+    font-size:1.25em;
+    font-weight: 700;
     line-height: 1.35;
+}
+:where(h2 + h3) {
+    margin-block-start:0;
 }
 
 :where(h2, h3, h4) + p {
-    margin-block-start: 0.375lh;
+    margin-block-start: 0;
 }
 
 iframe {

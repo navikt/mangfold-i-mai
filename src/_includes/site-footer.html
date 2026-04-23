@@ -1,14 +1,15 @@
 <div class="container blob-grid">
-    <img src="/assets/images/blobs/rectangle-side.svg" alt="">
-    <img src="/assets/images/blobs/star-rounded.svg" alt="">
-    <img src="/assets/images/blobs/angle.svg" alt="">
+  <img src="/assets/images/blobs/rectangle-side.svg" alt="">
+  <img src="/assets/images/blobs/star-rounded.svg" alt="">
+  <img src="/assets/images/blobs/angle.svg" alt="">
 </div>
 
 <footer class="site-footer container">
   <div class="wrapper">
     <div>
       <p>
-        <b>Mangfold i mai</b> er en arrangementsserie rundt mangfold, inkludering og universell utforming i regi av Team Universell utforming og inkluderende design hos Arbeids- og velferdsdirektoratet.
+        <b>Mangfold i mai</b>
+        er en arrangementsserie rundt mangfold, inkludering og universell utforming i regi av Team Universell utforming og inkluderende design hos Arbeids- og velferdsdirektoratet og Bufdir.
       </p>
       <p>
         <b>Arkiv for tidligere år:</b>
@@ -21,17 +22,17 @@
     <div style="display:grid">
       <p>
         <b>Kontakt oss</b>:<br>
-        <a href="mailto:{{ site.email }}">E-post</a> eller
+        <a href="mailto:{{ site.email }}">E-post</a>
+        eller
         <a href="https://nav-it.slack.com/archives/C7MANSGLS">Slack (for Nav-ansatte)</a>.
       </p>
       <p style="align-self:end;margin-block-start:0">
         <a href={{ "/personvernerklaering/" }}>Personvernerklæring</a>
       </p>
-      <button class="change-cookie-consent" type="button" onclick="changeCookieConsent()">Endre samtykke for informasjonskapsler</button>
+      <button
+        class="change-cookie-consent"
+        type="button"
+        onclick="changeCookieConsent()">Endre samtykke for informasjonskapsler</button>
     </div>
   </div>
 </footer>
-
-{% comment %} <div class="edit">
-  <a href="{{ site.github_repository }}/edit/main/{{ page.path }}" target="_blank">✏️ <span>Rediger denne siden på Github (åpner i en ny fane)</span></a>
-</div> {% endcomment %}

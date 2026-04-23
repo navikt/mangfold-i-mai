@@ -1,12 +1,14 @@
 ---
 layout: "program.html"
 title: Program
+# title: Program - Likeverdige offentlige tjenester
 permalink: 'program/index.html'
-# eleventyNavigation:
-#   key: menu
-#   title: Program
-#   order: 1
-noindex: true
+eleventyNavigation:
+  key: menu
+  title: Program
+  order: 1
+blobs:
+  - '/assets/images/blobs/upper-half-circle.svg'
+  - '/assets/images/blobs/triangle.svg'
 ---
 
-Det er mulighet for å legge inn mer innhold over selve programmet, dersom det er behov for det.

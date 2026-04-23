@@ -18,5 +18,5 @@ vimeo: 'https://vimeo.com/1142971046/08045c416e'
 Selv om personer med nedsatt funksjonsevne på papiret har de samme rettighetene som alle andre, står fortsatt mer enn 105.000 utenfor arbeidslivet.
 
 I anleding av FNs internasjonale dag for personer med nedsatt funksjonsevne inviterer Mangfold i mai til en diskusjon rundt temaet! 
-Stine Dybvik, seniorrådgiver hos Likestillings- og diskrimineringsombudet (LDO) innleder med en presentasjon av LDOs nye verkøkasse som skal bistå arbeidsgiver i å rektruttere personer med funksjonsnedsettelse.
+Stine Dybvik, seniorrådgiver hos Likestillings- og diskrimineringsombudet (LDO) innleder med en presentasjon av [LDOs nye verktøykasse](https://ldo.no/blog/2025/10/22/slik-tilset-du-fleire-personar-med-funksjonsnedsetjing/) som skal bistå arbeidsgiver i å rektruttere personer med funksjonsnedsettelse.
 Vi avslutter med en penaldebatt.
