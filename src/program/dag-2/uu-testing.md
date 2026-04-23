@@ -2,8 +2,8 @@
 title: "Manuell testing - praktisk testing med Uu-tilsynet"
 summary: ""
 
-event-date: 2026-05-21T15:30
-event-date-end: 2026-05-21T16:00
+event-date: 2026-05-21T14:45
+event-date-end: 2026-05-21T11:15
 event-tags: ['Foredrag']
 
 speakers: 
