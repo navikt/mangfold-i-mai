@@ -478,6 +478,8 @@ body.show-cookie-banner {
 }
 
 .stream {
+    margin-block-start: -0.75lh;
+
     @media (width > 56rem) {
         grid-column: 2;
     }
@@ -731,7 +733,8 @@ a.rounded-button:hover {
     background-color: var(--purple-lighter) !important;
     border: 2px dashed var(--blue-dark);
     color: currentColor !important;
-    cursor: not-allowed
+    cursor: not-allowed;
+    display: inline-flex;
 }
 
 
