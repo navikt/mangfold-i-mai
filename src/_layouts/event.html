@@ -51,8 +51,9 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
     {{ content }}   
 
     {% if stream %}
-    <p class="stream">Arrangementet blir strømmet direkte, og er åpent for alle.<br>
-      <a class="pill-button" href="{{ site.stream }}" data-readonly>
+      {% comment %} href="{{ site.stream }}" {% endcomment %}
+    <p class="stream">Vi strømmer direkte og åpent for alle under arrangementet.<br>
+      <span class="pill-button" data-readonly>
         <svg class="icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
           <g stroke="currentColor" stroke-linejoin="round" stroke-width="2">
             <path d="M8 10V7c0-2.5 2-4 4-4s4 1.5 4 4v3"/>
@@ -61,8 +62,8 @@ permalink: "/program/{{ page.fileSlug | slugify }}/"
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 16.8v-2.6"/>
           <circle cx="12" cy="14.3" r="1.5" fill="currentColor"/>
         </svg>
-        <span>Direktestrøm (Vimeo)</span>
-      </a>
+        <span>Direktestrøm kommer senere (Vimeo)</span>
+      </span>
     </p>    
     {% endif %}
   </div>

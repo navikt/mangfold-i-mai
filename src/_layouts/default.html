@@ -18,5 +18,7 @@
     <!-- Last build: {{ site.today }} -->
     <!-- Layout: {{ layout }} -->
     <!-- Index: {% if noindex %}FALSE{% else %}TRUE{% endif %} -->
+    <!-- Env: {{ site.env }}-->
+  {%- if site.mode == 'serve' %}<!-- Mode: {{ site.mode }} -->{%- endif %}
   </body>
 </html>

@@ -23,8 +23,10 @@
     type="font/woff2"
     crossorigin>
   <link rel="stylesheet" href="/assets/styles/main.css">
+  {% unless site.mode == 'serve' %}
+  
   <script src="/assets/scripts/main.js" defer></script>
-
+  {% endunless %}
   <title>
     {%- unless page.url == '/' %}
       {{ title }} |

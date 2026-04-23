@@ -2,6 +2,7 @@ import { DateTime } from 'luxon';
 
 export default {
   mode: process.env.ELEVENTY_RUN_MODE,
+  env: process.env.ELEVENTY_ENV,
   title: 'Mangfold i mai',
   summary: 'Feir mangfold, inkludering og universell utforming!',
   url: 'https://mangfoldimai.no',

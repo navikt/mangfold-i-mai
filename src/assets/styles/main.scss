@@ -729,6 +729,7 @@ a.rounded-button:hover {
 
 [data-readonly], [data-readonly]:hover {
     background-color: var(--purple-lighter) !important;
+    border: 2px dashed var(--blue-dark);
     color: currentColor !important;
     cursor: not-allowed
 }
