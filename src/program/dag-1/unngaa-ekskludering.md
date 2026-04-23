@@ -1,5 +1,5 @@
 ---
-title: "Spor 1 (workshop): Få hjelp med å se om din tjeneste ekskluderer"
+title: "Spor 1 (Nav-intern workshop): Få hjelp med å se om din tjeneste ekskluderer"
 summary: "Vi hjelper deg med å se på mulige fallgruver i det du lager"
 
 event-date: 2026-05-20T14:15
