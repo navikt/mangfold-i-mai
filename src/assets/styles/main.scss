@@ -26,6 +26,7 @@ body {
     position:relative;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    align-items: start;
 }
 
 body.show-cookie-banner {
