@@ -23,7 +23,7 @@ stream: false
 
 ## Del 1 (foredrag)
 ### Hvordan Nav jobber med inkluderende rekruttering 
-Om rekruttering uten søknadsbrev, traineeprogram i staten og andre gode grep for mer inkludernde rekruttering. Med Vegar Mørk, Nav.
+I dette innlegget blir det blant annet snakket om hvordan å kutte søknadsbrevet kan være med på å fjerne biaser og gjøre prosessene mer inkluderende. Nav startet utprøving av å kutte søknadsbrevet i mars i år. Med Vegar Mørk, Nav.
 
 ## Del 2 (workshop)
 ### Hvordan rekruttere mer mangfoldig og likestilt 
