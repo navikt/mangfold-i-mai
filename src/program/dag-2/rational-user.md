@@ -16,3 +16,5 @@ delta:
 location: "Speakers Corner"
 streaming: true
 ---
+
+Foredraget blir streamet, men ikke lagt ut som opptak.
