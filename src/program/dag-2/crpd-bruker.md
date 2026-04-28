@@ -1,9 +1,9 @@
 ---
-title: "Tema: Brukerperspektiv knyttet til verger og representasjon"
-summary: "Innlegget er ikke ferdig avklart, vi oppdaterer snart."
+title: "Når du trenger hjelp med kontakten med Nav "
+summary: "Hva er tilgjengelige og likeverdige tjenester for utviklingshemmede?"
 event-date: 2026-05-21T13:00
 event-date-end: 2026-05-21T13:20
-event-tags: []
+event-tags: ['Foredrag']
 
 speakers: 
   - name: 
@@ -14,4 +14,4 @@ delta:
 location: "Speakers Corner"
 ---
 
-Innlegget er ikke ferdig avklart, vi oppdaterer med mer informasjon snart.
+Mer informasjon kommer snart.
