@@ -14,4 +14,5 @@ delta:
 location: "Speakers Corner"
 ---
 
-Mer informasjon kommer snart.
+Nav skal være tilgjengelig for alle, også de med cognitive funksjonsnedsettelser. Hvilke behov har hovedpersonene, og hvilken rolle spiller verger og andre hjelpere?
+
