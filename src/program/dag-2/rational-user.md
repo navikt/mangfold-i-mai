@@ -16,5 +16,6 @@ delta:
 location: "Speakers Corner"
 streaming: true
 ---
+Users don’t follow “happy paths”. They misclick, skip steps, and abandon tasks. Test beyond accessibility compliance for clarity, recovery, compassion, and build forgiving and inclusive systems.
 
-Foredraget blir streamet, men ikke lagt ut som opptak.
+Foredraget er på engelsk. Det blir streamet, men ikke lagt ut som opptak.
