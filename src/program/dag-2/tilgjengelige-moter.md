@@ -10,7 +10,7 @@ speakers:
   - name: Lene Mari Jensen
     role: Seniorrådgiver, Nav hjelpemiddelsental, Troms og Finnmark
     image: /assets/images/speakers/lene-mari-jensen.jpeg
-    info: "Siri Vinjevoll har bakgrunn som optiker med master i optometri og lang erfaring innen ulike områder i optometrien. Siri arbeider i dag med tilrettelegging for synsvansker, og er opptatt av hvordan smartere jobbing og energiøkonomisering kan bidra til økt deltakelse og redusert belastning i arbeidslivet." 
+    info: "Lene Mari Jensen har bakgrunn som audiograf med lang erfaring innen klinisk audiologi og rehabilitering, og arbeider i dag med tilrettelegging for personer med hørselsvansker, med særlig fokus på deltakelse og tilgjengelighet i arbeidslivet." 
   - name: Siri Vinjevoll
     role: Seniorrådgiver, Nav hjelpemiddelsentral, Vestland - Førde
     image: /assets/images/speakers/siri-vinjevoll.jpeg
