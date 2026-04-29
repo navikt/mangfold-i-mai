@@ -16,6 +16,9 @@ delta:
 location: "Speakers Corner"
 streaming: true
 ---
-Users don’t follow “happy paths”. They misclick, skip steps, and abandon tasks. Test beyond accessibility compliance for clarity, recovery, compassion, and build forgiving and inclusive systems.
+We often assume that users behave rationally and follow a linear “happy path”. But real interactions are far messier. People misclick, get distracted, skip instructions, or abandon tasks. These behaviors are not exceptions. They are part of daily life.
+
+This talk advocates for testing that reflects real-world unpredictability, mental effort, and emotional impact. Drawing from cognitive accessibility principles, behavioral science, trauma-informed design, and emotional accessibility, it shows how systems often fail not because of technical errors, but because they are not built to support people in real-life situations.
+We will learn how to test not only for accessibility compliance, but also for clarity, recovery, and compassion, and how to make systems more forgiving and inclusive.
 
 Foredraget er på engelsk. Det blir streamet, men ikke lagt ut som opptak.
