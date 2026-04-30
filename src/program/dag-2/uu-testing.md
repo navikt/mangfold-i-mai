@@ -14,7 +14,7 @@ speakers:
 delta:
   fysisk:
   digitalt: https://delta.nav.no/event/ce129272-4211-4542-b8a6-d2b823b61693
-location: "Sosial sone 4. etasje"
+location: "Smeltedigelen"
 ---
 Få innsikt i hvordan Uu-tilsynet bruker manuell testing for å avdekke barrierer på nett!
 Innlegget gir en teoretisk gjennomgang av ulike typer testing, samt praktisk testing av utvalgte krav vi ofte finner feil.
