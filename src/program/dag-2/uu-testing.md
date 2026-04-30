@@ -1,9 +1,9 @@
 ---
 title: "Manuell testing - praktisk testing med Uu-tilsynet"
-summary: ""
+summary: "(streaming av opptak)"
 
-event-date: 2026-05-21T14:45
-event-date-end: 2026-05-21T15:15
+event-date: 2026-05-21T12:00
+event-date-end: 2026-05-21T12:30
 event-tags: ['Foredrag']
 
 speakers: 
@@ -14,7 +14,7 @@ speakers:
 delta:
   fysisk:
   digitalt: https://delta.nav.no/event/ce129272-4211-4542-b8a6-d2b823b61693
-location: "Speakers Corner"
+location: "Sosial sone 4. etasje"
 ---
 Få innsikt i hvordan Uu-tilsynet bruker manuell testing for å avdekke barrierer på nett!
 Innlegget gir en teoretisk gjennomgang av ulike typer testing, samt praktisk testing av utvalgte krav vi ofte finner feil.
