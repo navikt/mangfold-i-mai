@@ -1,17 +1,17 @@
 ---
-title: "Offentlige tjenester og risiko for diskriminering"
-summary: "Om tankefeller, ubevisst diskriminering og brukermedvirkning"
+title: "Brukermedvirkning som verktøy for likeverdige tjenester"
+summary: ""
 
 event-date: 2026-05-20T11:30
 event-date-end: 2026-05-20T12:30
 event-tags: ['Foredrag','Panel']
 speakers: 
-  - name: Lene Løvdal
-    role: Likestillings- og menneskerettsjurist. Seniorrådgiver i Nav.
-    image: /assets/images/speakers/Lene-Lovdal.jpg
-  - name: Karina Ludwig
-    role: Fagleder for universell utforming av IKT i Nav.
-    image: /assets/images/speakers/karina-ludwig.webp
+  - name: Mette Sønderskov
+    role: Professor ved Handelshøyskolen Innlandet
+    image: 
+  - name: Nina Vaage
+    role: Avdelingsdirektør, Nav Innlandet
+    image: 
   - name: Brukermedvirkere fra Nav Innlandet
 location: "Speakers Corner"
 delta:
@@ -20,4 +20,4 @@ delta:
 stream: true
 ---
 
-Alle har fordommer og går i tankefeller. Risikoen er høy for at offentlige tjenesteyter diskriminerer uten å se det selv. Hvilke krav stiller loven? Hvordan jobber Nav med å møte disse kravene? Og hvordan oppleves manglende likestilling for brukerne?
+Hvordan kan brukermedvirkning bidra til å sikre likeverdige og ikke-diskriminerende offentlige tjenester? I denne sesjonen møter du erfarne brukermedvirkere, en som forsker på brukermedvirkning, og folk i Nav som bruker medvirkning som verktøy i tjenesteutviklingen.
