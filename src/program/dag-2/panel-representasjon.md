@@ -11,6 +11,9 @@ speakers:
     role: "Produktleder i Team representasjon i Nav"
     info: "Hege er produktleder i Nav, hvor hun leder et team som har fått i oppdrag å se på hvordan Nav kan løse digital representasjon på tvers av ulike tekniske løsninger. Hun har flere års erfaring med produktutvikling av digitale tjenester i offentlig og privat sektor, og har alltid vært opptatt av å lage løsninger som kan brukes av alle."
     image: /assets/images/speakers/hege-langlo.jpg
+  - name: Mette Sønderskov
+    role: Professor ved Handelshøyskolen Innlandet
+    info: "Mette Sønderskov er professor i offentlig innovasjon ved Universitetet i Innlandet. Hennes forskningsinteresser inkluderer blant annet samskaping i tjenesteutvikling, medvirkning og deltakelse i politiske beslutningsprosesser samt samhandling i og mellom velferdstjenester."
   - name: Jon Eskild R. Kindberg
     role: Jurist og rådgiver, Bufdir
     info: 
