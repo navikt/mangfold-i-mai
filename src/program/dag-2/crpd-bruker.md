@@ -6,7 +6,7 @@ event-date-end: 2026-05-21T13:20
 event-tags: ['Foredrag']
 
 speakers: 
-  - name: 
+  - name: Norsk Forbund for Utviklingshemmede (NFU)
     role: 
 delta:
   fysisk: https://delta.nav.no/event/e85ef309-40ba-46e6-9354-e320c5053f0f
