@@ -1,5 +1,5 @@
 ---
-title: "Selvbestemmelse vs. tilgjengelige tjenester. Hva sier jussen? "
+title: "Selvbestemmelse versus tilgjengelige tjenester. Hva sier jussen? "
 summary: ""
 
 event-date: 2026-05-21T13:20
