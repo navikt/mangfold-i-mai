@@ -554,11 +554,12 @@ body.show-cookie-banner {
         }
     }
     p {
-        @media (width > 64rem) {
-            margin-block-start: 0;
-        }
+
         &:last-of-type {
             margin-block-end: 0;
+        }
+        a:has(img) + a:has(img) {
+            margin-inline-start: 2ch;
         }
     }
 }
