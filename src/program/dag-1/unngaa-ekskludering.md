@@ -7,8 +7,8 @@ event-date-end: 2026-05-20T15:15
 event-tags: ['Workshop']
 
 speakers: 
-  - name: 
-    role: 
+  - name: Christopher Gambert
+    role: Seniorrådgiver hos Likestillings- og diskrimineringsombudet
 location: "Helsfyr, B108 Fyrstikken"
 stream: false
 ---
@@ -19,5 +19,6 @@ Vi hjelper deg med å se hvor noen fallgruver kan ligge, og du kan få innspill 
 
 Vi har plass til 4 til 5 team / grupper - send en melding til mangfold.i.mai@nav.no hvis du vil være med :) 
 
+Workshopen ledes av Christopher Gambert, seniorrådgiver hos Likestillings- og diskrimineringsombudet
 Workshopen gjennomføres fysisk på Direktoratets lokaler og streames ikke.
 
