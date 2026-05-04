@@ -1,5 +1,5 @@
 ---
-title: "Ingen er et gjennomsnitt"
+title: "Panlesamtale: Ingen er et gjennomsnitt"
 summary: "Hvordan kan vi sikre likeverdige offentlige tjenester?"
 
 event-date: 2026-05-20T13:15
@@ -25,5 +25,6 @@ delta:
 stream: true
 location: "Amfiet"
 ---
-Mer informasjon kommer.
+Panel mellom Oslo Universitetssykehus, Bufdir og Nav. 
+Panelet ledes av Faten Lubani. Mer informasjon kommer.
 
