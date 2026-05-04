@@ -6,6 +6,7 @@ export default {
   title: 'Mangfold i mai',
   summary: 'Feir mangfold, inkludering og universell utforming!',
   url: 'https://mangfoldimai.no',
+  email: 'mangfold.i.mai@nav.no',
   // url: 'https://navikt.github.io/mangfold-i-mai/',
   github_repository: 'https://github.com/navikt/mangfold-i-mai/',
   today: DateTime.fromISO(new Date().toISOString()),
