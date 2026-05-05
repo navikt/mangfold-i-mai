@@ -6,11 +6,11 @@ event-date-end: 2026-05-20T09:10
 event-tags: ['Foredrag']
 speakers: 
   - name: Beth Stensen
-    image: 
+    image: /assets/images/speakers/beth-stensen.jpg
     role: Direktør for Avdeling for Brukeropplevelse i Nav
   - name: Linn Huse-Amundsen
     role: Direktør for Avdeling for Mennesker og organisasjon i Nav
-    image: 
+    image: /assets/images/speakers/linn-huse-amundsen.jpg
 delta: 
   fysisk: https://delta.nav.no/event/b93345bc-9d42-43c4-b8e2-cefa98c0e4ab
   digitalt: https://delta.nav.no/event/3651e5cc-5500-44bb-9047-34e49499eb99

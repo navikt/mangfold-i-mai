@@ -8,7 +8,7 @@ event-tags: ['Foredrag','Panel']
 speakers: 
   - name: Mette Sønderskov
     role: Professor ved Handelshøyskolen Innlandet
-    image:
+    image: /assets/images/speakers/mette-sonderskov.jpg
     info: "Mette Sønderskov er professor i offentlig innovasjon ved Universitetet i Innlandet. Hennes forskningsinteresser inkluderer blant annet samskaping i tjenesteutvikling, medvirkning og deltakelse i politiske beslutningsprosesser samt samhandling i og mellom velferdstjenester."
   - name: Nina Vaage
     role: Avdelingsdirektør, Nav Innlandet
