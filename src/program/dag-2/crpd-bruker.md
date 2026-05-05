@@ -1,6 +1,6 @@
 ---
-title: "Når du trenger hjelp med kontakten med Nav "
-summary: "Hva er tilgjengelige og likeverdige tjenester for utviklingshemmede?"
+title: "Når du ikke klarer deg selv i møte med Nav"
+summary: ""
 event-date: 2026-05-21T13:00
 event-date-end: 2026-05-21T13:20
 event-tags: ['Foredrag']
@@ -14,5 +14,5 @@ delta:
 location: "Speakers Corner"
 ---
 
-Nav skal være tilgjengelig for alle, også de med cognitive funksjonsnedsettelser. Hvilke behov har hovedpersonene, og hvilken rolle spiller verger og andre hjelpere?
+Innlegg fra sivilsamfunnet om hvilke behov utviklingshemmede og andre med cognitive funksjonsnedsettelser har når det gjelder digitale løsninger og tilrettelegging.
 
