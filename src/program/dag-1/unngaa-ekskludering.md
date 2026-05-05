@@ -15,7 +15,7 @@ stream: false
 Vi alle har våre biaser, som også påvirker hvordan vi lager tjenester og produkter. 
 Hvordan er det i de tingene du jobber med? Fungerer det du lager like godt for alle, uavhengig av for eksempel kjønn, funksjonsevne, etnisitet eller alder?
 
-Vi hjelper deg med å se hvor noen fallgruver kan ligge, og du kan få innspill og tilbakemeldinger fra både personer som kan mye om likestilling og ikke-diskriminering, og ikke minst noen brukerrepresentanter som kan gi innsyn hvordan manglende likeverd i offentlige tjenester føles for dem som skal bruke dem.
+Workshopen hjelper deg med å se hvor noen fallgruver kan ligge, og du kan få innspill og tilbakemeldinger fra både personer som kan mye om likestilling og ikke-diskriminering, og ikke minst noen brukerrepresentanter som kan gi innsyn hvordan manglende likeverd i offentlige tjenester føles for dem som skal bruke dem.
 
 Vi har plass til 4 til 5 team / grupper - send en melding til mangfold.i.mai@nav.no hvis du vil være med :) 
 
