@@ -1,6 +1,6 @@
 ---
-title: "Tilgjengelighet til hvilken pris?"
-summary: "Muligheter og utfordringer for tjenesteutviklere."
+title: "Hvorfor kan vi ikke bare fikse det?"
+summary: "Muligheter og utfordringer for de som utvikler løsninger for digital representasjon."
 
 event-date: 2026-05-21T13:40
 event-date-end: 2026-05-21T14:00
