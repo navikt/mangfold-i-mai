@@ -8,7 +8,7 @@ event-tags: ['Foredrag']
 
 speakers: 
   - name: Jon Eskild R. Kindberg
-    role: Jurist og rådgiver, Bufdir
+    role: Jurist og rådgiver, Barne-, ungdoms og familiedirektoratet (Bufdir)
     info: ""
 location: "Speakers Corner"
 delta:
@@ -16,4 +16,4 @@ delta:
   digitalt: https://delta.nav.no/event/0097276d-48c3-469f-8d00-62f352fae5d7
 ---
 
-Juridiske perspektiver på likeverdige offentlige tjenester for personer med cognitive funksjonsnedsettelser. 
+I desember i fjor ble FN-konvensjonen om rettighetene til personer med nedsatt funksjonsevne (CRPD) tatt inn i menneskerettsloven. Det betyr at den har forrang for bl.a. folketrygdloven og Nav-loven. Hva er likestillende og ikke-diskriminerende offentlige tjenester for de som ikke klarer seg selv i møte med Nav?
