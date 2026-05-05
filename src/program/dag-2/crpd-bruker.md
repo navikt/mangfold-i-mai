@@ -1,6 +1,6 @@
 ---
 title: "Når du ikke klarer deg selv i møte med Nav"
-summary: ""
+summary: "Brukerperspektiver på Navs tjenester"
 event-date: 2026-05-21T13:00
 event-date-end: 2026-05-21T13:20
 event-tags: ['Foredrag']
