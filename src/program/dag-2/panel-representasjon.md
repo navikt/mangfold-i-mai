@@ -1,6 +1,6 @@
 ---
-title: "Panelsamtale. Hvordan ser tilgjengelige og likestillende tjenester for utviklingshemmede ut? "
-summary: "Og hvordan kommer vi dit? "
+title: "Panelsamtale: Om representasjon i offentlige løsninger"
+summary: ""
 
 event-date: 2026-05-21T14:15
 event-date-end: 2026-05-20T14:45
