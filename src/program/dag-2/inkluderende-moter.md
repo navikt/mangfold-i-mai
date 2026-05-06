@@ -23,6 +23,7 @@ delta:
   fysisk: https://delta.nav.no/event/7dbc9bd2-8f08-4c09-8734-fd5e978f21f2
   digitalt: https://delta.nav.no/event/8444b409-b4d7-43d1-8cc8-272138a9bcbf
 location: "Speakers Corner"
+stream: true
 ---
 
 Hvordan vi møtes påvirker både arbeidsmiljø, samarbeid og kvaliteten på beslutningene vi tar. I denne sesjonen ser vi på møtekultur fra tre ståsteder – verneombud, personalleder og medarbeider – og utforsker hvordan vi kan skape møter som er tydelige, trygge og effektive.
