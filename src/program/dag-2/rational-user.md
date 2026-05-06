@@ -14,7 +14,7 @@ delta:
   fysisk: https://delta.nav.no/event/b361da99-47cd-4af9-9b0a-497b36cd74ff
   digitalt: https://delta.nav.no/event/439144dd-d5b4-4486-ba4e-07417c0cea05
 location: "Speakers Corner"
-streaming: true
+stream: true
 ---
 We often assume that users behave rationally and follow a linear “happy path”. But real interactions are far messier. People misclick, get distracted, skip instructions, or abandon tasks. These behaviors are not exceptions. They are part of daily life.
 
