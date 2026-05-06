@@ -15,7 +15,7 @@ delta:
   fysisk: https://delta.nav.no/event/e85ef309-40ba-46e6-9354-e320c5053f0f
   digitalt: https://delta.nav.no/event/3fe0d369-d326-4841-81dc-40db9f4dc998
 location: "Speakers Corner"
-streaming: true
+stream: true
 ---
 
 Noen vil alltid ha behov for hjelp i møte med Nav, f.eks. på grunn av cognitive funksjonsnedsettelser eller manglende eID på høyt sikkerhetsnivå. 
