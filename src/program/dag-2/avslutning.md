@@ -4,7 +4,7 @@ summary: ""
 
 event-date: 2026-05-21T14:45
 event-date-end: 2026-05-20T15:15
-event-tags: ['Panel']
+event-tags: ['']
 
 speakers: 
   - name: ""
