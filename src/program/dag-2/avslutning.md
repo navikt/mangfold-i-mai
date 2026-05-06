@@ -13,7 +13,7 @@ speakers:
     image: 
 delta:
   fysisk: https://delta.nav.no/event/df8938f4-55e5-47ea-a582-40c56c1b8ac3
-  digitalt: 
+  digitalt: https://delta.nav.no/event/39fd599a-888f-4269-b9ea-a8c1666d1acb
 location: "Speakers Corner"
 streaming: false
 ---
