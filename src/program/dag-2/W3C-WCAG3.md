@@ -16,6 +16,7 @@ delta:
   digitalt: https://delta.nav.no/event/5f0dfa13-b89f-410c-a447-dcd5723bf7f9
 location: "Speakers Corner"
 language: en
+stream: true
 ---
 Work continues on the W3C Content Accessibility Guidelines (WCAG) 3. The Accessibility Guidelines Working Group Team Contact will give you the low down on the pit falls and progress on the latest update to the internationally recognized WCAG 3.
 
