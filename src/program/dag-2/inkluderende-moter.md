@@ -7,8 +7,16 @@ event-date-end: 2026-05-21T10:45
 event-tags: ['Foredrag']
 
 speakers: 
-  - name: 
-    role: 
+  - name: Mitra Zarabi
+    role: Jurist i Nav
+    image: 
+    info: ""
+  - name: Ingrid-Anne Willumsen
+    role: Personalleder i Nav
+    image: 
+    info: ""
+  - name: Bård Winther,
+    role: Verneombud i Nav
     image: 
     info: ""
 delta:
@@ -17,6 +25,7 @@ delta:
 location: "Speakers Corner"
 ---
 
-Møtekultur! Går alt smooth, eller er det tidsvis back2back, agendaløst og uten oppfølgingspunkter?
-Folk er forskjellig -Prater vi om møtene våre funker og kan det bli bedre?
-Kom, se, hør og føl tips, triks og refleksjoner rundt møtekultur
+Hvordan vi møtes påvirker både arbeidsmiljø, samarbeid og kvaliteten på beslutningene vi tar. I denne sesjonen ser vi på møtekultur fra tre ståsteder – verneombud, personalleder og medarbeider – og utforsker hvordan vi kan skape møter som er tydelige, trygge og effektive.
+
+Vi tar utgangspunkt i HØRA-modellen (Hensikt, Ønsket resultat, Agenda) og ser på hvordan gode forberedelser, riktige deltakere og tydelige roller gjør møtene mer inkluderende. Vi snakker om hvordan vi kan redusere unødvendige møter, korte dem ned, og sikre at alle vet hva de skal bidra med.
+Vi ser også på møtelederens ansvar for struktur og trygghet, og hvordan team kan ta kontroll over kalenderen gjennom møtefrie dager, fokustid og felles forventninger. Til slutt diskuterer vi hvordan vi som organisasjon kan skape en kultur der saker er tydelige, beslutningsveier er kjent, og alle opplever at møtene gir verdi.
