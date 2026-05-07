@@ -96,7 +96,6 @@ export default async function (eleventyConfig) {
   eleventyConfig.setServerOptions({
     enabled: true,
     showVersion: true,
-    port: 8888,
   })
 }
 
