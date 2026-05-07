@@ -10,6 +10,8 @@ speakers:
   - name: Jon Eskild R. Kindberg
     role: Rådgiver og jurist, Barne-, ungdoms og familiedirektoratet (Bufdir)
     info: "Jon Eskild er tilknyttet Avdeling for likestilling og universell utforming i Bufdir og arbeider til daglig med regelverksutvikling og -implementering. Han jobber særlig med gjennomføringen av FNs konvensjon om rettighetene til personer med nedsatt funksjonsevne (CRPD)"
+    image: /assets/images/speakers/jon-eskild-kindberg.jpg
+
 location: "Speakers Corner"
 delta:
   fysisk: https://delta.nav.no/event/e85ef309-40ba-46e6-9354-e320c5053f0f
