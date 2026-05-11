@@ -8,9 +8,9 @@ event-tags: ['Foredrag']
 
 speakers: 
   - name: Elin Sørensen
-    role: Medarbeider i Globale Sandefjord
+    role: Mangfoldskonsulent i Globale Sandefjord
     image: 
-    info: ""
+    info: "Elin Sørensen er mangfoldskonsulent i Globale Sandefjord, hvor hun jobber med å styrke mangfoldskompetanse som et konkurransefortrinn i arbeidslivet. Hun har lang erfaring fra media, event og kommunikasjon, og brenner for hvordan sosial bærekraft og inkluderende arbeidsliv skaper verdi for både mennesker og næringsliv."
 location: "Amfiet"
 delta: 
   fysisk: https://delta.nav.no/event/b93345bc-9d42-43c4-b8e2-cefa98c0e4ab
