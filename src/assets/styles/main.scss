@@ -419,7 +419,7 @@ body.show-cookie-banner {
     }
     
     .speakers {
-        margin-block-start: 1.375lh;
+        margin-block: 1.375lh;
         
         .byline {
             column-gap: 1.25ch;
@@ -459,7 +459,7 @@ body.show-cookie-banner {
         inline-size: min(48ch, 100%);
         corner-shape: squircle;
         border-radius: 8ch;
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 16 / 10;
         display: grid;
         align-content: center;
         justify-items: center;
