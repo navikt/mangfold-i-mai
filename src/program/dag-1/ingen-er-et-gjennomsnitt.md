@@ -15,7 +15,7 @@ speakers:
     role: Seniorrådgiver i avdeling for likestilling og universell utforming i Bufdir
     image: /assets/images/speakers/yngve-braaten.jpg
     info: "Yngve er koordinator av Bufdirs team for universell utforming. Yngve er opptatt av å utvikle og formidle informasjon om universell utforming som generell samfunnskvalitet og verktøy for økt likestilling."
-    - name: Trond Wetlesen
+  - name: Trond Wetlesen
     role: Nav
     image: 
     info: ""
