@@ -18,7 +18,7 @@ speakers:
     - name: Trond Wetlesen
     role: Nav
     image: 
-    info: "Y"
+    info: ""
   - name: Faten Lubani
     role: Leder av Globale Sandefjord
     image: /assets/images/speakers/faten-lubani.jpg
