@@ -15,6 +15,10 @@ speakers:
     role: Seniorrådgiver i avdeling for likestilling og universell utforming i Bufdir
     image: /assets/images/speakers/yngve-braaten.jpg
     info: "Yngve er koordinator av Bufdirs team for universell utforming. Yngve er opptatt av å utvikle og formidle informasjon om universell utforming som generell samfunnskvalitet og verktøy for økt likestilling."
+    - name: Trond Wetlesen
+    role: Nav
+    image: 
+    info: "Y"
   - name: Faten Lubani
     role: Leder av Globale Sandefjord
     image: /assets/images/speakers/faten-lubani.jpg
@@ -25,6 +29,9 @@ delta:
 stream: true
 location: "Amfiet"
 ---
+
+Hva skjer når offentlige tjenester utvikles med utgangspunkt i forestillingen om et gjennomsnittsmenneske? I denne panelsamtalen utforsker vi hvor ekskludering kan oppstå, hva som skjer når idealer møter praksis, og hvordan offentlige virksomheter kan bevege seg fra minimumskrav til tjenester som bedre rommer mangfoldet i befolkningen.
+
 Panel mellom Oslo Universitetssykehus, Bufdir og Nav. 
-Panelet ledes av Faten Lubani. Mer informasjon kommer.
+Panelet ledes av Faten Lubani. 
 
