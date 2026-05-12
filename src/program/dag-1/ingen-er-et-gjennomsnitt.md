@@ -10,7 +10,7 @@ speakers:
   - name: Audrey Charlotte Chisholm Høibråten
     role: Rådgiver for mangfold og likeverdige helsetjenester i seksjon helsekompetanse, Oslo universitetssykehus
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
-    info: 
+    info: ""
   - name: Yngve Bråten
     role: Seniorrådgiver i avdeling for likestilling og universell utforming i Bufdir
     image: /assets/images/speakers/yngve-braaten.jpg
