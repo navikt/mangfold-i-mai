@@ -10,15 +10,15 @@ speakers:
   - name: Mitra Zarabi
     role: Jurist i Nav
     image: 
-    info: ""
+    info: 
   - name: Ingrid-Anne Willumsen
     role: Personalleder i Nav
     image: 
-    info: ""
+    info: 
   - name: Bård Winther,
     role: Verneombud i Nav
     image: 
-    info: ""
+    info: 
 delta:
   fysisk: https://delta.nav.no/event/7dbc9bd2-8f08-4c09-8734-fd5e978f21f2
   digitalt: https://delta.nav.no/event/8444b409-b4d7-43d1-8cc8-272138a9bcbf

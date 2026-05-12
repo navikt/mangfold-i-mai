@@ -1,6 +1,6 @@
 ---
 title: "Selvbestemmelse versus tilgjengelige tjenester. Hva sier jussen? "
-summary: ""
+summary: 
 
 event-date: 2026-05-21T13:20
 event-date-end: 2026-05-21T13:40

@@ -7,9 +7,9 @@ event-date-end: 2026-05-20T17:00
 event-tags: ['foredrag']
 
 speakers: 
-  - name: ""
-    role: ""
-    info: ""
+  - name: 
+    role: 
+    info: 
     image: 
 delta:
   fysisk: https://delta.nav.no/mim/484b551d-0a81-49f1-b6c7-b9d6be555c96

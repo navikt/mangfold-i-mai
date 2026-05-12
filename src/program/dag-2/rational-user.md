@@ -1,6 +1,6 @@
 ---
 title: "The illusion of the rational user and accessibility testing for real life"
-summary: ""
+summary: 
 
 event-date: 2026-05-21T11:00
 event-date-end: 2026-05-21T11:30
