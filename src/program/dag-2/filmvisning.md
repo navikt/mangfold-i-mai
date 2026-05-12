@@ -4,7 +4,7 @@ summary: "(internt i Nav)"
 
 event-date: 2026-05-21T16:00
 event-date-end: 2026-05-20T17:00
-event-tags: ['foredrag']
+event-tags: ['filmvisning']
 
 speakers: 
   - name: 
