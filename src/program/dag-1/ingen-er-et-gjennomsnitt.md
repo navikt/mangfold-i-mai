@@ -10,14 +10,14 @@ speakers:
   - name: Audrey Charlotte Chisholm Høibråten
     role: Rådgiver for mangfold og likeverdige helsetjenester i seksjon helsekompetanse, Oslo universitetssykehus
     image: /assets/images/speakers/audrey-charlotte-hoibraten.jpg
-    info: ""
+    info: 
   - name: Yngve Bråten
     role: Seniorrådgiver i avdeling for likestilling og universell utforming i Bufdir
     image: /assets/images/speakers/yngve-braaten.jpg
     info: "Yngve er koordinator av Bufdirs team for universell utforming. Yngve er opptatt av å utvikle og formidle informasjon om universell utforming som generell samfunnskvalitet og verktøy for økt likestilling."
   - name: Trond Wetlesen
     role: Avdelingsdirektør i Arbeids- og velferdsdirektoratet / Nav
-    image: 
+    image: /assets/images/speakers/trond-wetlesen.jpg
     info: "Trond leder seksjon for arbeidsgivertjenester i arbeidsavdelingen. Arbeidsavdelingen har ansvaret for alle tjenester som leveres fysisk i Nav-kontoret og digitalt gjennom Nav sine kanaler til personer som står utenfor arbeid og til arbeidsgivere som ønsker å ansette flere personer. Han har videreutdanning innen Supported Employment og blant annet ledet innføring og implementering av store satsninger i Nav for å inkludere flere personer med psykiske og fysiske helseutfordringer inn i arbeidslivet. "
   - name: Faten Lubani
     role: Leder av Globale Sandefjord
