@@ -8,15 +8,15 @@ event-tags: ['Foredrag']
 
 speakers: 
   - name: Mitra Zarabi
-    role: Jurist Arbeids- og velferdsdirektoratet
+    role: Jurist i Arbeids- og velferdsdirektoratet
     image: 
     info: 
   - name: Ingrid-Anne Willumsen
-    role: Personalleder Arbeids- og velferdsdirektoratet
-    image: 
+    role: Personalleder i Arbeids- og velferdsdirektoratet
+    image: /assets/images/speakers/ingrid-anne-willumsen.png
     info: 
   - name: Bård Winther,
-    role: VVerneombud Arbeids- og velferdsdirektoratet
+    role: Verneombud i Arbeids- og velferdsdirektoratet
     image: 
     info: 
 delta:
