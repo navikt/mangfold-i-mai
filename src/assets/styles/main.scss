@@ -454,36 +454,8 @@ body.show-cookie-banner {
     @media (width > 64rem) {
         grid-column: 2;
     }
-    & > a {
-        background-color: var(--purple-dark);
-        inline-size: min(48ch, 100%);
-        corner-shape: squircle;
-        border-radius: 8ch;
-        aspect-ratio: 16 / 10;
-        display: grid;
-        align-content: center;
-        justify-items: center;
-        text-align: center;
-        color: var(--white);
-        text-decoration: none;
-        gap: 1ch;
-
-        &:hover {
-            background-color: var(--blue-dark);
-        }
-
-        span {
-            max-inline-size: 26ch;
-        }
-        svg {
-            background-color: var(--purple);
-            border-radius: 99ch;
-            width: 2.5rem;
-            height:2.5rem;
-            padding:0.5rem;
-
-        }
-
+    a {
+        color: currentColor;
     }
     p:first-of-type {
         margin-block-start: 0;
@@ -492,6 +464,77 @@ body.show-cookie-banner {
         margin-block-end: 0.5lh;
     }
 }
+
+:where(.stream__screen,.stream__subs) {
+    position: relative;
+
+    a {
+        max-inline-size: 26ch;
+
+        &:before {
+            content:"";
+            position: absolute;
+            inset:0;
+        }
+    }
+}
+
+.stream__screen {
+    background-color: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    inline-size: min(48ch, 100%);
+    aspect-ratio: 16 / 10;
+    corner-shape: squircle;
+    padding: 1ch;
+    border-radius: 8ch;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.6;
+    margin-block: 0.375lh;
+    box-shadow: inset 0 0 #0000;
+    transition: box-shadow 200ms ease;
+
+    &:has(a:hover) {
+        box-shadow: inset 0 0 0 3px var(--blue-dark);
+    }
+
+
+     svg {
+        background-color: var(--blue-dark);
+        border-radius: 99ch;
+        width: 2.5rem;
+        height:2.5rem;
+        padding:0.5rem;
+        margin-block-end: 1ch;
+    }
+    small {
+        text-decoration: none !important;
+    }
+}
+
+.stream__subs {
+    background-color: var(--green-dark);
+    inline-size: min(48ch, 100%);
+    border-radius: 99ch;
+    padding: 1.25ch 1ch;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+    color: var(--white);
+    margin-block: 0.375lh;
+    box-shadow: inset 0 0 #0000;
+    transition: box-shadow 200ms ease;
+
+    &:has(a:hover) {
+        box-shadow: inset 0 0 0 3px var(--green-darker);
+    }
+}
+
 .signup {
     margin-block: 1lh 2lh;
 

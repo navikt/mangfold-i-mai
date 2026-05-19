@@ -9,5 +9,6 @@ export default {
   email: 'mangfold.i.mai@nav.no',
   github_repository: 'https://github.com/navikt/mangfold-i-mai/',
   today: DateTime.fromISO(new Date().toISOString()),
-  stream: 'https://vimeo.com/event/5115379/910dd41941',
+  livestream: 'https://vimeo.com/event/5115379/910dd41941',
+  livetext: 'https://text-on-tap.live/#e=mangfoldimai',
 }
