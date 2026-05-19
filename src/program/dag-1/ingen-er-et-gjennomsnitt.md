@@ -1,5 +1,5 @@
 ---
-title: "Panlesamtale: Ingen er et gjennomsnitt"
+title: "Panelsamtale: Ingen er et gjennomsnitt"
 summary: "Hvordan kan vi sikre likeverdige offentlige tjenester?"
 
 event-date: 2026-05-20T13:15
