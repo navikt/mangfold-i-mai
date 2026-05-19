@@ -25,6 +25,6 @@ Han skal fortelle oss hvordan WCAG-krav faktisk hjelper folk med funksjonsnedset
 
 Alt dette, og mer, får du svar på om du trapper opp i Fyrstikkalleen 1 for å møte Offentlig frontends aller første internasjonale gjest.
 
-Påmeldingen skjer gjennom egen lenke: https://forms.gle/RFVV2YjwZLeoqFgs6
+Du kan melde deg på gjennom mangfold.i.mai@nav.no
 
 
