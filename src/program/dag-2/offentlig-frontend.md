@@ -17,7 +17,7 @@ delta:
   digitalt: 
 
 location: "Speakers Corner"
-stream: true
+stream: false
 ---
 Torsdag 21. mai kl. 16 inviterer Offentlig frontend til foredrag med Kevin White fra W3C hos Nav på Helsfyr.
 
