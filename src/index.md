@@ -15,7 +15,19 @@ Bli klokere på hvordan bias påvirker dine beslutninger og hvordan du kan sikre
 ## Hvordan kan jeg bli med?
 Alt skjer i Arbeids- og velferdsdirektoratet lokaler i Oslo. På grunn av begrenset plass kan vi ikke åpne for fysisk deltakelse for alle, men vi strømmer så mye vi kan helt åpent. Der det er mulig, legger vi ut opptak i etterkant. 
 
-<a class="pill-button" href="/program/">Se programmet</a>
+<a class="pill-button" data-variant="huge" href="/program/">Se programmet</a>
+
+## Tilbakemeldinger
+
+Har du tid til å dele dine erfaringer med oss? Det hjelper oss masse! 
+
+<div>
+<a class="rounded-button" href="https://www.survey-xact.no/LinkCollector?key=H2N9PKLQS2C1">Tilbakemeldinger for onsdag 20. mai</a>
+{% comment %}
+<a class="rounded-button" href="https://www.survey-xact.no/LinkCollector?key=RC1EF1JHSN9N">Tilbakemeldinger på dag 2</a>
+{% endcomment %}
+</div>
+
 
 {% comment %}
 <div class="pill-button" data-readonly>
