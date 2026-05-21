@@ -23,9 +23,7 @@ Har du tid til å dele dine erfaringer med oss? Det hjelper oss masse!
 
 <div>
 <a class="rounded-button" href="https://www.survey-xact.no/LinkCollector?key=H2N9PKLQS2C1">Tilbakemeldinger for onsdag 20. mai</a>
-{% comment %}
 <a class="rounded-button" href="https://www.survey-xact.no/LinkCollector?key=RC1EF1JHSN9N">Tilbakemeldinger på dag 2</a>
-{% endcomment %}
 </div>
 
 
