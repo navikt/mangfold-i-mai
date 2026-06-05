@@ -17,14 +17,14 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/is-land": "^5.0.1",
     "html-minifier-terser": "^7.2.0",
     "luxon": "^3.7.2",
-    "markdown-it-attrs": "^4.3.1",
-    "sass": "^1.98.0"
+    "markdown-it-attrs": "^5.0.0",
+    "sass": "^1.100.0"
   },
   "packageManager": "pnpm@10.32.1+sha512.a706938f0e89ac1456b6563eab4edf1d1faf3368d1191fc5c59790e96dc918e4456ab2e67d613de1043d2e8c81f87303e6b40d4ffeca9df15ef1ad567348f2be"
 }
