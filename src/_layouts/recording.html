@@ -4,23 +4,29 @@ permalink: "opptak/{{ page.fileSlug }}-{{ year }}/index.html"
 ---
 
 {% block content %}
-  <h1>Opptak fra «{{ title }}»</h1>
+  <h1>
+    <span>Opptak fra</span> «{{ title }}»
+  </h1>
 
-  <p>{{ event-date | readableDate: 'EEEE d. MMMM yyyy' | capitalize }}</p>
+  <p class="published">Innlegg fra {{ event-date | readableDate: 'EEEE d. MMMM yyyy' }}</p>
+  
+  {{ content }}
 
   {% if youtube %}<a class="pill-button" href="{{ youtube }}">Se opptak på YouTube</a>{% endif %}
   {% if vimeo %}<a class="pill-button" href="{{ vimeo }}">Se opptak på Vimeo</a>{% endif %}
   {% if qbrick %}<a class="pill-button" href="{{ qbrick }}">Se opptak i Qbrick</a>{% endif %}
-  
-  {{ content }}
 
+    
   <h2>Foredragsholder{% if speakers.length > 1 %}e{% endif %}</h2>
-  {% for speaker in speakers %}
-  <p>
-    <b>{{ speaker.name }}</b><br>
-    {{ speaker.role }}
-  </p>
-  {% endfor %}
+
+    <div class="speakers">
+    {% for speaker in speakers %}
+    <p>
+      <b>{{ speaker.name }}</b><br>
+      {{ speaker.role }}
+    </p>
+    {% endfor %}
+  </div>
 
 {% endblock %}
 
