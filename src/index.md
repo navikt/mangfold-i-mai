@@ -6,9 +6,9 @@ title: Mangfold i mai!
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
-Er det noen opptak fra tidligere Mangfold i mai du ønsker å se igjen eller kanskje for første gang? Vi har fylt på med opptak fra 2026, der vi har rettigheter til det. Du finner også opptak fra tidligere år.
+Gikk du glipp av noe i år, eller er det innlegg fra tidligere år du ikke har fått med deg? Vi har fylt på listen med opptak fra 2026.
 
-<a class="rounded-button" href="/opptak/">Se opptak</a>
+<a class="rounded-button" href="/opptak/">Se tidligere opptak</a>
 
  
 
