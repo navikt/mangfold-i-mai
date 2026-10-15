@@ -6,6 +6,7 @@ layout: "default.html"
   <h1>{{ title }}</h1>
   {{ content }}
 
+{% comment %}
   <div class="program">
     {% assign days = collections.days | sort: "data.title" %}
 
@@ -90,6 +91,8 @@ layout: "default.html"
     </div>
     {% endfor %}
   </div>
+{% endcomment %}
+
 {% endblock %}
 
 {% block script %}

@@ -12,3 +12,7 @@ blobs:
   - '/assets/images/blobs/triangle.svg'
 ---
 
+Vi planlegger for neste arrangement. Har du har forslag til tema du mener vi burde ta opp, eller har du tips om noen foredragsholdere som du mener vi burde ta kontakt med? 
+
+Send oss gjerne en e-post til [mangfold.i.mai@nav.no](mailto:mangfold.i.mai@nav.no).
+
