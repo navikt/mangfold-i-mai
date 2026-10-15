@@ -1,15 +1,20 @@
 ---
 layout: "home.html"
-title: Mangfold i mai - velkommen!
+title: Mangfold i mai!
 ---
-# Takk for en kjempefin Mangfold i mai!
+# Mangfold i mai 2026 er ferdig for i år!
 
 <img src="assets/images/blobs/star.svg" class="blob-star" alt="" loading="eager">
 
-Tusen takk til dere som deltok på årets Mangfold i mai! Vi håper dere sitter igjen med inspirasjon og mye god og relevant læring!
+Er det noen opptak fra tidligere Mangfold i mai du ønsker å se igjen eller kanskje for første gang? Vi har fylt på med opptak fra 2026, der vi har rettigheter til det. Du finner også opptak fra tidligere år.
 
-Vi har tatt opptak av mye av programmet, og skal legge ut det vi har lov til å legge ut når vi har fått tekstet :) 
+<a class="rounded-button" href="/opptak/">Se opptak</a>
 
+ 
+
+
+
+{% comment %}
 ## Tilbakemeldinger
 
 Har du tid til å dele dine erfaringer med oss? Det hjelper oss masse! 
@@ -18,9 +23,6 @@ Har du tid til å dele dine erfaringer med oss? Det hjelper oss masse!
 <a class="rounded-button" href="https://www.survey-xact.no/LinkCollector?key=H2N9PKLQS2C1">Tilbakemeldinger for onsdag 20. mai</a>
 <a class="rounded-button" href="https://www.survey-xact.no/LinkCollector?key=RC1EF1JHSN9N">Tilbakemeldinger for torsdag 21. mai</a>
 </div>
-
-
-{% comment %}
 <div class="pill-button" data-readonly>
   <svg class="icon" width="24" height="24" fill="none" viewBox="0 0 24 24">
     <g stroke="currentColor" stroke-linejoin="round" stroke-width="2">
