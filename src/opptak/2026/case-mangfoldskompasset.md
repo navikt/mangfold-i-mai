@@ -26,4 +26,4 @@ Mangfoldskompasset ledes av Bufdir, og er et samarbeid mellom:
 * Integrerings- og mangfoldsdirektoratet (IMDi)
 * KS – Kommunesektorens organisasjon
 
-I tillegg bidrar Helsedirektoratet og Nav som faglige støttespillere. Les mer om prosjektet på [mangfoldskompasset.no](mangfoldskompasset.no).
+I tillegg bidrar Helsedirektoratet og Nav som faglige støttespillere. Les mer om prosjektet på [mangfoldskompasset.no](https://mangfoldskompasset.no).
